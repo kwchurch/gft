@@ -1,0 +1,39 @@
+# There is an incompatibility between transformers and adapters
+# At this point in time, we cannot support both ctc (speech) and adapter models
+# in the same virtual environment
+
+# DO THIS ON ASIMOV-0
+
+python3 -m pip install --user --upgrade pip
+python3 -m pip install --user virtualenv
+python3 -m venv $HOME/venv/gft+adapter
+source $HOME/venv/gft+adapter/bin/activate
+
+module load python/3.7.9
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+
+cd $HOME/gft5/gft
+pip install -r requirements.txt
+
+####
+
+python3 -m pip install --user --upgrade pip
+python3 -m pip install --user virtualenv
+python3 -m venv $HOME/venv/gft-adapter
+
+module load python/3.7.9
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+
+source $HOME/venv/gft-adapter/bin/activate
+pip install --upgrade pip
+cd $HOME/gft5/gft
+pip install -r requirements_without_adapters.txt
+

@@ -1,0 +1,11 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+# multiple choice task
+# not implemented yet
+
+for model in @ukp/distilbert-base-uncased_rc_race_pfeiffer AdapterHub/bert-base-uncased-pf-race AdapterHub/roberta-base-pf-race
+	     do
+data=race
+gft_eval --data H:race --model H:$model --split test 
+done

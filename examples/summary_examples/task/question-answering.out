@@ -1,0 +1,12 @@
+QuestionAnswering	input question and context, and output an answer (a substring of the context); also known as classify_spans, question-answering
+task: QuestionAnswering --> 10 models
+task: QuestionAnswering	model: deepset/roberta-base-squad2	downloads: 1669757	likes: 43	task: question-answering
+task: QuestionAnswering	model: bert-large-uncased-whole-word-masking-finetuned-squad	downloads: 392923	likes: 20	task: question-answering
+task: QuestionAnswering	model: distilbert-base-cased-distilled-squad	downloads: 297186	likes: 11	task: question-answering
+task: QuestionAnswering	model: deepset/bert-large-uncased-whole-word-masking-squad2	downloads: 236737	likes: 5	task: question-answering
+task: QuestionAnswering	model: distilbert-base-uncased-distilled-squad	downloads: 169566	likes: 5	task: question-answering
+task: QuestionAnswering	model: rsvp-ai/bertserini-bert-base-squad	downloads: 97013	likes: 0	task: question-answering
+task: QuestionAnswering	model: deepset/minilm-uncased-squad2	downloads: 63274	likes: 7	task: question-answering
+task: QuestionAnswering	model: deepset/bert-base-cased-squad2	downloads: 61281	likes: 7	task: question-answering
+task: QuestionAnswering	model: dmis-lab/biobert-large-cased-v1.1-squad	downloads: 59362	likes: 2	task: question-answering
+task: QuestionAnswering	model: mrm8488/bert-small-finetuned-squadv2	downloads: 45975	likes: 0	task: question-answering

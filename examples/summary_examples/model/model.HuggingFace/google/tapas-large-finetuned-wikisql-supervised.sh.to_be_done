@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# TapasModel requires the torch-scatter library but it was not found in your environment. You can install it with pip as
+# explained here: https://github.com/rusty1s/pytorch_scatter.
+
+gft_summary --model google/tapas-large-finetuned-wikisql-supervised

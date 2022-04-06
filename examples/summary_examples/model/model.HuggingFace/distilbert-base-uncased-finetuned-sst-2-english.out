@@ -1,0 +1,2 @@
+model: distilbert-base-uncased-finetuned-sst-2-english	model: distilbert-base-uncased-finetuned-sst-2-english	downloads: 4205588	likes: 45	task: text-classification
+model: distilbert-base-uncased-finetuned-sst-2-english	labels: NEGATIVE, POSITIVE

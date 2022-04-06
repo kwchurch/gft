@@ -1,0 +1,10 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+# not sure where the dataset is
+
+for model in AdapterHub/bert-base-uncased-pf-fce_error_detection AdapterHub/roberta-base-pf-fce_error_detection
+	     do
+data=fce_error_detection
+gft_eval --data H:fce_error_detection --model H:AdapterHub/bert-base-uncased-pf-fce_error_detection --split test 
+done

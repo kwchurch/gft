@@ -1,0 +1,6 @@
+hostname = asimov-136.svail.baidu.com
+*** ERROR ***	H:@ukp/bert-base-uncased-boolq_pfeiffer
+*** ERROR ***	H:@ukp/distilbert-base-uncased_qa_boolq_pfeiffer
+*** ERROR ***	H:@ukp/roberta-base-boolq_pfeiffer
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-boolq
+*** ERROR ***	H:AdapterHub/roberta-base-pf-boolq

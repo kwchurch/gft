@@ -1,0 +1,2 @@
+model: Helsinki-NLP/opus-mt-es-en	model: Helsinki-NLP/opus-mt-es-en	downloads: 296626	likes: 6	task: translation
+model: Helsinki-NLP/opus-mt-es-en	labels: LABEL_0, LABEL_1, LABEL_2

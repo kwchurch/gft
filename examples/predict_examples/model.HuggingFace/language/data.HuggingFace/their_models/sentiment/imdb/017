@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one katrin-kc/bert-finetuned-imdb

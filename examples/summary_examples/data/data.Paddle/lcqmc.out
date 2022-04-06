@@ -1,0 +1,3 @@
+dataset: lcqmc	splits: train: 238766 rows, test: 12500 rows, val: 8802 rows
+dataset: lcqmc	split: train	config: Default	cols: query, title, label
+dataset: lcqmc	labels: 0, 1

@@ -1,0 +1,2 @@
+dataset: sighan-cn	splits: train: 10052 rows, dev: 3160 rows, val: 3160 rows, test: 3160 rows
+dataset: sighan-cn	split: train	config: Default	cols: source, target

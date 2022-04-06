@@ -1,0 +1,10 @@
+dataset: quoref	dataset: quoref	downloads: 10324	likes: 0	PWC: https://paperswithcode.com/dataset/quoref
+dataset: quoref	splits: train: 19399 rows, val: 2418 rows
+dataset: quoref	split: train	columns: id, question, context, title, url, answers
+dataset: quoref --> 6 models
+dataset: quoref	model: nielsr/coref-bert-base	downloads: 107	likes: 0	task: None
+dataset: quoref	model: AdapterHub/bert-base-uncased-pf-quoref	downloads: 26	likes: 0	task: question-answering
+dataset: quoref	model: AdapterHub/roberta-base-pf-quoref	downloads: 19	likes: 0	task: question-answering
+dataset: quoref	model: nielsr/coref-roberta-base	downloads: 11	likes: 0	task: None
+dataset: quoref	model: nielsr/coref-bert-large	downloads: 10	likes: 0	task: None
+dataset: quoref	model: nielsr/coref-roberta-large	downloads: 10	likes: 0	task: None

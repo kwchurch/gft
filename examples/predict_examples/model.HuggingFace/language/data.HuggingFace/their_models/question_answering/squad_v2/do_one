@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for model in $*
+	     do
+    echo "MODEL $model"
+
+gft_dataset --data H:squad_v2 --eqn 'classify_spans: answers ~ question + context'  --split val |
+gft_predict --model H:$model --task question-answering
+done

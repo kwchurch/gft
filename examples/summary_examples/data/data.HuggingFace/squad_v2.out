@@ -1,0 +1,14 @@
+dataset: squad_v2	dataset: squad_v2	downloads: 34808	likes: 3	PWC: https://paperswithcode.com/dataset/squad
+dataset: squad_v2,squad_v2	splits: train: 130319 rows, val: 11873 rows
+dataset: squad_v2,squad_v2	split: train	columns: id, title, context, question, answers
+dataset: squad_v2 --> 10 models
+dataset: squad_v2	model: deepset/roberta-base-squad2	downloads: 1669757	likes: 43	task: question-answering
+dataset: squad_v2	model: deepset/minilm-uncased-squad2	downloads: 63274	likes: 7	task: question-answering
+dataset: squad_v2	model: mrm8488/t5-small-finetuned-squadv2	downloads: 23462	likes: 1	task: text2text-generation
+dataset: squad_v2	model: deepset/electra-base-squad2	downloads: 16154	likes: 6	task: question-answering
+dataset: squad_v2	model: deepset/xlm-roberta-large-squad2	downloads: 14831	likes: 13	task: question-answering
+dataset: squad_v2	model: nlpconnect/roberta-base-squad2-nq	downloads: 13771	likes: 1	task: question-answering
+dataset: squad_v2	model: mrm8488/longformer-base-4096-finetuned-squadv2	downloads: 6635	likes: 3	task: question-answering
+dataset: squad_v2	model: deepset/xlm-roberta-base-squad2	downloads: 5906	likes: 7	task: question-answering
+dataset: squad_v2	model: deepset/tinyroberta-squad2	downloads: 1737	likes: 1	task: question-answering
+dataset: squad_v2	model: deepset/roberta-base-squad2-distilled	downloads: 1626	likes: 0	task: question-answering

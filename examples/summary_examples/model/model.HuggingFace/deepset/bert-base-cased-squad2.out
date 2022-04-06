@@ -1,0 +1,2 @@
+model: deepset/bert-base-cased-squad2	model: deepset/bert-base-cased-squad2	downloads: 61281	likes: 7	task: question-answering
+model: deepset/bert-base-cased-squad2	labels: LABEL_0, LABEL_1

@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one ykacer/bert-base-cased-imdb-sequence-classification

@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one madlag/bert-base-uncased-squadv1-x1.96-f88.3-d27-hybrid-filled-opt-v1

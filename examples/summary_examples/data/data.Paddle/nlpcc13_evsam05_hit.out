@@ -1,0 +1,2 @@
+dataset: nlpcc13_evsam05_hit	splits: train: 8301 rows, test: 1233 rows, val: 534 rows
+dataset: nlpcc13_evsam05_hit	split: train	config: Default	cols: ID, FORM, LEMMA, CPOS, POS, FEATS, HEAD, DEPREL

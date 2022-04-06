@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one JaviBJ/sagemaker-distilbert-emotion

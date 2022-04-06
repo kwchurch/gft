@@ -1,0 +1,6 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+model=AdapterHub/bert-base-uncased-pf-quartz
+data=quartz
+gft_eval --data H:quartz --model H:AdapterHub/bert-base-uncased-pf-quartz --split test 

@@ -1,0 +1,7 @@
+dataset: tweets_hate_speech_detection	dataset: tweets_hate_speech_detection	downloads: 1593	likes: 6	
+dataset: tweets_hate_speech_detection	splits: train: 31962 rows
+dataset: tweets_hate_speech_detection	split: train	columns: label, tweet
+dataset: tweets_hate_speech_detection	labels: no-hate-speech, hate-speech
+dataset: tweets_hate_speech_detection --> 2 models
+dataset: tweets_hate_speech_detection	model: Narrativa/byt5-base-tweet-hate-detection	downloads: 17008	likes: 4	task: text2text-generation
+dataset: tweets_hate_speech_detection	model: mrm8488/distilroberta-finetuned-tweets-hate-speech	downloads: 1880	likes: 3	task: text-classification

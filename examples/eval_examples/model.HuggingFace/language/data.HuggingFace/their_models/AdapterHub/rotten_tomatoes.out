@@ -1,0 +1,3 @@
+hostname = asimov-143.svail.baidu.com
+3.21 seconds	AdapterHub/bert-base-uncased-pf-rotten_tomatoes	accuracy: 0.848968105065666	f1: 0.84888499125233
+3.14 seconds	AdapterHub/bert-base-uncased-pf-rotten_tomatoes	accuracy: 0.848968105065666	f1: 0.84888499125233

@@ -1,0 +1,3 @@
+dataset: nlpcc14_sc	splits: train: 10000 rows, test: 2500 rows, val: 2500 rows
+dataset: nlpcc14_sc	split: train	config: Default	cols: text, label, qid
+dataset: nlpcc14_sc	labels: 0, 1

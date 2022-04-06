@@ -1,0 +1,2 @@
+dataset: dureader_qg	splits: train: 14520 rows, dev: 984 rows, val: 984 rows, test: 984 rows
+dataset: dureader_qg	split: dev	config: Default	cols: source, target, title, id

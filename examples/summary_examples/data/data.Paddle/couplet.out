@@ -1,0 +1,2 @@
+dataset: couplet	splits: train: 702594 rows, test: 999 rows, val: 1000 rows
+dataset: couplet	split: train	config: Default	cols: first, second

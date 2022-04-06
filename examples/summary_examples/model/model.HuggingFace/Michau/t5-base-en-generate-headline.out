@@ -1,0 +1,2 @@
+model: Michau/t5-base-en-generate-headline	model: Michau/t5-base-en-generate-headline	downloads: 35709	likes: 11	task: text2text-generation
+model: Michau/t5-base-en-generate-headline	labels: LABEL_0, LABEL_1

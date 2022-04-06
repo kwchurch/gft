@@ -1,0 +1,7 @@
+dataset: hellaswag	dataset: hellaswag	downloads: 13025	likes: 1	PWC: https://paperswithcode.com/dataset/hellaswag
+dataset: hellaswag	splits: train: 39905 rows, test: 10003 rows, val: 10042 rows
+dataset: hellaswag	split: train	columns: ind, activity_label, ctx_a, ctx_b, ctx, endings, source_id, split, split_type, label
+dataset: hellaswag --> 3 models
+dataset: hellaswag	model: AdapterHub/bert-base-uncased-pf-hellaswag	downloads: 14	likes: 0	task: None
+dataset: hellaswag	model: AdapterHub/roberta-base-pf-hellaswag	downloads: 11	likes: 0	task: None
+dataset: hellaswag	model: prajjwal1/roberta_hellaswag	downloads: 7	likes: 0	task: None

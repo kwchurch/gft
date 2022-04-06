@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one transformersbook/distilbert-base-uncased-finetuned-emotion

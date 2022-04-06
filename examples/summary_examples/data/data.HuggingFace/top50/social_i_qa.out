@@ -1,0 +1,6 @@
+dataset: social_i_qa	dataset: social_i_qa	downloads: 8529	likes: 0	PWC: https://paperswithcode.com/dataset/social-iqa
+dataset: social_i_qa	splits: train: 33410 rows, val: 1954 rows
+dataset: social_i_qa	split: train	columns: context, question, answerA, answerB, answerC, label
+dataset: social_i_qa --> 2 models
+dataset: social_i_qa	model: AdapterHub/bert-base-uncased-pf-social_i_qa	downloads: 24	likes: 0	task: None
+dataset: social_i_qa	model: AdapterHub/roberta-base-pf-social_i_qa	downloads: 15	likes: 0	task: None

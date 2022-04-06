@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one nickmuchi/minilm-finetuned-emotion_nm

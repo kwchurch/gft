@@ -1,0 +1,24 @@
+hostname = asimov-26.svail.baidu.com
+160.15 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
+613.12 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
+80.81 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
+162.90 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407
+163.01 seconds	aychang/roberta-base-imdb	accuracy: 0.89312	f1: 0.893051651620635
+81.10 seconds	lvwerra/distilbert-imdb	accuracy: 0.86744	f1: 0.8674283854538782
+191.97 seconds	textattack/albert-base-v2-imdb	accuracy: 0.8924	f1: 0.8923953693853679
+163.31 seconds	ykacer/bert-base-cased-imdb-sequence-classification	accuracy: 0.5	f1: 0.3333333333333333
+162.48 seconds	nateraw/bert-base-uncased-imdb	accuracy: 0.49992	f1: 0.33372387424830385
+164.30 seconds	aypan17/roberta-base-imdb	accuracy: 0.90168	f1: 0.901598834940454
+163.15 seconds	allenai/dsp_roberta_base_tapt_imdb_70000	accuracy: 0.5	f1: 0.3333333333333333
+228.13 seconds	textattack/xlnet-base-cased-imdb	accuracy: 0.89908	f1: 0.899045672136461
+163.17 seconds	Lumos/imdb4	accuracy: 0.8764	f1: 0.8763954307840525
+82.23 seconds	abhishek/autonlp-imdb_sentiment_classification-31154	accuracy: 0.91228	f1: 0.9121132371877745
+161.01 seconds	w11wo/javanese-bert-small-imdb-classifier	accuracy: 0.68344	f1: 0.6801487066503771
+609.34 seconds	yosemite/autonlp-imdb-sentiment-analysis-english-470512388	accuracy: 0.896	f1: 0.8958444906584397
+161.85 seconds	abhishek/autonlp-imdb_eval-71421	accuracy: 0.82288	f1: 0.8209463338540264
+16.97 seconds	lannelin/bert-imdb-1hidden	accuracy: 0.81212	f1: 0.8121194441741637
+81.76 seconds	juliensimon/autonlp-imdb-demo-hf-16622775	accuracy: 0.91256	f1: 0.9125585444145536
+79.32 seconds	Sakil/imdbsentdistilbertmodel	accuracy: 0.91916	f1: 0.9191555729591753
+159.99 seconds	ZiweiG/ziwei-bert-imdb	accuracy: 0.8816	f1: 0.8815981805902822
+161.14 seconds	ZiweiG/ziwei-bertimdb-prob	accuracy: 0.60352	f1: 0.595940637672593
+79.08 seconds	lschneidpro/distilbert_uncased_imdb	accuracy: 0.86928	f1: 0.8692791433077938

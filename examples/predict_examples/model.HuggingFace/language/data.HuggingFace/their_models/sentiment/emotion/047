@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one coldfir3/distilbert-base-uncased-finetuned-emotion

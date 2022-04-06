@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gft_summary --model JorisCos/ConvTasNet_Libri2Mix_sepnoisy_16k

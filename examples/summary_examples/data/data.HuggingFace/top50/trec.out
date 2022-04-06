@@ -1,0 +1,8 @@
+dataset: trec	dataset: trec	downloads: 18565	likes: 3	PWC: https://paperswithcode.com/dataset/trecqa
+dataset: trec	splits: train: 5452 rows, test: 500 rows
+dataset: trec	split: train	columns: label-coarse, label-fine, text
+dataset: trec --> 4 models
+dataset: trec	model: aychang/bert-base-cased-trec-coarse	downloads: 37	likes: 0	task: text-classification
+dataset: trec	model: AdapterHub/bert-base-uncased-pf-trec	downloads: 25	likes: 0	task: text-classification
+dataset: trec	model: aychang/distilbert-base-cased-trec-coarse	downloads: 23	likes: 0	task: text-classification
+dataset: trec	model: AdapterHub/roberta-base-pf-trec	downloads: 14	likes: 0	task: text-classification

@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one Palak/google_electra-base-discriminator_squad

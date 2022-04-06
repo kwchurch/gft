@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one ptnv-s/biobert_squad2_cased-finetuned-squad

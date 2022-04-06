@@ -1,0 +1,6 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+model=AdapterHub/bert-base-uncased-pf-commonsense_qa
+data=commonsense_qa
+gft_eval --data H:commonsense_qa --model H:AdapterHub/bert-base-uncased-pf-commonsense_qa --split test 

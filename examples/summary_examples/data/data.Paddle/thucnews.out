@@ -1,0 +1,3 @@
+dataset: thucnews	splits: train: 50000 rows, test: 10000 rows, val: 5000 rows
+dataset: thucnews	split: train	config: Default	cols: text, label
+dataset: thucnews	labels: 体育, 娱乐, 家居, 房产, 教育, 时尚, 时政, 游戏, 科技, 财经

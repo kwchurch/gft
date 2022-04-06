@@ -1,0 +1,2 @@
+model: superb/wav2vec2-base-superb-ks	model: superb/wav2vec2-base-superb-ks	downloads: 1280	likes: 0	task: audio-classification
+model: superb/wav2vec2-base-superb-ks	labels: _silence_, _unknown_, down, go, left, no, off, on, right, stop, up, yes

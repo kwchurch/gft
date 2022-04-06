@@ -1,0 +1,3 @@
+dataset: paws-x	splits: train: 49129 rows, test: 2000 rows, val: 2000 rows
+dataset: paws-x	split: train	config: Default	cols: sentence1, sentence2, label
+dataset: paws-x	labels: 0, 1

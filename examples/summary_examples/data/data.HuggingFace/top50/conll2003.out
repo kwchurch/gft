@@ -1,0 +1,14 @@
+dataset: conll2003	dataset: conll2003	downloads: 23562	likes: 12	PWC: https://paperswithcode.com/dataset/conll-2003
+dataset: conll2003,conll2003	splits: train: 14042 rows, test: 3454 rows, val: 3251 rows
+dataset: conll2003,conll2003	split: train	columns: id, tokens, pos_tags, chunk_tags, ner_tags
+dataset: conll2003 --> 10 models
+dataset: conll2003	model: dslim/bert-base-NER	downloads: 326891	likes: 39	task: token-classification
+dataset: conll2003	model: Jean-Baptiste/roberta-large-ner-english	downloads: 204029	likes: 2	task: token-classification
+dataset: conll2003	model: flair/ner-english-large	downloads: 91462	likes: 7	task: token-classification
+dataset: conll2003	model: flair/ner-english-fast	downloads: 53201	likes: 3	task: token-classification
+dataset: conll2003	model: flair/ner-english	downloads: 53117	likes: 4	task: token-classification
+dataset: conll2003	model: flair/ner-german-large	downloads: 45542	likes: 3	task: token-classification
+dataset: conll2003	model: flair/ner-german	downloads: 29108	likes: 1	task: token-classification
+dataset: conll2003	model: elastic/distilbert-base-uncased-finetuned-conll03-english	downloads: 23981	likes: 2	task: token-classification
+dataset: conll2003	model: elastic/distilbert-base-cased-finetuned-conll03-english	downloads: 6453	likes: 4	task: token-classification
+dataset: conll2003	model: flair/ner-spanish-large	downloads: 5886	likes: 0	task: token-classification

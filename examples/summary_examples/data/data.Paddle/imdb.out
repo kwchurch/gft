@@ -1,0 +1,3 @@
+dataset: imdb	splits: train: 25000 rows, test: 25000 rows, val: 25000 rows
+dataset: imdb	split: train	config: Default	cols: text, label
+dataset: imdb	labels: 0, 1

@@ -1,0 +1,3 @@
+hostname = asimov-120.svail.baidu.com
+1.78 seconds	AdapterHub/bert-base-uncased-pf-cola	matthews_correlation: 0.6217844861323459
+1.82 seconds	AdapterHub/bert-base-uncased-pf-cola	matthews_correlation: 0.6217844861323459

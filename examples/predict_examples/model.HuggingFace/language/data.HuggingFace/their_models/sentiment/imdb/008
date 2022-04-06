@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one artemis13fowl/distilbert-base-uncased-finetuned-imdb

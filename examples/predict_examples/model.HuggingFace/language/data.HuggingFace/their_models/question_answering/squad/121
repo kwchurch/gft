@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one avioo1/distilbert-base-uncased-finetuned-squad

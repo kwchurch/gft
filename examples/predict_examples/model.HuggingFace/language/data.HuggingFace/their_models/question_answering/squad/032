@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one Palak/microsoft_deberta-large_squad

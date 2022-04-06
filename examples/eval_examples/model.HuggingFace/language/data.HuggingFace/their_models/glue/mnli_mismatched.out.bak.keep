@@ -1,0 +1,31 @@
+hostname = asimov-126.svail.baidu.com
+*** ERROR ***	facebook/bart-large-mnli
+145.57 seconds	roberta-large-mnli	accuracy: 0.28315703824247357
+*** ERROR ***	typeform/distilbert-base-uncased-mnli
+*** ERROR ***	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli
+*** ERROR ***	valhalla/distilbart-mnli-12-1
+*** ERROR ***	Narsil/deberta-large-mnli-zero-cls
+*** ERROR ***	valhalla/distilbart-mnli-12-6
+47.34 seconds	textattack/roberta-base-MNLI	accuracy: 0.2844792514239219
+*** ERROR ***	microsoft/deberta-large-mnli
+*** ERROR ***	microsoft/deberta-xlarge-mnli
+145.37 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8997152156224573
+*** ERROR ***	valhalla/distilbart-mnli-12-3
+*** ERROR ***	joeddav/bart-large-mnli-yahoo-answers
+*** ERROR ***	typeform/mobilebert-uncased-mnli
+47.19 seconds	textattack/bert-base-uncased-MNLI	accuracy: 0.07211147274206672
+*** ERROR ***	valhalla/distilbart-mnli-12-9
+*** ERROR ***	MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli
+24.64 seconds	prajjwal1/bert-medium-mnli	accuracy: 0.10933685923515053
+55.52 seconds	microsoft/deberta-base-mnli	accuracy: 0.2877339300244101
+*** ERROR ***	NbAiLab/nb-bert-base-mnli
+*** ERROR ***	MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary
+*** ERROR ***	alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli
+53.33 seconds	prajjwal1/albert-base-v2-mnli	accuracy: 0.0661106590724166
+*** ERROR ***	symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli
+63.36 seconds	textattack/xlnet-base-cased-MNLI	accuracy: 0.06316110659072417
+*** ERROR ***	typeform/roberta-large-mnli
+*** ERROR ***	microsoft/deberta-v2-xlarge-mnli
+*** ERROR ***	ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli
+*** ERROR ***	microsoft/deberta-v2-xxlarge-mnli
+6.29 seconds	prajjwal1/bert-mini-mnli	accuracy: 0.1482912937347437

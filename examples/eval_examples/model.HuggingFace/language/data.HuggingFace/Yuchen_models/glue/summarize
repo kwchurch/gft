@@ -1,0 +1,11 @@
+#!/bin/sh
+
+for task in mrpc  qnli  rte  sst2  stsb
+do
+cut -f2 $task.out | python lookup_accuracy.py | cut -f2 | paste - $task.out |
+ awk 'function near(a,b) {d = a-b; if(d < 0) d *=-1; return(d < 1e-5)}
+      NR == 1 || /ERROR/ {next}; 
+      $1 == $NF || $1 == $(NF-2) || near($1,$NF) || near($1, $(NF-2)) {good++; next}; {bad++}; 
+      END {print task, "good =", good+0, "bad =", bad+0}' task=$task
+      done
+      

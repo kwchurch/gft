@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one bigwiz83/sapbert-from-pubmedbert-squad2

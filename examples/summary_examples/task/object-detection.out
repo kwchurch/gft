@@ -1,0 +1,12 @@
+# found: 16 matches; truncating to 10
+task: object-detection --> 10 models
+task: object-detection	model: facebook/detr-resnet-50	downloads: 20419	likes: 29	task: object-detection
+task: object-detection	model: mishig/tiny-detr-mobilenetsv3	downloads: 2328	likes: 0	task: object-detection
+task: object-detection	model: TahaDouaji/detr-doc-table-detection	downloads: 1642	likes: 2	task: object-detection
+task: object-detection	model: facebook/detr-resnet-101	downloads: 884	likes: 0	task: object-detection
+task: object-detection	model: facebook/detr-resnet-50-dc5	downloads: 786	likes: 0	task: object-detection
+task: object-detection	model: facebook/detr-resnet-101-dc5	downloads: 480	likes: 1	task: object-detection
+task: object-detection	model: mindee/fasterrcnn_mobilenet_v3_large_fpn	downloads: 389	likes: 2	task: object-detection
+task: object-detection	model: davanstrien/detr_beyond_words	downloads: 107	likes: 0	task: object-detection
+task: object-detection	model: nateraw/hot-dog	downloads: 43	likes: 0	task: object-detection
+task: object-detection	model: nielsr/detr-resnet-50-new	downloads: 22	likes: 0	task: object-detection

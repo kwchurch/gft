@@ -1,0 +1,2 @@
+model: facebook/m2m100_418M	model: facebook/m2m100_418M	downloads: 376773	likes: 13	task: text2text-generation
+model: facebook/m2m100_418M	labels: LABEL_0, LABEL_1

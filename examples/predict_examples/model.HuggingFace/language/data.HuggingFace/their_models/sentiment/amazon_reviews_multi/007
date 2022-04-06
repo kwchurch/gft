@@ -1,0 +1,2 @@
+#!/bin/sh
+$amazon_reviews_multi/do_one csalamea/roberta-base-bne-finetuned-amazon_reviews_multi

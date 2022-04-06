@@ -1,0 +1,12 @@
+Translation	input text in one language and output a text in another language; also known as MT (machine translation)
+task: Translation --> 10 models
+task: Translation	model: Helsinki-NLP/opus-mt-zh-en	downloads: 8646771	likes: 22	task: translation
+task: Translation	model: t5-base	downloads: 1734621	likes: 36	task: translation
+task: Translation	model: t5-small	downloads: 1459206	likes: 9	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-en-de	downloads: 447000	likes: 4	task: translation
+task: Translation	model: t5-large	downloads: 342852	likes: 12	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-es-en	downloads: 296626	likes: 6	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-en-ROMANCE	downloads: 270696	likes: 2	task: translation
+task: Translation	model: t5-3b	downloads: 209252	likes: 1	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-fr-en	downloads: 139980	likes: 2	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-ru-en	downloads: 107940	likes: 3	task: translation

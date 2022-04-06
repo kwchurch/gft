@@ -1,0 +1,2 @@
+model: allegro/herbert-base-cased	model: allegro/herbert-base-cased	downloads: 144000	likes: 3	task: feature-extraction
+model: allegro/herbert-base-cased	labels: LABEL_0, LABEL_1

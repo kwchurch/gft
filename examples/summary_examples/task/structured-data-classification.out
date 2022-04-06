@@ -1,0 +1,6 @@
+task: structured-data-classification --> 5 models
+task: structured-data-classification	model: scikit-learn-examples/example	downloads: 129	likes: 0	task: structured-data-classification
+task: structured-data-classification	model: julien-c/wine-quality	downloads: 22	likes: 1	task: structured-data-classification
+task: structured-data-classification	model: risingodegua/wine-quality-model	downloads: 10	likes: 1	task: structured-data-classification
+task: structured-data-classification	model: keras-io/TF_Decision_Trees	downloads: 5	likes: 1	task: structured-data-classification
+task: structured-data-classification	model: templates/structured-data-classification	downloads: 0	likes: 2	task: structured-data-classification

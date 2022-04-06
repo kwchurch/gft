@@ -1,0 +1,12 @@
+dataset: paws	dataset: paws	downloads: 12357	likes: 3	PWC: https://paperswithcode.com/dataset/paws
+dataset: paws,labeled_final	splits: train: 49401 rows, test: 8000 rows, val: 8000 rows
+dataset: paws,labeled_final	split: train	columns: id, sentence1, sentence2, label
+dataset: paws,labeled_final	labels: 0, 1
+dataset: paws,labeled_swap	splits: train: 30397 rows
+dataset: paws,labeled_swap	split: train	columns: id, sentence1, sentence2, label
+dataset: paws,labeled_swap	labels: 0, 1
+dataset: paws,unlabeled_final	splits: train: 645652 rows, val: 10000 rows
+dataset: paws,unlabeled_final	split: train	columns: id, sentence1, sentence2, label
+dataset: paws,unlabeled_final	labels: 0, 1
+dataset: paws --> 1 models
+dataset: paws	model: eugenesiow/bart-paraphrase	downloads: 2089	likes: 2	task: text2text-generation

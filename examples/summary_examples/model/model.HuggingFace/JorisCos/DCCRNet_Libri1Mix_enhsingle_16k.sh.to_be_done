@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gft_summary --model JorisCos/DCCRNet_Libri1Mix_enhsingle_16k

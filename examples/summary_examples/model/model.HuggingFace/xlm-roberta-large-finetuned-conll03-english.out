@@ -1,0 +1,2 @@
+model: xlm-roberta-large-finetuned-conll03-english	model: xlm-roberta-large-finetuned-conll03-english	downloads: 4673320	likes: 13	task: token-classification
+model: xlm-roberta-large-finetuned-conll03-english	labels: B-LOC, B-MISC, B-ORG, I-LOC, I-MISC, I-ORG, I-PER, O

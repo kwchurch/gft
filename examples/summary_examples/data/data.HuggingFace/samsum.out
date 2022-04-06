@@ -1,0 +1,14 @@
+dataset: samsum	dataset: samsum	downloads: 12680	likes: 8	PWC: https://paperswithcode.com/dataset/samsum-corpus
+dataset: samsum,samsum	splits: train: 14732 rows, test: 819 rows, val: 818 rows
+dataset: samsum,samsum	split: train	columns: id, dialogue, summary
+dataset: samsum --> 10 models
+dataset: samsum	model: philschmid/bart-large-cnn-samsum	downloads: 59589	likes: 7	task: summarization
+dataset: samsum	model: lidiya/bart-large-xsum-samsum	downloads: 10027	likes: 6	task: summarization
+dataset: samsum	model: philschmid/distilbart-cnn-12-6-samsum	downloads: 4855	likes: 2	task: summarization
+dataset: samsum	model: slauw87/bart_summarisation	downloads: 2611	likes: 0	task: summarization
+dataset: samsum	model: philschmid/bart-base-samsum	downloads: 1392	likes: 1	task: summarization
+dataset: samsum	model: linydub/bart-large-samsum	downloads: 1174	likes: 6	task: summarization
+dataset: samsum	model: transformersbook/pegasus-samsum	downloads: 340	likes: 0	task: text2text-generation
+dataset: samsum	model: henryu-lin/t5-large-samsum-deepspeed	downloads: 230	likes: 1	task: summarization
+dataset: samsum	model: lidiya/bart-base-samsum	downloads: 120	likes: 1	task: summarization
+dataset: samsum	model: lvwerra/pegasus-samsum	downloads: 100	likes: 0	task: text2text-generation

@@ -1,0 +1,2 @@
+dataset: poetry	splits: train: 294598 rows, test: 364 rows, val: 995 rows
+dataset: poetry	split: train	config: Default	cols: tokens, labels

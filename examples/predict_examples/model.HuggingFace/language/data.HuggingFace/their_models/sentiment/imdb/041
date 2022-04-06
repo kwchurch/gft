@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one michalwilk123/distilbert-imdb-negative

@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one milyiyo/minilm-finetuned-emotion

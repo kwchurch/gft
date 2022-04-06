@@ -1,0 +1,4 @@
+dataset: squad	splits: train_v1: 87599 rows, dev_v1: 10570 rows, train: 87599 rows, val: 10570 rows, test: 10570 rows
+dataset: squad	split: train	config: Default	cols: id, title, context, question, answers, answer_starts, is_impossible
+dataset: squad	splits: train_v2: 130319 rows, dev_v2: 11873 rows, train: 130319 rows, val: 11873 rows, test: 11873 rows
+dataset: squad	split: train	config: Default	cols: id, title, context, question, answers, answer_starts, is_impossible

@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one salti/bert-base-multilingual-cased-finetuned-squad

@@ -1,0 +1,4 @@
+hostname = asimov-27.svail.baidu.com
+*** ERROR ***	H:ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli
+*** ERROR ***	H:AdapterHub/roberta-base-pf-snli
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-snli

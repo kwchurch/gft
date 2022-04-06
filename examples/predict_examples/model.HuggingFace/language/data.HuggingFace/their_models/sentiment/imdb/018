@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one KrishParikh/gpt2_imdb_movie_plots

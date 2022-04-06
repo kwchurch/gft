@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one lewtun/distilbert-base-uncased-finetuned-emotion-test-01

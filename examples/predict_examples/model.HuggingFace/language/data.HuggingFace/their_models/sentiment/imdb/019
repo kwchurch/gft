@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one kyo/distilbert-base-uncased-finetuned-imdb

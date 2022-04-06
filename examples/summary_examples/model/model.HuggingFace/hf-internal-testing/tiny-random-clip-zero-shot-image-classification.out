@@ -1,0 +1,2 @@
+model: hf-internal-testing/tiny-random-clip-zero-shot-image-classification	model: hf-internal-testing/tiny-random-clip-zero-shot-image-classification	downloads: 3085	likes: 0	task: zero-shot-image-classification
+model: hf-internal-testing/tiny-random-clip-zero-shot-image-classification	labels: LABEL_0, LABEL_1

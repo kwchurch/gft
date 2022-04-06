@@ -1,0 +1,9 @@
+hostname = asimov-124.svail.baidu.com
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['section_id', 'query_id', 'passage', 'question', 'answers_spans']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-drop
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['section_id', 'query_id', 'passage', 'question', 'answers_spans']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-drop

@@ -1,0 +1,15 @@
+dataset: snli	dataset: snli	downloads: 12361	likes: 5	PWC: https://paperswithcode.com/dataset/snli
+dataset: snli,plain_text	splits: test: 10000 rows, train: 550152 rows, val: 10000 rows
+dataset: snli,plain_text	split: train	columns: premise, hypothesis, label
+dataset: snli,plain_text	labels: entailment, neutral, contradiction
+dataset: snli --> 10 models
+dataset: snli	model: cross-encoder/nli-distilroberta-base	downloads: 71557	likes: 8	task: zero-shot-classification
+dataset: snli	model: ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	downloads: 23322	likes: 2	task: text-classification
+dataset: snli	model: cross-encoder/nli-roberta-base	downloads: 3098	likes: 2	task: zero-shot-classification
+dataset: snli	model: cross-encoder/nli-deberta-v3-base	downloads: 1962	likes: 3	task: zero-shot-classification
+dataset: snli	model: cross-encoder/nli-deberta-v3-large	downloads: 814	likes: 2	task: zero-shot-classification
+dataset: snli	model: cross-encoder/nli-deberta-v3-small	downloads: 796	likes: 0	task: zero-shot-classification
+dataset: snli	model: cross-encoder/nli-deberta-base	downloads: 771	likes: 2	task: zero-shot-classification
+dataset: snli	model: cross-encoder/nli-MiniLM2-L6-H768	downloads: 616	likes: 0	task: zero-shot-classification
+dataset: snli	model: persiannlp/mt5-base-parsinlu-snli-entailment	downloads: 189	likes: 0	task: text2text-generation
+dataset: snli	model: cross-encoder/nli-deberta-v3-xsmall	downloads: 151	likes: 1	task: zero-shot-classification

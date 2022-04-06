@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one Sonny/distilbert-base-uncased-finetuned-squad-d5716d28

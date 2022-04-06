@@ -1,0 +1,3 @@
+dataset: peoples_daily_ner	splits: train: 20864 rows, test: 4636 rows, val: 2318 rows
+dataset: peoples_daily_ner	split: train	config: Default	cols: tokens, labels
+dataset: peoples_daily_ner	labels: B-PER, I-PER, B-ORG, I-ORG, B-LOC, I-LOC, O

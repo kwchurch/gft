@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one pierreguillou/bert-large-cased-squad-v1.1-portuguese

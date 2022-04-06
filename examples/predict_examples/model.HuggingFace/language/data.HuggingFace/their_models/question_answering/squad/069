@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one hankzhong/electra-small-discriminator-finetuned-squad

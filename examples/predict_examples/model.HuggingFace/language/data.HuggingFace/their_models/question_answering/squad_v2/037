@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one hogger32/distilbert-base-uncased-finetuned-squad

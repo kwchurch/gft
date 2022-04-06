@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one PremalMatalia/electra-base-best-squad2

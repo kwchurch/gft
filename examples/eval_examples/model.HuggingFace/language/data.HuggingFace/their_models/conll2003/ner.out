@@ -1,0 +1,12 @@
+hostname = asimov-86.svail.baidu.com
+*** ERROR ***	H:xlm-roberta-large-finetuned-conll03-english
+*** ERROR ***	H:dbmdz/bert-large-cased-finetuned-conll03-english
+*** ERROR ***	H:sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english
+*** ERROR ***	H:elastic/distilbert-base-uncased-finetuned-conll03-english
+*** ERROR ***	H:xlm-roberta-large-finetuned-conll03-german
+*** ERROR ***	H:dbmdz/electra-large-discriminator-finetuned-conll03-english
+*** ERROR ***	H:elastic/distilbert-base-cased-finetuned-conll03-english
+*** ERROR ***	H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class
+*** ERROR ***	H:philschmid/distilroberta-base-ner-conll2003
+*** ERROR ***	H:bertin-project/bertin-base-ner-conll2002-es
+*** ERROR ***	H:wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner

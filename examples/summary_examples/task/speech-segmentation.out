@@ -1,0 +1,2 @@
+task: speech-segmentation --> 1 models
+task: speech-segmentation	model: osanseviero/hubert-sd	downloads: 0	likes: 0	task: speech-segmentation

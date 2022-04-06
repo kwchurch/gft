@@ -1,0 +1,10 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+# multiple choice
+
+for model in AdapterHub/bert-base-uncased-pf-cosmos_qa AdapterHub/roberta-base-pf-cosmos_qa
+	     do
+data=cosmos_qa
+gft_eval --data H:cosmos_qa --model H:AdapterHub/bert-base-uncased-pf-cosmos_qa --split test 
+done

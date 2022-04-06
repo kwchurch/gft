@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one aodiniz/bert_uncased_L-10_H-512_A-8_cord19-200616_squad2

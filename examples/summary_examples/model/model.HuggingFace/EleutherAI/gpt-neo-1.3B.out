@@ -1,0 +1,2 @@
+model: EleutherAI/gpt-neo-1.3B	model: EleutherAI/gpt-neo-1.3B	downloads: 78572	likes: 28	task: text-generation
+model: EleutherAI/gpt-neo-1.3B	labels: LABEL_0, LABEL_1

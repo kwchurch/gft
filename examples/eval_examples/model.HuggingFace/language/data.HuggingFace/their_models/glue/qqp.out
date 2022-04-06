@@ -1,0 +1,31 @@
+hostname = asimov-84.svail.baidu.com
+134.83 seconds	textattack/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
+71.18 seconds	assemblyai/distilbert-base-uncased-qqp	accuracy: 0.8992579767499381	f1: 0.8653598228157748
+134.39 seconds	yoshitomo-matsubara/bert-base-uncased-qqp	accuracy: 0.9094731634924561	f1: 0.8783244680851064
+393.74 seconds	howey/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
+137.20 seconds	gchhablani/bert-base-cased-finetuned-qqp	accuracy: 0.9083848627256987	f1: 0.8767633750332712
+137.43 seconds	A-bhimany-u08/bert-base-cased-qqp	accuracy: 0.8907741775908978	f1: 0.8532987841339447
+71.80 seconds	textattack/distilbert-base-cased-QQP	accuracy: 0.8974771209497897	f1: 0.8627437994635584
+156.81 seconds	textattack/albert-base-v2-QQP	accuracy: 0.9073460301756122	f1: 0.8746402516565156
+*** ERROR ***	H:brandontanzhirong/paraphrasing-tool_t5-finetuned-QQP
+117.22 seconds	echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	accuracy: 0.9097947069008162	f1: 0.8787364921030757
+70.32 seconds	textattack/distilbert-base-uncased-QQP	accuracy: 0.5338609943111551	f1: 0.5966008818870672
+171.30 seconds	textattack/xlnet-base-cased-QQP	accuracy: 0.9066287410338857	f1: 0.8742127886441637
+134.27 seconds	howey/bert-base-uncased-qqp	accuracy: 0.9108830076675736	f1: 0.8800878623489866
+502.88 seconds	textattack/xlnet-large-cased-QQP	accuracy: 0.6318327974276527	f1: 0.0
+134.01 seconds	yoshitomo-matsubara/bert-base-uncased-qqp_from_bert-large-uncased-qqp	accuracy: 0.9132822161761068	f1: 0.8831255417027802
+394.90 seconds	Maelstrom77/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
+393.13 seconds	yoshitomo-matsubara/bert-large-uncased-qqp	accuracy: 0.9107346030175613	f1: 0.8807533454485379
+155.80 seconds	Alireza1044/albert-base-v2-qqp	accuracy: 0.9049715557754143	f1: 0.8722569490623753
+137.08 seconds	AnonARR/qqp-bert	accuracy: 0.9069502844422459	f1: 0.874858625507285
+133.77 seconds	Maelstrom77/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
+133.23 seconds	TehranNLP-org/roberta-base-qqp-2e-5-42	accuracy: 0.9159040316596587	f1: 0.8880252931102622
+*** ERROR ***	H:persiannlp/mt5-base-parsinlu-qqp-query-paraphrasing
+33.27 seconds	M-FAC/bert-mini-finetuned-qqp	accuracy: 0.8703190699975266	f1: 0.8298445461331256
+23.49 seconds	M-FAC/bert-tiny-finetuned-qqp	accuracy: 0.8440267128370023	f1: 0.7984273110855389
+132.74 seconds	TehranNLP-org/bert-base-uncased-qqp-2e-5-42	accuracy: 0.9125154588177096	f1: 0.8823470711505838
+445.92 seconds	anirudh21/albert-large-v2-finetuned-qqp	accuracy: 0.8959930744496661	f1: 0.85981931526486
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-qqp
+136.76 seconds	zyl1024/bert-base-cased-finetuned-qqp	accuracy: 0.9069502844422459	f1: 0.874858625507285
+*** ERROR ***	H:persiannlp/mt5-small-parsinlu-qqp-query-paraphrasing
+168.74 seconds	jkgrad/xlnet-base-cased-qqp	accuracy: 0.9122186495176848	f1: 0.8817827520735485

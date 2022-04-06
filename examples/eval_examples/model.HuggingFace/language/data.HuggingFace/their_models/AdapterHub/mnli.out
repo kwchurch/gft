@@ -1,0 +1,9 @@
+hostname = asimov-148.svail.baidu.com
+task = mnli_matched
+28.63 seconds	AdapterHub/bert-base-uncased-pf-mnli	accuracy: 0.8419765664798777
+task = mnli_mismatched
+29.60 seconds	AdapterHub/bert-base-uncased-pf-mnli	accuracy: 0.8471318144833198
+task = mnli_matched
+28.65 seconds	AdapterHub/roberta-base-pf-mnli	accuracy: 0.8749872643912379
+task = mnli_mismatched
+29.37 seconds	AdapterHub/roberta-base-pf-mnli	accuracy: 0.8736777868185517

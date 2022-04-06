@@ -1,0 +1,2 @@
+model: roberta-large-mnli	model: roberta-large-mnli	downloads: 1694330	likes: 14	task: text-classification
+model: roberta-large-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT

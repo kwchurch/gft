@@ -1,0 +1,13 @@
+dataset: tab_fact	dataset: tab_fact	downloads: 4490	likes: 0	PWC: https://paperswithcode.com/dataset/tabfact
+dataset: tab_fact,tab_fact	splits: train: 92283 rows, test: 12779 rows, val: 12792 rows
+dataset: tab_fact,tab_fact	split: train	columns: id, table_id, table_text, table_caption, statement, label
+dataset: tab_fact,tab_fact	labels: refuted, entailed
+dataset: tab_fact,blind_test	splits: test: 9750 rows
+dataset: tab_fact --> 7 models
+dataset: tab_fact	model: google/tapas-large-finetuned-tabfact	downloads: 549	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-base-finetuned-tabfact	downloads: 464	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-tiny-finetuned-tabfact	downloads: 58	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-mini-finetuned-tabfact	downloads: 29	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-small-finetuned-tabfact	downloads: 24	likes: 0	task: text-classification
+dataset: tab_fact	model: nielsr/tapex-large-finetuned-tabfact	downloads: 12	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-medium-finetuned-tabfact	downloads: 5	likes: 0	task: text-classification

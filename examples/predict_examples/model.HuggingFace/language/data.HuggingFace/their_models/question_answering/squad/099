@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one rpv/distilbert-base-uncased-finetuned-squad

@@ -1,0 +1,30 @@
+hostname = asimov-84.svail.baidu.com
+26.72 seconds	cross-encoder/qnli-electra-base	accuracy: 0.4946000366099213
+28.94 seconds	textattack/bert-base-uncased-QNLI	accuracy: 0.9154310818231741
+25.68 seconds	textattack/roberta-base-QNLI	accuracy: 0.9267801574226615
+14.99 seconds	cross-encoder/qnli-distilroberta-base	accuracy: 0.4946000366099213
+82.71 seconds	howey/roberta-large-qnli	accuracy: 0.9469156141314297
+83.49 seconds	howey/electra-large-qnli	accuracy: 0.9505766062602965
+13.48 seconds	textattack/distilbert-base-uncased-QNLI	accuracy: 0.8848617975471352
+26.38 seconds	gchhablani/bert-base-cased-finetuned-qnli	accuracy: 0.9099395936298736
+27.39 seconds	mervenoyan/PubMedBERT-QNLI	accuracy: 0.9068277503203368
+33.03 seconds	savasy/bert-turkish-uncased-qnli	accuracy: 0.5116236500091524
+25.63 seconds	yoshitomo-matsubara/bert-base-uncased-qnli	accuracy: 0.9157971810360608
+25.51 seconds	yoshitomo-matsubara/bert-base-uncased-qnli_from_bert-large-uncased-qnli	accuracy: 0.9178107267069375
+25.52 seconds	howey/bert-base-uncased-qnli	accuracy: 0.9167124290682775
+34.42 seconds	textattack/xlnet-base-cased-QNLI	accuracy: 0.9181768259198243
+83.77 seconds	yoshitomo-matsubara/bert-large-uncased-qnli	accuracy: 0.9223869668680212
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-qnli
+30.24 seconds	Alireza1044/albert-base-v2-qnli	accuracy: 0.9137836353651839
+30.29 seconds	anirudh21/albert-base-v2-finetuned-qnli	accuracy: 0.9114039904814205
+*** ERROR ***	H:textattack/facebook-bart-large-QNLI
+3.36 seconds	M-FAC/bert-tiny-finetuned-qnli	accuracy: 0.8156690463115505
+*** ERROR ***	H:mrm8488/bert-uncased-finetuned-qnli
+25.51 seconds	Li/bert-base-uncased-qnli	accuracy: 0.9134175361522973
+11.08 seconds	bioformers/bioformer-cased-v1.0-qnli	accuracy: 0.8830313014827018
+20.05 seconds	mrm8488/deberta-v3-small-finetuned-qnli	accuracy: 0.9150649826102873
+4.74 seconds	M-FAC/bert-mini-finetuned-qnli	accuracy: 0.8390993959362988
+25.39 seconds	anirudh21/bert-base-uncased-finetuned-qnli	accuracy: 0.791689547867472
+96.26 seconds	anirudh21/albert-large-v2-finetuned-qnli	accuracy: 0.9187259747391543
+13.38 seconds	anirudh21/distilbert-base-uncased-finetuned-qnli	accuracy: 0.5912502288120081
+25.59 seconds	navteca/qnli-electra-base	accuracy: 0.4946000366099213

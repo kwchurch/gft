@@ -1,0 +1,17 @@
+dataset: winogrande	dataset: winogrande	downloads: 13430	likes: 1	PWC: https://paperswithcode.com/dataset/winogrande
+dataset: winogrande,winogrande_xs	splits: train: 160 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_xs	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_s	splits: train: 640 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_s	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_m	splits: train: 2558 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_m	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_l	splits: train: 10234 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_l	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_xl	splits: train: 40398 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_xl	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_debiased	splits: train: 9248 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_debiased	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande --> 3 models
+dataset: winogrande	model: DeepPavlov/roberta-large-winogrande	downloads: 33	likes: 0	task: text-classification
+dataset: winogrande	model: AdapterHub/bert-base-uncased-pf-winogrande	downloads: 21	likes: 0	task: None
+dataset: winogrande	model: AdapterHub/roberta-base-pf-winogrande	downloads: 9	likes: 0	task: None

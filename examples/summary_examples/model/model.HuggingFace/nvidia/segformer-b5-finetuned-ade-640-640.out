@@ -1,0 +1,2 @@
+model: nvidia/segformer-b5-finetuned-ade-640-640	model: nvidia/segformer-b5-finetuned-ade-640-640	downloads: 1322	likes: 2	task: image-segmentation
+model: nvidia/segformer-b5-finetuned-ade-640-640	labels: NA

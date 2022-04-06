@@ -1,0 +1,3 @@
+hostname = asimov-121.svail.baidu.com
+170.28 seconds	AdapterHub/bert-base-uncased-pf-imdb	accuracy: 0.88144	f1: 0.8814359563021512
+169.84 seconds	AdapterHub/roberta-base-pf-imdb	accuracy: 0.90956	f1: 0.9095188724911475

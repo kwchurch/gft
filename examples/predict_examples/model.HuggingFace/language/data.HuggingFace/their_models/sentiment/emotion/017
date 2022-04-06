@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one Jorgeutd/sagemaker-roberta-base-emotion

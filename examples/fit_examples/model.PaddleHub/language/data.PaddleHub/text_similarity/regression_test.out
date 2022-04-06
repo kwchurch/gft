@@ -1,0 +1,33 @@
+
+AutoModel
+
+AutoModel	ernie-1.0	True
+AutoModel	ernie-2.0-en-finetuned-squad	True
+AutoModel	ernie-2.0-en	True
+AutoModel	ernie-2.0-large-en	True
+AutoModel	ernie-doc-base-en	True
+AutoModel	ernie-doc-base-zh	True
+AutoModel	ernie-gen-base-en	True
+AutoModel	ernie-gen-large-en-430g	False
+AutoModel	ernie-gen-large-en	True
+AutoModel	ernie-gram-zh	True
+AutoModel	ernie-tiny	True
+AutoModel	skep_ernie_1.0_large_ch	True
+AutoModel	skep_ernie_2.0_large_en	True
+
+AutoModelForSequenceClassification
+
+AutoModelForSequenceClassification	ernie-1.0	True
+AutoModelForSequenceClassification	ernie-2.0-en-finetuned-squad	True
+AutoModelForSequenceClassification	ernie-2.0-en	True
+AutoModelForSequenceClassification	ernie-2.0-large-en	True
+AutoModelForSequenceClassification	ernie-doc-base-en	False
+AutoModelForSequenceClassification	ernie-doc-base-zh	False
+AutoModelForSequenceClassification	ernie-gen-base-en	False
+AutoModelForSequenceClassification	ernie-gen-large-en-430g	False
+AutoModelForSequenceClassification	ernie-gen-large-en	False
+AutoModelForSequenceClassification	ernie-gram-zh	True
+AutoModelForSequenceClassification	ernie-tiny	True
+AutoModelForSequenceClassification	skep_ernie_1.0_large_ch	True
+AutoModelForSequenceClassification	skep_ernie_2.0_large_en	True
+

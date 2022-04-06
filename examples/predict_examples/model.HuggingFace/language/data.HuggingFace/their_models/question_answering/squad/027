@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one jgammack/distilbert-base-uncased-squad

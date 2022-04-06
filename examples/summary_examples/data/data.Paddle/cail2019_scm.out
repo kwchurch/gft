@@ -1,0 +1,3 @@
+dataset: cail2019_scm	splits: train: 5102 rows, test: 1536 rows, val: 1500 rows
+dataset: cail2019_scm	split: train	config: Default	cols: text_a, text_b, text_c, label
+dataset: cail2019_scm	labels: B, C

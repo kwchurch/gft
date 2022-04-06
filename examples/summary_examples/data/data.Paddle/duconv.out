@@ -1,0 +1,4 @@
+dataset: duconv	splits: train: 19858 rows, dev: 2000 rows, test_1: 5000 rows, val: 2000 rows, test: 5000 rows
+dataset: duconv	split: train	config: Default	cols: goal, knowledge, conversation
+dataset: duconv	splits: train: 19858 rows, dev: 2000 rows, test_2: 10069 rows, val: 2000 rows, test: 10069 rows
+dataset: duconv	split: train	config: Default	cols: goal, knowledge, conversation

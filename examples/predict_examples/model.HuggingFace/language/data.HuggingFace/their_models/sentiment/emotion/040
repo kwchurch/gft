@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one masapasa/sagemaker-distilbert-emotion

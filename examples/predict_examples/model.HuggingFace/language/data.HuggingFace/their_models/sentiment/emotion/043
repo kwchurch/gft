@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one gbade786/distilbert-base-uncased-finetuned-emotion

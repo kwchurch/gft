@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gft_summary --model H:flax-community/dalle-mini --task H:text-to-image

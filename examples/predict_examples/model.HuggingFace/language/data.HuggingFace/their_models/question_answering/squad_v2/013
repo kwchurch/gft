@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one deepset/bert-medium-squad2-distilled

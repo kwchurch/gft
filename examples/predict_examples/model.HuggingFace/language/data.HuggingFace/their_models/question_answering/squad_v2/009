@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one navteca/roberta-base-squad2

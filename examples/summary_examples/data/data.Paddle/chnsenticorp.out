@@ -1,0 +1,3 @@
+dataset: chnsenticorp	splits: train: 9600 rows, test: 1200 rows, val: 1200 rows
+dataset: chnsenticorp	split: train	config: Default	cols: text, label, qid
+dataset: chnsenticorp	labels: 0, 1

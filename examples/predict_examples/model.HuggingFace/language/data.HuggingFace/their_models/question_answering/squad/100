@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one sunitha/distilbert-base-uncased-3feb-2022-finetuned-squad

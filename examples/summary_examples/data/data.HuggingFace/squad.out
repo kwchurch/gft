@@ -1,0 +1,14 @@
+dataset: squad	dataset: squad	downloads: 188093	likes: 22	PWC: https://paperswithcode.com/dataset/squad
+dataset: squad,plain_text	splits: train: 87599 rows, val: 10570 rows
+dataset: squad,plain_text	split: train	columns: id, title, context, question, answers
+dataset: squad --> 10 models
+dataset: squad	model: mrm8488/t5-base-finetuned-question-generation-ap	downloads: 526806	likes: 11	task: text2text-generation
+dataset: squad	model: distilbert-base-cased-distilled-squad	downloads: 297186	likes: 11	task: question-answering
+dataset: squad	model: distilbert-base-uncased-distilled-squad	downloads: 169566	likes: 5	task: question-answering
+dataset: squad	model: valhalla/t5-small-qa-qg-hl	downloads: 71383	likes: 1	task: text2text-generation
+dataset: squad	model: thatdramebaazguy/roberta-base-squad	downloads: 37754	likes: 0	task: question-answering
+dataset: squad	model: valhalla/t5-small-qg-hl	downloads: 27084	likes: 0	task: text2text-generation
+dataset: squad	model: valhalla/t5-base-e2e-qg	downloads: 23799	likes: 1	task: text2text-generation
+dataset: squad	model: valhalla/t5-base-qa-qg-hl	downloads: 13101	likes: 1	task: text2text-generation
+dataset: squad	model: valhalla/t5-small-e2e-qg	downloads: 11849	likes: 2	task: text2text-generation
+dataset: squad	model: pierreguillou/bert-base-cased-squad-v1.1-portuguese	downloads: 9255	likes: 8	task: question-answering

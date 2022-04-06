@@ -1,0 +1,14 @@
+dataset: xsum	dataset: xsum	downloads: 23112	likes: 3	PWC: https://paperswithcode.com/dataset/xsum
+dataset: xsum	splits: train: 204045 rows, test: 11334 rows, val: 11332 rows
+dataset: xsum	split: train	columns: document, summary, id
+dataset: xsum --> 10 models
+dataset: xsum	model: sshleifer/distilbart-cnn-6-6	downloads: 738312	likes: 8	task: summarization
+dataset: xsum	model: sshleifer/distilbart-cnn-12-6	downloads: 610418	likes: 32	task: summarization
+dataset: xsum	model: human-centered-summarization/financial-summarization-pegasus	downloads: 29875	likes: 16	task: summarization
+dataset: xsum	model: sshleifer/distilbart-xsum-12-6	downloads: 21430	likes: 2	task: summarization
+dataset: xsum	model: bhuvaneswari/t5-small-text_summarization	downloads: 14557	likes: 0	task: text2text-generation
+dataset: xsum	model: aseda/t5-small-finetuned-xsum	downloads: 14392	likes: 0	task: text2text-generation
+dataset: xsum	model: sshleifer/distilbart-xsum-1-1	downloads: 7777	likes: 0	task: summarization
+dataset: xsum	model: sshleifer/distilbart-xsum-12-1	downloads: 6793	likes: 1	task: summarization
+dataset: xsum	model: bochaowei/t5-small-finetuned-xsum-wei1	downloads: 6736	likes: 0	task: text2text-generation
+dataset: xsum	model: pki/t5-small-finetuned_xsum	downloads: 3575	likes: 1	task: text2text-generation

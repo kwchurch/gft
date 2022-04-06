@@ -1,0 +1,81 @@
+hostname = asimov-26.svail.baidu.com
+80.24 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_11697	accuracy: 0.9412410763316859
+79.90 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_17290	accuracy: 0.9419732747574593
+80.93 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_21404	accuracy: 0.9375800842028189
+80.72 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_29610	accuracy: 0.9438037708218927
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_7663
+80.83 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_2e-05_11697	accuracy: 0.9368478857770456
+81.23 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_2e-05_17290	accuracy: 0.932820794435292
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_2e-05_21404
+80.99 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_2e-05_29610	accuracy: 0.5053999633900788
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_2e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_3e-05_11697
+80.92 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_3e-05_17290	accuracy: 0.5053999633900788
+80.43 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_3e-05_21404	accuracy: 0.5053999633900788
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_3e-05_29610
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_3e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_1e-05_11697
+80.96 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_1e-05_17290	accuracy: 0.9489291598023064
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_1e-05_21404
+81.44 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_1e-05_29610	accuracy: 0.9472817133443163
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_1e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_2e-05_11697
+82.42 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_2e-05_17290	accuracy: 0.943437671609006
+81.56 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_2e-05_21404	accuracy: 0.9430715723961194
+81.34 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_2e-05_29610	accuracy: 0.9405088779059125
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_2e-05_7663
+80.72 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_3e-05_11697	accuracy: 0.9341021416803954
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_3e-05_17290
+80.53 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_3e-05_21404	accuracy: 0.9353834889254988
+80.39 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_3e-05_29610	accuracy: 0.5053999633900788
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_32_3e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_1e-05_11697
+80.40 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_1e-05_17290	accuracy: 0.9454512172798828
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_1e-05_21404
+80.31 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_1e-05_29610	accuracy: 0.947098663737873
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_1e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_2e-05_11697
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_2e-05_17290
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_2e-05_21404
+80.33 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_2e-05_29610	accuracy: 0.9472817133443163
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_2e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_3e-05_11697
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_3e-05_17290
+80.07 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_3e-05_21404	accuracy: 0.9430715723961194
+80.25 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_3e-05_29610	accuracy: 0.9379461834157057
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_64_3e-05_7663
+80.56 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_1e-05_11697	accuracy: 0.9456342668863262
+81.00 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_1e-05_17290	accuracy: 0.9460003660992129
+81.07 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_1e-05_21404	accuracy: 0.942888522789676
+80.68 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_1e-05_29610	accuracy: 0.9406919275123559
+80.27 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_1e-05_7663	accuracy: 0.9467325645249862
+80.16 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_2e-05_11697	accuracy: 0.5053999633900788
+80.06 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_2e-05_17290	accuracy: 0.9335529928610653
+80.10 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_2e-05_21404	accuracy: 0.9368478857770456
+80.17 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_2e-05_29610	accuracy: 0.9353834889254988
+80.58 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_2e-05_7663	accuracy: 0.9357495881383855
+84.01 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_3e-05_11697	accuracy: 0.5053999633900788
+79.81 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_3e-05_17290	accuracy: 0.5053999633900788
+80.18 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_3e-05_21404	accuracy: 0.5053999633900788
+80.50 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_3e-05_29610	accuracy: 0.5053999633900788
+80.12 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_16_3e-05_7663	accuracy: 0.5053999633900788
+80.70 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_1e-05_11697	accuracy: 0.9447190188541095
+80.89 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_1e-05_17290	accuracy: 0.9469156141314297
+80.57 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_1e-05_21404	accuracy: 0.947098663737873
+81.17 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_1e-05_29610	accuracy: 0.9456342668863262
+80.64 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_1e-05_7663	accuracy: 0.9474647629507597
+80.66 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_2e-05_11697	accuracy: 0.9432546220025627
+80.29 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_2e-05_17290	accuracy: 0.9341021416803954
+80.30 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_2e-05_21404	accuracy: 0.943986820428336
+79.96 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_2e-05_29610	accuracy: 0.9390444810543658
+80.28 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_2e-05_7663	accuracy: 0.9425224235767893
+80.11 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_3e-05_11697	accuracy: 0.9352004393190555
+80.19 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_3e-05_17290	accuracy: 0.9331868936481786
+80.01 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_3e-05_21404	accuracy: 0.5053999633900788
+80.29 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_3e-05_29610	accuracy: 0.5053999633900788
+79.93 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_32_3e-05_7663	accuracy: 0.5053999633900788
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_64_1e-05_11697
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_64_1e-05_17290
+79.73 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_64_1e-05_21404	accuracy: 0.9467325645249862
+80.12 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_64_1e-05_29610	accuracy: 0.9458173164927696
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_5_64_1e-05_7663

@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one V3RX2000/distilbert-base-uncased-finetuned-squad

@@ -1,0 +1,12 @@
+# found: 1077 matches; truncating to 10
+task: feature-extraction --> 10 models
+task: feature-extraction	model: openai/clip-vit-base-patch32	downloads: 895998	likes: 18	task: feature-extraction
+task: feature-extraction	model: monsoon-nlp/hindi-bert	downloads: 691286	likes: 3	task: feature-extraction
+task: feature-extraction	model: facebook/bart-base	downloads: 690698	likes: 7	task: feature-extraction
+task: feature-extraction	model: DeepPavlov/rubert-base-cased-conversational	downloads: 564148	likes: 2	task: feature-extraction
+task: feature-extraction	model: monologg/kobert	downloads: 487376	likes: 4	task: feature-extraction
+task: feature-extraction	model: DeepPavlov/rubert-base-cased	downloads: 481762	likes: 12	task: feature-extraction
+task: feature-extraction	model: microsoft/codebert-base	downloads: 438201	likes: 9	task: feature-extraction
+task: feature-extraction	model: sentence-transformers/distilbert-base-nli-mean-tokens	downloads: 381699	likes: 0	task: feature-extraction
+task: feature-extraction	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 284969	likes: 5	task: feature-extraction
+task: feature-extraction	model: facebook/dpr-question_encoder-single-nq-base	downloads: 278370	likes: 1	task: feature-extraction

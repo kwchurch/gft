@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one mrm8488/gpt2-imdb-neg

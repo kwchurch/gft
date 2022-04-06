@@ -1,0 +1,2 @@
+model: google/mt5-base	model: google/mt5-base	downloads: 96193	likes: 13	task: text2text-generation
+model: google/mt5-base	labels: LABEL_0, LABEL_1

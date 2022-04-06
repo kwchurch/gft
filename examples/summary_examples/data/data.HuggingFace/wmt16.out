@@ -1,0 +1,24 @@
+dataset: wmt16	dataset: wmt16	downloads: 56197	likes: 2	PWC: https://paperswithcode.com/dataset/wmt-2016
+dataset: wmt16,cs-en	splits: train: 997240 rows, test: 2999 rows, val: 2656 rows
+dataset: wmt16,cs-en	split: train	columns: translation
+dataset: wmt16,de-en	splits: train: 4548885 rows, test: 2999 rows, val: 2169 rows
+dataset: wmt16,de-en	split: train	columns: translation
+dataset: wmt16,fi-en	splits: train: 2073394 rows, test: 6000 rows, val: 1370 rows
+dataset: wmt16,fi-en	split: train	columns: translation
+dataset: wmt16,ro-en	splits: train: 610320 rows, test: 1999 rows, val: 1999 rows
+dataset: wmt16,ro-en	split: train	columns: translation
+dataset: wmt16,ru-en	splits: train: 1516162 rows, test: 2998 rows, val: 2818 rows
+dataset: wmt16,ru-en	split: train	columns: translation
+dataset: wmt16,tr-en	splits: train: 205756 rows, test: 3000 rows, val: 1001 rows
+dataset: wmt16,tr-en	split: train	columns: translation
+dataset: wmt16 --> 10 models
+dataset: wmt16	model: wandemberg-eld/opus-mt-en-de-finetuned-en-to-de-model-2	downloads: 335	likes: 0	task: text2text-generation
+dataset: wmt16	model: allenai/wmt16-en-de-dist-12-1	downloads: 124	likes: 0	task: translation
+dataset: wmt16	model: allenai/wmt16-en-de-12-1	downloads: 34	likes: 0	task: translation
+dataset: wmt16	model: Gare/opus-mt-en-ro-finetuned-en-to-ro	downloads: 30	likes: 0	task: text2text-generation
+dataset: wmt16	model: tiagohatta/opus-mt-de-en-finetuned-de-to-en-second	downloads: 20	likes: 0	task: text2text-generation
+dataset: wmt16	model: wandemberg-eld/opus-mt-en-de-finetuned-en-to-de	downloads: 20	likes: 0	task: text2text-generation
+dataset: wmt16	model: allenai/wmt16-en-de-dist-6-1	downloads: 17	likes: 1	task: translation
+dataset: wmt16	model: DiegoAlysson/opus-mt-en-ro-finetuned-en-to-ro	downloads: 7	likes: 0	task: text2text-generation
+dataset: wmt16	model: felipetanios/opus-mt-de-en-finetuned-de-to-en-second	downloads: 7	likes: 0	task: text2text-generation
+dataset: wmt16	model: marcosscarpim/t5-small-finetuned-en-to-ro	downloads: 7	likes: 0	task: text2text-generation

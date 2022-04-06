@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one hiiii23/distilbert-base-uncased-finetuned-squad

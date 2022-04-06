@@ -1,0 +1,17 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+# This is not implemented yet
+# multiple choice
+# context: a string feature.
+# question: a string feature.
+# answerA: a string feature.
+# answerB: a string feature.
+# answerC: a string feature.
+# label: a string feature.
+
+for model in AdapterHub/bert-base-uncased-pf-social_i_qa AdapterHub/roberta-base-pf-social_i_qa
+	     do
+data=social_i_qa
+gft_eval --data H:social_i_qa --model H:AdapterHub/bert-base-uncased-pf-social_i_qa --split test 
+done

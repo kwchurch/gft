@@ -1,0 +1,10 @@
+hostname = asimov-27.svail.baidu.com
+*** ERROR ***	H:mrm8488/bert-base-german-dbmdz-cased-finetuned-pawsx-de
+*** ERROR ***	H:ziqingyang/XLMRobertaBaseForPAWSX-en
+*** ERROR ***	H:mrm8488/camembert-base-finetuned-pawsx-fr
+*** ERROR ***	H:mrm8488/RuPERTa-base-finetuned-pawsx-es
+*** ERROR ***	H:bertin-project/bertin-base-paws-x-es
+*** ERROR ***	H:maximedb/paws-x-all-x-en
+*** ERROR ***	H:mrm8488/electricidad-base-finetuned-pawsx-es
+*** ERROR ***	H:maximedb/paws-x-all
+*** ERROR ***	H:mrm8488/electricidad-small-finetuned-paws-x-es

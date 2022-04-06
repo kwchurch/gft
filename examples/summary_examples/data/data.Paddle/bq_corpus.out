@@ -1,0 +1,3 @@
+dataset: bq_corpus	splits: train: 100000 rows, test: 10000 rows, val: 10000 rows
+dataset: bq_corpus	split: train	config: Default	cols: sentence1, sentence2, label
+dataset: bq_corpus	labels: 0, 1

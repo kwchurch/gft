@@ -1,0 +1,2 @@
+model: Narsil/deberta-large-mnli-zero-cls	model: Narsil/deberta-large-mnli-zero-cls	downloads: 58994	likes: 3	task: zero-shot-classification
+model: Narsil/deberta-large-mnli-zero-cls	labels: CONTRADICTION, NEUTRAL, ENTAILMENT

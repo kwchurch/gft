@@ -1,0 +1,9 @@
+hostname = asimov-143.svail.baidu.com
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['id', 'question', 'context', 'title', 'url', 'answers']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-quoref
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['id', 'question', 'context', 'title', 'url', 'answers']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-quoref

@@ -1,0 +1,2 @@
+model: Sahajtomar/German_Zeroshot	model: Sahajtomar/German_Zeroshot	downloads: 63508	likes: 6	task: zero-shot-classification
+model: Sahajtomar/German_Zeroshot	labels: entailment, neutral, contradiction

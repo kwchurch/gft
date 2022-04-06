@@ -1,0 +1,3 @@
+dataset: dureader_yesno	splits: train: 75391 rows, test: 11361 rows, val: 5462 rows
+dataset: dureader_yesno	split: train	config: Default	cols: id, question, answer, labels
+dataset: dureader_yesno	labels: Yes, No, Depends

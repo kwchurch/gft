@@ -1,0 +1,274 @@
+name: reformer_model_0	labels (NA): NA	ReformerModel(
+  (embeddings): ReformerEmbeddings(
+    (word_embeddings): Embedding(258, 1024, sparse=False)
+    (position_embeddings): AxialPositionEmbeddings(
+      (weights): ParameterList()
+    )
+  )
+  (encoder): ReformerEncoder(
+    (layers): LayerList(
+      (0): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (1): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (2): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LSHSelfAttention(
+            (query_key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (3): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (4): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (5): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (6): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LSHSelfAttention(
+            (query_key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (7): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (8): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (9): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (10): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LSHSelfAttention(
+            (query_key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+      (11): ReformerLayer(
+        (attention): ReformerAttention(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (self_attention): LocalSelfAttention(
+            (query): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (key): Linear(in_features=1024, out_features=1024, dtype=float32)
+            (value): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+          (output): ReformerSelfOutput(
+            (dense): Linear(in_features=1024, out_features=1024, dtype=float32)
+          )
+        )
+        (feed_forward): ChunkReformerFeedForward(
+          (layer_norm): LayerNorm(normalized_shape=[1024], epsilon=1e-12)
+          (dense): ReformerFeedForwardDense(
+            (dense): Linear(in_features=1024, out_features=4096, dtype=float32)
+          )
+          (output): ReformerFeedForwardOutput(
+            (dense): Linear(in_features=4096, out_features=1024, dtype=float32)
+          )
+        )
+      )
+    )
+    (layer_norm): LayerNorm(normalized_shape=[2048], epsilon=1e-12)
+  )
+)

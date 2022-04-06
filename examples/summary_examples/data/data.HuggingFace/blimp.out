@@ -1,0 +1,136 @@
+dataset: blimp	dataset: blimp	downloads: 13211	likes: 1	PWC: https://paperswithcode.com/dataset/blimp
+dataset: blimp,adjunct_island	splits: train: 1000 rows
+dataset: blimp,adjunct_island	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,anaphor_gender_agreement	splits: train: 1000 rows
+dataset: blimp,anaphor_gender_agreement	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,anaphor_number_agreement	splits: train: 1000 rows
+dataset: blimp,anaphor_number_agreement	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,animate_subject_passive	splits: train: 1000 rows
+dataset: blimp,animate_subject_passive	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,animate_subject_trans	splits: train: 1000 rows
+dataset: blimp,animate_subject_trans	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,causative	splits: train: 1000 rows
+dataset: blimp,causative	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,complex_NP_island	splits: train: 1000 rows
+dataset: blimp,complex_NP_island	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,coordinate_structure_constraint_complex_left_branch	splits: train: 1000 rows
+dataset: blimp,coordinate_structure_constraint_complex_left_branch	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,coordinate_structure_constraint_object_extraction	splits: train: 1000 rows
+dataset: blimp,coordinate_structure_constraint_object_extraction	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_1	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_2	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_irregular_1	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_irregular_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_irregular_2	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_irregular_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_with_adj_2	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_with_adj_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_with_adj_irregular_1	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_with_adj_irregular_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_with_adj_irregular_2	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_with_adj_irregular_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,determiner_noun_agreement_with_adjective_1	splits: train: 1000 rows
+dataset: blimp,determiner_noun_agreement_with_adjective_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,distractor_agreement_relational_noun	splits: train: 1000 rows
+dataset: blimp,distractor_agreement_relational_noun	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,distractor_agreement_relative_clause	splits: train: 1000 rows
+dataset: blimp,distractor_agreement_relative_clause	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,drop_argument	splits: train: 1000 rows
+dataset: blimp,drop_argument	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,ellipsis_n_bar_1	splits: train: 1000 rows
+dataset: blimp,ellipsis_n_bar_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,ellipsis_n_bar_2	splits: train: 1000 rows
+dataset: blimp,ellipsis_n_bar_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,existential_there_object_raising	splits: train: 1000 rows
+dataset: blimp,existential_there_object_raising	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,existential_there_quantifiers_1	splits: train: 1000 rows
+dataset: blimp,existential_there_quantifiers_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,existential_there_quantifiers_2	splits: train: 1000 rows
+dataset: blimp,existential_there_quantifiers_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,existential_there_subject_raising	splits: train: 1000 rows
+dataset: blimp,existential_there_subject_raising	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,expletive_it_object_raising	splits: train: 1000 rows
+dataset: blimp,expletive_it_object_raising	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,inchoative	splits: train: 1000 rows
+dataset: blimp,inchoative	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,intransitive	splits: train: 1000 rows
+dataset: blimp,intransitive	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,irregular_past_participle_adjectives	splits: train: 1000 rows
+dataset: blimp,irregular_past_participle_adjectives	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,irregular_past_participle_verbs	splits: train: 1000 rows
+dataset: blimp,irregular_past_participle_verbs	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,irregular_plural_subject_verb_agreement_1	splits: train: 1000 rows
+dataset: blimp,irregular_plural_subject_verb_agreement_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,irregular_plural_subject_verb_agreement_2	splits: train: 1000 rows
+dataset: blimp,irregular_plural_subject_verb_agreement_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,left_branch_island_echo_question	splits: train: 1000 rows
+dataset: blimp,left_branch_island_echo_question	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,left_branch_island_simple_question	splits: train: 1000 rows
+dataset: blimp,left_branch_island_simple_question	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,matrix_question_npi_licensor_present	splits: train: 1000 rows
+dataset: blimp,matrix_question_npi_licensor_present	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,npi_present_1	splits: train: 1000 rows
+dataset: blimp,npi_present_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,npi_present_2	splits: train: 1000 rows
+dataset: blimp,npi_present_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,only_npi_licensor_present	splits: train: 1000 rows
+dataset: blimp,only_npi_licensor_present	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,only_npi_scope	splits: train: 1000 rows
+dataset: blimp,only_npi_scope	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,passive_1	splits: train: 1000 rows
+dataset: blimp,passive_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,passive_2	splits: train: 1000 rows
+dataset: blimp,passive_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,principle_A_c_command	splits: train: 1000 rows
+dataset: blimp,principle_A_c_command	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,principle_A_case_1	splits: train: 1000 rows
+dataset: blimp,principle_A_case_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,principle_A_case_2	splits: train: 1000 rows
+dataset: blimp,principle_A_case_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,principle_A_domain_1	splits: train: 1000 rows
+dataset: blimp,principle_A_domain_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,principle_A_domain_2	splits: train: 1000 rows
+dataset: blimp,principle_A_domain_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,principle_A_domain_3	splits: train: 1000 rows
+dataset: blimp,principle_A_domain_3	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,principle_A_reconstruction	splits: train: 1000 rows
+dataset: blimp,principle_A_reconstruction	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,regular_plural_subject_verb_agreement_1	splits: train: 1000 rows
+dataset: blimp,regular_plural_subject_verb_agreement_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,regular_plural_subject_verb_agreement_2	splits: train: 1000 rows
+dataset: blimp,regular_plural_subject_verb_agreement_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,sentential_negation_npi_licensor_present	splits: train: 1000 rows
+dataset: blimp,sentential_negation_npi_licensor_present	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,sentential_negation_npi_scope	splits: train: 1000 rows
+dataset: blimp,sentential_negation_npi_scope	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,sentential_subject_island	splits: train: 1000 rows
+dataset: blimp,sentential_subject_island	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,superlative_quantifiers_1	splits: train: 1000 rows
+dataset: blimp,superlative_quantifiers_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,superlative_quantifiers_2	splits: train: 1000 rows
+dataset: blimp,superlative_quantifiers_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,tough_vs_raising_1	splits: train: 1000 rows
+dataset: blimp,tough_vs_raising_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,tough_vs_raising_2	splits: train: 1000 rows
+dataset: blimp,tough_vs_raising_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,transitive	splits: train: 1000 rows
+dataset: blimp,transitive	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_island	splits: train: 1000 rows
+dataset: blimp,wh_island	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_questions_object_gap	splits: train: 1000 rows
+dataset: blimp,wh_questions_object_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_questions_subject_gap	splits: train: 1000 rows
+dataset: blimp,wh_questions_subject_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_questions_subject_gap_long_distance	splits: train: 1000 rows
+dataset: blimp,wh_questions_subject_gap_long_distance	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_no_gap	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_no_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_no_gap_long_distance	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_no_gap_long_distance	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_with_gap	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_with_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_with_gap_long_distance	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_with_gap_long_distance	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+# dataset: blimp --> 0 models

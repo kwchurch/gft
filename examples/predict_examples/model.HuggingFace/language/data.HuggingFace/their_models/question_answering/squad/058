@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one madlag/bert-base-uncased-squadv1-x1.16-f88.1-d8-unstruct-v1

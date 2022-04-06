@@ -1,0 +1,2 @@
+model: cross-encoder/ms-marco-MiniLM-L-12-v2	model: cross-encoder/ms-marco-MiniLM-L-12-v2	downloads: 10980464	likes: 5	task: text-classification
+model: cross-encoder/ms-marco-MiniLM-L-12-v2	labels: LABEL_0

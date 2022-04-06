@@ -1,0 +1,334 @@
+model: 09panesara/distilbert-base-uncased-finetuned-cola	model: 09panesara/distilbert-base-uncased-finetuned-cola	downloads: 43	likes: 0	task: text-classification
+model: 09panesara/distilbert-base-uncased-finetuned-cola	labels: LABEL_0, LABEL_1
+model: 123abhiALFLKFO/distilbert-base-uncased-finetuned-cola	model: 123abhiALFLKFO/distilbert-base-uncased-finetuned-cola	downloads: 37	likes: 0	task: text-classification
+model: 123abhiALFLKFO/distilbert-base-uncased-finetuned-cola	labels: LABEL_0, LABEL_1
+model: A-bhimany-u08/bert-base-cased-qqp	model: A-bhimany-u08/bert-base-cased-qqp	downloads: 73	likes: 0	task: text-classification
+model: A-bhimany-u08/bert-base-cased-qqp	labels: LABEL_0, LABEL_1
+model: ajrae/bert-base-uncased-finetuned-mrpc	model: ajrae/bert-base-uncased-finetuned-mrpc	downloads: 115	likes: 0	task: text-classification
+model: ajrae/bert-base-uncased-finetuned-mrpc	labels: LABEL_0, LABEL_1
+model: Alireza1044/albert-base-v2-cola	model: Alireza1044/albert-base-v2-cola	downloads: 34	likes: 0	task: text-classification
+model: Alireza1044/albert-base-v2-cola	labels: LABEL_0, LABEL_1
+model: Alireza1044/albert-base-v2-mrpc	model: Alireza1044/albert-base-v2-mrpc	downloads: 62	likes: 0	task: text-classification
+model: Alireza1044/albert-base-v2-mrpc	labels: LABEL_0, LABEL_1
+model: Alireza1044/albert-base-v2-qnli	model: Alireza1044/albert-base-v2-qnli	downloads: 57	likes: 0	task: text-classification
+model: Alireza1044/albert-base-v2-qnli	labels: LABEL_0, LABEL_1
+model: Alireza1044/albert-base-v2-qqp	model: Alireza1044/albert-base-v2-qqp	downloads: 27	likes: 0	task: text-classification
+model: Alireza1044/albert-base-v2-qqp	labels: LABEL_0, LABEL_1
+model: Alireza1044/albert-base-v2-rte	model: Alireza1044/albert-base-v2-rte	downloads: 26	likes: 0	task: text-classification
+model: Alireza1044/albert-base-v2-rte	labels: LABEL_0, LABEL_1
+model: Alireza1044/albert-base-v2-sst2	model: Alireza1044/albert-base-v2-sst2	downloads: 302	likes: 0	task: text-classification
+model: Alireza1044/albert-base-v2-sst2	labels: LABEL_0, LABEL_1
+model: anirudh21/albert-base-v2-finetuned-qnli	model: anirudh21/albert-base-v2-finetuned-qnli	downloads: 127	likes: 1	task: text-classification
+model: anirudh21/albert-base-v2-finetuned-qnli	labels: LABEL_0, LABEL_1
+model: anirudh21/albert-large-v2-finetuned-qnli	model: anirudh21/albert-large-v2-finetuned-qnli	downloads: 29	likes: 0	task: text-classification
+model: anirudh21/albert-large-v2-finetuned-qnli	labels: LABEL_0, LABEL_1
+model: anirudh21/albert-large-v2-finetuned-qqp	model: anirudh21/albert-large-v2-finetuned-qqp	downloads: 30	likes: 0	task: text-classification
+model: anirudh21/albert-large-v2-finetuned-qqp	labels: LABEL_0, LABEL_1
+model: anirudh21/albert-large-v2-finetuned-rte	model: anirudh21/albert-large-v2-finetuned-rte	downloads: 29	likes: 0	task: text-classification
+model: anirudh21/albert-large-v2-finetuned-rte	labels: LABEL_0, LABEL_1
+model: anirudh21/bert-base-uncased-finetuned-qnli	model: anirudh21/bert-base-uncased-finetuned-qnli	downloads: 32	likes: 0	task: text-classification
+model: anirudh21/bert-base-uncased-finetuned-qnli	labels: LABEL_0, LABEL_1
+model: anirudh21/distilbert-base-uncased-finetuned-qnli	model: anirudh21/distilbert-base-uncased-finetuned-qnli	downloads: 27	likes: 0	task: text-classification
+model: anirudh21/distilbert-base-uncased-finetuned-qnli	labels: LABEL_0, LABEL_1
+model: AnonARR/qqp-bert	model: AnonARR/qqp-bert	downloads: 24	likes: 0	task: text-classification
+model: AnonARR/qqp-bert	labels: duplicate, not_duplicate
+model: asimov-125.svail.baidu.com	No info from HuggingFace
+***ERROR***
+model: H:asimov-125.svail.baidu.com
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+model: asimov-126.svail.baidu.com	No info from HuggingFace
+***ERROR***
+model: H:asimov-126.svail.baidu.com
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+model: assemblyai/bert-large-uncased-sst2	model: assemblyai/bert-large-uncased-sst2	downloads: 96	likes: 0	task: text-classification
+model: assemblyai/bert-large-uncased-sst2	labels: LABEL_0, LABEL_1
+model: assemblyai/distilbert-base-uncased-qqp	model: assemblyai/distilbert-base-uncased-qqp	downloads: 172	likes: 0	task: text-classification
+model: assemblyai/distilbert-base-uncased-qqp	labels: LABEL_0, LABEL_1
+model: assemblyai/distilbert-base-uncased-sst2	model: assemblyai/distilbert-base-uncased-sst2	downloads: 215	likes: 0	task: text-classification
+model: assemblyai/distilbert-base-uncased-sst2	labels: LABEL_0, LABEL_1
+model: bhadresh-savani/distilbert-base-uncased-sentiment-sst2	model: bhadresh-savani/distilbert-base-uncased-sentiment-sst2	downloads: 62	likes: 0	task: text-classification
+model: bhadresh-savani/distilbert-base-uncased-sentiment-sst2	labels: NEGATIVE, POSITIVE
+model: Bhumika/roberta-base-finetuned-sst2	model: Bhumika/roberta-base-finetuned-sst2	downloads: 236	likes: 1	task: text-classification
+model: Bhumika/roberta-base-finetuned-sst2	labels: LABEL_0, LABEL_1
+model: bioformers/bioformer-cased-v1.0-qnli	model: bioformers/bioformer-cased-v1.0-qnli	downloads: 31	likes: 0	task: text-classification
+model: bioformers/bioformer-cased-v1.0-qnli	labels: entailment, not_entailment
+model: cointegrated/roberta-large-cola-krishna2020	model: cointegrated/roberta-large-cola-krishna2020	downloads: 166	likes: 0	task: text-classification
+model: cointegrated/roberta-large-cola-krishna2020	labels: LABEL_0, LABEL_1
+model: cross-encoder/qnli-distilroberta-base	model: cross-encoder/qnli-distilroberta-base	downloads: 931	likes: 0	task: text-classification
+model: cross-encoder/qnli-distilroberta-base	labels: LABEL_0
+model: cross-encoder/qnli-electra-base	model: cross-encoder/qnli-electra-base	downloads: 21465	likes: 0	task: text-classification
+model: cross-encoder/qnli-electra-base	labels: LABEL_0
+model: cross-encoder/stsb-distilroberta-base	model: cross-encoder/stsb-distilroberta-base	downloads: 8525	likes: 0	task: text-classification
+model: cross-encoder/stsb-distilroberta-base	labels: LABEL_0
+model: cross-encoder/stsb-roberta-base	model: cross-encoder/stsb-roberta-base	downloads: 7147	likes: 0	task: text-classification
+model: cross-encoder/stsb-roberta-base	labels: LABEL_0
+model: cross-encoder/stsb-roberta-large	model: cross-encoder/stsb-roberta-large	downloads: 19940	likes: 1	task: text-classification
+model: cross-encoder/stsb-roberta-large	labels: LABEL_0
+model: cross-encoder/stsb-TinyBERT-L-4	model: cross-encoder/stsb-TinyBERT-L-4	downloads: 5704	likes: 0	task: text-classification
+model: cross-encoder/stsb-TinyBERT-L-4	labels: LABEL_0
+model: echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	model: echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	downloads: 81	likes: 0	task: text-classification
+model: echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	labels: LABEL_0, LABEL_1
+model: echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid	model: echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid	downloads: 811	likes: 0	task: text-classification
+model: echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid	labels: LABEL_0, LABEL_1
+model: EhsanAghazadeh/bert-based-uncased-sst2-e5	model: EhsanAghazadeh/bert-based-uncased-sst2-e5	downloads: 34	likes: 0	task: text-classification
+model: EhsanAghazadeh/bert-based-uncased-sst2-e5	labels: 0, 1
+model: EhsanAghazadeh/bert-large-uncased-CoLA_A	model: EhsanAghazadeh/bert-large-uncased-CoLA_A	downloads: 71	likes: 0	task: text-classification
+model: EhsanAghazadeh/bert-large-uncased-CoLA_A	labels: LABEL_0, LABEL_1
+model: EhsanAghazadeh/bert-large-uncased-CoLA_B	model: EhsanAghazadeh/bert-large-uncased-CoLA_B	downloads: 72	likes: 0	task: text-classification
+model: EhsanAghazadeh/bert-large-uncased-CoLA_B	labels: LABEL_0, LABEL_1
+model: gchhablani/bert-base-cased-finetuned-cola	model: gchhablani/bert-base-cased-finetuned-cola	downloads: 78	likes: 0	task: text-classification
+model: gchhablani/bert-base-cased-finetuned-cola	labels: acceptable, unacceptable
+model: gchhablani/bert-base-cased-finetuned-mrpc	model: gchhablani/bert-base-cased-finetuned-mrpc	downloads: 52	likes: 0	task: text-classification
+model: gchhablani/bert-base-cased-finetuned-mrpc	labels: equivalent, not_equivalent
+model: gchhablani/bert-base-cased-finetuned-qnli	model: gchhablani/bert-base-cased-finetuned-qnli	downloads: 103	likes: 0	task: text-classification
+model: gchhablani/bert-base-cased-finetuned-qnli	labels: entailment, not_entailment
+model: gchhablani/bert-base-cased-finetuned-qqp	model: gchhablani/bert-base-cased-finetuned-qqp	downloads: 47	likes: 0	task: text-classification
+model: gchhablani/bert-base-cased-finetuned-qqp	labels: duplicate, not_duplicate
+model: gchhablani/bert-base-cased-finetuned-rte	model: gchhablani/bert-base-cased-finetuned-rte	downloads: 35	likes: 0	task: text-classification
+model: gchhablani/bert-base-cased-finetuned-rte	labels: entailment, not_entailment
+model: gchhablani/bert-base-cased-finetuned-sst2	model: gchhablani/bert-base-cased-finetuned-sst2	downloads: 124	likes: 0	task: text-classification
+model: gchhablani/bert-base-cased-finetuned-sst2	labels: negative, positive
+model: gchhablani/bert-large-cased-finetuned-rte	model: gchhablani/bert-large-cased-finetuned-rte	downloads: 32	likes: 0	task: text-classification
+model: gchhablani/bert-large-cased-finetuned-rte	labels: entailment, not_entailment
+model: gchhablani/fnet-base-finetuned-sst2	model: gchhablani/fnet-base-finetuned-sst2	downloads: 82	likes: 0	task: text-classification
+model: gchhablani/fnet-base-finetuned-sst2	labels: negative, positive
+model: howey/bert-base-uncased-mrpc	model: howey/bert-base-uncased-mrpc	downloads: 52	likes: 0	task: text-classification
+model: howey/bert-base-uncased-mrpc	labels: LABEL_0, LABEL_1
+model: howey/bert-base-uncased-qnli	model: howey/bert-base-uncased-qnli	downloads: 55	likes: 0	task: text-classification
+model: howey/bert-base-uncased-qnli	labels: LABEL_0, LABEL_1
+model: howey/bert-base-uncased-qqp	model: howey/bert-base-uncased-qqp	downloads: 52	likes: 0	task: text-classification
+model: howey/bert-base-uncased-qqp	labels: LABEL_0, LABEL_1
+model: howey/bert-base-uncased-rte	model: howey/bert-base-uncased-rte	downloads: 59	likes: 0	task: text-classification
+model: howey/bert-base-uncased-rte	labels: LABEL_0, LABEL_1
+model: howey/bert-base-uncased-sst2	model: howey/bert-base-uncased-sst2	downloads: 288	likes: 0	task: text-classification
+model: howey/bert-base-uncased-sst2	labels: LABEL_0, LABEL_1
+model: howey/bert-base-uncased-stsb	model: howey/bert-base-uncased-stsb	downloads: 98	likes: 0	task: text-classification
+model: howey/bert-base-uncased-stsb	labels: LABEL_0
+model: howey/electra-large-qnli	model: howey/electra-large-qnli	downloads: 67	likes: 0	task: text-classification
+model: howey/electra-large-qnli	labels: LABEL_0, LABEL_1
+model: howey/roberta-large-cola	model: howey/roberta-large-cola	downloads: 57	likes: 0	task: text-classification
+model: howey/roberta-large-cola	labels: LABEL_0, LABEL_1
+model: howey/roberta-large-mrpc	model: howey/roberta-large-mrpc	downloads: 62	likes: 0	task: text-classification
+model: howey/roberta-large-mrpc	labels: LABEL_0, LABEL_1
+model: howey/roberta-large-qnli	model: howey/roberta-large-qnli	downloads: 72	likes: 0	task: text-classification
+model: howey/roberta-large-qnli	labels: LABEL_0, LABEL_1
+model: howey/roberta-large-qqp	model: howey/roberta-large-qqp	downloads: 813	likes: 0	task: text-classification
+model: howey/roberta-large-qqp	labels: LABEL_0, LABEL_1
+model: howey/roberta-large-rte	model: howey/roberta-large-rte	downloads: 67	likes: 0	task: text-classification
+model: howey/roberta-large-rte	labels: LABEL_0, LABEL_1
+model: howey/roberta-large-sst2	model: howey/roberta-large-sst2	downloads: 84	likes: 0	task: text-classification
+model: howey/roberta-large-sst2	labels: LABEL_0, LABEL_1
+model: ikevin98/bert-base-uncased-finetuned-sst2	model: ikevin98/bert-base-uncased-finetuned-sst2	downloads: 36	likes: 0	task: text-classification
+model: ikevin98/bert-base-uncased-finetuned-sst2	labels: LABEL_0, LABEL_1
+model: isakbos/Q8BERT_COLA_L_512	model: isakbos/Q8BERT_COLA_L_512	downloads: 72	likes: 0	task: text-classification
+model: isakbos/Q8BERT_COLA_L_512	labels: LABEL_0, LABEL_1
+model: ji-xin/roberta_base-MRPC-two_stage	model: ji-xin/roberta_base-MRPC-two_stage	downloads: 78	likes: 0	task: text-classification
+model: ji-xin/roberta_base-MRPC-two_stage	labels: LABEL_0, LABEL_1
+model: jkgrad/xlnet-base-cased-qqp	model: jkgrad/xlnet-base-cased-qqp	downloads: 59	likes: 0	task: text-classification
+model: jkgrad/xlnet-base-cased-qqp	labels: LABEL_0, LABEL_1
+model: kamivao/autonlp-cola_gram-208681	model: kamivao/autonlp-cola_gram-208681	downloads: 75	likes: 0	task: text-classification
+model: kamivao/autonlp-cola_gram-208681	labels: 0, 1
+model: Li/bert-base-uncased-qnli	model: Li/bert-base-uncased-qnli	downloads: 33	likes: 0	task: text-classification
+model: Li/bert-base-uncased-qnli	labels: entailment, not_entailment
+model: Maelstrom77/bert-base-uncased-MRPC	model: Maelstrom77/bert-base-uncased-MRPC	downloads: 38	likes: 0	task: text-classification
+model: Maelstrom77/bert-base-uncased-MRPC	labels: LABEL_0, LABEL_1
+model: Maelstrom77/bert-base-uncased-QQP	model: Maelstrom77/bert-base-uncased-QQP	downloads: 36	likes: 0	task: text-classification
+model: Maelstrom77/bert-base-uncased-QQP	labels: LABEL_0, LABEL_1
+model: Maelstrom77/roberta-large-mrpc	model: Maelstrom77/roberta-large-mrpc	downloads: 38	likes: 0	task: text-classification
+model: Maelstrom77/roberta-large-mrpc	labels: LABEL_0, LABEL_1
+model: Maelstrom77/roberta-large-qqp	model: Maelstrom77/roberta-large-qqp	downloads: 42	likes: 0	task: text-classification
+model: Maelstrom77/roberta-large-qqp	labels: LABEL_0, LABEL_1
+model: mervenoyan/PubMedBERT-QNLI	model: mervenoyan/PubMedBERT-QNLI	downloads: 375	likes: 7	task: text-classification
+model: mervenoyan/PubMedBERT-QNLI	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-mini-finetuned-mrpc	model: M-FAC/bert-mini-finetuned-mrpc	downloads: 25	likes: 0	task: text-classification
+model: M-FAC/bert-mini-finetuned-mrpc	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-mini-finetuned-qnli	model: M-FAC/bert-mini-finetuned-qnli	downloads: 28	likes: 0	task: text-classification
+model: M-FAC/bert-mini-finetuned-qnli	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-mini-finetuned-qqp	model: M-FAC/bert-mini-finetuned-qqp	downloads: 25	likes: 0	task: text-classification
+model: M-FAC/bert-mini-finetuned-qqp	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-mini-finetuned-sst2	model: M-FAC/bert-mini-finetuned-sst2	downloads: 33	likes: 0	task: text-classification
+model: M-FAC/bert-mini-finetuned-sst2	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-tiny-finetuned-mrpc	model: M-FAC/bert-tiny-finetuned-mrpc	downloads: 36	likes: 0	task: text-classification
+model: M-FAC/bert-tiny-finetuned-mrpc	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-tiny-finetuned-qnli	model: M-FAC/bert-tiny-finetuned-qnli	downloads: 30	likes: 0	task: text-classification
+model: M-FAC/bert-tiny-finetuned-qnli	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-tiny-finetuned-qqp	model: M-FAC/bert-tiny-finetuned-qqp	downloads: 25	likes: 0	task: text-classification
+model: M-FAC/bert-tiny-finetuned-qqp	labels: LABEL_0, LABEL_1
+model: M-FAC/bert-tiny-finetuned-sst2	model: M-FAC/bert-tiny-finetuned-sst2	downloads: 72	likes: 0	task: text-classification
+model: M-FAC/bert-tiny-finetuned-sst2	labels: LABEL_0, LABEL_1
+model: mfuntowicz/bert-base-cased-finetuned-sst2	model: mfuntowicz/bert-base-cased-finetuned-sst2	downloads: 160	likes: 0	task: text-classification
+model: mfuntowicz/bert-base-cased-finetuned-sst2	labels: NEGATIVE, POSITIVE
+model: microsoft/deberta-base-mnli	model: microsoft/deberta-base-mnli	downloads: 4819	likes: 1	task: text-classification
+model: microsoft/deberta-base-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+model: microsoft/deberta-large-mnli	model: microsoft/deberta-large-mnli	downloads: 36273	likes: 1	task: text-classification
+model: microsoft/deberta-large-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+model: microsoft/deberta-v2-xlarge-mnli	model: microsoft/deberta-v2-xlarge-mnli	downloads: 1430	likes: 1	task: text-classification
+model: microsoft/deberta-v2-xlarge-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+model: microsoft/deberta-xlarge-mnli	model: microsoft/deberta-xlarge-mnli	downloads: 61107	likes: 4	task: text-classification
+model: microsoft/deberta-xlarge-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+model: moshew/tiny-bert-aug-sst2-distilled	model: moshew/tiny-bert-aug-sst2-distilled	downloads: 26	likes: 0	task: text-classification
+model: moshew/tiny-bert-aug-sst2-distilled	labels: negative, positive
+model: mrm8488/deberta-v3-small-finetuned-cola	model: mrm8488/deberta-v3-small-finetuned-cola	downloads: 56	likes: 2	task: text-classification
+model: mrm8488/deberta-v3-small-finetuned-cola	labels: acceptable, unacceptable
+model: mrm8488/deberta-v3-small-finetuned-mrpc	model: mrm8488/deberta-v3-small-finetuned-mrpc	downloads: 30	likes: 1	task: text-classification
+model: mrm8488/deberta-v3-small-finetuned-mrpc	labels: equivalent, not_equivalent
+model: mrm8488/deberta-v3-small-finetuned-qnli	model: mrm8488/deberta-v3-small-finetuned-qnli	downloads: 42	likes: 1	task: text-classification
+model: mrm8488/deberta-v3-small-finetuned-qnli	labels: entailment, not_entailment
+model: mrm8488/deberta-v3-small-finetuned-sst2	model: mrm8488/deberta-v3-small-finetuned-sst2	downloads: 59	likes: 0	task: text-classification
+model: mrm8488/deberta-v3-small-finetuned-sst2	labels: negative, positive
+model: navteca/qnli-electra-base	model: navteca/qnli-electra-base	downloads: 86	likes: 0	task: text-classification
+model: navteca/qnli-electra-base	labels: LABEL_0
+model: NDugar/finetuned-bert-mrpc	model: NDugar/finetuned-bert-mrpc	downloads: 27	likes: 0	task: text-classification
+model: NDugar/finetuned-bert-mrpc	labels: LABEL_0, LABEL_1
+model: neal49/distilbert-sst2-1	model: neal49/distilbert-sst2-1	downloads: 123	likes: 0	task: text-classification
+model: neal49/distilbert-sst2-1	labels: LABEL_0, LABEL_1
+model: neal49/distilbert-sst2-freeze	model: neal49/distilbert-sst2-freeze	downloads: 77	likes: 0	task: text-classification
+model: neal49/distilbert-sst2-freeze	labels: LABEL_0, LABEL_1
+model: ntrnghia/mrpc_vn	model: ntrnghia/mrpc_vn	downloads: 63	likes: 0	task: text-classification
+model: ntrnghia/mrpc_vn	labels: LABEL_0, LABEL_1
+model: o2poi/sst2-eda-albert	model: o2poi/sst2-eda-albert	downloads: 68	likes: 0	task: text-classification
+model: o2poi/sst2-eda-albert	labels: LABEL_0, LABEL_1
+model: o2poi/sst2-eda-bert	model: o2poi/sst2-eda-bert	downloads: 52	likes: 0	task: text-classification
+model: o2poi/sst2-eda-bert	labels: LABEL_0, LABEL_1
+model: o2poi/sst2-eda-bert-uncased	model: o2poi/sst2-eda-bert-uncased	downloads: 51	likes: 0	task: text-classification
+model: o2poi/sst2-eda-bert-uncased	labels: LABEL_0, LABEL_1
+model: philschmid/MiniLM-L6-H384-uncased-sst2	model: philschmid/MiniLM-L6-H384-uncased-sst2	downloads: 2824	likes: 0	task: text-classification
+model: philschmid/MiniLM-L6-H384-uncased-sst2	labels: LABEL_0, LABEL_1
+model: philschmid/tiny-bert-sst2-distilled	model: philschmid/tiny-bert-sst2-distilled	downloads: 28	likes: 0	task: text-classification
+model: philschmid/tiny-bert-sst2-distilled	labels: negative, positive
+model: pmthangk09/bert-base-uncased-glue-cola	model: pmthangk09/bert-base-uncased-glue-cola	downloads: 67	likes: 0	task: text-classification
+model: pmthangk09/bert-base-uncased-glue-cola	labels: LABEL_0, LABEL_1
+model: pmthangk09/bert-base-uncased-glue-sst2	model: pmthangk09/bert-base-uncased-glue-sst2	downloads: 77	likes: 0	task: text-classification
+model: pmthangk09/bert-base-uncased-glue-sst2	labels: LABEL_0, LABEL_1
+model: prajjwal1/albert-base-v2-mnli	model: prajjwal1/albert-base-v2-mnli	downloads: 220	likes: 0	task: text-classification
+model: prajjwal1/albert-base-v2-mnli	labels: LABEL_0, LABEL_1, LABEL_2
+model: prajjwal1/bert-medium-mnli	model: prajjwal1/bert-medium-mnli	downloads: 4123	likes: 0	task: text-classification
+model: prajjwal1/bert-medium-mnli	labels: LABEL_0, LABEL_1, LABEL_2
+model: prajjwal1/bert-mini-mnli	model: prajjwal1/bert-mini-mnli	downloads: 1180	likes: 0	task: text-classification
+model: prajjwal1/bert-mini-mnli	labels: LABEL_0, LABEL_1, LABEL_2
+model: Riad/finetuned-bert-mrpc	model: Riad/finetuned-bert-mrpc	downloads: 26	likes: 0	task: text-classification
+model: Riad/finetuned-bert-mrpc	labels: equivalent, not equivalent
+model: roberta-large-mnli	model: roberta-large-mnli	downloads: 1069116	likes: 12	task: text-classification
+model: roberta-large-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+model: savasy/bert-turkish-uncased-qnli	model: savasy/bert-turkish-uncased-qnli	downloads: 77	likes: 0	task: text-classification
+model: savasy/bert-turkish-uncased-qnli	labels: LABEL_0, LABEL_1
+model: shivangi/MRPC_64_128_output	model: shivangi/MRPC_64_128_output	downloads: 66	likes: 0	task: text-classification
+model: shivangi/MRPC_64_128_output	labels: LABEL_0, LABEL_1
+model: shivangi/MRPC_output	model: shivangi/MRPC_output	downloads: 65	likes: 0	task: text-classification
+model: shivangi/MRPC_output	labels: LABEL_0, LABEL_1
+model: TehranNLP-org/bert-base-uncased-qqp-2e-5-42	model: TehranNLP-org/bert-base-uncased-qqp-2e-5-42	downloads: 28	likes: 0	task: text-classification
+model: TehranNLP-org/bert-base-uncased-qqp-2e-5-42	labels: LABEL_0, LABEL_1
+model: TehranNLP-org/roberta-base-qqp-2e-5-42	model: TehranNLP-org/roberta-base-qqp-2e-5-42	downloads: 26	likes: 0	task: text-classification
+model: TehranNLP-org/roberta-base-qqp-2e-5-42	labels: LABEL_0, LABEL_1
+model: textattack/albert-base-v2-CoLA	model: textattack/albert-base-v2-CoLA	downloads: 399	likes: 0	task: text-classification
+model: textattack/albert-base-v2-CoLA	labels: LABEL_0, LABEL_1
+model: textattack/albert-base-v2-MRPC	model: textattack/albert-base-v2-MRPC	downloads: 175	likes: 0	task: text-classification
+model: textattack/albert-base-v2-MRPC	labels: LABEL_0, LABEL_1
+model: textattack/albert-base-v2-QQP	model: textattack/albert-base-v2-QQP	downloads: 87	likes: 0	task: text-classification
+model: textattack/albert-base-v2-QQP	labels: LABEL_0, LABEL_1
+model: textattack/albert-base-v2-RTE	model: textattack/albert-base-v2-RTE	downloads: 125	likes: 0	task: text-classification
+model: textattack/albert-base-v2-RTE	labels: LABEL_0, LABEL_1
+model: textattack/bert-base-uncased-CoLA	model: textattack/bert-base-uncased-CoLA	downloads: 1349	likes: 0	task: text-classification
+model: textattack/bert-base-uncased-CoLA	labels: LABEL_0, LABEL_1
+model: textattack/bert-base-uncased-MNLI	model: textattack/bert-base-uncased-MNLI	downloads: 23056	likes: 0	task: text-classification
+model: textattack/bert-base-uncased-MNLI	labels: LABEL_0, LABEL_1, LABEL_2
+model: textattack/bert-base-uncased-MRPC	model: textattack/bert-base-uncased-MRPC	downloads: 10133	likes: 0	task: text-classification
+model: textattack/bert-base-uncased-MRPC	labels: LABEL_0, LABEL_1
+model: textattack/bert-base-uncased-QNLI	model: textattack/bert-base-uncased-QNLI	downloads: 596	likes: 0	task: text-classification
+model: textattack/bert-base-uncased-QNLI	labels: LABEL_0, LABEL_1
+model: textattack/bert-base-uncased-QQP	model: textattack/bert-base-uncased-QQP	downloads: 2816	likes: 0	task: text-classification
+model: textattack/bert-base-uncased-QQP	labels: LABEL_0, LABEL_1
+model: textattack/bert-base-uncased-RTE	model: textattack/bert-base-uncased-RTE	downloads: 586	likes: 0	task: text-classification
+model: textattack/bert-base-uncased-RTE	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-cased-CoLA	model: textattack/distilbert-base-cased-CoLA	downloads: 4860	likes: 0	task: text-classification
+model: textattack/distilbert-base-cased-CoLA	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-cased-MRPC	model: textattack/distilbert-base-cased-MRPC	downloads: 122	likes: 0	task: text-classification
+model: textattack/distilbert-base-cased-MRPC	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-cased-QQP	model: textattack/distilbert-base-cased-QQP	downloads: 95	likes: 0	task: text-classification
+model: textattack/distilbert-base-cased-QQP	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-uncased-CoLA	model: textattack/distilbert-base-uncased-CoLA	downloads: 16439	likes: 0	task: text-classification
+model: textattack/distilbert-base-uncased-CoLA	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-uncased-MRPC	model: textattack/distilbert-base-uncased-MRPC	downloads: 108	likes: 0	task: text-classification
+model: textattack/distilbert-base-uncased-MRPC	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-uncased-QNLI	model: textattack/distilbert-base-uncased-QNLI	downloads: 109	likes: 0	task: text-classification
+model: textattack/distilbert-base-uncased-QNLI	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-uncased-QQP	model: textattack/distilbert-base-uncased-QQP	downloads: 85	likes: 0	task: text-classification
+model: textattack/distilbert-base-uncased-QQP	labels: LABEL_0, LABEL_1
+model: textattack/distilbert-base-uncased-RTE	model: textattack/distilbert-base-uncased-RTE	downloads: 107	likes: 0	task: text-classification
+model: textattack/distilbert-base-uncased-RTE	labels: LABEL_0, LABEL_1
+model: textattack/roberta-base-CoLA	model: textattack/roberta-base-CoLA	downloads: 3159	likes: 0	task: text-classification
+model: textattack/roberta-base-CoLA	labels: LABEL_0, LABEL_1
+model: textattack/roberta-base-MNLI	model: textattack/roberta-base-MNLI	downloads: 24530	likes: 0	task: text-classification
+model: textattack/roberta-base-MNLI	labels: LABEL_0, LABEL_1, LABEL_2
+model: textattack/roberta-base-MRPC	model: textattack/roberta-base-MRPC	downloads: 1623	likes: 0	task: text-classification
+model: textattack/roberta-base-MRPC	labels: LABEL_0, LABEL_1
+model: textattack/roberta-base-QNLI	model: textattack/roberta-base-QNLI	downloads: 1305	likes: 0	task: text-classification
+model: textattack/roberta-base-QNLI	labels: LABEL_0, LABEL_1
+model: textattack/roberta-base-RTE	model: textattack/roberta-base-RTE	downloads: 756	likes: 0	task: text-classification
+model: textattack/roberta-base-RTE	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-base-cased-CoLA	model: textattack/xlnet-base-cased-CoLA	downloads: 102	likes: 0	task: text-generation
+model: textattack/xlnet-base-cased-CoLA	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-base-cased-MNLI	model: textattack/xlnet-base-cased-MNLI	downloads: 303	likes: 1	task: text-classification
+model: textattack/xlnet-base-cased-MNLI	labels: LABEL_0, LABEL_1, LABEL_2
+model: textattack/xlnet-base-cased-MRPC	model: textattack/xlnet-base-cased-MRPC	downloads: 96	likes: 0	task: text-generation
+model: textattack/xlnet-base-cased-MRPC	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-base-cased-QNLI	model: textattack/xlnet-base-cased-QNLI	downloads: 106	likes: 0	task: text-classification
+model: textattack/xlnet-base-cased-QNLI	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-base-cased-QQP	model: textattack/xlnet-base-cased-QQP	downloads: 86	likes: 0	task: text-classification
+model: textattack/xlnet-base-cased-QQP	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-base-cased-RTE	model: textattack/xlnet-base-cased-RTE	downloads: 102	likes: 0	task: text-generation
+model: textattack/xlnet-base-cased-RTE	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-large-cased-CoLA	model: textattack/xlnet-large-cased-CoLA	downloads: 113	likes: 0	task: text-classification
+model: textattack/xlnet-large-cased-CoLA	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-large-cased-MRPC	model: textattack/xlnet-large-cased-MRPC	downloads: 97	likes: 0	task: text-classification
+model: textattack/xlnet-large-cased-MRPC	labels: LABEL_0, LABEL_1
+model: textattack/xlnet-large-cased-QQP	model: textattack/xlnet-large-cased-QQP	downloads: 101	likes: 0	task: text-classification
+model: textattack/xlnet-large-cased-QQP	labels: LABEL_0, LABEL_1
+model: ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli	model: ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli	downloads: 2442	likes: 1	task: text-classification
+model: ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli	labels: entailment, neutral, contradiction
+model: ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	model: ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	downloads: 24141	likes: 2	task: text-classification
+model: ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	labels: entailment, neutral, contradiction
+model: yoshitomo-matsubara/bert-base-uncased-cola	model: yoshitomo-matsubara/bert-base-uncased-cola	downloads: 145	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-cola	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-mrpc	model: yoshitomo-matsubara/bert-base-uncased-mrpc	downloads: 52	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-mrpc	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-mrpc_from_bert-large-uncased-mrpc	model: yoshitomo-matsubara/bert-base-uncased-mrpc_from_bert-large-uncased-mrpc	downloads: 54	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-mrpc_from_bert-large-uncased-mrpc	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-qnli	model: yoshitomo-matsubara/bert-base-uncased-qnli	downloads: 55	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-qnli	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-qnli_from_bert-large-uncased-qnli	model: yoshitomo-matsubara/bert-base-uncased-qnli_from_bert-large-uncased-qnli	downloads: 63	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-qnli_from_bert-large-uncased-qnli	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-qqp	model: yoshitomo-matsubara/bert-base-uncased-qqp	downloads: 179	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-qqp	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-qqp_from_bert-large-uncased-qqp	model: yoshitomo-matsubara/bert-base-uncased-qqp_from_bert-large-uncased-qqp	downloads: 49	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-qqp_from_bert-large-uncased-qqp	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-rte	model: yoshitomo-matsubara/bert-base-uncased-rte	downloads: 73	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-rte	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-rte_from_bert-large-uncased-rte	model: yoshitomo-matsubara/bert-base-uncased-rte_from_bert-large-uncased-rte	downloads: 58	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-rte_from_bert-large-uncased-rte	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-sst2	model: yoshitomo-matsubara/bert-base-uncased-sst2	downloads: 64	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-sst2	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-base-uncased-sst2_from_bert-large-uncased-sst2	model: yoshitomo-matsubara/bert-base-uncased-sst2_from_bert-large-uncased-sst2	downloads: 59	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-base-uncased-sst2_from_bert-large-uncased-sst2	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-large-uncased-cola	model: yoshitomo-matsubara/bert-large-uncased-cola	downloads: 56	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-large-uncased-cola	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-large-uncased-mrpc	model: yoshitomo-matsubara/bert-large-uncased-mrpc	downloads: 59	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-large-uncased-mrpc	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-large-uncased-qnli	model: yoshitomo-matsubara/bert-large-uncased-qnli	downloads: 57	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-large-uncased-qnli	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-large-uncased-qqp	model: yoshitomo-matsubara/bert-large-uncased-qqp	downloads: 53	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-large-uncased-qqp	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-large-uncased-rte	model: yoshitomo-matsubara/bert-large-uncased-rte	downloads: 52	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-large-uncased-rte	labels: LABEL_0, LABEL_1
+model: yoshitomo-matsubara/bert-large-uncased-sst2	model: yoshitomo-matsubara/bert-large-uncased-sst2	downloads: 96	likes: 0	task: text-classification
+model: yoshitomo-matsubara/bert-large-uncased-sst2	labels: LABEL_0, LABEL_1
+model: zyl1024/bert-base-cased-finetuned-qqp	model: zyl1024/bert-base-cased-finetuned-qqp	downloads: 25	likes: 0	task: text-classification
+model: zyl1024/bert-base-cased-finetuned-qqp	labels: duplicate, not_duplicate

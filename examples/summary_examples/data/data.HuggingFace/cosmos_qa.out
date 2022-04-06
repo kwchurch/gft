@@ -1,0 +1,7 @@
+dataset: cosmos_qa	dataset: cosmos_qa	downloads: 14315	likes: 1	PWC: https://paperswithcode.com/dataset/cosmosqa
+dataset: cosmos_qa	splits: train: 25262 rows, test: 6963 rows, val: 2985 rows
+dataset: cosmos_qa	split: train	columns: id, context, question, answer0, answer1, answer2, answer3, label
+dataset: cosmos_qa --> 3 models
+dataset: cosmos_qa	model: AdapterHub/bert-base-uncased-pf-cosmos_qa	downloads: 20	likes: 0	task: None
+dataset: cosmos_qa	model: AdapterHub/roberta-base-pf-cosmos_qa	downloads: 15	likes: 0	task: None
+dataset: cosmos_qa	model: mamlong34/t5_small_cosmos_qa	downloads: 7	likes: 0	task: text2text-generation

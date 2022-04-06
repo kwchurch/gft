@@ -1,0 +1,2 @@
+dataset: advertisegen	splits: train: 114599 rows, dev: 1070 rows, val: 1070 rows, test: 1070 rows
+dataset: advertisegen	split: train	config: Default	cols: source, target, id

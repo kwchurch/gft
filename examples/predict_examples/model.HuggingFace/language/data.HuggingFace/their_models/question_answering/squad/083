@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one anas-awadalla/bert-base-uncased-few-shot-k-128-finetuned-squad-seed-42

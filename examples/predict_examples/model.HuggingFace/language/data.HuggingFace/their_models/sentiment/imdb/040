@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one mbateman/distilbert-base-uncased-finetuned-imdb-accelerate

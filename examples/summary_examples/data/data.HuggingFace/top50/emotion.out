@@ -1,0 +1,15 @@
+dataset: emotion	dataset: emotion	downloads: 16530	likes: 18	PWC: https://paperswithcode.com/dataset/emotion
+dataset: emotion	splits: train: 16000 rows, test: 2000 rows, val: 2000 rows
+dataset: emotion	split: train	columns: text, label
+dataset: emotion	labels: sadness, joy, love, anger, fear, surprise
+dataset: emotion --> 10 models
+dataset: emotion	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 577158	likes: 21	task: text-classification
+dataset: emotion	model: mrm8488/t5-small-finetuned-emotion	downloads: 12798	likes: 0	task: text2text-generation
+dataset: emotion	model: bhadresh-savani/roberta-base-emotion	downloads: 11231	likes: 0	task: text-classification
+dataset: emotion	model: nateraw/bert-base-uncased-emotion	downloads: 5082	likes: 3	task: text-classification
+dataset: emotion	model: mrm8488/t5-base-finetuned-emotion	downloads: 4774	likes: 4	task: text2text-generation
+dataset: emotion	model: bhadresh-savani/bert-base-uncased-emotion	downloads: 1007	likes: 1	task: text-classification
+dataset: emotion	model: lewiswatson/distilbert-base-uncased-finetuned-emotion	downloads: 502	likes: 0	task: text-classification
+dataset: emotion	model: transformersbook/distilbert-base-uncased-finetuned-emotion	downloads: 224	likes: 0	task: text-classification
+dataset: emotion	model: bhadresh-savani/albert-base-v2-emotion	downloads: 143	likes: 0	task: text-classification
+dataset: emotion	model: AdapterHub/bert-base-uncased-pf-emotion	downloads: 135	likes: 0	task: text-classification

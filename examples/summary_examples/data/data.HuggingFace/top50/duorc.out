@@ -1,0 +1,16 @@
+dataset: duorc	dataset: duorc	downloads: 11843	likes: 2	PWC: https://paperswithcode.com/dataset/duorc
+dataset: duorc,SelfRC	splits: train: 60721 rows, test: 12559 rows, val: 12961 rows
+dataset: duorc,SelfRC	split: train	columns: plot_id, plot, title, question_id, question, answers, no_answer
+dataset: duorc,ParaphraseRC	splits: train: 69524 rows, test: 15857 rows, val: 15591 rows
+dataset: duorc,ParaphraseRC	split: train	columns: plot_id, plot, title, question_id, question, answers, no_answer
+dataset: duorc --> 10 models
+dataset: duorc	model: mw2022/distilbert-base-uncased-finetuned-SelfRC	downloads: 48	likes: 0	task: question-answering
+dataset: duorc	model: AdapterHub/bert-base-uncased-pf-duorc_s	downloads: 22	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-selfr-mlm-trained	downloads: 18	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam4	downloads: 15	likes: 0	task: question-answering
+dataset: duorc	model: AdapterHub/bert-base-uncased-pf-duorc_p	downloads: 14	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam	downloads: 14	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam6	downloads: 14	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-reint3	downloads: 14	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-reint6	downloads: 14	likes: 0	task: question-answering
+dataset: duorc	model: AdapterHub/roberta-base-pf-duorc_s	downloads: 13	likes: 0	task: question-answering

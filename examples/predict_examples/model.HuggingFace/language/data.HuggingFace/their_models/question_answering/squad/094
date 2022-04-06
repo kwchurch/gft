@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one madlag/bert-base-uncased-squad-v1-sparse0.25

@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one Tahsin/distilbert-base-uncased-finetuned-emotion

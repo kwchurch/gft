@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one madlag/bert-large-uncased-wwm-squadv2-x2.63-f82.6-d16-hybrid-v1

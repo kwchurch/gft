@@ -1,0 +1,2 @@
+hostname = asimov-91.svail.baidu.com
+1257.21 seconds	/mnt/big/kwc/morphology/results/20220321/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_1.0_large_ch/ckpt/best	accuracy: 0.9291666666666667	f1: 0.9290175542371997

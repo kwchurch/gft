@@ -1,0 +1,13 @@
+dataset: americas_nli	dataset: americas_nli	downloads: 16689	likes: 0	
+dataset: americas_nli,aym	splits: test: 750 rows, val: 743 rows
+dataset: americas_nli,bzd	splits: test: 750 rows, val: 743 rows
+dataset: americas_nli,cni	splits: test: 750 rows, val: 658 rows
+dataset: americas_nli,gn	splits: test: 750 rows, val: 743 rows
+dataset: americas_nli,hch	splits: test: 750 rows, val: 743 rows
+dataset: americas_nli,nah	splits: test: 738 rows, val: 376 rows
+dataset: americas_nli,oto	splits: test: 748 rows, val: 222 rows
+dataset: americas_nli,quy	splits: test: 750 rows, val: 743 rows
+dataset: americas_nli,shp	splits: test: 750 rows, val: 743 rows
+dataset: americas_nli,tar	splits: test: 750 rows, val: 743 rows
+dataset: americas_nli,all_languages	splits: test: 7486 rows, val: 6457 rows
+# dataset: americas_nli --> 0 models

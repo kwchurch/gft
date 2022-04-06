@@ -1,0 +1,2 @@
+model: facebook/bart-large-xsum	model: facebook/bart-large-xsum	downloads: 39556	likes: 3	task: summarization
+model: facebook/bart-large-xsum	labels: LABEL_0, LABEL_1, LABEL_2

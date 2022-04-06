@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad_v2/do_one mrm8488/longformer-base-4096-finetuned-squadv2

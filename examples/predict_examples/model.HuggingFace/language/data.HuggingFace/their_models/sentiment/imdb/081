@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one yxchar/tlm-imdb-small-scale

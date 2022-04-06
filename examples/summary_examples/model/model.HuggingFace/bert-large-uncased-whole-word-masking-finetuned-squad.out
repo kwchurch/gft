@@ -1,0 +1,2 @@
+model: bert-large-uncased-whole-word-masking-finetuned-squad	model: bert-large-uncased-whole-word-masking-finetuned-squad	downloads: 392923	likes: 20	task: question-answering
+model: bert-large-uncased-whole-word-masking-finetuned-squad	labels: LABEL_0, LABEL_1

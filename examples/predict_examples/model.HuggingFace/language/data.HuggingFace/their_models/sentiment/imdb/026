@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one lewtun/MiniLM-L12-H384-uncased-finetuned-imdb

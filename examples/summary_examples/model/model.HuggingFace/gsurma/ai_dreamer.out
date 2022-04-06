@@ -1,0 +1,9 @@
+model: gsurma/ai_dreamer	model: gsurma/ai_dreamer	downloads: 573	likes: 2	task: text-to-image
+***ERROR***
+model: gsurma/ai_dreamer
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'OSError'>, OSError('gsurma/ai_dreamer does not appear to have a file named pytorch_model.bin but there is a file for Flax weights. Use `from_flax=True` to load this model from those weights.'), <traceback object at 0x7f185dfe7140>)

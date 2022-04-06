@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one abhishek/autonlp-imdb-roberta-base-3662644

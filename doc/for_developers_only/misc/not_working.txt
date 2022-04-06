@@ -1,0 +1,603 @@
+not working
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.PaddleHub/question_answering/squad.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 90, in training_function
+    fine_tune_for_classify_spans.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_spans.py", line 147, in fine_tune
+    column_names = raw_datasets["train"].column_names
+AttributeError: 'MapDataset' object has no attribute 'column_names'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.PaddleHub/question_answering/squad_v2.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 90, in training_function
+    fine_tune_for_classify_spans.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_spans.py", line 147, in fine_tune
+    column_names = raw_datasets["train"].column_names
+AttributeError: 'MapDataset' object has no attribute 'column_names'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.HuggingFace/paraphrase/paws_labeled_swap.err <==
+    return forward_call(*input, **kwargs)
+  File "/mnt/big/kwc/useful_resources/transformers/src/transformers/models/bart/modeling_bart.py", line 438, in forward
+    hidden_states = self.activation_fn(self.fc1(hidden_states))
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/nn/functional.py", line 1848, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: CUDA out of memory. Tried to allocate 12.00 MiB (GPU 0; 10.76 GiB total capacity; 9.38 GiB already allocated; 6.56 MiB free; 9.59 GiB reserved in total by PyTorch) If reserved memory is 
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.HuggingFace/paraphrase/paws_labeled_final.err <==
+    return forward_call(*input, **kwargs)
+  File "/mnt/big/kwc/useful_resources/transformers/src/transformers/models/bart/modeling_bart.py", line 440, in forward
+    hidden_states = self.fc2(hidden_states)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 103, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/nn/functional.py", line 1848, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 10.92 GiB total capacity; 9.63 GiB already allocated; 3.44 MiB free; 10.11 GiB reserved in total by PyTorch) If reserved memory is
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.HuggingFace/text_classification/snli.err <==
+    accelerator.backward(loss)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/accelerate/accelerator.py", line 408, in backward
+    loss.backward(**kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/torch/autograd/__init__.py", line 156, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.HuggingFace/sentiment/yelp_review_full.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/load.py", line 1707, in load_dataset
+    use_auth_token=use_auth_token,
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 595, in download_and_prepare
+    dl_manager=dl_manager, verify_infos=verify_infos, **download_and_prepare_kwargs
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 666, in _download_and_prepare
+    self.info.download_checksums, dl_manager.get_recorded_sizes_checksums(), "dataset source files"
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/utils/info_utils.py", line 40, in verify_checksums
+    raise NonMatchingChecksumError(error_msg + str(bad_urls))
+datasets.utils.info_utils.NonMatchingChecksumError: Checksums didn't match for dataset source files:
+['https://drive.google.com/uc?export=download&id=0Bz8a_Dbh9QhbZlU4dXhHTFhZQU0']
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.HuggingFace/sentiment/amazon_polarity.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/load.py", line 1707, in load_dataset
+    use_auth_token=use_auth_token,
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 595, in download_and_prepare
+    dl_manager=dl_manager, verify_infos=verify_infos, **download_and_prepare_kwargs
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 666, in _download_and_prepare
+    self.info.download_checksums, dl_manager.get_recorded_sizes_checksums(), "dataset source files"
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/utils/info_utils.py", line 40, in verify_checksums
+    raise NonMatchingChecksumError(error_msg + str(bad_urls))
+datasets.utils.info_utils.NonMatchingChecksumError: Checksums didn't match for dataset source files:
+['https://drive.google.com/u/0/uc?id=0Bz8a_Dbh9QhbaW12WVVZS2drcnM&export=download']
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.HuggingFace/language/data.HuggingFace/case_restoration/case_restoration.yelp_review_full.err <==
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 584, in from_local_or_remote
+    if not isinstance(patterns_for_key, DataFilesList)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/mnt/big/kwc/morphology/results/20220217b/./model.HuggingFace/language/data.HuggingFace/case_restoration/case_restoration.yelp_review_full/ckpt/yelp_review_full.trai
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/KGC/WN18RR.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [5])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/VAD/simple/100k.err <==
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 76, in training_function
+    fine_tune_for_regress.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 312, in fine_tune
+    loss.float().backward()
+AttributeError: 'Tensor' object has no attribute 'float'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/VAD/simple/10k.err <==
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 76, in training_function
+    fine_tune_for_regress.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 312, in fine_tune
+    loss.float().backward()
+AttributeError: 'Tensor' object has no attribute 'float'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/VAD/simple/1000k.err <==
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 76, in training_function
+    fine_tune_for_regress.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 312, in fine_tune
+    loss.float().backward()
+AttributeError: 'Tensor' object has no attribute 'float'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/VAD/VAD.err <==
+    fine_tune_for_regress.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 210, in fine_tune
+    processed_datasets = { 'train' : [preprocess_function(e) for e in raw_datasets['train']],
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 210, in <listcomp>
+    processed_datasets = { 'train' : [preprocess_function(e) for e in raw_datasets['train']],
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 194, in preprocess_function
+    assert len(y_field_names) == 1, 'classify is currently limited to just one y variable: ' + str(y_field_names) + '; suggest using a HuggingFace model instead of PaddleHub'
+AssertionError: classify is currently limited to just one y variable: ['Valence', 'Arousal', 'Dominance']; suggest using a HuggingFace model instead of PaddleHub
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.PaddleHub/glue/mnli_mismatched.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.PaddleHub/glue/mnli_matched.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.PaddleHub/glue/stsb.err <==
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 76, in training_function
+    fine_tune_for_regress.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 312, in fine_tune
+    loss.float().backward()
+AttributeError: 'Tensor' object has no attribute 'float'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.PaddleHub/question_answering/squad.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 90, in training_function
+    fine_tune_for_classify_spans.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_spans.py", line 147, in fine_tune
+    column_names = raw_datasets["train"].column_names
+AttributeError: 'MapDataset' object has no attribute 'column_names'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.PaddleHub/question_answering/squad_v2.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 90, in training_function
+    fine_tune_for_classify_spans.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_spans.py", line 147, in fine_tune
+    column_names = raw_datasets["train"].column_names
+AttributeError: 'MapDataset' object has no attribute 'column_names'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_sentiment.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_feminist.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_climate.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emoji.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [12])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_atheism.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_hillary.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emotion.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [3])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_abortion.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/banking77.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [55])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/snli.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/ag_news.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [3])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/onestop_english.err <==
+
+Out of memory error on GPU 0. Cannot allocate 668.408936MB memory on GPU 0, 23.342773GB memory has been allocated and available memory is only 575.375000MB.
+
+Please check whether there is any other process using GPU 0.
+1. If yes, please stop them, or start PaddlePaddle on another GPU.
+2. If no, please decrease the batch size of your model. 
+
+ (at /paddle/paddle/fluid/memory/allocation/cuda_allocator.cc:79)
+. (at /paddle/paddle/fluid/imperative/tracer.cc:221)
+
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/text_classification/emotion.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [4])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/glue/mnli_mismatched.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/glue/mnli_matched.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/glue/stsb.err <==
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 76, in training_function
+    fine_tune_for_regress.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 312, in fine_tune
+    loss.float().backward()
+AttributeError: 'Tensor' object has no attribute 'float'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/senti_lex/fr.err <==
+    fine_tune_for_classify.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets, is_regression)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_pd.py", line 315, in fine_tune
+    metric.add_batch(predictions=predictions, references=gold_references)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/metric.py", line 437, in add_batch
+    batch = self.info.features.encode_batch(batch)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/features/features.py", line 1304, in encode_batch
+    encoded_batch[key] = [encode_nested_example(self[key], obj) for obj in column]
+TypeError: iteration over a 0-d array
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/yelp_review_full.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/load.py", line 1707, in load_dataset
+    use_auth_token=use_auth_token,
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 595, in download_and_prepare
+    dl_manager=dl_manager, verify_infos=verify_infos, **download_and_prepare_kwargs
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 666, in _download_and_prepare
+    self.info.download_checksums, dl_manager.get_recorded_sizes_checksums(), "dataset source files"
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/utils/info_utils.py", line 40, in verify_checksums
+    raise NonMatchingChecksumError(error_msg + str(bad_urls))
+datasets.utils.info_utils.NonMatchingChecksumError: Checksums didn't match for dataset source files:
+['https://drive.google.com/uc?export=download&id=0Bz8a_Dbh9QhbZlU4dXhHTFhZQU0']
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/amazon_reviews_multi.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [4])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/ethos.err <==
+
+Out of memory error on GPU 0. Cannot allocate 289.424561MB memory on GPU 0, 11.667053GB memory has been allocated and available memory is only 249.000000MB.
+
+Please check whether there is any other process using GPU 0.
+1. If yes, please stop them, or start PaddlePaddle on another GPU.
+2. If no, please decrease the batch size of your model. 
+
+ (at /paddle/paddle/fluid/memory/allocation/cuda_allocator.cc:79)
+. (at /paddle/paddle/fluid/imperative/tracer.cc:221)
+
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/amazon_polarity.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/load.py", line 1707, in load_dataset
+    use_auth_token=use_auth_token,
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 595, in download_and_prepare
+    dl_manager=dl_manager, verify_infos=verify_infos, **download_and_prepare_kwargs
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/builder.py", line 666, in _download_and_prepare
+    self.info.download_checksums, dl_manager.get_recorded_sizes_checksums(), "dataset source files"
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/utils/info_utils.py", line 40, in verify_checksums
+    raise NonMatchingChecksumError(error_msg + str(bad_urls))
+datasets.utils.info_utils.NonMatchingChecksumError: Checksums didn't match for dataset source files:
+['https://drive.google.com/u/0/uc?id=0Bz8a_Dbh9QhbaW12WVVZS2drcnM&export=download']
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/imdb.err <==
+
+Out of memory error on GPU 0. Cannot allocate 372.832764MB memory on GPU 0, 11.591064GB memory has been allocated and available memory is only 343.625000MB.
+
+Please check whether there is any other process using GPU 0.
+1. If yes, please stop them, or start PaddlePaddle on another GPU.
+2. If no, please decrease the batch size of your model. 
+
+ (at /paddle/paddle/fluid/memory/allocation/cuda_allocator.cc:79)
+. (at /paddle/paddle/fluid/imperative/tracer.cc:221)
+
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/poem_sentiment.err <==
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/layer/loss.py", line 406, in forward
+    name=self.name)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/paddle/nn/functional/loss.py", line 1662, in cross_entropy
+    format(label_max))
+ValueError: label should not out of bound, but gotTensor(shape=[1], dtype=int64, place=CUDAPlace(0), stop_gradient=True,
+       [2])
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/sentiment/sst.err <==
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 76, in training_function
+    fine_tune_for_regress.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress.py", line 17, in fine_tune
+    return fine_tune_pd(args, eqn, accelerator, raw_datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_regress_pd.py", line 312, in fine_tune
+    loss.float().backward()
+AttributeError: 'Tensor' object has no attribute 'float'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/case_restoration/case_restoration.yelp_review_full.err <==
+    data_files = DataFilesDict.from_local_or_remote(patterns, use_auth_token=self.downnload_config.use_auth_token)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 584, in from_local_or_remote
+    if not isinstance(patterns_for_key, DataFilesList)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 546, in from_local_or_remote
+    data_files = resolve_patterns_locally_or_by_urls(base_path, patterns, allowed_extensions)
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 196, in resolve_patterns_locally_or_by_urls
+    for path in _resolve_single_pattern_locally(base_path, pattern, allowed_extensions):
+  File "/mnt/home/kwc/venv/deepnet_examples12/lib/python3.7/site-packages/datasets/data_files.py", line 146, in _resolve_single_pattern_locally
+    raise FileNotFoundError(error_msg)
+FileNotFoundError: Unable to find '/mnt/big/kwc/morphology/results/20220217b/./model.PaddleHub/language/data.HuggingFace/case_restoration/case_restoration.yelp_review_full/ckpt/yelp_review_full.train'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/case_restoration/case_restoration.ag_news.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 86, in training_function
+    fine_tune_for_classify_tokens.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_tokens.py", line 427, in fine_tune
+    processed_raw_datasets = raw_datasets.map(
+AttributeError: 'dict' object has no attribute 'map'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/case_restoration/case_restoration.imdb.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 86, in training_function
+    fine_tune_for_classify_tokens.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_tokens.py", line 427, in fine_tune
+    processed_raw_datasets = raw_datasets.map(
+AttributeError: 'dict' object has no attribute 'map'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/conll2003/chunk.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 86, in training_function
+    fine_tune_for_classify_tokens.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_tokens.py", line 427, in fine_tune
+    processed_raw_datasets = raw_datasets.map(
+AttributeError: 'dict' object has no attribute 'map'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/conll2003/ner.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 86, in training_function
+    fine_tune_for_classify_tokens.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_tokens.py", line 427, in fine_tune
+    processed_raw_datasets = raw_datasets.map(
+AttributeError: 'dict' object has no attribute 'map'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/conll2003/pos.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 86, in training_function
+    fine_tune_for_classify_tokens.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_tokens.py", line 427, in fine_tune
+    processed_raw_datasets = raw_datasets.map(
+AttributeError: 'dict' object has no attribute 'map'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/question_answering/squad.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 90, in training_function
+    fine_tune_for_classify_spans.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_spans.py", line 147, in fine_tune
+    column_names = raw_datasets["train"].column_names
+AttributeError: 'MapDataset' object has no attribute 'column_names'
+
+==> /mnt/big/kwc/morphology/results/20220217b/model.PaddleHub/language/data.HuggingFace/question_answering/squad_v2.err <==
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft4/gft/gft", line 113, in <module>
+    main()
+  File "/mnt/home/kwc/gft4/gft/gft", line 109, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft4/gft/gft", line 90, in training_function
+    fine_tune_for_classify_spans.fine_tune(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft4/gft/fine_tune_for_classify_spans.py", line 147, in fine_tune
+    column_names = raw_datasets["train"].column_names
+AttributeError: 'MapDataset' object has no attribute 'column_names'
+

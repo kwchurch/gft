@@ -1,0 +1,2 @@
+#!/bin/sh
+$amazon_reviews_multi/do_one Hormigo/roberta-base-bne-finetuned-amazon_reviews_multi

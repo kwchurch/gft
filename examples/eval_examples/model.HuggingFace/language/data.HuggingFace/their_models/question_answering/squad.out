@@ -1,0 +1,93 @@
+hostname = asimov-26.svail.baidu.com
+04/04/2022 21:19:50 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3addf3b3321da123.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-4f5228dab8688ba2.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3ca62b99b95d8618.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-cfd886c0a9e6d770.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-61e0c724b86c831e.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-f5d5baf2cc2e7cc1.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-0b8d42c79eebf9ed.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-475c3a04b8779ea9.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-0328f8715c475e34.arrow
+04/04/2022 21:19:57 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-aec54f58fa1537bb.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-4673eda69b902cdb.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a3bf43921b59f0ba.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ae32f83c73dfb55a.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-dbab8f0659a7fc60.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a1ff3d5be2cb03ca.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-59d9da623cdf813b.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-928539e5d092edda.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-401688ad0987c1ce.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-48adb7a5443cf2dc.arrow
+04/04/2022 21:19:58 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b4116cc2833ba18d.arrow
+04/04/2022 21:20:02 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:21:17 - INFO - utils_qa - Post-processing 10570 example predictions split into 10822 features.
+***** eval metrics *****
+  eval_exact_match = 79.6405
+  eval_f1          =  87.021
+  eval_samples     =   10822
+*** ERROR ***	H:distilbert-base-cased-distilled-squad
+04/04/2022 21:21:44 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:22:33 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:29:45 - INFO - utils_qa - Post-processing 10570 example predictions split into 10784 features.
+***** eval metrics *****
+  eval_exact_match = 86.9253
+  eval_f1          = 93.1584
+  eval_samples     =   10784
+*** ERROR ***	H:bert-large-uncased-whole-word-masking-finetuned-squad
+04/04/2022 21:30:13 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:30:51 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:32:05 - INFO - utils_qa - Post-processing 10570 example predictions split into 10784 features.
+***** eval metrics *****
+  eval_exact_match =  79.035
+  eval_f1          = 86.8374
+  eval_samples     =   10784
+*** ERROR ***	H:distilbert-base-uncased-distilled-squad
+04/04/2022 21:32:32 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:33:16 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:40:42 - INFO - utils_qa - Post-processing 10570 example predictions split into 10822 features.
+***** eval metrics *****
+  eval_exact_match = 87.6727
+  eval_f1          = 93.4744
+  eval_samples     =   10822
+*** ERROR ***	H:bert-large-cased-whole-word-masking-finetuned-squad
+04/04/2022 21:41:11 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:41:57 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:44:20 - INFO - utils_qa - Post-processing 10570 example predictions split into 10790 features.
+***** eval metrics *****
+  eval_exact_match = 83.6235
+  eval_f1          = 91.1823
+  eval_samples     =   10790
+*** ERROR ***	H:thatdramebaazguy/roberta-base-squad
+04/04/2022 21:44:47 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:47:25 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:55:03 - INFO - utils_qa - Post-processing 10570 example predictions split into 10850 features.
+***** eval metrics *****
+  eval_exact_match = 85.3737
+  eval_f1          = 91.8329
+  eval_samples     =   10850
+*** ERROR ***	H:dmis-lab/biobert-large-cased-v1.1-squad
+04/04/2022 21:55:33 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:56:06 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:56:19 - INFO - utils_qa - Post-processing 10570 example predictions split into 10822 features.
+***** eval metrics *****
+  eval_exact_match = 0.1419
+  eval_f1          = 4.8005
+  eval_samples     =  10822
+*** ERROR ***	H:sshleifer/tiny-distilbert-base-cased-distilled-squad
+04/04/2022 21:56:45 - WARNING - eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+04/04/2022 21:57:31 - INFO - eval_for_classify_spans_hf - *** Evaluate ***
+04/04/2022 21:59:55 - INFO - utils_qa - Post-processing 10570 example predictions split into 10784 features.
+***** eval metrics *****
+  eval_exact_match = 80.9082
+  eval_f1          = 88.2275
+  eval_samples     =   10784
+*** ERROR ***	H:csarron/bert-base-uncased-squad-v1

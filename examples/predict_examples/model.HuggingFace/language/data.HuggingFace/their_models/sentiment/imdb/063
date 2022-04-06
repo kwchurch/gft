@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one w11wo/javanese-bert-small-imdb

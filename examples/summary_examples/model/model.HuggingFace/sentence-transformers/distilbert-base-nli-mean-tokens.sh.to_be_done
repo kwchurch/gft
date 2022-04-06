@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gft_summary --model H:sentence-transformers/distilbert-base-nli-mean-tokens --task H:sentence-transformer

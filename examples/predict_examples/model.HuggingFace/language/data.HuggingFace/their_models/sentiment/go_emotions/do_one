@@ -1,0 +1,9 @@
+#!/bin/sh
+
+for model in $*
+	     do
+    echo "MODEL $model"
+
+gft_dataset --data H:go_emotions,simplified --eqn 'classify: labels ~ text' --split test |
+gft_predict --model H:$model
+done

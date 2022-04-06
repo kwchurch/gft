@@ -1,0 +1,2 @@
+model: distilbert-base-uncased-distilled-squad	model: distilbert-base-uncased-distilled-squad	downloads: 169566	likes: 5	task: question-answering
+model: distilbert-base-uncased-distilled-squad	labels: LABEL_0, LABEL_1

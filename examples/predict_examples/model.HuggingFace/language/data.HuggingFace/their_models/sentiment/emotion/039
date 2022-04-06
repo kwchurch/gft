@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one jpabbuehl/sagemaker-distilbert-emotion

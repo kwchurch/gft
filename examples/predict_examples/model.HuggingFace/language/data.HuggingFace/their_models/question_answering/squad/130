@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one husnu/xtremedistil-l6-h256-uncased-TQUAD-finetuned_lr-2e-05_epochs-9

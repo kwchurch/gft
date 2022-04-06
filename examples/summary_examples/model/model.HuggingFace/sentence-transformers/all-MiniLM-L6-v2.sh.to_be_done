@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# This depends on https://github.com/UKPLab/sentence-transformers
+# See https://huggingface.co/sentence-transformers/paraphrase-mpnet-base-v2
+
+gft_summary --model sentence-transformers/all-MiniLM-L6-v2

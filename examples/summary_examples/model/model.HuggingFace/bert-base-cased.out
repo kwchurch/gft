@@ -1,0 +1,2 @@
+model: bert-base-cased	model: bert-base-cased	downloads: 2790469	likes: 16	task: fill-mask
+model: bert-base-cased	labels: LABEL_0, LABEL_1

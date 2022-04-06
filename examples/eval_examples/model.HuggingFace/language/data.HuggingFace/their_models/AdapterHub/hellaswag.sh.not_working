@@ -1,0 +1,6 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+model=AdapterHub/bert-base-uncased-pf-hellaswag
+data=hellaswag
+gft_eval --data H:hellaswag --model H:AdapterHub/bert-base-uncased-pf-hellaswag --split test 

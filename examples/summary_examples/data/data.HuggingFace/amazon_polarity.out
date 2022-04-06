@@ -1,0 +1,6 @@
+dataset: amazon_polarity	dataset: amazon_polarity	downloads: 31036	likes: 7	
+dataset: amazon_polarity,amazon_polarity	splits: train: 3600000 rows, test: 400000 rows
+dataset: amazon_polarity,amazon_polarity	split: train	columns: label, title, content
+dataset: amazon_polarity,amazon_polarity	labels: negative, positive
+dataset: amazon_polarity --> 1 models
+dataset: amazon_polarity	model: fabriceyhc/bert-base-uncased-amazon_polarity	downloads: 3605	likes: 0	task: text-classification

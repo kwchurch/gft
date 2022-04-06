@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one trnt/twitter_emotions

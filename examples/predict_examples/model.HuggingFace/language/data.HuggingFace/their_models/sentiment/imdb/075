@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one xkang/distilbert-base-uncased-finetuned-imdb-whole-word-masking

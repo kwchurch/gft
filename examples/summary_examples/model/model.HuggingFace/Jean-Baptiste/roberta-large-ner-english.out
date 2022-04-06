@@ -1,0 +1,2 @@
+model: Jean-Baptiste/roberta-large-ner-english	model: Jean-Baptiste/roberta-large-ner-english	downloads: 204029	likes: 2	task: token-classification
+model: Jean-Baptiste/roberta-large-ner-english	labels: LOC, MISC, O, ORG, PER

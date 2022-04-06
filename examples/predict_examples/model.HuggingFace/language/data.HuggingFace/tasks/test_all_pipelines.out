@@ -1,0 +1,42 @@
+task: audio-classification	pipe.model: superb/wav2vec2-base-superb-ks
+task: audio-classification	model: superb/wav2vec2-base-superb-ks	pipe.model: superb/wav2vec2-base-superb-ks
+task: automatic-speech-recognition	pipe.model: facebook/wav2vec2-base-960h
+task: automatic-speech-recognition	model: facebook/wav2vec2-base-960h	pipe.model: facebook/wav2vec2-base-960h
+task: conversational	pipe.model: microsoft/DialoGPT-medium
+task: conversational	model: microsoft/DialoGPT-small	pipe.model: microsoft/DialoGPT-small
+task: feature-extraction	pipe.model: distilbert-base-cased
+task: feature-extraction	model: openai/clip-vit-base-patch32	pipe.model: openai/clip-vit-base-patch32
+task: fill-mask	pipe.model: distilroberta-base
+task: fill-mask	model: bert-base-uncased	pipe.model: bert-base-uncased
+task: image-classification	pipe.model: google/vit-base-patch16-224
+task: image-classification	model: google/vit-base-patch16-224	pipe.model: google/vit-base-patch16-224
+task: image-segmentation	pipe.model: ***ERROR***
+task: image-segmentation	model: hf-internal-testing/tiny-random-beit-pipeline	pipe.model: hf-internal-testing/tiny-random-beit-pipeline
+task: ner	pipe.model: dbmdz/bert-large-cased-finetuned-conll03-english
+task: ner	model: dbmdz/bert-large-cased-finetuned-conll03-english	pipe.model: dbmdz/bert-large-cased-finetuned-conll03-english
+task: object-detection	pipe.model: ***ERROR***
+task: object-detection	model: facebook/detr-resnet-50	pipe.model: ***ERROR***
+task: question-answering	pipe.model: distilbert-base-cased-distilled-squad
+task: question-answering	model: deepset/roberta-base-squad2	pipe.model: deepset/roberta-base-squad2
+task: sentiment-analysis	pipe.model: distilbert-base-uncased-finetuned-sst-2-english
+task: sentiment-analysis	model: distilbert-base-uncased-finetuned-sst-2-english	pipe.model: distilbert-base-uncased-finetuned-sst-2-english
+task: summarization	pipe.model: sshleifer/distilbart-cnn-12-6
+task: summarization	model: google/pegasus-xsum	pipe.model: google/pegasus-xsum
+task: table-question-answering	pipe.model: ***ERROR***
+task: table-question-answering	model: google/tapas-base-finetuned-wtq	pipe.model: ***ERROR***
+task: text-classification	pipe.model: distilbert-base-uncased-finetuned-sst-2-english
+task: text-classification	model: cross-encoder/ms-marco-MiniLM-L-12-v2	pipe.model: cross-encoder/ms-marco-MiniLM-L-12-v2
+task: text-generation	pipe.model: gpt2
+task: text-generation	model: distilgpt2	pipe.model: distilgpt2
+task: text2text-generation	pipe.model: t5-base
+task: text2text-generation	model: facebook/m2m100_418M	pipe.model: facebook/m2m100_418M
+task: token-classification	pipe.model: dbmdz/bert-large-cased-finetuned-conll03-english
+task: token-classification	model: xlm-roberta-large-finetuned-conll03-english	pipe.model: xlm-roberta-large-finetuned-conll03-english
+task: translation	pipe.model: ***ERROR***
+task: translation	model: Helsinki-NLP/opus-mt-zh-en	pipe.model: Helsinki-NLP/opus-mt-zh-en
+task: zero-shot-classification	pipe.model: facebook/bart-large-mnli
+task: zero-shot-classification	model: facebook/bart-large-mnli	pipe.model: facebook/bart-large-mnli
+task: zero-shot-image-classification	pipe.model: openai/clip-vit-base-patch32
+task: zero-shot-image-classification	model: hf-internal-testing/tiny-random-clip-zero-shot-image-classification	pipe.model: hf-internal-testing/tiny-random-clip-zero-shot-image-classification
+task: translation_XX_to_YY	pipe.model: ***ERROR***
+task: translation_XX_to_YY	model: Helsinki-NLP/opus-mt-zh-en	pipe.model: Helsinki-NLP/opus-mt-zh-en

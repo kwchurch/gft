@@ -1,0 +1,33 @@
+dataset: super_glue	dataset: super_glue	downloads: 191595	likes: 10	PWC: https://paperswithcode.com/dataset/superglue
+dataset: super_glue,boolq	splits: train: 9427 rows, test: 3245 rows, val: 3270 rows
+dataset: super_glue,boolq	split: train	columns: question, passage, idx, label
+dataset: super_glue,boolq	labels: False, True
+dataset: super_glue,cb	splits: train: 250 rows, test: 250 rows, val: 56 rows
+dataset: super_glue,cb	split: train	columns: premise, hypothesis, idx, label
+dataset: super_glue,cb	labels: entailment, contradiction, neutral
+dataset: super_glue,copa	splits: train: 400 rows, test: 500 rows, val: 100 rows
+dataset: super_glue,copa	split: train	columns: premise, choice1, choice2, question, idx, label
+dataset: super_glue,copa	labels: choice1, choice2
+dataset: super_glue,multirc	splits: train: 27243 rows, test: 9693 rows, val: 4848 rows
+dataset: super_glue,multirc	split: train	columns: paragraph, question, answer, idx, label
+dataset: super_glue,multirc	labels: False, True
+dataset: super_glue,record	splits: train: 100730 rows, test: 10000 rows, val: 10000 rows
+dataset: super_glue,record	split: train	columns: passage, query, entities, answers, idx
+dataset: super_glue,rte	splits: train: 2490 rows, test: 3000 rows, val: 277 rows
+dataset: super_glue,rte	split: train	columns: premise, hypothesis, idx, label
+dataset: super_glue,rte	labels: entailment, not_entailment
+dataset: super_glue,wic	splits: train: 5428 rows, test: 1400 rows, val: 638 rows
+dataset: super_glue,wic	split: train	columns: word, sentence1, sentence2, start1, start2, end1, end2, idx, label
+dataset: super_glue,wic	labels: False, True
+dataset: super_glue,wsc	splits: train: 554 rows, test: 146 rows, val: 104 rows
+dataset: super_glue,wsc	split: train	columns: text, span1_index, span2_index, span1_text, span2_text, idx, label
+dataset: super_glue,wsc	labels: False, True
+dataset: super_glue,wsc.fixed	splits: train: 554 rows, test: 146 rows, val: 104 rows
+dataset: super_glue,wsc.fixed	split: train	columns: text, span1_index, span2_index, span1_text, span2_text, idx, label
+dataset: super_glue,wsc.fixed	labels: False, True
+dataset: super_glue,axb	splits: test: 1104 rows
+dataset: super_glue,axg	splits: test: 356 rows
+dataset: super_glue --> 3 models
+dataset: super_glue	model: msintaha/bert-base-uncased-finetuned-copa-data-new	downloads: 20	likes: 0	task: None
+dataset: super_glue	model: msintaha/bert-base-uncased-copa-kb-27	downloads: 9	likes: 0	task: None
+dataset: super_glue	model: msintaha/bert-base-uncased-copa-kb-17	downloads: 6	likes: 0	task: None

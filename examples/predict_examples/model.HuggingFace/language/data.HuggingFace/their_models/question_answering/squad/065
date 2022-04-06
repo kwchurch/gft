@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one sontn122/xlm-roberta-large-finetuned-squad

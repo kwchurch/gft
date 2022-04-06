@@ -1,0 +1,3 @@
+dataset: c3	splits: train: 11869 rows, test: 3892 rows, val: 3816 rows
+dataset: c3	split: train	config: Default	cols: context, question, choice, answer, label
+dataset: c3	labels: 0, 1, 2, 3

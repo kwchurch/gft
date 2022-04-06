@@ -1,0 +1,7 @@
+
+data_provider: Custom
+model_provider: HuggingFace
+a: None
+model_provider: HuggingFace
+model_key: facebook/blenderbot-3B
+base_model: <class 'transformers.models.auto.modeling_auto.AutoModelForCausalLM'>

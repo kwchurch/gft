@@ -1,0 +1,1 @@
+{"unk_token": "[UNK]", "bos_token": "<s>", "eos_token": "</s>", "pad_token": "[PAD]", "do_lower_case": false, "word_delimiter_token": "|", "special_tokens_map_file": null, "tokenizer_file": null, "name_or_path": "output/wav2vec2-base.timit_asr.32", "tokenizer_class": "Wav2Vec2CTCTokenizer"}

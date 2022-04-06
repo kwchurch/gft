@@ -1,0 +1,3 @@
+hostname = asimov-126.svail.baidu.com
+11.46 seconds	AdapterHub/bert-base-uncased-pf-sick	accuracy: 0.8281695882592743	f1: 0.8261643241286974
+11.43 seconds	AdapterHub/bert-base-uncased-pf-sick	accuracy: 0.8281695882592743	f1: 0.8261643241286974

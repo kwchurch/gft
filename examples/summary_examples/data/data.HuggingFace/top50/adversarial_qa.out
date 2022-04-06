@@ -1,0 +1,11 @@
+dataset: adversarial_qa	dataset: adversarial_qa	downloads: 16300	likes: 6	PWC: https://paperswithcode.com/dataset/adversarialqa
+dataset: adversarial_qa,adversarialQA	splits: train: 30000 rows, test: 3000 rows, val: 3000 rows
+dataset: adversarial_qa,adversarialQA	split: train	columns: id, title, context, question, answers, metadata
+dataset: adversarial_qa,dbidaf	splits: train: 10000 rows, test: 1000 rows, val: 1000 rows
+dataset: adversarial_qa,dbidaf	split: train	columns: id, title, context, question, answers, metadata
+dataset: adversarial_qa,dbert	splits: train: 10000 rows, test: 1000 rows, val: 1000 rows
+dataset: adversarial_qa,dbert	split: train	columns: id, title, context, question, answers, metadata
+dataset: adversarial_qa,droberta	splits: train: 10000 rows, test: 1000 rows, val: 1000 rows
+dataset: adversarial_qa,droberta	split: train	columns: id, title, context, question, answers, metadata
+dataset: adversarial_qa --> 1 models
+dataset: adversarial_qa	model: T-qualizer/distilbert-base-uncased-finetuned-advers	downloads: 21	likes: 0	task: question-answering

@@ -1,0 +1,12 @@
+# found: 62 matches; truncating to 10
+task: audio-to-audio --> 10 models
+task: audio-to-audio	model: JorisCos/DPRNNTasNet-ks2_Libri1Mix_enhsingle_16k	downloads: 4429	likes: 0	task: audio-to-audio
+task: audio-to-audio	model: JorisCos/ConvTasNet_Libri2Mix_sepnoisy_16k	downloads: 3757	likes: 0	task: audio-to-audio
+task: audio-to-audio	model: JorisCos/ConvTasNet_Libri2Mix_sepclean_16k	downloads: 2273	likes: 0	task: audio-to-audio
+task: audio-to-audio	model: speechbrain/sepformer-wsj02mix	downloads: 827	likes: 1	task: audio-to-audio
+task: audio-to-audio	model: JorisCos/ConvTasNet_Libri1Mix_enhsingle_16k	downloads: 772	likes: 0	task: audio-to-audio
+task: audio-to-audio	model: JorisCos/ConvTasNet_Libri2Mix_sepnoisy_8k	downloads: 726	likes: 0	task: audio-to-audio
+task: audio-to-audio	model: JorisCos/DCCRNet_Libri1Mix_enhsingle_16k	downloads: 597	likes: 3	task: audio-to-audio
+task: audio-to-audio	model: mpariente/DPRNNTasNet-ks2_WHAM_sepclean	downloads: 485	likes: 4	task: audio-to-audio
+task: audio-to-audio	model: speechbrain/mtl-mimic-voicebank	downloads: 475	likes: 4	task: audio-to-audio
+task: audio-to-audio	model: JorisCos/DCUNet_Libri1Mix_enhsingle_16k	downloads: 374	likes: 1	task: audio-to-audio

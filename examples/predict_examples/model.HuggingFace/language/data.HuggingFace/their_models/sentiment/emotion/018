@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one Tommy930/distilbert-base-uncased-finetuned-emotion

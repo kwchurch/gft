@@ -1,0 +1,6 @@
+dataset: schema_guided_dstc8	dataset: schema_guided_dstc8	downloads: 1649	likes: 1	PWC: https://paperswithcode.com/dataset/sgd
+dataset: schema_guided_dstc8,dialogues	splits: train: 16142 rows, test: 4201 rows, val: 2482 rows
+dataset: schema_guided_dstc8,dialogues	split: train	columns: dialogue_id, services, turns
+dataset: schema_guided_dstc8,schema	splits: train: 26 rows, test: 21 rows, val: 17 rows
+dataset: schema_guided_dstc8,schema	split: train	columns: service_name, description, slots, intents
+# dataset: schema_guided_dstc8 --> 0 models

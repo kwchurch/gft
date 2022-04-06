@@ -1,0 +1,2 @@
+dataset: yahoo_answer_100k	splits: train: 100000 rows, valid: 10000 rows, test: 10000 rows, val: 10000 rows
+dataset: yahoo_answer_100k	split: train	config: Default	cols: sentence

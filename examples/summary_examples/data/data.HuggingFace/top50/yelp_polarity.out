@@ -1,0 +1,13 @@
+dataset: yelp_polarity	dataset: yelp_polarity	downloads: 20976	likes: 2	
+dataset: yelp_polarity,plain_text	splits: train: 560000 rows, test: 38000 rows
+dataset: yelp_polarity,plain_text	split: train	columns: text, label
+dataset: yelp_polarity,plain_text	labels: 1, 2
+dataset: yelp_polarity --> 8 models
+dataset: yelp_polarity	model: felflare/bert-restore-punctuation	downloads: 73111	likes: 18	task: token-classification
+dataset: yelp_polarity	model: VictorSanh/roberta-base-finetuned-yelp-polarity	downloads: 511	likes: 1	task: text-classification
+dataset: yelp_polarity	model: st1992/bert-restore-punctuation	downloads: 108	likes: 0	task: token-classification
+dataset: yelp_polarity	model: fabriceyhc/bert-base-uncased-yelp_polarity	downloads: 74	likes: 0	task: text-classification
+dataset: yelp_polarity	model: speeqo/bert-restore-punctuation	downloads: 37	likes: 0	task: token-classification
+dataset: yelp_polarity	model: AdapterHub/bert-base-uncased-pf-yelp_polarity	downloads: 20	likes: 0	task: text-classification
+dataset: yelp_polarity	model: AdapterHub/roberta-base-pf-yelp_polarity	downloads: 15	likes: 0	task: text-classification
+dataset: yelp_polarity	model: mgreenbe/607-demo-model	downloads: 10	likes: 0	task: text-classification

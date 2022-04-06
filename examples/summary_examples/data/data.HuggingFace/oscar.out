@@ -1,0 +1,75 @@
+dataset: oscar	dataset: oscar	downloads: 18558	likes: 22	PWC: https://paperswithcode.com/dataset/oscar
+dataset: oscar,unshuffled_deduplicated_af	splits: train: 130640 rows
+dataset: oscar,unshuffled_deduplicated_af	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_als	splits: train: 4518 rows
+dataset: oscar,unshuffled_deduplicated_als	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_am	splits: train: 43102 rows
+dataset: oscar,unshuffled_deduplicated_am	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_an	splits: train: 2025 rows
+dataset: oscar,unshuffled_deduplicated_an	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ar	splits: train: 9006977 rows
+dataset: oscar,unshuffled_deduplicated_ar	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_arz	splits: train: 79928 rows
+dataset: oscar,unshuffled_deduplicated_arz	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_as	splits: train: 9212 rows
+dataset: oscar,unshuffled_deduplicated_as	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ast	splits: train: 5343 rows
+dataset: oscar,unshuffled_deduplicated_ast	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_av	splits: train: 360 rows
+dataset: oscar,unshuffled_deduplicated_av	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_az	splits: train: 626796 rows
+dataset: oscar,unshuffled_deduplicated_az	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_azb	splits: train: 9985 rows
+dataset: oscar,unshuffled_deduplicated_azb	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ba	splits: train: 27050 rows
+dataset: oscar,unshuffled_deduplicated_ba	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bar	splits: train: 4 rows
+dataset: oscar,unshuffled_deduplicated_bar	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bcl	splits: train: 1 rows
+dataset: oscar,unshuffled_deduplicated_bcl	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_be	splits: train: 307405 rows
+dataset: oscar,unshuffled_deduplicated_be	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bg	splits: train: 3398679 rows
+dataset: oscar,unshuffled_deduplicated_bg	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bh	splits: train: 82 rows
+dataset: oscar,unshuffled_deduplicated_bh	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bn	splits: train: 1114481 rows
+dataset: oscar,unshuffled_deduplicated_bn	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bo	splits: train: 15762 rows
+dataset: oscar,unshuffled_deduplicated_bo	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bpy	splits: train: 1770 rows
+dataset: oscar,unshuffled_deduplicated_bpy	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_br	splits: train: 14724 rows
+dataset: oscar,unshuffled_deduplicated_br	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bs	splits: train: 702 rows
+dataset: oscar,unshuffled_deduplicated_bs	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_bxr	splits: train: 36 rows
+dataset: oscar,unshuffled_deduplicated_bxr	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ca	splits: train: 2458067 rows
+dataset: oscar,unshuffled_deduplicated_ca	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_cbk	splits: train: 1 rows
+dataset: oscar,unshuffled_deduplicated_cbk	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ce	splits: train: 2984 rows
+dataset: oscar,unshuffled_deduplicated_ce	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ceb	splits: train: 26145 rows
+dataset: oscar,unshuffled_deduplicated_ceb	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ckb	splits: train: 68210 rows
+dataset: oscar,unshuffled_deduplicated_ckb	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_cs	splits: train: 12308039 rows
+dataset: oscar,unshuffled_deduplicated_cs	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_cv	splits: train: 10130 rows
+dataset: oscar,unshuffled_deduplicated_cv	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_cy	splits: train: 98225 rows
+dataset: oscar,unshuffled_deduplicated_cy	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_da	splits: train: 4771098 rows
+dataset: oscar,unshuffled_deduplicated_da	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_de	splits: train: 62398034 rows
+dataset: oscar,unshuffled_deduplicated_de	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_diq	splits: train: 1 rows
+dataset: oscar,unshuffled_deduplicated_diq	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_dsb	splits: train: 37 rows
+dataset: oscar,unshuffled_deduplicated_dsb	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_dv	splits: train: 17024 rows
+dataset: oscar,unshuffled_deduplicated_dv	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_el	splits: train: 6521169 rows
+dataset: oscar,unshuffled_deduplicated_el	split: train	columns: id, text

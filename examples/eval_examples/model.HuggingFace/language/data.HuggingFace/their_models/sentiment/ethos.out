@@ -1,0 +1,4 @@
+hostname = asimov-86.svail.baidu.com
+Downloading and preparing dataset ethos/binary (download: 121.01 KiB, generated: 121.90 KiB, post-processed: Unknown size, total: 242.91 KiB) to /mnt/home/kwc/.cache/huggingface/datasets/ethos/binary/1.0.0/898d3d005459ee3ff80dbeec2f169c6b7ea13de31a08458193e27dec3dd9ae38...
+Dataset ethos downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/ethos/binary/1.0.0/898d3d005459ee3ff80dbeec2f169c6b7ea13de31a08458193e27dec3dd9ae38. Subsequent calls will reuse this data.
+3.97 seconds	SetFit/distilbert-base-uncased__ethos_binary__all-train	accuracy: 0.8276553106212425	f1: 0.8228721669824208

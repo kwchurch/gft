@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one MYX4567/distilbert-base-uncased-finetuned-squad

@@ -1,0 +1,88 @@
+# print statements are coming from http://gitlab.baidu.com/kennethchurch/gft/blob/master/gft_internals/fit_for_classify_pd.py
+# The sh script is here: http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-1.0.sh
+# It takes one arg, a place to leave output post-trained models (a place with a lot of disk space)
+
+sh ~/gft7/gft/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-1.0.sh $gft_checkpoints/junk3/chnsenticorp/ernie-1.0
+hostname = asimov-7.svail.baidu.com
+output_dir: /mnt/big/kwc/morphology/results/20220321/junk3/chnsenticorp/ernie-1.0
+/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddlenlp/transformers/funnel/modeling.py:30: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Iterable
+fit_for_classify: provider = PaddleHub
+fit_for_classify_pd: loading from paddle
+calling fit in fit_for_classify_pd.py (PaddleHub version)
+seed: 42
+batch_size: 8
+intern_labels: ['0', '1']
+[2022-03-22 18:14:09,757] [    INFO] - Already cached /mnt/home/kwc/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+[2022-03-22 18:14:20,882] [    INFO] - Already cached /mnt/home/kwc/.paddlenlp/models/ernie-1.0/vocab.txt
+max_seq_length: 128
+load_metric: /mnt/home/kwc/gft7/gft/gft_internals/sklearn_metrics/multiclass_glue.py,mrpc
+03/22/2022 18:14:21 - INFO - fit_for_classify_pd - Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Use FP16 precision: False
+
+could not remove_columns=raw_datasets["train"].column_names
+03/22/2022 18:14:30 - INFO - fit_for_classify_pd - Sample 1824 of the training set: {'input_ids': [1, 661, 737, 144, 37, 896, 758, 4, 411, 266, 334, 102, 4, 458, 143, 105, 277, 420, 19, 4, 866, 1406, 128, 367, 98, 10, 364, 11, 321, 19, 5, 1563, 357, 28, 5, 4, 1468, 774, 232, 270, 113, 10, 896, 758, 257, 232, 457, 4, 457, 51, 76, 113, 10, 896, 758, 134, 19, 5, 278, 26, 121, 4, 201, 9, 673, 880, 68, 73, 687, 122, 774, 12043, 51, 15, 4, 341, 544, 127, 4, 673, 880, 419, 133, 774, 6, 673, 880, 147, 18, 774, 14, 673, 880, 68, 73, 687, 122, 774, 10, 783, 453, 88, 364, 5, 4, 9, 685, 1066, 5, 724, 667, 48, 22, 299, 331, 394, 7, 86, 12043, 2], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'labels': 1}.
+03/22/2022 18:14:30 - INFO - fit_for_classify_pd - Sample 409 of the training set: {'input_ids': [1, 1153, 966, 800, 554, 384, 5, 321, 506, 12043, 12043, 12043, 12043, 472, 1402, 196, 13, 11, 1153, 966, 86, 554, 4, 615, 472, 321, 96, 12043, 12043, 2865, 1470, 1346, 170, 635, 9, 1950, 1235, 87, 528, 4, 16, 93, 969, 542, 429, 433, 321, 334, 2034, 2247, 4, 75, 7, 339, 340, 828, 45, 11, 1256, 27, 835, 259, 155, 76, 52, 94, 521, 288, 1295, 12043, 2], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'labels': 0}.
+03/22/2022 18:14:30 - INFO - fit_for_classify_pd - Sample 4506 of the training set: {'input_ids': [1, 89, 146, 9, 2654, 820, 4, 105, 113, 10, 39, 511, 210, 5, 471, 1001, 67, 646, 120, 739, 1807, 69, 4, 172, 123, 178, 10, 171, 23, 14, 1536, 24, 15, 12043, 1042, 47, 89, 146, 81, 454, 19, 50, 127, 461, 12043, 83, 75, 201, 10, 299, 673, 880, 1042, 250, 511, 5, 940, 12043, 2], 'token_type_ids': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'labels': 0}.
+input_ids.shape: [8, 304]	segment_ids.shape: [8, 304]
+input_ids.shape: [8, 168]	segment_ids.shape: [8, 168]
+input_ids.shape: [8, 191]	segment_ids.shape: [8, 191]
+input_ids.shape: [8, 282]	segment_ids.shape: [8, 282]
+input_ids.shape: [8, 312]	segment_ids.shape: [8, 312]
+input_ids.shape: [8, 195]	segment_ids.shape: [8, 195]
+input_ids.shape: [8, 225]	segment_ids.shape: [8, 225]
+input_ids.shape: [8, 193]	segment_ids.shape: [8, 193]
+input_ids.shape: [8, 196]	segment_ids.shape: [8, 196]
+input_ids.shape: [8, 187]	segment_ids.shape: [8, 187]
+input_ids.shape: [8, 188]	segment_ids.shape: [8, 188]
+input_ids.shape: [8, 175]	segment_ids.shape: [8, 175]
+input_ids.shape: [8, 344]	segment_ids.shape: [8, 344]
+input_ids.shape: [8, 126]	segment_ids.shape: [8, 126]
+input_ids.shape: [8, 423]	segment_ids.shape: [8, 423]
+input_ids.shape: [8, 223]	segment_ids.shape: [8, 223]
+input_ids.shape: [8, 529]	segment_ids.shape: [8, 529]
+Traceback (most recent call last):
+  File "/mnt/home/kwc/gft7/gft/gft_fit", line 106, in <module>
+    main()
+  File "/mnt/home/kwc/gft7/gft/gft_fit", line 103, in main
+    training_function(args)
+  File "/mnt/home/kwc/gft7/gft/gft_fit", line 60, in training_function
+    fit_for_classify.fit(args, eqn, accelerator, datasets)
+  File "/mnt/home/kwc/gft7/gft/gft_internals/fit_for_classify.py", line 20, in fit
+    return fit_pd(args, eqn, accelerator, raw_datasets, is_regression)
+  File "/mnt/home/kwc/gft7/gft/gft_internals/fit_for_classify_pd.py", line 313, in fit
+    logits = model(input_ids, segment_ids)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddlenlp/transformers/ernie/modeling.py", line 452, in forward
+    _, pooled_output = self.ernie(
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddlenlp/transformers/ernie/modeling.py", line 381, in forward
+    embedding_output = self.embeddings(
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddlenlp/transformers/ernie/modeling.py", line 68, in forward
+    position_embeddings = self.position_embeddings(position_ids)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 917, in __call__
+    return self._dygraph_call_func(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/fluid/dygraph/layers.py", line 907, in _dygraph_call_func
+    outputs = self.forward(*inputs, **kwargs)
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/nn/layer/common.py", line 1397, in forward
+    return F.embedding(
+  File "/mnt/home/kwc/venv/gft-adapters/lib/python3.8/site-packages/paddle/nn/functional/input.py", line 200, in embedding
+    return _C_ops.lookup_table_v2(
+ValueError: (InvalidArgument) Variable value (input) of OP(fluid.layers.embedding) expected >= 0 and < 513, but got 513. Please check input value.
+  [Hint: Expected ids[i] < row_number, but received ids[i]:513 >= row_number:513.] (at /paddle/paddle/fluid/operators/lookup_table_v2_op.h:77)
+  [operator < lookup_table_v2 > error]
+  

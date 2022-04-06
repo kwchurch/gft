@@ -1,0 +1,2 @@
+model: facebook/wav2vec2-large-960h	model: facebook/wav2vec2-large-960h	downloads: 33189	likes: 3	task: automatic-speech-recognition
+model: facebook/wav2vec2-large-960h	labels: LABEL_0, LABEL_1

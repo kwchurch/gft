@@ -1,0 +1,2 @@
+model: Rostlab/prot_t5_xl_uniref50	model: Rostlab/prot_t5_xl_uniref50	downloads: 27710	likes: 4	task: text2text-generation
+model: Rostlab/prot_t5_xl_uniref50	labels: LABEL_0, LABEL_1

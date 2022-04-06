@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gft_summary --model training-transformers-together/dalle-demo-v1

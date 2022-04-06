@@ -1,0 +1,5 @@
+dataset: hans	dataset: hans	downloads: 5846	likes: 1	PWC: https://paperswithcode.com/dataset/hans
+dataset: hans,plain_text	splits: train: 30000 rows, val: 30000 rows
+dataset: hans,plain_text	split: train	columns: premise, hypothesis, label, parse_premise, parse_hypothesis, binary_parse_premise, binary_parse_hypothesis, heuristic, subcase, template
+dataset: hans,plain_text	labels: entailment, non-entailment
+# dataset: hans --> 0 models

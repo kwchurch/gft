@@ -1,0 +1,2 @@
+dataset: cmrc2018	splits: train: 10142 rows, dev: 3219 rows, trial: 1002 rows, val: 3219 rows, test: 1002 rows
+dataset: cmrc2018	split: train	config: Default	cols: id, title, context, question, answers, answer_starts

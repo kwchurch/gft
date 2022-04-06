@@ -1,0 +1,18 @@
+dataset: cfq	dataset: cfq	downloads: 1953	likes: 0	PWC: https://paperswithcode.com/dataset/cfq
+dataset: cfq,mcd1	splits: train: 95743 rows, test: 11968 rows
+dataset: cfq,mcd1	split: train	columns: question, query
+dataset: cfq,mcd2	splits: train: 95743 rows, test: 11968 rows
+dataset: cfq,mcd2	split: train	columns: question, query
+dataset: cfq,mcd3	splits: train: 95743 rows, test: 11968 rows
+dataset: cfq,mcd3	split: train	columns: question, query
+dataset: cfq,question_complexity_split	splits: train: 98999 rows, test: 10340 rows
+dataset: cfq,question_complexity_split	split: train	columns: question, query
+dataset: cfq,question_pattern_split	splits: train: 95654 rows, test: 11909 rows
+dataset: cfq,question_pattern_split	split: train	columns: question, query
+dataset: cfq,query_complexity_split	splits: train: 100654 rows, test: 9512 rows
+dataset: cfq,query_complexity_split	split: train	columns: question, query
+dataset: cfq,query_pattern_split	splits: train: 94600 rows, test: 12589 rows
+dataset: cfq,query_pattern_split	split: train	columns: question, query
+dataset: cfq,random_split	splits: train: 95744 rows, test: 11967 rows
+dataset: cfq,random_split	split: train	columns: question, query
+# dataset: cfq --> 0 models

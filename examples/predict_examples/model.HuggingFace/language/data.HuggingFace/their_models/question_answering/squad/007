@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one csarron/bert-base-uncased-squad-v1

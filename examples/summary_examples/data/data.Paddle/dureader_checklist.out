@@ -1,0 +1,2 @@
+dataset: dureader_checklist	splits: train: 3000 rows, dev: 1130 rows, test1: 50000 rows, val: 1130 rows, test: 50000 rows
+dataset: dureader_checklist	split: train	config: Default	cols: id, title, type, context, question, answers, answer_starts, is_impossible

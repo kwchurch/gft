@@ -1,0 +1,6 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+model=AdapterHub/bert-base-uncased-pf-scitail
+data=scitail
+gft_eval --data H:scitail --model H:AdapterHub/bert-base-uncased-pf-scitail --split test 

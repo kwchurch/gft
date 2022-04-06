@@ -1,0 +1,9 @@
+model: julien-c/voice-activity-detection	model: julien-c/voice-activity-detection	downloads: 0	likes: 0	task: voice-activity-detection
+***ERROR***
+model: julien-c/voice-activity-detection
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: voice-activity-detection'), <traceback object at 0x7f2b8df749c0>)

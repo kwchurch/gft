@@ -1,0 +1,2 @@
+hostname = asimov-52.svail.baidu.com
+56.19 seconds	/mnt/big/kwc/morphology/results/20220321/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/cola/ckpt/best/	matthews_correlation: 0.48877934038696524

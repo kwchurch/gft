@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one ncduy/distilbert-base-cased-distilled-squad-finetuned-squad-small

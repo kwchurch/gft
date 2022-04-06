@@ -1,0 +1,2 @@
+#!/bin/sh
+$emotion/do_one reatiny/distilbert-base-uncased-finetuned-emotion

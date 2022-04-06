@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gft_summary --model espnet/kan-bayashi_ljspeech_vits

@@ -1,0 +1,12 @@
+Fill_Mask	input text with a single mask (<mask>) and output fillers for <mask> with scores (probabilities)
+task: Fill_Mask --> 10 models
+task: Fill_Mask	model: bert-base-uncased	downloads: 16176623	likes: 125	task: fill-mask
+task: Fill_Mask	model: distilbert-base-uncased	downloads: 5133899	likes: 47	task: fill-mask
+task: Fill_Mask	model: roberta-base	downloads: 5018461	likes: 20	task: fill-mask
+task: Fill_Mask	model: roberta-large	downloads: 3879186	likes: 27	task: fill-mask
+task: Fill_Mask	model: distilroberta-base	downloads: 2965989	likes: 12	task: fill-mask
+task: Fill_Mask	model: bert-base-cased	downloads: 2790469	likes: 16	task: fill-mask
+task: Fill_Mask	model: bert-base-chinese	downloads: 2488266	likes: 74	task: fill-mask
+task: Fill_Mask	model: xlm-roberta-base	downloads: 2403724	likes: 24	task: fill-mask
+task: Fill_Mask	model: bert-base-multilingual-cased	downloads: 1705871	likes: 25	task: fill-mask
+task: Fill_Mask	model: camembert-base	downloads: 1557011	likes: 14	task: fill-mask

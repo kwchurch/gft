@@ -1,0 +1,2 @@
+model: facebook/blenderbot-400M-distill	model: facebook/blenderbot-400M-distill	downloads: 63556	likes: 20	task: conversational
+model: facebook/blenderbot-400M-distill	labels: LABEL_0, LABEL_1, LABEL_2

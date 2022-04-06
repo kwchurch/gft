@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one victoraavila/bert-base-uncased-finetuned-squad

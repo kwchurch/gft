@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one aychang/roberta-base-imdb

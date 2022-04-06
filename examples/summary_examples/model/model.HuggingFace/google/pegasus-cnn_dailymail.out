@@ -1,0 +1,2 @@
+model: google/pegasus-cnn_dailymail	model: google/pegasus-cnn_dailymail	downloads: 61019	likes: 5	task: summarization
+model: google/pegasus-cnn_dailymail	labels: LABEL_0, LABEL_1, LABEL_2

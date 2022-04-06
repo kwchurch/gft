@@ -1,0 +1,13 @@
+#!/bin/sh
+echo hostname = `hostname`
+
+# Please follow the manual download instructions:
+#   Due to legal restrictions with the CNN data and data extraction. The data has to be downloaded from several sources and compiled as per the instructions by Authors.         Upon obtaining the resulting data folders, it can be loaded easily using the datasets API.         Please refer to (https://github.com/Maluuba/newsqa) to download data from Microsoft Reseach site (https://msropendata.com/datasets/939b1042-6402-4697-9c15-7a28de7e1321)         and a CNN datasource (https://cs.nyu.edu/~kcho/DMQA/) and run the scripts present here (https://github.com/Maluuba/newsqa).        This will generate a folder named "split-data" and a file named "combined-newsqa-data-v1.csv".        Copy the above folder and the file to a directory where you want to store them locally.        They must be used to load the dataset via `datasets.load_dataset("narqa", data_dir="<path/to/folder>").
+# Manual data can be loaded with:
+#  datasets.load_dataset(newsqa, data_dir='<path/to/manual/data>')
+
+for model in AdapterHub/bert-base-uncased-pf-newsqa AdapterHub/roberta-base-pf-newsqa
+	     do
+data=newsqa
+gft_eval --data H:newsqa,split --model H:$model --split test 
+done

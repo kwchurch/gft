@@ -1,0 +1,2 @@
+#!/bin/sh
+$imdb/do_one wgpubs/session-4-imdb-model

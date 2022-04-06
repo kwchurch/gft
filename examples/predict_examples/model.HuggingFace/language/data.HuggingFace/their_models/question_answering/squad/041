@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one anas-awadalla/roberta-base-few-shot-k-1024-finetuned-squad-seed-42

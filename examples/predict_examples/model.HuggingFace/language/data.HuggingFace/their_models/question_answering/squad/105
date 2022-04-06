@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one SupriyaArun/squeezebert-uncased-finetuned-squad-finetuned-squad

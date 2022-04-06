@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one husnu/electra-small-turkish-uncased-discriminator-finetuned_lr-2e-05_epochs-3

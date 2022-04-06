@@ -1,0 +1,9 @@
+model: julien-c/DPRNNTasNet-ks16_WHAM_sepclean	model: julien-c/DPRNNTasNet-ks16_WHAM_sepclean	downloads: 222	likes: 2	task: audio-to-audio
+***ERROR***
+model: julien-c/DPRNNTasNet-ks16_WHAM_sepclean
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: audio-to-audio'), <traceback object at 0x7f8332eb4980>)

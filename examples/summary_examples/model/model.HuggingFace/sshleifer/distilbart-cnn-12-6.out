@@ -1,0 +1,2 @@
+model: sshleifer/distilbart-cnn-12-6	model: sshleifer/distilbart-cnn-12-6	downloads: 610418	likes: 32	task: summarization
+model: sshleifer/distilbart-cnn-12-6	labels: LABEL_0, LABEL_1, LABEL_2

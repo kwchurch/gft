@@ -1,0 +1,2 @@
+model: google/pegasus-large	model: google/pegasus-large	downloads: 70424	likes: 15	task: summarization
+model: google/pegasus-large	labels: LABEL_0, LABEL_1, LABEL_2

@@ -1,0 +1,3 @@
+hostname = asimov-150.svail.baidu.com
+4.05 seconds	AdapterHub/bert-base-uncased-pf-emotion	accuracy: 0.9325	f1: 0.8883372855898307
+4.95 seconds	AdapterHub/roberta-base-pf-emotion	accuracy: 0.9275	f1: 0.891186913136944

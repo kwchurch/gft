@@ -1,0 +1,2 @@
+model: dbmdz/bert-large-cased-finetuned-conll03-english	model: dbmdz/bert-large-cased-finetuned-conll03-english	downloads: 412156	likes: 4	task: token-classification
+model: dbmdz/bert-large-cased-finetuned-conll03-english	labels: B-LOC, B-MISC, B-ORG, B-PER, I-LOC, I-MISC, I-ORG, I-PER, O

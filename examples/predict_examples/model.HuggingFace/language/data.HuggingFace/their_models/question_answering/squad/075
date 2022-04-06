@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one anas-awadalla/spanbert-base-cased-few-shot-k-16-finetuned-squad-seed-42

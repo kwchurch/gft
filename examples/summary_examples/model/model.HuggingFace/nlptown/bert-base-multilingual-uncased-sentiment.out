@@ -1,0 +1,2 @@
+model: nlptown/bert-base-multilingual-uncased-sentiment	model: nlptown/bert-base-multilingual-uncased-sentiment	downloads: 1189348	likes: 36	task: text-classification
+model: nlptown/bert-base-multilingual-uncased-sentiment	labels: 1 star, 2 stars, 3 stars, 4 stars, 5 stars

@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one mrm8488/squeezebert-finetuned-squadv1

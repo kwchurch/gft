@@ -1,0 +1,12 @@
+# found: 162 matches; truncating to 10
+task: text-to-speech --> 10 models
+task: text-to-speech	model: facebook/fastspeech2-en-ljspeech	downloads: 3171	likes: 10	task: text-to-speech
+task: text-to-speech	model: espnet/kan-bayashi_ljspeech_vits	downloads: 889	likes: 1	task: text-to-speech
+task: text-to-speech	model: espnet/kan-bayashi_ljspeech_joint_finetune_conformer_fastspeech2_hifigan	downloads: 770	likes: 5	task: text-to-speech
+task: text-to-speech	model: facebook/tts_transformer-es-css10	downloads: 613	likes: 4	task: text-to-speech
+task: text-to-speech	model: facebook/tts_transformer-zh-cv7_css10	downloads: 362	likes: 1	task: text-to-speech
+task: text-to-speech	model: espnet/kan-bayashi_vctk_gst_tacotron2	downloads: 342	likes: 0	task: text-to-speech
+task: text-to-speech	model: lakahaga/novel_reading_tts	downloads: 277	likes: 0	task: text-to-speech
+task: text-to-speech	model: jaketae/hifigan-lj-v1	downloads: 214	likes: 0	task: text-to-speech
+task: text-to-speech	model: facebook/fastspeech2-en-200_speaker-cv4	downloads: 207	likes: 2	task: text-to-speech
+task: text-to-speech	model: facebook/tts_transformer-ru-cv7_css10	downloads: 192	likes: 3	task: text-to-speech

@@ -1,0 +1,2 @@
+hostname = asimov-30
+80.04 seconds	/mnt/big/kwc/morphology/results/20220321/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/mrpc/ckpt/best/	accuracy: 0.8602941176470589	f1: 0.8954128440366973

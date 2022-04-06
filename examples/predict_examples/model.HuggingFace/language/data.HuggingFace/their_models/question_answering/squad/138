@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one tucan9389/distilbert-base-uncased-finetuned-squad

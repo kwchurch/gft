@@ -1,0 +1,5 @@
+dataset: piqa	dataset: piqa	downloads: 13711	likes: 4	PWC: https://paperswithcode.com/dataset/piqa
+dataset: piqa,plain_text	splits: train: 16113 rows, test: 3084 rows, val: 1838 rows
+dataset: piqa,plain_text	split: train	columns: goal, sol1, sol2, label
+dataset: piqa,plain_text	labels: 0, 1
+# dataset: piqa --> 0 models

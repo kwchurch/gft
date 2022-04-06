@@ -1,0 +1,2 @@
+#!/bin/sh
+$squad/do_one valhalla/bart-large-finetuned-squadv1

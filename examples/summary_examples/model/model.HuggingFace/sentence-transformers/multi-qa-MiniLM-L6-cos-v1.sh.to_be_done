@@ -1,0 +1,3 @@
+#!/bin/sh
+
+gft_summary --model sentence-transformers/multi-qa-MiniLM-L6-cos-v1

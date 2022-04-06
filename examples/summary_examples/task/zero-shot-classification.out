@@ -1,0 +1,12 @@
+# found: 73 matches; truncating to 10
+task: zero-shot-classification --> 10 models
+task: zero-shot-classification	model: facebook/bart-large-mnli	downloads: 2400410	likes: 95	task: zero-shot-classification
+task: zero-shot-classification	model: typeform/distilbert-base-uncased-mnli	downloads: 243961	likes: 9	task: zero-shot-classification
+task: zero-shot-classification	model: BaptisteDoyen/camembert-base-xnli	downloads: 239794	likes: 5	task: zero-shot-classification
+task: zero-shot-classification	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 114900	likes: 20	task: zero-shot-classification
+task: zero-shot-classification	model: valhalla/distilbart-mnli-12-1	downloads: 111672	likes: 3	task: zero-shot-classification
+task: zero-shot-classification	model: cross-encoder/nli-distilroberta-base	downloads: 71557	likes: 8	task: zero-shot-classification
+task: zero-shot-classification	model: joeddav/xlm-roberta-large-xnli	downloads: 70355	likes: 32	task: zero-shot-classification
+task: zero-shot-classification	model: Sahajtomar/German_Zeroshot	downloads: 63508	likes: 6	task: zero-shot-classification
+task: zero-shot-classification	model: Narsil/deberta-large-mnli-zero-cls	downloads: 58994	likes: 3	task: zero-shot-classification
+task: zero-shot-classification	model: Recognai/zeroshot_selectra_medium	downloads: 32562	likes: 3	task: zero-shot-classification

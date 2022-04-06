@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# DO NOT ATTEMPT TO RUN THIS
+
+# This will attempt to create a directory with 300k files
+# That will cause trouble for Unix filesystems where operations tend to take n^2 if there are n files in a directory
+
+for subtask in cnn dailymail
+do
+    echo subtask = $subtask
+    gft_summary --data P:cnn_dailymail,$subtask
+    done
+

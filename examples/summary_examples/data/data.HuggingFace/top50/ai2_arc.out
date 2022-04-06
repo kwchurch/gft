@@ -1,0 +1,7 @@
+dataset: ai2_arc	dataset: ai2_arc	downloads: 9076	likes: 1	
+dataset: ai2_arc,ARC-Challenge	splits: train: 1119 rows, test: 1172 rows, val: 299 rows
+dataset: ai2_arc,ARC-Challenge	split: train	columns: id, question, choices, answerKey
+dataset: ai2_arc,ARC-Easy	splits: train: 2251 rows, test: 2376 rows, val: 570 rows
+dataset: ai2_arc,ARC-Easy	split: train	columns: id, question, choices, answerKey
+dataset: ai2_arc --> 1 models
+dataset: ai2_arc	model: LIAMF-USP/aristo-roberta	downloads: 703	likes: 0	task: None
