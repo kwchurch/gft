@@ -18,7 +18,7 @@ export gft=`dirname $g`
 ```
 
 <b style="background-color:yellow;">Unfortunately</b>, there are a number of incompatibilities between adapters, paddlespeech and
-the latest version of HuggingFace transformers. There are a number of versions of requirements.txt the requirements directory.
+the latest version of HuggingFace transformers. There are a number of versions of requirements.txt in the requirements directory.
 We recommend setting up several different virtual environments to work around some of these incompatibilities.
 
 
