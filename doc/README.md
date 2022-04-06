@@ -37,6 +37,5 @@ Arguments
 
 </ul>
 
-Paper (draft) is <a href="https://www.overleaf.com/read/kmhzfmjhnmfk">here.</a>
-(Note: go to main.tex and recompile.)
+Paper (draft) is <a href="https://github.com/kwchurch/ACL2022_deepnets_tutorial/blob/main/papers/1.pdf">here.</a>
 
