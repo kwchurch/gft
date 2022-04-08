@@ -1,12 +1,12 @@
-# found: 4248 matches; truncating to 10
+# found: 4267 matches; truncating to 10
 task: text-generation --> 10 models
-task: text-generation	model: distilgpt2	downloads: 33192160	likes: 39	task: text-generation
-task: text-generation	model: gpt2	downloads: 6743053	likes: 71	task: text-generation
-task: text-generation	model: xlnet-base-cased	downloads: 451202	likes: 3	task: text-generation
-task: text-generation	model: remotejob/tweetsDISTILGPT2fi_v4	downloads: 318626	likes: 0	task: text-generation
-task: text-generation	model: uer/gpt2-chinese-cluecorpussmall	downloads: 265654	likes: 9	task: text-generation
-task: text-generation	model: Sentdex/GPyT	downloads: 195731	likes: 11	task: text-generation
-task: text-generation	model: gpt2-medium	downloads: 186679	likes: 4	task: text-generation
-task: text-generation	model: EleutherAI/gpt-j-6B	downloads: 181970	likes: 140	task: text-generation
-task: text-generation	model: huggingtweets/stablekwon	downloads: 123282	likes: 0	task: text-generation
-task: text-generation	model: gpt2-large	downloads: 113114	likes: 11	task: text-generation
+task: text-generation	model: distilgpt2	downloads: 33350298	likes: 39	task: text-generation
+task: text-generation	model: gpt2	downloads: 6866721	likes: 72	task: text-generation
+task: text-generation	model: xlnet-base-cased	downloads: 460778	likes: 3	task: text-generation
+task: text-generation	model: remotejob/tweetsDISTILGPT2fi_v4	downloads: 314822	likes: 0	task: text-generation
+task: text-generation	model: uer/gpt2-chinese-cluecorpussmall	downloads: 279225	likes: 9	task: text-generation
+task: text-generation	model: Sentdex/GPyT	downloads: 213665	likes: 11	task: text-generation
+task: text-generation	model: gpt2-medium	downloads: 191616	likes: 4	task: text-generation
+task: text-generation	model: EleutherAI/gpt-j-6B	downloads: 173690	likes: 142	task: text-generation
+task: text-generation	model: huggingtweets/stablekwon	downloads: 135896	likes: 0	task: text-generation
+task: text-generation	model: gpt2-large	downloads: 110359	likes: 11	task: text-generation

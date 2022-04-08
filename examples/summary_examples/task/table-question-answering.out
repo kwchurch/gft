@@ -1,12 +1,12 @@
 # found: 26 matches; truncating to 10
 task: table-question-answering --> 10 models
-task: table-question-answering	model: google/tapas-base-finetuned-wtq	downloads: 17672	likes: 13	task: table-question-answering
-task: table-question-answering	model: lysandre/tiny-tapas-random-wtq	downloads: 4074	likes: 0	task: table-question-answering
-task: table-question-answering	model: lysandre/tiny-tapas-random-sqa	downloads: 4053	likes: 0	task: table-question-answering
-task: table-question-answering	model: google/tapas-large-finetuned-wtq	downloads: 634	likes: 1	task: table-question-answering
-task: table-question-answering	model: google/tapas-base-finetuned-wikisql-supervised	downloads: 506	likes: 1	task: table-question-answering
-task: table-question-answering	model: google/tapas-base-finetuned-sqa	downloads: 495	likes: 0	task: table-question-answering
-task: table-question-answering	model: google/tapas-large-finetuned-sqa	downloads: 485	likes: 0	task: table-question-answering
-task: table-question-answering	model: google/tapas-tiny-finetuned-sqa	downloads: 358	likes: 0	task: table-question-answering
+task: table-question-answering	model: google/tapas-base-finetuned-wtq	downloads: 17383	likes: 14	task: table-question-answering
+task: table-question-answering	model: lysandre/tiny-tapas-random-wtq	downloads: 4239	likes: 0	task: table-question-answering
+task: table-question-answering	model: lysandre/tiny-tapas-random-sqa	downloads: 4222	likes: 0	task: table-question-answering
+task: table-question-answering	model: google/tapas-large-finetuned-wtq	downloads: 740	likes: 1	task: table-question-answering
+task: table-question-answering	model: google/tapas-base-finetuned-wikisql-supervised	downloads: 555	likes: 1	task: table-question-answering
+task: table-question-answering	model: google/tapas-base-finetuned-sqa	downloads: 506	likes: 0	task: table-question-answering
+task: table-question-answering	model: google/tapas-large-finetuned-sqa	downloads: 493	likes: 0	task: table-question-answering
+task: table-question-answering	model: google/tapas-tiny-finetuned-sqa	downloads: 361	likes: 0	task: table-question-answering
 task: table-question-answering	model: navteca/tapas-large-finetuned-wtq	downloads: 286	likes: 0	task: table-question-answering
-task: table-question-answering	model: lysandre/tapas-temporary-repo	downloads: 236	likes: 0	task: table-question-answering
+task: table-question-answering	model: lysandre/tapas-temporary-repo	downloads: 223	likes: 0	task: table-question-answering

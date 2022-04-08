@@ -8,7 +8,7 @@
 import sys,os,shutil,torch,time
 from torch.utils.data import DataLoader
 import numpy as np
-import parse_eqn
+from gft_internals import parse_eqn
 from gft_internals.gft_util import intern_labels, parse_model_specification, parse_metric_specification, parse_dataset_specification, better, checkpoint_filename, get_arg, set_arg
 
 import logging

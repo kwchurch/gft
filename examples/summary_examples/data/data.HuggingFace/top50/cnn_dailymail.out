@@ -1,4 +1,4 @@
-dataset: cnn_dailymail	dataset: cnn_dailymail	downloads: 15883	likes: 7	PWC: https://paperswithcode.com/dataset/cnn-daily-mail-1
+dataset: cnn_dailymail	No info from HuggingFace
 dataset: cnn_dailymail,3.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,3.0.0	split: train	columns: article, highlights, id
 dataset: cnn_dailymail,1.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
@@ -6,13 +6,25 @@ dataset: cnn_dailymail,1.0.0	split: train	columns: article, highlights, id
 dataset: cnn_dailymail,2.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,2.0.0	split: train	columns: article, highlights, id
 dataset: cnn_dailymail --> 10 models
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-6-6	downloads: 738312	likes: 8	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-6	downloads: 610418	likes: 32	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-6	downloads: 21430	likes: 2	task: summarization
-dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei1	downloads: 14541	likes: 0	task: text2text-generation
-dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei0	downloads: 14529	likes: 0	task: text2text-generation
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-1-1	downloads: 7777	likes: 0	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-1	downloads: 6793	likes: 1	task: summarization
-dataset: cnn_dailymail	model: ainize/bart-base-cnn	downloads: 2001	likes: 0	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-3	downloads: 1807	likes: 0	task: summarization
-dataset: cnn_dailymail	model: google/roberta2roberta_L-24_cnn_daily_mail	downloads: 1314	likes: 1	task: summarization
+dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-6-6	downloads: 737322	likes: 8	task: summarization
+dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-6	downloads: 652635	likes: 32	task: summarization
+dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-6	downloads: 22991	likes: 2	task: summarization
+dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei0	downloads: 16420	likes: 0	task: text2text-generation
+dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei1	downloads: 16420	likes: 0	task: text2text-generation
+dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-1-1	downloads: 8148	likes: 0	task: summarization
+dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-1	downloads: 5306	likes: 1	task: summarization
+dataset: cnn_dailymail	model: ainize/bart-base-cnn	downloads: 1954	likes: 0	task: summarization
+dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-3	downloads: 1927	likes: 0	task: summarization
+dataset: cnn_dailymail	model: google/roberta2roberta_L-24_cnn_daily_mail	downloads: 1421	likes: 1	task: summarization
+# found: 11548 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

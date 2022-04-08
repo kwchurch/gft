@@ -1,2 +1,2 @@
-model: mishig/tiny-detr-mobilenetsv3	model: mishig/tiny-detr-mobilenetsv3	downloads: 2328	likes: 0	task: object-detection
+model: mishig/tiny-detr-mobilenetsv3	model: mishig/tiny-detr-mobilenetsv3	downloads: 2394	likes: 0	task: object-detection
 model: mishig/tiny-detr-mobilenetsv3	labels: LABEL_0, LABEL_1

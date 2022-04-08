@@ -1,2 +1,2 @@
-model: finiteautomata/beto-sentiment-analysis	model: finiteautomata/beto-sentiment-analysis	downloads: 703324	likes: 7	task: text-classification
+model: finiteautomata/beto-sentiment-analysis	model: finiteautomata/beto-sentiment-analysis	downloads: 711243	likes: 8	task: text-classification
 model: finiteautomata/beto-sentiment-analysis	labels: NEG, NEU, POS

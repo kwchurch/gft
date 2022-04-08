@@ -1,2 +1,2 @@
-model: hf-internal-testing/tiny-random-vit	model: hf-internal-testing/tiny-random-vit	downloads: 9520	likes: 0	task: image-classification
+model: hf-internal-testing/tiny-random-vit	model: hf-internal-testing/tiny-random-vit	downloads: 9903	likes: 0	task: image-classification
 model: hf-internal-testing/tiny-random-vit	labels: LABEL_0, LABEL_1

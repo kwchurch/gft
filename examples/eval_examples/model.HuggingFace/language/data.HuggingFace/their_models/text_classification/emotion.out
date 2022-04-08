@@ -1,20 +1,20 @@
 hostname = asimov-27.svail.baidu.com
-4.56 seconds	bhadresh-savani/distilbert-base-uncased-emotion	accuracy: 0.927	f1: 0.8825061528287809
-7.58 seconds	nateraw/bert-base-uncased-emotion	accuracy: 0.926	f1: 0.8835208254266581
+3.38 seconds	bhadresh-savani/distilbert-base-uncased-emotion	accuracy: 0.927	f1: 0.8825061528287809
+6.88 seconds	nateraw/bert-base-uncased-emotion	accuracy: 0.926	f1: 0.8835208254266581
 *** ERROR ***	H:mrm8488/t5-base-finetuned-emotion
-6.91 seconds	bhadresh-savani/roberta-base-emotion	accuracy: 0.9305	f1: 0.8815789237745175
-6.64 seconds	bhadresh-savani/bert-base-uncased-emotion	accuracy: 0.9265	f1: 0.8821398657055098
-4.20 seconds	lewiswatson/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8727941247828231
-4.12 seconds	transformersbook/distilbert-base-uncased-finetuned-emotion	accuracy: 0.917	f1: 0.87014109251034
-7.57 seconds	bhadresh-savani/albert-base-v2-emotion	accuracy: 0.932	f1: 0.896479961363852
-6.67 seconds	Emanuel/bertweet-emotion-base	accuracy: 0.9285	f1: 0.8863603878501328
+7.03 seconds	bhadresh-savani/roberta-base-emotion	accuracy: 0.9305	f1: 0.8815789237745175
+6.68 seconds	bhadresh-savani/bert-base-uncased-emotion	accuracy: 0.9265	f1: 0.8821398657055098
+3.50 seconds	lewiswatson/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8727941247828231
+4.32 seconds	transformersbook/distilbert-base-uncased-finetuned-emotion	accuracy: 0.917	f1: 0.87014109251034
+6.95 seconds	bhadresh-savani/albert-base-v2-emotion	accuracy: 0.932	f1: 0.896479961363852
+6.66 seconds	Emanuel/bertweet-emotion-base	accuracy: 0.9285	f1: 0.8863603878501328
 *** ERROR ***	H:AdapterHub/bert-base-uncased-pf-emotion
-9.68 seconds	Emanuel/twitter-emotion-deberta-v3-base	accuracy: 0.9255	f1: 0.8790048313120858
-4.05 seconds	reatiny/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8732132232192015
-6.92 seconds	Jorgeutd/sagemaker-roberta-base-emotion	accuracy: 0.931	f1: 0.8940637009428855
-4.52 seconds	trnt/twitter_emotions	accuracy: 0.934	f1: 0.8967635778314844
-5.62 seconds	ncduy/bert-base-cased-finetuned-emotion	accuracy: 0.9295	f1: 0.8942331975550357
-3.09 seconds	srosy/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9255	f1: 0.883472422608144
-3.00 seconds	MhF/distilbert-base-uncased-finetuned-emotion	accuracy: 0.919	f1: 0.8735040674175432
-4.08 seconds	Crives/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8707271019316701
-3.27 seconds	Tommy930/distilbert-base-uncased-finetuned-emotion	accuracy: 0.92	f1: 0.8725259836843203
+10.29 seconds	Emanuel/twitter-emotion-deberta-v3-base	accuracy: 0.9255	f1: 0.8790048313120858
+4.11 seconds	reatiny/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8732132232192015
+6.81 seconds	Jorgeutd/sagemaker-roberta-base-emotion	accuracy: 0.931	f1: 0.8940637009428855
+6.27 seconds	trnt/twitter_emotions	accuracy: 0.934	f1: 0.8967635778314844
+6.86 seconds	ncduy/bert-base-cased-finetuned-emotion	accuracy: 0.9295	f1: 0.8942331975550357
+5.45 seconds	srosy/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9255	f1: 0.883472422608144
+4.05 seconds	MhF/distilbert-base-uncased-finetuned-emotion	accuracy: 0.919	f1: 0.8735040674175432
+4.40 seconds	Crives/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8707271019316701
+4.29 seconds	Tommy930/distilbert-base-uncased-finetuned-emotion	accuracy: 0.92	f1: 0.8725259836843203

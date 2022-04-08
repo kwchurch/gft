@@ -1,9 +1,2 @@
-model: DeepPavlov/rubert-base-cased	model: DeepPavlov/rubert-base-cased	downloads: 481762	likes: 12	task: feature-extraction
-***ERROR***
-model: H:DeepPavlov/rubert-base-cased
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError('DeepPavlov/rubert-base-cased does not appear to have a file named preprocessor_config.json.'), <traceback object at 0x7fb451fef700>)
+model: DeepPavlov/rubert-base-cased	No info from HuggingFace
+model: DeepPavlov/rubert-base-cased	labels: LABEL_0, LABEL_1

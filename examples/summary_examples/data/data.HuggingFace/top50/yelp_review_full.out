@@ -1,8 +1,12 @@
-dataset: yelp_review_full	dataset: yelp_review_full	downloads: 12713	likes: 3	
+dataset: yelp_review_full	No info from HuggingFace
 dataset: yelp_review_full,yelp_review_full	splits: train: 650000 rows, test: 50000 rows
 dataset: yelp_review_full,yelp_review_full	split: train	columns: label, text
 dataset: yelp_review_full,yelp_review_full	labels: 1 star, 2 star, 3 stars, 4 stars, 5 stars
-dataset: yelp_review_full --> 3 models
-dataset: yelp_review_full	model: Yaxin/electra-small-discriminator-yelp-mlm	downloads: 7	likes: 0	task: fill-mask
-dataset: yelp_review_full	model: Yaxin/electra-base-discriminator-yelp-mlm	downloads: 3	likes: 0	task: fill-mask
-dataset: yelp_review_full	model: Yaxin/xlm-roberta-base-yelp-mlm	downloads: 2	likes: 0	task: fill-mask
+***ERROR***
+model: None
+data: H:yelp_review_full
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7ff89c864500>)

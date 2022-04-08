@@ -1,2 +1,2 @@
-model: google/t5-v1_1-large	model: google/t5-v1_1-large	downloads: 46221	likes: 4	task: text2text-generation
+model: google/t5-v1_1-large	model: google/t5-v1_1-large	downloads: 44500	likes: 4	task: text2text-generation
 model: google/t5-v1_1-large	labels: LABEL_0, LABEL_1

@@ -6,4 +6,4 @@ eqn: None
 splits: train
 split: train
 task: None
-error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: voice-activity-detection'), <traceback object at 0x7f2b8df749c0>)
+error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: voice-activity-detection'), <traceback object at 0x7f32bf6cccc0>)

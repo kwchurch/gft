@@ -1,2 +1,2 @@
-hostname = asimov-86.svail.baidu.com
-169.49 seconds	/mnt/big/kwc/morphology/results/20220321/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-tiny/ckpt/best	accuracy: 0.9158333333333334	f1: 0.9156152808750946
+hostname = asimov-96.svail.baidu.com
+*** ERROR ***	P:/mnt/big/kwc/morphology/results/20220405/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-tiny/ckpt/best

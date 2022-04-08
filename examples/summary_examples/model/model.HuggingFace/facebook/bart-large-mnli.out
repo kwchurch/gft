@@ -1,2 +1,2 @@
-model: facebook/bart-large-mnli	model: facebook/bart-large-mnli	downloads: 2400410	likes: 95	task: zero-shot-classification
+model: facebook/bart-large-mnli	model: facebook/bart-large-mnli	downloads: 2368597	likes: 96	task: zero-shot-classification
 model: facebook/bart-large-mnli	labels: contradiction, entailment, neutral

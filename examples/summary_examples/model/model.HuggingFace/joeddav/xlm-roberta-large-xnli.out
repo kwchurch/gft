@@ -1,2 +1,2 @@
-model: joeddav/xlm-roberta-large-xnli	model: joeddav/xlm-roberta-large-xnli	downloads: 70355	likes: 32	task: zero-shot-classification
+model: joeddav/xlm-roberta-large-xnli	model: joeddav/xlm-roberta-large-xnli	downloads: 72347	likes: 32	task: zero-shot-classification
 model: joeddav/xlm-roberta-large-xnli	labels: contradiction, entailment, neutral

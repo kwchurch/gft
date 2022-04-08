@@ -1,2 +1,2 @@
-model: philschmid/bart-large-cnn-samsum	model: philschmid/bart-large-cnn-samsum	downloads: 59589	likes: 7	task: summarization
+model: philschmid/bart-large-cnn-samsum	model: philschmid/bart-large-cnn-samsum	downloads: 65634	likes: 7	task: summarization
 model: philschmid/bart-large-cnn-samsum	labels: LABEL_0, LABEL_1, LABEL_2

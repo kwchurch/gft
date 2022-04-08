@@ -1,4 +1,4 @@
-dataset: stsb_multi_mt	dataset: stsb_multi_mt	downloads: 11442	likes: 4	
+dataset: stsb_multi_mt	dataset: stsb_multi_mt	downloads: 11233	likes: 4	
 dataset: stsb_multi_mt,en	splits: train: 5749 rows, test: 1379 rows, val: 1500 rows
 dataset: stsb_multi_mt,en	split: train	columns: sentence1, sentence2, similarity_score
 dataset: stsb_multi_mt,de	splits: train: 5749 rows, test: 1379 rows, val: 1500 rows
@@ -20,13 +20,25 @@ dataset: stsb_multi_mt,ru	split: train	columns: sentence1, sentence2, similarity
 dataset: stsb_multi_mt,zh	splits: train: 5749 rows, test: 1379 rows, val: 1500 rows
 dataset: stsb_multi_mt,zh	split: train	columns: sentence1, sentence2, similarity_score
 dataset: stsb_multi_mt --> 10 models
-dataset: stsb_multi_mt	model: inokufu/flaubert-base-uncased-xnli-sts	downloads: 1249	likes: 0	task: sentence-similarity
-dataset: stsb_multi_mt	model: dangvantuan/sentence-camembert-large	downloads: 710	likes: 4	task: sentence-similarity
+dataset: stsb_multi_mt	model: inokufu/flaubert-base-uncased-xnli-sts	downloads: 1516	likes: 0	task: sentence-similarity
+dataset: stsb_multi_mt	model: dangvantuan/sentence-camembert-large	downloads: 895	likes: 4	task: sentence-similarity
 dataset: stsb_multi_mt	model: T-Systems-onsite/cross-de-fr-roberta-sentence-transformer	downloads: 449	likes: 0	task: feature-extraction
-dataset: stsb_multi_mt	model: dangvantuan/sentence-camembert-base	downloads: 348	likes: 1	task: sentence-similarity
-dataset: stsb_multi_mt	model: eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1	downloads: 320	likes: 0	task: feature-extraction
-dataset: stsb_multi_mt	model: mrm8488/distiluse-base-multilingual-cased-v2-finetuned-stsb_multi_mt-es	downloads: 219	likes: 1	task: sentence-similarity
-dataset: stsb_multi_mt	model: eduardofv/stsb-m-mt-es-distilbert-base-uncased	downloads: 180	likes: 1	task: sentence-similarity
-dataset: stsb_multi_mt	model: hugorosen/flaubert_base_uncased-xnli-sts	downloads: 133	likes: 0	task: sentence-similarity
-dataset: stsb_multi_mt	model: T-Systems-onsite/cross-en-fr-roberta-sentence-transformer	downloads: 64	likes: 0	task: feature-extraction
-dataset: stsb_multi_mt	model: inokufu/bertheo	downloads: 33	likes: 0	task: sentence-similarity
+dataset: stsb_multi_mt	model: dangvantuan/sentence-camembert-base	downloads: 357	likes: 1	task: sentence-similarity
+dataset: stsb_multi_mt	model: eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1	downloads: 312	likes: 0	task: feature-extraction
+dataset: stsb_multi_mt	model: mrm8488/distiluse-base-multilingual-cased-v2-finetuned-stsb_multi_mt-es	downloads: 227	likes: 1	task: sentence-similarity
+dataset: stsb_multi_mt	model: eduardofv/stsb-m-mt-es-distilbert-base-uncased	downloads: 164	likes: 1	task: sentence-similarity
+dataset: stsb_multi_mt	model: hugorosen/flaubert_base_uncased-xnli-sts	downloads: 131	likes: 0	task: sentence-similarity
+dataset: stsb_multi_mt	model: T-Systems-onsite/cross-en-fr-roberta-sentence-transformer	downloads: 62	likes: 0	task: feature-extraction
+dataset: stsb_multi_mt	model: inokufu/bertheo	downloads: 31	likes: 0	task: sentence-similarity
+# found: 11548 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

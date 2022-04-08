@@ -1,2 +1,2 @@
-model: typeform/distilbert-base-uncased-mnli	model: typeform/distilbert-base-uncased-mnli	downloads: 243961	likes: 9	task: zero-shot-classification
+model: typeform/distilbert-base-uncased-mnli	model: typeform/distilbert-base-uncased-mnli	downloads: 249248	likes: 9	task: zero-shot-classification
 model: typeform/distilbert-base-uncased-mnli	labels: ENTAILMENT, NEUTRAL, CONTRADICTION

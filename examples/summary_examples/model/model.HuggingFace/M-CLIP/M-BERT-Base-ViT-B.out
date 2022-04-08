@@ -1,9 +1,2 @@
-model: M-CLIP/M-BERT-Base-ViT-B	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 284969	likes: 5	task: feature-extraction
-***ERROR***
-model: M-CLIP/M-BERT-Base-ViT-B
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError('M-CLIP/M-BERT-Base-ViT-B does not appear to have a file named preprocessor_config.json.'), <traceback object at 0x7fc5746c3c80>)
+model: M-CLIP/M-BERT-Base-ViT-B	No info from HuggingFace
+model: M-CLIP/M-BERT-Base-ViT-B	labels: LABEL_0, LABEL_1

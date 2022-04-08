@@ -1,4 +1,4 @@
-dataset: cfq	dataset: cfq	downloads: 1953	likes: 0	PWC: https://paperswithcode.com/dataset/cfq
+dataset: cfq	dataset: cfq	downloads: 2082	likes: 0	PWC: https://paperswithcode.com/dataset/cfq
 dataset: cfq,mcd1	splits: train: 95743 rows, test: 11968 rows
 dataset: cfq,mcd1	split: train	columns: question, query
 dataset: cfq,mcd2	splits: train: 95743 rows, test: 11968 rows
@@ -16,3 +16,15 @@ dataset: cfq,query_pattern_split	split: train	columns: question, query
 dataset: cfq,random_split	splits: train: 95744 rows, test: 11967 rows
 dataset: cfq,random_split	split: train	columns: question, query
 # dataset: cfq --> 0 models
+# found: 11541 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/deberta-base	downloads: 0	likes: 0	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 0	likes: 0	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 0	likes: 0	task: None
+task: None	model: distilbert-base-cased	downloads: 0	likes: 0	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 0	likes: 0	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 0	likes: 0	task: None

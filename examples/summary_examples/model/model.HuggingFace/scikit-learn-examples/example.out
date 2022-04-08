@@ -1,4 +1,4 @@
-model: scikit-learn-examples/example	model: scikit-learn-examples/example	downloads: 129	likes: 0	task: structured-data-classification
+model: scikit-learn-examples/example	model: scikit-learn-examples/example	downloads: 132	likes: 0	task: structured-data-classification
 ***ERROR***
 model: scikit-learn-examples/example
 data: None
@@ -6,4 +6,4 @@ eqn: None
 splits: train
 split: train
 task: None
-error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: structured-data-classification'), <traceback object at 0x7f627e033e40>)
+error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: structured-data-classification'), <traceback object at 0x7f16dc0ebf80>)

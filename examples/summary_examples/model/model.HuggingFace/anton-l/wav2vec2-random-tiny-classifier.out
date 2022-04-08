@@ -1,2 +1,2 @@
-model: anton-l/wav2vec2-random-tiny-classifier	model: anton-l/wav2vec2-random-tiny-classifier	downloads: 3076	likes: 1	task: audio-classification
+model: anton-l/wav2vec2-random-tiny-classifier	model: anton-l/wav2vec2-random-tiny-classifier	downloads: 3202	likes: 1	task: audio-classification
 model: anton-l/wav2vec2-random-tiny-classifier	labels: _silence_, _unknown_, down, go, left, no, off, on, right, stop, up, yes

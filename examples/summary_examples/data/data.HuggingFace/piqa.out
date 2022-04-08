@@ -1,5 +1,17 @@
-dataset: piqa	dataset: piqa	downloads: 13711	likes: 4	PWC: https://paperswithcode.com/dataset/piqa
+dataset: piqa	dataset: piqa	downloads: 13214	likes: 4	PWC: https://paperswithcode.com/dataset/piqa
 dataset: piqa,plain_text	splits: train: 16113 rows, test: 3084 rows, val: 1838 rows
 dataset: piqa,plain_text	split: train	columns: goal, sol1, sol2, label
 dataset: piqa,plain_text	labels: 0, 1
 # dataset: piqa --> 0 models
+# found: 11541 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

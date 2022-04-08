@@ -81,7 +81,7 @@ def apply_model_info(models):
 def infer_models_from_task(args):
     from gft_internals.my_task import infer_task,canonicalize_task
     task = canonicalize_task(infer_task(args))
-    if task is None: return
+    # if task is None: return
     topn = get_arg(args, 'topn')
     model_args = ModelSearchArguments()
     d = model_args.pipeline_tag
@@ -94,7 +94,7 @@ def infer_models_from_task(args):
             models = models[0:topn]
         if not get_arg(args, 'fast_mode', default=False):
             models = apply_model_info(models)
-        print_models(models, 'task: ' + task)
+        print_models(models, 'task: ' + str(task))
     else:
         d = getattr(d, task)
         api = HfApi()

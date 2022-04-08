@@ -1,2 +1,2 @@
-model: xlm-roberta-base	model: xlm-roberta-base	downloads: 2403724	likes: 24	task: fill-mask
+model: xlm-roberta-base	model: xlm-roberta-base	downloads: 2472555	likes: 24	task: fill-mask
 model: xlm-roberta-base	labels: LABEL_0, LABEL_1

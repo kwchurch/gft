@@ -1,6 +1,12 @@
-dataset: amazon_polarity	dataset: amazon_polarity	downloads: 31036	likes: 7	
+dataset: amazon_polarity	No info from HuggingFace
 dataset: amazon_polarity,amazon_polarity	splits: train: 3600000 rows, test: 400000 rows
 dataset: amazon_polarity,amazon_polarity	split: train	columns: label, title, content
 dataset: amazon_polarity,amazon_polarity	labels: negative, positive
-dataset: amazon_polarity --> 1 models
-dataset: amazon_polarity	model: fabriceyhc/bert-base-uncased-amazon_polarity	downloads: 3605	likes: 0	task: text-classification
+***ERROR***
+model: None
+data: H:amazon_polarity
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f0c9bc5b180>)

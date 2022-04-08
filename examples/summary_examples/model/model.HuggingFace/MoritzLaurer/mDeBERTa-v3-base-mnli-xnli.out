@@ -1,2 +1,2 @@
-model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 114900	likes: 20	task: zero-shot-classification
+model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 101648	likes: 20	task: zero-shot-classification
 model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	labels: contradiction, entailment, neutral

@@ -1,15 +1,27 @@
-dataset: imdb	dataset: imdb	downloads: 118491	likes: 9	PWC: https://paperswithcode.com/dataset/imdb-movie-reviews
+dataset: imdb	dataset: imdb	downloads: 116777	likes: 9	PWC: https://paperswithcode.com/dataset/imdb-movie-reviews
 dataset: imdb,plain_text	splits: train: 25000 rows, test: 25000 rows, unsupervised: 50000 rows
 dataset: imdb,plain_text	split: train	columns: text, label
 dataset: imdb,plain_text	labels: neg, pos
 dataset: imdb --> 10 models
-dataset: imdb	model: mrm8488/t5-small-finetuned-imdb-sentiment	downloads: 11300	likes: 0	task: text2text-generation
-dataset: imdb	model: lvwerra/distilbert-imdb	downloads: 1665	likes: 0	task: text-classification
-dataset: imdb	model: mrm8488/t5-base-finetuned-imdb-sentiment	downloads: 1171	likes: 0	task: text2text-generation
-dataset: imdb	model: aychang/roberta-base-imdb	downloads: 768	likes: 1	task: text-classification
-dataset: imdb	model: AdapterHub/bert-base-uncased-pf-imdb	downloads: 566	likes: 0	task: text-classification
-dataset: imdb	model: lannelin/bert-imdb-1hidden	downloads: 247	likes: 0	task: text-classification
-dataset: imdb	model: kurianbenoy/distilbert-base-uncased-finetuned-sst-2-english-finetuned-imdb	downloads: 202	likes: 0	task: text-classification
-dataset: imdb	model: huggingface-course/distilbert-base-uncased-finetuned-imdb	downloads: 201	likes: 0	task: fill-mask
-dataset: imdb	model: thatdramebaazguy/movie-roberta-base	downloads: 155	likes: 0	task: fill-mask
+dataset: imdb	model: mrm8488/t5-small-finetuned-imdb-sentiment	downloads: 12779	likes: 0	task: text2text-generation
+dataset: imdb	model: lvwerra/distilbert-imdb	downloads: 1664	likes: 0	task: text-classification
+dataset: imdb	model: mrm8488/t5-base-finetuned-imdb-sentiment	downloads: 1085	likes: 0	task: text2text-generation
+dataset: imdb	model: aychang/roberta-base-imdb	downloads: 762	likes: 1	task: text-classification
+dataset: imdb	model: AdapterHub/bert-base-uncased-pf-imdb	downloads: 574	likes: 0	task: text-classification
+dataset: imdb	model: lannelin/bert-imdb-1hidden	downloads: 294	likes: 0	task: text-classification
+dataset: imdb	model: huggingface-course/distilbert-base-uncased-finetuned-imdb	downloads: 225	likes: 0	task: fill-mask
+dataset: imdb	model: kurianbenoy/distilbert-base-uncased-finetuned-sst-2-english-finetuned-imdb	downloads: 208	likes: 0	task: text-classification
 dataset: imdb	model: ykacer/bert-base-cased-imdb-sequence-classification	downloads: 139	likes: 0	task: text-classification
+dataset: imdb	model: thatdramebaazguy/movie-roberta-base	downloads: 138	likes: 0	task: fill-mask
+# found: 11548 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

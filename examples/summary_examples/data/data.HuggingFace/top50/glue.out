@@ -1,4 +1,4 @@
-dataset: glue	dataset: glue	downloads: 952121	likes: 29	PWC: https://paperswithcode.com/dataset/glue
+dataset: glue	dataset: glue	downloads: 975550	likes: 29	PWC: https://paperswithcode.com/dataset/glue
 dataset: glue,cola	splits: train: 8551 rows, test: 1063 rows, val: 1043 rows
 dataset: glue,cola	split: train	columns: sentence, label, idx
 dataset: glue,cola	labels: unacceptable, acceptable
@@ -29,13 +29,25 @@ dataset: glue,wnli	split: train	columns: sentence1, sentence2, label, idx
 dataset: glue,wnli	labels: not_entailment, entailment
 dataset: glue,ax	splits: test: 1104 rows
 dataset: glue --> 10 models
-dataset: glue	model: Jiva/xlm-roberta-large-it-mnli	downloads: 9204	likes: 1	task: zero-shot-classification
-dataset: glue	model: Bhumika/roberta-base-finetuned-sst2	downloads: 998	likes: 1	task: text-classification
+dataset: glue	model: Jiva/xlm-roberta-large-it-mnli	downloads: 10822	likes: 1	task: zero-shot-classification
+dataset: glue	model: Bhumika/roberta-base-finetuned-sst2	downloads: 1030	likes: 1	task: text-classification
 dataset: glue	model: mujeensung/roberta-base_mnli_bc	downloads: 490	likes: 0	task: text-classification
 dataset: glue	model: D3xter1922/electra-base-discriminator-finetuned-cola	downloads: 320	likes: 0	task: text-classification
 dataset: glue	model: yy642/bert-base-uncased-finetuned-mnli-512-10	downloads: 313	likes: 0	task: text-classification
-dataset: glue	model: Alireza1044/albert-base-v2-sst2	downloads: 269	likes: 0	task: text-classification
-dataset: glue	model: DeepPavlov/xlm-roberta-large-en-ru-mnli	downloads: 256	likes: 0	task: text-classification
-dataset: glue	model: mrm8488/deberta-v3-large-finetuned-mnli	downloads: 178	likes: 2	task: text-classification
-dataset: glue	model: gchhablani/bert-base-cased-finetuned-sst2	downloads: 162	likes: 0	task: text-classification
-dataset: glue	model: ajrae/bert-base-uncased-finetuned-mrpc	downloads: 125	likes: 0	task: text-classification
+dataset: glue	model: DeepPavlov/xlm-roberta-large-en-ru-mnli	downloads: 265	likes: 0	task: text-classification
+dataset: glue	model: Alireza1044/albert-base-v2-sst2	downloads: 218	likes: 0	task: text-classification
+dataset: glue	model: gchhablani/bert-base-cased-finetuned-sst2	downloads: 192	likes: 0	task: text-classification
+dataset: glue	model: mrm8488/deberta-v3-large-finetuned-mnli	downloads: 177	likes: 2	task: text-classification
+dataset: glue	model: nielsr/coref-bert-base	downloads: 170	likes: 0	task: None
+# found: 11541 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

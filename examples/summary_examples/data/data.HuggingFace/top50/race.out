@@ -1,4 +1,4 @@
-dataset: race	dataset: race	downloads: 15902	likes: 4	PWC: https://paperswithcode.com/dataset/race
+dataset: race	dataset: race	downloads: 15609	likes: 4	PWC: https://paperswithcode.com/dataset/race
 dataset: race,high	splits: test: 3498 rows, train: 62445 rows, val: 3451 rows
 dataset: race,high	split: train	columns: example_id, article, answer, question, options
 dataset: race,middle	splits: test: 1436 rows, train: 25421 rows, val: 1436 rows
@@ -6,13 +6,25 @@ dataset: race,middle	split: train	columns: example_id, article, answer, question
 dataset: race,all	splits: test: 4934 rows, train: 87866 rows, val: 4887 rows
 dataset: race,all	split: train	columns: example_id, article, answer, question, options
 dataset: race --> 10 models
-dataset: race	model: LIAMF-USP/roberta-large-finetuned-race	downloads: 4654	likes: 2	task: None
-dataset: race	model: voidful/bart-distractor-generation	downloads: 818	likes: 2	task: text2text-generation
-dataset: race	model: LIAMF-USP/aristo-roberta	downloads: 703	likes: 0	task: None
+dataset: race	model: LIAMF-USP/roberta-large-finetuned-race	downloads: 4474	likes: 2	task: None
+dataset: race	model: voidful/bart-distractor-generation	downloads: 808	likes: 2	task: text2text-generation
+dataset: race	model: LIAMF-USP/aristo-roberta	downloads: 685	likes: 0	task: None
 dataset: race	model: voidful/bart-distractor-generation-pm	downloads: 244	likes: 0	task: text2text-generation
-dataset: race	model: voidful/bart-distractor-generation-both	downloads: 189	likes: 0	task: text2text-generation
-dataset: race	model: AdapterHub/bert-base-uncased-pf-race	downloads: 65	likes: 0	task: None
+dataset: race	model: voidful/bart-distractor-generation-both	downloads: 181	likes: 0	task: text2text-generation
+dataset: race	model: AdapterHub/bert-base-uncased-pf-race	downloads: 32	likes: 0	task: None
 dataset: race	model: mamlong34/t5_large_race_cosmos_qa	downloads: 20	likes: 0	task: text2text-generation
-dataset: race	model: AdapterHub/roberta-base-pf-race	downloads: 17	likes: 0	task: None
+dataset: race	model: AdapterHub/roberta-base-pf-race	downloads: 15	likes: 0	task: None
 dataset: race	model: russab0/distilbert-qa	downloads: 6	likes: 0	task: None
 dataset: race	model: mamlong34/t5_base_race_cosmos_qa	downloads: 4	likes: 0	task: text2text-generation
+# found: 11541 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

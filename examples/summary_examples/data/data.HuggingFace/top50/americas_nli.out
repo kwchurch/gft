@@ -1,4 +1,4 @@
-dataset: americas_nli	dataset: americas_nli	downloads: 16689	likes: 0	
+dataset: americas_nli	dataset: americas_nli	downloads: 17550	likes: 0	
 dataset: americas_nli,aym	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,bzd	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,cni	splits: test: 750 rows, val: 658 rows
@@ -11,3 +11,15 @@ dataset: americas_nli,shp	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,tar	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,all_languages	splits: test: 7486 rows, val: 6457 rows
 # dataset: americas_nli --> 0 models
+# found: 11548 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

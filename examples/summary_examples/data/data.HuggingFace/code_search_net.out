@@ -1,4 +1,4 @@
-dataset: code_search_net	dataset: code_search_net	downloads: 4209	likes: 12	PWC: https://paperswithcode.com/dataset/codesearchnet
+dataset: code_search_net	No info from HuggingFace
 dataset: code_search_net,all	splits: train: 1880853 rows, test: 100529 rows, val: 89154 rows
 dataset: code_search_net,all	split: train	columns: repository_name, func_path_in_repository, func_name, whole_func_string, language, func_code_string, func_code_tokens, func_documentation_string, func_documentation_tokens, split_name, func_code_url
 dataset: code_search_net,java	splits: train: 454451 rows, test: 26909 rows, val: 15328 rows
@@ -13,14 +13,11 @@ dataset: code_search_net,ruby	splits: train: 48791 rows, test: 2279 rows, val: 2
 dataset: code_search_net,ruby	split: train	columns: repository_name, func_path_in_repository, func_name, whole_func_string, language, func_code_string, func_code_tokens, func_documentation_string, func_documentation_tokens, split_name, func_code_url
 dataset: code_search_net,php	splits: train: 523712 rows, test: 28391 rows, val: 26015 rows
 dataset: code_search_net,php	split: train	columns: repository_name, func_path_in_repository, func_name, whole_func_string, language, func_code_string, func_code_tokens, func_documentation_string, func_documentation_tokens, split_name, func_code_url
-dataset: code_search_net --> 10 models
-dataset: code_search_net	model: huggingface/CodeBERTa-small-v1	downloads: 143688	likes: 8	task: fill-mask
-dataset: code_search_net	model: Salesforce/codet5-base	downloads: 15247	likes: 15	task: text2text-generation
-dataset: code_search_net	model: Salesforce/codet5-small	downloads: 6202	likes: 6	task: text2text-generation
-dataset: code_search_net	model: huggingface/CodeBERTa-language-id	downloads: 5368	likes: 5	task: text-classification
-dataset: code_search_net	model: Salesforce/codet5-base-multi-sum	downloads: 2308	likes: 4	task: text2text-generation
-dataset: code_search_net	model: flax-sentence-embeddings/st-codesearch-distilroberta-base	downloads: 632	likes: 4	task: sentence-similarity
-dataset: code_search_net	model: dbernsohn/roberta-python	downloads: 167	likes: 1	task: fill-mask
-dataset: code_search_net	model: dbernsohn/roberta-java	downloads: 68	likes: 1	task: fill-mask
-dataset: code_search_net	model: razent/cotext-1-ccg	downloads: 60	likes: 0	task: feature-extraction
-dataset: code_search_net	model: dbernsohn/roberta-javascript	downloads: 59	likes: 0	task: fill-mask
+***ERROR***
+model: None
+data: H:code_search_net
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7feb947f1b40>)

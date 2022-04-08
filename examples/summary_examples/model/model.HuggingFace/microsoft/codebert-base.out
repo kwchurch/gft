@@ -1,9 +1,2 @@
-model: microsoft/codebert-base	model: microsoft/codebert-base	downloads: 438201	likes: 9	task: feature-extraction
-***ERROR***
-model: microsoft/codebert-base
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError('microsoft/codebert-base does not appear to have a file named preprocessor_config.json.'), <traceback object at 0x7f636e6dde00>)
+model: microsoft/codebert-base	No info from HuggingFace
+model: microsoft/codebert-base	labels: LABEL_0, LABEL_1

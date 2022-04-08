@@ -1,2 +1,2 @@
-model: gpt2-large	model: gpt2-large	downloads: 113114	likes: 11	task: text-generation
+model: gpt2-large	model: gpt2-large	downloads: 110359	likes: 11	task: text-generation
 model: gpt2-large	labels: LABEL_0, LABEL_1

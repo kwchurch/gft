@@ -1,2 +1,2 @@
-model: kha-white/manga-ocr-base	model: kha-white/manga-ocr-base	downloads: 3401	likes: 4	task: image-to-text
+model: kha-white/manga-ocr-base	model: kha-white/manga-ocr-base	downloads: 3421	likes: 4	task: image-to-text
 model: kha-white/manga-ocr-base	labels: LABEL_0, LABEL_1

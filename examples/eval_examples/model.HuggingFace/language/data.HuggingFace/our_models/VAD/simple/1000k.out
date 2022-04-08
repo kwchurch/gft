@@ -1,4 +1,2 @@
-hostname = asimov-29.svail.baidu.com
-Downloading and preparing dataset csv/default to /mnt/home/kwc/.cache/huggingface/datasets/csv/default-b3824f995d750f6f/0.0.0/433e0ccc46f9880962cc2b12065189766fbb2bee57a221866138fb9203c83519...
-Dataset csv downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/csv/default-b3824f995d750f6f/0.0.0/433e0ccc46f9880962cc2b12065189766fbb2bee57a221866138fb9203c83519. Subsequent calls will reuse this data.
-65.77 seconds	/mnt/big/kwc/morphology/results/20220321/fit_examples/model.HuggingFace/language/VAD/simple/1000k/ckpt/best	mean_squared_error: 1.9364594129552816e-05
+hostname = asimov-93.svail.baidu.com
+67.16 seconds	/mnt/big/kwc/morphology/results/20220405/fit_examples/model.HuggingFace/language/VAD/simple/1000k/ckpt/best	mean_squared_error: 5.96214361869361e-06

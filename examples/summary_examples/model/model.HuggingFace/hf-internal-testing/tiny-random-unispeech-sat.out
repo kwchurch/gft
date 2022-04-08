@@ -1,2 +1,2 @@
-model: hf-internal-testing/tiny-random-unispeech-sat	model: hf-internal-testing/tiny-random-unispeech-sat	downloads: 6968	likes: 0	task: audio-classification
+model: hf-internal-testing/tiny-random-unispeech-sat	model: hf-internal-testing/tiny-random-unispeech-sat	downloads: 7193	likes: 0	task: audio-classification
 model: hf-internal-testing/tiny-random-unispeech-sat	labels: LABEL_0, LABEL_1

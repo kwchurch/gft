@@ -1,2 +1,2 @@
-model: facebook/blenderbot_small-90M	model: facebook/blenderbot_small-90M	downloads: 68350	likes: 8	task: conversational
+model: facebook/blenderbot_small-90M	model: facebook/blenderbot_small-90M	downloads: 69422	likes: 9	task: conversational
 model: facebook/blenderbot_small-90M	labels: LABEL_0, LABEL_1, LABEL_2

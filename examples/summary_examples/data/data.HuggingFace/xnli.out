@@ -1,4 +1,4 @@
-dataset: xnli	dataset: xnli	downloads: 69487	likes: 5	PWC: https://paperswithcode.com/dataset/xnli
+dataset: xnli	dataset: xnli	downloads: 70630	likes: 5	PWC: https://paperswithcode.com/dataset/xnli
 dataset: xnli,ar	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
 dataset: xnli,ar	split: train	columns: premise, hypothesis, label
 dataset: xnli,ar	labels: entailment, neutral, contradiction
@@ -48,13 +48,25 @@ dataset: xnli,all_languages	splits: train: 392702 rows, test: 5010 rows, val: 24
 dataset: xnli,all_languages	split: train	columns: premise, hypothesis, label
 dataset: xnli,all_languages	labels: entailment, neutral, contradiction
 dataset: xnli --> 10 models
-dataset: xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 239794	likes: 5	task: zero-shot-classification
-dataset: xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 114900	likes: 20	task: zero-shot-classification
-dataset: xnli	model: joeddav/xlm-roberta-large-xnli	downloads: 70355	likes: 32	task: zero-shot-classification
-dataset: xnli	model: Sahajtomar/German_Zeroshot	downloads: 63508	likes: 6	task: zero-shot-classification
-dataset: xnli	model: Recognai/zeroshot_selectra_medium	downloads: 32562	likes: 3	task: zero-shot-classification
-dataset: xnli	model: Recognai/bert-base-spanish-wwm-cased-xnli	downloads: 30232	likes: 10	task: zero-shot-classification
-dataset: xnli	model: vicgalle/xlm-roberta-large-xnli-anli	downloads: 11368	likes: 8	task: zero-shot-classification
-dataset: xnli	model: Recognai/zeroshot_selectra_small	downloads: 8236	likes: 3	task: zero-shot-classification
-dataset: xnli	model: alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli	downloads: 2642	likes: 1	task: text2text-generation
-dataset: xnli	model: inokufu/flaubert-base-uncased-xnli-sts	downloads: 1249	likes: 0	task: sentence-similarity
+dataset: xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 238043	likes: 5	task: zero-shot-classification
+dataset: xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 101648	likes: 20	task: zero-shot-classification
+dataset: xnli	model: joeddav/xlm-roberta-large-xnli	downloads: 72347	likes: 32	task: zero-shot-classification
+dataset: xnli	model: Sahajtomar/German_Zeroshot	downloads: 69109	likes: 6	task: zero-shot-classification
+dataset: xnli	model: Recognai/bert-base-spanish-wwm-cased-xnli	downloads: 33218	likes: 10	task: zero-shot-classification
+dataset: xnli	model: Recognai/zeroshot_selectra_medium	downloads: 31175	likes: 3	task: zero-shot-classification
+dataset: xnli	model: vicgalle/xlm-roberta-large-xnli-anli	downloads: 11313	likes: 8	task: zero-shot-classification
+dataset: xnli	model: Recognai/zeroshot_selectra_small	downloads: 9581	likes: 3	task: zero-shot-classification
+dataset: xnli	model: alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli	downloads: 2536	likes: 1	task: text2text-generation
+dataset: xnli	model: inokufu/flaubert-base-uncased-xnli-sts	downloads: 1516	likes: 0	task: sentence-similarity
+# found: 11542 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

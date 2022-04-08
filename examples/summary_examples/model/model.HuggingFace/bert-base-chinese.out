@@ -1,2 +1,2 @@
-model: bert-base-chinese	model: bert-base-chinese	downloads: 2488266	likes: 74	task: fill-mask
+model: bert-base-chinese	model: bert-base-chinese	downloads: 2475614	likes: 75	task: fill-mask
 model: bert-base-chinese	labels: LABEL_0, LABEL_1

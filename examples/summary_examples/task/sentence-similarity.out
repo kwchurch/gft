@@ -1,12 +1,12 @@
-# found: 408 matches; truncating to 10
+# found: 409 matches; truncating to 10
 task: sentence-similarity --> 10 models
-task: sentence-similarity	model: sentence-transformers/all-MiniLM-L6-v2	downloads: 2343516	likes: 26	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/paraphrase-MiniLM-L6-v2	downloads: 2037331	likes: 9	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/LaBSE	downloads: 854827	likes: 21	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2	downloads: 757170	likes: 28	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/bert-base-nli-mean-tokens	downloads: 647445	likes: 4	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/all-mpnet-base-v2	downloads: 494087	likes: 24	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/paraphrase-mpnet-base-v2	downloads: 476119	likes: 5	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/paraphrase-xlm-r-multilingual-v1	downloads: 391200	likes: 29	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/distiluse-base-multilingual-cased-v2	downloads: 215390	likes: 16	task: sentence-similarity
-task: sentence-similarity	model: sentence-transformers/all-distilroberta-v1	downloads: 212710	likes: 4	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/all-MiniLM-L6-v2	downloads: 2325370	likes: 26	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/paraphrase-MiniLM-L6-v2	downloads: 2014423	likes: 10	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/LaBSE	downloads: 855948	likes: 21	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2	downloads: 771704	likes: 29	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/bert-base-nli-mean-tokens	downloads: 649420	likes: 4	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/all-mpnet-base-v2	downloads: 519874	likes: 24	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/paraphrase-mpnet-base-v2	downloads: 500500	likes: 5	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/paraphrase-xlm-r-multilingual-v1	downloads: 407039	likes: 29	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/all-distilroberta-v1	downloads: 232682	likes: 4	task: sentence-similarity
+task: sentence-similarity	model: sentence-transformers/distiluse-base-multilingual-cased-v2	downloads: 211363	likes: 16	task: sentence-similarity

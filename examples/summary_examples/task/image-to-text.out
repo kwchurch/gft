@@ -1,7 +1,7 @@
 task: image-to-text --> 6 models
-task: image-to-text	model: kha-white/manga-ocr-base	downloads: 3401	likes: 4	task: image-to-text
-task: image-to-text	model: sachin/vit2distilgpt2	downloads: 424	likes: 2	task: image-to-text
-task: image-to-text	model: gagan3012/ViTGPT2_vizwiz	downloads: 125	likes: 0	task: image-to-text
-task: image-to-text	model: bipin/image-caption-generator	downloads: 45	likes: 0	task: image-to-text
+task: image-to-text	model: kha-white/manga-ocr-base	downloads: 3421	likes: 4	task: image-to-text
+task: image-to-text	model: sachin/vit2distilgpt2	downloads: 438	likes: 2	task: image-to-text
+task: image-to-text	model: gagan3012/ViTGPT2_vizwiz	downloads: 132	likes: 0	task: image-to-text
+task: image-to-text	model: bipin/image-caption-generator	downloads: 47	likes: 0	task: image-to-text
 task: image-to-text	model: TeamFnord/manga-ocr	downloads: 3	likes: 0	task: image-to-text
 task: image-to-text	model: keras-io/image-captioning	downloads: 0	likes: 2	task: image-to-text

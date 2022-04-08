@@ -1,3 +1,3 @@
 hostname = asimov-27.svail.baidu.com
 *** ERROR ***	Narrativa/byt5-base-tweet-hate-detection
-62.58 seconds	mrm8488/distilroberta-finetuned-tweets-hate-speech	accuracy: 0.994305738063951	f1: 0.9776765742511933
+62.10 seconds	mrm8488/distilroberta-finetuned-tweets-hate-speech	accuracy: 0.994305738063951	f1: 0.9776765742511933

@@ -1,4 +1,4 @@
-dataset: adversarial_qa	dataset: adversarial_qa	downloads: 16300	likes: 6	PWC: https://paperswithcode.com/dataset/adversarialqa
+dataset: adversarial_qa	dataset: adversarial_qa	downloads: 17078	likes: 6	PWC: https://paperswithcode.com/dataset/adversarialqa
 dataset: adversarial_qa,adversarialQA	splits: train: 30000 rows, test: 3000 rows, val: 3000 rows
 dataset: adversarial_qa,adversarialQA	split: train	columns: id, title, context, question, answers, metadata
 dataset: adversarial_qa,dbidaf	splits: train: 10000 rows, test: 1000 rows, val: 1000 rows
@@ -8,4 +8,16 @@ dataset: adversarial_qa,dbert	split: train	columns: id, title, context, question
 dataset: adversarial_qa,droberta	splits: train: 10000 rows, test: 1000 rows, val: 1000 rows
 dataset: adversarial_qa,droberta	split: train	columns: id, title, context, question, answers, metadata
 dataset: adversarial_qa --> 1 models
-dataset: adversarial_qa	model: T-qualizer/distilbert-base-uncased-finetuned-advers	downloads: 21	likes: 0	task: question-answering
+dataset: adversarial_qa	model: T-qualizer/distilbert-base-uncased-finetuned-advers	downloads: 23	likes: 0	task: question-answering
+# found: 11541 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

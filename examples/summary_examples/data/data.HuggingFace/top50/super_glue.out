@@ -1,4 +1,4 @@
-dataset: super_glue	dataset: super_glue	downloads: 191595	likes: 10	PWC: https://paperswithcode.com/dataset/superglue
+dataset: super_glue	dataset: super_glue	downloads: 199258	likes: 10	PWC: https://paperswithcode.com/dataset/superglue
 dataset: super_glue,boolq	splits: train: 9427 rows, test: 3245 rows, val: 3270 rows
 dataset: super_glue,boolq	split: train	columns: question, passage, idx, label
 dataset: super_glue,boolq	labels: False, True
@@ -29,5 +29,17 @@ dataset: super_glue,axb	splits: test: 1104 rows
 dataset: super_glue,axg	splits: test: 356 rows
 dataset: super_glue --> 3 models
 dataset: super_glue	model: msintaha/bert-base-uncased-finetuned-copa-data-new	downloads: 20	likes: 0	task: None
-dataset: super_glue	model: msintaha/bert-base-uncased-copa-kb-27	downloads: 9	likes: 0	task: None
+dataset: super_glue	model: msintaha/bert-base-uncased-copa-kb-27	downloads: 8	likes: 0	task: None
 dataset: super_glue	model: msintaha/bert-base-uncased-copa-kb-17	downloads: 6	likes: 0	task: None
+# found: 11542 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

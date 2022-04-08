@@ -1,13 +1,25 @@
-dataset: tab_fact	dataset: tab_fact	downloads: 4490	likes: 0	PWC: https://paperswithcode.com/dataset/tabfact
+dataset: tab_fact	dataset: tab_fact	downloads: 4368	likes: 0	PWC: https://paperswithcode.com/dataset/tabfact
 dataset: tab_fact,tab_fact	splits: train: 92283 rows, test: 12779 rows, val: 12792 rows
 dataset: tab_fact,tab_fact	split: train	columns: id, table_id, table_text, table_caption, statement, label
 dataset: tab_fact,tab_fact	labels: refuted, entailed
 dataset: tab_fact,blind_test	splits: test: 9750 rows
 dataset: tab_fact --> 7 models
-dataset: tab_fact	model: google/tapas-large-finetuned-tabfact	downloads: 549	likes: 0	task: text-classification
-dataset: tab_fact	model: google/tapas-base-finetuned-tabfact	downloads: 464	likes: 0	task: text-classification
-dataset: tab_fact	model: google/tapas-tiny-finetuned-tabfact	downloads: 58	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-large-finetuned-tabfact	downloads: 494	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-base-finetuned-tabfact	downloads: 402	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-tiny-finetuned-tabfact	downloads: 60	likes: 0	task: text-classification
 dataset: tab_fact	model: google/tapas-mini-finetuned-tabfact	downloads: 29	likes: 0	task: text-classification
 dataset: tab_fact	model: google/tapas-small-finetuned-tabfact	downloads: 24	likes: 0	task: text-classification
 dataset: tab_fact	model: nielsr/tapex-large-finetuned-tabfact	downloads: 12	likes: 0	task: text-classification
-dataset: tab_fact	model: google/tapas-medium-finetuned-tabfact	downloads: 5	likes: 0	task: text-classification
+dataset: tab_fact	model: google/tapas-medium-finetuned-tabfact	downloads: 4	likes: 0	task: text-classification
+# found: 11541 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

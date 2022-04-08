@@ -1,6 +1,18 @@
-dataset: wiki_snippets	dataset: wiki_snippets	downloads: 1150	likes: 0	
+dataset: wiki_snippets	dataset: wiki_snippets	downloads: 1105	likes: 0	
 dataset: wiki_snippets,wiki40b_en_100_0	splits: train: 17553713 rows
 dataset: wiki_snippets,wiki40b_en_100_0	split: train	columns: _id, datasets_id, wiki_id, start_paragraph, start_character, end_paragraph, end_character, article_title, section_title, passage_text
 dataset: wiki_snippets,wikipedia_en_100_0	splits: train: 30820408 rows
 dataset: wiki_snippets,wikipedia_en_100_0	split: train	columns: _id, datasets_id, wiki_id, start_paragraph, start_character, end_paragraph, end_character, article_title, section_title, passage_text
 # dataset: wiki_snippets --> 0 models
+# found: 11544 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

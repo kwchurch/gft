@@ -1,7 +1,19 @@
-dataset: tweets_hate_speech_detection	dataset: tweets_hate_speech_detection	downloads: 1593	likes: 6	
+dataset: tweets_hate_speech_detection	dataset: tweets_hate_speech_detection	downloads: 1481	likes: 6	
 dataset: tweets_hate_speech_detection	splits: train: 31962 rows
 dataset: tweets_hate_speech_detection	split: train	columns: label, tweet
 dataset: tweets_hate_speech_detection	labels: no-hate-speech, hate-speech
 dataset: tweets_hate_speech_detection --> 2 models
-dataset: tweets_hate_speech_detection	model: Narrativa/byt5-base-tweet-hate-detection	downloads: 17008	likes: 4	task: text2text-generation
-dataset: tweets_hate_speech_detection	model: mrm8488/distilroberta-finetuned-tweets-hate-speech	downloads: 1880	likes: 3	task: text-classification
+dataset: tweets_hate_speech_detection	model: Narrativa/byt5-base-tweet-hate-detection	downloads: 16746	likes: 4	task: text2text-generation
+dataset: tweets_hate_speech_detection	model: mrm8488/distilroberta-finetuned-tweets-hate-speech	downloads: 1793	likes: 3	task: text-classification
+# found: 11541 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/deberta-base	downloads: 0	likes: 0	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 0	likes: 0	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 0	likes: 0	task: None
+task: None	model: distilbert-base-cased	downloads: 0	likes: 0	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 0	likes: 0	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 0	likes: 0	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 0	likes: 0	task: None

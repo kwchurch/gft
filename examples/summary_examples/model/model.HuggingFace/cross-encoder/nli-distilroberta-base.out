@@ -1,2 +1,2 @@
-model: cross-encoder/nli-distilroberta-base	model: cross-encoder/nli-distilroberta-base	downloads: 71557	likes: 8	task: zero-shot-classification
+model: cross-encoder/nli-distilroberta-base	model: cross-encoder/nli-distilroberta-base	downloads: 72338	likes: 8	task: zero-shot-classification
 model: cross-encoder/nli-distilroberta-base	labels: contradiction, entailment, neutral

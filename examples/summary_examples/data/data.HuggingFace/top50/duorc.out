@@ -1,16 +1,28 @@
-dataset: duorc	dataset: duorc	downloads: 11843	likes: 2	PWC: https://paperswithcode.com/dataset/duorc
+dataset: duorc	dataset: duorc	downloads: 12395	likes: 2	PWC: https://paperswithcode.com/dataset/duorc
 dataset: duorc,SelfRC	splits: train: 60721 rows, test: 12559 rows, val: 12961 rows
 dataset: duorc,SelfRC	split: train	columns: plot_id, plot, title, question_id, question, answers, no_answer
 dataset: duorc,ParaphraseRC	splits: train: 69524 rows, test: 15857 rows, val: 15591 rows
 dataset: duorc,ParaphraseRC	split: train	columns: plot_id, plot, title, question_id, question, answers, no_answer
 dataset: duorc --> 10 models
 dataset: duorc	model: mw2022/distilbert-base-uncased-finetuned-SelfRC	downloads: 48	likes: 0	task: question-answering
-dataset: duorc	model: AdapterHub/bert-base-uncased-pf-duorc_s	downloads: 22	likes: 0	task: question-answering
-dataset: duorc	model: mw2022/distilbert-base-uncased-squad-selfr-mlm-trained	downloads: 18	likes: 0	task: question-answering
+dataset: duorc	model: AdapterHub/bert-base-uncased-pf-duorc_s	downloads: 20	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-selfr-mlm-trained	downloads: 19	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam	downloads: 15	likes: 0	task: question-answering
 dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam4	downloads: 15	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-reint6	downloads: 15	likes: 0	task: question-answering
 dataset: duorc	model: AdapterHub/bert-base-uncased-pf-duorc_p	downloads: 14	likes: 0	task: question-answering
-dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam	downloads: 14	likes: 0	task: question-answering
+dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam5	downloads: 14	likes: 0	task: question-answering
 dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-adam6	downloads: 14	likes: 0	task: question-answering
 dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-reint3	downloads: 14	likes: 0	task: question-answering
-dataset: duorc	model: mw2022/distilbert-base-uncased-squad-fsft-reint6	downloads: 14	likes: 0	task: question-answering
-dataset: duorc	model: AdapterHub/roberta-base-pf-duorc_s	downloads: 13	likes: 0	task: question-answering
+# found: 11548 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

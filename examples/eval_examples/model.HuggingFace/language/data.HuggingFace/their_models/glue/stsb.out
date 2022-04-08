@@ -1,4 +1,4 @@
-hostname = asimov-84.svail.baidu.com
+hostname = asimov-70.svail.baidu.com
 *** ERROR ***	H:sentence-transformers/distilbert-base-nli-stsb-mean-tokens
 *** ERROR ***	H:sentence-transformers/roberta-base-nli-stsb-mean-tokens
 *** ERROR ***	H:sentence-transformers/distilbert-multilingual-nli-stsb-quora-ranking
@@ -6,16 +6,16 @@ hostname = asimov-84.svail.baidu.com
 *** ERROR ***	H:sentence-transformers/xlm-r-100langs-bert-base-nli-stsb-mean-tokens
 *** ERROR ***	H:sentence-transformers/stsb-bert-base
 *** ERROR ***	H:sentence-transformers/stsb-roberta-large
-11.64 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
-3.79 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
+12.53 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
+4.96 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
 *** ERROR ***	H:sentence-transformers/stsb-xlm-r-multilingual
 *** ERROR ***	H:sentence-transformers/bert-base-nli-stsb-mean-tokens
-1.87 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
+1.51 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
 *** ERROR ***	H:sentence-transformers/stsb-distilbert-base
 *** ERROR ***	H:sentence-transformers/stsb-mpnet-base-v2
 *** ERROR ***	H:sentence-transformers/stsb-roberta-base-v2
 *** ERROR ***	H:sentence-transformers/roberta-large-nli-stsb-mean-tokens
-2.22 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
+2.21 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
 *** ERROR ***	H:sentence-transformers/xlm-r-bert-base-nli-stsb-mean-tokens
 *** ERROR ***	H:Contrastive-Tension/RoBerta-Large-CT-STSb
 *** ERROR ***	H:sentence-transformers/stsb-bert-large
@@ -26,6 +26,6 @@ hostname = asimov-84.svail.baidu.com
 *** ERROR ***	H:eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1
 *** ERROR ***	H:mrm8488/distiluse-base-multilingual-cased-v2-finetuned-stsb_multi_mt-es
 *** ERROR ***	H:pritamdeka/S-Biomed-Roberta-snli-multinli-stsb
-3.79 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746
+3.90 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746
 *** ERROR ***	H:Muennighoff/SBERT-base-nli-stsb-v2
 *** ERROR ***	H:AIDA-UPM/mstsb-paraphrase-multilingual-mpnet-base-v2

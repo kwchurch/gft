@@ -1,2 +1,2 @@
-model: t5-small	model: t5-small	downloads: 1459206	likes: 9	task: translation
+model: t5-small	model: t5-small	downloads: 1481791	likes: 9	task: translation
 model: t5-small	labels: LABEL_0, LABEL_1

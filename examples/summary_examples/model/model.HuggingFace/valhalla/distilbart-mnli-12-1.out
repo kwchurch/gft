@@ -1,2 +1,2 @@
-model: valhalla/distilbart-mnli-12-1	model: valhalla/distilbart-mnli-12-1	downloads: 111672	likes: 3	task: zero-shot-classification
+model: valhalla/distilbart-mnli-12-1	model: valhalla/distilbart-mnli-12-1	downloads: 111983	likes: 3	task: zero-shot-classification
 model: valhalla/distilbart-mnli-12-1	labels: contradiction, entailment, neutral

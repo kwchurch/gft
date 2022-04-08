@@ -1,5 +1,11 @@
-dataset: daily_dialog	dataset: daily_dialog	downloads: 1582	likes: 13	PWC: https://paperswithcode.com/dataset/dailydialog
+dataset: daily_dialog	No info from HuggingFace
 dataset: daily_dialog	splits: train: 11118 rows, test: 1000 rows, val: 1000 rows
 dataset: daily_dialog	split: train	columns: dialog, act, emotion
-dataset: daily_dialog --> 1 models
-dataset: daily_dialog	model: ethzanalytics/GPT-J-6B-8bit-Convo-D3E	downloads: 146	likes: 1	task: text-generation
+***ERROR***
+model: None
+data: H:daily_dialog
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fd2361fe140>)

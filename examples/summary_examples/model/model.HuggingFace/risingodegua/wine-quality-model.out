@@ -6,4 +6,4 @@ eqn: None
 splits: train
 split: train
 task: None
-error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: structured-data-classification'), <traceback object at 0x7f5d93a92e40>)
+error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: structured-data-classification'), <traceback object at 0x7f8677239300>)

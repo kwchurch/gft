@@ -1,10 +1,10 @@
-hostname = asimov-26.svail.baidu.com
-46.45 seconds	mrm8488/bert-base-german-dbmdz-cased-finetuned-pawsx-de	accuracy: 0.8685	f1: 0.8655652816972819
-42.66 seconds	ziqingyang/XLMRobertaBaseForPAWSX-en	accuracy: 0.927875	f1: 0.927095918507009
-48.83 seconds	mrm8488/camembert-base-finetuned-pawsx-fr	accuracy: 0.90375	f1: 0.9021531330153818
-46.32 seconds	mrm8488/RuPERTa-base-finetuned-pawsx-es	accuracy: 0.689625	f1: 0.6855654485055724
-45.01 seconds	bertin-project/bertin-base-paws-x-es	accuracy: 0.876875	f1: 0.8762400942799193
-41.11 seconds	maximedb/paws-x-all-x-en	accuracy: 0.926625	f1: 0.9258362862867804
-50.40 seconds	mrm8488/electricidad-base-finetuned-pawsx-es	accuracy: 0.8715	f1: 0.8701153566416886
-44.40 seconds	maximedb/paws-x-all	accuracy: 0.936125	f1: 0.935471624996695
-16.01 seconds	mrm8488/electricidad-small-finetuned-paws-x-es	accuracy: 0.8465	f1: 0.8457710271203736
+hostname = asimov-27.svail.baidu.com
+47.34 seconds	mrm8488/bert-base-german-dbmdz-cased-finetuned-pawsx-de	accuracy: 0.8685	f1: 0.8655652816972819
+41.85 seconds	ziqingyang/XLMRobertaBaseForPAWSX-en	accuracy: 0.927875	f1: 0.927095918507009
+49.52 seconds	mrm8488/camembert-base-finetuned-pawsx-fr	accuracy: 0.90375	f1: 0.9021531330153818
+46.65 seconds	mrm8488/RuPERTa-base-finetuned-pawsx-es	accuracy: 0.689625	f1: 0.6855654485055724
+47.09 seconds	bertin-project/bertin-base-paws-x-es	accuracy: 0.876875	f1: 0.8762400942799193
+42.08 seconds	maximedb/paws-x-all-x-en	accuracy: 0.926625	f1: 0.9258362862867804
+51.84 seconds	mrm8488/electricidad-base-finetuned-pawsx-es	accuracy: 0.8715	f1: 0.8701153566416886
+41.73 seconds	maximedb/paws-x-all	accuracy: 0.936125	f1: 0.935471624996695
+16.56 seconds	mrm8488/electricidad-small-finetuned-paws-x-es	accuracy: 0.8465	f1: 0.8457710271203736

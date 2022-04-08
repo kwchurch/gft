@@ -1,2 +1,2 @@
-model: etalab-ia/camembert-base-squadFR-fquad-piaf	model: etalab-ia/camembert-base-squadFR-fquad-piaf	downloads: 37284	likes: 1	task: question-answering
+model: etalab-ia/camembert-base-squadFR-fquad-piaf	model: etalab-ia/camembert-base-squadFR-fquad-piaf	downloads: 36604	likes: 1	task: question-answering
 model: etalab-ia/camembert-base-squadFR-fquad-piaf	labels: LABEL_0, LABEL_1

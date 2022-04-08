@@ -1,12 +1,12 @@
 TextClassification	input one or two texts and output a class label (includes sentiment analysis)
 task: TextClassification --> 10 models
-task: TextClassification	model: cross-encoder/ms-marco-MiniLM-L-12-v2	downloads: 10980464	likes: 5	task: text-classification
-task: TextClassification	model: distilbert-base-uncased-finetuned-sst-2-english	downloads: 4205588	likes: 45	task: text-classification
-task: TextClassification	model: facebook/bart-large-mnli	downloads: 2400410	likes: 95	task: zero-shot-classification
-task: TextClassification	model: roberta-large-mnli	downloads: 1694330	likes: 14	task: text-classification
-task: TextClassification	model: nlptown/bert-base-multilingual-uncased-sentiment	downloads: 1189348	likes: 36	task: text-classification
-task: TextClassification	model: finiteautomata/beto-sentiment-analysis	downloads: 703324	likes: 7	task: text-classification
-task: TextClassification	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 577158	likes: 21	task: text-classification
-task: TextClassification	model: cardiffnlp/twitter-roberta-base-sentiment	downloads: 459493	likes: 40	task: text-classification
-task: TextClassification	model: j-hartmann/emotion-english-distilroberta-base	downloads: 355900	likes: 18	task: text-classification
-task: TextClassification	model: cardiffnlp/twitter-roberta-base-emotion	downloads: 355581	likes: 7	task: text-classification
+task: TextClassification	model: cross-encoder/ms-marco-MiniLM-L-12-v2	downloads: 10671662	likes: 5	task: text-classification
+task: TextClassification	model: distilbert-base-uncased-finetuned-sst-2-english	downloads: 4236644	likes: 46	task: text-classification
+task: TextClassification	model: facebook/bart-large-mnli	downloads: 2368597	likes: 96	task: zero-shot-classification
+task: TextClassification	model: roberta-large-mnli	downloads: 1889931	likes: 14	task: text-classification
+task: TextClassification	model: nlptown/bert-base-multilingual-uncased-sentiment	downloads: 1167398	likes: 39	task: text-classification
+task: TextClassification	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 749987	likes: 21	task: text-classification
+task: TextClassification	model: finiteautomata/beto-sentiment-analysis	downloads: 711243	likes: 8	task: text-classification
+task: TextClassification	model: cardiffnlp/twitter-roberta-base-sentiment	downloads: 437604	likes: 40	task: text-classification
+task: TextClassification	model: j-hartmann/emotion-english-distilroberta-base	downloads: 359025	likes: 18	task: text-classification
+task: TextClassification	model: cardiffnlp/twitter-roberta-base-emotion	downloads: 340666	likes: 7	task: text-classification

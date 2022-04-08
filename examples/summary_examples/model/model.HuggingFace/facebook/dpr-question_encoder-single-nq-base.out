@@ -1,2 +1,2 @@
-model: facebook/dpr-question_encoder-single-nq-base	model: facebook/dpr-question_encoder-single-nq-base	downloads: 278370	likes: 1	task: feature-extraction
+model: facebook/dpr-question_encoder-single-nq-base	model: facebook/dpr-question_encoder-single-nq-base	downloads: 283620	likes: 1	task: feature-extraction
 model: facebook/dpr-question_encoder-single-nq-base	labels: LABEL_0, LABEL_1

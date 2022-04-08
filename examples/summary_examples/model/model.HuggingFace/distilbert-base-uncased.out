@@ -1,2 +1,2 @@
-model: distilbert-base-uncased	model: distilbert-base-uncased	downloads: 5133899	likes: 47	task: fill-mask
+model: distilbert-base-uncased	model: distilbert-base-uncased	downloads: 4878716	likes: 47	task: fill-mask
 model: distilbert-base-uncased	labels: LABEL_0, LABEL_1

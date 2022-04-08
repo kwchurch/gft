@@ -1,4 +1,4 @@
-dataset: winogrande	dataset: winogrande	downloads: 13430	likes: 1	PWC: https://paperswithcode.com/dataset/winogrande
+dataset: winogrande	No info from HuggingFace
 dataset: winogrande,winogrande_xs	splits: train: 160 rows, test: 1767 rows, val: 1267 rows
 dataset: winogrande,winogrande_xs	split: train	columns: sentence, option1, option2, answer
 dataset: winogrande,winogrande_s	splits: train: 640 rows, test: 1767 rows, val: 1267 rows
@@ -11,7 +11,11 @@ dataset: winogrande,winogrande_xl	splits: train: 40398 rows, test: 1767 rows, va
 dataset: winogrande,winogrande_xl	split: train	columns: sentence, option1, option2, answer
 dataset: winogrande,winogrande_debiased	splits: train: 9248 rows, test: 1767 rows, val: 1267 rows
 dataset: winogrande,winogrande_debiased	split: train	columns: sentence, option1, option2, answer
-dataset: winogrande --> 3 models
-dataset: winogrande	model: DeepPavlov/roberta-large-winogrande	downloads: 33	likes: 0	task: text-classification
-dataset: winogrande	model: AdapterHub/bert-base-uncased-pf-winogrande	downloads: 21	likes: 0	task: None
-dataset: winogrande	model: AdapterHub/roberta-base-pf-winogrande	downloads: 9	likes: 0	task: None
+***ERROR***
+model: None
+data: H:winogrande
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fd8da2334c0>)

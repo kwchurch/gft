@@ -1,31 +1,28 @@
-hostname = asimov-84.svail.baidu.com
-153.63 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
-130.51 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
-21.09 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
-68.01 seconds	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	accuracy: 0.875394803871625
-72.34 seconds	valhalla/distilbart-mnli-12-1	accuracy: 0.2748853795211411
-159.44 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
-111.69 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
-40.72 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
-159.13 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
+hostname = asimov-47.svail.baidu.com
+144.06 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
+119.30 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
+21.77 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
+83.26 seconds	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	accuracy: 0.875394803871625
+74.44 seconds	valhalla/distilbart-mnli-12-1	accuracy: 0.2748853795211411
+148.74 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
+107.90 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
+44.63 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
+150.18 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
 *** ERROR ***	H:microsoft/deberta-xlarge-mnli
-129.24 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8989302088639837
-87.47 seconds	valhalla/distilbart-mnli-12-3	accuracy: 0.28833418237391745
-157.90 seconds	joeddav/bart-large-mnli-yahoo-answers	accuracy: 0.32134488028527763
-60.24 seconds	typeform/mobilebert-uncased-mnli	accuracy: 0.8354559347936832
-40.12 seconds	textattack/bert-base-uncased-MNLI	accuracy: 0.06459500764136526
-134.17 seconds	valhalla/distilbart-mnli-12-9	accuracy: 0.28517575140091694
-56.97 seconds	MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	accuracy: 0.9035150280183393
-16.75 seconds	prajjwal1/bert-medium-mnli	accuracy: 0.11013754457463067
-50.75 seconds	microsoft/deberta-base-mnli	accuracy: 0.2913907284768212
-43.32 seconds	NbAiLab/nb-bert-base-mnli	accuracy: 0.2910850738665308
+119.28 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8989302088639837
+84.52 seconds	valhalla/distilbart-mnli-12-3	accuracy: 0.28833418237391745
+147.23 seconds	joeddav/bart-large-mnli-yahoo-answers	accuracy: 0.32134488028527763
+57.69 seconds	typeform/mobilebert-uncased-mnli	accuracy: 0.8354559347936832
+39.45 seconds	textattack/bert-base-uncased-MNLI	accuracy: 0.06459500764136526
+124.42 seconds	valhalla/distilbart-mnli-12-9	accuracy: 0.28517575140091694
+57.00 seconds	MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	accuracy: 0.9035150280183393
+16.71 seconds	prajjwal1/bert-medium-mnli	accuracy: 0.11013754457463067
+49.24 seconds	microsoft/deberta-base-mnli	accuracy: 0.2913907284768212
+42.47 seconds	NbAiLab/nb-bert-base-mnli	accuracy: 0.2910850738665308
 *** ERROR ***	H:MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary
 *** ERROR ***	H:alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli
-46.50 seconds	prajjwal1/albert-base-v2-mnli	accuracy: 0.06459500764136526
+46.58 seconds	prajjwal1/albert-base-v2-mnli	accuracy: 0.06459500764136526
 *** ERROR ***	H:symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli
-53.56 seconds	textattack/xlnet-base-cased-MNLI	accuracy: 0.05522159959246052
+52.13 seconds	textattack/xlnet-base-cased-MNLI	accuracy: 0.05522159959246052
 *** ERROR ***	H:typeform/roberta-large-mnli
 *** ERROR ***	H:microsoft/deberta-v2-xlarge-mnli
-*** ERROR ***	H:ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli
-*** ERROR ***	H:microsoft/deberta-v2-xxlarge-mnli
-7.99 seconds	prajjwal1/bert-mini-mnli	accuracy: 0.1489556800815079

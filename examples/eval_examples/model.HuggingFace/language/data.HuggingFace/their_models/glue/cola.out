@@ -1,23 +1,23 @@
-hostname = asimov-27.svail.baidu.com
-2.63 seconds	textattack/distilbert-base-uncased-CoLA	matthews_correlation: 0.5685664296893979
-2.16 seconds	textattack/bert-base-uncased-CoLA	matthews_correlation: 0.5338774230813111
-1.17 seconds	textattack/distilbert-base-cased-CoLA	matthews_correlation: 0.46372927911071965
-2.17 seconds	textattack/roberta-base-CoLA	matthews_correlation: 0.6382594026155579
+hostname = asimov-47.svail.baidu.com
+1.39 seconds	textattack/distilbert-base-uncased-CoLA	matthews_correlation: 0.5685664296893979
+2.23 seconds	textattack/bert-base-uncased-CoLA	matthews_correlation: 0.5338774230813111
+1.40 seconds	textattack/distilbert-base-cased-CoLA	matthews_correlation: 0.46372927911071965
+2.14 seconds	textattack/roberta-base-CoLA	matthews_correlation: 0.6382594026155579
 4.44 seconds	cointegrated/roberta-large-cola-krishna2020	matthews_correlation: -0.6529218099246764
-2.37 seconds	textattack/albert-base-v2-CoLA	matthews_correlation: 0.5770529432203132
-2.18 seconds	gchhablani/bert-base-cased-finetuned-cola	matthews_correlation: 0.5956649094312695
-1.96 seconds	yoshitomo-matsubara/bert-base-uncased-cola	matthews_correlation: 0.6104966084654571
-4.30 seconds	howey/roberta-large-cola	matthews_correlation: 0.6455219823779293
-3.21 seconds	textattack/xlnet-base-cased-CoLA	matthews_correlation: 0.4968085709611271
-1.94 seconds	isakbos/Q8BERT_COLA_L_512	matthews_correlation: 0.0
-4.40 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_A	matthews_correlation: 0.6142064528308289
-4.47 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_B	matthews_correlation: 0.601243977092561
-1.10 seconds	09panesara/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5406394412669151
-4.32 seconds	yoshitomo-matsubara/bert-large-uncased-cola	matthews_correlation: 0.6335324951654004
-5.92 seconds	textattack/xlnet-large-cased-CoLA	matthews_correlation: 0.0
-2.06 seconds	Alireza1044/albert-base-v2-cola	matthews_correlation: 0.5494768667363472
-1.86 seconds	pmthangk09/bert-base-uncased-glue-cola	matthews_correlation: 0.5778111402851518
-2.03 seconds	kamivao/autonlp-cola_gram-208681	matthews_correlation: 0.560464995177653
-1.93 seconds	mrm8488/deberta-v3-small-finetuned-cola	matthews_correlation: 0.6333205721749096
-1.10 seconds	123abhiALFLKFO/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5331291095663535
+2.25 seconds	textattack/albert-base-v2-CoLA	matthews_correlation: 0.5770529432203132
+2.16 seconds	gchhablani/bert-base-cased-finetuned-cola	matthews_correlation: 0.5956649094312695
+2.28 seconds	yoshitomo-matsubara/bert-base-uncased-cola	matthews_correlation: 0.6104966084654571
+4.56 seconds	howey/roberta-large-cola	matthews_correlation: 0.6455219823779293
+3.48 seconds	textattack/xlnet-base-cased-CoLA	matthews_correlation: 0.4968085709611271
+2.12 seconds	isakbos/Q8BERT_COLA_L_512	matthews_correlation: 0.0
+4.60 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_A	matthews_correlation: 0.6142064528308289
+4.60 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_B	matthews_correlation: 0.601243977092561
+1.46 seconds	09panesara/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5406394412669151
+35.76 seconds	yoshitomo-matsubara/bert-large-uncased-cola	matthews_correlation: 0.6335324951654004
+15.63 seconds	textattack/xlnet-large-cased-CoLA	matthews_correlation: 0.0
+5.56 seconds	Alireza1044/albert-base-v2-cola	matthews_correlation: 0.5494768667363472
+4.26 seconds	pmthangk09/bert-base-uncased-glue-cola	matthews_correlation: 0.5778111402851518
+7.53 seconds	kamivao/autonlp-cola_gram-208681	matthews_correlation: 0.560464995177653
+6.84 seconds	mrm8488/deberta-v3-small-finetuned-cola	matthews_correlation: 0.6333205721749096
+2.19 seconds	123abhiALFLKFO/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5331291095663535
 *** ERROR ***	H:Ahren09/distilbert-base-uncased-finetuned-cola
