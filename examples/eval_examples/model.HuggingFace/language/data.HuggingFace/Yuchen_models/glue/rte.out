@@ -528,3 +528,17 @@ hostname = asimov-84.svail.baidu.com
 0.47 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_3_64_2e-05_21404	accuracy: 0.5342960288808665
 0.47 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_5_16_3e-05_7663	accuracy: 0.6064981949458483
 0.45 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_10_64_3e-05_17290	accuracy: 0.5848375451263538
+0.46 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_5_16_3e-05_17290	accuracy: 0.5992779783393501
+0.55 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_5_32_3e-05_11697	accuracy: 0.5848375451263538
+0.46 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_3_16_3e-05_29610	accuracy: 0.5812274368231047
+0.48 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_10_32_1e-05_7663	accuracy: 0.5848375451263538
+0.45 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_3_32_3e-05_11697	accuracy: 0.5523465703971119
+0.64 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_5_64_2e-05_29610	accuracy: 0.5812274368231047
+0.45 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_5_16_1e-05_7663	accuracy: 0.5884476534296029
+0.47 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_5_16_2e-05_11697	accuracy: 0.5776173285198556
+0.48 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_3_16_1e-05_7663	accuracy: 0.5487364620938628
+0.45 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_5_16_3e-05_21404	accuracy: 0.628158844765343
+0.47 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_10_32_3e-05_21404	accuracy: 0.6101083032490975
+0.45 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_10_16_3e-05_21404	accuracy: 0.6462093862815884
+0.46 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_3_64_1e-05_21404	accuracy: 0.516245487364621
+0.45 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/student_roberta-large_fixed_12h_1k_m_121_2_240k_step_baseline/rte_3_32_3e-05_17290	accuracy: 0.5595667870036101

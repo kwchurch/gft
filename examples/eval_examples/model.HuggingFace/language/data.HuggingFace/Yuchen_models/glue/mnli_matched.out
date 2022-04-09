@@ -114,3 +114,5 @@ hostname = asimov-84.svail.baidu.com
 29.37 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mnli/student_roberta-large_free_72h_256_300k_step_baseline/mnli_10_16_2e-05_11697	accuracy: 0.8377992868059093
 29.79 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mnli/student_roberta-large_free_72h_256_300k_step_baseline/mnli_5_64_1e-05_21404	accuracy: 0.8309730005094244
 29.83 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mnli/student_roberta-large_free_72h_256_300k_step_baseline/mnli_5_16_1e-05_21404	accuracy: 0.838920020376974
+29.54 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mnli/student_roberta-large_free_72h_256_300k_step_baseline/mnli_5_32_1e-05_29610	accuracy: 0.8361691288843607
+29.49 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mnli/student_roberta-large_free_72h_256_300k_step_baseline/mnli_5_16_1e-05_29610	accuracy: 0.8403464085583291

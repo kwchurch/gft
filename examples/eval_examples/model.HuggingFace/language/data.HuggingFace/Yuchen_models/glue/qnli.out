@@ -146,3 +146,7 @@ hostname = asimov-84.svail.baidu.com
 18.14 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/student_roberta-large_free_72h_256_300k_step_baseline/qnli_5_64_3e-05_17290	accuracy: 0.8958447739337361
 18.16 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/student_roberta-large_free_72h_256_300k_step_baseline/qnli_5_32_1e-05_17290	accuracy: 0.894746476295076
 18.30 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/student_roberta-large_free_72h_256_300k_step_baseline/qnli_10_32_2e-05_7663	accuracy: 0.8945634266886326
+18.32 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/student_roberta-large_free_72h_256_300k_step_baseline/qnli_5_32_1e-05_11697	accuracy: 0.8930990298370859
+18.48 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/student_roberta-large_free_72h_256_300k_step_baseline/qnli_10_16_2e-05_21404	accuracy: 0.8877905912502289
+18.24 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/student_roberta-large_free_72h_256_300k_step_baseline/qnli_10_16_3e-05_11697	accuracy: 0.885227896760022
+18.42 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/student_roberta-large_free_72h_256_300k_step_baseline/qnli_10_64_2e-05_11697	accuracy: 0.900054914881933

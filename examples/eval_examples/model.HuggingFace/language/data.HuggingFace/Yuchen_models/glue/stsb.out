@@ -479,3 +479,12 @@ hostname = asimov-84.svail.baidu.com
 2.36 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_10_16_1e-05_21404	pearson: 0.8807556032213293
 2.31 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_10_16_1e-05_7663	pearson: 0.8839355784151606
 2.32 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_3_32_3e-05_21404	pearson: 0.84881735858274
+2.33 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_10_16_2e-05_17290	pearson: 0.886039866747025
+2.31 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_5_16_2e-05_7663	pearson: 0.8798759565688531
+2.33 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_5_16_3e-05_17290	pearson: 0.8564694715053927
+2.32 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_10_16_2e-05_11697	pearson: 0.8787854969346827
+2.35 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_5_64_2e-05_29610	pearson: 0.8370020517898814
+2.31 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_10_64_3e-05_17290	pearson: 0.8790353739644412
+2.33 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_10_64_3e-05_21404	pearson: 0.8503975712808932
+2.29 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_3_16_1e-05_29610	pearson: 0.8080520354910292
+2.31 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/student_roberta-large_free_72h_256_baseline/stsb_5_16_2e-05_29610	pearson: 0.8819031408399975
