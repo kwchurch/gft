@@ -26,7 +26,7 @@ Fine-tuning a 🤗 Transformers model on span tasks (SQuAD) relying on the accel
 import torch,time
 import numpy as np
 from functools import partial
-import parse_eqn
+from gft_internals import parse_eqn
 
 import sys,os,shutil
 import seqeval,time,sys

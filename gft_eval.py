@@ -121,7 +121,14 @@ def main():
         try: 
             training_function(args)
         except:
-            print('*** ERROR ***\t' + str(get_arg(args, 'model')))
+            model = str(get_arg(args, 'model'))
+            data = str(get_arg(args, 'data'))
+            eqn = str(get_arg(args, 'eqn'))
+            task = str(get_arg(args, 'task', default=None))
+            splits = str(get_arg(args, 'splits', default=None))
+            split = str(get_arg(args, 'split', default=None))
+            print('\t'.join(['***ERROR***', 'model: ' + str(model), 'data: ' + str(data), 'eqn: ' + str(eqn),
+                         'splits: ' + str(split), 'split: ' + str(split), 'task: ' + str(task) , 'error: ' + str(sys.exc_info())]))
 
 if __name__ == "__main__":
     main()

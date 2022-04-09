@@ -3,11 +3,16 @@ dataset: schema_guided_dstc8,dialogues	splits: train: 16142 rows, test: 4201 row
 dataset: schema_guided_dstc8,dialogues	split: train	columns: dialogue_id, services, turns
 dataset: schema_guided_dstc8,schema	splits: train: 26 rows, test: 21 rows, val: 17 rows
 dataset: schema_guided_dstc8,schema	split: train	columns: service_name, description, slots, intents
-***ERROR***
-model: None
-data: H:schema_guided_dstc8
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f4f05125a80>)
+# dataset: schema_guided_dstc8 --> 0 models
+# found: 11559 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

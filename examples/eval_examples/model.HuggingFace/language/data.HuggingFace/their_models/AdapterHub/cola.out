@@ -1,3 +1,3 @@
-hostname = asimov-120.svail.baidu.com
-1.78 seconds	AdapterHub/bert-base-uncased-pf-cola	matthews_correlation: 0.6217844861323459
-1.82 seconds	AdapterHub/bert-base-uncased-pf-cola	matthews_correlation: 0.6217844861323459
+hostname = asimov-26.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-cola	data: H:glue,cola	eqn: classify: label ~ sentence	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f7341285ac0>)
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-cola	data: H:glue,cola	eqn: classify: label ~ sentence	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f6194be8d80>)

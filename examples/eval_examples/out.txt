@@ -1,0 +1,1018 @@
+==> ./model.HuggingFace/language/data.Paddle/their_models/sentiment/imdb.out <==
+hostname = asimov-26.svail.baidu.com
+168.43 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
+611.39 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
+83.61 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
+173.23 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407
+187.08 seconds	aychang/roberta-base-imdb	accuracy: 0.89312	f1: 0.893051651620635
+103.36 seconds	lvwerra/distilbert-imdb	accuracy: 0.86744	f1: 0.8674283854538782
+217.95 seconds	textattack/albert-base-v2-imdb	accuracy: 0.8924	f1: 0.8923953693853679
+191.26 seconds	ykacer/bert-base-cased-imdb-sequence-classification	accuracy: 0.5	f1: 0.3333333333333333
+186.11 seconds	nateraw/bert-base-uncased-imdb	accuracy: 0.49992	f1: 0.33372387424830385
+
+==> ./model.HuggingFace/language/data.Paddle/their_models/sentiment/dureader_yesno.out <==
+hostname = asimov-26.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/rte.out <==
+hostname = asimov-26.svail.baidu.com
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_1e-05_11697
+6.35 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_1e-05_17290	accuracy: 0.8194945848375451
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_1e-05_21404
+6.84 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_1e-05_29610	accuracy: 0.5487364620938628
+6.87 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_1e-05_7663	accuracy: 0.8194945848375451
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_2e-05_11697
+7.55 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_2e-05_17290	accuracy: 0.8628158844765343
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_2e-05_21404
+7.07 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_10_128_2e-05_29610	accuracy: 0.8483754512635379
+
+==> ./model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/sst2.out <==
+hostname = asimov-26.svail.baidu.com
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_1e-05_11697
+7.50 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_1e-05_17290	accuracy: 0.963302752293578
+8.30 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_1e-05_21404	accuracy: 0.9678899082568807
+8.05 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_1e-05_29610	accuracy: 0.9678899082568807
+8.27 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_1e-05_7663	accuracy: 0.963302752293578
+7.32 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_2e-05_11697	accuracy: 0.9655963302752294
+7.53 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_2e-05_17290	accuracy: 0.9655963302752294
+8.36 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_2e-05_21404	accuracy: 0.9621559633027523
+8.43 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline/sst2_10_128_2e-05_29610	accuracy: 0.9644495412844036
+
+==> ./model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/qnli.out <==
+hostname = asimov-26.svail.baidu.com
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_128_1e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_128_2e-05_7663
+80.42 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_128_3e-05_7663	accuracy: 0.9410580267252425
+82.46 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_128_5e-5_7663	accuracy: 0.9167124290682775
+85.23 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_11697	accuracy: 0.9412410763316859
+80.50 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_17290	accuracy: 0.9419732747574593
+81.76 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_21404	accuracy: 0.9375800842028189
+92.34 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_29610	accuracy: 0.9438037708218927
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline/qnli_10_16_1e-05_7663
+
+==> ./model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/mrpc.out <==
+hostname = asimov-26.svail.baidu.com
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_1e-05_11697
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_1e-05_17290
+7.37 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_1e-05_21404	accuracy: 0.9044117647058824	f1: 0.9309734513274337
+6.82 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_1e-05_29610	accuracy: 0.8946078431372549	f1: 0.9225225225225226
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_1e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_2e-05_11697
+6.17 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_2e-05_17290	accuracy: 0.9019607843137255	f1: 0.9285714285714286
+9.37 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_2e-05_21404	accuracy: 0.8921568627450981	f1: 0.9219858156028369
+7.15 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline/mrpc_10_128_2e-05_29610	accuracy: 0.8897058823529411	f1: 0.9197860962566845
+
+==> ./model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/stsb.out <==
+hostname = asimov-26.svail.baidu.com
+12.05 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_1e-05_11697	pearson: 0.9201581808678926
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_1e-05_17290
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_1e-05_21404
+16.79 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_1e-05_29610	pearson: 0.9212866633902032
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_1e-05_7663
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_2e-05_11697
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_2e-05_17290
+*** ERROR ***	C:/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_2e-05_21404
+13.46 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline/stsb_10_128_2e-05_29610	pearson: 0.9144545826522155
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/paraphrase/paws_labeled_final.out <==
+hostname = asimov-26.svail.baidu.com
+55.06 seconds	mrm8488/bert-base-german-dbmdz-cased-finetuned-pawsx-de	accuracy: 0.8685	f1: 0.8655652816972819
+42.49 seconds	ziqingyang/XLMRobertaBaseForPAWSX-en	accuracy: 0.927875	f1: 0.927095918507009
+50.10 seconds	mrm8488/camembert-base-finetuned-pawsx-fr	accuracy: 0.90375	f1: 0.9021531330153818
+46.95 seconds	mrm8488/RuPERTa-base-finetuned-pawsx-es	accuracy: 0.689625	f1: 0.6855654485055724
+45.68 seconds	bertin-project/bertin-base-paws-x-es	accuracy: 0.876875	f1: 0.8762400942799193
+41.51 seconds	maximedb/paws-x-all-x-en	accuracy: 0.926625	f1: 0.9258362862867804
+50.01 seconds	mrm8488/electricidad-base-finetuned-pawsx-es	accuracy: 0.8715	f1: 0.8701153566416886
+40.68 seconds	maximedb/paws-x-all	accuracy: 0.936125	f1: 0.935471624996695
+17.56 seconds	mrm8488/electricidad-small-finetuned-paws-x-es	accuracy: 0.8465	f1: 0.8457710271203736
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/paraphrase/paws_unlabeled_final.out <==
+hostname = asimov-27.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/paraphrase/paws_labeled_swap.out <==
+hostname = asimov-27.svail.baidu.com
+*** ERROR ***	H:mrm8488/bert-base-german-dbmdz-cased-finetuned-pawsx-de
+*** ERROR ***	H:ziqingyang/XLMRobertaBaseForPAWSX-en
+*** ERROR ***	H:mrm8488/camembert-base-finetuned-pawsx-fr
+*** ERROR ***	H:mrm8488/RuPERTa-base-finetuned-pawsx-es
+*** ERROR ***	H:bertin-project/bertin-base-paws-x-es
+*** ERROR ***	H:maximedb/paws-x-all-x-en
+*** ERROR ***	H:mrm8488/electricidad-base-finetuned-pawsx-es
+*** ERROR ***	H:maximedb/paws-x-all
+*** ERROR ***	H:mrm8488/electricidad-small-finetuned-paws-x-es
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/text_classification/tweets_hate_speech_detection.out <==
+hostname = asimov-27.svail.baidu.com
+*** ERROR ***	Narrativa/byt5-base-tweet-hate-detection
+65.21 seconds	mrm8488/distilroberta-finetuned-tweets-hate-speech	accuracy: 0.994305738063951	f1: 0.9776765742511933
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/text_classification/snli.out <==
+hostname = asimov-27.svail.baidu.com
+*** ERROR ***	H:ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli
+*** ERROR ***	H:AdapterHub/roberta-base-pf-snli
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-snli
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/text_classification/ag_news.out <==
+hostname = asimov-27.svail.baidu.com
+10.72 seconds	mrm8488/bert-mini-finetuned-age_news-classification	accuracy: 0.9338157894736843	f1: 0.9338030432193901
+22.25 seconds	joeddav/distilbert-base-uncased-agnews-student	accuracy: 0.7068421052631579	f1: 0.6861031863543312
+36.18 seconds	nateraw/bert-base-uncased-ag-news	accuracy: 0.9411842105263157	f1: 0.9412090718312118
+20.52 seconds	mrm8488/distilroberta-finetuned-age_news-classification	accuracy: 0.9471052631578948	f1: 0.9471616897394918
+20.49 seconds	andi611/distilbert-base-uncased-ner-agnews	accuracy: 0.9472368421052632	f1: 0.947217779835066
+38.27 seconds	lucasresck/bert-base-cased-ag-news	accuracy: 0.9448684210526316	f1: 0.9448481184031788
+34.92 seconds	fabriceyhc/bert-base-uncased-ag_news	accuracy: 0.9375	f1: 0.9373013177400155
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/text_classification/emotion.out <==
+hostname = asimov-27.svail.baidu.com
+12.62 seconds	bhadresh-savani/distilbert-base-uncased-emotion	accuracy: 0.927	f1: 0.8825061528287809
+8.37 seconds	nateraw/bert-base-uncased-emotion	accuracy: 0.926	f1: 0.8835208254266581
+*** ERROR ***	H:mrm8488/t5-base-finetuned-emotion
+7.42 seconds	bhadresh-savani/roberta-base-emotion	accuracy: 0.9305	f1: 0.8815789237745175
+7.33 seconds	bhadresh-savani/bert-base-uncased-emotion	accuracy: 0.9265	f1: 0.8821398657055098
+3.62 seconds	lewiswatson/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8727941247828231
+5.00 seconds	transformersbook/distilbert-base-uncased-finetuned-emotion	accuracy: 0.917	f1: 0.87014109251034
+8.30 seconds	bhadresh-savani/albert-base-v2-emotion	accuracy: 0.932	f1: 0.896479961363852
+7.42 seconds	Emanuel/bertweet-emotion-base	accuracy: 0.9285	f1: 0.8863603878501328
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/text_classification/banking77.out <==
+hostname = asimov-27.svail.baidu.com
+8.06 seconds	philschmid/BERT-Banking77	accuracy: 0.02564935064935065	f1: 0.025809633404570112
+*** ERROR ***	H:tdopierre/ProtAugment-LM-BANKING77
+6.45 seconds	mrm8488/distilroberta-finetuned-banking77	accuracy: 0.8961038961038961	f1: 0.8914871607409227
+5.84 seconds	philschmid/DistilBERT-Banking77	accuracy: 0.026298701298701297	f1: 0.02647662073822411
+6.23 seconds	philschmid/RoBERTa-Banking77	accuracy: 0.026298701298701297	f1: 0.026443240463879983
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/rte.out <==
+hostname = asimov-84.svail.baidu.com
+3.15 seconds	textattack/bert-base-uncased-RTE	accuracy: 0.7256317689530686
+4.34 seconds	textattack/roberta-base-RTE	accuracy: 0.7942238267148014
+3.17 seconds	textattack/albert-base-v2-RTE	accuracy: 0.776173285198556
+0.98 seconds	textattack/distilbert-base-uncased-RTE	accuracy: 0.6570397111913358
+5.72 seconds	howey/roberta-large-rte	accuracy: 0.7870036101083032
+2.29 seconds	gchhablani/bert-base-cased-finetuned-rte	accuracy: 0.6714801444043321
+3.49 seconds	yoshitomo-matsubara/bert-base-uncased-rte	accuracy: 0.6750902527075813
+3.60 seconds	yoshitomo-matsubara/bert-base-uncased-rte_from_bert-large-uncased-rte	accuracy: 0.6859205776173285
+2.62 seconds	howey/bert-base-uncased-rte	accuracy: 0.6498194945848376
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/sst2.out <==
+hostname = asimov-84.svail.baidu.com
+3.42 seconds	philschmid/MiniLM-L6-H384-uncased-sst2	accuracy: 0.9013761467889908
+3.02 seconds	echarlaix/bert-base-uncased-sst2-acc91.1-d37-hybrid	accuracy: 0.9071100917431193
+2.76 seconds	howey/bert-base-uncased-sst2	accuracy: 0.930045871559633
+4.12 seconds	Alireza1044/albert-base-v2-sst2	accuracy: 0.9231651376146789
+*** ERROR ***	H:philschmid/Infinity_cpu_MiniLM_L6_H384_uncased_sst2
+5.65 seconds	mfuntowicz/bert-base-cased-finetuned-sst2	accuracy: 0.8967889908256881
+4.38 seconds	gchhablani/fnet-base-finetuned-sst2	accuracy: 0.8130733944954128
+7.60 seconds	yoshitomo-matsubara/bert-large-uncased-sst2	accuracy: 0.9346330275229358
+*** ERROR ***	H:AdapterHub/roberta-base-pf-sst2
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/mnli_matched.out <==
+hostname = asimov-84.svail.baidu.com
+154.51 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
+127.82 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
+22.28 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
+68.27 seconds	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	accuracy: 0.875394803871625
+74.38 seconds	valhalla/distilbart-mnli-12-1	accuracy: 0.2748853795211411
+161.33 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
+108.56 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
+41.70 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
+161.23 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/qnli.out <==
+hostname = asimov-84.svail.baidu.com
+27.57 seconds	cross-encoder/qnli-electra-base	accuracy: 0.4946000366099213
+27.44 seconds	textattack/bert-base-uncased-QNLI	accuracy: 0.9154310818231741
+26.90 seconds	textattack/roberta-base-QNLI	accuracy: 0.9267801574226615
+16.43 seconds	cross-encoder/qnli-distilroberta-base	accuracy: 0.4946000366099213
+85.22 seconds	howey/roberta-large-qnli	accuracy: 0.9469156141314297
+85.95 seconds	howey/electra-large-qnli	accuracy: 0.9505766062602965
+16.65 seconds	textattack/distilbert-base-uncased-QNLI	accuracy: 0.8848617975471352
+28.33 seconds	gchhablani/bert-base-cased-finetuned-qnli	accuracy: 0.9099395936298736
+28.40 seconds	mervenoyan/PubMedBERT-QNLI	accuracy: 0.9068277503203368
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/mrpc.out <==
+hostname = asimov-27.svail.baidu.com
+9.19 seconds	textattack/bert-base-uncased-MRPC	accuracy: 0.8774509803921569	f1: 0.9134948096885814
+4.72 seconds	textattack/roberta-base-MRPC	accuracy: 0.9117647058823529	f1: 0.9359430604982207
+2.55 seconds	M-FAC/bert-tiny-finetuned-mrpc	accuracy: 0.7352941176470589	f1: 0.8312499999999999
+3.85 seconds	textattack/albert-base-v2-MRPC	accuracy: 0.8970588235294118	f1: 0.9263157894736843
+3.50 seconds	ajrae/bert-base-uncased-finetuned-mrpc	accuracy: 0.8578431372549019	f1: 0.9003436426116839
+3.00 seconds	textattack/distilbert-base-uncased-MRPC	accuracy: 0.8578431372549019	f1: 0.9026845637583893
+6.49 seconds	howey/roberta-large-mrpc	accuracy: 0.8799019607843137	f1: 0.9126559714795008
+3.20 seconds	textattack/distilbert-base-cased-MRPC	accuracy: 0.7843137254901961	f1: 0.8422939068100358
+8.58 seconds	textattack/xlnet-large-cased-MRPC	accuracy: 0.875	f1: 0.9125214408233276
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/cola.out <==
+hostname = asimov-27.svail.baidu.com
+4.48 seconds	textattack/distilbert-base-uncased-CoLA	matthews_correlation: 0.5685664296893979
+3.06 seconds	textattack/bert-base-uncased-CoLA	matthews_correlation: 0.5338774230813111
+2.47 seconds	textattack/distilbert-base-cased-CoLA	matthews_correlation: 0.46372927911071965
+2.82 seconds	textattack/roberta-base-CoLA	matthews_correlation: 0.6382594026155579
+5.11 seconds	cointegrated/roberta-large-cola-krishna2020	matthews_correlation: -0.6529218099246764
+3.11 seconds	textattack/albert-base-v2-CoLA	matthews_correlation: 0.5770529432203132
+3.67 seconds	gchhablani/bert-base-cased-finetuned-cola	matthews_correlation: 0.5956649094312695
+2.79 seconds	yoshitomo-matsubara/bert-base-uncased-cola	matthews_correlation: 0.6104966084654571
+4.75 seconds	howey/roberta-large-cola	matthews_correlation: 0.6455219823779293
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/stsb.out <==
+hostname = asimov-84.svail.baidu.com
+12.50 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
+5.53 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
+*** ERROR ***	H:sentence-transformers/stsb-xlm-r-multilingual
+*** ERROR ***	H:sentence-transformers/bert-base-nli-stsb-mean-tokens
+1.80 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
+2.60 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
+*** ERROR ***	H:sentence-transformers/xlm-r-bert-base-nli-stsb-mean-tokens
+*** ERROR ***	H:Contrastive-Tension/RoBerta-Large-CT-STSb
+*** ERROR ***	H:Contrastive-Tension/BERT-Base-Swe-CT-STSb
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/mnli_mismatched.out <==
+hostname = asimov-84.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/glue/qqp.out <==
+hostname = asimov-84.svail.baidu.com
+138.94 seconds	textattack/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
+73.32 seconds	assemblyai/distilbert-base-uncased-qqp	accuracy: 0.8992579767499381	f1: 0.8653598228157748
+141.98 seconds	yoshitomo-matsubara/bert-base-uncased-qqp	accuracy: 0.9094731634924561	f1: 0.8783244680851064
+426.91 seconds	howey/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
+153.83 seconds	gchhablani/bert-base-cased-finetuned-qqp	accuracy: 0.9083848627256987	f1: 0.8767633750332712
+142.29 seconds	A-bhimany-u08/bert-base-cased-qqp	accuracy: 0.8907741775908978	f1: 0.8532987841339447
+77.06 seconds	textattack/distilbert-base-cased-QQP	accuracy: 0.8974771209497897	f1: 0.8627437994635584
+171.32 seconds	textattack/albert-base-v2-QQP	accuracy: 0.9073460301756122	f1: 0.8746402516565156
+*** ERROR ***	H:brandontanzhirong/paraphrasing-tool_t5-finetuned-QQP
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/conll2003.out <==
+hostname = asimov-151.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/duorc_p.out <==
+hostname = asimov-144.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/cq.out <==
+hostname = asimov-153.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/duorc_s.out <==
+hostname = asimov-124.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/imdb.out <==
+hostname = asimov-121.svail.baidu.com
+170.28 seconds	AdapterHub/bert-base-uncased-pf-imdb	accuracy: 0.88144	f1: 0.8814359563021512
+169.84 seconds	AdapterHub/roberta-base-pf-imdb	accuracy: 0.90956	f1: 0.9095188724911475
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/copa.out <==
+hostname = asimov-136.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/wikihop.out <==
+hostname = asimov-136.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/rte.out <==
+hostname = asimov-152.svail.baidu.com
+1.25 seconds	AdapterHub/bert-base-uncased-pf-rte	accuracy: 0.6462093862815884
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/emo.out <==
+hostname = asimov-136.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/sst2.out <==
+hostname = asimov-121.svail.baidu.com
+2.55 seconds	AdapterHub/bert-base-uncased-pf-sst2	accuracy: 0.9220183486238532
+2.57 seconds	AdapterHub/roberta-base-pf-sst2	accuracy: 0.9495412844036697
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/squad.out <==
+hostname = asimov-136.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/anli_r3.out <==
+hostname = asimov-120.svail.baidu.com
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-anli_r3
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/trec.out <==
+hostname = asimov-143.svail.baidu.com
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-trec
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-trec
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/qnli.out <==
+hostname = asimov-143.svail.baidu.com
+17.41 seconds	AdapterHub/bert-base-uncased-pf-qnli	accuracy: 0.9114039904814205
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/snli.out <==
+hostname = asimov-136.svail.baidu.com
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-snli
+*** ERROR ***	H:AdapterHub/roberta-base-pf-snli
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/multirc.out <==
+hostname = asimov-153.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/scicite.out <==
+hostname = asimov-121.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/mnli.out <==
+hostname = asimov-148.svail.baidu.com
+task = mnli_matched
+28.63 seconds	AdapterHub/bert-base-uncased-pf-mnli	accuracy: 0.8419765664798777
+task = mnli_mismatched
+29.60 seconds	AdapterHub/bert-base-uncased-pf-mnli	accuracy: 0.8471318144833198
+task = mnli_matched
+28.65 seconds	AdapterHub/roberta-base-pf-mnli	accuracy: 0.8749872643912379
+task = mnli_mismatched
+29.37 seconds	AdapterHub/roberta-base-pf-mnli	accuracy: 0.8736777868185517
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/yelp_polarity.out <==
+hostname = asimov-150.svail.baidu.com
+161.56 seconds	AdapterHub/bert-base-uncased-pf-yelp_polarity	accuracy: 0.9569210526315789	f1: 0.9569209105958831
+163.00 seconds	AdapterHub/roberta-base-pf-yelp_polarity	accuracy: 0.9660526315789474	f1: 0.9660525028417628
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/mrpc.out <==
+hostname = asimov-120.svail.baidu.com
+8.40 seconds	AdapterHub/bert-base-uncased-pf-mrpc	accuracy: 0.823768115942029	f1: 0.8733333333333334
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/emotion.out <==
+hostname = asimov-150.svail.baidu.com
+4.05 seconds	AdapterHub/bert-base-uncased-pf-emotion	accuracy: 0.9325	f1: 0.8883372855898307
+4.95 seconds	AdapterHub/roberta-base-pf-emotion	accuracy: 0.9275	f1: 0.891186913136944
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/comqa.out <==
+hostname = asimov-126.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/record.out <==
+hostname = asimov-152.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/cola.out <==
+hostname = asimov-120.svail.baidu.com
+1.78 seconds	AdapterHub/bert-base-uncased-pf-cola	matthews_correlation: 0.6217844861323459
+1.82 seconds	AdapterHub/bert-base-uncased-pf-cola	matthews_correlation: 0.6217844861323459
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/stsb.out <==
+hostname = asimov-152.svail.baidu.com
+2.59 seconds	AdapterHub/bert-base-uncased-pf-stsb	pearson: 0.8880578638102671
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/ud_deprel.out <==
+hostname = asimov-153.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/wic.out <==
+hostname = asimov-143.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/pmb_sem_tagging.out <==
+hostname = asimov-136.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/quoref.out <==
+hostname = asimov-143.svail.baidu.com
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['id', 'question', 'context', 'title', 'url', 'answers']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-quoref
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['id', 'question', 'context', 'title', 'url', 'answers']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-quoref
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/sick.out <==
+hostname = asimov-126.svail.baidu.com
+11.46 seconds	AdapterHub/bert-base-uncased-pf-sick	accuracy: 0.8281695882592743	f1: 0.8261643241286974
+11.43 seconds	AdapterHub/bert-base-uncased-pf-sick	accuracy: 0.8281695882592743	f1: 0.8261643241286974
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/drop.out <==
+hostname = asimov-124.svail.baidu.com
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['section_id', 'query_id', 'passage', 'question', 'answers_spans']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-drop
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['section_id', 'query_id', 'passage', 'question', 'answers_spans']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-drop
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/ud_en_ewt.out <==
+hostname = asimov-145.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/rotten_tomatoes.out <==
+hostname = asimov-143.svail.baidu.com
+3.21 seconds	AdapterHub/bert-base-uncased-pf-rotten_tomatoes	accuracy: 0.848968105065666	f1: 0.84888499125233
+3.14 seconds	AdapterHub/bert-base-uncased-pf-rotten_tomatoes	accuracy: 0.848968105065666	f1: 0.84888499125233
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/conll2003_pos.out <==
+hostname = asimov-143.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/boolq.out <==
+hostname = asimov-136.svail.baidu.com
+*** ERROR ***	H:@ukp/bert-base-uncased-boolq_pfeiffer
+*** ERROR ***	H:@ukp/distilbert-base-uncased_qa_boolq_pfeiffer
+*** ERROR ***	H:@ukp/roberta-base-boolq_pfeiffer
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-boolq
+*** ERROR ***	H:AdapterHub/roberta-base-pf-boolq
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/conll2000.out <==
+hostname = asimov-124.svail.baidu.com
+task = pos
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/art.out <==
+hostname = asimov-124.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/winogrande.out <==
+hostname = asimov-124.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/qqp.out <==
+hostname = asimov-145.svail.baidu.com
+90.82 seconds	AdapterHub/bert-base-uncased-pf-qqp	accuracy: 0.9031412317585951	f1: 0.8704340921122286
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/ud_pos.out <==
+hostname = asimov-126.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/mit_movie_trivia.out <==
+hostname = asimov-126.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/wnut_17.out <==
+hostname = asimov-136.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/hotpotqa.out <==
+hostname = asimov-143.svail.baidu.com
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-hotpotqa
+*** ERROR ***	H:AdapterHub/roberta-base-pf-hotpotqa
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/squad_v2.out <==
+hostname = asimov-152.svail.baidu.com
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['id', 'title', 'context', 'question', 'answers']
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-squad_v2
+calling my_eval in my_eval_for_classify_spans.py
+seed: None
+column_names: ['id', 'title', 'context', 'question', 'answers']
+*** ERROR ***	H:AdapterHub/roberta-base-pf-squad_v2
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/AdapterHub/swag.out <==
+hostname = asimov-151.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/sentiment/imdb.out <==
+hostname = asimov-86.svail.baidu.com
+162.61 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
+605.74 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
+83.77 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
+163.65 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407
+163.64 seconds	aychang/roberta-base-imdb	accuracy: 0.89312	f1: 0.893051651620635
+82.71 seconds	lvwerra/distilbert-imdb	accuracy: 0.86744	f1: 0.8674283854538782
+194.65 seconds	textattack/albert-base-v2-imdb	accuracy: 0.8924	f1: 0.8923953693853679
+164.75 seconds	ykacer/bert-base-cased-imdb-sequence-classification	accuracy: 0.5	f1: 0.3333333333333333
+164.13 seconds	nateraw/bert-base-uncased-imdb	accuracy: 0.49992	f1: 0.33372387424830385
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/sentiment/sst.out <==
+hostname = asimov-86.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/sentiment/ethos.out <==
+hostname = asimov-86.svail.baidu.com
+3.52 seconds	SetFit/distilbert-base-uncased__ethos_binary__all-train	accuracy: 0.8276553106212425	f1: 0.8228721669824208
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/sentiment/amazon_reviews_multi.out <==
+hostname = asimov-84.svail.baidu.com
+76.03 seconds	cmarkea/distilcamembert-base-sentiment	accuracy: 0.3972333333333333	f1: 0.2142757101696134
+172.98 seconds	claudio75/xlm-roberta-base-finetuned-marc	accuracy: 0.3460666666666667	f1: 0.2761045356351407
+188.58 seconds	lewtun/xlm-roberta-base-finetuned-marc	accuracy: 0.36656666666666665	f1: 0.29303326868788676
+*** ERROR ***	H:philschmid/distilbert-base-multilingual-cased-sentiment
+173.72 seconds	lewtun/xlm-roberta-base-finetuned-marc-en	accuracy: 0.3621666666666667	f1: 0.28789163980331234
+170.40 seconds	Giannipinelli/xlm-roberta-base-finetuned-marc-en	accuracy: 0.3548	f1: 0.2938378585416116
+172.69 seconds	begar/xlm-roberta-base-finetuned-marc	accuracy: 0.35873333333333335	f1: 0.28756896050889974
+*** ERROR ***	H:lewtun/roberta-base-bne-finetuned-amazon_reviews_multi
+*** ERROR ***	H:IsabellaKarabasz/roberta-base-bne-finetuned-amazon_reviews_multi
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/conll2003/pos.out <==
+hostname = asimov-86.svail.baidu.com
+*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-conll2000
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/conll2003/ner.out <==
+hostname = asimov-86.svail.baidu.com
+*** ERROR ***	H:xlm-roberta-large-finetuned-conll03-english
+*** ERROR ***	H:dbmdz/bert-large-cased-finetuned-conll03-english
+*** ERROR ***	H:sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english
+*** ERROR ***	H:elastic/distilbert-base-uncased-finetuned-conll03-english
+*** ERROR ***	H:xlm-roberta-large-finetuned-conll03-german
+*** ERROR ***	H:dbmdz/electra-large-discriminator-finetuned-conll03-english
+*** ERROR ***	H:elastic/distilbert-base-cased-finetuned-conll03-english
+*** ERROR ***	H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class
+*** ERROR ***	H:philschmid/distilroberta-base-ner-conll2003
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad.out <==
+hostname = asimov-86.svail.baidu.com
+*** ERROR ***	H:distilbert-base-cased-distilled-squad
+*** ERROR ***	H:bert-large-uncased-whole-word-masking-finetuned-squad
+*** ERROR ***	H:distilbert-base-uncased-distilled-squad
+*** ERROR ***	H:bert-large-cased-whole-word-masking-finetuned-squad
+*** ERROR ***	H:thatdramebaazguy/roberta-base-squad
+*** ERROR ***	H:dmis-lab/biobert-large-cased-v1.1-squad
+*** ERROR ***	H:sshleifer/tiny-distilbert-base-cased-distilled-squad
+*** ERROR ***	H:csarron/bert-base-uncased-squad-v1
+
+==> ./model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad_v2.out <==
+hostname = asimov-86.svail.baidu.com
+*** ERROR ***	H:distilbert-base-cased-distilled-squad
+*** ERROR ***	H:bert-large-uncased-whole-word-masking-finetuned-squad
+*** ERROR ***	H:distilbert-base-uncased-distilled-squad
+*** ERROR ***	H:bert-large-cased-whole-word-masking-finetuned-squad
+*** ERROR ***	H:thatdramebaazguy/roberta-base-squad
+*** ERROR ***	H:dmis-lab/biobert-large-cased-v1.1-squad
+*** ERROR ***	H:sshleifer/tiny-distilbert-base-cased-distilled-squad
+*** ERROR ***	H:csarron/bert-base-uncased-squad-v1
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_stance_climate.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_irony.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_emoji.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_stance_atheism.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_sentiment.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_hate.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_offsensive.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_stance_feminist.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_stance_abortion.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_emotion.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweet_eval/tweet_eval_stance_hillary.out <==
+hostname = asimov-88.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/tweets_hate_speech_detection.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/snli.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/ag_news.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/onestop_english.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/emotion.out <==
+hostname = asimov-89.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/text_classification/banking77.out <==
+hostname = asimov-86.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/rte.out <==
+hostname = asimov-91.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/rte/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/sst2.out <==
+hostname = asimov-91.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/sst2/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/mnli_matched.out <==
+hostname = asimov-91.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/mnli_matched/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/qnli.out <==
+hostname = asimov-91.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/qnli/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/mrpc.out <==
+hostname = asimov-91.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/mrpc/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/cola.out <==
+hostname = asimov-91.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/cola/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/stsb.out <==
+hostname = asimov-92.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/stsb/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/mnli_mismatched.out <==
+hostname = asimov-91.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/glue/qqp.out <==
+hostname = asimov-91.svail.baidu.com
+*** ERROR ***	C:/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/qqp/ckpt/best/
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/verb.64.out <==
+hostname = asimov-92.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/verb.64/ckpt/64/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/fallows.16.out <==
+hostname = asimov-92.svail.baidu.com
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/fallows.64.out <==
+hostname = asimov-92.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/fallows.64/ckpt/64/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/adj.32.out <==
+hostname = asimov-92.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/adj.32/ckpt/32/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/verb.32.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/verb.32/ckpt/32/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/noun.32.out <==
+hostname = asimov-92.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/noun.32/ckpt/32/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/noun.16.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/noun.16/ckpt/16/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/adj.16.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/adj.16/ckpt/16/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/noun.64.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/noun.64/ckpt/64/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/adj.64.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/adj.64/ckpt/64/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/verb.16.out <==
+hostname = asimov-92.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/verb.16/ckpt/16/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/fallows.32.out <==
+hostname = asimov-92.svail.baidu.com
+*** ERROR ***	/fit_examples/model.HuggingFace/language/syn_ant/fallows.32/ckpt/32/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/VAD/VAD.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	H:/fit_examples/model.HuggingFace/language/VAD/VAD/ckpt/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/VAD/simple/100k.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	H:/fit_examples/model.HuggingFace/language/VAD/simple/100k/ckpt/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/VAD/simple/1000k.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	H:/fit_examples/model.HuggingFace/language/VAD/simple/1000k/ckpt/best
+
+==> ./model.HuggingFace/language/data.HuggingFace/our_models/VAD/simple/10k.out <==
+hostname = asimov-28.svail.baidu.com
+*** ERROR ***	H:/fit_examples/model.HuggingFace/language/VAD/simple/10k/ckpt/best
+
+==> ./model.PaddleHub/language/KGC/WN18RR.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	H:/fit_examples/model.HuggingFace/language/KGC/WN18RR/ckpt/best
+
+==> ./model.PaddleHub/language/syn_ant/verb.64.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/verb.64/ckpt/64/best
+
+==> ./model.PaddleHub/language/syn_ant/fallows.64.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/fallows.64/ckpt/64/best
+
+==> ./model.PaddleHub/language/syn_ant/adj.32.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/adj.32/ckpt/32/best
+
+==> ./model.PaddleHub/language/syn_ant/verb.32.out <==
+hostname = asimov-30
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/verb.32/ckpt/32/best
+
+==> ./model.PaddleHub/language/syn_ant/noun.32.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/noun.32/ckpt/32/best
+
+==> ./model.PaddleHub/language/syn_ant/noun.64.out <==
+hostname = asimov-30
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/noun.64/ckpt/64/best
+
+==> ./model.PaddleHub/language/syn_ant/adj.64.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/adj.64/ckpt/64/best
+
+==> ./model.PaddleHub/language/syn_ant/fallows.32.out <==
+hostname = asimov-29.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/syn_ant/fallows.32/ckpt/32/best
+
+==> ./model.PaddleHub/language/VAD/VAD.out <==
+hostname = asimov-30
+*** ERROR ***	P:/fit_examples/.PaddleHub/language/VAD/VAD/ckpt/best
+
+==> ./model.PaddleHub/language/VAD/simple/100k.out <==
+hostname = asimov-30
+
+==> ./model.PaddleHub/language/VAD/simple/1000k.out <==
+hostname = asimov-30
+
+==> ./model.PaddleHub/language/VAD/simple/10k.out <==
+hostname = asimov-30
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/rte.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/rte/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/sst2.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/sst2/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/mnli_matched.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/mnli/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/qnli.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/qnli/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/mrpc.out <==
+hostname = asimov-30
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/mrpc/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/cola.out <==
+hostname = asimov-30
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/cola/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/stsb.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/stsb/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/mnli_mismatched.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/mnli/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/glue/qqp.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/qqp/ckpt/best/
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gen-large-en-430g.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gen-large-en-430g/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-tiny.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-tiny/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-2.0-en-finetuned-squad.out <==
+hostname = asimov-44.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-2.0-en-finetuned-squad/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-2.0-large-en.out <==
+hostname = asimov-44.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-2.0-large-en/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-doc-base-en.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-doc-base-en/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gen-large-en.out <==
+hostname = asimov-44.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gen-large-en/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gram-zh.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gram-zh/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-2.0-en.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-2.0-en/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_2.0_large_en.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_2.0_large_en/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-1.0.out <==
+hostname = asimov-32.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-1.0/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gen-base-en.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-gen-base-en/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_1.0_large_ch.out <==
+hostname = asimov-44.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_1.0_large_ch/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-doc-base-zh.out <==
+hostname = asimov-35.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-doc-base-zh/ckpt/best
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-gen-large-en-430g.out <==
+hostname = asimov-44.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-tiny.out <==
+hostname = asimov-44.svail.baidu.com
+478.71 seconds	ernie-tiny	accuracy: 0.46	f1: 0.4597041556074444
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-2.0-en-finetuned-squad.out <==
+hostname = asimov-47.svail.baidu.com
+1193.10 seconds	ernie-2.0-en-finetuned-squad	accuracy: 0.5003	f1: 0.333999653551871
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-2.0-large-en.out <==
+hostname = asimov-47.svail.baidu.com
+4104.14 seconds	ernie-2.0-large-en	accuracy: 0.4917	f1: 0.40554401371185295
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-doc-base-en.out <==
+hostname = asimov-44.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-gen-large-en.out <==
+hostname = asimov-50.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-gram-zh.out <==
+hostname = asimov-47.svail.baidu.com
+1192.47 seconds	ernie-gram-zh	accuracy: 0.5556	f1: 0.5538404179941018
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-2.0-en.out <==
+hostname = asimov-47.svail.baidu.com
+1208.26 seconds	ernie-2.0-en	accuracy: 0.5	f1: 0.3333333333333333
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/skep_ernie_2.0_large_en.out <==
+hostname = asimov-47.svail.baidu.com
+4165.25 seconds	skep_ernie_2.0_large_en	accuracy: 0.5029	f1: 0.35286729841624326
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-1.0.out <==
+hostname = asimov-44.svail.baidu.com
+1053.24 seconds	ernie-1.0	accuracy: 0.5001	f1: 0.3340877497042725
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-gen-base-en.out <==
+hostname = asimov-47.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/skep_ernie_1.0_large_ch.out <==
+hostname = asimov-47.svail.baidu.com
+4021.37 seconds	skep_ernie_1.0_large_ch	accuracy: 0.4743	f1: 0.45735712108226834
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-doc-base-zh.out <==
+hostname = asimov-47.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-gen-large-en-430g.out <==
+hostname = asimov-50.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-tiny.out <==
+hostname = asimov-50.svail.baidu.com
+249.58 seconds	ernie-tiny	accuracy: 0.4365	f1: 0.3338800599921685
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-2.0-en-finetuned-squad.out <==
+hostname = asimov-51.svail.baidu.com
+606.64 seconds	ernie-2.0-en-finetuned-squad	accuracy: 0.4265	f1: 0.29898352611286366
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-2.0-large-en.out <==
+hostname = asimov-51.svail.baidu.com
+2063.90 seconds	ernie-2.0-large-en	accuracy: 0.427	f1: 0.3014103464419476
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-doc-base-en.out <==
+hostname = asimov-50.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-gen-large-en.out <==
+hostname = asimov-51.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-gram-zh.out <==
+hostname = asimov-50.svail.baidu.com
+596.35 seconds	ernie-gram-zh	accuracy: 0.4295	f1: 0.31045714998826085
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-2.0-en.out <==
+hostname = asimov-50.svail.baidu.com
+590.55 seconds	ernie-2.0-en	accuracy: 0.5735	f1: 0.3644741023196695
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/skep_ernie_2.0_large_en.out <==
+hostname = asimov-51.svail.baidu.com
+2065.19 seconds	skep_ernie_2.0_large_en	accuracy: 0.5735	f1: 0.3644741023196695
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-1.0.out <==
+hostname = asimov-50.svail.baidu.com
+576.11 seconds	ernie-1.0	accuracy: 0.5735	f1: 0.3644741023196695
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-gen-base-en.out <==
+hostname = asimov-50.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/skep_ernie_1.0_large_ch.out <==
+hostname = asimov-51.svail.baidu.com
+2013.12 seconds	skep_ernie_1.0_large_ch	accuracy: 0.443	f1: 0.3776703194551207
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/paws-x/ernie-doc-base-zh.out <==
+hostname = asimov-51.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-gen-large-en-430g.out <==
+hostname = asimov-52.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-tiny.out <==
+hostname = asimov-51.svail.baidu.com
+416.93 seconds	ernie-tiny	accuracy: 0.49886389456941604	f1: 0.3336317654064399
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-2.0-en-finetuned-squad.out <==
+hostname = asimov-53.svail.baidu.com
+873.32 seconds	ernie-2.0-en-finetuned-squad	accuracy: 0.5001136105430584	f1: 0.3335857515014487
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-2.0-large-en.out <==
+hostname = asimov-52.svail.baidu.com
+3021.25 seconds	ernie-2.0-large-en	accuracy: 0.4998863894569416	f1: 0.33328283593394936
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-doc-base-en.out <==
+hostname = asimov-52.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-gen-large-en.out <==
+hostname = asimov-53.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-gram-zh.out <==
+hostname = asimov-52.svail.baidu.com
+890.86 seconds	ernie-gram-zh	accuracy: 0.501136105430584	f1: 0.3643611970630703
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-2.0-en.out <==
+hostname = asimov-52.svail.baidu.com
+930.22 seconds	ernie-2.0-en	accuracy: 0.5001136105430584	f1: 0.3337874659400545
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/skep_ernie_2.0_large_en.out <==
+hostname = asimov-52.svail.baidu.com
+3163.31 seconds	skep_ernie_2.0_large_en	accuracy: 0.4997727789138832	f1: 0.33363560720140156
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-1.0.out <==
+hostname = asimov-51.svail.baidu.com
+924.16 seconds	ernie-1.0	accuracy: 0.440013633265167	f1: 0.3350561208971649
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-gen-base-en.out <==
+hostname = asimov-52.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/skep_ernie_1.0_large_ch.out <==
+hostname = asimov-53.svail.baidu.com
+3016.25 seconds	skep_ernie_1.0_large_ch	accuracy: 0.49045671438309474	f1: 0.3986613521595008
+
+==> ./model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-doc-base-zh.out <==
+hostname = asimov-52.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/question_answering/squad.out <==
+hostname = asimov-53.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.PaddleHub/question_answering/squad_v2.out <==
+hostname = asimov-53.svail.baidu.com
+*** ERROR ***	P:/fit_examples/model.PaddleHub/language/data.HuggingFace/question_answering/squad_v2/ckpt/best
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_climate.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_offensive.out <==
+hostname = asimov-53.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_irony.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emoji.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_atheism.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_sentiment.out <==
+hostname = asimov-53.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_hate.out <==
+hostname = asimov-53.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_feminist.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_abortion.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emotion.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_hillary.out <==
+hostname = asimov-54.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/rte.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/sst2.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/mnli_matched.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/qnli.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/mrpc.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/cola.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/stsb.out <==
+hostname = asimov-56.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/mnli_mismatched.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/glue/qqp.out <==
+hostname = asimov-55.svail.baidu.com
+
+==> ./model.PaddleHub/language/data.HuggingFace/conll2003/chunk.out <==
+hostname = asimov-56.svail.baidu.com
+*** ERROR ***	P:bert-base-cased
+
+==> ./model.PaddleHub/language/data.HuggingFace/conll2003/pos.out <==
+hostname = asimov-56.svail.baidu.com
+*** ERROR ***	P:bert-base-cased
+
+==> ./model.PaddleHub/language/data.HuggingFace/conll2003/ner.out <==
+hostname = asimov-56.svail.baidu.com
+*** ERROR ***	P:bert-base-cased
+
+==> ./model.PaddleHub/language/data.HuggingFace/question_answering/squad.out <==
+hostname = asimov-56.svail.baidu.com

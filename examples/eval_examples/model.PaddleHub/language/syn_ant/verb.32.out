@@ -1,2 +1,2 @@
-hostname = asimov-94.svail.baidu.com
-*** ERROR ***	P:/mnt/big/kwc/morphology/results/20220405/fit_examples/model.PaddleHub/language/syn_ant/verb.32/ckpt/32/best
+hostname = asimov-32.svail.baidu.com
+9.35 seconds	/mnt/big/kwc/morphology/results/20220405/fit_examples/model.PaddleHub/language/syn_ant/verb.32/ckpt/32/best	accuracy: 0.8846153846153846	f1: 0.8845840253661483

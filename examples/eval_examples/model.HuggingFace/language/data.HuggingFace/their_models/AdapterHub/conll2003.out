@@ -1,1 +1,3 @@
-hostname = asimov-151.svail.baidu.com
+hostname = asimov-89.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-conll2003	data: H:conll2003	eqn: None	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not subscriptable"), <traceback object at 0x7f422362b140>)
+***ERROR***	model: H:AdapterHub/roberta-base-pf-conll2003	data: H:conll2003	eqn: None	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not subscriptable"), <traceback object at 0x7f12df60f100>)

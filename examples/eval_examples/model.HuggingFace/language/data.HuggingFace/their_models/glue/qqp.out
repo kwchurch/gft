@@ -1,17 +1,5 @@
-hostname = asimov-47.svail.baidu.com
-136.26 seconds	textattack/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
-72.08 seconds	assemblyai/distilbert-base-uncased-qqp	accuracy: 0.8992579767499381	f1: 0.8653598228157748
-143.72 seconds	yoshitomo-matsubara/bert-base-uncased-qqp	accuracy: 0.9094731634924561	f1: 0.8783244680851064
-409.78 seconds	howey/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
-142.05 seconds	gchhablani/bert-base-cased-finetuned-qqp	accuracy: 0.9083848627256987	f1: 0.8767633750332712
-137.62 seconds	A-bhimany-u08/bert-base-cased-qqp	accuracy: 0.8907741775908978	f1: 0.8532987841339447
-72.69 seconds	textattack/distilbert-base-cased-QQP	accuracy: 0.8974771209497897	f1: 0.8627437994635584
-159.90 seconds	textattack/albert-base-v2-QQP	accuracy: 0.9073460301756122	f1: 0.8746402516565156
-*** ERROR ***	H:brandontanzhirong/paraphrasing-tool_t5-finetuned-QQP
-119.26 seconds	echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	accuracy: 0.9097947069008162	f1: 0.8787364921030757
-71.39 seconds	textattack/distilbert-base-uncased-QQP	accuracy: 0.5338609943111551	f1: 0.5966008818870672
-172.09 seconds	textattack/xlnet-base-cased-QQP	accuracy: 0.9066287410338857	f1: 0.8742127886441637
-135.47 seconds	howey/bert-base-uncased-qqp	accuracy: 0.9108830076675736	f1: 0.8800878623489866
-500.52 seconds	textattack/xlnet-large-cased-QQP	accuracy: 0.6318327974276527	f1: 0.0
-135.98 seconds	yoshitomo-matsubara/bert-base-uncased-qqp_from_bert-large-uncased-qqp	accuracy: 0.9132822161761068	f1: 0.8831255417027802
-385.70 seconds	Maelstrom77/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
+hostname = asimov-88.svail.baidu.com
+138.01 seconds	textattack/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
+75.57 seconds	assemblyai/distilbert-base-uncased-qqp	accuracy: 0.8992579767499381	f1: 0.8653598228157748
+136.55 seconds	yoshitomo-matsubara/bert-base-uncased-qqp	accuracy: 0.9094731634924561	f1: 0.8783244680851064
+391.27 seconds	howey/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986

@@ -1,9 +1,0 @@
-model: apol/dalle-mini	model: apol/dalle-mini	downloads: 24	likes: 1	task: text-to-image
-***ERROR***
-model: H:apol/dalle-mini
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError('apol/dalle-mini does not appear to have a file named pytorch_model.bin but there is a file for Flax weights. Use `from_flax=True` to load this model from those weights.'), <traceback object at 0x7f63d86be0c0>)

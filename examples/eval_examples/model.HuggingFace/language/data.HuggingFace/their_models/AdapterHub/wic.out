@@ -1,1 +1,2 @@
-hostname = asimov-143.svail.baidu.com
+hostname = asimov-88.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-wic	data: H:wic	eqn: None	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not subscriptable"), <traceback object at 0x7f2a9c749140>)

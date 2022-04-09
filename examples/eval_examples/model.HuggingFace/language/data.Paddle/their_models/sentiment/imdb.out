@@ -1,19 +1,5 @@
-hostname = asimov-26.svail.baidu.com
-159.50 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
-831.53 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
-126.89 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
-196.72 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407
-224.06 seconds	aychang/roberta-base-imdb	accuracy: 0.89312	f1: 0.893051651620635
-90.71 seconds	lvwerra/distilbert-imdb	accuracy: 0.86744	f1: 0.8674283854538782
-226.68 seconds	textattack/albert-base-v2-imdb	accuracy: 0.8924	f1: 0.8923953693853679
-164.90 seconds	ykacer/bert-base-cased-imdb-sequence-classification	accuracy: 0.5	f1: 0.3333333333333333
-169.66 seconds	nateraw/bert-base-uncased-imdb	accuracy: 0.49992	f1: 0.33372387424830385
-166.92 seconds	aypan17/roberta-base-imdb	accuracy: 0.90168	f1: 0.901598834940454
-166.70 seconds	allenai/dsp_roberta_base_tapt_imdb_70000	accuracy: 0.5	f1: 0.3333333333333333
-235.69 seconds	textattack/xlnet-base-cased-imdb	accuracy: 0.89908	f1: 0.899045672136461
-166.65 seconds	Lumos/imdb4	accuracy: 0.8764	f1: 0.8763954307840525
-85.28 seconds	abhishek/autonlp-imdb_sentiment_classification-31154	accuracy: 0.91228	f1: 0.9121132371877745
-165.83 seconds	w11wo/javanese-bert-small-imdb-classifier	accuracy: 0.68344	f1: 0.6801487066503771
-609.04 seconds	yosemite/autonlp-imdb-sentiment-analysis-english-470512388	accuracy: 0.896	f1: 0.8958444906584397
-166.43 seconds	abhishek/autonlp-imdb_eval-71421	accuracy: 0.82288	f1: 0.8209463338540264
-19.40 seconds	lannelin/bert-imdb-1hidden	accuracy: 0.81212	f1: 0.8121194441741637
+hostname = asimov-27.svail.baidu.com
+169.91 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
+641.67 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
+89.15 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
+175.72 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407

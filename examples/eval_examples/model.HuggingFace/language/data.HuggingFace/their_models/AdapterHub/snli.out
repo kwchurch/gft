@@ -1,3 +1,3 @@
-hostname = asimov-136.svail.baidu.com
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-snli
-*** ERROR ***	H:AdapterHub/roberta-base-pf-snli
+hostname = asimov-84.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-snli	data: H:snli	eqn: classify: label ~ premise + hypothesis	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7efe0d325040>)
+***ERROR***	model: H:AdapterHub/roberta-base-pf-snli	data: H:snli	eqn: classify: label ~ premise + hypothesis	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f9af0f0ccc0>)

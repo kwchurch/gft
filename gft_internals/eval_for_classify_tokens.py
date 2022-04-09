@@ -223,8 +223,8 @@ MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
 
 #     return args
 
-def fit(args, eqn, accelerator, raw_datasets):
-    print('calling fit in fit_for_classify_tokens.py')
+def my_eval(args, eqn, accelerator, raw_datasets):
+    print('calling my_eval in eval_for_classify_tokens.py')
     assert eqn['eqn_type'] == parse_eqn.eqn_types['classify_tokens'], \
         'fit_for_classify_tokens is for eqn_type: classify_tokens, but eqn_type is: ' + str(eqn['eqn_type'])
 
@@ -322,30 +322,32 @@ def fit(args, eqn, accelerator, raw_datasets):
     #     config = AutoConfig.from_pretrained(args.config_name, num_labels=num_labels)
     # if model_key:
 
-    config = AutoConfig.from_pretrained(model_key, num_labels=num_labels)
+    from gft_internals.my_auto_model_hf import my_load_model_tokenizer_and_extractor
+    model,tokenizer,extractor = my_load_model_tokenizer_and_extractor(args)
 
+    # config = AutoConfig.from_pretrained(model_key, num_labels=num_labels)
+    # # else:
+    # #     config = CONFIG_MAPPING[args.model_type]()
+    # #     logger.warning("You are instantiating a new config instance from scratch.")
+
+    # # tokenizer_name_or_path = args.tokenizer_name if args.tokenizer_name else model_key
+    # tokenizer_name_or_path = model_key
+    # if not tokenizer_name_or_path:
+    #     raise ValueError(
+    #         "You are instantiating a new tokenizer from scratch. This is not supported by this script."
+    #         "You can do it from another script, save it, and load it from here, using --tokenizer_name."
+    #     )
+
+    # if config.model_type in {"gpt2", "roberta"}:
+    #     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path, use_fast=True, add_prefix_space=True)
     # else:
-    #     config = CONFIG_MAPPING[args.model_type]()
-    #     logger.warning("You are instantiating a new config instance from scratch.")
+    #     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path, use_fast=True)
 
-    # tokenizer_name_or_path = args.tokenizer_name if args.tokenizer_name else model_key
-    tokenizer_name_or_path = model_key
-    if not tokenizer_name_or_path:
-        raise ValueError(
-            "You are instantiating a new tokenizer from scratch. This is not supported by this script."
-            "You can do it from another script, save it, and load it from here, using --tokenizer_name."
-        )
-
-    if config.model_type in {"gpt2", "roberta"}:
-        tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path, use_fast=True, add_prefix_space=True)
-    else:
-        tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path, use_fast=True)
-
-    if model_key:
-        model = AutoModelForTokenClassification.from_pretrained(model_key, from_tf=bool(".ckpt" in model_key), config=config)
-    else:
-        logger.info("Training new model from scratch")
-        model = AutoModelForTokenClassification.from_config(config)
+    # if model_key:
+    #     model = AutoModelForTokenClassification.from_pretrained(model_key, from_tf=bool(".ckpt" in model_key), config=config)
+    # else:
+    #     logger.info("Training new model from scratch")
+    #     model = AutoModelForTokenClassification.from_config(config)
 
     model.resize_token_embeddings(len(tokenizer))
 

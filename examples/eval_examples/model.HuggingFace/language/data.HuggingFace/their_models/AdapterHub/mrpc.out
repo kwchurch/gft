@@ -1,2 +1,2 @@
-hostname = asimov-120.svail.baidu.com
-8.40 seconds	AdapterHub/bert-base-uncased-pf-mrpc	accuracy: 0.823768115942029	f1: 0.8733333333333334
+hostname = asimov-26.svail.baidu.com
+***ERROR***	model: AdapterHub/bert-base-uncased-pf-mrpc	data: H:glue,mrpc	eqn: classify: label ~ sentence1 + sentence2	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f94338e7080>)

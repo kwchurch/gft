@@ -1,7 +1,7 @@
 import sys,os,shutil,argparse,torch,time
 from torch.utils.data import DataLoader
 import numpy as np
-import parse_eqn
+from gft_internals import parse_eqn
 from gft_internals.gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename, get_arg, set_arg
 
 MAX_GPU_BATCH_SIZE = 16

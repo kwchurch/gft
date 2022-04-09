@@ -1,5 +1,6 @@
 
 # adapters are really powerful, but unfortunately, they are a bit tricky to use with automodels
+# There are also some unfortunate incompatibilities between adpaters and the most recent version of transformers
 
 import sys,os
 
@@ -48,6 +49,9 @@ def my_get_adapter_info(adapter_key):
         # assert not a is None, 'bad adapter key: ' + str(adapter_key)
         return a
     except:
+        if adapter_key.startswith('AdapterHub/'):
+            import transformers
+            assert hasattr(transformers, 'adapters'), 'adapters are not supported in newer version of transformers; tranformers.__version__ is %s; adapter_key is: %s' % (transformers.__version__, adapter_key)
         return None
 
 # ['FNetForSequenceClassification', 'GPTJForSequenceClassification',
@@ -180,39 +184,81 @@ def my_tokenizer(model_key):
 
 import transformers
 
+# old_my_task_to_auto_class = { 
+#     'ASR'                            : transformers.AutoModelForCTC,
+#     'MT'                             : transformers.AutoModelWithLMHead,
+#     'QA'                             : transformers.AutoModelForQuestionAnswering,
+#     'audio-classification'           : transformers.AutoModelForAudioClassification,
+#     'automatic-speech-recognition'   : transformers.AutoModelForCTC,
+#     'classify'                       : transformers.AutoModelForSequenceClassification,
+#     'classify_spans'                 : transformers.AutoModelForQuestionAnswering,
+#     'classify_tokens'                : transformers.AutoModelForTokenClassification,
+#     'conversational'                 : transformers.AutoModelForCausalLM,
+#     'default'                        : transformers.AutoModel,
+#     'feature-extraction'             : transformers.AutoFeatureExtractor,
+#     'fill-mask'                      : transformers.AutoModelForMaskedLM,
+#     'image-classification'           : transformers.AutoModelForImageClassification,
+#     'image-segmentation'             : transformers.AutoModelForImageSegmentation,
+#     'image-to-text'                  : transformers.AutoModelForVision2Seq,
+#     'ner'                            : transformers.AutoModelForTokenClassification,
+#     'object-detection'               : transformers.AutoModelForObjectDetection,
+#     'question-answering'             : transformers.AutoModelForQuestionAnswering,
+#     'sentiment-analysis'             : transformers.AutoModelForSequenceClassification,
+#     'speech-segmentation'            : transformers.AutoModelForCTC,
+#     'summarization'                  : transformers.AutoModelForSeq2SeqLM,
+#     'table-question-answering'       : transformers.AutoModelForTableQuestionAnswering,
+#     'text-classification'            : transformers.AutoModelForSequenceClassification,
+#     'text-generation'                : transformers.AutoModelForSequenceClassification,
+#     'text-to-image'                  : transformers.AutoModelForSeq2SeqLM,
+#     'text2text-generation'           : transformers.AutoModelForSeq2SeqLM,
+#     'token-classification'           : transformers.AutoModelForTokenClassification,
+#     'translation'                    : transformers.AutoModelWithLMHead,
+#     'translation_xx_to_yy'           : transformers.AutoModelForSeq2SeqLM,
+#     'zero-shot-classification'       : transformers.AutoModelForSequenceClassification, 
+#     None                             : transformers.AutoModelForSequenceClassification,
+# }
+
+# This convoluted approach makes it possible to use older versions of
+# transformers that do not support all of these auto models
+
 my_task_to_auto_class = { 
-    'ASR'                            : transformers.AutoModelForCTC,
-    'MT'                             : transformers.AutoModelWithLMHead,
-    'QA'                             : transformers.AutoModelForQuestionAnswering,
-    'audio-classification'           : transformers.AutoModelForAudioClassification,
-    'automatic-speech-recognition'   : transformers.AutoModelForCTC,
-    'classify'                       : transformers.AutoModelForSequenceClassification,
-    'classify_spans'                 : transformers.AutoModelForQuestionAnswering,
-    'classify_tokens'                : transformers.AutoModelForTokenClassification,
-    'conversational'                 : transformers.AutoModelForCausalLM,
-    'default'                        : transformers.AutoModel,
-    'feature-extraction'             : transformers.AutoFeatureExtractor,
-    'fill-mask'                      : transformers.AutoModelForMaskedLM,
-    'image-classification'           : transformers.AutoModelForImageClassification,
-    'image-segmentation'             : transformers.AutoModelForImageSegmentation,
-    'image-to-text'                  : transformers.AutoModelForVision2Seq,
-    'ner'                            : transformers.AutoModelForTokenClassification,
-    'object-detection'               : transformers.AutoModelForObjectDetection,
-    'question-answering'             : transformers.AutoModelForQuestionAnswering,
-    'sentiment-analysis'             : transformers.AutoModelForSequenceClassification,
-    'speech-segmentation'            : transformers.AutoModelForCTC,
-    'summarization'                  : transformers.AutoModelForSeq2SeqLM,
-    'table-question-answering'       : transformers.AutoModelForTableQuestionAnswering,
-    'text-classification'            : transformers.AutoModelForSequenceClassification,
-    'text-generation'                : transformers.AutoModelForSequenceClassification,
-    'text-to-image'                  : transformers.AutoModelForSeq2SeqLM,
-    'text2text-generation'           : transformers.AutoModelForSeq2SeqLM,
-    'token-classification'           : transformers.AutoModelForTokenClassification,
-    'translation'                    : transformers.AutoModelWithLMHead,
-    'translation_xx_to_yy'           : transformers.AutoModelForSeq2SeqLM,
-    'zero-shot-classification'       : transformers.AutoModelForSequenceClassification, 
-    None                             : transformers.AutoModelForSequenceClassification,
+    'ASR'                            : 'AutoModelForCTC',
+    'MT'                             : 'AutoModelWithLMHead',
+    'QA'                             : 'AutoModelForQuestionAnswering',
+    'audio-classification'           : 'AutoModelForAudioClassification',
+    'automatic-speech-recognition'   : 'AutoModelForCTC',
+    'classify'                       : 'AutoModelForSequenceClassification',
+    'classify_spans'                 : 'AutoModelForQuestionAnswering',
+    'classify_tokens'                : 'AutoModelForTokenClassification',
+    'conversational'                 : 'AutoModelForCausalLM',
+    'default'                        : 'AutoModel',
+    'feature-extraction'             : 'AutoFeatureExtractor',
+    'fill-mask'                      : 'AutoModelForMaskedLM',
+    'image-classification'           : 'AutoModelForImageClassification',
+    'image-segmentation'             : 'AutoModelForImageSegmentation',
+    'image-to-text'                  : 'AutoModelForVision2Seq',
+    'ner'                            : 'AutoModelForTokenClassification',
+    'object-detection'               : 'AutoModelForObjectDetection',
+    'question-answering'             : 'AutoModelForQuestionAnswering',
+    'sentiment-analysis'             : 'AutoModelForSequenceClassification',
+    'speech-segmentation'            : 'AutoModelForCTC',
+    'summarization'                  : 'AutoModelForSeq2SeqLM',
+    'table-question-answering'       : 'AutoModelForTableQuestionAnswering',
+    'text-classification'            : 'AutoModelForSequenceClassification',
+    'text-generation'                : 'AutoModelForSequenceClassification',
+    'text-to-image'                  : 'AutoModelForSeq2SeqLM',
+    'text2text-generation'           : 'AutoModelForSeq2SeqLM',
+    'token-classification'           : 'AutoModelForTokenClassification',
+    'translation'                    : 'AutoModelWithLMHead',
+    'translation_xx_to_yy'           : 'AutoModelForSeq2SeqLM',
+    'zero-shot-classification'       : 'AutoModelForSequenceClassification', 
+    None                             : 'AutoModelForSequenceClassification',
 }
+
+# for k in my_task_to_auto_class:
+#     v = my_task_to_auto_class[k]
+#     if hasattr(transformers, v):
+#         my_task_to_auto_class[k] = getattr(transformers,v)
 
 # infer the appropriate automodel from args (and especially the task)
 def auto_model_for_X(args):
@@ -223,7 +269,9 @@ def auto_model_for_X(args):
     # task_provider,task = parse_task_specification(args)
 
     if task in my_task_to_auto_class:
-        return my_task_to_auto_class[task]
+        v = my_task_to_auto_class[task]
+        if hasattr(transformers, v):
+            return getattr(transformers, v)
 
     assert False, 'auto_model_for_X, task not supported: ' + task
 
@@ -352,6 +400,7 @@ def my_load_model_tokenizer_and_extractor(args, keyword='model'):
         base_model = auto_model_for_X(args)
         print('base_model: ' + str(base_model), file=sys.stderr)
 
+        
         model = base_model.from_pretrained(model_key, return_dict=True)
 
         tokenizer = None
@@ -395,6 +444,8 @@ def my_load_model_tokenizer_and_extractor(args, keyword='model'):
         model = BertModelWithHeads.from_pretrained(a.model_name)
     else:
         assert False, 'my_load_model_tokenizer_and_extractor: failed for model: ' + str(a.model_name)
-        
-    model.set_active_adapters(model.load_adapter(model_key, a.source))
+
+    print('model_key: ' + str(model_key), file=sys.stderr)
+    print('a.source: ' + str(a.source), file=sys.stderr)
+    model.set_active_adapters(model.load_adapter(model_key, source=a.source))
     return model,tokenizer,extractor

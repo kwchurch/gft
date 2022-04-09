@@ -1,2 +1,2 @@
-hostname = asimov-120.svail.baidu.com
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-anli_r3
+hostname = asimov-26.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-anli_r3	data: H:anli	eqn: classify: label ~ hypothesis + reason	splits: test_r3	split: test_r3	task: None	error: (<class 'KeyError'>, KeyError('train'), <traceback object at 0x7fd59bbb84c0>)

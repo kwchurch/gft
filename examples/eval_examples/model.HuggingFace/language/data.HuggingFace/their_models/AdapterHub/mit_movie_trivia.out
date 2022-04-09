@@ -1,1 +1,2 @@
-hostname = asimov-126.svail.baidu.com
+hostname = asimov-27.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-mit_movie_trivia	data: H:mit_movie_trivia	eqn: None	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not subscriptable"), <traceback object at 0x7f31e097e800>)

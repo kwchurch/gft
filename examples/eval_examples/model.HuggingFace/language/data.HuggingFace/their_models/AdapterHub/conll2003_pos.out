@@ -1,1 +1,2 @@
-hostname = asimov-143.svail.baidu.com
+hostname = asimov-86.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-conll2003_pos	data: H:conll2003	eqn: classify_tokens: pos_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'AttributeError'>, AttributeError("module 'gft_internals.eval_for_classify_tokens' has no attribute 'my_eval'"), <traceback object at 0x7f0b3eedf8c0>)

@@ -1,6 +1,13 @@
 hostname = asimov-27.svail.baidu.com
-9.15 seconds	philschmid/BERT-Banking77	accuracy: 0.02564935064935065	f1: 0.025809633404570112
-*** ERROR ***	H:tdopierre/ProtAugment-LM-BANKING77
-4.98 seconds	mrm8488/distilroberta-finetuned-banking77	accuracy: 0.8961038961038961	f1: 0.8914871607409227
-6.51 seconds	philschmid/DistilBERT-Banking77	accuracy: 0.026298701298701297	f1: 0.02647662073822411
-4.92 seconds	philschmid/RoBERTa-Banking77	accuracy: 0.026298701298701297	f1: 0.026443240463879983
+9.19 seconds	philschmid/BERT-Banking77	accuracy: 0.02564935064935065	f1: 0.025809633404570112
+***ERROR***
+model: H:tdopierre/ProtAugment-LM-BANKING77
+data: H:banking77
+eqn: classify: label ~ text
+splits: test
+split: test
+task: None
+error: (<class 'ValueError'>, ValueError('Expected input batch_size (152) to match target batch_size (8).'), <traceback object at 0x7fb71074eb80>)
+5.71 seconds	mrm8488/distilroberta-finetuned-banking77	accuracy: 0.8961038961038961	f1: 0.8914871607409227
+5.21 seconds	philschmid/DistilBERT-Banking77	accuracy: 0.026298701298701297	f1: 0.02647662073822411
+5.29 seconds	philschmid/RoBERTa-Banking77	accuracy: 0.026298701298701297	f1: 0.026443240463879983

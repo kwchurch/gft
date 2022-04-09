@@ -21,7 +21,8 @@
 # import pdb
 
 from gft_internals import parse_eqn
-from gft_internals.gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename
+# from gft_internals.gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename
+from gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename, get_arg, set_arg
 
 import functools
 import json
@@ -37,8 +38,7 @@ import datasets
 import numpy as np
 import torch
 from datasets import DatasetDict, load_dataset, load_metric
-from gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename, get_arg, set_arg
-import parse_eqn
+
 
 # import my_auto_model_hf
 

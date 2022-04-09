@@ -1,9 +1,0 @@
-model: julien-c/wine-quality	model: julien-c/wine-quality	downloads: 23	likes: 1	task: structured-data-classification
-***ERROR***
-model: julien-c/wine-quality
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: structured-data-classification'), <traceback object at 0x7fc7fa009400>)

@@ -1,3 +1,3 @@
-hostname = asimov-143.svail.baidu.com
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-trec
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-trec
+hostname = asimov-86.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-trec	data: H:trec	eqn: classify: label-fine ~ text	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f48482f19c0>)
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-trec	data: H:trec	eqn: classify: label-fine ~ text	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7ff5d02b2400>)

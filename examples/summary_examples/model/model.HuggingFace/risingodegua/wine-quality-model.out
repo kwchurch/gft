@@ -1,9 +1,0 @@
-model: risingodegua/wine-quality-model	model: risingodegua/wine-quality-model	downloads: 10	likes: 1	task: structured-data-classification
-***ERROR***
-model: risingodegua/wine-quality-model
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: structured-data-classification'), <traceback object at 0x7f8677239300>)

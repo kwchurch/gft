@@ -1,11 +1,20 @@
-dataset: hellaswag	No info from HuggingFace
+hostname = asimov-7.svail.baidu.com
+dataset: hellaswag	dataset: hellaswag	downloads: 12665	likes: 1	PWC: https://paperswithcode.com/dataset/hellaswag
 dataset: hellaswag	splits: train: 39905 rows, test: 10003 rows, val: 10042 rows
 dataset: hellaswag	split: train	columns: ind, activity_label, ctx_a, ctx_b, ctx, endings, source_id, split, split_type, label
-***ERROR***
-model: None
-data: H:hellaswag
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fab1202b440>)
+dataset: hellaswag --> 3 models
+dataset: hellaswag	model: AdapterHub/bert-base-uncased-pf-hellaswag	downloads: 14	likes: 0	task: None
+dataset: hellaswag	model: AdapterHub/roberta-base-pf-hellaswag	downloads: 11	likes: 0	task: None
+dataset: hellaswag	model: prajjwal1/roberta_hellaswag	downloads: 7	likes: 0	task: None
+# found: 11559 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

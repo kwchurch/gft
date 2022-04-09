@@ -1,4 +1,4 @@
-dataset: scan	No info from HuggingFace
+dataset: scan	dataset: scan	downloads: 5466	likes: 0	PWC: https://paperswithcode.com/dataset/scan
 dataset: scan,simple	splits: train: 16728 rows, test: 4182 rows
 dataset: scan,simple	split: train	columns: commands, actions
 dataset: scan,addprim_jump	splits: train: 14670 rows, test: 7706 rows
@@ -23,11 +23,16 @@ dataset: scan,template_opposite_right	splits: train: 15225 rows, test: 4476 rows
 dataset: scan,template_opposite_right	split: train	columns: commands, actions
 dataset: scan,template_right	splits: train: 15225 rows, test: 4476 rows
 dataset: scan,template_right	split: train	columns: commands, actions
-***ERROR***
-model: None
-data: H:scan
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f73e9f77140>)
+# dataset: scan --> 0 models
+# found: 11557 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

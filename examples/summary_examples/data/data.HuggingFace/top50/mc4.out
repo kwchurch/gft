@@ -31,3 +31,6 @@ dataset: mc4,de	splits: train: 397006993 rows, val: 398583 rows
 dataset: mc4,de	split: train	columns: text, timestamp, url
 dataset: mc4,el	splits: train: 41753736 rows, val: 42358 rows
 dataset: mc4,el	split: train	columns: text, timestamp, url
+dataset: mc4,el-Latn	splits: train: 449943 rows, val: 468 rows
+dataset: mc4,el-Latn	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/en to /mnt/home/kwc/.cache/huggingface/datasets/mc4/en/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...

@@ -1,3 +1,3 @@
-hostname = asimov-150.svail.baidu.com
-161.56 seconds	AdapterHub/bert-base-uncased-pf-yelp_polarity	accuracy: 0.9569210526315789	f1: 0.9569209105958831
-163.00 seconds	AdapterHub/roberta-base-pf-yelp_polarity	accuracy: 0.9660526315789474	f1: 0.9660525028417628
+hostname = asimov-88.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-yelp_polarity	data: H:yelp_polarity	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7fc79d8e0900>)
+***ERROR***	model: H:AdapterHub/roberta-base-pf-yelp_polarity	data: H:yelp_polarity	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f081c17f840>)

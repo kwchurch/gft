@@ -1,9 +1,0 @@
-model: lakahaga/novel_reading_tts	model: lakahaga/novel_reading_tts	downloads: 335	likes: 0	task: text-to-speech
-***ERROR***
-model: lakahaga/novel_reading_tts
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: text-to-speech'), <traceback object at 0x7f71c0a079c0>)

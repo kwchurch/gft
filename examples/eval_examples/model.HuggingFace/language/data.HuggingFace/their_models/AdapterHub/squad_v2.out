@@ -1,9 +1,3 @@
-hostname = asimov-152.svail.baidu.com
-calling my_eval in my_eval_for_classify_spans.py
-seed: None
-column_names: ['id', 'title', 'context', 'question', 'answers']
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-squad_v2
-calling my_eval in my_eval_for_classify_spans.py
-seed: None
-column_names: ['id', 'title', 'context', 'question', 'answers']
-*** ERROR ***	H:AdapterHub/roberta-base-pf-squad_v2
+hostname = asimov-91.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-squad_v2	data: H:squad_v2	eqn: classify_spans: answers ~ question + context	splits: validation	split: validation	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7fe8ae3e7540>)
+***ERROR***	model: H:AdapterHub/roberta-base-pf-squad_v2	data: H:squad_v2	eqn: classify_spans: answers ~ question + context	splits: validation	split: validation	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f3466287680>)

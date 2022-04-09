@@ -7,6 +7,6 @@ do
 gft_eval --model H:$model \
     --data H:paws,labeled_swap \
     --eqn 'classify: label ~ sentence1 + sentence2' \
-    --split test
+    --split train
 done
 

@@ -1,9 +1,0 @@
-model: mpariente/DPRNNTasNet-ks2_WHAM_sepclean	model: mpariente/DPRNNTasNet-ks2_WHAM_sepclean	downloads: 599	likes: 4	task: audio-to-audio
-***ERROR***
-model: mpariente/DPRNNTasNet-ks2_WHAM_sepclean
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: audio-to-audio'), <traceback object at 0x7fef7fe25d40>)

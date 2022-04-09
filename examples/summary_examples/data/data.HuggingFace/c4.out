@@ -3,3 +3,14 @@ dataset: c4,en	splits: train: 364868892 rows, val: 364608 rows
 dataset: c4,en	split: train	columns: text, timestamp, url
 dataset: c4,realnewslike	splits: train: 13799838 rows, val: 13863 rows
 dataset: c4,realnewslike	split: train	columns: text, timestamp, url
+dataset: c4,en.noblocklist	splits: train: 393391519 rows, val: 393226 rows
+dataset: c4,en.noblocklist	split: train	columns: text, timestamp, url
+Downloading and preparing dataset c4/en.noclean (download: 2.21 TiB, generated: 6.11 TiB, post-processed: Unknown size, total: 8.32 TiB) to /mnt/home/kwc/.cache/huggingface/datasets/c4/en.noclean/0.0.0/df532b158939272d032cc63ef19cd5b83e9b4d00c922b833e4cb18b2e9869b01...
+***ERROR***
+model: None
+data: H:c4
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ConnectionError'>, ConnectionError('Couldn\'t reach https://huggingface.co/datasets/allenai/c4/resolve/1ddc917116b730e1859edef32896ec5c16be51d0/en.noclean/c4-train.06240-of-07168.json.gz (ConnectionError(MaxRetryError("HTTPSConnectionPool(host=\'cdn-lfs.huggingface.co\', port=443): Max retries exceeded with url: /datasets/allenai/c4/260e7ae8af5c59f1a67a1d4270f0405468ebdd663565005ab9403e4a5cf1ecc1 (Caused by NewConnectionError(\'<urllib3.connection.HTTPSConnection object at 0x7fb2502b5a00>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution\'))")))'), <traceback object at 0x7fb250cc6d00>)

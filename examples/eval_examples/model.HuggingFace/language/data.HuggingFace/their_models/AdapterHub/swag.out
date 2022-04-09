@@ -1,1 +1,2 @@
-hostname = asimov-151.svail.baidu.com
+hostname = asimov-89.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-swag	data: H:swag	eqn: None	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not subscriptable"), <traceback object at 0x7f0078bb8080>)

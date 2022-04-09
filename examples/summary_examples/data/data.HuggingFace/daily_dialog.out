@@ -1,11 +1,17 @@
-dataset: daily_dialog	No info from HuggingFace
+dataset: daily_dialog	dataset: daily_dialog	downloads: 1720	likes: 13	PWC: https://paperswithcode.com/dataset/dailydialog
 dataset: daily_dialog	splits: train: 11118 rows, test: 1000 rows, val: 1000 rows
 dataset: daily_dialog	split: train	columns: dialog, act, emotion
-***ERROR***
-model: None
-data: H:daily_dialog
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fd2361fe140>)
+dataset: daily_dialog --> 1 models
+dataset: daily_dialog	model: ethzanalytics/GPT-J-6B-8bit-Convo-D3E	downloads: 143	likes: 1	task: text-generation
+# found: 11559 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
+task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
+task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
+task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None

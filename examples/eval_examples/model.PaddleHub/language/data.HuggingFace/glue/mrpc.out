@@ -1,1 +1,2 @@
-hostname = asimov-121.svail.baidu.com
+hostname = asimov-47.svail.baidu.com
+80.74 seconds	/mnt/big/kwc/morphology/results/20220405/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/mrpc/ckpt/best/	accuracy: 0.6838235294117647	f1: 0.8122270742358079

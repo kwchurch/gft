@@ -1,2 +1,2 @@
-hostname = asimov-78.svail.baidu.com
-5.65 seconds	/mnt/big/kwc/morphology/results/20220405/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/stsb/ckpt/best/	pearson: 0.891215895835921
+hostname = asimov-91.svail.baidu.com
+4.23 seconds	/mnt/big/kwc/morphology/results/20220405/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/stsb/ckpt/best/	pearson: 0.891215895835921

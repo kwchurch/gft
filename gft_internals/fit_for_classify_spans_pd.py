@@ -30,7 +30,7 @@ import parse_eqn
 
 import sys,os,shutil
 import seqeval,time,sys
-import numpy as np
+from gft_internals import numpy as np
 
 print(__name__ + ': loading from paddle', file=sys.stderr)
 

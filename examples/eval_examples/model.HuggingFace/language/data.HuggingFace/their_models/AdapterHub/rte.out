@@ -1,2 +1,2 @@
-hostname = asimov-152.svail.baidu.com
-1.25 seconds	AdapterHub/bert-base-uncased-pf-rte	accuracy: 0.6462093862815884
+hostname = asimov-89.svail.baidu.com
+***ERROR***	model: AdapterHub/bert-base-uncased-pf-rte	data: H:glue,rte	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f53211065c0>)

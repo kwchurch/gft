@@ -1,0 +1,3 @@
+hostname = asimov-88.svail.baidu.com
+***ERROR***	model: AdapterHub/bert-base-uncased-pf-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7ff09731d3c0>)
+***ERROR***	model: AdapterHub/roberta-base-pf-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7fe7fdd30cc0>)

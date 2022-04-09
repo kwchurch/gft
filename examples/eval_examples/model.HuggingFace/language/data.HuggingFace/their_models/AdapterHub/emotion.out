@@ -1,3 +1,3 @@
-hostname = asimov-150.svail.baidu.com
-4.05 seconds	AdapterHub/bert-base-uncased-pf-emotion	accuracy: 0.9325	f1: 0.8883372855898307
-4.95 seconds	AdapterHub/roberta-base-pf-emotion	accuracy: 0.9275	f1: 0.891186913136944
+hostname = asimov-89.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f95f22cff00>)
+***ERROR***	model: H:AdapterHub/roberta-base-pf-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f75ae9163c0>)

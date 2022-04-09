@@ -1,3 +1,3 @@
-hostname = asimov-121.svail.baidu.com
-2.55 seconds	AdapterHub/bert-base-uncased-pf-sst2	accuracy: 0.9220183486238532
-2.57 seconds	AdapterHub/roberta-base-pf-sst2	accuracy: 0.9495412844036697
+hostname = asimov-26.svail.baidu.com
+***ERROR***	model: AdapterHub/bert-base-uncased-pf-sst2	data: H:glue,sst2	eqn: classify: label ~ sentence	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f3b30776b40>)
+***ERROR***	model: AdapterHub/roberta-base-pf-sst2	data: H:glue,sst2	eqn: classify: label ~ sentence	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError("Could not identify 'hf' as a valid adapter configuration."), <traceback object at 0x7f9e750db9c0>)

@@ -1,11 +1,3 @@
-hostname = asimov-70.svail.baidu.com
-73.50 seconds	cmarkea/distilcamembert-base-sentiment	accuracy: 0.3972333333333333	f1: 0.2142757101696134
-211.01 seconds	claudio75/xlm-roberta-base-finetuned-marc	accuracy: 0.3460666666666667	f1: 0.2761045356351407
-174.03 seconds	lewtun/xlm-roberta-base-finetuned-marc	accuracy: 0.36656666666666665	f1: 0.29303326868788676
-*** ERROR ***	H:philschmid/distilbert-base-multilingual-cased-sentiment
-164.27 seconds	lewtun/xlm-roberta-base-finetuned-marc-en	accuracy: 0.3621666666666667	f1: 0.28789163980331234
-162.99 seconds	Giannipinelli/xlm-roberta-base-finetuned-marc-en	accuracy: 0.3548	f1: 0.2938378585416116
-166.21 seconds	begar/xlm-roberta-base-finetuned-marc	accuracy: 0.35873333333333335	f1: 0.28756896050889974
-*** ERROR ***	H:lewtun/roberta-base-bne-finetuned-amazon_reviews_multi
-*** ERROR ***	H:IsabellaKarabasz/roberta-base-bne-finetuned-amazon_reviews_multi
-*** ERROR ***	H:philschmid/distilbert-base-multilingual-cased-sentiment-2
+hostname = asimov-88.svail.baidu.com
+75.80 seconds	cmarkea/distilcamembert-base-sentiment	accuracy: 0.3972333333333333	f1: 0.2142757101696134
+165.39 seconds	claudio75/xlm-roberta-base-finetuned-marc	accuracy: 0.3460666666666667	f1: 0.2761045356351407

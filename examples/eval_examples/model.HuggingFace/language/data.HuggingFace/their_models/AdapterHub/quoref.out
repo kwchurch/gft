@@ -1,9 +1,3 @@
-hostname = asimov-143.svail.baidu.com
-calling my_eval in my_eval_for_classify_spans.py
-seed: None
-column_names: ['id', 'question', 'context', 'title', 'url', 'answers']
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-quoref
-calling my_eval in my_eval_for_classify_spans.py
-seed: None
-column_names: ['id', 'question', 'context', 'title', 'url', 'answers']
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-quoref
+hostname = asimov-86.svail.baidu.com
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-quoref	data: H:quoref	eqn: classify_spans: answers ~ question + context	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f9827a476c0>)
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-quoref	data: H:quoref	eqn: classify_spans: answers ~ question + context	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7fe002109900>)

@@ -1,9 +1,5 @@
-hostname = asimov-124.svail.baidu.com
-calling my_eval in my_eval_for_classify_spans.py
-seed: None
-column_names: ['section_id', 'query_id', 'passage', 'question', 'answers_spans']
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-drop
-calling my_eval in my_eval_for_classify_spans.py
-seed: None
-column_names: ['section_id', 'query_id', 'passage', 'question', 'answers_spans']
-*** ERROR ***	H:AdapterHub/bert-base-uncased-pf-drop
+hostname = asimov-27.svail.baidu.com
+Downloading and preparing dataset drop/default (download: 7.92 MiB, generated: 111.88 MiB, post-processed: Unknown size, total: 119.80 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/drop/default/0.1.0/393cc04823935c1302a6a7e380cdbe9f452d37858ea276409787c983748eae25...
+Dataset drop downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/drop/default/0.1.0/393cc04823935c1302a6a7e380cdbe9f452d37858ea276409787c983748eae25. Subsequent calls will reuse this data.
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-drop	data: H:drop	eqn: classify_spans: answer_spans ~ question + passage	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f5554642dc0>)
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-drop	data: H:drop	eqn: classify_spans: answer_spans ~ question + passage	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f7b22dd1a80>)

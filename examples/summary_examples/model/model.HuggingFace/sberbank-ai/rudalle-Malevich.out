@@ -1,9 +1,0 @@
-model: sberbank-ai/rudalle-Malevich	model: sberbank-ai/rudalle-Malevich	downloads: 0	likes: 19	task: text-to-image
-***ERROR***
-model: sberbank-ai/rudalle-Malevich
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError('sberbank-ai/rudalle-Malevich does not appear to have a file named config.json.'), <traceback object at 0x7f91f5acae80>)
