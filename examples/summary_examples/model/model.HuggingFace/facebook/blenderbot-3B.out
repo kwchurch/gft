@@ -1,2 +1,2 @@
-model: facebook/blenderbot-3B	model: facebook/blenderbot-3B	downloads: 33273	likes: 15	task: conversational
+model: facebook/blenderbot-3B	model: facebook/blenderbot-3B	downloads: 30684	likes: 15	task: conversational
 model: facebook/blenderbot-3B	labels: LABEL_0, LABEL_1, LABEL_2

@@ -1,12 +1,12 @@
-# found: 1080 matches; truncating to 10
+# found: 1090 matches; truncating to 10
 task: feature-extraction --> 10 models
-task: feature-extraction	model: openai/clip-vit-base-patch32	downloads: 889060	likes: 19	task: feature-extraction
-task: feature-extraction	model: microsoft/codebert-base	downloads: 788667	likes: 9	task: feature-extraction
-task: feature-extraction	model: monsoon-nlp/hindi-bert	downloads: 683131	likes: 4	task: feature-extraction
-task: feature-extraction	model: facebook/bart-base	downloads: 641662	likes: 7	task: feature-extraction
-task: feature-extraction	model: DeepPavlov/rubert-base-cased-conversational	downloads: 614703	likes: 2	task: feature-extraction
-task: feature-extraction	model: monologg/kobert	downloads: 488101	likes: 4	task: feature-extraction
-task: feature-extraction	model: DeepPavlov/rubert-base-cased	downloads: 454261	likes: 12	task: feature-extraction
-task: feature-extraction	model: sentence-transformers/distilbert-base-nli-mean-tokens	downloads: 380814	likes: 0	task: feature-extraction
-task: feature-extraction	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 299228	likes: 5	task: feature-extraction
-task: feature-extraction	model: facebook/dpr-question_encoder-single-nq-base	downloads: 283620	likes: 1	task: feature-extraction
+task: feature-extraction	model: openai/clip-vit-base-patch32	downloads: 915176	likes: 22	task: feature-extraction
+task: feature-extraction	model: DeepPavlov/rubert-base-cased-conversational	downloads: 835350	likes: 2	task: feature-extraction
+task: feature-extraction	model: microsoft/codebert-base	downloads: 783173	likes: 9	task: feature-extraction
+task: feature-extraction	model: monsoon-nlp/hindi-bert	downloads: 580133	likes: 4	task: feature-extraction
+task: feature-extraction	model: facebook/bart-base	downloads: 517373	likes: 9	task: feature-extraction
+task: feature-extraction	model: DeepPavlov/rubert-base-cased	downloads: 383389	likes: 12	task: feature-extraction
+task: feature-extraction	model: sentence-transformers/distilbert-base-nli-mean-tokens	downloads: 381623	likes: 0	task: feature-extraction
+task: feature-extraction	model: monologg/kobert	downloads: 341191	likes: 4	task: feature-extraction
+task: feature-extraction	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 324077	likes: 5	task: feature-extraction
+task: feature-extraction	model: facebook/dpr-question_encoder-single-nq-base	downloads: 254962	likes: 1	task: feature-extraction

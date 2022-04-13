@@ -1,26 +1,27 @@
-dataset: squad_v2	dataset: squad_v2	downloads: 35731	likes: 3	PWC: https://paperswithcode.com/dataset/squad
+hostname = asimov-136.svail.baidu.com
+dataset: squad_v2	dataset: squad_v2	downloads: 32776	likes: 3	PWC: https://paperswithcode.com/dataset/squad
 dataset: squad_v2,squad_v2	splits: train: 130319 rows, val: 11873 rows
 dataset: squad_v2,squad_v2	split: train	columns: id, title, context, question, answers
 dataset: squad_v2 --> 10 models
-dataset: squad_v2	model: deepset/roberta-base-squad2	downloads: 1687596	likes: 44	task: question-answering
-dataset: squad_v2	model: deepset/minilm-uncased-squad2	downloads: 63089	likes: 7	task: question-answering
-dataset: squad_v2	model: mrm8488/t5-small-finetuned-squadv2	downloads: 26784	likes: 1	task: text2text-generation
-dataset: squad_v2	model: deepset/electra-base-squad2	downloads: 16224	likes: 6	task: question-answering
-dataset: squad_v2	model: deepset/xlm-roberta-large-squad2	downloads: 15468	likes: 13	task: question-answering
-dataset: squad_v2	model: nlpconnect/roberta-base-squad2-nq	downloads: 13802	likes: 1	task: question-answering
-dataset: squad_v2	model: mrm8488/longformer-base-4096-finetuned-squadv2	downloads: 6296	likes: 3	task: question-answering
-dataset: squad_v2	model: deepset/xlm-roberta-base-squad2	downloads: 6044	likes: 7	task: question-answering
-dataset: squad_v2	model: deepset/tinyroberta-squad2	downloads: 2634	likes: 1	task: question-answering
-dataset: squad_v2	model: deepset/roberta-base-squad2-distilled	downloads: 1700	likes: 0	task: question-answering
-# found: 11548 matches; truncating to 10
+dataset: squad_v2	model: deepset/roberta-base-squad2	downloads: 1834094	likes: 49	task: question-answering
+dataset: squad_v2	model: deepset/minilm-uncased-squad2	downloads: 60148	likes: 7	task: question-answering
+dataset: squad_v2	model: mrm8488/t5-small-finetuned-squadv2	downloads: 27314	likes: 1	task: text2text-generation
+dataset: squad_v2	model: deepset/electra-base-squad2	downloads: 15729	likes: 6	task: question-answering
+dataset: squad_v2	model: deepset/xlm-roberta-large-squad2	downloads: 15064	likes: 13	task: question-answering
+dataset: squad_v2	model: nlpconnect/roberta-base-squad2-nq	downloads: 13812	likes: 1	task: question-answering
+dataset: squad_v2	model: deepset/xlm-roberta-base-squad2	downloads: 6267	likes: 7	task: question-answering
+dataset: squad_v2	model: mrm8488/longformer-base-4096-finetuned-squadv2	downloads: 6053	likes: 3	task: question-answering
+dataset: squad_v2	model: deepset/tinyroberta-squad2	downloads: 3262	likes: 1	task: question-answering
+dataset: squad_v2	model: deepset/roberta-base-squad2-distilled	downloads: 2262	likes: 0	task: question-answering
+# found: 12313 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
-task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
-task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
-task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
+task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
+task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None

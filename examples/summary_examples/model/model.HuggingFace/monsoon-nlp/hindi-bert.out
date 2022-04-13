@@ -1,2 +1,2 @@
-model: monsoon-nlp/hindi-bert	model: monsoon-nlp/hindi-bert	downloads: 683131	likes: 4	task: feature-extraction
+model: monsoon-nlp/hindi-bert	model: monsoon-nlp/hindi-bert	downloads: 580133	likes: 4	task: feature-extraction
 model: monsoon-nlp/hindi-bert	labels: LABEL_0, LABEL_1

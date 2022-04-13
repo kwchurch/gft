@@ -1,12 +1,12 @@
-# found: 1167 matches; truncating to 10
+# found: 1176 matches; truncating to 10
 task: conversational --> 10 models
-task: conversational	model: microsoft/DialoGPT-small	downloads: 361808	likes: 6	task: conversational
-task: conversational	model: microsoft/DialoGPT-medium	downloads: 179625	likes: 15	task: conversational
-task: conversational	model: facebook/blenderbot_small-90M	downloads: 69422	likes: 9	task: conversational
-task: conversational	model: facebook/blenderbot-400M-distill	downloads: 64906	likes: 21	task: conversational
-task: conversational	model: microsoft/DialoGPT-large	downloads: 41387	likes: 19	task: conversational
-task: conversational	model: facebook/blenderbot-3B	downloads: 33273	likes: 15	task: conversational
-task: conversational	model: deepparag/Aeona	downloads: 17770	likes: 3	task: conversational
-task: conversational	model: r3dhummingbird/DialoGPT-medium-joshua	downloads: 17304	likes: 6	task: conversational
-task: conversational	model: HansAnonymous/DialoGPT-small-shrek	downloads: 17208	likes: 0	task: conversational
-task: conversational	model: zenham/mskeen_m_e4_16h	downloads: 11689	likes: 0	task: conversational
+task: conversational	model: microsoft/DialoGPT-small	downloads: 389240	likes: 6	task: conversational
+task: conversational	model: microsoft/DialoGPT-medium	downloads: 184905	likes: 15	task: conversational
+task: conversational	model: facebook/blenderbot_small-90M	downloads: 68920	likes: 9	task: conversational
+task: conversational	model: facebook/blenderbot-400M-distill	downloads: 63681	likes: 22	task: conversational
+task: conversational	model: microsoft/DialoGPT-large	downloads: 37176	likes: 19	task: conversational
+task: conversational	model: facebook/blenderbot-3B	downloads: 30684	likes: 15	task: conversational
+task: conversational	model: deepparag/Aeona	downloads: 18763	likes: 3	task: conversational
+task: conversational	model: r3dhummingbird/DialoGPT-medium-joshua	downloads: 15229	likes: 7	task: conversational
+task: conversational	model: HansAnonymous/DialoGPT-small-shrek	downloads: 13793	likes: 0	task: conversational
+task: conversational	model: zenham/wail_m_e4_16h_2k	downloads: 11228	likes: 0	task: conversational

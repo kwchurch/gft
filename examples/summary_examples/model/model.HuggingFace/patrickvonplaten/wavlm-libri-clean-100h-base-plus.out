@@ -1,2 +1,2 @@
-model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	downloads: 2562	likes: 1	task: automatic-speech-recognition
+model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	downloads: 4736	likes: 1	task: automatic-speech-recognition
 model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	labels: LABEL_0, LABEL_1

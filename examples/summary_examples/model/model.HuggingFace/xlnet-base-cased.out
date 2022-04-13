@@ -1,2 +1,2 @@
-model: xlnet-base-cased	model: xlnet-base-cased	downloads: 460778	likes: 3	task: text-generation
+model: xlnet-base-cased	model: xlnet-base-cased	downloads: 449368	likes: 3	task: text-generation
 model: xlnet-base-cased	labels: LABEL_0, LABEL_1

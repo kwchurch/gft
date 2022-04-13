@@ -1,2 +1,2 @@
-model: davanstrien/detr_beyond_words	model: davanstrien/detr_beyond_words	downloads: 97	likes: 0	task: object-detection
+model: davanstrien/detr_beyond_words	model: davanstrien/detr_beyond_words	downloads: 90	likes: 0	task: object-detection
 model: davanstrien/detr_beyond_words	labels: Advertisement, Comics/Cartoon, Editorial Cartoon, Headline, Illustration, Map, Photograph

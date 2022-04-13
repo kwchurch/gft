@@ -1,2 +1,2 @@
-model: deepset/roberta-base-squad2	model: deepset/roberta-base-squad2	downloads: 1687596	likes: 44	task: question-answering
+model: deepset/roberta-base-squad2	model: deepset/roberta-base-squad2	downloads: 1834094	likes: 49	task: question-answering
 model: deepset/roberta-base-squad2	labels: LABEL_0, LABEL_1

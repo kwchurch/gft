@@ -1,2 +1,2 @@
-model: gpt2-medium	model: gpt2-medium	downloads: 191616	likes: 4	task: text-generation
+model: gpt2-medium	model: gpt2-medium	downloads: 190903	likes: 4	task: text-generation
 model: gpt2-medium	labels: LABEL_0, LABEL_1

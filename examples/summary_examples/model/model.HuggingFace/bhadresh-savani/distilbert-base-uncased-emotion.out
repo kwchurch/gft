@@ -1,2 +1,2 @@
-model: bhadresh-savani/distilbert-base-uncased-emotion	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 749987	likes: 21	task: text-classification
+model: bhadresh-savani/distilbert-base-uncased-emotion	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 875241	likes: 21	task: text-classification
 model: bhadresh-savani/distilbert-base-uncased-emotion	labels: anger, fear, joy, love, sadness, surprise

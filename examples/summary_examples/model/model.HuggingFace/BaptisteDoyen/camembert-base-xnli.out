@@ -1,2 +1,2 @@
-model: BaptisteDoyen/camembert-base-xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 238043	likes: 5	task: zero-shot-classification
+model: BaptisteDoyen/camembert-base-xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 232015	likes: 5	task: zero-shot-classification
 model: BaptisteDoyen/camembert-base-xnli	labels: entailment, neutral, contradiction

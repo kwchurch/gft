@@ -1,2 +1,2 @@
-model: M-CLIP/M-BERT-Base-ViT-B	No info from HuggingFace
+model: M-CLIP/M-BERT-Base-ViT-B	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 324077	likes: 5	task: feature-extraction
 model: M-CLIP/M-BERT-Base-ViT-B	labels: LABEL_0, LABEL_1

@@ -1,2 +1,2 @@
-model: j-hartmann/emotion-english-distilroberta-base	model: j-hartmann/emotion-english-distilroberta-base	downloads: 359025	likes: 18	task: text-classification
+model: j-hartmann/emotion-english-distilroberta-base	model: j-hartmann/emotion-english-distilroberta-base	downloads: 388328	likes: 18	task: text-classification
 model: j-hartmann/emotion-english-distilroberta-base	labels: anger, disgust, fear, joy, neutral, sadness, surprise

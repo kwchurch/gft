@@ -1,2 +1,2 @@
-model: EleutherAI/gpt-j-6B	model: EleutherAI/gpt-j-6B	downloads: 173690	likes: 142	task: text-generation
+model: EleutherAI/gpt-j-6B	model: EleutherAI/gpt-j-6B	downloads: 158840	likes: 146	task: text-generation
 model: EleutherAI/gpt-j-6B	labels: LABEL_0, LABEL_1

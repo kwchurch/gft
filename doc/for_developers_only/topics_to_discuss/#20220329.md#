@@ -1,0 +1,65 @@
+# March 29, 2022
+
+The topics toward the end of this list are more open-ended.
+
+<ol>
+<li>I have agreed to give a talk on this on April 6.  I would like to upload this repo to a public github before then.</li>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/tree/master/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp">Results with chnsenticorp</a></li>
+
+<li>Regression testing on datasets: <a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/regression_test.out">here</a>.
+These results are similar to the results above.  Some regression tests failed because of num_classes, and some failed because the documentation did not make it clear enough that the test was inappropriate.
+That said, we found an additional issue with: <i>ernie-gen-large-en-430g</i>.
+<p><b>Recommendation</b>: fix the inconsistent names with <i>ernie-gen-large-en-430g</i>, as we have discussed on infoflow.
+</li>
+
+<li> Regression testing failed for the following:
+<ol>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/data/data.Paddle/fewclue.out">data/data.Paddle/fewclue.out</a>  (See Trouble tickets (below))</li>
+
+
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/data/data.Paddle/glue.out">data/data.Paddle/glue.out</a> (This is a limitation in the testing.)</li>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/model/model.Paddle/ernie-gen-large-en-430g.out">model/model.Paddle/ernie-gen-large-en-430g.out</a> (inconsistent names)</li>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/model/model.Paddle/sshleifer-tiny-distilbert-base-uncase-finetuned-sst-2-english.out">model/model.Paddle/sshleifer-tiny-distilbert-base-uncase-finetuned-sst-2-english.out</a></li>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/model/model.Paddle/blenderbot-3B.out">model/model.Paddle/blenderbot-3B.out</a></li>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/model/model.Paddle/distilbert-base-multilingual-cased.out">model/model.Paddle/distilbert-base-multilingual-cased.out</a></li>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/model/model.Paddle/layoutlmv2-large-uncased.out">model/model.Paddle/layoutlmv2-large-uncased.out</a></li>
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/model/model.Paddle/Langboat/mengzi-bert-base.out">model/model.Paddle/Langboat/mengzi-bert-base.out</a></li>
+
+
+</ol>
+Of the 6 models mentioned above, 3 are in model <a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/gft_internals/paddle_model_zoo.txt">zoo</a>, and 3 are not:
+
+
+
+
+<ul>
+<li>in zoo: 
+blenderbot-3B,
+ernie-gen-large-en-430g,
+layoutlmv2-large-uncased
+</li>
+
+<li>not in zoo: 
+distilbert-base-multilingual-cased
+mengzi-bert-base
+sshleifer-tiny-distilbert-base-uncase-finetuned-sst-2-english
+</li>
+</ul>
+The model zoo was created by printing out all_model_names on line 136 of <a href="https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/auto/modeling.py">https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/auto/modeling.py</a>.  The list of models to test is based on the documentation (<a href="https://github.com/PaddlePaddle/PaddleNLP/blob/develop/paddlenlp/transformers/auto/modeling.py">here</a>).
+
+</li>
+
+<li><a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/examples/summary_examples/data/data.Paddle/trouble_tickets.md">Trouble tickets</a></li>
+
+<li>Attempts to unify paddlenlp.datasets and paddlehub.datasets: see references to flowers dataset in <a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/gft_internals/paddle_dataset_zoo.py">http://gitlab.baidu.com/kennethchurch/gft/blob/master/gft_internals/paddle_dataset_zoo.py</a>.  I tried to generalize that solution to work for esc50, but ran into problems with npz files.  Also, I don't understand how to make download_data work (see line 76 of <a href="http://gitlab.baidu.com/kennethchurch/gft/blob/master/gft_internals/my_datasets.py">http://gitlab.baidu.com/kennethchurch/gft/blob/master/gft_internals/my_datasets.py</a>).</li>
+
+<li>See <a href="../questions.md">questions</a></li>
+
+<li>Longer term planning for datasets: 
+<ol>
+<li>Paddle attempts to create a directory with 300k files when downloading cnn_dailymail.  Why doesn't that work on our cluster?</li>
+<li>HuggingFace is proud of their <a href="https://huggingface.co/docs/datasets/about_arrow">arrow</a> alternative.  That works, but it is kind of a hack.</li>
+<li>Better would be to move the dataloader into a separate process, and use pipes and streaming to hide complexity and improve performance/robustness (and limit the size of local caches)</li>
+</ol>
+
+</ol>

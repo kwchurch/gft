@@ -1,2 +1,2 @@
-model: bert-base-uncased	model: bert-base-uncased	downloads: 16828486	likes: 125	task: fill-mask
+model: bert-base-uncased	model: bert-base-uncased	downloads: 15761585	likes: 128	task: fill-mask
 model: bert-base-uncased	labels: LABEL_0, LABEL_1

@@ -1,26 +1,27 @@
-dataset: conll2003	dataset: conll2003	downloads: 23486	likes: 12	PWC: https://paperswithcode.com/dataset/conll-2003
+hostname = asimov-26.svail.baidu.com
+dataset: conll2003	dataset: conll2003	downloads: 22788	likes: 12	PWC: https://paperswithcode.com/dataset/conll-2003
 dataset: conll2003,conll2003	splits: train: 14042 rows, test: 3454 rows, val: 3251 rows
 dataset: conll2003,conll2003	split: train	columns: id, tokens, pos_tags, chunk_tags, ner_tags
 dataset: conll2003 --> 10 models
-dataset: conll2003	model: dslim/bert-base-NER	downloads: 327715	likes: 39	task: token-classification
-dataset: conll2003	model: Jean-Baptiste/roberta-large-ner-english	downloads: 216965	likes: 2	task: token-classification
-dataset: conll2003	model: flair/ner-english-large	downloads: 93723	likes: 7	task: token-classification
-dataset: conll2003	model: flair/ner-english	downloads: 51890	likes: 4	task: token-classification
-dataset: conll2003	model: flair/ner-english-fast	downloads: 51347	likes: 3	task: token-classification
-dataset: conll2003	model: flair/ner-german-large	downloads: 45157	likes: 3	task: token-classification
-dataset: conll2003	model: flair/ner-german	downloads: 27759	likes: 1	task: token-classification
-dataset: conll2003	model: elastic/distilbert-base-uncased-finetuned-conll03-english	downloads: 24193	likes: 2	task: token-classification
-dataset: conll2003	model: flair/ner-spanish-large	downloads: 6443	likes: 0	task: token-classification
-dataset: conll2003	model: elastic/distilbert-base-cased-finetuned-conll03-english	downloads: 6362	likes: 4	task: token-classification
-# found: 11541 matches; truncating to 10
+dataset: conll2003	model: Jean-Baptiste/roberta-large-ner-english	downloads: 373120	likes: 2	task: token-classification
+dataset: conll2003	model: dslim/bert-base-NER	downloads: 303533	likes: 40	task: token-classification
+dataset: conll2003	model: flair/ner-english-large	downloads: 91412	likes: 7	task: token-classification
+dataset: conll2003	model: flair/ner-english	downloads: 45301	likes: 4	task: token-classification
+dataset: conll2003	model: flair/ner-english-fast	downloads: 45060	likes: 3	task: token-classification
+dataset: conll2003	model: flair/ner-german-large	downloads: 44654	likes: 3	task: token-classification
+dataset: conll2003	model: flair/ner-german	downloads: 18602	likes: 1	task: token-classification
+dataset: conll2003	model: elastic/distilbert-base-uncased-finetuned-conll03-english	downloads: 18420	likes: 3	task: token-classification
+dataset: conll2003	model: flair/ner-spanish-large	downloads: 7880	likes: 0	task: token-classification
+dataset: conll2003	model: elastic/distilbert-base-cased-finetuned-conll03-english	downloads: 5541	likes: 4	task: token-classification
+# found: 12311 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
-task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
-task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
-task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
+task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
+task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None

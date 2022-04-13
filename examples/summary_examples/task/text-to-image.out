@@ -1,9 +1,10 @@
+# found: 11 matches; truncating to 10
 task: text-to-image --> 10 models
-task: text-to-image	model: flax-community/dalle-mini	downloads: 5529	likes: 21	task: text-to-image
-task: text-to-image	model: gsurma/ai_dreamer	downloads: 634	likes: 2	task: text-to-image
-task: text-to-image	model: osanseviero/dalle-mini-fork	downloads: 341	likes: 0	task: text-to-image
-task: text-to-image	model: osanseviero/BigGAN-deep-128	downloads: 56	likes: 6	task: text-to-image
-task: text-to-image	model: apol/dalle-mini	downloads: 24	likes: 1	task: text-to-image
+task: text-to-image	model: flax-community/dalle-mini	downloads: 5583	likes: 23	task: text-to-image
+task: text-to-image	model: gsurma/ai_dreamer	downloads: 758	likes: 2	task: text-to-image
+task: text-to-image	model: osanseviero/dalle-mini-fork	downloads: 453	likes: 0	task: text-to-image
+task: text-to-image	model: osanseviero/BigGAN-deep-128	downloads: 54	likes: 6	task: text-to-image
+task: text-to-image	model: apol/dalle-mini	downloads: 27	likes: 1	task: text-to-image
 task: text-to-image	model: Xibanya/sunset_city	downloads: 0	likes: 0	task: text-to-image
 task: text-to-image	model: sberbank-ai/rudalle-Malevich	downloads: 0	likes: 19	task: text-to-image
 task: text-to-image	model: templates/text-to-image	downloads: 0	likes: 2	task: text-to-image

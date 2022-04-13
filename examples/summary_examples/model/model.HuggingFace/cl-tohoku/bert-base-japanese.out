@@ -1,2 +1,2 @@
-model: cl-tohoku/bert-base-japanese	model: cl-tohoku/bert-base-japanese	downloads: 361497	likes: 2	task: fill-mask
+model: cl-tohoku/bert-base-japanese	model: cl-tohoku/bert-base-japanese	downloads: 384555	likes: 2	task: fill-mask
 model: cl-tohoku/bert-base-japanese	labels: LABEL_0, LABEL_1

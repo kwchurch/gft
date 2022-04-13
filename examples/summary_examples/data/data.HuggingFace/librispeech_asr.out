@@ -1,26 +1,27 @@
-dataset: librispeech_asr	dataset: librispeech_asr	downloads: 13752	likes: 13	PWC: https://paperswithcode.com/dataset/librispeech-1
+hostname = asimov-132.svail.baidu.com
+dataset: librispeech_asr	dataset: librispeech_asr	downloads: 9178	likes: 13	PWC: https://paperswithcode.com/dataset/librispeech-1
 dataset: librispeech_asr,clean	splits: train.100: 28539 rows, train.360: 104014 rows, test: 2620 rows, val: 2703 rows
 dataset: librispeech_asr,other	splits: train.500: 148688 rows, test: 2939 rows, val: 2864 rows
 dataset: librispeech_asr --> 10 models
-dataset: librispeech_asr	model: facebook/wav2vec2-base-960h	downloads: 653769	likes: 30	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-base	downloads: 122067	likes: 9	task: None
-dataset: librispeech_asr	model: facebook/hubert-large-ls960-ft	downloads: 83170	likes: 11	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 45421	likes: 11	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-large-lv60	downloads: 40410	likes: 3	task: None
-dataset: librispeech_asr	model: facebook/wav2vec2-large-960h	downloads: 33952	likes: 3	task: automatic-speech-recognition
-dataset: librispeech_asr	model: ntu-spml/distilhubert	downloads: 23462	likes: 6	task: feature-extraction
-dataset: librispeech_asr	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 10571	likes: 0	task: feature-extraction
-dataset: librispeech_asr	model: facebook/s2t-small-librispeech-asr	downloads: 9250	likes: 6	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-large-960h-lv60	downloads: 4023	likes: 5	task: automatic-speech-recognition
-# found: 11542 matches; truncating to 10
+dataset: librispeech_asr	model: facebook/wav2vec2-base-960h	downloads: 521536	likes: 30	task: automatic-speech-recognition
+dataset: librispeech_asr	model: facebook/wav2vec2-base	downloads: 125770	likes: 9	task: None
+dataset: librispeech_asr	model: facebook/hubert-large-ls960-ft	downloads: 67029	likes: 11	task: automatic-speech-recognition
+dataset: librispeech_asr	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 50946	likes: 11	task: automatic-speech-recognition
+dataset: librispeech_asr	model: facebook/wav2vec2-large-960h	downloads: 31993	likes: 3	task: automatic-speech-recognition
+dataset: librispeech_asr	model: ntu-spml/distilhubert	downloads: 29602	likes: 6	task: feature-extraction
+dataset: librispeech_asr	model: facebook/wav2vec2-large-lv60	downloads: 22164	likes: 3	task: None
+dataset: librispeech_asr	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 13088	likes: 0	task: feature-extraction
+dataset: librispeech_asr	model: facebook/s2t-small-librispeech-asr	downloads: 8676	likes: 6	task: automatic-speech-recognition
+dataset: librispeech_asr	model: facebook/wav2vec2-large-960h-lv60	downloads: 3345	likes: 5	task: automatic-speech-recognition
+# found: 12314 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
-task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
-task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
-task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
+task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
+task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None

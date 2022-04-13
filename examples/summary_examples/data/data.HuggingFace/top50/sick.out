@@ -1,19 +1,20 @@
-dataset: sick	dataset: sick	downloads: 9317	likes: 0	PWC: https://paperswithcode.com/dataset/sick
+hostname = asimov-27.svail.baidu.com
+dataset: sick	dataset: sick	downloads: 4433	likes: 0	PWC: https://paperswithcode.com/dataset/sick
 dataset: sick	splits: train: 4439 rows, test: 4906 rows, val: 495 rows
 dataset: sick	split: train	columns: id, sentence_A, sentence_B, label, relatedness_score, entailment_AB, entailment_BA, sentence_A_original, sentence_B_original, sentence_A_dataset, sentence_B_dataset
 dataset: sick	labels: entailment, neutral, contradiction
 dataset: sick --> 2 models
-dataset: sick	model: AdapterHub/bert-base-uncased-pf-sick	downloads: 24	likes: 0	task: text-classification
-dataset: sick	model: AdapterHub/roberta-base-pf-sick	downloads: 8	likes: 0	task: text-classification
-# found: 11556 matches; truncating to 10
+dataset: sick	model: AdapterHub/bert-base-uncased-pf-sick	downloads: 32	likes: 0	task: text-classification
+dataset: sick	model: AdapterHub/roberta-base-pf-sick	downloads: 6	likes: 0	task: text-classification
+# found: 12311 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
-task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
-task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
-task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
+task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
+task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None

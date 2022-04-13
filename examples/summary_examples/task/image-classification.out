@@ -1,12 +1,12 @@
 ImageClassification	input image and output a class label
 task: ImageClassification --> 10 models
-task: ImageClassification	model: google/vit-base-patch16-224	downloads: 39337	likes: 31	task: image-classification
-task: ImageClassification	model: microsoft/beit-base-patch16-224-pt22k-ft22k	downloads: 15316	likes: 3	task: image-classification
-task: ImageClassification	model: hf-internal-testing/tiny-random-vit	downloads: 9903	likes: 0	task: image-classification
-task: ImageClassification	model: microsoft/beit-base-patch16-224-pt22k	downloads: 4602	likes: 1	task: image-classification
-task: ImageClassification	model: microsoft/beit-base-patch16-224	downloads: 4291	likes: 1	task: image-classification
-task: ImageClassification	model: microsoft/swin-tiny-patch4-window7-224	downloads: 3969	likes: 0	task: image-classification
-task: ImageClassification	model: lysandre/tiny-vit-random	downloads: 3940	likes: 0	task: image-classification
-task: ImageClassification	model: google/vit-base-patch16-384	downloads: 3793	likes: 2	task: image-classification
-task: ImageClassification	model: facebook/deit-base-distilled-patch16-224	downloads: 3512	likes: 3	task: image-classification
-task: ImageClassification	model: facebook/convnext-tiny-224	downloads: 2775	likes: 1	task: image-classification
+task: ImageClassification	model: google/vit-base-patch16-224	downloads: 39095	likes: 32	task: image-classification
+task: ImageClassification	model: microsoft/beit-base-patch16-224	downloads: 17026	likes: 1	task: image-classification
+task: ImageClassification	model: microsoft/beit-base-patch16-224-pt22k-ft22k	downloads: 14792	likes: 3	task: image-classification
+task: ImageClassification	model: hf-internal-testing/tiny-random-vit	downloads: 9572	likes: 0	task: image-classification
+task: ImageClassification	model: google/vit-base-patch32-384	downloads: 8956	likes: 2	task: image-classification
+task: ImageClassification	model: microsoft/swin-tiny-patch4-window7-224	downloads: 4893	likes: 0	task: image-classification
+task: ImageClassification	model: microsoft/beit-base-patch16-224-pt22k	downloads: 4604	likes: 1	task: image-classification
+task: ImageClassification	model: google/vit-base-patch16-384	downloads: 3771	likes: 2	task: image-classification
+task: ImageClassification	model: facebook/deit-base-distilled-patch16-224	downloads: 3765	likes: 3	task: image-classification
+task: ImageClassification	model: facebook/convnext-tiny-224	downloads: 3061	likes: 1	task: image-classification

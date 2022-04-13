@@ -1,2 +1,2 @@
-model: patrickvonplaten/t5-tiny-random	model: patrickvonplaten/t5-tiny-random	downloads: 95157	likes: 0	task: text2text-generation
+model: patrickvonplaten/t5-tiny-random	model: patrickvonplaten/t5-tiny-random	downloads: 88521	likes: 0	task: text2text-generation
 model: patrickvonplaten/t5-tiny-random	labels: LABEL_0, LABEL_1

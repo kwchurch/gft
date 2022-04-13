@@ -1,6 +1,6 @@
 # issues discovered with regression testing (gft_summary on Paddle datasets)
 
-<h1>Ticket 1: 3/25/2022 Unresolved</h2>
+<h1>Ticket 1: 3/25/2022 RESOLVED</h2>
 
 ```sh
 gft_summary --data P:fewclue,cluewsc --do_not_catch_errors
@@ -25,4 +25,3 @@ ls -l /mnt/home/kwc/.paddlenlp/datasets/FewCLUE/*/unlabeled.json
 -rw-r--r-- 1 kwc svail  5757559 May 20  2021 /mnt/home/kwc/.paddlenlp/datasets/FewCLUE/fewclue_ocnli/unlabeled.json
 -rw-r--r-- 1 kwc svail  3133192 May 20  2021 /mnt/home/kwc/.paddlenlp/datasets/FewCLUE/fewclue_tnews/unlabeled.json
 ```
-

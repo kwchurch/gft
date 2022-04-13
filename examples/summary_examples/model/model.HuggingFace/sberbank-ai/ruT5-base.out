@@ -1,2 +1,2 @@
-model: sberbank-ai/ruT5-base	model: sberbank-ai/ruT5-base	downloads: 7800	likes: 2	task: text2text-generation
+model: sberbank-ai/ruT5-base	model: sberbank-ai/ruT5-base	downloads: 7769	likes: 2	task: text2text-generation
 model: sberbank-ai/ruT5-base	labels: LABEL_0, LABEL_1

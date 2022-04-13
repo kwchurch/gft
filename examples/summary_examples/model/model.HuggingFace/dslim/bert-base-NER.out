@@ -1,2 +1,2 @@
-model: dslim/bert-base-NER	model: dslim/bert-base-NER	downloads: 327715	likes: 39	task: token-classification
+model: dslim/bert-base-NER	model: dslim/bert-base-NER	downloads: 303533	likes: 40	task: token-classification
 model: dslim/bert-base-NER	labels: B-LOC, B-MISC, B-ORG, B-PER, I-LOC, I-MISC, I-ORG, I-PER, O

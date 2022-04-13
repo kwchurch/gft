@@ -1,2 +1,2 @@
-model: openai/clip-vit-base-patch32	model: openai/clip-vit-base-patch32	downloads: 889060	likes: 19	task: feature-extraction
+model: openai/clip-vit-base-patch32	model: openai/clip-vit-base-patch32	downloads: 915176	likes: 22	task: feature-extraction
 model: openai/clip-vit-base-patch32	labels: NA

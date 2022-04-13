@@ -1,4 +1,5 @@
-dataset: paws	dataset: paws	downloads: 13109	likes: 3	PWC: https://paperswithcode.com/dataset/paws
+hostname = asimov-104.svail.baidu.com
+dataset: paws	dataset: paws	downloads: 11209	likes: 3	PWC: https://paperswithcode.com/dataset/paws
 dataset: paws,labeled_final	splits: train: 49401 rows, test: 8000 rows, val: 8000 rows
 dataset: paws,labeled_final	split: train	columns: id, sentence1, sentence2, label
 dataset: paws,labeled_final	labels: 0, 1
@@ -9,16 +10,16 @@ dataset: paws,unlabeled_final	splits: train: 645652 rows, val: 10000 rows
 dataset: paws,unlabeled_final	split: train	columns: id, sentence1, sentence2, label
 dataset: paws,unlabeled_final	labels: 0, 1
 dataset: paws --> 1 models
-dataset: paws	model: eugenesiow/bart-paraphrase	downloads: 2296	likes: 2	task: text2text-generation
-# found: 11541 matches; truncating to 10
+dataset: paws	model: eugenesiow/bart-paraphrase	downloads: 2389	likes: 2	task: text2text-generation
+# found: 12312 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 966100	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 661877	likes: 12	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 566673	likes: 7	task: None
-task: None	model: microsoft/deberta-base	downloads: 505183	likes: 5	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 294553	likes: 2	task: None
-task: None	model: dmis-lab/biobert-base-cased-v1.1	downloads: 253650	likes: 7	task: None
-task: None	model: distilbert-base-cased	downloads: 241127	likes: 6	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 200050	likes: 5	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 199058	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 198937	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
+task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
+task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None

@@ -1,2 +1,2 @@
-model: deepset/minilm-uncased-squad2	model: deepset/minilm-uncased-squad2	downloads: 63089	likes: 7	task: question-answering
+model: deepset/minilm-uncased-squad2	model: deepset/minilm-uncased-squad2	downloads: 60148	likes: 7	task: question-answering
 model: deepset/minilm-uncased-squad2	labels: LABEL_0, LABEL_1

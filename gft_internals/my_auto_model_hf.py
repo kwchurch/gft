@@ -265,7 +265,7 @@ def auto_model_for_X(args):
     from gft_internals.my_task import infer_task
     task = infer_task(args)
 
-    # print('task: ' + str(task), file=sys.stderr)
+    print('task: ' + str(task), file=sys.stderr)
     # task_provider,task = parse_task_specification(args)
 
     if task in my_task_to_auto_class:

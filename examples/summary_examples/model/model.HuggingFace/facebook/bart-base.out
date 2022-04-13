@@ -1,2 +1,2 @@
-model: facebook/bart-base	model: facebook/bart-base	downloads: 641662	likes: 7	task: feature-extraction
+model: facebook/bart-base	model: facebook/bart-base	downloads: 517373	likes: 9	task: feature-extraction
 model: facebook/bart-base	labels: LABEL_0, LABEL_1, LABEL_2

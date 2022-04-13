@@ -1,2 +1,2 @@
-model: facebook/mbart-large-50-one-to-many-mmt	model: facebook/mbart-large-50-one-to-many-mmt	downloads: 267000	likes: 6	task: text2text-generation
+model: facebook/mbart-large-50-one-to-many-mmt	model: facebook/mbart-large-50-one-to-many-mmt	downloads: 260297	likes: 6	task: text2text-generation
 model: facebook/mbart-large-50-one-to-many-mmt	labels: LABEL_0, LABEL_1, LABEL_2

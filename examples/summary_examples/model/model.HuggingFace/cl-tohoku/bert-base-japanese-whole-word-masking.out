@@ -1,2 +1,2 @@
-model: cl-tohoku/bert-base-japanese-whole-word-masking	model: cl-tohoku/bert-base-japanese-whole-word-masking	downloads: 691725	likes: 9	task: fill-mask
+model: cl-tohoku/bert-base-japanese-whole-word-masking	model: cl-tohoku/bert-base-japanese-whole-word-masking	downloads: 723590	likes: 9	task: fill-mask
 model: cl-tohoku/bert-base-japanese-whole-word-masking	labels: LABEL_0, LABEL_1

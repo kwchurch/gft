@@ -1,2 +1,2 @@
-model: t5-base	model: t5-base	downloads: 1634488	likes: 36	task: translation
+model: t5-base	model: t5-base	downloads: 1370739	likes: 37	task: translation
 model: t5-base	labels: LABEL_0, LABEL_1

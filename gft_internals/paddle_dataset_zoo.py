@@ -38,7 +38,7 @@ paddle_datasets = [{'name': 'flowers', 'configs': [], 'splits': ['train', 'val']
 
                    {'name': "advertisegen", 'configs': [], 'splits': ['train', 'dev'] },
                    {'name': "bq_corpus", 'configs': [], 'splits': ['train', 'dev', 'test'] },
-                   {'name': "bstc", 'configs': [], 'splits': ['train', 'dev', 'test'] },
+                   {'name': "bstc", 'configs': ['transcription_translation', 'asr'], 'splits': ['train', 'dev'] },
                    {'name': "c3", 'configs': [], 'splits': ['train', 'dev', 'test'] },
                    {'name': "cail2019_scm", 'configs': [],  'splits': ['train', 'dev', 'test'] },
                    {'name': "chnsenticorp", 'configs': [], 'splits': ['train', 'dev', 'test'] },
@@ -54,9 +54,15 @@ paddle_datasets = [{'name': 'flowers', 'configs': [], 'splits': ['train', 'val']
                    {'name': "dureader_qg", 'configs': []  , 'splits': ['train', 'dev'] },
                    {'name': "dureader_robust", 'configs': []  , 'splits': ['train', 'dev', 'test'] },
                    {'name': "dureader_yesno", 'configs': []  , 'splits': ['train', 'dev', 'test'] },
+                   
+                   # some configs have a split for unlabeled and some do not
                    {'name': "fewclue", 
-                    'configs': ['bustm', 'chid', 'iflytek', 'tnews', 'eprstmt', 'ocnli', 'csldcp', 'cluewsc', 'csl']  , 
-                    'splits': ['train_0', 'train_1', 'train_2', 'train_3', 'train_4', 'train_few_all', 'dev_0', 'dev_1', 'dev_2', 'dev_3', 'dev_4', 'dev_few_all', 'unlabeled', 'test', 'test_public'] },
+                    'configs': ['bustm', 'chid', 'iflytek', 'tnews', 'eprstmt', 'ocnli', 'csldcp', 'csl']  , 
+                    'splits': ['train_0', 'train_1', 'train_2', 'train_3', 'train_4', 'train_few_all', 'dev_0', 'dev_1', 'dev_2', 'dev_3', 'dev_4', 'dev_few_all', 'test', 'test_public', 'unlabeled'] },
+                   {'name': "fewclue", 
+                    'configs': ['cluewsc']  , 
+                    'splits': ['train_0', 'train_1', 'train_2', 'train_3', 'train_4', 'train_few_all', 'dev_0', 'dev_1', 'dev_2', 'dev_3', 'dev_4', 'dev_few_all', 'test', 'test_public'] },
+
                    # glue,mnli has non-standard splits
                    {'name': "glue", 'configs': ['cola', 'sst-2', 'sts-b', 'qqp', 'qnli', 'rte', 'wnli', 'mrpc']  , 'splits': ['train', 'dev', 'test'] },
                    {'name': "glue", 'configs': ['mnli']  , 'splits': ['train', 'dev_matched', 'test_matched'] },

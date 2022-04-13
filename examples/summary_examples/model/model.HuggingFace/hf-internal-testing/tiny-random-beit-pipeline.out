@@ -1,2 +1,2 @@
-model: hf-internal-testing/tiny-random-beit-pipeline	model: hf-internal-testing/tiny-random-beit-pipeline	downloads: 4382	likes: 0	task: image-segmentation
+model: hf-internal-testing/tiny-random-beit-pipeline	model: hf-internal-testing/tiny-random-beit-pipeline	downloads: 4226	likes: 0	task: image-segmentation
 model: hf-internal-testing/tiny-random-beit-pipeline	labels: NA

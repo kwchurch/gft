@@ -1,2 +1,2 @@
-/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/mc4.out
-/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/c4.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/model/model.HuggingFace/DeepPavlov/rubert-base-cased.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/model/model.HuggingFace/microsoft/codebert-base.out

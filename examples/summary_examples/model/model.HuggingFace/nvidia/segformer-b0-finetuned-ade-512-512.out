@@ -1,2 +1,2 @@
-model: nvidia/segformer-b0-finetuned-ade-512-512	model: nvidia/segformer-b0-finetuned-ade-512-512	downloads: 888	likes: 1	task: image-segmentation
+model: nvidia/segformer-b0-finetuned-ade-512-512	model: nvidia/segformer-b0-finetuned-ade-512-512	downloads: 1041	likes: 1	task: image-segmentation
 model: nvidia/segformer-b0-finetuned-ade-512-512	labels: NA

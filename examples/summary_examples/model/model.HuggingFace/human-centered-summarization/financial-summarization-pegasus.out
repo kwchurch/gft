@@ -1,2 +1,2 @@
-model: human-centered-summarization/financial-summarization-pegasus	model: human-centered-summarization/financial-summarization-pegasus	downloads: 29820	likes: 16	task: summarization
+model: human-centered-summarization/financial-summarization-pegasus	model: human-centered-summarization/financial-summarization-pegasus	downloads: 27033	likes: 16	task: summarization
 model: human-centered-summarization/financial-summarization-pegasus	labels: LABEL_0, LABEL_1, LABEL_2

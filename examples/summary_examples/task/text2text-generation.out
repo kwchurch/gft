@@ -1,12 +1,12 @@
-# found: 2792 matches; truncating to 10
+# found: 2866 matches; truncating to 10
 task: text2text-generation --> 10 models
-task: text2text-generation	model: mrm8488/t5-base-finetuned-question-generation-ap	downloads: 566861	likes: 11	task: text2text-generation
-task: text2text-generation	model: facebook/m2m100_418M	downloads: 364208	likes: 13	task: text2text-generation
-task: text2text-generation	model: facebook/mbart-large-50-one-to-many-mmt	downloads: 267000	likes: 6	task: text2text-generation
-task: text2text-generation	model: tuner007/pegasus_paraphrase	downloads: 175997	likes: 39	task: text2text-generation
-task: text2text-generation	model: allenai/led-base-16384	downloads: 98843	likes: 3	task: text2text-generation
-task: text2text-generation	model: google/mt5-base	downloads: 95840	likes: 13	task: text2text-generation
-task: text2text-generation	model: patrickvonplaten/t5-tiny-random	downloads: 95157	likes: 0	task: text2text-generation
-task: text2text-generation	model: valhalla/t5-small-qa-qg-hl	downloads: 74013	likes: 1	task: text2text-generation
-task: text2text-generation	model: prithivida/grammar_error_correcter_v1	downloads: 66854	likes: 10	task: text2text-generation
-task: text2text-generation	model: prithivida/parrot_paraphraser_on_T5	downloads: 66120	likes: 13	task: text2text-generation
+task: text2text-generation	model: mrm8488/t5-base-finetuned-question-generation-ap	downloads: 662463	likes: 13	task: text2text-generation
+task: text2text-generation	model: facebook/m2m100_418M	downloads: 346235	likes: 13	task: text2text-generation
+task: text2text-generation	model: facebook/mbart-large-50-one-to-many-mmt	downloads: 260297	likes: 6	task: text2text-generation
+task: text2text-generation	model: tuner007/pegasus_paraphrase	downloads: 158575	likes: 40	task: text2text-generation
+task: text2text-generation	model: allenai/led-base-16384	downloads: 100434	likes: 3	task: text2text-generation
+task: text2text-generation	model: google/mt5-base	downloads: 94697	likes: 13	task: text2text-generation
+task: text2text-generation	model: patrickvonplaten/t5-tiny-random	downloads: 88521	likes: 0	task: text2text-generation
+task: text2text-generation	model: valhalla/t5-small-qa-qg-hl	downloads: 74791	likes: 1	task: text2text-generation
+task: text2text-generation	model: prithivida/parrot_paraphraser_on_T5	downloads: 68716	likes: 15	task: text2text-generation
+task: text2text-generation	model: prithivida/grammar_error_correcter_v1	downloads: 68222	likes: 10	task: text2text-generation

@@ -1,12 +1,12 @@
 Fill_Mask	input text with a single mask (<mask>) and output fillers for <mask> with scores (probabilities)
 task: Fill_Mask --> 10 models
-task: Fill_Mask	model: bert-base-uncased	downloads: 16828486	likes: 125	task: fill-mask
-task: Fill_Mask	model: roberta-base	downloads: 5074971	likes: 20	task: fill-mask
-task: Fill_Mask	model: distilbert-base-uncased	downloads: 4878716	likes: 47	task: fill-mask
-task: Fill_Mask	model: roberta-large	downloads: 3755594	likes: 28	task: fill-mask
-task: Fill_Mask	model: distilroberta-base	downloads: 2984508	likes: 13	task: fill-mask
-task: Fill_Mask	model: bert-base-cased	downloads: 2768316	likes: 16	task: fill-mask
-task: Fill_Mask	model: bert-base-chinese	downloads: 2475614	likes: 75	task: fill-mask
-task: Fill_Mask	model: xlm-roberta-base	downloads: 2472555	likes: 24	task: fill-mask
-task: Fill_Mask	model: bert-base-multilingual-cased	downloads: 1711099	likes: 25	task: fill-mask
-task: Fill_Mask	model: camembert-base	downloads: 1561867	likes: 14	task: fill-mask
+task: Fill_Mask	model: bert-base-uncased	downloads: 15761585	likes: 128	task: fill-mask
+task: Fill_Mask	model: roberta-base	downloads: 5539557	likes: 21	task: fill-mask
+task: Fill_Mask	model: distilbert-base-uncased	downloads: 4928239	likes: 50	task: fill-mask
+task: Fill_Mask	model: roberta-large	downloads: 3877292	likes: 29	task: fill-mask
+task: Fill_Mask	model: distilroberta-base	downloads: 3009966	likes: 14	task: fill-mask
+task: Fill_Mask	model: xlm-roberta-base	downloads: 2506588	likes: 25	task: fill-mask
+task: Fill_Mask	model: bert-base-chinese	downloads: 2463533	likes: 79	task: fill-mask
+task: Fill_Mask	model: bert-base-cased	downloads: 2462146	likes: 16	task: fill-mask
+task: Fill_Mask	model: bert-base-multilingual-cased	downloads: 1653369	likes: 26	task: fill-mask
+task: Fill_Mask	model: albert-base-v2	downloads: 1404747	likes: 7	task: fill-mask

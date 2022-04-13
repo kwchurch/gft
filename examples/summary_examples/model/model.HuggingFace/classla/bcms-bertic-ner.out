@@ -1,2 +1,2 @@
-model: classla/bcms-bertic-ner	model: classla/bcms-bertic-ner	downloads: 24488	likes: 2	task: token-classification
+model: classla/bcms-bertic-ner	model: classla/bcms-bertic-ner	downloads: 29650	likes: 2	task: token-classification
 model: classla/bcms-bertic-ner	labels: B-LOC, B-MISC, B-ORG, B-PER, I-LOC, I-MISC, I-ORG, I-PER, O

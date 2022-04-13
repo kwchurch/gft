@@ -1,2 +1,2 @@
-model: deepset/bert-large-uncased-whole-word-masking-squad2	model: deepset/bert-large-uncased-whole-word-masking-squad2	downloads: 223494	likes: 5	task: question-answering
+model: deepset/bert-large-uncased-whole-word-masking-squad2	model: deepset/bert-large-uncased-whole-word-masking-squad2	downloads: 223187	likes: 5	task: question-answering
 model: deepset/bert-large-uncased-whole-word-masking-squad2	labels: LABEL_0, LABEL_1

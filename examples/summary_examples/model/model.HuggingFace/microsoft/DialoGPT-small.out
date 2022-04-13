@@ -1,2 +1,2 @@
-model: microsoft/DialoGPT-small	No info from HuggingFace
+model: microsoft/DialoGPT-small	model: microsoft/DialoGPT-small	downloads: 389240	likes: 6	task: conversational
 model: microsoft/DialoGPT-small	labels: LABEL_0, LABEL_1

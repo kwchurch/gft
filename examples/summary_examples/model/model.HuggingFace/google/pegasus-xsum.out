@@ -1,2 +1,2 @@
-model: google/pegasus-xsum	model: google/pegasus-xsum	downloads: 1302741	likes: 23	task: summarization
+model: google/pegasus-xsum	model: google/pegasus-xsum	downloads: 1277533	likes: 25	task: summarization
 model: google/pegasus-xsum	labels: LABEL_0, LABEL_1, LABEL_2

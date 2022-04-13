@@ -1,2 +1,2 @@
-model: sachin/vit2distilgpt2	model: sachin/vit2distilgpt2	downloads: 438	likes: 2	task: image-to-text
+model: sachin/vit2distilgpt2	model: sachin/vit2distilgpt2	downloads: 388	likes: 3	task: image-to-text
 model: sachin/vit2distilgpt2	labels: LABEL_0, LABEL_1

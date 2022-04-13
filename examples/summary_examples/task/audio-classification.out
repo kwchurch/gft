@@ -1,12 +1,12 @@
-# found: 84 matches; truncating to 10
+# found: 88 matches; truncating to 10
 task: audio-classification --> 10 models
-task: audio-classification	model: TalTechNLP/voxlingua107-epaca-tdnn	downloads: 15814	likes: 8	task: audio-classification
-task: audio-classification	model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition	downloads: 12670	likes: 9	task: audio-classification
-task: audio-classification	model: hf-internal-testing/tiny-random-unispeech-sat	downloads: 7193	likes: 0	task: audio-classification
-task: audio-classification	model: hf-internal-testing/tiny-random-unispeech	downloads: 4716	likes: 0	task: audio-classification
-task: audio-classification	model: anton-l/wav2vec2-random-tiny-classifier	downloads: 3202	likes: 1	task: audio-classification
-task: audio-classification	model: superb/hubert-large-superb-er	downloads: 2322	likes: 2	task: audio-classification
-task: audio-classification	model: anton-l/wav2vec2-base-ft-keyword-spotting	downloads: 2216	likes: 1	task: audio-classification
-task: audio-classification	model: speechbrain/emotion-recognition-wav2vec2-IEMOCAP	downloads: 2130	likes: 4	task: audio-classification
-task: audio-classification	model: speechbrain/spkrec-xvect-voxceleb	downloads: 1698	likes: 1	task: audio-classification
-task: audio-classification	model: speechbrain/lang-id-commonlanguage_ecapa	downloads: 1404	likes: 8	task: audio-classification
+task: audio-classification	model: TalTechNLP/voxlingua107-epaca-tdnn	downloads: 16110	likes: 8	task: audio-classification
+task: audio-classification	model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition	downloads: 12754	likes: 10	task: audio-classification
+task: audio-classification	model: hf-internal-testing/tiny-random-unispeech-sat	downloads: 6913	likes: 0	task: audio-classification
+task: audio-classification	model: hf-internal-testing/tiny-random-unispeech	downloads: 4531	likes: 0	task: audio-classification
+task: audio-classification	model: anton-l/wav2vec2-random-tiny-classifier	downloads: 3005	likes: 1	task: audio-classification
+task: audio-classification	model: speechbrain/emotion-recognition-wav2vec2-IEMOCAP	downloads: 2166	likes: 4	task: audio-classification
+task: audio-classification	model: anton-l/wav2vec2-base-ft-keyword-spotting	downloads: 1840	likes: 1	task: audio-classification
+task: audio-classification	model: speechbrain/spkrec-xvect-voxceleb	downloads: 1576	likes: 1	task: audio-classification
+task: audio-classification	model: superb/hubert-large-superb-er	downloads: 1527	likes: 2	task: audio-classification
+task: audio-classification	model: speechbrain/lang-id-commonlanguage_ecapa	downloads: 1392	likes: 8	task: audio-classification

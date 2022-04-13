@@ -1,12 +1,12 @@
-# found: 1776 matches; truncating to 10
+# found: 1822 matches; truncating to 10
 task: token-classification --> 10 models
-task: token-classification	model: xlm-roberta-large-finetuned-conll03-english	downloads: 4541479	likes: 13	task: token-classification
-task: token-classification	model: dbmdz/bert-large-cased-finetuned-conll03-english	downloads: 423196	likes: 4	task: token-classification
-task: token-classification	model: dslim/bert-base-NER	downloads: 327715	likes: 39	task: token-classification
-task: token-classification	model: Jean-Baptiste/roberta-large-ner-english	downloads: 216965	likes: 2	task: token-classification
-task: token-classification	model: dslim/bert-large-NER	downloads: 154718	likes: 4	task: token-classification
-task: token-classification	model: ckiplab/bert-base-chinese-ner	downloads: 123780	likes: 3	task: token-classification
-task: token-classification	model: flair/ner-english-large	downloads: 93723	likes: 7	task: token-classification
-task: token-classification	model: felflare/bert-restore-punctuation	downloads: 73097	likes: 18	task: token-classification
-task: token-classification	model: cahya/xlm-roberta-large-indonesian-NER	downloads: 64001	likes: 0	task: token-classification
-task: token-classification	model: flair/ner-english	downloads: 51890	likes: 4	task: token-classification
+task: token-classification	model: xlm-roberta-large-finetuned-conll03-english	downloads: 4525937	likes: 13	task: token-classification
+task: token-classification	model: dbmdz/bert-large-cased-finetuned-conll03-english	downloads: 421310	likes: 4	task: token-classification
+task: token-classification	model: Jean-Baptiste/roberta-large-ner-english	downloads: 373120	likes: 2	task: token-classification
+task: token-classification	model: dslim/bert-base-NER	downloads: 303533	likes: 40	task: token-classification
+task: token-classification	model: dslim/bert-large-NER	downloads: 149753	likes: 4	task: token-classification
+task: token-classification	model: ckiplab/bert-base-chinese-ner	downloads: 119878	likes: 3	task: token-classification
+task: token-classification	model: flair/ner-english-large	downloads: 91412	likes: 7	task: token-classification
+task: token-classification	model: felflare/bert-restore-punctuation	downloads: 71507	likes: 19	task: token-classification
+task: token-classification	model: cahya/xlm-roberta-large-indonesian-NER	downloads: 62110	likes: 0	task: token-classification
+task: token-classification	model: flair/ner-english	downloads: 45301	likes: 4	task: token-classification

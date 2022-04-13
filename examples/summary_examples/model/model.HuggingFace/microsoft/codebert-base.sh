@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model microsoft/codebert-base
+gft_summary --model microsoft/codebert-base --task H:default

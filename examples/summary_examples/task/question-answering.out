@@ -1,12 +1,12 @@
 QuestionAnswering	input question and context, and output an answer (a substring of the context); also known as classify_spans, question-answering
 task: QuestionAnswering --> 10 models
-task: QuestionAnswering	model: deepset/roberta-base-squad2	downloads: 1687596	likes: 44	task: question-answering
-task: QuestionAnswering	model: bert-large-uncased-whole-word-masking-finetuned-squad	downloads: 395487	likes: 20	task: question-answering
-task: QuestionAnswering	model: distilbert-base-cased-distilled-squad	downloads: 304813	likes: 11	task: question-answering
-task: QuestionAnswering	model: deepset/bert-large-uncased-whole-word-masking-squad2	downloads: 223494	likes: 5	task: question-answering
-task: QuestionAnswering	model: distilbert-base-uncased-distilled-squad	downloads: 163142	likes: 5	task: question-answering
-task: QuestionAnswering	model: rsvp-ai/bertserini-bert-base-squad	downloads: 97908	likes: 0	task: question-answering
-task: QuestionAnswering	model: deepset/minilm-uncased-squad2	downloads: 63089	likes: 7	task: question-answering
-task: QuestionAnswering	model: deepset/bert-base-cased-squad2	downloads: 62472	likes: 7	task: question-answering
-task: QuestionAnswering	model: dmis-lab/biobert-large-cased-v1.1-squad	downloads: 60935	likes: 2	task: question-answering
-task: QuestionAnswering	model: mrm8488/bert-small-finetuned-squadv2	downloads: 46455	likes: 0	task: question-answering
+task: QuestionAnswering	model: deepset/roberta-base-squad2	downloads: 1834094	likes: 49	task: question-answering
+task: QuestionAnswering	model: bert-large-uncased-whole-word-masking-finetuned-squad	downloads: 397423	likes: 20	task: question-answering
+task: QuestionAnswering	model: distilbert-base-cased-distilled-squad	downloads: 292088	likes: 11	task: question-answering
+task: QuestionAnswering	model: deepset/bert-large-uncased-whole-word-masking-squad2	downloads: 223187	likes: 5	task: question-answering
+task: QuestionAnswering	model: distilbert-base-uncased-distilled-squad	downloads: 133847	likes: 6	task: question-answering
+task: QuestionAnswering	model: rsvp-ai/bertserini-bert-base-squad	downloads: 98867	likes: 0	task: question-answering
+task: QuestionAnswering	model: deepset/bert-base-cased-squad2	downloads: 62089	likes: 7	task: question-answering
+task: QuestionAnswering	model: deepset/minilm-uncased-squad2	downloads: 60148	likes: 7	task: question-answering
+task: QuestionAnswering	model: mrm8488/bert-small-finetuned-squadv2	downloads: 41854	likes: 0	task: question-answering
+task: QuestionAnswering	model: bert-large-cased-whole-word-masking-finetuned-squad	downloads: 40705	likes: 0	task: question-answering

@@ -1,2 +1,2 @@
-model: facebook/hubert-large-ls960-ft	model: facebook/hubert-large-ls960-ft	downloads: 83170	likes: 11	task: automatic-speech-recognition
+model: facebook/hubert-large-ls960-ft	model: facebook/hubert-large-ls960-ft	downloads: 67029	likes: 11	task: automatic-speech-recognition
 model: facebook/hubert-large-ls960-ft	labels: LABEL_0, LABEL_1

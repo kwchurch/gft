@@ -1,2 +1,2 @@
-model: anton-l/wav2vec2-base-ft-keyword-spotting	model: anton-l/wav2vec2-base-ft-keyword-spotting	downloads: 2216	likes: 1	task: audio-classification
+model: anton-l/wav2vec2-base-ft-keyword-spotting	model: anton-l/wav2vec2-base-ft-keyword-spotting	downloads: 1840	likes: 1	task: audio-classification
 model: anton-l/wav2vec2-base-ft-keyword-spotting	labels: _silence_, _unknown_, down, go, left, no, off, on, right, stop, up, yes

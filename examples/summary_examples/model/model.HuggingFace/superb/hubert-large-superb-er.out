@@ -1,2 +1,2 @@
-model: superb/hubert-large-superb-er	model: superb/hubert-large-superb-er	downloads: 2322	likes: 2	task: audio-classification
+model: superb/hubert-large-superb-er	model: superb/hubert-large-superb-er	downloads: 1527	likes: 2	task: audio-classification
 model: superb/hubert-large-superb-er	labels: ang, hap, neu, sad

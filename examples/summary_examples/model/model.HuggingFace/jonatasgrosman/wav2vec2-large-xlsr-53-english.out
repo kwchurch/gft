@@ -1,2 +1,2 @@
-model: jonatasgrosman/wav2vec2-large-xlsr-53-english	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 19596	likes: 8	task: automatic-speech-recognition
+model: jonatasgrosman/wav2vec2-large-xlsr-53-english	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 18732	likes: 8	task: automatic-speech-recognition
 model: jonatasgrosman/wav2vec2-large-xlsr-53-english	labels: LABEL_0, LABEL_1

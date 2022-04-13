@@ -1,2 +1,2 @@
-model: tuner007/pegasus_paraphrase	model: tuner007/pegasus_paraphrase	downloads: 175997	likes: 39	task: text2text-generation
+model: tuner007/pegasus_paraphrase	model: tuner007/pegasus_paraphrase	downloads: 158575	likes: 40	task: text2text-generation
 model: tuner007/pegasus_paraphrase	labels: LABEL_0, LABEL_1, LABEL_2
