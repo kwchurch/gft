@@ -236,3 +236,116 @@ dataset: oscar,unshuffled_deduplicated_pa	splits: train: 87235 rows
 dataset: oscar,unshuffled_deduplicated_pa	split: train	columns: id, text
 dataset: oscar,unshuffled_deduplicated_pam	splits: train: 1 rows
 dataset: oscar,unshuffled_deduplicated_pam	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_pl	splits: train: 20682611 rows
+dataset: oscar,unshuffled_deduplicated_pl	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_pms	splits: train: 2859 rows
+dataset: oscar,unshuffled_deduplicated_pms	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_pnb	splits: train: 3463 rows
+dataset: oscar,unshuffled_deduplicated_pnb	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ps	splits: train: 67921 rows
+dataset: oscar,unshuffled_deduplicated_ps	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_pt	splits: train: 26920397 rows
+dataset: oscar,unshuffled_deduplicated_pt	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_qu	splits: train: 411 rows
+dataset: oscar,unshuffled_deduplicated_qu	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_rm	splits: train: 34 rows
+dataset: oscar,unshuffled_deduplicated_rm	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ro	splits: train: 5044757 rows
+dataset: oscar,unshuffled_deduplicated_ro	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ru	splits: train: 115954598 rows
+dataset: oscar,unshuffled_deduplicated_ru	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sa	splits: train: 7121 rows
+dataset: oscar,unshuffled_deduplicated_sa	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sah	splits: train: 8555 rows
+dataset: oscar,unshuffled_deduplicated_sah	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_scn	splits: train: 17 rows
+dataset: oscar,unshuffled_deduplicated_scn	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sd	splits: train: 33925 rows
+dataset: oscar,unshuffled_deduplicated_sd	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sh	splits: train: 17610 rows
+dataset: oscar,unshuffled_deduplicated_sh	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_si	splits: train: 120684 rows
+dataset: oscar,unshuffled_deduplicated_si	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sk	splits: train: 2820821 rows
+dataset: oscar,unshuffled_deduplicated_sk	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sl	splits: train: 886223 rows
+dataset: oscar,unshuffled_deduplicated_sl	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_so	splits: train: 42 rows
+dataset: oscar,unshuffled_deduplicated_so	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sq	splits: train: 461598 rows
+dataset: oscar,unshuffled_deduplicated_sq	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sr	splits: train: 645747 rows
+dataset: oscar,unshuffled_deduplicated_sr	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_su	splits: train: 511 rows
+dataset: oscar,unshuffled_deduplicated_su	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sv	splits: train: 11014487 rows
+dataset: oscar,unshuffled_deduplicated_sv	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_sw	splits: train: 24803 rows
+dataset: oscar,unshuffled_deduplicated_sw	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ta	splits: train: 833101 rows
+dataset: oscar,unshuffled_deduplicated_ta	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_te	splits: train: 312644 rows
+dataset: oscar,unshuffled_deduplicated_te	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_tg	splits: train: 56259 rows
+dataset: oscar,unshuffled_deduplicated_tg	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_th	splits: train: 3749826 rows
+dataset: oscar,unshuffled_deduplicated_th	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_tk	splits: train: 4694 rows
+dataset: oscar,unshuffled_deduplicated_tk	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_tl	splits: train: 294132 rows
+dataset: oscar,unshuffled_deduplicated_tl	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_tr	splits: train: 11596446 rows
+dataset: oscar,unshuffled_deduplicated_tr	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_tt	splits: train: 82738 rows
+dataset: oscar,unshuffled_deduplicated_tt	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_tyv	splits: train: 24 rows
+dataset: oscar,unshuffled_deduplicated_tyv	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ug	splits: train: 15503 rows
+dataset: oscar,unshuffled_deduplicated_ug	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_uk	splits: train: 7782375 rows
+dataset: oscar,unshuffled_deduplicated_uk	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_ur	splits: train: 428674 rows
+dataset: oscar,unshuffled_deduplicated_ur	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_uz	splits: train: 15074 rows
+dataset: oscar,unshuffled_deduplicated_uz	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_vec	splits: train: 64 rows
+dataset: oscar,unshuffled_deduplicated_vec	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_vi	splits: train: 9897709 rows
+dataset: oscar,unshuffled_deduplicated_vi	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_vo	splits: train: 3317 rows
+dataset: oscar,unshuffled_deduplicated_vo	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_wa	splits: train: 677 rows
+dataset: oscar,unshuffled_deduplicated_wa	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_war	splits: train: 9161 rows
+dataset: oscar,unshuffled_deduplicated_war	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_wuu	splits: train: 64 rows
+dataset: oscar,unshuffled_deduplicated_wuu	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_xal	splits: train: 36 rows
+dataset: oscar,unshuffled_deduplicated_xal	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_xmf	splits: train: 2418 rows
+dataset: oscar,unshuffled_deduplicated_xmf	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_yi	splits: train: 32919 rows
+dataset: oscar,unshuffled_deduplicated_yi	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_yo	splits: train: 49 rows
+dataset: oscar,unshuffled_deduplicated_yo	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_yue	splits: train: 7 rows
+dataset: oscar,unshuffled_deduplicated_yue	split: train	columns: id, text
+dataset: oscar,unshuffled_deduplicated_zh	splits: train: 41708901 rows
+dataset: oscar,unshuffled_deduplicated_zh	split: train	columns: id, text
+dataset: oscar,unshuffled_original_af	splits: train: 201117 rows
+dataset: oscar,unshuffled_original_af	split: train	columns: id, text
+dataset: oscar,unshuffled_original_als	splits: train: 7324 rows
+dataset: oscar,unshuffled_original_als	split: train	columns: id, text
+dataset: oscar,unshuffled_original_am	splits: train: 83663 rows
+dataset: oscar,unshuffled_original_am	split: train	columns: id, text
+dataset: oscar,unshuffled_original_an	splits: train: 2449 rows
+dataset: oscar,unshuffled_original_an	split: train	columns: id, text
+Downloading and preparing dataset oscar/unshuffled_original_ar (download: 20.71 GiB, generated: 81.90 GiB, post-processed: Unknown size, total: 102.60 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/oscar/unshuffled_original_ar/1.0.0/84838bd49d2295f62008383b05620571535451d84545037bb94d6f3501651df2...
+***ERROR***
+model: None
+data: H:oscar
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'datasets.utils.info_utils.NonMatchingSplitsSizesError'>, NonMatchingSplitsSizesError("[{'expected': SplitInfo(name='train', num_bytes=87935768938, num_examples=16365602, dataset_name='oscar'), 'recorded': SplitInfo(name='train', num_bytes=87919141306, num_examples=16365588, dataset_name='oscar')}]"), <traceback object at 0x7f82c71a9a00>)

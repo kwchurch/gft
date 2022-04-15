@@ -1,9 +1,2 @@
 model: microsoft/codebert-base	model: microsoft/codebert-base	downloads: 783173	likes: 9	task: feature-extraction
-***ERROR***
-model: microsoft/codebert-base
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError("Can't load feature extractor for 'microsoft/codebert-base'. Make sure that:\n\n- 'microsoft/codebert-base' is a correct model identifier listed on 'https://huggingface.co/models'\n  (make sure 'microsoft/codebert-base' is not a path to a local directory with something else, in that case)\n\n- or 'microsoft/codebert-base' is the correct path to a directory containing a preprocessor_config.json file\n\n"), <traceback object at 0x7fd187e24440>)
+model: microsoft/codebert-base	labels: LABEL_0, LABEL_1

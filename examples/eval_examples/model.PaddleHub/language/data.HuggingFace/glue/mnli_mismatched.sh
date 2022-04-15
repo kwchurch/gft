@@ -10,7 +10,4 @@ gft_eval --model P:$gft_checkpoints/fit_examples/$m/language/$d/glue/mnli_mismat
 	 --metric H:glue,mnli \
 	 --eqn 'classify: label ~ premise + hypothesis' \
 	 --split validation_mismatched \
-	 --debug \
 	 --do_not_catch_errors
-
-

@@ -1,0 +1,3 @@
+model=ernie-2.0-en
+lr=1e-5
+bs=256

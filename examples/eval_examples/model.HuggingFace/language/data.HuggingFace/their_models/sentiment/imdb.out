@@ -1,5 +1,24 @@
-hostname = asimov-88.svail.baidu.com
-165.37 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
-595.59 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
-83.39 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
-163.80 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407
+hostname = asimov-52.svail.baidu.com
+165.05 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
+630.15 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
+86.39 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
+169.71 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407
+171.00 seconds	aychang/roberta-base-imdb	accuracy: 0.89312	f1: 0.893051651620635
+84.46 seconds	lvwerra/distilbert-imdb	accuracy: 0.86744	f1: 0.8674283854538782
+196.35 seconds	textattack/albert-base-v2-imdb	accuracy: 0.8924	f1: 0.8923953693853679
+171.34 seconds	ykacer/bert-base-cased-imdb-sequence-classification	accuracy: 0.5	f1: 0.3333333333333333
+171.89 seconds	nateraw/bert-base-uncased-imdb	accuracy: 0.49992	f1: 0.33372387424830385
+170.08 seconds	aypan17/roberta-base-imdb	accuracy: 0.90168	f1: 0.901598834940454
+170.88 seconds	allenai/dsp_roberta_base_tapt_imdb_70000	accuracy: 0.5	f1: 0.3333333333333333
+235.52 seconds	textattack/xlnet-base-cased-imdb	accuracy: 0.89908	f1: 0.899045672136461
+***ERROR***	model: H:Lumos/imdb4	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f8b70c7af40>)
+***ERROR***	model: H:abhishek/autonlp-imdb_sentiment_classification-31154	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fe9d160c0c0>)
+***ERROR***	model: H:w11wo/javanese-bert-small-imdb-classifier	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f305d199e00>)
+***ERROR***	model: H:yosemite/autonlp-imdb-sentiment-analysis-english-470512388	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f1cffcf6f00>)
+***ERROR***	model: H:abhishek/autonlp-imdb_eval-71421	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f452f42a200>)
+***ERROR***	model: H:lannelin/bert-imdb-1hidden	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f11cece0e40>)
+***ERROR***	model: H:juliensimon/autonlp-imdb-demo-hf-16622775	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f568e792d80>)
+***ERROR***	model: H:Sakil/imdbsentdistilbertmodel	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fb5fbc20f40>)
+***ERROR***	model: H:ZiweiG/ziwei-bert-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fd48358ee40>)
+***ERROR***	model: H:ZiweiG/ziwei-bertimdb-prob	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f5b04e50040>)
+***ERROR***	model: H:lschneidpro/distilbert_uncased_imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f7d17beee80>)

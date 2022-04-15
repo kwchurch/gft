@@ -1,9 +1,9 @@
-hostname = asimov-89.svail.baidu.com
-*** ERROR ***	H:distilbert-base-cased-distilled-squad
-*** ERROR ***	H:bert-large-uncased-whole-word-masking-finetuned-squad
-*** ERROR ***	H:distilbert-base-uncased-distilled-squad
-*** ERROR ***	H:bert-large-cased-whole-word-masking-finetuned-squad
-*** ERROR ***	H:thatdramebaazguy/roberta-base-squad
-*** ERROR ***	H:dmis-lab/biobert-large-cased-v1.1-squad
-*** ERROR ***	H:sshleifer/tiny-distilbert-base-cased-distilled-squad
-*** ERROR ***	H:csarron/bert-base-uncased-squad-v1
+hostname = asimov-53.svail.baidu.com
+***ERROR***	model: H:distilbert-base-cased-distilled-squad	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f58c0e6f0c0>)
+***ERROR***	model: H:bert-large-uncased-whole-word-masking-finetuned-squad	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7feeb8edddc0>)
+***ERROR***	model: H:distilbert-base-uncased-distilled-squad	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f0f6cb20a80>)
+***ERROR***	model: H:bert-large-cased-whole-word-masking-finetuned-squad	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f927ee7d300>)
+***ERROR***	model: H:thatdramebaazguy/roberta-base-squad	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f7b8990d580>)
+***ERROR***	model: H:dmis-lab/biobert-large-cased-v1.1-squad	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7fad4a602600>)
+***ERROR***	model: H:sshleifer/tiny-distilbert-base-cased-distilled-squad	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7fc0995a6940>)
+***ERROR***	model: H:csarron/bert-base-uncased-squad-v1	data: H:squad	eqn: classify_spans: answers ~ question + context	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_util'"), <traceback object at 0x7f75d2587040>)

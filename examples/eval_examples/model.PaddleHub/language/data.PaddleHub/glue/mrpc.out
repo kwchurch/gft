@@ -1,2 +1,2 @@
-hostname = asimov-35.svail.baidu.com
-*** ERROR ***	P:/mnt/big/kwc/morphology/results/20220405/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/mrpc/ckpt/best/
+hostname = asimov-54.svail.baidu.com
+***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/mrpc/ckpt/best/	data: P:glue,mrpc	eqn: classify: labels ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('downloading from /mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/mrpc/ckpt/best/model_config.json not a url'), <traceback object at 0x7feff7dae4c0>)

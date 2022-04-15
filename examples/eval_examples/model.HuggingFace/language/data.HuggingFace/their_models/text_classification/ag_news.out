@@ -1,8 +1,8 @@
-hostname = asimov-27.svail.baidu.com
-8.49 seconds	mrm8488/bert-mini-finetuned-age_news-classification	accuracy: 0.9338157894736843	f1: 0.9338030432193901
-18.95 seconds	joeddav/distilbert-base-uncased-agnews-student	accuracy: 0.7068421052631579	f1: 0.6861031863543312
-36.04 seconds	nateraw/bert-base-uncased-ag-news	accuracy: 0.9411842105263157	f1: 0.9412090718312118
-21.75 seconds	mrm8488/distilroberta-finetuned-age_news-classification	accuracy: 0.9471052631578948	f1: 0.9471616897394918
-18.95 seconds	andi611/distilbert-base-uncased-ner-agnews	accuracy: 0.9472368421052632	f1: 0.947217779835066
-37.08 seconds	lucasresck/bert-base-cased-ag-news	accuracy: 0.9448684210526316	f1: 0.9448481184031788
-35.82 seconds	fabriceyhc/bert-base-uncased-ag_news	accuracy: 0.9375	f1: 0.9373013177400155
+hostname = asimov-51.svail.baidu.com
+9.18 seconds	mrm8488/bert-mini-finetuned-age_news-classification	accuracy: 0.9338157894736843	f1: 0.9338030432193901
+19.28 seconds	joeddav/distilbert-base-uncased-agnews-student	accuracy: 0.7068421052631579	f1: 0.6861031863543312
+35.89 seconds	nateraw/bert-base-uncased-ag-news	accuracy: 0.9411842105263157	f1: 0.9412090718312118
+20.31 seconds	mrm8488/distilroberta-finetuned-age_news-classification	accuracy: 0.9471052631578948	f1: 0.9471616897394918
+19.40 seconds	andi611/distilbert-base-uncased-ner-agnews	accuracy: 0.9472368421052632	f1: 0.947217779835066
+38.13 seconds	lucasresck/bert-base-cased-ag-news	accuracy: 0.9448684210526316	f1: 0.9448481184031788
+36.35 seconds	fabriceyhc/bert-base-uncased-ag_news	accuracy: 0.9375	f1: 0.9373013177400155

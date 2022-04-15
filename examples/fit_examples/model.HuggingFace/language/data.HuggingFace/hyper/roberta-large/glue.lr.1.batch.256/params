@@ -1,0 +1,3 @@
+model=roberta-large
+lr=1e-5
+bs=256

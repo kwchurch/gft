@@ -1,10 +1,2 @@
-hostname = asimov-27.svail.baidu.com
-***ERROR***
-model: Narrativa/byt5-base-tweet-hate-detection
-data: H:tweets_hate_speech_detection
-eqn: classify: label ~ tweet
-splits: train
-split: train
-task: None
-error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7f86cd2f3540>)
-64.99 seconds	mrm8488/distilroberta-finetuned-tweets-hate-speech	accuracy: 0.994305738063951	f1: 0.9776765742511933
+hostname = asimov-51.svail.baidu.com
+62.47 seconds	mrm8488/distilroberta-finetuned-tweets-hate-speech	accuracy: 0.994305738063951	f1: 0.9776765742511933

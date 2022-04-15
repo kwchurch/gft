@@ -20,8 +20,12 @@ def main():
     # parser.add_argument("--adapter", type=str, help="adpater (https://github.com/Adapter-Hub/adapter-transformers)", default=None)
     parser.add_argument("--labels", type=str, help="file containing labels", default=None)
     parser.add_argument("--delimiter", type=str, help="defaults to tab", default='\t')
-    parser.add_argument("--debug", action='store_true')
+    parser.add_argument("--do_not_catch_errors", action='store_true')
     parser.add_argument("--evaluate", action='store_true')
+
+    # we can infer this when the time comes
+    # parser.add_argument("--is_split_into_words", action='store_true')
+
     parser.add_argument("--max_length", type=int, help="used by text-generation pipeline", default=30)
     parser.add_argument("--num_return_sequences", type=int, help="used by text-generation pipeline", default=3)
 

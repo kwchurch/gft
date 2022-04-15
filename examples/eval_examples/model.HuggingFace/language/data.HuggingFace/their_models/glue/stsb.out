@@ -1,16 +1,16 @@
-hostname = asimov-88.svail.baidu.com
-13.87 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
-5.40 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
-*** ERROR ***	H:sentence-transformers/stsb-xlm-r-multilingual
-*** ERROR ***	H:sentence-transformers/bert-base-nli-stsb-mean-tokens
-1.70 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
-2.12 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
-*** ERROR ***	H:sentence-transformers/xlm-r-bert-base-nli-stsb-mean-tokens
-*** ERROR ***	H:Contrastive-Tension/RoBerta-Large-CT-STSb
-*** ERROR ***	H:Contrastive-Tension/BERT-Base-Swe-CT-STSb
-*** ERROR ***	H:eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1
-*** ERROR ***	H:mrm8488/distiluse-base-multilingual-cased-v2-finetuned-stsb_multi_mt-es
-*** ERROR ***	H:pritamdeka/S-Biomed-Roberta-snli-multinli-stsb
-4.30 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746
-*** ERROR ***	H:Muennighoff/SBERT-base-nli-stsb-v2
-*** ERROR ***	H:AIDA-UPM/mstsb-paraphrase-multilingual-mpnet-base-v2
+hostname = asimov-52.svail.baidu.com
+11.72 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
+3.80 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
+***ERROR***	model: H:sentence-transformers/stsb-xlm-r-multilingual	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f9f000cd680>)
+***ERROR***	model: H:sentence-transformers/bert-base-nli-stsb-mean-tokens	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f11449a9600>)
+0.67 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
+2.61 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
+***ERROR***	model: H:sentence-transformers/xlm-r-bert-base-nli-stsb-mean-tokens	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f1580e44480>)
+***ERROR***	model: H:Contrastive-Tension/RoBerta-Large-CT-STSb	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'OSError'>, OSError('Contrastive-Tension/RoBerta-Large-CT-STSb does not appear to have a file named preprocessor_config.json.'), <traceback object at 0x7f87579b8a00>)
+***ERROR***	model: H:Contrastive-Tension/BERT-Base-Swe-CT-STSb	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'OSError'>, OSError('Contrastive-Tension/BERT-Base-Swe-CT-STSb does not appear to have a file named preprocessor_config.json.'), <traceback object at 0x7fe1e42789c0>)
+***ERROR***	model: H:eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'OSError'>, OSError('eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1 does not appear to have a file named preprocessor_config.json.'), <traceback object at 0x7f87d3353240>)
+***ERROR***	model: H:mrm8488/distiluse-base-multilingual-cased-v2-finetuned-stsb_multi_mt-es	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f319c0dfa00>)
+***ERROR***	model: H:pritamdeka/S-Biomed-Roberta-snli-multinli-stsb	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f806023b340>)
+3.71 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746
+***ERROR***	model: H:Muennighoff/SBERT-base-nli-stsb-v2	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f81d66e6540>)
+***ERROR***	model: H:AIDA-UPM/mstsb-paraphrase-multilingual-mpnet-base-v2	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f78928cf4c0>)

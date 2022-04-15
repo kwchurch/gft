@@ -30,8 +30,9 @@ def get_config(fn):
 labels = '***undefined***'
 
 def best_label(logits):
-    if labels is None: return str(np.argmax(logits))
-    else: return labels[np.argmax(logits)]
+    res = np.argmax(logits)
+    if labels is None: return str(res)
+    else: return str(res) + '/' + str(labels[res])
 
 def labels_from_args(args):
 
@@ -60,7 +61,7 @@ def labels_from_args(args):
 
 def apply_pipeline(args, xfields, pipe, task, model, tokenizer):
     
-    if get_arg(args, 'debug', default=False):
+    if get_arg(args, 'do_not_catch_errors', default=False):
         return apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer), 0
     else:
         try: return apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer), 0
@@ -133,7 +134,10 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
         return '\t'.join([r['generated_text'] for r in res ])
 
     if task == "token-classification" or task == "ner":
-        res = pipe(xfields[0])
+        x = xfields[0]
+        if isinstance(x, list):
+            x = ' '.join(x)
+        res = pipe(x)
         return '\t'.join(['%s/%s:%0.4f' % (r['word'], r['entity'], r['score']) for r in res])
 
     if task == "MT" or task == "translation":
@@ -246,4 +250,5 @@ def gft_predict_hf_with_pipeline(args):
 def gft_predict_hf(args):
     global labels
     labels = labels_from_args(args)
+    print('labels: ' + str(labels), file=sys.stderr)
     gft_predict_hf_with_pipeline(args)

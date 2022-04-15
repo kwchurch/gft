@@ -9,4 +9,5 @@ gft_eval --model C:$gft_checkpoints/fit_examples/model.HuggingFace/language/data
 	 --data H:$task \
 	 --eqn 'classify: label ~ premise + hypothesis' \
 	 --split test \
-	 --debug
+	 --do_not_catch_errors
+

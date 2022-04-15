@@ -1,2 +1,2 @@
-hostname = asimov-50.svail.baidu.com
-*** ERROR ***	P:bert-base-cased
+hostname = asimov-62.svail.baidu.com
+***ERROR***	model: P:bert-base-cased	data: H:conll2003	eqn: classify_tokens: pos_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'FileNotFoundError'>, FileNotFoundError("Couldn't find a dataset script at /mnt/home/kwc/public_github/gft/examples/eval_examples/conll2003/conll2003.py or any data file in the same directory. Couldn't find 'conll2003' on the Hugging Face Hub either: FileNotFoundError: [Errno 2] No such file or directory: '/mnt/home/kwc/.cache/huggingface/datasets'"), <traceback object at 0x7f9431ffe800>)

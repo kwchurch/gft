@@ -1,2 +1,2 @@
-hostname = asimov-88.svail.baidu.com
-9.14 seconds	SetFit/distilbert-base-uncased__ethos_binary__all-train	accuracy: 0.8276553106212425	f1: 0.8228721669824208
+hostname = asimov-52.svail.baidu.com
+3.51 seconds	SetFit/distilbert-base-uncased__ethos_binary__all-train	accuracy: 0.8276553106212425	f1: 0.8228721669824208

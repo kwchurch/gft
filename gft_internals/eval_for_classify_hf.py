@@ -9,7 +9,7 @@ import sys,os,shutil,torch,time
 from torch.utils.data import DataLoader
 import numpy as np
 from gft_internals import parse_eqn
-from gft_internals.gft_util import intern_labels, parse_model_specification, parse_metric_specification, parse_dataset_specification, better, checkpoint_filename, get_arg, set_arg
+from gft_internals.gft_util import intern_labels, parse_model_specification, parse_base_model_specification, parse_metric_specification, parse_dataset_specification, better, checkpoint_filename, get_arg, set_arg
 
 import logging
 import math
@@ -83,8 +83,10 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
         interned_labels = label_list = None
         num_labels = len(y_field_names)
 
-    model_provider,model_key = parse_model_specification(args, keyword='model')
-    base_model_provider,base_model_key = parse_model_specification(args, keyword='base_model')
+    base_model_provider, base_model_key, model_provider, model_key = parse_base_model_specification(args)
+
+    # model_provider,model_key = parse_model_specification(args, keyword='model')
+    # base_model_provider,base_model_key = parse_model_specification(args, keyword='base_model')
     assert model_provider == 'HuggingFace' or model_provider == 'Custom', 'Expected provider to be HuggingFace or Custom, but it was: ' + str(model_provider)
 
     data_provider,data_key = parse_dataset_specification(args)
@@ -273,6 +275,8 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
         predictions = outputs.logits.argmax(dim=-1) if not is_regression else outputs.logits.squeeze()
         metric.add_batch(predictions=accelerator.gather(predictions),
                          references=accelerator.gather(batch["labels"]))
+        # except:
+        #     print('error in batch: ' + str(batch), file=sys.stderr)
         
     eval_metric = metric.compute()
     logger.info(f"{eval_metric} {time.time() - time0} seconds")

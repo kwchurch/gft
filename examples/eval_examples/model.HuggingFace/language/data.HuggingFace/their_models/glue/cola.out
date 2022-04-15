@@ -1,23 +1,23 @@
-hostname = asimov-86.svail.baidu.com
-8.30 seconds	textattack/distilbert-base-uncased-CoLA	matthews_correlation: 0.5685664296893979
-5.07 seconds	textattack/bert-base-uncased-CoLA	matthews_correlation: 0.5338774230813111
-2.90 seconds	textattack/distilbert-base-cased-CoLA	matthews_correlation: 0.46372927911071965
-5.40 seconds	textattack/roberta-base-CoLA	matthews_correlation: 0.6382594026155579
-7.08 seconds	cointegrated/roberta-large-cola-krishna2020	matthews_correlation: -0.6529218099246764
-3.83 seconds	textattack/albert-base-v2-CoLA	matthews_correlation: 0.5770529432203132
-4.16 seconds	gchhablani/bert-base-cased-finetuned-cola	matthews_correlation: 0.5956649094312695
-3.06 seconds	yoshitomo-matsubara/bert-base-uncased-cola	matthews_correlation: 0.6104966084654571
-7.35 seconds	howey/roberta-large-cola	matthews_correlation: 0.6455219823779293
-4.62 seconds	textattack/xlnet-base-cased-CoLA	matthews_correlation: 0.4968085709611271
-3.09 seconds	isakbos/Q8BERT_COLA_L_512	matthews_correlation: 0.0
-4.77 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_A	matthews_correlation: 0.6142064528308289
-5.21 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_B	matthews_correlation: 0.601243977092561
-2.11 seconds	09panesara/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5406394412669151
-4.81 seconds	yoshitomo-matsubara/bert-large-uncased-cola	matthews_correlation: 0.6335324951654004
-6.58 seconds	textattack/xlnet-large-cased-CoLA	matthews_correlation: 0.0
-2.86 seconds	Alireza1044/albert-base-v2-cola	matthews_correlation: 0.5494768667363472
-3.00 seconds	pmthangk09/bert-base-uncased-glue-cola	matthews_correlation: 0.5778111402851518
-2.34 seconds	kamivao/autonlp-cola_gram-208681	matthews_correlation: 0.560464995177653
-3.32 seconds	mrm8488/deberta-v3-small-finetuned-cola	matthews_correlation: 0.6333205721749096
-1.65 seconds	123abhiALFLKFO/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5331291095663535
-*** ERROR ***	H:Ahren09/distilbert-base-uncased-finetuned-cola
+hostname = asimov-51.svail.baidu.com
+3.70 seconds	textattack/distilbert-base-uncased-CoLA	matthews_correlation: 0.5685664296893979
+3.28 seconds	textattack/bert-base-uncased-CoLA	matthews_correlation: 0.5338774230813111
+1.18 seconds	textattack/distilbert-base-cased-CoLA	matthews_correlation: 0.46372927911071965
+1.95 seconds	textattack/roberta-base-CoLA	matthews_correlation: 0.6382594026155579
+4.36 seconds	cointegrated/roberta-large-cola-krishna2020	matthews_correlation: -0.6529218099246764
+2.20 seconds	textattack/albert-base-v2-CoLA	matthews_correlation: 0.5770529432203132
+1.98 seconds	gchhablani/bert-base-cased-finetuned-cola	matthews_correlation: 0.5956649094312695
+2.08 seconds	yoshitomo-matsubara/bert-base-uncased-cola	matthews_correlation: 0.6104966084654571
+4.41 seconds	howey/roberta-large-cola	matthews_correlation: 0.6455219823779293
+3.18 seconds	textattack/xlnet-base-cased-CoLA	matthews_correlation: 0.4968085709611271
+2.00 seconds	isakbos/Q8BERT_COLA_L_512	matthews_correlation: 0.0
+4.35 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_A	matthews_correlation: 0.6142064528308289
+4.44 seconds	EhsanAghazadeh/bert-large-uncased-CoLA_B	matthews_correlation: 0.601243977092561
+1.10 seconds	09panesara/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5406394412669151
+4.46 seconds	yoshitomo-matsubara/bert-large-uncased-cola	matthews_correlation: 0.6335324951654004
+6.11 seconds	textattack/xlnet-large-cased-CoLA	matthews_correlation: 0.0
+2.09 seconds	Alireza1044/albert-base-v2-cola	matthews_correlation: 0.5494768667363472
+1.94 seconds	pmthangk09/bert-base-uncased-glue-cola	matthews_correlation: 0.5778111402851518
+1.95 seconds	kamivao/autonlp-cola_gram-208681	matthews_correlation: 0.560464995177653
+1.95 seconds	mrm8488/deberta-v3-small-finetuned-cola	matthews_correlation: 0.6333205721749096
+1.21 seconds	123abhiALFLKFO/distilbert-base-uncased-finetuned-cola	matthews_correlation: 0.5331291095663535
+***ERROR***	model: H:Ahren09/distilbert-base-uncased-finetuned-cola	data: H:glue,cola	eqn: classify: label ~ sentence	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("forward() got an unexpected keyword argument 'token_type_ids'"), <traceback object at 0x7f33846e8880>)

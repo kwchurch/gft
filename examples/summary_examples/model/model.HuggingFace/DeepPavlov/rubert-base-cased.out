@@ -1,9 +1,2 @@
 model: DeepPavlov/rubert-base-cased	model: DeepPavlov/rubert-base-cased	downloads: 383389	likes: 12	task: feature-extraction
-***ERROR***
-model: H:DeepPavlov/rubert-base-cased
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError("Can't load feature extractor for 'DeepPavlov/rubert-base-cased'. Make sure that:\n\n- 'DeepPavlov/rubert-base-cased' is a correct model identifier listed on 'https://huggingface.co/models'\n  (make sure 'DeepPavlov/rubert-base-cased' is not a path to a local directory with something else, in that case)\n\n- or 'DeepPavlov/rubert-base-cased' is the correct path to a directory containing a preprocessor_config.json file\n\n"), <traceback object at 0x7f77d2cd0400>)
+model: DeepPavlov/rubert-base-cased	labels: LABEL_0, LABEL_1

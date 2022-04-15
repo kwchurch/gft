@@ -154,7 +154,7 @@ def old_gft_predict_pd(args):
     print('total time: %0.2f seconds; processed %d input lines; caught %d errors' % (time.time() - t0, line_number, errors), file=sys.stderr)
 
 def apply_task(args, xfields, tf, task, model, tokenizer):
-    if get_arg(args, 'debug', default=False):
+    if get_arg(args, 'do_not_catch_errors', default=False):
         return apply_task_internal(args, xfields, tf, task, model, tokenizer), 0
     else:
         try: return apply_task_internal(args, xfields, tf, task, model, tokenizer), 0

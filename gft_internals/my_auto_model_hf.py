@@ -6,7 +6,7 @@ import sys,os
 
 from transformers import AutoTokenizer,AutoFeatureExtractor
 
-from gft_internals.gft_util import parse_model_specification, parse_metric_specification, parse_dataset_specification, parse_task_specification, better, checkpoint_filename, get_arg, set_arg
+from gft_internals.gft_util import parse_model_specification, parse_base_model_specification, parse_metric_specification, parse_dataset_specification, parse_task_specification, better, checkpoint_filename, get_arg, set_arg
 
 def get_config(fn):
     p = os.path.join(fn, 'config.json')
@@ -385,8 +385,10 @@ def old_auto_model_for_X(args):
     assert False, 'auto_model_for_X, task not supported: ' + task
 
 def my_load_model_tokenizer_and_extractor(args, keyword='model'):
-    model_provider,model_key = parse_model_specification(args, keyword=keyword)
-    base_model_provider,base_model_key = parse_model_specification(args, keyword='base_model')
+    base_model_provider, base_model_key, model_provider, model_key = parse_base_model_specification(args)
+
+    # model_provider,model_key = parse_model_specification(args, keyword=keyword)
+    # base_model_provider,base_model_key = parse_model_specification(args, keyword='base_model')
     # print('model_provider: ' + str(model_provider), file=sys.stderr)
 
     if model_key is None: return None,None,None
@@ -394,6 +396,7 @@ def my_load_model_tokenizer_and_extractor(args, keyword='model'):
     a = my_get_adapter_info(model_key)
     print('a: ' + str(a), file=sys.stderr)
     if a is None or a.model_name is None:
+
         print('model_provider: ' + str(model_provider), file=sys.stderr)
         print('model_key: ' + str(model_key), file=sys.stderr)
 

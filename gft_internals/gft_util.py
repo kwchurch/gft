@@ -100,6 +100,23 @@ def parse_model_specification(args, keyword='model'):
     # print('parse_model_specification: provider = %s, key = %s' % (normalized_providers[provider], key), file=sys.stderr)
     # return normalized_providers[provider], key
 
+
+def parse_base_model_specification(args):
+    model_provider,model_key = parse_supplier_prefix(get_arg(args, 'model', default=None))
+    base_model_provider,base_model_key = parse_supplier_prefix(get_arg(args, 'base_model', default=None))
+
+    def one_of(choices, superstring):
+        for choice in choices:
+            if choice in superstring:
+                return choice
+        return choices[-1]
+
+    if '__one_of__' in base_model_key:
+        choices = base_model_key[len('__one_of__'):].split(',')
+        base_model_key = one_of(choices, model_key)
+
+    return base_model_provider, base_model_key, model_provider, model_key
+
 def parse_metric_specification(args, keyword='metric'):
     return parse_supplier_prefix(get_arg(args, keyword, default=None))
 
