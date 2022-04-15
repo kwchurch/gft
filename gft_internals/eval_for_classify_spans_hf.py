@@ -55,7 +55,7 @@ import datasets
 from datasets import load_dataset, load_metric
 
 import transformers
-from trainer_qa import QuestionAnsweringTrainer
+from gft_internals.trainer_qa import QuestionAnsweringTrainer
 from transformers import (
     AutoConfig,
     AutoModelForQuestionAnswering,
@@ -698,10 +698,14 @@ def my_eval(args, eqn, accelerator, raw_datasets):
 
         fig = get_arg(args, 'figure_of_merit', default=None)
 
+
+        print('metrics: ' + str(metrics), file=sys.stderr)
+
+        # metrics used to be eval_metric
         if fig is None:
-            res = '\t'.join(['%s: %s' % (k, str(eval_metric[k])) for k in eval_metric])
+            res = '\t'.join(['%s: %s' % (k, str(metrics[k])) for k in metrics])
         else:
-            res = '%s: %s' % (fig, str(eval_metric[fig]))
+            res = '%s: %s' % (fig, str(metrics[fig]))
 
         print('\t'.join(map(str, ['%0.2f seconds' % (time.time() - time0), model_key, str(res)])))
 

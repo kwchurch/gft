@@ -7,7 +7,7 @@ import sys
 
 def my_eval(args, eqn, accelerator, raw_datasets):
 
-    from gft_util import parse_model_specification
+    from gft_internals.gft_util import parse_model_specification
     provider,model_key = parse_model_specification(args)
     
     print(__name__ + ': provider = ' + str(provider), file=sys.stderr)
