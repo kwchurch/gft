@@ -1,3 +1,3 @@
 hostname = asimov-88.svail.baidu.com
-139.59 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.PaddleHub/glue/qqp/ckpt/best	accuracy: 0.772223596339352	f1: 0.700471621401854
-139.33 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/qqp/ckpt/best	accuracy: 0.772223596339352	f1: 0.700471621401854
+135.73 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.PaddleHub/glue/qqp/ckpt/best	accuracy: 0.772223596339352	f1: 0.700471621401854
+135.39 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/qqp/ckpt/best	accuracy: 0.772223596339352	f1: 0.700471621401854

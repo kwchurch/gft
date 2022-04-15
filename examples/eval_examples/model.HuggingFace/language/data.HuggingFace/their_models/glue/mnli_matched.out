@@ -1,31 +1,20 @@
-hostname = asimov-52.svail.baidu.com
-161.89 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
-134.89 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
-21.49 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
-71.53 seconds	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	accuracy: 0.875394803871625
-75.96 seconds	valhalla/distilbart-mnli-12-1	accuracy: 0.2748853795211411
-165.44 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
-116.51 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
-43.49 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
-164.70 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
-***ERROR***	model: H:microsoft/deberta-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.93 GiB total capacity; 10.81 GiB already allocated; 11.50 MiB free; 11.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f49337b6e40>)
-135.00 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8989302088639837
-92.02 seconds	valhalla/distilbart-mnli-12-3	accuracy: 0.28833418237391745
-165.07 seconds	joeddav/bart-large-mnli-yahoo-answers	accuracy: 0.32134488028527763
-64.48 seconds	typeform/mobilebert-uncased-mnli	accuracy: 0.8354559347936832
-43.25 seconds	textattack/bert-base-uncased-MNLI	accuracy: 0.06459500764136526
-138.46 seconds	valhalla/distilbart-mnli-12-9	accuracy: 0.28517575140091694
-62.24 seconds	MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	accuracy: 0.9035150280183393
-***ERROR***	model: H:prajjwal1/bert-medium-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'ImportError'>, ImportError("cannot import name 'parse_base_model_specification' from 'gft_internals.gft_util' (/mnt/home/kwc/public_github/gft/gft_internals/gft_util.py)"), <traceback object at 0x7f29f78fcd40>)
-***ERROR***	model: H:microsoft/deberta-base-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f9bbc3df8c0>)
-***ERROR***	model: H:NbAiLab/nb-bert-base-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f8c0205e980>)
-***ERROR***	model: H:MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7effaf021900>)
-***ERROR***	model: H:alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7efc2225eb00>)
-***ERROR***	model: H:prajjwal1/albert-base-v2-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f42afa61a80>)
-***ERROR***	model: H:symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fd3eecec940>)
-***ERROR***	model: H:textattack/xlnet-base-cased-MNLI	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f7c3779ad80>)
-***ERROR***	model: H:typeform/roberta-large-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fbb5e65f800>)
-***ERROR***	model: H:microsoft/deberta-v2-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f98fcb9d940>)
-***ERROR***	model: H:ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fc18f2a2880>)
-***ERROR***	model: H:microsoft/deberta-v2-xxlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f55adc56940>)
-***ERROR***	model: H:prajjwal1/bert-mini-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fc8ae6b18c0>)
+hostname = asimov-51.svail.baidu.com
+153.55 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
+129.39 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
+20.78 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
+66.84 seconds	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	accuracy: 0.875394803871625
+72.41 seconds	valhalla/distilbart-mnli-12-1	accuracy: 0.2748853795211411
+160.16 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
+111.10 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
+40.55 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
+158.87 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
+***ERROR***	model: H:microsoft/deberta-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.93 GiB total capacity; 10.81 GiB already allocated; 11.50 MiB free; 11.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7fa40add7f80>)
+129.09 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8989302088639837
+86.59 seconds	valhalla/distilbart-mnli-12-3	accuracy: 0.28833418237391745
+159.34 seconds	joeddav/bart-large-mnli-yahoo-answers	accuracy: 0.32134488028527763
+67.29 seconds	typeform/mobilebert-uncased-mnli	accuracy: 0.8354559347936832
+39.40 seconds	textattack/bert-base-uncased-MNLI	accuracy: 0.06459500764136526
+132.66 seconds	valhalla/distilbart-mnli-12-9	accuracy: 0.28517575140091694
+56.57 seconds	MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	accuracy: 0.9035150280183393
+17.58 seconds	prajjwal1/bert-medium-mnli	accuracy: 0.11013754457463067
+51.11 seconds	microsoft/deberta-base-mnli	accuracy: 0.2913907284768212

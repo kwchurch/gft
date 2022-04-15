@@ -1,2 +1,2 @@
-hostname = asimov-58.svail.baidu.com
-514.02 seconds	ernie-tiny	accuracy: 0.5	f1: 0.3333333333333333
+hostname = asimov-59.svail.baidu.com
+506.57 seconds	ernie-tiny	accuracy: 0.4999	f1: 0.33328888592572836

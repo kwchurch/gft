@@ -1,4 +1,4 @@
-hostname = asimov-53.svail.baidu.com
+hostname = asimov-52.svail.baidu.com
 calling my_eval in eval_for_classify_tokens.py
 seed: 42
 label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
@@ -7,7 +7,7 @@ num_labels: 9
 label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 load_metric: seqeval
 about to train epoch 0: 0 sec
-***ERROR***	model: H:xlm-roberta-large-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`'), <traceback object at 0x7fa27e5792c0>)
+***ERROR***	model: H:xlm-roberta-large-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`'), <traceback object at 0x7fd3cc04c240>)
 calling my_eval in eval_for_classify_tokens.py
 seed: 42
 label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
@@ -16,16 +16,16 @@ num_labels: 9
 label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 load_metric: seqeval
 about to train epoch 0: 0 sec
-about to eval epoch 0: 539 sec
-568 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9894784014964051}
+about to eval epoch 0: 515 sec
+543 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9894784014964051}
 best_so_far: 0.989478
-about to train epoch 1: 572 sec
-about to eval epoch 1: 1111 sec
-1139 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9914852989887575}
+about to train epoch 1: 546 sec
+about to eval epoch 1: 1062 sec
+1090 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9914852989887575}
 best_so_far: 0.991485
-about to train epoch 2: 1145 sec
-about to eval epoch 2: 1685 sec
-1713 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9924984899557703}
+about to train epoch 2: 1093 sec
+about to eval epoch 2: 1610 sec
+1638 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9924984899557703}
 best_so_far: 0.992498
 calling my_eval in eval_for_classify_tokens.py
 seed: 42
@@ -35,16 +35,16 @@ num_labels: 9
 label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 load_metric: seqeval
 about to train epoch 0: 0 sec
-about to eval epoch 0: 20 sec
-23 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.7442861874792978}
+about to eval epoch 0: 17 sec
+20 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.7442861874792978}
 best_so_far: 0.744286
-about to train epoch 1: 24 sec
-about to eval epoch 1: 43 sec
-47 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.744422578571011}
+about to train epoch 1: 21 sec
+about to eval epoch 1: 38 sec
+41 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.744422578571011}
 best_so_far: 0.744423
-about to train epoch 2: 47 sec
-about to eval epoch 2: 66 sec
-70 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.744422578571011}
+about to train epoch 2: 41 sec
+about to eval epoch 2: 58 sec
+62 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.744422578571011}
 calling my_eval in eval_for_classify_tokens.py
 seed: 42
 label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
@@ -53,16 +53,16 @@ num_labels: 9
 label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 load_metric: seqeval
 about to train epoch 0: 0 sec
-about to eval epoch 0: 94 sec
-100 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9858013750657344}
+about to eval epoch 0: 90 sec
+96 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9858013750657344}
 best_so_far: 0.985801
-about to train epoch 1: 101 sec
-about to eval epoch 1: 195 sec
-202 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9864635880256315}
+about to train epoch 1: 97 sec
+about to eval epoch 1: 188 sec
+194 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9864635880256315}
 best_so_far: 0.986464
-about to train epoch 2: 203 sec
-about to eval epoch 2: 297 sec
-303 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9873010926513839}
+about to train epoch 2: 195 sec
+about to eval epoch 2: 285 sec
+291 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9873010926513839}
 best_so_far: 0.987301
 calling my_eval in eval_for_classify_tokens.py
 seed: 42
@@ -71,61 +71,3 @@ interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 num_labels: 9
 label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 load_metric: seqeval
-about to train epoch 0: 0 sec
-about to eval epoch 0: 715 sec
-745 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8326513911620295}
-best_so_far: 0.832651
-about to train epoch 1: 752 sec
-about to eval epoch 1: 1466 sec
-1496 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8326513911620295}
-about to train epoch 2: 1503 sec
-about to eval epoch 2: 2217 sec
-2247 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8326513911620295}
-calling my_eval in eval_for_classify_tokens.py
-seed: 42
-label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-num_labels: 9
-label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-load_metric: seqeval
-***ERROR***	model: H:dbmdz/electra-large-discriminator-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f5f1d203100>)
-calling my_eval in eval_for_classify_tokens.py
-seed: 42
-label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-num_labels: 9
-label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-load_metric: seqeval
-***ERROR***	model: H:elastic/distilbert-base-cased-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f6633b99140>)
-calling my_eval in eval_for_classify_tokens.py
-seed: 42
-label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-num_labels: 9
-label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-load_metric: seqeval
-***ERROR***	model: H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fdeb0bad800>)
-calling my_eval in eval_for_classify_tokens.py
-seed: 42
-label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-num_labels: 9
-label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-load_metric: seqeval
-***ERROR***	model: H:philschmid/distilroberta-base-ner-conll2003	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7fd7b1dcc200>)
-calling my_eval in eval_for_classify_tokens.py
-seed: 42
-label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-num_labels: 9
-label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-load_metric: seqeval
-***ERROR***	model: H:bertin-project/bertin-base-ner-conll2002-es	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f5075d308c0>)
-calling my_eval in eval_for_classify_tokens.py
-seed: 42
-label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-num_labels: 9
-label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
-load_metric: seqeval
-***ERROR***	model: H:wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'TypeError'>, TypeError("argument of type 'NoneType' is not iterable"), <traceback object at 0x7f8ed658a200>)

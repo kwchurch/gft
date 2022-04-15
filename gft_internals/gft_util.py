@@ -111,9 +111,10 @@ def parse_base_model_specification(args):
                 return choice
         return choices[-1]
 
-    if '__one_of__' in base_model_key:
-        choices = base_model_key[len('__one_of__'):].split(',')
-        base_model_key = one_of(choices, model_key)
+    if not base_model_key is None:
+        if '__one_of__' in base_model_key:
+            choices = base_model_key[len('__one_of__'):].split(',')
+            base_model_key = one_of(choices, model_key)
 
     return base_model_provider, base_model_key, model_provider, model_key
 

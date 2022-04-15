@@ -1,2 +1,0 @@
-hostname = asimov-55.svail.baidu.com
-***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/rte/ckpt/best/	data: P:glue,rte	eqn: classify: labels ~ sentence1 + sentence2	splits: test	split: test	task: None	error: (<class 'AssertionError'>, AssertionError('downloading from /mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/rte/ckpt/best/model_config.json not a url'), <traceback object at 0x7fc5a7a7fd00>)
