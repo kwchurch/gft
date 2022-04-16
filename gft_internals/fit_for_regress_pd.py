@@ -306,10 +306,16 @@ def fit(args, eqn, accelerator, raw_datasets):
             logits = model(input_ids, segment_ids)
             loss = loss_fct(logits, labels)
 
+            # print('labels: ' + str(labels))
+            # print('logits: ' + str(logits))
+
+            # import pdb
             # pdb.set_trace()
             # loss = torch.nn.functional.mse_loss(logits.logits, batch['labels']).float()
             # loss = loss_fct(logits.view(-1), labels.view(-1)).float()
-            loss.float().backward()
+            # loss.float().backward()
+
+            loss.backward()
             optimizer.step()
             lr_scheduler.step()
             optimizer.clear_grad()

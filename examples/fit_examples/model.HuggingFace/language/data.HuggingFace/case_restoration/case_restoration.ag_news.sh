@@ -5,7 +5,7 @@ echo hostname = `hostname`
 dir=$1
 mkdir -p $dir
 
-python $gft/prepare_datasets/dataset_to_case_labels.py --data H:ag_news --splits train,__select_from_train__,test --output $dir/ag_news --text_field text
+python $gft/gft_internals/prepare_datasets/dataset_to_case_labels.py --data H:ag_news --splits train,__select_from_train__,test --output $dir/ag_news --text_field text
 
 gft_fit --model H:bert-base-uncased \
     --data C:$dir/ag_news \
