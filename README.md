@@ -2,10 +2,13 @@
 
 1-line programs for fine-tuning, inference and more
 
-See <a href="doc/sections/installation.md">here</a></li> for installation.
-<p>
-See <a href="doc/README.md">here</a></li> for documentation.
 
+<h1>Quick Links</h1>
+<ol>
+<li><a href="doc/sections/installation.md">Installation</a></li>
+<li><a href="doc/README.md">Documentation</a></li>
+<li><a href="https://github.com/kwchurch/ACL2022_deepnets_tutorial">ACL-2022 Tutorial</a></li>
+</ol>
 
 <h1>Four Functions and Four Arguments</h1>
 
