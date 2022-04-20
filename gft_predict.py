@@ -7,11 +7,12 @@ import torch
 
 # sys.path.append(os.environ.get('gft') + '/gft_internals')
 
-from gft_internals.gft_util import parse_task_specification
+from gft_internals.gft_util import parse_task_specification,parse_model_specification
 
 def main():
     parser = argparse.ArgumentParser(description="Simple example of predict script.")
     parser.add_argument("--model", type=str, help="prefix (H/P/C): base model | checkpoint | adapter", default=None)
+    parser.add_argument("--base_model", type=str, help="prefix (H/P/C): base model | checkpoint | adapter", default=None)
     parser.add_argument("--data", type=str, help="prefix (H/P/C): dataset name", default=None)
     parser.add_argument("--data_dir", type=str, help="optional argument to HuggingFace datasets.load_dataset (usually not needed)", default=None)
     parser.add_argument("--eqn", type=str, help="example: classify: labels ~ sentence1 + sentence2", default=None)
@@ -37,9 +38,10 @@ def main():
 
     print('calling gft_predict with args: ' + str(args), file=sys.stderr)
 
+    model_provider,model_key = parse_model_specification(wrapped_args)
     task_provider,task_key = parse_task_specification(wrapped_args)
 
-    if task_provider == 'PaddleHub':
+    if task_provider == 'PaddleHub' or model_provider == 'PaddleHub':
         from gft_internals import gft_predict_pd
         return gft_predict_pd.gft_predict_pd(wrapped_args)
     else:

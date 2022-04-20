@@ -6,6 +6,8 @@ wandb
 *.err
 bak
 *.bak
+*.bak2
+*.bak3
 notes.txt
 pieces
 

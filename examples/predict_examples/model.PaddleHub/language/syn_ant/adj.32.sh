@@ -10,4 +10,10 @@ model=$gft_checkpoints/fit_examples/$mhub/language/syn_ant/$pos.$b/ckpt/$b/best
 # gft_predict --model $model --data H:$task,binary --eqn 'classify: label ~ text' --split train > $model/predict.out 2>$model/predict.err
 
 
-gft_predict --data C:$gft/datasets/syn_ant/tag-"$pos"-pairs --eqn 'classify_classic: gold ~ word1 + word2' --split test --model C:$model # > $model/predict.out 2>$model/predict.err
+gft_predict --data C:$gft/datasets/syn_ant/tag-"$pos"-pairs \
+	    --eqn 'classify_classic: gold ~ word1 + word2' \
+	    --split test \
+	    --model P:$model \
+	    --base_model P:bert-base-cased \
+	    --do_not_catch_errors
+

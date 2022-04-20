@@ -54,6 +54,9 @@ def my_get_adapter_info(adapter_key):
             assert hasattr(transformers, 'adapters'), 'adapters are not supported in newer version of transformers; tranformers.__version__ is %s; adapter_key is: %s' % (transformers.__version__, adapter_key)
         return None
 
+# from gft_internals.my_auto_model_util import my_tokenizer
+
+
 # ['FNetForSequenceClassification', 'GPTJForSequenceClassification',
 #  'LayoutLMv2ForSequenceClassification',
 #  'RemBertForSequenceClassification',
@@ -180,6 +183,7 @@ def my_tokenizer(model_key):
      #  1 zero-shot-image-classification')
      #  1 speech-segmentation')
      #  1 protein-folding')
+
 
 
 import transformers

@@ -162,3 +162,15 @@ interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 num_labels: 9
 label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
 load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 207 sec
+220 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9740646921278254}
+best_so_far: 0.974065
+about to train epoch 1: 222 sec
+about to eval epoch 1: 429 sec
+442 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9800077942322681}
+best_so_far: 0.980008
+about to train epoch 2: 444 sec
+about to eval epoch 2: 649 sec
+663 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9815276695245518}
+best_so_far: 0.981528

@@ -20,3 +20,12 @@ hostname = asimov-92.svail.baidu.com
 133.53 seconds	AnonARR/qqp-bert	accuracy: 0.9069502844422459	f1: 0.874858625507285
 130.84 seconds	Maelstrom77/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
 131.69 seconds	TehranNLP-org/roberta-base-qqp-2e-5-42	accuracy: 0.9159040316596587	f1: 0.8880252931102622
+***ERROR***	model: H:persiannlp/mt5-base-parsinlu-qqp-query-paraphrasing	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7f8ff82f2640>)
+43.84 seconds	M-FAC/bert-mini-finetuned-qqp	accuracy: 0.8703190699975266	f1: 0.8298445461331256
+32.95 seconds	M-FAC/bert-tiny-finetuned-qqp	accuracy: 0.8440267128370023	f1: 0.7984273110855389
+138.53 seconds	TehranNLP-org/bert-base-uncased-qqp-2e-5-42	accuracy: 0.9125154588177096	f1: 0.8823470711505838
+433.98 seconds	anirudh21/albert-large-v2-finetuned-qqp	accuracy: 0.8959930744496661	f1: 0.85981931526486
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-qqp	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('adapters are not supported in newer version of transformers; tranformers.__version__ is 4.18.0.dev0; adapter_key is: AdapterHub/bert-base-uncased-pf-qqp'), <traceback object at 0x7fbf5868e600>)
+137.90 seconds	zyl1024/bert-base-cased-finetuned-qqp	accuracy: 0.9069502844422459	f1: 0.874858625507285
+***ERROR***	model: H:persiannlp/mt5-small-parsinlu-qqp-query-paraphrasing	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7fcb63c0af00>)
+170.41 seconds	jkgrad/xlnet-base-cased-qqp	accuracy: 0.9122186495176848	f1: 0.8817827520735485

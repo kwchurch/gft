@@ -95,3 +95,9 @@ hostname = asimov-27.svail.baidu.com
 69.94 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_10_64_2e-05_11697	accuracy: 0.9187259747391543
 70.11 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_5_32_3e-05_17290	accuracy: 0.8898041369211056
 70.14 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_10_64_3e-05_7663	accuracy: 0.9146988833974007
+73.16 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_5_64_3e-05_21404	accuracy: 0.5053999633900788
+69.29 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_5_64_2e-05_21404	accuracy: 0.9247666117517848
+70.49 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_5_64_3e-05_7663	accuracy: 0.9222039172615779
+70.47 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_5_16_2e-05_11697	accuracy: 0.8978583196046128
+70.07 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_5_32_1e-05_29610	accuracy: 0.9280615046677649
+69.80 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_192h_pruning/qnli_5_32_2e-05_29610	accuracy: 0.5053999633900788

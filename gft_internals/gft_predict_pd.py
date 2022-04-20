@@ -92,68 +92,69 @@ def labels_from_args(args):
 
     return labels
 
+# def old_gft_predict_pd(args):
+#     print('calling gft_predict_pd with args: ' + str(args))
+#     provider,model_key = parse_model_specification(args, keyword='model')
 
-def old_gft_predict_pd(args):
-    print('calling gft_predict_pd with args: ' + str(args))
-    provider,model_key = parse_model_specification(args, keyword='model')
+#     assert provider == 'PaddleHub', 'expected provider to be PaddleHub; provider: ' + str(provider)
 
-    assert provider == 'PaddleHub', 'expected provider to be PaddleHub; provider: ' + str(provider)
+#     labels = get_arg(args, 'labels', default=None)
 
-    labels = get_arg(args, 'labels', default=None)
+#     if labels is None:
+#         p = os.path.join(model_key + 'labels')
+#         if os.path.exists(p): labels = p
 
-    if labels is None:
-        p = os.path.join(model_key + 'labels')
-        if os.path.exists(p): labels = p
+#     if not labels is None:
+#         with open(labels, 'r') as fd:
+#             labels = fd.read().split('\n')
 
-    if not labels is None:
-        with open(labels, 'r') as fd:
-            labels = fd.read().split('\n')
+#     def best_label(logits):
+#         if labels is None:
+#             return str(np.argmax(logits))
+#         else:
+#             return labels[np.argmax(logits)]
 
-    def best_label(logits):
-        if labels is None:
-            return str(np.argmax(logits))
-        else:
-            return labels[np.argmax(logits)]
+#     model = AutoModelForSequenceClassification_pd.from_pretrained(model_key)
+#     tokenizer = AutoTokenizer_pd.from_pretrained(model_key)
 
-    model = AutoModelForSequenceClassification_pd.from_pretrained(model_key)
-    tokenizer = AutoTokenizer_pd.from_pretrained(model_key)
+#     delim = get_arg(args, 'delimiter')
 
-    delim = get_arg(args, 'delimiter')
+#     # def old_my_apply(X):
+#     #     tokenized_input = tokenizer(*X)
+#     #     input_ids = tokenized_input['input_ids']
+#     #     token_type_ids = tokenized_input['token_type_ids']
+#     #     tokens = tokenizer.convert_ids_to_tokens(input_ids)
+#     #     return model(paddle.to_tensor([input_ids]), token_type_ids=paddle.to_tensor([token_type_ids]))
 
-    # def old_my_apply(X):
-    #     tokenized_input = tokenizer(*X)
-    #     input_ids = tokenized_input['input_ids']
-    #     token_type_ids = tokenized_input['token_type_ids']
-    #     tokens = tokenizer.convert_ids_to_tokens(input_ids)
-    #     return model(paddle.to_tensor([input_ids]), token_type_ids=paddle.to_tensor([token_type_ids]))
+#     # def my_apply(X):
+#     #     return model(paddle.to_tensor([tokenizer(*X)['input_ids']]))
 
-    # def my_apply(X):
-    #     return model(paddle.to_tensor([tokenizer(*X)['input_ids']]))
+#     line_number=0
+#     errors=0
+#     for line in sys.stdin:
+#         line_number +=1
+#         fields = line.rstrip().split(delim)
+#         xfields = None
 
-    line_number=0
-    errors=0
-    for line in sys.stdin:
-        line_number +=1
-        fields = line.rstrip().split(delim)
-        xfields = None
+#         if len(fields) == 0: continue
 
-        if len(fields) == 0: continue
+#         if len(fields) >= 1: 
+#             xfields = fields[0].split('|')
 
-        if len(fields) >= 1: 
-            xfields = fields[0].split('|')
+#         try:
+#             outputs = model(paddle.to_tensor([tokenizer(*xfields)['input_ids']]))
+#             logits = outputs.detach().numpy()[0]
+#             print(delim.join([line.rstrip(), floats2str(logits), best_label(logits)]))
+#             sys.stdout.flush()
+#         except:
+#             print(delim.join([line.rstrip(), '***ERROR***']))
+#             errors += 1
 
-        try:
-            outputs = model(paddle.to_tensor([tokenizer(*xfields)['input_ids']]))
-            logits = outputs.detach().numpy()[0]
-            print(delim.join([line.rstrip(), floats2str(logits), best_label(logits)]))
-            sys.stdout.flush()
-        except:
-            print(delim.join([line.rstrip(), '***ERROR***']))
-            errors += 1
-
-    print('total time: %0.2f seconds; processed %d input lines; caught %d errors' % (time.time() - t0, line_number, errors), file=sys.stderr)
+#     print('total time: %0.2f seconds; processed %d input lines; caught %d errors' % (time.time() - t0, line_number, errors), file=sys.stderr)
 
 def apply_task(args, xfields, tf, task, model, tokenizer):
+    assert not tokenizer is None, 'tokenizer should not be None'
+
     if get_arg(args, 'do_not_catch_errors', default=False):
         return apply_task_internal(args, xfields, tf, task, model, tokenizer), 0
     else:
@@ -166,12 +167,30 @@ def apply_task(args, xfields, tf, task, model, tokenizer):
 
 def apply_task_internal(args, xfields, tf, task, model, tokenizer):
 
-    print('apply_task_internal: ' + str(task) + ' tf: ' + str(tf), file=sys.stderr)
+    print('apply_task_internal: task = ' + str(task) + ' tf = ' + str(tf), file=sys.stderr)
+    print('xfields: ' + str(xfields), file=sys.stderr)
+    assert not tokenizer is None, 'tokenizer should not be None'
 
     if task is None:
-        outputs = model(paddle.to_tensor([tokenizer(*xfields)['input_ids']]))
-        logits = outputs.detach().numpy()[0]
-        return best_label(logits) + '\t' + floats2str(logits)
+        assert not model is None, 'model should not be None'
+        assert not tokenizer is None, 'tokenizer should not be None'
+        tokens = tokenizer(*xfields)
+        print('tokens: ' + str(tokens), file=sys.stderr)
+        # outputs = model(paddle.to_tensor([tokens]))
+        outputs = model(paddle.to_tensor([tokens['input_ids']]),
+                        token_type_ids=paddle.to_tensor([tokens['token_type_ids']]))
+
+
+        print('outputs: ' + str(outputs), file=sys.stderr)
+        # import pdb
+        # pdb.set_trace()
+
+        # logits = outputs.detach().numpy()[0]
+        logits = outputs[1].numpy()[:,0][0]
+        return str(logits)
+
+        # I really don't understand PaddleNLP models
+        # return best_label(logits) + '\t' + floats2str(logits)
 
     print('xfields: ' + str(xfields), file=sys.stderr)
     res = tf(*xfields)
@@ -275,6 +294,18 @@ def apply_task_internal(args, xfields, tf, task, model, tokenizer):
 
     assert False, 'apply_pipeline_internal, task not supported: ' + task
 
+def ds_from_args(args):
+    from gft_internals.my_datasets import my_load_dataset
+    if get_arg(args, 'data', default=None) is None:
+        print('ds_from_args: cannot find data', file=sys.stderr)
+        return None
+    ds = my_load_dataset(args)
+    split = get_arg(args, 'split', default=None)
+    if split in ds: return ds[split]
+    else: 
+        print('ds_from_args: cannot find split (%s) in data' % str(split), file=sys.stderr)
+        return None    
+
 def gft_predict_pd_with_pipeline(args):
     # from transformers import pipeline
     model_provider,model_key = parse_model_specification(args, keyword='model')
@@ -302,7 +333,7 @@ def gft_predict_pd_with_pipeline(args):
             tf = Taskflow(task, model=model_key)
 
     from gft_internals import my_auto_model_pd
-    model,tokenizer,extractor = my_auto_model_pd.my_load_model_tokenizer_and_extractor(args, 'model')
+    model,tokenizer,extractor = my_auto_model_pd.my_load_model_tokenizer_and_extractor_pd(args, 'model')
 
     # if not model is None and tokenizer is None:
     #     from transformers import AutoFeatureExtractor
@@ -318,23 +349,42 @@ def gft_predict_pd_with_pipeline(args):
     # else:
     #     pipe = pipeline(task, model=model, tokenizer=tokenizer)
         
+    ds = ds_from_args(args)
+    eqn = get_arg(args, 'eqn')
     line_number=0
     errors=0
-    for line in sys.stdin:
-        line_number +=1
-        fields = line.rstrip().split(delim)
-        xfields = None
+    if ds is None:
+        print('about to read from sys.stdin', file=sys.stderr)
+        for line in sys.stdin:
+            line_number +=1
+            fields = line.rstrip().split(delim)
+            xfields = None
+            
+            if len(fields) == 0: continue
 
-        if len(fields) == 0: continue
+            if len(fields) >= 1: 
+                xfields = fields[0].split('|')
 
-        if len(fields) >= 1: 
-            xfields = fields[0].split('|')
-
-        # res,err = apply_pipeline(args, xfields, pipe, task, model, tokenizer)
-        res,err = apply_task(args, xfields, tf, task, model, tokenizer)
-        errors += err
-        print(line.rstrip() + delim + res)
-        sys.stdout.flush()
+            # res,err = apply_pipeline(args, xfields, pipe, task, model, tokenizer)
+            res,err = apply_task(args, xfields, tf, task, model, tokenizer)
+            errors += err
+            print(line.rstrip() + delim + res)
+            sys.stdout.flush()
+    else:
+        from gft_internals.parse_eqn import parse_eqn
+        eqn = parse_eqn(eqn)
+        assert not eqn is None, 'gft_predict: if --data argument is specified, then --eqn argument is required'
+        for record in ds:
+            line_number +=1
+            yfields = [record[f] for f in eqn['y_field_names']]
+            xfields = [record[f] for f in eqn['x_field_names']]
+            res,err = apply_task(args, xfields, tf, task, model, tokenizer)
+            errors += err
+            print(delim.join(['|'.join(map(str, xfields)), 
+                              '|'.join(map(str, yfields)), 
+                              res]))
+            sys.stdout.flush()
+        
 
     print('total time: %0.2f seconds; processed %d input lines; caught %d errors\n' % (time.time() - t0, line_number, errors), file=sys.stderr)
 

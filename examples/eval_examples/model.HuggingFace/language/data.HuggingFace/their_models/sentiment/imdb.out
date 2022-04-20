@@ -20,3 +20,5 @@ hostname = asimov-84.svail.baidu.com
 91.94 seconds	juliensimon/autonlp-imdb-demo-hf-16622775	accuracy: 0.91256	f1: 0.9125585444145536
 85.17 seconds	Sakil/imdbsentdistilbertmodel	accuracy: 0.91916	f1: 0.9191555729591753
 169.91 seconds	ZiweiG/ziwei-bert-imdb	accuracy: 0.8816	f1: 0.8815981805902822
+174.21 seconds	ZiweiG/ziwei-bertimdb-prob	accuracy: 0.60352	f1: 0.595940637672593
+87.92 seconds	lschneidpro/distilbert_uncased_imdb	accuracy: 0.86928	f1: 0.8692791433077938
