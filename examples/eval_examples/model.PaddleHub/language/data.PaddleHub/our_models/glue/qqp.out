@@ -1,3 +1,1 @@
-hostname = asimov-58.svail.baidu.com
-***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.PaddleHub/glue/qqp/ckpt/best	data: P:glue,qqp	eqn: classify: labels ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not callable"), <traceback object at 0x7fccaeef60c0>)
-***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/qqp/ckpt/best	data: P:glue,qqp	eqn: classify: labels ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not callable"), <traceback object at 0x7fec89b9e080>)
+hostname = asimov-47.svail.baidu.com

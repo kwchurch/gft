@@ -1,17 +1,1 @@
-hostname = asimov-58.svail.baidu.com
-***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.PaddleHub/glue/rte/ckpt/best	data: P:glue,rte	eqn: classify: labels ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not callable"), <traceback object at 0x7ff4bca50c80>)
-***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.1.batch.128/rte/ckpt/best	data: P:glue,rte	eqn: classify: labels ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not callable"), <traceback object at 0x7f71bf898c80>)
-***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/rte/ckpt/best	data: P:glue,rte	eqn: classify: labels ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'TypeError'>, TypeError("'NoneType' object is not callable"), <traceback object at 0x7f9793694980>)
-306.17 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.512/rte/ckpt/best	accuracy: 0.8375451263537906
-305.08 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.256/rte/ckpt/best	accuracy: 0.8483754512635379
-304.43 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.256/rte/ckpt/best	accuracy: 0.8375451263537906
-304.41 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.512/rte/ckpt/best	accuracy: 0.8592057761732852
-307.05 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.128/rte/ckpt/best	accuracy: 0.8231046931407943
-304.04 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.128/rte/ckpt/best	accuracy: 0.8303249097472925
-86.41 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.512/rte/ckpt/best	accuracy: 0.7978339350180506
-84.63 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.256/rte/ckpt/best	accuracy: 0.7906137184115524
-84.79 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.256/rte/ckpt/best	accuracy: 0.7833935018050542
-84.55 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.512/rte/ckpt/best	accuracy: 0.7906137184115524
-84.68 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.128/rte/ckpt/best	accuracy: 0.7906137184115524
-84.56 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128/rte/ckpt/best	accuracy: 0.7942238267148014
-85.43 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/rte/ckpt/best	accuracy: 0.6173285198555957
+hostname = asimov-47.svail.baidu.com

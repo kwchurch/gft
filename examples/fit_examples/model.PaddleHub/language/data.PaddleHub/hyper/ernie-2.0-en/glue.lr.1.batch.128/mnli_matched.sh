@@ -3,6 +3,11 @@
 echo hostname = `hostname`
 . $params
 
+echo epochs = $epochs
+echo model = $model
+echo bs = $bs
+echo lr = $lr
+
 gft_fit --model P:$model \
     --data P:glue,mnli \
     --metric H:glue,mnli \
@@ -10,6 +15,6 @@ gft_fit --model P:$model \
     --output_dir $1 \
     --eqn 'classify: labels ~ sentence1 + sentence2' \
     --learning_rate $lr \
-    --per_device_eval_batch_size $bs \
-    --num_train_epochs 10
+    --per_device_train_batch_size $bs \
+--num_train_epochs $epochs
 

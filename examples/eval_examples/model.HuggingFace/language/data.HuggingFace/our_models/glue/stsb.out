@@ -1,27 +1,2 @@
-hostname = asimov-88.svail.baidu.com
-5.11 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.PaddleHub/glue/stsb/ckpt/best	pearson: 0.8964510133245872
-12.64 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-large/glue.lr.2.batch.512/stsb/ckpt/best	pearson: 0.9238446820708817
-11.43 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-large/glue.lr.1.batch.256/stsb/ckpt/best	pearson: 0.9228984535882873
-11.46 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-large/glue.lr.2.batch.256/stsb/ckpt/best	pearson: 0.9238446820708817
-11.70 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-large/glue.lr.1.batch.512/stsb/ckpt/best	pearson: 0.9228984535882873
-11.49 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-large/glue.lr.2.batch.128/stsb/ckpt/best	pearson: 0.9238446820708817
-11.60 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-large/glue.lr.1.batch.128/stsb/ckpt/best	pearson: 0.9228984535882873
-2.07 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.512/stsb/ckpt/best	pearson: 0.8655813030029762
-1.94 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/stsb/ckpt/best	pearson: 0.8632944982828595
-2.01 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.256/stsb/ckpt/best	pearson: 0.8655813030029762
-2.16 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.512/stsb/ckpt/best	pearson: 0.8632944982828595
-1.88 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/stsb/ckpt/best	pearson: 0.8655813030029762
-1.89 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/stsb/ckpt/best	pearson: 0.8632944982828595
-3.93 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.512/stsb/ckpt/best	pearson: 0.9111112746313567
-3.84 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.1.batch.256/stsb/ckpt/best	pearson: 0.9090090847153038
-4.10 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.256/stsb/ckpt/best	pearson: 0.9070894595960965
-3.67 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.1.batch.512/stsb/ckpt/best	pearson: 0.9001212421076062
-3.78 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.128/stsb/ckpt/best	pearson: 0.9039515305613819
-4.88 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.1.batch.128/stsb/ckpt/best	pearson: 0.9090492958446714
-3.87 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.512/stsb/ckpt/best	pearson: 0.9000010805915069
-3.74 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.256/stsb/ckpt/best	pearson: 0.8960496224450021
-3.74 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.256/stsb/ckpt/best	pearson: 0.8996466446864638
-6.49 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.512/stsb/ckpt/best	pearson: 0.8962825359367771
-3.76 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.128/stsb/ckpt/best	pearson: 0.8964717473564825
-3.95 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.128/stsb/ckpt/best	pearson: 0.8990632898153749
-3.74 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/stsb/ckpt/best	pearson: 0.8964510133245872
+hostname = asimov-30
+4.22 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.PaddleHub/glue/stsb/ckpt/best	pearson: 0.8964510133245872

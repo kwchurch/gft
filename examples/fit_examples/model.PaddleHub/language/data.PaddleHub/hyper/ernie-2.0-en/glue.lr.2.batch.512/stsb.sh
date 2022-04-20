@@ -10,7 +10,7 @@ gft_fit --model P:$model \
     --eqn 'regress: labels ~ sentence1 + sentence2' \
     --figure_of_merit pearson \
     --learning_rate $lr \
-    --per_device_eval_batch_size $bs \
-    --num_train_epochs 10
+--per_device_train_batch_size $bs \
+--num_train_epochs $epochs
 
 

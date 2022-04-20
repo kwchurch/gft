@@ -6,7 +6,7 @@ d=data.HuggingFace
 
 subtask=qqp
 
-for model in `find $gft_checkpoints/fit_examples/  -name 'best' | egrep glue | egrep $subtask`
+for model in `find "$gft_checkpoints"*/fit_examples/  -name 'best' | egrep glue | egrep $subtask`
 	     do
 
 

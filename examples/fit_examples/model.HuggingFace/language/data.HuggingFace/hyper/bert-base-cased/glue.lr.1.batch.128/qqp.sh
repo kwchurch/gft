@@ -9,7 +9,7 @@ gft_fit --model H:$model \
     --output_dir $1 \
     --eqn 'classify: label ~ question1 + question2' \
     --learning_rate $lr \
-    --per_device_eval_batch_size $bs \
+--per_device_train_batch_size $bs \
     --num_train_epochs 10
 
 

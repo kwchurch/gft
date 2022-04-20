@@ -90,11 +90,13 @@
 0	351	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/stsb.out
 0	3454	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/conll2003/pos.out
 0	32	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/qqp.out
+0	320	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad_v2.out
 0	2	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/glue/qqp.out
 0	26	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/glue/stsb.out
 0	23	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.Paddle/their_models/sentiment/imdb.out
 0	23	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/imdb.out
 0	236	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/sst2.out
+0	232	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/syn_ant/verb.64.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/syn_ant/verb.32.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/syn_ant/noun.64.out
@@ -117,9 +119,11 @@
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-gram-zh.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-2.0-large-en.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-2.0-en.out
+0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-2.0-en-finetuned-squad.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/lcqmc/ernie-1.0.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-tiny.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-2.0-en.out
+0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-2.0-en-finetuned-squad.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/text_similarity/bq_corpus/ernie-1.0.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_2.0_large_en.out
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_1.0_large_ch.out
@@ -167,7 +171,5 @@
 0	1	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/adj.16.out
 0	17	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/text_classification/emotion.out
 0	15	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/our_models/glue/cola.out
-0	143	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad_v2.out
 0	13	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/glue/cola.out
-0	110	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad.out
 0	108	/mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue/qnli.out

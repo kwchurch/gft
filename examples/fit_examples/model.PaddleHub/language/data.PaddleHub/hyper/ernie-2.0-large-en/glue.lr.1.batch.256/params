@@ -1,3 +1,4 @@
 model=ernie-2.0-large-en
 lr=1e-5
 bs=256
+epochs=3
