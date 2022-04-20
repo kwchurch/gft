@@ -10,7 +10,7 @@ model=$hub:$gft_checkpoints/$m/language/$d/glue/$task/ckpt/best
 out=$model
 
 
-gft_predict --data $dhub:glue,$task --eqn 'classify: labels ~ sentence' --split test --model $model >$out/predict.out 2>$out/predict.err
+gft_predict --data $dhub:glue,$task --eqn 'classify: labels ~ sentence' --split test --model $model # >$out/predict.out 2>$out/predict.err
 
 
 

@@ -1,1 +1,15 @@
 hostname = asimov-92.svail.baidu.com
+2.39 seconds	textattack/bert-base-uncased-RTE	accuracy: 0.7256317689530686
+2.88 seconds	textattack/roberta-base-RTE	accuracy: 0.7942238267148014
+3.04 seconds	textattack/albert-base-v2-RTE	accuracy: 0.776173285198556
+1.94 seconds	textattack/distilbert-base-uncased-RTE	accuracy: 0.6570397111913358
+5.70 seconds	howey/roberta-large-rte	accuracy: 0.7870036101083032
+1.70 seconds	gchhablani/bert-base-cased-finetuned-rte	accuracy: 0.6714801444043321
+1.70 seconds	yoshitomo-matsubara/bert-base-uncased-rte	accuracy: 0.6750902527075813
+1.68 seconds	yoshitomo-matsubara/bert-base-uncased-rte_from_bert-large-uncased-rte	accuracy: 0.6859205776173285
+1.66 seconds	howey/bert-base-uncased-rte	accuracy: 0.6498194945848376
+1.99 seconds	Alireza1044/albert-base-v2-rte	accuracy: 0.6859205776173285
+6.86 seconds	yoshitomo-matsubara/bert-large-uncased-rte	accuracy: 0.740072202166065
+3.66 seconds	textattack/xlnet-base-cased-RTE	accuracy: 0.7111913357400722
+6.74 seconds	gchhablani/bert-large-cased-finetuned-rte	accuracy: 0.6714801444043321
+7.49 seconds	anirudh21/albert-large-v2-finetuned-rte	accuracy: 0.8158844765342961
