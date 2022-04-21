@@ -8,6 +8,8 @@ gft_predict --model C:$gft_checkpoints/fit_examples/model.HuggingFace/language/d
 	 --base_model H:bert-base-cased \
 	 --data H:$task \
 	 --eqn 'classify: label ~ text' \
-	 --split train
+	 --split train \
+	 --do_not_catch_errors
+
 
 

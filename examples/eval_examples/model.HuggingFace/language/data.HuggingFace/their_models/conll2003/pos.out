@@ -1,4 +1,4 @@
-hostname = asimov-86.svail.baidu.com
+hostname = asimov-177.svail.baidu.com
 ['SOCCER', '-', 'JAPAN', 'GET', 'LUCKY', 'WIN', ',', 'CHINA', 'IN', 'SURPRISE', 'DEFEAT', '.']	[21, 8, 22, 37, 22, 22, 6, 22, 15, 12, 21, 7]	soccer/NN:0.7753	-/NNP:0.1589	japan/NNP:0.9778	get/VB:0.4726	lucky/JJ:0.8365	win/VBP:0.5603	,/IN:0.5446	china/NNP:0.9930	in/IN:0.9977	surprise/NN:0.9367	defeat/NN:0.7223	./DT:0.2119
 ['Nadim', 'Ladki']	[22, 22]	nad/NNP:0.9909	##im/NNP:0.9813	lad/NNP:0.9881	##ki/NNP:0.8839
 ['AL-AIN', ',', 'United', 'Arab', 'Emirates', '1996-12-06']	[22, 6, 22, 22, 23, 11]	al/NNP:0.7474	-/NNP:0.4996	ain/NNP:0.9874	,/NNP:0.3368	united/NNP:0.9936	arab/NNP:0.9354	emirates/NNP:0.9909	1996/CD:0.9790	-/NN:0.2995	12/CD:0.9889	-/NN:0.2572	06/CD:0.9729

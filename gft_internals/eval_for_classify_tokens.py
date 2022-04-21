@@ -224,14 +224,14 @@ MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
 #     return args
 
 def my_eval(args, eqn, accelerator, raw_datasets):
-    print('calling my_eval in eval_for_classify_tokens.py')
+    print('calling my_eval in eval_for_classify_tokens.py', file=sys.stderr)
     assert eqn['eqn_type'] == parse_eqn.eqn_types['classify_tokens'], \
         'fit_for_classify_tokens is for eqn_type: classify_tokens, but eqn_type is: ' + str(eqn['eqn_type'])
 
 
     # If passed along, set the training seed now.
     seed = get_arg(args, 'seed', default=None)
-    print('seed: ' + str(seed))
+    print('seed: ' + str(seed), file=sys.stderr)
     if not seed is None:
         set_seed(seed)
 
@@ -263,10 +263,10 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     assert len(y_field_names) == 1, 'classify_tokens is currently limited to just one y variable: ' + str(y_field_names)
     assert len(x_field_names) in [1,2], 'classify_tokens is currently limited to just one or two x variables: ' + str(x_field_names)
 
-    print('label_list: ' + str(label_list))
-    print('interned_labels: ' + str(interned_labels))
-    print('num_labels: ' + str(num_labels))
-    print('label_to_id: ' + str(label_to_id))
+    print('label_list: ' + str(label_list), file=sys.stderr)
+    print('interned_labels: ' + str(interned_labels), file=sys.stderr)
+    print('num_labels: ' + str(num_labels), file=sys.stderr)
+    print('label_to_id: ' + str(label_to_id), file=sys.stderr)
 
     def id_ify(lab):
         if lab in interned_labels:
@@ -281,11 +281,11 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     assert not metric_provider == 'PaddlePaddle', 'PaddlePaddle metrics are not supported (yet)'  # stub to flesh out later
 
     if metric_key is None:
-        print('load_metric: seqeval')
+        print('load_metric: seqeval', file=sys.stderr)
         val_metric = load_metric("seqeval")
         train_metric = load_metric("seqeval")
     else:
-        print('load_metric: ' + metric_key)
+        print('load_metric: ' + metric_key, file=sys.stderr)
         val_metric = load_metric(*metric_key.split(','))
         train_metric = load_metric(*metric_key.split(','))
 
@@ -592,7 +592,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     best_so_far = None
     time0 = time.time()
     for epoch in range(epochs):
-        print('about to train epoch %d: %0.0f sec' % (epoch, time.time() - time0))
+        print('about to train epoch %d: %0.0f sec' % (epoch, time.time() - time0), file=sys.stderr)
         model.train()
         for step, batch in enumerate(train_dataloader):
             outputs = model(**batch)
@@ -609,7 +609,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
             if completed_steps >= max_train_steps:
                 break
 
-        print('about to eval epoch %d: %0.0f sec' % (epoch, time.time() - time0))
+        print('about to eval epoch %d: %0.0f sec' % (epoch, time.time() - time0), file=sys.stderr)
         model.eval()
         for step, batch in enumerate(eval_dataloader):
             with torch.no_grad():
@@ -633,19 +633,28 @@ def my_eval(args, eqn, accelerator, raw_datasets):
         logger.info(f"epoch {epoch}: {eval_metric} {time.time() - time0} seconds")
         accelerator.print('%0.0f seconds: epoch %d validation %s' % (time.time() - time0, epoch, str(eval_metric)))
 
-        fn = checkpoint_filename(args, model_key, epoch, False)
-        b,best = better(args, eval_metric, best_so_far)
-        if b:
-            best_so_far = best
-            print('best_so_far: %f' % (best_so_far))
-            fn = checkpoint_filename(args, model_key, epoch, True)
-        if not get_arg(args, 'output_dir') is None:
-            prev = checkpoint_filename(args, model_key, epoch-1, False)
-            try:
-                if os.path.exists(prev): shutil.rmtree(prev)
-            except:
-                print('failed to delete: ' + str(prev), sys.stderr)
-            model.save_pretrained(fn)
+        fig = get_arg(args, 'figure_of_merit', default=None)
+
+        if fig is None:
+            res = '\t'.join(['%s: %s' % (k, str(eval_metric[k])) for k in eval_metric])
+        else:
+            res = '%s: %s' % (fig, str(eval_metric[fig]))
+
+        accelerator.print('\t'.join(map(str, ['%0.2f seconds' % (time.time() - time0), model_key, res])))
+
+        # fn = checkpoint_filename(args, model_key, epoch, False)
+        # b,best = better(args, eval_metric, best_so_far)
+        # if b:
+        #     best_so_far = best
+        #     print('best_so_far: %f' % (best_so_far), file=sys.stderr)
+        #     fn = checkpoint_filename(args, model_key, epoch, True)
+        # if not get_arg(args, 'output_dir') is None:
+        #     prev = checkpoint_filename(args, model_key, epoch-1, False)
+        #     try:
+        #         if os.path.exists(prev): shutil.rmtree(prev)
+        #     except:
+        #         print('failed to delete: ' + str(prev), sys.stderr)
+        #     model.save_pretrained(fn)
 
     # if args.checkpoint is not None:
     #     accelerator.wait_for_everyone()

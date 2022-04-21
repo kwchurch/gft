@@ -1,2 +1,2 @@
-hostname = asimov-35.svail.baidu.com
-2.86 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/syn_ant/verb.32/ckpt/32/best	accuracy: 0.8964757709251101	f1: 0.8964255203479341
+hostname = asimov-207.svail.baidu.com
+3.45 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/syn_ant/verb.32/ckpt/32/best	accuracy: 0.8964757709251101	f1: 0.8964255203479341

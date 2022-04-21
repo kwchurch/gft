@@ -124,7 +124,9 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
 
     if task == "text-classification" or task == "sentiment-analysis":
         texts = [xfields[0]]
-        res = pipe(texts)
+        # print('texts: ' + str(texts), file=sys.stderr)
+        res = pipe(texts, max_length=512)
+        # print('res: ' + str(res), file=sys.stderr)
         return str(res[0]['label']) + '\t' + str(res[0]['score'])
 
     if task == "text-generation":

@@ -1,13 +1,13 @@
-hostname = asimov-47.svail.baidu.com
-347.55 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.256/sst2/ckpt/best	accuracy: 0.9610091743119266
-347.52 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.256/sst2/ckpt/best	accuracy: 0.4908256880733945
-347.60 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.512/sst2/ckpt/best	accuracy: 0.9518348623853211
-344.88 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.128/sst2/ckpt/best	accuracy: 0.9461009174311926
-96.95 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.512/sst2/ckpt/best	accuracy: 0.9243119266055045
-96.79 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.256/sst2/ckpt/best	accuracy: 0.9403669724770642
-96.99 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.512/sst2/ckpt/best	accuracy: 0.9380733944954128
-97.17 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.128/sst2/ckpt/best	accuracy: 0.9288990825688074
-96.61 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128/sst2/ckpt/best	accuracy: 0.9461009174311926
-341.37 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/ernie-2.0-large-en/sst2/ckpt/best	accuracy: 0.948394495412844
-96.24 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/ernie-2.0-en/sst2/ckpt/best	accuracy: 0.9311926605504587
-101.10 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/sst2/ckpt/best	accuracy: 0.908256880733945
+hostname = asimov-210.svail.baidu.com
+337.96 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.256/sst2/ckpt/best	accuracy: 0.9610091743119266
+327.68 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.256/sst2/ckpt/best	accuracy: 0.4908256880733945
+323.36 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.512/sst2/ckpt/best	accuracy: 0.9518348623853211
+323.62 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.128/sst2/ckpt/best	accuracy: 0.9461009174311926
+91.20 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.512/sst2/ckpt/best	accuracy: 0.9243119266055045
+91.11 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.256/sst2/ckpt/best	accuracy: 0.9403669724770642
+90.94 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.512/sst2/ckpt/best	accuracy: 0.9380733944954128
+90.95 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.128/sst2/ckpt/best	accuracy: 0.9288990825688074
+90.54 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128/sst2/ckpt/best	accuracy: 0.9461009174311926
+324.30 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/ernie-2.0-large-en/sst2/ckpt/best	accuracy: 0.948394495412844
+91.62 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.PaddleHub/glue/ernie-2.0-en/sst2/ckpt/best	accuracy: 0.9311926605504587
+96.01 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/sst2/ckpt/best	accuracy: 0.908256880733945
