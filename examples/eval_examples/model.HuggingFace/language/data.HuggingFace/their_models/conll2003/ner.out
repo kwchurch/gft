@@ -1,2 +1,51 @@
 hostname = asimov-26.svail.baidu.com
-***ERROR***	model: H:xlm-roberta-large-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`'), <traceback object at 0x7fc6dce52340>)
+26 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+26.27 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
+53 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+52.80 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
+80 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+79.58 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
+3 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+3.06 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
+6 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+6.08 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
+9 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+9.10 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
+6 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+6.12 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
+12 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+12.18 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
+18 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+18.26 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
+28 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+28.06 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
+56 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+56.34 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
+86 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+85.53 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
+***ERROR***	model: H:dbmdz/electra-large-discriminator-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f5160c89900>)
+6 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
+6.22 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
+12 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
+12.43 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
+19 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
+18.62 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
+***ERROR***	model: H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f161f878600>)
+6 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
+6.24 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+13 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
+12.51 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+19 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
+18.72 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+12 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+11.89 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
+24 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+23.88 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
+36 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+35.81 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
+13 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
+12.53 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
+25 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
+25.06 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
+38 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
+37.61 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661

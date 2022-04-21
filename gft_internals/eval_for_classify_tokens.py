@@ -491,7 +491,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     # Scheduler and math around the number of training steps.
     gas = get_arg(args, 'gradient_accumulation_steps', default=1)
     num_update_steps_per_epoch = math.ceil(len(train_dataloader) / gas)
-    epochs = int(get_arg(args, 'num_train_epochs', default=15))
+    epochs = int(get_arg(args, 'num_train_epochs', default=1))
     max_train_steps = get_arg(args, 'max_train_steps', default=None)
     if max_train_steps is None:
         max_train_steps = epochs * num_update_steps_per_epoch
@@ -593,21 +593,21 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     time0 = time.time()
     for epoch in range(epochs):
         print('about to train epoch %d: %0.0f sec' % (epoch, time.time() - time0), file=sys.stderr)
-        model.train()
-        for step, batch in enumerate(train_dataloader):
-            outputs = model(**batch)
-            loss = outputs.loss
-            loss = loss / gas
-            accelerator.backward(loss)
-            if step % gas == 0 or step == len(train_dataloader) - 1:
-                optimizer.step()
-                lr_scheduler.step()
-                optimizer.zero_grad()
-                # progress_bar.update(1)
-                completed_steps += 1
+        # model.train()
+        # for step, batch in enumerate(train_dataloader):
+        #     outputs = model(**batch)
+        #     loss = outputs.loss
+        #     loss = loss / gas
+        #     accelerator.backward(loss)
+        #     if step % gas == 0 or step == len(train_dataloader) - 1:
+        #         optimizer.step()
+        #         lr_scheduler.step()
+        #         optimizer.zero_grad()
+        #         # progress_bar.update(1)
+        #         completed_steps += 1
 
-            if completed_steps >= max_train_steps:
-                break
+        #     if completed_steps >= max_train_steps:
+        #         break
 
         print('about to eval epoch %d: %0.0f sec' % (epoch, time.time() - time0), file=sys.stderr)
         model.eval()
