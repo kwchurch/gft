@@ -70,7 +70,7 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
     batch_size = int(get_arg(args, 'per_device_train_batch_size', default=MAX_GPU_BATCH_SIZE))
 
     dir = os.path.dirname(__file__)
-    if dir == '': dir = ''
+    if dir == '': dir = '.'
 
     x_field_names = eqn['x_field_names']
     y_field_names = eqn['y_field_names']
