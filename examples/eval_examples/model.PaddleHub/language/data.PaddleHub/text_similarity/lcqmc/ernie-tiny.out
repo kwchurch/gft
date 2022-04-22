@@ -1,2 +1,2 @@
 hostname = asimov-143.svail.baidu.com
-417.73 seconds	ernie-tiny	accuracy: 0.5006816632583504	f1: 0.33504730540574146
+402.89 seconds	ernie-tiny	accuracy: 0.46546239491024766	f1: 0.45930895974530883

@@ -1,9 +1,2 @@
-hostname = asimov-204.svail.baidu.com
-calling my_eval in eval_for_classify_tokens.py
-seed: 42
-label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22]
-interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10, 11: 11, 12: 12, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17, 18: 18, 21: 19, 22: 20, 19: 19, 20: 20}
-num_labels: 21
-label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8, 9: 9, 10: 10, 11: 11, 12: 12, 13: 13, 14: 14, 15: 15, 16: 16, 17: 17, 18: 18, 19: 19, 20: 20}
-load_metric: seqeval
-***ERROR***	model: P:bert-base-cased	data: H:conll2003	eqn: classify_tokens: chunk_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'AttributeError'>, AttributeError("'dict' object has no attribute 'map'"), <traceback object at 0x7fc3932385c0>)
+hostname = asimov-219.svail.baidu.com
+***ERROR***	model: P:bert-base-cased	data: H:conll2003	eqn: classify_tokens: chunk_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'AttributeError'>, AttributeError("'dict' object has no attribute 'map'"), <traceback object at 0x7fdd72a56cc0>)

@@ -1,2 +1,0 @@
-#!/bin/sh
-$emotion/do_one AdapterHub/bert-base-uncased-pf-emotion

@@ -1,9 +1,0 @@
-#!/bin/sh
-
-for model in $*
-	     do
-    echo "MODEL $model"
-
-gft_dataset --data H:amazon_reviews_multi --eqn 'classify: stars ~ review_title + review_body' --split test |
-gft_predict --model H:$model
-done

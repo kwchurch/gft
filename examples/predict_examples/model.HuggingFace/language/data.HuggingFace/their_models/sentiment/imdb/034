@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one lvwerra/distilbert-imdb

@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one huggingface-course/distilbert-base-uncased-finetuned-imdb

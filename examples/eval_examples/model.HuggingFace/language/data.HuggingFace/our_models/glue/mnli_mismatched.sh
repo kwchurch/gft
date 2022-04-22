@@ -3,8 +3,10 @@
 echo hostname = `hostname`
 m=model.HuggingFace
 d=data.HuggingFace
+subtask=mnli
 
-for model in `find "$gft_checkpoints"*/fit_examples/  -name 'best' | egrep glue | egrep $subtask`
+for model in `find "$gft_checkpoints"*/fit_examples/  -name 'best' | egrep 'glue' | egrep "$subtask"_mismatched | egrep $m | egrep $d`
+
 	     do
 
 gft_eval --model C:$model \

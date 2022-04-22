@@ -1,2 +1,0 @@
-#!/bin/sh
-$emotion/do_one EnsarEmirali/distilbert-base-uncased-finetuned-emotion

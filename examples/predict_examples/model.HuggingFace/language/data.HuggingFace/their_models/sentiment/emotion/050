@@ -1,2 +1,0 @@
-#!/bin/sh
-$emotion/do_one AdapterHub/roberta-base-pf-emotion

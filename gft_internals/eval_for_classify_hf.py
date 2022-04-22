@@ -75,13 +75,6 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
 
     # import pdb
     # pdb.set_trace()
-    
-    if not is_regression:
-        interned_labels,label_list = intern_labels(raw_datasets, y_field_names, args)
-        num_labels = len(interned_labels)
-    else:
-        interned_labels = label_list = None
-        num_labels = len(y_field_names)
 
     base_model_provider, base_model_key, model_provider, model_key = parse_base_model_specification(args)
 
@@ -98,6 +91,16 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
     model,tokenizer,extractor = my_load_model_tokenizer_and_extractor(args)
 
     print('tokenizer: ' + str(tokenizer), file=sys.stderr)
+
+    from gft_internals.gft_util import labels_from_model
+    labs = labels_from_model(model)
+
+    if not is_regression:
+        interned_labels,label_list = intern_labels(raw_datasets, y_field_names, args, labs=labs)
+        num_labels = len(interned_labels)
+    else:
+        interned_labels = label_list = None
+        num_labels = len(y_field_names)
 
     # model = AutoModelForSequenceClassification_hf.from_pretrained(model_key, return_dict=True, num_labels=num_labels)
     # if not base_model_key is None: 

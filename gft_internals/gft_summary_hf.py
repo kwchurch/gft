@@ -5,8 +5,8 @@ from gft_internals import my_auto_model_hf
 from gft_internals.gft_util import parse_model_specification,parse_dataset_specification,parse_task_specification,get_arg
 from gft_internals import my_datasets,parse_eqn
 
-def get_labels(args):
-    model,tokenizer,extractor = my_auto_model_hf.my_load_model_tokenizer_and_extractor(args, 'model')
+# def get_labels(args):
+#     model,tokenizer,extractor = my_auto_model_hf.my_load_model_tokenizer_and_extractor(args, 'model')
 
 from huggingface_hub import HfApi, ModelFilter, ModelSearchArguments, list_models, list_datasets, model_info, dataset_info
 
@@ -158,17 +158,24 @@ def summarize_model(args):
 
     model,tokenizer,extractor = my_auto_model_hf.my_load_model_tokenizer_and_extractor(args, 'model')
 
-    try:
-        if hasattr(model, 'get_labels'):
-            labs = model.get_labels()
-            if not labs is None:
-                print('\t'.join(map(str, [prefix, 'labels: ' +  ', '.join(map(str, labs))])))
-        elif hasattr(model, 'config'):        
-            print('\t'.join(map(str, [prefix, 'labels: ' + ', '.join(map(str, model.config.label2id.keys()))])))
-        else:
-            print('\t'.join(map(str, [prefix, 'labels: NA'])))
-    except:
+    from gft_internals.gft_util import labels_from_model
+    labs = labels_from_model(model)
+    if not labs is None:
+        print('\t'.join(map(str, [prefix, 'labels: ' +  ', '.join(map(str, labs))])))
+    else:
         print('\t'.join(map(str, [prefix, 'labels: NA'])))
+    
+    # try:
+    #     if hasattr(model, 'get_labels'):
+    #         labs = model.get_labels()
+    #         if not labs is None:
+    #             print('\t'.join(map(str, [prefix, 'labels: ' +  ', '.join(map(str, labs))])))
+    #     elif hasattr(model, 'config'):        
+    #         print('\t'.join(map(str, [prefix, 'labels: ' + ', '.join(map(str, model.config.label2id.keys()))])))
+    #     else:
+    #         print('\t'.join(map(str, [prefix, 'labels: NA'])))
+    # except:
+    #     print('\t'.join(map(str, [prefix, 'labels: NA'])))
         
 def summarize_splits(data_key, datasets):
     if not datasets is None:

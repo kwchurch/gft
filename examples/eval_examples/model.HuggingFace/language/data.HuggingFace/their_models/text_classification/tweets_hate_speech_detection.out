@@ -1,2 +1,2 @@
-hostname = asimov-121.svail.baidu.com
-79.15 seconds	mrm8488/distilroberta-finetuned-tweets-hate-speech	accuracy: 0.994305738063951	f1: 0.9776765742511933
+hostname = asimov-142.svail.baidu.com
+47.48 seconds	mrm8488/distilroberta-finetuned-tweets-hate-speech	accuracy: 0.994305738063951	f1: 0.9776765742511933

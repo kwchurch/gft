@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one monologg/electra-small-finetuned-imdb

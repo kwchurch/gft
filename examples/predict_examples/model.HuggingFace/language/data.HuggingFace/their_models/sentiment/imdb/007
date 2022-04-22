@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one allenai/dsp_roberta_base_tapt_imdb_70000

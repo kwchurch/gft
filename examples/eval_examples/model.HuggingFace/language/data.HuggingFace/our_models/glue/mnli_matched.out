@@ -1,1 +1,6 @@
-hostname = asimov-217.svail.baidu.com
+hostname = asimov-176.svail.baidu.com
+16.07 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/mnli_matched/ckpt/best	accuracy: 0.8164034640855833
+15.72 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/mnli_matched/ckpt/best	accuracy: 0.8166072338257768
+28.79 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.128/mnli_matched/ckpt/best	accuracy: 0.8375955170657158
+27.37 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.128/mnli_matched/ckpt/best	accuracy: 0.8336220071319409
+28.22 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/mnli_matched/ckpt/best	accuracy: 0.8074375955170657

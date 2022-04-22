@@ -1,2 +1,0 @@
-#!/bin/sh
-$go_emotions/do_one justin871030/bert-base-uncased-goemotions-group-finetuned

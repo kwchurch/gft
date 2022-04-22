@@ -1,2 +1,2 @@
 hostname = asimov-211.svail.baidu.com
-231.59 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.PaddleHub/language/syn_ant/fallows.64/ckpt/64/best	accuracy: 0.9413073713490959	f1: 0.9399525427619797
+223.10 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.PaddleHub/language/syn_ant/fallows.64/ckpt/64/best	accuracy: 0.937134909596662	f1: 0.93571655818254

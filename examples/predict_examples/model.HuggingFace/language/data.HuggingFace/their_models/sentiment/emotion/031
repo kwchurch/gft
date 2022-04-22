@@ -1,2 +1,0 @@
-#!/bin/sh
-$emotion/do_one cscottp27/distilbert-base-uncased-finetuned-emotion

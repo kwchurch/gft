@@ -1,2 +1,0 @@
-#!/bin/sh
-$go_emotions/do_one bhadresh-savani/bert-base-go-emotion

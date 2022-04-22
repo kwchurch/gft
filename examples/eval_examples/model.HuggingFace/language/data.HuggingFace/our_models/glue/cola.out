@@ -1,14 +1,19 @@
-hostname = asimov-212.svail.baidu.com
-2.21 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.PaddleHub/glue/cola/ckpt/best	matthews_correlation: 0.49787102363508634
-1.82 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.512/cola/ckpt/best	matthews_correlation: 0.5331291095663535
-1.52 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.5518326707011334
-1.63 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.5331291095663535
-2.59 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.5331291095663535
-2.51 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.5518326707011334
-3.45 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.5994237360829193
-3.39 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.628925787579466
-3.28 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.512/cola/ckpt/best	matthews_correlation: 0.591702009198275
-3.37 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.6257597716930143
-2.25 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.5899314497879129
-3.68 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.6336264552651618
-3.40 seconds	/mnt/big/kwc/morphology/results/20220413/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/cola/ckpt/best	matthews_correlation: 0.49787102363508634
+hostname = asimov-176.svail.baidu.com
+4.55 seconds	/mnt/big/kwc/morphology/results/20220419.V100/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-large/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.6628190187691624
+3.28 seconds	/mnt/big/kwc/morphology/results/20220419.V100/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.512/cola/ckpt/best	matthews_correlation: 0.49110677806667025
+2.95 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.512/cola/ckpt/best	matthews_correlation: 0.47824079191797
+2.29 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.4849964365114935
+2.54 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.5206625281973394
+2.26 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.512/cola/ckpt/best	matthews_correlation: 0.40967277521838724
+2.26 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.5320879841803337
+2.62 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.5180561502900504
+3.23 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.5300972900950771
+3.15 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.5815365132136683
+3.53 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.603805483309499
+3.50 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.0
+3.83 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.5393878269002617
+3.30 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.5807606001872874
+5.69 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.512/cola/ckpt/best	matthews_correlation: 0.4747587637452304
+2.35 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.6082844689817133
+2.24 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.5520601255693537
+3.07 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/cola/ckpt/best	matthews_correlation: 0.49787102363508634

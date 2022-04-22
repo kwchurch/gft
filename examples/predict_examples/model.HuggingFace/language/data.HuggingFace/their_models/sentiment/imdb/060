@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one textattack/distilbert-base-uncased-imdb

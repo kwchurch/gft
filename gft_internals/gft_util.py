@@ -162,17 +162,31 @@ def my_split(val):
     if isinstance(val, str): return val.split()
     else: return [val]
 
-def intern_labels(dataset, fields, args):
-    if hasattr(dataset['train'], 'features') and hasattr(dataset['train'].features[fields[0]], 'names'):
+def labels_from_model(model):
+    if hasattr(model, 'get_labels'):
+        labs = model.get_labels()
+        if not labs is None:
+            return labs
+    if hasattr(model, 'config'):        
+        return model.config.label2id.keys()
+    return None
+
+def invert_labels(labels):
+    return {l: i for i, l in enumerate(labels)}
+
+def intern_labels(dataset, fields, args, labs=None):
+    if not labs is None:
+        return invert_labels(labs),labs
+    elif hasattr(dataset['train'], 'features') and hasattr(dataset['train'].features[fields[0]], 'names'):
         labels = dataset['train'].features[fields[0]].names
         print('intern_labels: ' + str(labels), file=sys.stderr)
-        res = {l: i for i, l in enumerate(labels)}
-        return res,labels
+        # res = {l: i for i, l in enumerate(labels)}
+        return invert_labels(labels),labels
     elif hasattr(dataset['train'], 'label_list') and not dataset['train'].label_list is None:
         labels = dataset['train'].label_list
         print('intern_labels: ' + str(labels), file=sys.stderr)
-        res = {l: i for i, l in enumerate(labels)}
-        return res, labels
+        # res = {l: i for i, l in enumerate(labels)}
+        return invert_labels(labels),labels
     else:
         print('intern_labels: computing defaults', file=sys.stderr)
         res = {}

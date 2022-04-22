@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one lannelin/bert-imdb-1hidden

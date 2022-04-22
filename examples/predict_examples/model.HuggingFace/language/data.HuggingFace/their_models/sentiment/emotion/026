@@ -1,2 +1,0 @@
-#!/bin/sh
-$emotion/do_one Fengkai/distilbert-base-uncased-finetuned-emotion

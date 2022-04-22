@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one textattack/albert-base-v2-imdb

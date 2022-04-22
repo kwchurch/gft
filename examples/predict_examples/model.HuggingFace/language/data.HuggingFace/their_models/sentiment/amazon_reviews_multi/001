@@ -1,2 +1,0 @@
-#!/bin/sh
-$amazon_reviews_multi/do_one lewtun/roberta-base-bne-finetuned-amazon_reviews_multi

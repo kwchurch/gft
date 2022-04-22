@@ -1,2 +1,2 @@
-hostname = asimov-210.svail.baidu.com
-3917.99 seconds	skep_ernie_2.0_large_en	accuracy: 0.4994	f1: 0.3332439707993358
+hostname = asimov-220.svail.baidu.com
+4013.21 seconds	skep_ernie_2.0_large_en	accuracy: 0.5	f1: 0.3333333333333333

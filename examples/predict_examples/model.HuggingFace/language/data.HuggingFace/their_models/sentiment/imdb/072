@@ -1,2 +1,0 @@
-#!/bin/sh
-$imdb/do_one wrmurray/roberta-base-finetuned-imdb

@@ -13,10 +13,11 @@ for model in mrm8488/mobilebert-finetuned-pos # AdapterHub/bert-base-uncased-pf-
 #     --split test \
 #     --do_not_catch_errors
 
-gft_predict --model H:$model \
+gft_eval --model H:$model \
     --data H:conll2003 \
     --eqn 'classify_tokens: pos_tags ~ tokens' \
     --split test \
-    --do_not_catch_errors
+    --figure_of_merit overall_accuracy \
+    --is_split_into_words
 
 done
