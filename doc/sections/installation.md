@@ -10,11 +10,14 @@ Clone this repo and then say:
 pip install -r requirements/requirements.txt
 ```
 
-Make sure <a href="functions/gft_predict.md">gft_predict</a> is in your PATH.  Then set up the following environment variables with:
+Set up the 
+Make sure <a href="functions/gft_predict.md">gft_predict</a> is in your PATH.  Then set up the gft environment variable so
+the following point to examples, datasets and doc, respectively:
 
 ```sh
-g=`which gft_predict`
-export gft=`dirname $g`
+ls $gft/examples
+ls $gft/datasets
+ls $gft/doc
 ```
 
 <b style="background-color:yellow;">Unfortunately</b>, there are a number of incompatibilities between adapters, paddlespeech and
