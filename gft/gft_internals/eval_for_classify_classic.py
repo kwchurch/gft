@@ -36,7 +36,7 @@ def fit(args, eqn, accelerator, datasets):
     batch_size = int(get_arg(args, 'per_device_train_batch_size', default=16))
 
     dir = os.path.dirname(__file__)
-    if dir == '': dir = ''
+    if dir == '': dir = '.'
 
     x_field_names = eqn['x_field_names']
     y_field_names = eqn['y_field_names']
