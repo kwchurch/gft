@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: distilgpt2
+gft_summary --model P:distilgpt2

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: sberbank-ai/ruT5-large
+gft_summary --model P:sberbank-ai/ruT5-large

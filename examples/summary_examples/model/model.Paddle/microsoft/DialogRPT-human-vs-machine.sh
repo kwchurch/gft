@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: microsoft/DialogRPT-human-vs-machine
+gft_summary --model P:microsoft/DialogRPT-human-vs-machine

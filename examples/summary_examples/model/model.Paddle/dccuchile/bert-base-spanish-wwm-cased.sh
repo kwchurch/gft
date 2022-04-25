@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: dccuchile/bert-base-spanish-wwm-cased
+gft_summary --model P:dccuchile/bert-base-spanish-wwm-cased

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: allenai/scibert_scivocab_cased
+gft_summary --model P:allenai/scibert_scivocab_cased

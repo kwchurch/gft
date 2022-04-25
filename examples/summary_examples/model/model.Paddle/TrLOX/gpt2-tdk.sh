@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: TrLOX/gpt2-tdk
+gft_summary --model P:TrLOX/gpt2-tdk

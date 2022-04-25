@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: microsoft/codebert-base-mlm
+gft_summary --model P:microsoft/codebert-base-mlm

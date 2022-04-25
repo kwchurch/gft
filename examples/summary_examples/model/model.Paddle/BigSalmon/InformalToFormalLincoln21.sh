@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: BigSalmon/InformalToFormalLincoln21
+gft_summary --model P:BigSalmon/InformalToFormalLincoln21

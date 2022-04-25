@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: roberta-base
+gft_summary --model P:roberta-base

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: aubmindlab/bert-base-arabertv02
+gft_summary --model P:aubmindlab/bert-base-arabertv02

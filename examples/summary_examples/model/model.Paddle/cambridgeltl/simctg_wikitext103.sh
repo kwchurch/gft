@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: cambridgeltl/simctg_wikitext103
+gft_summary --model P:cambridgeltl/simctg_wikitext103

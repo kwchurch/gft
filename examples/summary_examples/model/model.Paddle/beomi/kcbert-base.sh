@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: beomi/kcbert-base
+gft_summary --model P:beomi/kcbert-base

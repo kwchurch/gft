@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: thatdramebaazguy/roberta-base-squad
+gft_summary --model P:thatdramebaazguy/roberta-base-squad

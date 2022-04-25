@@ -1,0 +1,40 @@
+name: gpt_model_0	labels (NA): NA	GPTModel(
+  (embeddings): GPTEmbeddings(
+    (word_embeddings): Embedding(50257, 2, sparse=False)
+    (position_embeddings): Embedding(1024, 2, sparse=False)
+    (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+  )
+  (decoder): TransformerDecoder(
+    (layers): LayerList(
+      (0): TransformerDecoderLayer(
+        (self_attn): MultiHeadAttention(
+          (q_proj): Linear(in_features=2, out_features=2, dtype=float32)
+          (k_proj): Linear(in_features=2, out_features=2, dtype=float32)
+          (v_proj): Linear(in_features=2, out_features=2, dtype=float32)
+          (out_proj): Linear(in_features=2, out_features=2, dtype=float32)
+        )
+        (linear1): Linear(in_features=2, out_features=8, dtype=float32)
+        (linear2): Linear(in_features=8, out_features=2, dtype=float32)
+        (norm1): LayerNorm(normalized_shape=[2], epsilon=1e-05)
+        (norm2): LayerNorm(normalized_shape=[2], epsilon=1e-05)
+        (dropout1): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+        (dropout2): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+      )
+      (1): TransformerDecoderLayer(
+        (self_attn): MultiHeadAttention(
+          (q_proj): Linear(in_features=2, out_features=2, dtype=float32)
+          (k_proj): Linear(in_features=2, out_features=2, dtype=float32)
+          (v_proj): Linear(in_features=2, out_features=2, dtype=float32)
+          (out_proj): Linear(in_features=2, out_features=2, dtype=float32)
+        )
+        (linear1): Linear(in_features=2, out_features=8, dtype=float32)
+        (linear2): Linear(in_features=8, out_features=2, dtype=float32)
+        (norm1): LayerNorm(normalized_shape=[2], epsilon=1e-05)
+        (norm2): LayerNorm(normalized_shape=[2], epsilon=1e-05)
+        (dropout1): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+        (dropout2): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+      )
+    )
+    (norm): LayerNorm(normalized_shape=[2], epsilon=1e-05)
+  )
+)

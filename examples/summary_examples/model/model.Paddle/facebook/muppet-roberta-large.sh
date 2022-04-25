@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: facebook/muppet-roberta-large
+gft_summary --model P:facebook/muppet-roberta-large

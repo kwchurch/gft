@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: antoiloui/belgpt2
+gft_summary --model P:antoiloui/belgpt2

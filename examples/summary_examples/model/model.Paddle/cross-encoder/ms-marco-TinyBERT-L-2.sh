@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: cross-encoder/ms-marco-TinyBERT-L-2
+gft_summary --model P:cross-encoder/ms-marco-TinyBERT-L-2

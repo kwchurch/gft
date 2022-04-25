@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: DingleyMaillotUrgell/homer-bot
+gft_summary --model P:DingleyMaillotUrgell/homer-bot

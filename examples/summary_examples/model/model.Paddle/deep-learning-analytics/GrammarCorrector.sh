@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: deep-learning-analytics/GrammarCorrector
+gft_summary --model P:deep-learning-analytics/GrammarCorrector

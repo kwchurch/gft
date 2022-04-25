@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: navteca/quora-roberta-base
+gft_summary --model P:navteca/quora-roberta-base

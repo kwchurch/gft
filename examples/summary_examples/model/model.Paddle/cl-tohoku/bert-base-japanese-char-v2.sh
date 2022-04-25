@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: cl-tohoku/bert-base-japanese-char-v2
+gft_summary --model P:cl-tohoku/bert-base-japanese-char-v2

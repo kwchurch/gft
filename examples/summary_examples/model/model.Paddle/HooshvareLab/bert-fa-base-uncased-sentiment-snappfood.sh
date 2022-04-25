@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: HooshvareLab/bert-fa-base-uncased-sentiment-snappfood
+gft_summary --model P:HooshvareLab/bert-fa-base-uncased-sentiment-snappfood

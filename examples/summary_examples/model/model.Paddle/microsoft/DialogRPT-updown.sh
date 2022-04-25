@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: microsoft/DialogRPT-updown
+gft_summary --model P:microsoft/DialogRPT-updown

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: hfl/rbt3
+gft_summary --model P:hfl/rbt3

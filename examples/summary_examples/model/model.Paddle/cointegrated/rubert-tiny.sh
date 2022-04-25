@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: cointegrated/rubert-tiny
+gft_summary --model P:cointegrated/rubert-tiny

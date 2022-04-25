@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: roberta-large
+gft_summary --model P:roberta-large

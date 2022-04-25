@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: textattack/roberta-base-imdb
+gft_summary --model P:textattack/roberta-base-imdb

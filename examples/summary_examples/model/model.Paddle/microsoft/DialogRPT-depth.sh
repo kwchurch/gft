@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: microsoft/DialogRPT-depth
+gft_summary --model P:microsoft/DialogRPT-depth

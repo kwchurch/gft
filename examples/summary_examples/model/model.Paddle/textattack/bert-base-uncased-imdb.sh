@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: textattack/bert-base-uncased-imdb
+gft_summary --model P:textattack/bert-base-uncased-imdb

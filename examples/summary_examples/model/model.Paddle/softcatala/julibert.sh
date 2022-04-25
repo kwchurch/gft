@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: softcatala/julibert
+gft_summary --model P:softcatala/julibert

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: ProsusAI/finbert
+gft_summary --model P:ProsusAI/finbert

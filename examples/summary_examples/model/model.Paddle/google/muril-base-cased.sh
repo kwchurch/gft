@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: google/muril-base-cased
+gft_summary --model P:google/muril-base-cased

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: TurkuNLP/bert-base-finnish-cased-v1
+gft_summary --model P:TurkuNLP/bert-base-finnish-cased-v1

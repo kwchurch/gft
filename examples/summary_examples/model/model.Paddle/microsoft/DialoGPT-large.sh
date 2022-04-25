@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: microsoft/DialoGPT-large
+gft_summary --model P:microsoft/DialoGPT-large

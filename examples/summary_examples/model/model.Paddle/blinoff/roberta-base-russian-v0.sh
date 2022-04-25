@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: blinoff/roberta-base-russian-v0
+gft_summary --model P:blinoff/roberta-base-russian-v0

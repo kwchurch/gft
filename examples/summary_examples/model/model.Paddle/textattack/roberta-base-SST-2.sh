@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: textattack/roberta-base-SST-2
+gft_summary --model P:textattack/roberta-base-SST-2

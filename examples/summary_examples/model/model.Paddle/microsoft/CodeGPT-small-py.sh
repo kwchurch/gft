@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: microsoft/CodeGPT-small-py
+gft_summary --model P:microsoft/CodeGPT-small-py

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: cardiffnlp/twitter-roberta-base-sentiment
+gft_summary --model P:cardiffnlp/twitter-roberta-base-sentiment

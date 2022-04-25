@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: sshleifer/tiny-distilroberta-base
+gft_summary --model P:sshleifer/tiny-distilroberta-base

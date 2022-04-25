@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: LorenzoDeMattei/GePpeTto
+gft_summary --model P:LorenzoDeMattei/GePpeTto

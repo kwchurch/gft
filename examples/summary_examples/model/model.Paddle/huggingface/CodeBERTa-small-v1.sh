@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: huggingface/CodeBERTa-small-v1
+gft_summary --model P:huggingface/CodeBERTa-small-v1

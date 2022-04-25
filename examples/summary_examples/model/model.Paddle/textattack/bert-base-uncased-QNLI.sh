@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: textattack/bert-base-uncased-QNLI
+gft_summary --model P:textattack/bert-base-uncased-QNLI

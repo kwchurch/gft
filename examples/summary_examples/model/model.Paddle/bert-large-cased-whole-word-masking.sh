@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: bert-large-cased-whole-word-masking
+gft_summary --model P:bert-large-cased-whole-word-masking

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: onlplab/alephbert-base
+gft_summary --model P:onlplab/alephbert-base

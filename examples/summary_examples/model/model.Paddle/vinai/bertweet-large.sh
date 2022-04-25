@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: vinai/bertweet-large
+gft_summary --model P:vinai/bertweet-large

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gft_summary --model P: textattack/bert-base-uncased-ag-news
+gft_summary --model P:textattack/bert-base-uncased-ag-news
