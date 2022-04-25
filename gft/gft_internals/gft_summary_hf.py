@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import gft
 from gft.gft_internals import my_auto_model_hf
 from gft.gft_internals.gft_util import parse_model_specification,parse_dataset_specification, get_arg
 from gft.gft_internals import my_datasets
@@ -159,12 +160,14 @@ def summarize_model(args):
 
     model,tokenizer,extractor = my_auto_model_hf.my_load_model_tokenizer_and_extractor(args, 'model')
 
-    from gft_internals.gft_util import labels_from_model
+    from gft.gft_internals.gft_util import labels_from_model
     labs = labels_from_model(model)
     if not labs is None:
         print('\t'.join(map(str, [prefix, 'labels: ' +  ', '.join(map(str, labs))])))
     else:
         print('\t'.join(map(str, [prefix, 'labels: NA'])))
+
+    print(model)
     
     # try:
     #     if hasattr(model, 'get_labels'):

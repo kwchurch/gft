@@ -44,7 +44,7 @@ def main():
         from gft.gft_internals import gft_predict_pd
         return gft_predict_pd.gft_predict_pd(wrapped_args)
     else:
-        from .gft_internals import gft_predict_hf
+        from gft.gft_internals import gft_predict_hf
         return gft_predict_hf.gft_predict_hf(wrapped_args)
 
 if __name__ == "__main__":
