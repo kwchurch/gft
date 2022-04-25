@@ -1,13 +1,2 @@
-hostname = asimov-171.svail.baidu.com
-dataset: yelp_review_full	dataset: yelp_review_full	downloads: 13081	likes: 4	
-dataset: yelp_review_full,yelp_review_full	splits: train: 650000 rows, test: 50000 rows
-dataset: yelp_review_full,yelp_review_full	split: train	columns: label, text
-dataset: yelp_review_full,yelp_review_full	labels: 1 star, 2 star, 3 stars, 4 stars, 5 stars
-***ERROR***
-model: None
-data: H:yelp_review_full
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f821c570480>)
+hostname = asimov-114.svail.baidu.com
+dataset: yelp_review_full	dataset: yelp_review_full	downloads: 13171	likes: 4	

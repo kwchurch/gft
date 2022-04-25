@@ -1,12 +1,12 @@
 AutomaticSpeechRecognition	input audio and output a transcription; also known as ASR (automatic speech recognition), STT (speech-to-text)
 task: AutomaticSpeechRecognition --> 10 models
-task: AutomaticSpeechRecognition	model: facebook/wav2vec2-base-960h	downloads: 657654	likes: 32	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: facebook/hubert-large-ls960-ft	downloads: 53182	likes: 12	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 48998	likes: 12	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: facebook/wav2vec2-large-960h	downloads: 31690	likes: 4	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: hf-internal-testing/processor_with_lm	downloads: 21923	likes: 0	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: pyannote/speaker-diarization	downloads: 19585	likes: 1	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: vumichien/wav2vec2-large-xlsr-japanese-hiragana	downloads: 19253	likes: 2	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 18232	likes: 8	task: automatic-speech-recognition
-task: AutomaticSpeechRecognition	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 13166	likes: 0	task: feature-extraction
-task: AutomaticSpeechRecognition	model: theainerd/wav2vec2-large-xlsr-53-odia	downloads: 13104	likes: 0	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: facebook/wav2vec2-base-960h	downloads: 666038	likes: 32	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 48502	likes: 12	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: facebook/hubert-large-ls960-ft	downloads: 39528	likes: 12	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: facebook/wav2vec2-large-960h	downloads: 32406	likes: 4	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: hf-internal-testing/processor_with_lm	downloads: 19643	likes: 0	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: pyannote/speaker-diarization	downloads: 19051	likes: 2	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: vumichien/wav2vec2-large-xlsr-japanese-hiragana	downloads: 15717	likes: 2	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 11847	likes: 9	task: automatic-speech-recognition
+task: AutomaticSpeechRecognition	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 11259	likes: 0	task: feature-extraction
+task: AutomaticSpeechRecognition	model: espnet/kamo-naoyuki-mini_an4_asr_train_raw_bpe_valid.acc.best	downloads: 11234	likes: 0	task: automatic-speech-recognition

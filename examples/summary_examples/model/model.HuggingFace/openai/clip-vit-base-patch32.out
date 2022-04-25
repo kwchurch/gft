@@ -1,9 +1,0 @@
-model: openai/clip-vit-base-patch32	model: openai/clip-vit-base-patch32	downloads: 977139	likes: 25	task: feature-extraction
-***ERROR***
-model: H:openai/clip-vit-base-patch32
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7ff4389bf240>)

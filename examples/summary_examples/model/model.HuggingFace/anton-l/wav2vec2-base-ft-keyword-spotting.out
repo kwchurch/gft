@@ -1,9 +1,0 @@
-model: anton-l/wav2vec2-base-ft-keyword-spotting	model: anton-l/wav2vec2-base-ft-keyword-spotting	downloads: 1505	likes: 1	task: audio-classification
-***ERROR***
-model: H:anton-l/wav2vec2-base-ft-keyword-spotting
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f684c926c80>)

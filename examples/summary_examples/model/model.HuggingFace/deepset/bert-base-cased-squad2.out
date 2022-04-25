@@ -1,9 +1,0 @@
-model: deepset/bert-base-cased-squad2	model: deepset/bert-base-cased-squad2	downloads: 54776	likes: 7	task: question-answering
-***ERROR***
-model: H:deepset/bert-base-cased-squad2
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f4147c9af40>)

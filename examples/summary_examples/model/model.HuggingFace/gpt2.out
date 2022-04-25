@@ -1,9 +1,0 @@
-model: gpt2	model: gpt2	downloads: 17192513	likes: 79	task: text-generation
-***ERROR***
-model: gpt2
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f428aec0400>)

@@ -1,13 +1,2 @@
-hostname = asimov-125.svail.baidu.com
-dataset: snli	dataset: snli	downloads: 18398	likes: 6	PWC: https://paperswithcode.com/dataset/snli
-dataset: snli,plain_text	splits: test: 10000 rows, train: 550152 rows, val: 10000 rows
-dataset: snli,plain_text	split: train	columns: premise, hypothesis, label
-dataset: snli,plain_text	labels: entailment, neutral, contradiction
-***ERROR***
-model: None
-data: H:snli
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f2cbea9c480>)
+hostname = asimov-166.svail.baidu.com
+dataset: snli	dataset: snli	downloads: 18129	likes: 6	PWC: https://paperswithcode.com/dataset/snli

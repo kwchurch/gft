@@ -1,19 +1,4 @@
-hostname = asimov-172.svail.baidu.com
-dataset: wino_bias	dataset: wino_bias	downloads: 10204	likes: 2	PWC: https://paperswithcode.com/dataset/winobias
+hostname = asimov-121.svail.baidu.com
+dataset: wino_bias	dataset: wino_bias	downloads: 8775	likes: 2	PWC: https://paperswithcode.com/dataset/winobias
 dataset: wino_bias,type1_pro	splits: test: 396 rows, val: 396 rows
 dataset: wino_bias,type1_anti	splits: test: 396 rows, val: 396 rows
-dataset: wino_bias,type2_pro	splits: test: 396 rows, val: 396 rows
-dataset: wino_bias,type2_anti	splits: test: 396 rows, val: 396 rows
-# dataset: wino_bias --> 0 models
-# found: 12925 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

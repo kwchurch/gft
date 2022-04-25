@@ -1,9 +1,0 @@
-model: google/pegasus-xsum	model: google/pegasus-xsum	downloads: 1286045	likes: 27	task: summarization
-***ERROR***
-model: google/pegasus-xsum
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f414d957b00>)

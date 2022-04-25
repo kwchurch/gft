@@ -1,9 +1,0 @@
-model: deepset/bert-large-uncased-whole-word-masking-squad2	model: deepset/bert-large-uncased-whole-word-masking-squad2	downloads: 227331	likes: 6	task: question-answering
-***ERROR***
-model: H:deepset/bert-large-uncased-whole-word-masking-squad2
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f2ee1607fc0>)

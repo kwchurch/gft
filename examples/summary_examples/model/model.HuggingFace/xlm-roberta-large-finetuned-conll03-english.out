@@ -1,9 +1,0 @@
-model: xlm-roberta-large-finetuned-conll03-english	model: xlm-roberta-large-finetuned-conll03-english	downloads: 4700528	likes: 13	task: token-classification
-***ERROR***
-model: xlm-roberta-large-finetuned-conll03-english
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f1d00bd0fc0>)

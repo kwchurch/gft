@@ -1,12 +1,12 @@
-# found: 1196 matches; truncating to 10
+# found: 1210 matches; truncating to 10
 task: conversational --> 10 models
-task: conversational	model: microsoft/DialoGPT-small	downloads: 643748	likes: 6	task: conversational
-task: conversational	model: microsoft/DialoGPT-medium	downloads: 197290	likes: 16	task: conversational
-task: conversational	model: facebook/blenderbot_small-90M	downloads: 69866	likes: 9	task: conversational
-task: conversational	model: facebook/blenderbot-400M-distill	downloads: 66949	likes: 22	task: conversational
-task: conversational	model: microsoft/DialoGPT-large	downloads: 37143	likes: 21	task: conversational
-task: conversational	model: facebook/blenderbot-3B	downloads: 29549	likes: 17	task: conversational
-task: conversational	model: r3dhummingbird/DialoGPT-medium-joshua	downloads: 24881	likes: 7	task: conversational
-task: conversational	model: deepparag/Aeona	downloads: 17614	likes: 3	task: conversational
-task: conversational	model: zenham/mskeen_m_e4_16h	downloads: 9156	likes: 0	task: conversational
-task: conversational	model: zenham/wail_m_e4_16h_2k	downloads: 8649	likes: 0	task: conversational
+task: conversational	model: microsoft/DialoGPT-small	downloads: 678620	likes: 6	task: conversational
+task: conversational	model: microsoft/DialoGPT-medium	downloads: 187645	likes: 16	task: conversational
+task: conversational	model: facebook/blenderbot_small-90M	downloads: 64327	likes: 9	task: conversational
+task: conversational	model: facebook/blenderbot-400M-distill	downloads: 64066	likes: 22	task: conversational
+task: conversational	model: microsoft/DialoGPT-large	downloads: 37185	likes: 21	task: conversational
+task: conversational	model: r3dhummingbird/DialoGPT-medium-joshua	downloads: 27999	likes: 7	task: conversational
+task: conversational	model: facebook/blenderbot-3B	downloads: 26666	likes: 17	task: conversational
+task: conversational	model: deepparag/Aeona	downloads: 15994	likes: 3	task: conversational
+task: conversational	model: zenham/mskeen_m_e4_16h	downloads: 8909	likes: 0	task: conversational
+task: conversational	model: zenham/wail_m_e4_16h_2k	downloads: 8345	likes: 0	task: conversational

@@ -1,39 +1,4 @@
-hostname = asimov-178.svail.baidu.com
-dataset: scan	dataset: scan	downloads: 5842	likes: 0	PWC: https://paperswithcode.com/dataset/scan
+hostname = asimov-150.svail.baidu.com
+dataset: scan	dataset: scan	downloads: 5329	likes: 0	PWC: https://paperswithcode.com/dataset/scan
 dataset: scan,simple	splits: train: 16728 rows, test: 4182 rows
 dataset: scan,simple	split: train	columns: commands, actions
-dataset: scan,addprim_jump	splits: train: 14670 rows, test: 7706 rows
-dataset: scan,addprim_jump	split: train	columns: commands, actions
-dataset: scan,addprim_turn_left	splits: train: 21890 rows, test: 1208 rows
-dataset: scan,addprim_turn_left	split: train	columns: commands, actions
-dataset: scan,filler_num0	splits: train: 15225 rows, test: 1173 rows
-dataset: scan,filler_num0	split: train	columns: commands, actions
-dataset: scan,filler_num1	splits: train: 16290 rows, test: 1173 rows
-dataset: scan,filler_num1	split: train	columns: commands, actions
-dataset: scan,filler_num2	splits: train: 17391 rows, test: 1173 rows
-dataset: scan,filler_num2	split: train	columns: commands, actions
-dataset: scan,filler_num3	splits: train: 18528 rows, test: 1173 rows
-dataset: scan,filler_num3	split: train	columns: commands, actions
-dataset: scan,length	splits: train: 16990 rows, test: 3920 rows
-dataset: scan,length	split: train	columns: commands, actions
-dataset: scan,template_around_right	splits: train: 15225 rows, test: 4476 rows
-dataset: scan,template_around_right	split: train	columns: commands, actions
-dataset: scan,template_jump_around_right	splits: train: 18528 rows, test: 1173 rows
-dataset: scan,template_jump_around_right	split: train	columns: commands, actions
-dataset: scan,template_opposite_right	splits: train: 15225 rows, test: 4476 rows
-dataset: scan,template_opposite_right	split: train	columns: commands, actions
-dataset: scan,template_right	splits: train: 15225 rows, test: 4476 rows
-dataset: scan,template_right	split: train	columns: commands, actions
-# dataset: scan --> 0 models
-# found: 12927 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

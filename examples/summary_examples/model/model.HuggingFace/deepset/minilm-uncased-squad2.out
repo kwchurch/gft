@@ -1,9 +1,0 @@
-model: deepset/minilm-uncased-squad2	model: deepset/minilm-uncased-squad2	downloads: 46561	likes: 7	task: question-answering
-***ERROR***
-model: deepset/minilm-uncased-squad2
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f372711fec0>)

@@ -1,9 +1,0 @@
-model: google/vit-base-patch16-224	model: google/vit-base-patch16-224	downloads: 41620	likes: 32	task: image-classification
-***ERROR***
-model: google/vit-base-patch16-224
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fca63296a40>)

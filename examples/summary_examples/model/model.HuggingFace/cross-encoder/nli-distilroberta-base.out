@@ -1,9 +1,0 @@
-model: cross-encoder/nli-distilroberta-base	model: cross-encoder/nli-distilroberta-base	downloads: 65724	likes: 9	task: zero-shot-classification
-***ERROR***
-model: H:cross-encoder/nli-distilroberta-base
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f606b6ecbc0>)

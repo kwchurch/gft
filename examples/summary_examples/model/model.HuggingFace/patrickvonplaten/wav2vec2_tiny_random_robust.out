@@ -1,9 +1,0 @@
-model: patrickvonplaten/wav2vec2_tiny_random_robust	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 13166	likes: 0	task: feature-extraction
-***ERROR***
-model: patrickvonplaten/wav2vec2_tiny_random_robust
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f212cf30740>)

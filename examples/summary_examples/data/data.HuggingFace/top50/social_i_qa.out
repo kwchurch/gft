@@ -1,12 +1,2 @@
-hostname = asimov-120.svail.baidu.com
-dataset: social_i_qa	dataset: social_i_qa	downloads: 7432	likes: 0	PWC: https://paperswithcode.com/dataset/social-iqa
-dataset: social_i_qa	splits: train: 33410 rows, val: 1954 rows
-dataset: social_i_qa	split: train	columns: context, question, answerA, answerB, answerC, label
-***ERROR***
-model: None
-data: H:social_i_qa
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f9178ae9f40>)
+hostname = asimov-148.svail.baidu.com
+dataset: social_i_qa	dataset: social_i_qa	downloads: 7537	likes: 0	PWC: https://paperswithcode.com/dataset/social-iqa

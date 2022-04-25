@@ -1,20 +1,20 @@
-hostname = asimov-173.svail.baidu.com
-dataset: hellaswag	dataset: hellaswag	downloads: 8665	likes: 1	PWC: https://paperswithcode.com/dataset/hellaswag
+hostname = asimov-127.svail.baidu.com
+dataset: hellaswag	dataset: hellaswag	downloads: 7418	likes: 1	PWC: https://paperswithcode.com/dataset/hellaswag
 dataset: hellaswag	splits: train: 39905 rows, test: 10003 rows, val: 10042 rows
 dataset: hellaswag	split: train	columns: ind, activity_label, ctx_a, ctx_b, ctx, endings, source_id, split, split_type, label
 dataset: hellaswag --> 3 models
-dataset: hellaswag	model: AdapterHub/bert-base-uncased-pf-hellaswag	downloads: 26	likes: 0	task: None
-dataset: hellaswag	model: AdapterHub/roberta-base-pf-hellaswag	downloads: 10	likes: 0	task: None
+dataset: hellaswag	model: AdapterHub/bert-base-uncased-pf-hellaswag	downloads: 21	likes: 0	task: None
 dataset: hellaswag	model: prajjwal1/roberta_hellaswag	downloads: 7	likes: 0	task: multiple-choice
-# found: 12919 matches; truncating to 10
+dataset: hellaswag	model: AdapterHub/roberta-base-pf-hellaswag	downloads: 5	likes: 0	task: None
+# found: 12993 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

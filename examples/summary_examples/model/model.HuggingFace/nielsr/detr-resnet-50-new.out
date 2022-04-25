@@ -1,9 +1,0 @@
-model: nielsr/detr-resnet-50-new	model: nielsr/detr-resnet-50-new	downloads: 34	likes: 0	task: object-detection
-***ERROR***
-model: nielsr/detr-resnet-50-new
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f5374af9d00>)

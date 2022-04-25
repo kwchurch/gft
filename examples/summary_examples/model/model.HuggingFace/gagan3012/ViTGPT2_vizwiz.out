@@ -1,9 +1,0 @@
-model: gagan3012/ViTGPT2_vizwiz	model: gagan3012/ViTGPT2_vizwiz	downloads: 46	likes: 0	task: image-to-text
-***ERROR***
-model: gagan3012/ViTGPT2_vizwiz
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f05e6f40c80>)

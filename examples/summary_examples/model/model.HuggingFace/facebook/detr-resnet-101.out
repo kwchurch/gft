@@ -1,9 +1,0 @@
-model: facebook/detr-resnet-101	model: facebook/detr-resnet-101	downloads: 568	likes: 1	task: object-detection
-***ERROR***
-model: facebook/detr-resnet-101
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f9f0cbb8e40>)

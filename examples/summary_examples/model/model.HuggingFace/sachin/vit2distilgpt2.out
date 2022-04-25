@@ -1,9 +1,0 @@
-model: sachin/vit2distilgpt2	model: sachin/vit2distilgpt2	downloads: 275	likes: 4	task: image-to-text
-***ERROR***
-model: sachin/vit2distilgpt2
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3fa2142040>)

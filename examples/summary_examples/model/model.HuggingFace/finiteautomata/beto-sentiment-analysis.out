@@ -1,9 +1,0 @@
-model: finiteautomata/beto-sentiment-analysis	No info from HuggingFace
-***ERROR***
-model: finiteautomata/beto-sentiment-analysis
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError("Can't load config for 'finiteautomata/beto-sentiment-analysis'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'finiteautomata/beto-sentiment-analysis' is the correct path to a directory containing a config.json file"), <traceback object at 0x7fbd24f45840>)

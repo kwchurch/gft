@@ -1,9 +1,0 @@
-model: microsoft/beit-base-patch16-224-pt22k-ft22k	model: microsoft/beit-base-patch16-224-pt22k-ft22k	downloads: 16300	likes: 4	task: image-classification
-***ERROR***
-model: microsoft/beit-base-patch16-224-pt22k-ft22k
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f7607b73b80>)

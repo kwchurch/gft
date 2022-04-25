@@ -1,12 +1,12 @@
 # found: 18 matches; truncating to 10
 task: object-detection --> 10 models
-task: object-detection	model: facebook/detr-resnet-50	downloads: 27588	likes: 30	task: object-detection
-task: object-detection	model: mishig/tiny-detr-mobilenetsv3	downloads: 2056	likes: 0	task: object-detection
-task: object-detection	model: facebook/detr-resnet-50-dc5	downloads: 1314	likes: 1	task: object-detection
-task: object-detection	model: facebook/detr-resnet-101-dc5	downloads: 890	likes: 2	task: object-detection
-task: object-detection	model: TahaDouaji/detr-doc-table-detection	downloads: 846	likes: 2	task: object-detection
-task: object-detection	model: facebook/detr-resnet-101	downloads: 568	likes: 1	task: object-detection
-task: object-detection	model: mindee/fasterrcnn_mobilenet_v3_large_fpn	downloads: 291	likes: 2	task: object-detection
-task: object-detection	model: davanstrien/detr_beyond_words	downloads: 83	likes: 0	task: object-detection
-task: object-detection	model: nateraw/hot-dog	downloads: 47	likes: 0	task: object-detection
-task: object-detection	model: CellsInACell/faster_rcnn_count_cho_cells	downloads: 47	likes: 0	task: object-detection
+task: object-detection	model: facebook/detr-resnet-50	downloads: 26271	likes: 31	task: object-detection
+task: object-detection	model: mishig/tiny-detr-mobilenetsv3	downloads: 1829	likes: 0	task: object-detection
+task: object-detection	model: facebook/detr-resnet-50-dc5	downloads: 1326	likes: 1	task: object-detection
+task: object-detection	model: facebook/detr-resnet-101-dc5	downloads: 972	likes: 2	task: object-detection
+task: object-detection	model: TahaDouaji/detr-doc-table-detection	downloads: 693	likes: 2	task: object-detection
+task: object-detection	model: facebook/detr-resnet-101	downloads: 461	likes: 1	task: object-detection
+task: object-detection	model: mindee/fasterrcnn_mobilenet_v3_large_fpn	downloads: 257	likes: 2	task: object-detection
+task: object-detection	model: davanstrien/detr_beyond_words	downloads: 61	likes: 0	task: object-detection
+task: object-detection	model: nielsr/detr-resnet-50	downloads: 52	likes: 0	task: object-detection
+task: object-detection	model: nateraw/hot-dog	downloads: 49	likes: 0	task: object-detection

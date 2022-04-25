@@ -1,9 +1,0 @@
-model: facebook/deit-base-distilled-patch16-224	model: facebook/deit-base-distilled-patch16-224	downloads: 4472	likes: 3	task: image-classification
-***ERROR***
-model: facebook/deit-base-distilled-patch16-224
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f2beee3fa80>)

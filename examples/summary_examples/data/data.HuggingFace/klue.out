@@ -1,5 +1,5 @@
-hostname = asimov-169.svail.baidu.com
-dataset: klue	dataset: klue	downloads: 10610	likes: 4	PWC: https://paperswithcode.com/dataset/klue
+hostname = asimov-157.svail.baidu.com
+dataset: klue	dataset: klue	downloads: 10583	likes: 4	PWC: https://paperswithcode.com/dataset/klue
 dataset: klue,ynat	splits: train: 45678 rows, val: 9107 rows
 dataset: klue,ynat	split: train	columns: guid, title, label, url, date
 dataset: klue,ynat	labels: IT과학, 경제, 사회, 생활문화, 세계, 스포츠, 정치
@@ -20,25 +20,25 @@ dataset: klue,mrc	split: train	columns: title, context, news_category, source, g
 dataset: klue,wos	splits: train: 8000 rows, val: 1000 rows
 dataset: klue,wos	split: train	columns: guid, domains, dialogue
 dataset: klue --> 10 models
-dataset: klue	model: Huffon/sentence-klue-roberta-base	downloads: 2788	likes: 1	task: feature-extraction
-dataset: klue	model: Huffon/klue-roberta-base-nli	downloads: 1088	likes: 3	task: text-classification
-dataset: klue	model: bespin-global/klue-sentence-roberta-base	downloads: 672	likes: 0	task: sentence-similarity
-dataset: klue	model: ainize/klue-bert-base-mrc	downloads: 425	likes: 1	task: question-answering
-dataset: klue	model: rurupang/roberta-base-finetuned-sts	downloads: 83	likes: 0	task: text-classification
+dataset: klue	model: Huffon/klue-roberta-base-nli	downloads: 969	likes: 3	task: text-classification
+dataset: klue	model: bespin-global/klue-sentence-roberta-base	downloads: 489	likes: 0	task: sentence-similarity
+dataset: klue	model: Huffon/sentence-klue-roberta-base	downloads: 455	likes: 2	task: feature-extraction
+dataset: klue	model: ainize/klue-bert-base-mrc	downloads: 424	likes: 1	task: question-answering
 dataset: klue	model: eliza-dukim/bert-base-finetuned-sts	downloads: 35	likes: 0	task: text-classification
+dataset: klue	model: rurupang/roberta-base-finetuned-sts	downloads: 34	likes: 0	task: text-classification
 dataset: klue	model: bespin-global/klue-bert-base-mrc	downloads: 16	likes: 0	task: question-answering
 dataset: klue	model: rurupang/bert-base-finetuned-sts	downloads: 16	likes: 0	task: text-classification
-dataset: klue	model: zgotter/bert-base-finetuned-ynat	downloads: 10	likes: 0	task: text-classification
-dataset: klue	model: eliza-dukim/bert-base-finetuned-sts-deprecated	downloads: 7	likes: 0	task: text-classification
-# found: 12918 matches; truncating to 10
+dataset: klue	model: zgotter/bert-base-finetuned-ynat	downloads: 9	likes: 0	task: text-classification
+dataset: klue	model: Jihyun22/bert-base-finetuned-nli	downloads: 5	likes: 1	task: text-classification
+# found: 12994 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

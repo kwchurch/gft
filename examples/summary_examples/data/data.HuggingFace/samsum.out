@@ -1,27 +1,2 @@
-hostname = asimov-122.svail.baidu.com
-dataset: samsum	dataset: samsum	downloads: 11325	likes: 10	PWC: https://paperswithcode.com/dataset/samsum-corpus
-dataset: samsum,samsum	splits: train: 14732 rows, test: 819 rows, val: 818 rows
-dataset: samsum,samsum	split: train	columns: id, dialogue, summary
-dataset: samsum --> 10 models
-dataset: samsum	model: philschmid/bart-large-cnn-samsum	downloads: 129620	likes: 8	task: summarization
-dataset: samsum	model: philschmid/distilbart-cnn-12-6-samsum	downloads: 9673	likes: 2	task: summarization
-dataset: samsum	model: lidiya/bart-large-xsum-samsum	downloads: 4711	likes: 6	task: summarization
-dataset: samsum	model: slauw87/bart_summarisation	downloads: 3651	likes: 1	task: summarization
-dataset: samsum	model: transformersbook/pegasus-samsum	downloads: 2118	likes: 0	task: text2text-generation
-dataset: samsum	model: linydub/bart-large-samsum	downloads: 1325	likes: 6	task: summarization
-dataset: samsum	model: philschmid/bart-base-samsum	downloads: 1154	likes: 1	task: summarization
-dataset: samsum	model: anegi/t5smallmodel	downloads: 327	likes: 1	task: text2text-generation
-dataset: samsum	model: lidiya/bart-base-samsum	downloads: 241	likes: 1	task: summarization
-dataset: samsum	model: henryu-lin/t5-large-samsum-deepspeed	downloads: 175	likes: 1	task: summarization
-# found: 12917 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None
+hostname = asimov-169.svail.baidu.com
+dataset: samsum	dataset: samsum	downloads: 10800	likes: 10	PWC: https://paperswithcode.com/dataset/samsum-corpus

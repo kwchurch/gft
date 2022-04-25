@@ -1,9 +1,0 @@
-model: dslim/bert-base-NER	model: dslim/bert-base-NER	downloads: 289079	likes: 42	task: token-classification
-***ERROR***
-model: dslim/bert-base-NER
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f814bed2dc0>)

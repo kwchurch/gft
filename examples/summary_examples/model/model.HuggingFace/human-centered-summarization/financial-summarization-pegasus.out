@@ -1,9 +1,0 @@
-model: human-centered-summarization/financial-summarization-pegasus	model: human-centered-summarization/financial-summarization-pegasus	downloads: 10112	likes: 16	task: summarization
-***ERROR***
-model: human-centered-summarization/financial-summarization-pegasus
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f8a55e0b480>)

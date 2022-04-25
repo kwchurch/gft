@@ -1,9 +1,0 @@
-model: Rostlab/prot_t5_xl_uniref50	No info from HuggingFace
-***ERROR***
-model: Rostlab/prot_t5_xl_uniref50
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError("Can't load config for 'Rostlab/prot_t5_xl_uniref50'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Rostlab/prot_t5_xl_uniref50' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f0e5d76b440>)

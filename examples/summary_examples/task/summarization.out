@@ -1,12 +1,12 @@
-# found: 367 matches; truncating to 10
+# found: 378 matches; truncating to 10
 task: summarization --> 10 models
-task: summarization	model: google/pegasus-xsum	downloads: 1286045	likes: 27	task: summarization
-task: summarization	model: sshleifer/distilbart-cnn-12-6	downloads: 893371	likes: 33	task: summarization
-task: summarization	model: sshleifer/distilbart-cnn-6-6	downloads: 752403	likes: 8	task: summarization
-task: summarization	model: facebook/bart-large-cnn	downloads: 493668	likes: 38	task: summarization
-task: summarization	model: cahya/t5-base-indonesian-summarization-cased	downloads: 178710	likes: 1	task: summarization
-task: summarization	model: philschmid/bart-large-cnn-samsum	downloads: 129620	likes: 8	task: summarization
-task: summarization	model: google/pegasus-large	downloads: 87441	likes: 16	task: summarization
-task: summarization	model: google/pegasus-cnn_dailymail	downloads: 60593	likes: 5	task: summarization
-task: summarization	model: csebuetnlp/mT5_multilingual_XLSum	downloads: 39681	likes: 35	task: summarization
-task: summarization	model: google/pegasus-multi_news	downloads: 24498	likes: 3	task: summarization
+task: summarization	model: google/pegasus-xsum	downloads: 1332137	likes: 28	task: summarization
+task: summarization	model: sshleifer/distilbart-cnn-12-6	downloads: 862763	likes: 33	task: summarization
+task: summarization	model: sshleifer/distilbart-cnn-6-6	downloads: 759916	likes: 8	task: summarization
+task: summarization	model: facebook/bart-large-cnn	downloads: 483267	likes: 38	task: summarization
+task: summarization	model: cahya/t5-base-indonesian-summarization-cased	downloads: 183070	likes: 1	task: summarization
+task: summarization	model: philschmid/bart-large-cnn-samsum	downloads: 141062	likes: 8	task: summarization
+task: summarization	model: google/pegasus-large	downloads: 83975	likes: 16	task: summarization
+task: summarization	model: google/pegasus-cnn_dailymail	downloads: 57296	likes: 5	task: summarization
+task: summarization	model: csebuetnlp/mT5_multilingual_XLSum	downloads: 39362	likes: 36	task: summarization
+task: summarization	model: google/pegasus-multi_news	downloads: 29152	likes: 3	task: summarization

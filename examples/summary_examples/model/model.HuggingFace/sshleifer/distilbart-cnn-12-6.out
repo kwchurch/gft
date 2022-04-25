@@ -1,9 +1,0 @@
-model: sshleifer/distilbart-cnn-12-6	model: sshleifer/distilbart-cnn-12-6	downloads: 893371	likes: 33	task: summarization
-***ERROR***
-model: sshleifer/distilbart-cnn-12-6
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f52008448c0>)

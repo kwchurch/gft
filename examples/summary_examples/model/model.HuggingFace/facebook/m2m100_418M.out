@@ -1,9 +1,0 @@
-model: facebook/m2m100_418M	model: facebook/m2m100_418M	downloads: 353867	likes: 13	task: text2text-generation
-***ERROR***
-model: facebook/m2m100_418M
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f82714435c0>)

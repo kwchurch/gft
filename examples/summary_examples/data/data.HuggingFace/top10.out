@@ -1,25 +1,25 @@
-hostname = asimov-119.svail.baidu.com
-# found: 12929 matches; truncating to 10
+hostname = asimov-172.svail.baidu.com
+# found: 12994 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None
-# found: 4363 matches; truncating to 10
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None
+# found: 4407 matches; truncating to 10
 substring:  --> 10 datasets
-substring: 	dataset: glue	downloads: 1088166	likes: 32	PWC: https://paperswithcode.com/dataset/glue
-substring: 	dataset: squad	downloads: 194478	likes: 24	PWC: https://paperswithcode.com/dataset/squad
-substring: 	dataset: tweet_eval	downloads: 155078	likes: 10	PWC: https://paperswithcode.com/dataset/tweeteval
-substring: 	dataset: wikitext	downloads: 145037	likes: 9	PWC: https://paperswithcode.com/dataset/wikitext-2
-substring: 	dataset: super_glue	downloads: 129327	likes: 11	PWC: https://paperswithcode.com/dataset/superglue
-substring: 	dataset: xtreme	downloads: 112399	likes: 3	PWC: https://paperswithcode.com/dataset/xtreme
-substring: 	dataset: red_caps	downloads: 111816	likes: 4	PWC: https://paperswithcode.com/dataset/redcaps
-substring: 	dataset: imdb	downloads: 98053	likes: 10	PWC: https://paperswithcode.com/dataset/imdb-movie-reviews
-substring: 	dataset: xnli	downloads: 66554	likes: 5	PWC: https://paperswithcode.com/dataset/xnli
-substring: 	dataset: common_voice	downloads: 56698	likes: 29	PWC: https://paperswithcode.com/dataset/common-voice
+substring: 	dataset: glue	downloads: 1115869	likes: 33	PWC: https://paperswithcode.com/dataset/glue
+substring: 	dataset: tweet_eval	downloads: 156711	likes: 10	PWC: https://paperswithcode.com/dataset/tweeteval
+substring: 	dataset: wikitext	downloads: 142817	likes: 10	PWC: https://paperswithcode.com/dataset/wikitext-2
+substring: 	dataset: squad	downloads: 127581	likes: 24	PWC: https://paperswithcode.com/dataset/squad
+substring: 	dataset: super_glue	downloads: 123289	likes: 11	PWC: https://paperswithcode.com/dataset/superglue
+substring: 	dataset: xtreme	downloads: 110844	likes: 3	PWC: https://paperswithcode.com/dataset/xtreme
+substring: 	dataset: red_caps	downloads: 99989	likes: 4	PWC: https://paperswithcode.com/dataset/redcaps
+substring: 	dataset: imdb	downloads: 91341	likes: 10	PWC: https://paperswithcode.com/dataset/imdb-movie-reviews
+substring: 	dataset: newsgroup	downloads: 88565	likes: 0	
+substring: 	dataset: wmt16	downloads: 52417	likes: 2	PWC: https://paperswithcode.com/dataset/wmt-2016

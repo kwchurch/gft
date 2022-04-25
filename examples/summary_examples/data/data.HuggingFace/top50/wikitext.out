@@ -1,18 +1,2 @@
-hostname = asimov-119.svail.baidu.com
-dataset: wikitext	dataset: wikitext	downloads: 145037	likes: 9	PWC: https://paperswithcode.com/dataset/wikitext-2
-dataset: wikitext,wikitext-103-v1	splits: test: 4358 rows, train: 1801350 rows, val: 3760 rows
-dataset: wikitext,wikitext-103-v1	split: train	columns: text
-dataset: wikitext,wikitext-2-v1	splits: test: 4358 rows, train: 36718 rows, val: 3760 rows
-dataset: wikitext,wikitext-2-v1	split: train	columns: text
-dataset: wikitext,wikitext-103-raw-v1	splits: test: 4358 rows, train: 1801350 rows, val: 3760 rows
-dataset: wikitext,wikitext-103-raw-v1	split: train	columns: text
-dataset: wikitext,wikitext-2-raw-v1	splits: test: 4358 rows, train: 36718 rows, val: 3760 rows
-dataset: wikitext,wikitext-2-raw-v1	split: train	columns: text
-***ERROR***
-model: None
-data: H:wikitext
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f61f61e03c0>)
+hostname = asimov-145.svail.baidu.com
+dataset: wikitext	dataset: wikitext	downloads: 142817	likes: 10	PWC: https://paperswithcode.com/dataset/wikitext-2

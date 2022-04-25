@@ -1,9 +1,0 @@
-model: thatdramebaazguy/roberta-base-squad	model: thatdramebaazguy/roberta-base-squad	downloads: 20674	likes: 0	task: question-answering
-***ERROR***
-model: thatdramebaazguy/roberta-base-squad
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f76443c36c0>)

@@ -1,9 +1,0 @@
-model: joeddav/xlm-roberta-large-xnli	model: joeddav/xlm-roberta-large-xnli	downloads: 159335	likes: 33	task: zero-shot-classification
-***ERROR***
-model: joeddav/xlm-roberta-large-xnli
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f97f0dd8280>)

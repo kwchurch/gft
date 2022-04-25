@@ -1,9 +1,0 @@
-model: facebook/bart-large-mnli	model: facebook/bart-large-mnli	downloads: 1191444	likes: 106	task: zero-shot-classification
-***ERROR***
-model: facebook/bart-large-mnli
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f40e7006fc0>)

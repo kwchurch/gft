@@ -1,9 +1,0 @@
-model: valhalla/distilbart-mnli-12-6	model: valhalla/distilbart-mnli-12-6	downloads: 28009	likes: 1	task: zero-shot-classification
-***ERROR***
-model: valhalla/distilbart-mnli-12-6
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7efda6972fc0>)

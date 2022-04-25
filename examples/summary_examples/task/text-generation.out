@@ -1,12 +1,12 @@
-# found: 4393 matches; truncating to 10
+# found: 4409 matches; truncating to 10
 task: text-generation --> 10 models
-task: text-generation	model: distilgpt2	downloads: 28607412	likes: 44	task: text-generation
-task: text-generation	model: gpt2	downloads: 17192513	likes: 79	task: text-generation
-task: text-generation	model: xlnet-base-cased	downloads: 477797	likes: 3	task: text-generation
-task: text-generation	model: aliosm/ComVE-distilgpt2	downloads: 447344	likes: 0	task: text-generation
-task: text-generation	model: uer/gpt2-chinese-cluecorpussmall	downloads: 297663	likes: 11	task: text-generation
-task: text-generation	model: remotejob/tweetsDISTILGPT2fi_v4	downloads: 296883	likes: 0	task: text-generation
-task: text-generation	model: huggingtweets/stablekwon	downloads: 211788	likes: 0	task: text-generation
-task: text-generation	model: gpt2-medium	downloads: 209345	likes: 4	task: text-generation
-task: text-generation	model: mahaamami/distilgpt2-finetuned-wikitext2	downloads: 123124	likes: 0	task: text-generation
-task: text-generation	model: EleutherAI/gpt-j-6B	downloads: 122988	likes: 154	task: text-generation
+task: text-generation	model: distilgpt2	downloads: 29130856	likes: 45	task: text-generation
+task: text-generation	model: gpt2	downloads: 17488269	likes: 79	task: text-generation
+task: text-generation	model: xlnet-base-cased	downloads: 479519	likes: 3	task: text-generation
+task: text-generation	model: aliosm/ComVE-distilgpt2	downloads: 470779	likes: 0	task: text-generation
+task: text-generation	model: remotejob/tweetsDISTILGPT2fi_v4	downloads: 300555	likes: 0	task: text-generation
+task: text-generation	model: uer/gpt2-chinese-cluecorpussmall	downloads: 298910	likes: 11	task: text-generation
+task: text-generation	model: gpt2-medium	downloads: 229468	likes: 4	task: text-generation
+task: text-generation	model: huggingtweets/stablekwon	downloads: 195911	likes: 0	task: text-generation
+task: text-generation	model: mahaamami/distilgpt2-finetuned-wikitext2	downloads: 148398	likes: 0	task: text-generation
+task: text-generation	model: Sentdex/GPyT	downloads: 135575	likes: 11	task: text-generation

@@ -1,27 +1,2 @@
-hostname = asimov-178.svail.baidu.com
-dataset: librispeech_asr	dataset: librispeech_asr	downloads: 24992	likes: 13	PWC: https://paperswithcode.com/dataset/librispeech-1
-dataset: librispeech_asr,clean	splits: train.100: 28539 rows, train.360: 104014 rows, test: 2620 rows, val: 2703 rows
-dataset: librispeech_asr,other	splits: train.500: 148688 rows, test: 2939 rows, val: 2864 rows
-dataset: librispeech_asr --> 10 models
-dataset: librispeech_asr	model: facebook/wav2vec2-base-960h	downloads: 657654	likes: 32	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-base	downloads: 75821	likes: 10	task: None
-dataset: librispeech_asr	model: ntu-spml/distilhubert	downloads: 64096	likes: 6	task: feature-extraction
-dataset: librispeech_asr	model: facebook/hubert-large-ls960-ft	downloads: 53182	likes: 12	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 48998	likes: 12	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-large-960h	downloads: 31690	likes: 4	task: automatic-speech-recognition
-dataset: librispeech_asr	model: facebook/wav2vec2-large-lv60	downloads: 19189	likes: 3	task: None
-dataset: librispeech_asr	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 13166	likes: 0	task: feature-extraction
-dataset: librispeech_asr	model: facebook/s2t-small-librispeech-asr	downloads: 7715	likes: 6	task: automatic-speech-recognition
-dataset: librispeech_asr	model: patrickvonplaten/wav2vec2-base	downloads: 6800	likes: 0	task: None
-# found: 12928 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None
+hostname = asimov-150.svail.baidu.com
+dataset: librispeech_asr	dataset: librispeech_asr	downloads: 24773	likes: 13	PWC: https://paperswithcode.com/dataset/librispeech-1

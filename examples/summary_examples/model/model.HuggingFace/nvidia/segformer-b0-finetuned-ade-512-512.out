@@ -1,9 +1,0 @@
-model: nvidia/segformer-b0-finetuned-ade-512-512	No info from HuggingFace
-***ERROR***
-model: H:nvidia/segformer-b0-finetuned-ade-512-512
-data: None
-eqn: None
-splits: train
-split: train
-task: H:feature-extraction
-error: (<class 'OSError'>, OSError("Can't load config for 'nvidia/segformer-b0-finetuned-ade-512-512'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'nvidia/segformer-b0-finetuned-ade-512-512' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f50f6371040>)

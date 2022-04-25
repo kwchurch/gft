@@ -1,9 +1,0 @@
-model: mishig/tiny-detr-mobilenetsv3	model: mishig/tiny-detr-mobilenetsv3	downloads: 2056	likes: 0	task: object-detection
-***ERROR***
-model: mishig/tiny-detr-mobilenetsv3
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f8ddbaf7d00>)

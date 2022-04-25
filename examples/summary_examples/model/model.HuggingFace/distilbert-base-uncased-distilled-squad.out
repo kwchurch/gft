@@ -1,9 +1,0 @@
-model: distilbert-base-uncased-distilled-squad	model: distilbert-base-uncased-distilled-squad	downloads: 73008	likes: 7	task: question-answering
-***ERROR***
-model: distilbert-base-uncased-distilled-squad
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3eea425d40>)

@@ -1,9 +1,0 @@
-model: facebook/dpr-question_encoder-single-nq-base	model: facebook/dpr-question_encoder-single-nq-base	downloads: 260982	likes: 1	task: feature-extraction
-***ERROR***
-model: facebook/dpr-question_encoder-single-nq-base
-data: None
-eqn: None
-splits: train
-split: train
-task: H:default
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f078f15e440>)

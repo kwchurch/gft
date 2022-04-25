@@ -1,9 +1,0 @@
-model: deepset/roberta-base-squad2	model: deepset/roberta-base-squad2	downloads: 1758631	likes: 53	task: question-answering
-***ERROR***
-model: deepset/roberta-base-squad2
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3b78b3d900>)

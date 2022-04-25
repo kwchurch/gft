@@ -1,9 +1,0 @@
-model: Helsinki-NLP/opus-mt-ar-en	model: Helsinki-NLP/opus-mt-ar-en	downloads: 24568	likes: 3	task: translation
-***ERROR***
-model: Helsinki-NLP/opus-mt-ar-en
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fa3f1ebe540>)

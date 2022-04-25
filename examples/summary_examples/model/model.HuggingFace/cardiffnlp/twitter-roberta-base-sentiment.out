@@ -1,9 +1,0 @@
-model: cardiffnlp/twitter-roberta-base-sentiment	model: cardiffnlp/twitter-roberta-base-sentiment	downloads: 224434	likes: 43	task: text-classification
-***ERROR***
-model: H:cardiffnlp/twitter-roberta-base-sentiment
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f40d9f10e00>)

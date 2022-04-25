@@ -1,9 +1,0 @@
-model: nateraw/hot-dog	model: nateraw/hot-dog	downloads: 47	likes: 0	task: object-detection
-***ERROR***
-model: nateraw/hot-dog
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f472df5f6c0>)

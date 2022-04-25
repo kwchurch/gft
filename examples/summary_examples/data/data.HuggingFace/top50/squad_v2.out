@@ -1,12 +1,27 @@
-hostname = asimov-121.svail.baidu.com
-dataset: squad_v2	dataset: squad_v2	downloads: 35270	likes: 4	PWC: https://paperswithcode.com/dataset/squad
+hostname = asimov-158.svail.baidu.com
+dataset: squad_v2	dataset: squad_v2	downloads: 34064	likes: 4	PWC: https://paperswithcode.com/dataset/squad
 dataset: squad_v2,squad_v2	splits: train: 130319 rows, val: 11873 rows
 dataset: squad_v2,squad_v2	split: train	columns: id, title, context, question, answers
-***ERROR***
-model: None
-data: H:squad_v2
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f53f0e4ae00>)
+dataset: squad_v2 --> 10 models
+dataset: squad_v2	model: deepset/roberta-base-squad2	downloads: 1678343	likes: 54	task: question-answering
+dataset: squad_v2	model: deepset/minilm-uncased-squad2	downloads: 40526	likes: 7	task: question-answering
+dataset: squad_v2	model: mrm8488/t5-small-finetuned-squadv2	downloads: 27514	likes: 1	task: text2text-generation
+dataset: squad_v2	model: deepset/electra-base-squad2	downloads: 15078	likes: 6	task: question-answering
+dataset: squad_v2	model: deepset/xlm-roberta-large-squad2	downloads: 13967	likes: 13	task: question-answering
+dataset: squad_v2	model: navteca/roberta-large-squad2	downloads: 10574	likes: 0	task: question-answering
+dataset: squad_v2	model: deepset/roberta-base-squad2-distilled	downloads: 10166	likes: 1	task: question-answering
+dataset: squad_v2	model: deepset/tinyroberta-squad2	downloads: 9404	likes: 3	task: question-answering
+dataset: squad_v2	model: navteca/electra-base-squad2	downloads: 9131	likes: 0	task: question-answering
+dataset: squad_v2	model: navteca/roberta-base-squad2	downloads: 9096	likes: 0	task: question-answering
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

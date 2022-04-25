@@ -1,9 +1,0 @@
-model: google/mt5-base	model: google/mt5-base	downloads: 87228	likes: 15	task: text2text-generation
-***ERROR***
-model: google/mt5-base
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f9e098e9340>)

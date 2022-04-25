@@ -1,9 +1,0 @@
-model: mishig/tiny-detr-mobilenetsv3-panoptic	model: mishig/tiny-detr-mobilenetsv3-panoptic	downloads: 1824	likes: 0	task: image-segmentation
-***ERROR***
-model: mishig/tiny-detr-mobilenetsv3-panoptic
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fb98e4b1600>)

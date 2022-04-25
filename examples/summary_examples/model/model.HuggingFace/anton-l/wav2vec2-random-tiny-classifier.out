@@ -1,9 +1,0 @@
-model: anton-l/wav2vec2-random-tiny-classifier	model: anton-l/wav2vec2-random-tiny-classifier	downloads: 2850	likes: 1	task: audio-classification
-***ERROR***
-model: H:anton-l/wav2vec2-random-tiny-classifier
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f0f38c207c0>)

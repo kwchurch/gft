@@ -1,9 +1,0 @@
-model: j-hartmann/emotion-english-distilroberta-base	model: j-hartmann/emotion-english-distilroberta-base	downloads: 387731	likes: 19	task: text-classification
-***ERROR***
-model: j-hartmann/emotion-english-distilroberta-base
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f2cb0878400>)

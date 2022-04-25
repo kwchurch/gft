@@ -1,9 +1,0 @@
-model: google/pegasus-cnn_dailymail	model: google/pegasus-cnn_dailymail	downloads: 60593	likes: 5	task: summarization
-***ERROR***
-model: google/pegasus-cnn_dailymail
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f0d6d071c40>)

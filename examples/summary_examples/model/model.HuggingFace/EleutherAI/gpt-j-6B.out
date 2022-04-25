@@ -1,9 +1,0 @@
-model: EleutherAI/gpt-j-6B	model: EleutherAI/gpt-j-6B	downloads: 122988	likes: 154	task: text-generation
-***ERROR***
-model: EleutherAI/gpt-j-6B
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f77ded37bc0>)

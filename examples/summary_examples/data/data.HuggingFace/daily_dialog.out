@@ -1,12 +1,18 @@
-hostname = asimov-125.svail.baidu.com
-dataset: daily_dialog	dataset: daily_dialog	downloads: 1319	likes: 16	PWC: https://paperswithcode.com/dataset/dailydialog
+hostname = asimov-170.svail.baidu.com
+dataset: daily_dialog	dataset: daily_dialog	downloads: 1166	likes: 17	PWC: https://paperswithcode.com/dataset/dailydialog
 dataset: daily_dialog	splits: train: 11118 rows, test: 1000 rows, val: 1000 rows
 dataset: daily_dialog	split: train	columns: dialog, act, emotion
-***ERROR***
-model: None
-data: H:daily_dialog
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fbba59c18c0>)
+dataset: daily_dialog --> 1 models
+dataset: daily_dialog	model: ethzanalytics/GPT-J-6B-8bit-Convo-D3E	downloads: 104	likes: 1	task: text-generation
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

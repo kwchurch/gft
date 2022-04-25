@@ -1,9 +1,0 @@
-model: csebuetnlp/mT5_multilingual_XLSum	model: csebuetnlp/mT5_multilingual_XLSum	downloads: 39681	likes: 35	task: summarization
-***ERROR***
-model: H:csebuetnlp/mT5_multilingual_XLSum
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f6a71dfe080>)

@@ -1,12 +1,12 @@
-# found: 1112 matches; truncating to 10
+# found: 1122 matches; truncating to 10
 task: feature-extraction --> 10 models
-task: feature-extraction	model: DeepPavlov/rubert-base-cased-conversational	downloads: 1201167	likes: 2	task: feature-extraction
-task: feature-extraction	model: openai/clip-vit-base-patch32	downloads: 977139	likes: 25	task: feature-extraction
-task: feature-extraction	model: microsoft/codebert-base	downloads: 957339	likes: 12	task: feature-extraction
-task: feature-extraction	model: facebook/bart-base	downloads: 515995	likes: 10	task: feature-extraction
-task: feature-extraction	model: monsoon-nlp/hindi-bert	downloads: 354325	likes: 4	task: feature-extraction
-task: feature-extraction	model: sentence-transformers/distilbert-base-nli-mean-tokens	downloads: 342465	likes: 0	task: feature-extraction
-task: feature-extraction	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 301722	likes: 5	task: feature-extraction
-task: feature-extraction	model: facebook/dpr-question_encoder-single-nq-base	downloads: 260982	likes: 1	task: feature-extraction
-task: feature-extraction	model: facebook/bart-large	downloads: 259778	likes: 4	task: feature-extraction
-task: feature-extraction	model: DeepPavlov/rubert-base-cased	downloads: 244715	likes: 12	task: feature-extraction
+task: feature-extraction	model: DeepPavlov/rubert-base-cased-conversational	downloads: 1277880	likes: 2	task: feature-extraction
+task: feature-extraction	model: openai/clip-vit-base-patch32	downloads: 1000372	likes: 25	task: feature-extraction
+task: feature-extraction	model: microsoft/codebert-base	downloads: 947800	likes: 12	task: feature-extraction
+task: feature-extraction	model: facebook/bart-base	downloads: 522787	likes: 10	task: feature-extraction
+task: feature-extraction	model: sentence-transformers/distilbert-base-nli-mean-tokens	downloads: 311609	likes: 0	task: feature-extraction
+task: feature-extraction	model: monsoon-nlp/hindi-bert	downloads: 293561	likes: 4	task: feature-extraction
+task: feature-extraction	model: facebook/bart-large	downloads: 259776	likes: 4	task: feature-extraction
+task: feature-extraction	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 251927	likes: 5	task: feature-extraction
+task: feature-extraction	model: facebook/dpr-question_encoder-single-nq-base	downloads: 250271	likes: 1	task: feature-extraction
+task: feature-extraction	model: DeepPavlov/rubert-base-cased-sentence	downloads: 220334	likes: 2	task: feature-extraction

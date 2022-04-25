@@ -1,9 +1,0 @@
-model: remotejob/tweetsDISTILGPT2fi_v4	model: remotejob/tweetsDISTILGPT2fi_v4	downloads: 296883	likes: 0	task: text-generation
-***ERROR***
-model: remotejob/tweetsDISTILGPT2fi_v4
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f1d2db65bc0>)

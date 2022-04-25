@@ -1,9 +1,0 @@
-model: Helsinki-NLP/opus-mt-en-ROMANCE	No info from HuggingFace
-***ERROR***
-model: Helsinki-NLP/opus-mt-en-ROMANCE
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError("Can't load config for 'Helsinki-NLP/opus-mt-en-ROMANCE'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Helsinki-NLP/opus-mt-en-ROMANCE' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f38ac85c580>)

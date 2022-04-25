@@ -1,9 +1,0 @@
-model: t5-small	No info from HuggingFace
-***ERROR***
-model: t5-small
-data: None
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'OSError'>, OSError("Can't load config for 't5-small'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 't5-small' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f4574e64300>)

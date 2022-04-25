@@ -1,12 +1,2 @@
-hostname = asimov-173.svail.baidu.com
-dataset: squad	dataset: squad	downloads: 194478	likes: 24	PWC: https://paperswithcode.com/dataset/squad
-dataset: squad,plain_text	splits: train: 87599 rows, val: 10570 rows
-dataset: squad,plain_text	split: train	columns: id, title, context, question, answers
-***ERROR***
-model: None
-data: H:squad
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f46ed6f6ec0>)
+hostname = asimov-144.svail.baidu.com
+dataset: squad	dataset: squad	downloads: 127581	likes: 24	PWC: https://paperswithcode.com/dataset/squad

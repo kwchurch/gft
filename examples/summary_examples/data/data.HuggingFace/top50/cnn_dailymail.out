@@ -1,31 +1,6 @@
-hostname = asimov-178.svail.baidu.com
-dataset: cnn_dailymail	dataset: cnn_dailymail	downloads: 19173	likes: 7	PWC: https://paperswithcode.com/dataset/cnn-daily-mail-1
+hostname = asimov-153.svail.baidu.com
+dataset: cnn_dailymail	dataset: cnn_dailymail	downloads: 19504	likes: 8	PWC: https://paperswithcode.com/dataset/cnn-daily-mail-1
 dataset: cnn_dailymail,3.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,3.0.0	split: train	columns: article, highlights, id
 dataset: cnn_dailymail,1.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,1.0.0	split: train	columns: article, highlights, id
-dataset: cnn_dailymail,2.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
-dataset: cnn_dailymail,2.0.0	split: train	columns: article, highlights, id
-dataset: cnn_dailymail --> 10 models
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-6	downloads: 893371	likes: 33	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-6-6	downloads: 752403	likes: 8	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-6	downloads: 18337	likes: 2	task: summarization
-dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei1	downloads: 17235	likes: 0	task: text2text-generation
-dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei0	downloads: 17127	likes: 0	task: text2text-generation
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-1-1	downloads: 8547	likes: 0	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-3	downloads: 4119	likes: 0	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-1	downloads: 3717	likes: 1	task: summarization
-dataset: cnn_dailymail	model: plguillou/t5-base-fr-sum-cnndm	downloads: 2383	likes: 2	task: summarization
-dataset: cnn_dailymail	model: ainize/bart-base-cnn	downloads: 1973	likes: 0	task: summarization
-# found: 12922 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
-task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None
