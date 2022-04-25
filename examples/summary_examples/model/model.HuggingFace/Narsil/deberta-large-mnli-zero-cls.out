@@ -1,2 +1,9 @@
-model: Narsil/deberta-large-mnli-zero-cls	model: Narsil/deberta-large-mnli-zero-cls	downloads: 66468	likes: 3	task: zero-shot-classification
-model: Narsil/deberta-large-mnli-zero-cls	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+model: Narsil/deberta-large-mnli-zero-cls	model: Narsil/deberta-large-mnli-zero-cls	downloads: 71339	likes: 3	task: zero-shot-classification
+***ERROR***
+model: Narsil/deberta-large-mnli-zero-cls
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'OSError'>, OSError("Can't load config for 'Narsil/deberta-large-mnli-zero-cls'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'Narsil/deberta-large-mnli-zero-cls' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f19261a2540>)

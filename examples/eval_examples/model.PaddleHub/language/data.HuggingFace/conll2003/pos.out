@@ -1,2 +1,2 @@
-hostname = asimov-26.svail.baidu.com
-***ERROR***	model: P:bert-base-cased	data: H:conll2003	eqn: classify_tokens: pos_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'AttributeError'>, AttributeError("'dict' object has no attribute 'map'"), <traceback object at 0x7f3b47fd2f40>)
+hostname = asimov-79.svail.baidu.com
+***ERROR***	model: P:bert-base-cased	data: H:conll2003	eqn: classify_tokens: pos_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'AttributeError'>, AttributeError("'dict' object has no attribute 'map'"), <traceback object at 0x7fbdff144d40>)

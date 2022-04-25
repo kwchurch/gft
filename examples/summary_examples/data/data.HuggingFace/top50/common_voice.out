@@ -1,145 +1,155 @@
-hostname = asimov-104.svail.baidu.com
-dataset: common_voice	dataset: common_voice	downloads: 58855	likes: 28	PWC: https://paperswithcode.com/dataset/common-voice
-dataset: common_voice,ab	splits: train: 22 rows, test: 9 rows, other: 752 rows, validated: 31 rows, invalidated: 8 rows, val: 0 rows
+hostname = asimov-172.svail.baidu.com
+dataset: common_voice	dataset: common_voice	downloads: 56698	likes: 29	PWC: https://paperswithcode.com/dataset/common-voice
+dataset: common_voice,ab	splits: train: 22 rows, test: 9 rows, other: 752 rows, invalidated: 8 rows, val: 0 rows
 dataset: common_voice,ab	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ar	splits: train: 14227 rows, test: 7622 rows, other: 18283 rows, validated: 43291 rows, invalidated: 6333 rows, val: 7517 rows
+dataset: common_voice,ar	splits: train: 14227 rows, test: 7622 rows, other: 18283 rows, invalidated: 6333 rows, val: 7517 rows
 dataset: common_voice,ar	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,as	splits: train: 270 rows, test: 110 rows, other: 0 rows, validated: 504 rows, invalidated: 31 rows, val: 124 rows
+dataset: common_voice,as	splits: train: 270 rows, test: 110 rows, other: 0 rows, invalidated: 31 rows, val: 124 rows
 dataset: common_voice,as	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,br	splits: train: 2780 rows, test: 2087 rows, other: 10912 rows, validated: 8560 rows, invalidated: 623 rows, val: 1997 rows
+dataset: common_voice,br	splits: train: 2780 rows, test: 2087 rows, other: 10912 rows, invalidated: 623 rows, val: 1997 rows
 dataset: common_voice,br	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ca	splits: train: 285584 rows, test: 15724 rows, other: 64446 rows, validated: 416701 rows, invalidated: 18846 rows, val: 15724 rows
+dataset: common_voice,ca	splits: train: 285584 rows, test: 15724 rows, other: 64446 rows, invalidated: 18846 rows, val: 15724 rows
 dataset: common_voice,ca	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cnh	splits: train: 807 rows, test: 752 rows, other: 2934 rows, validated: 2432 rows, invalidated: 433 rows, val: 756 rows
+dataset: common_voice,cnh	splits: train: 807 rows, test: 752 rows, other: 2934 rows, invalidated: 433 rows, val: 756 rows
 dataset: common_voice,cnh	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cs	splits: train: 5655 rows, test: 4144 rows, other: 7475 rows, validated: 30431 rows, invalidated: 685 rows, val: 4118 rows
+dataset: common_voice,cs	splits: train: 5655 rows, test: 4144 rows, other: 7475 rows, invalidated: 685 rows, val: 4118 rows
 dataset: common_voice,cs	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cv	splits: train: 931 rows, test: 788 rows, other: 6927 rows, validated: 3496 rows, invalidated: 1282 rows, val: 818 rows
+dataset: common_voice,cv	splits: train: 931 rows, test: 788 rows, other: 6927 rows, invalidated: 1282 rows, val: 818 rows
 dataset: common_voice,cv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cy	splits: train: 6839 rows, test: 4820 rows, other: 17919 rows, validated: 72984 rows, invalidated: 3648 rows, val: 4776 rows
+dataset: common_voice,cy	splits: train: 6839 rows, test: 4820 rows, other: 17919 rows, invalidated: 3648 rows, val: 4776 rows
 dataset: common_voice,cy	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,de	splits: train: 246525 rows, test: 15588 rows, other: 10095 rows, validated: 565186 rows, invalidated: 32789 rows, val: 15588 rows
+dataset: common_voice,de	splits: train: 246525 rows, test: 15588 rows, other: 10095 rows, invalidated: 32789 rows, val: 15588 rows
 dataset: common_voice,de	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,dv	splits: train: 2680 rows, test: 2202 rows, other: 0 rows, validated: 11866 rows, invalidated: 840 rows, val: 2077 rows
+dataset: common_voice,dv	splits: train: 2680 rows, test: 2202 rows, other: 0 rows, invalidated: 840 rows, val: 2077 rows
 dataset: common_voice,dv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,el	splits: train: 2316 rows, test: 1522 rows, other: 5659 rows, validated: 5996 rows, invalidated: 185 rows, val: 1401 rows
+Downloading and preparing dataset common_voice/el (download: 363.89 MiB, generated: 355.04 MiB, post-processed: Unknown size, total: 718.93 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/el/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/el/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,el	splits: train: 2316 rows, test: 1522 rows, other: 5659 rows, invalidated: 185 rows, val: 1401 rows
 dataset: common_voice,el	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,en	splits: train: 564337 rows, test: 16164 rows, other: 169895 rows, validated: 1224864 rows, invalidated: 189562 rows, val: 16164 rows
+Downloading and preparing dataset common_voice/en (download: 56.45 GiB, generated: 39.64 GiB, post-processed: Unknown size, total: 96.09 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/en/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/en/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,en	splits: train: 564337 rows, test: 16164 rows, other: 169895 rows, invalidated: 189562 rows, val: 16164 rows
 dataset: common_voice,en	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,eo	splits: train: 19587 rows, test: 8969 rows, other: 2946 rows, validated: 58094 rows, invalidated: 4736 rows, val: 8987 rows
+Downloading and preparing dataset common_voice/eo (download: 2.69 GiB, generated: 2.04 GiB, post-processed: Unknown size, total: 4.72 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/eo/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/eo/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,eo	splits: train: 19587 rows, test: 8969 rows, other: 2946 rows, invalidated: 4736 rows, val: 8987 rows
 dataset: common_voice,eo	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,es	splits: train: 161813 rows, test: 15089 rows, other: 144791 rows, validated: 236314 rows, invalidated: 40640 rows, val: 15089 rows
+dataset: common_voice,es	splits: train: 161813 rows, test: 15089 rows, other: 144791 rows, invalidated: 40640 rows, val: 15089 rows
 dataset: common_voice,es	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,et	splits: train: 2966 rows, test: 2509 rows, other: 569 rows, validated: 10683 rows, invalidated: 3557 rows, val: 2507 rows
+dataset: common_voice,et	splits: train: 2966 rows, test: 2509 rows, other: 569 rows, invalidated: 3557 rows, val: 2507 rows
 dataset: common_voice,et	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,eu	splits: train: 7505 rows, test: 5172 rows, other: 23570 rows, validated: 63009 rows, invalidated: 5387 rows, val: 5172 rows
+dataset: common_voice,eu	splits: train: 7505 rows, test: 5172 rows, other: 23570 rows, invalidated: 5387 rows, val: 5172 rows
 dataset: common_voice,eu	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fa	splits: train: 7593 rows, test: 5213 rows, other: 22510 rows, validated: 251659 rows, invalidated: 11698 rows, val: 5213 rows
+dataset: common_voice,fa	splits: train: 7593 rows, test: 5213 rows, other: 22510 rows, invalidated: 11698 rows, val: 5213 rows
 dataset: common_voice,fa	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fi	splits: train: 460 rows, test: 428 rows, other: 149 rows, validated: 1305 rows, invalidated: 59 rows, val: 415 rows
+dataset: common_voice,fi	splits: train: 460 rows, test: 428 rows, other: 149 rows, invalidated: 59 rows, val: 415 rows
 dataset: common_voice,fi	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fr	splits: train: 298982 rows, test: 15763 rows, other: 3222 rows, validated: 461004 rows, invalidated: 40351 rows, val: 15763 rows
+dataset: common_voice,fr	splits: train: 298982 rows, test: 15763 rows, other: 3222 rows, invalidated: 40351 rows, val: 15763 rows
 dataset: common_voice,fr	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fy-NL	splits: train: 3927 rows, test: 3020 rows, other: 21569 rows, validated: 10495 rows, invalidated: 1031 rows, val: 2790 rows
+dataset: common_voice,fy-NL	splits: train: 3927 rows, test: 3020 rows, other: 21569 rows, invalidated: 1031 rows, val: 2790 rows
 dataset: common_voice,fy-NL	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ga-IE	splits: train: 541 rows, test: 506 rows, other: 2130 rows, validated: 3352 rows, invalidated: 409 rows, val: 497 rows
+dataset: common_voice,ga-IE	splits: train: 541 rows, test: 506 rows, other: 2130 rows, invalidated: 409 rows, val: 497 rows
 dataset: common_voice,ga-IE	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,hi	splits: train: 157 rows, test: 127 rows, other: 139 rows, validated: 419 rows, invalidated: 60 rows, val: 135 rows
+dataset: common_voice,hi	splits: train: 157 rows, test: 127 rows, other: 139 rows, invalidated: 60 rows, val: 135 rows
 dataset: common_voice,hi	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,hsb	splits: train: 808 rows, test: 387 rows, other: 62 rows, validated: 1367 rows, invalidated: 227 rows, val: 172 rows
+dataset: common_voice,hsb	splits: train: 808 rows, test: 387 rows, other: 62 rows, invalidated: 227 rows, val: 172 rows
 dataset: common_voice,hsb	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,hu	splits: train: 3348 rows, test: 1649 rows, other: 295 rows, validated: 6457 rows, invalidated: 169 rows, val: 1434 rows
+dataset: common_voice,hu	splits: train: 3348 rows, test: 1649 rows, other: 295 rows, invalidated: 169 rows, val: 1434 rows
 dataset: common_voice,hu	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ia	splits: train: 3477 rows, test: 899 rows, other: 1095 rows, validated: 5978 rows, invalidated: 192 rows, val: 1601 rows
+dataset: common_voice,ia	splits: train: 3477 rows, test: 899 rows, other: 1095 rows, invalidated: 192 rows, val: 1601 rows
 dataset: common_voice,ia	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,id	splits: train: 2130 rows, test: 1844 rows, other: 6782 rows, validated: 8696 rows, invalidated: 470 rows, val: 1835 rows
+dataset: common_voice,id	splits: train: 2130 rows, test: 1844 rows, other: 6782 rows, invalidated: 470 rows, val: 1835 rows
 dataset: common_voice,id	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,it	splits: train: 58015 rows, test: 12928 rows, other: 14549 rows, validated: 102579 rows, invalidated: 12189 rows, val: 12928 rows
+dataset: common_voice,it	splits: train: 58015 rows, test: 12928 rows, other: 14549 rows, invalidated: 12189 rows, val: 12928 rows
 dataset: common_voice,it	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ja	splits: train: 722 rows, test: 632 rows, other: 885 rows, validated: 3072 rows, invalidated: 504 rows, val: 586 rows
+dataset: common_voice,ja	splits: train: 722 rows, test: 632 rows, other: 885 rows, invalidated: 504 rows, val: 586 rows
 dataset: common_voice,ja	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ka	splits: train: 1058 rows, test: 656 rows, other: 44 rows, validated: 2275 rows, invalidated: 139 rows, val: 527 rows
+dataset: common_voice,ka	splits: train: 1058 rows, test: 656 rows, other: 44 rows, invalidated: 139 rows, val: 527 rows
 dataset: common_voice,ka	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,kab	splits: train: 120530 rows, test: 14622 rows, other: 88021 rows, validated: 573718 rows, invalidated: 18134 rows, val: 14622 rows
+dataset: common_voice,kab	splits: train: 120530 rows, test: 14622 rows, other: 88021 rows, invalidated: 18134 rows, val: 14622 rows
 dataset: common_voice,kab	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ky	splits: train: 1955 rows, test: 1503 rows, other: 7223 rows, validated: 9236 rows, invalidated: 926 rows, val: 1511 rows
+dataset: common_voice,ky	splits: train: 1955 rows, test: 1503 rows, other: 7223 rows, invalidated: 926 rows, val: 1511 rows
 dataset: common_voice,ky	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,lg	splits: train: 1250 rows, test: 584 rows, other: 3110 rows, validated: 2220 rows, invalidated: 290 rows, val: 384 rows
+dataset: common_voice,lg	splits: train: 1250 rows, test: 584 rows, other: 3110 rows, invalidated: 290 rows, val: 384 rows
 dataset: common_voice,lg	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,lt	splits: train: 931 rows, test: 466 rows, other: 1629 rows, validated: 1644 rows, invalidated: 102 rows, val: 244 rows
+dataset: common_voice,lt	splits: train: 931 rows, test: 466 rows, other: 1629 rows, invalidated: 102 rows, val: 244 rows
 dataset: common_voice,lt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,lv	splits: train: 2552 rows, test: 1882 rows, other: 1560 rows, validated: 6444 rows, invalidated: 143 rows, val: 2002 rows
+dataset: common_voice,lv	splits: train: 2552 rows, test: 1882 rows, other: 1560 rows, invalidated: 143 rows, val: 2002 rows
 dataset: common_voice,lv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,mn	splits: train: 2183 rows, test: 1862 rows, other: 3272 rows, validated: 7487 rows, invalidated: 667 rows, val: 1837 rows
+dataset: common_voice,mn	splits: train: 2183 rows, test: 1862 rows, other: 3272 rows, invalidated: 667 rows, val: 1837 rows
 dataset: common_voice,mn	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,mt	splits: train: 2036 rows, test: 1617 rows, other: 5714 rows, validated: 5747 rows, invalidated: 314 rows, val: 1516 rows
+dataset: common_voice,mt	splits: train: 2036 rows, test: 1617 rows, other: 5714 rows, invalidated: 314 rows, val: 1516 rows
 dataset: common_voice,mt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,nl	splits: train: 9460 rows, test: 5708 rows, other: 27 rows, validated: 52488 rows, invalidated: 3308 rows, val: 4938 rows
+dataset: common_voice,nl	splits: train: 9460 rows, test: 5708 rows, other: 27 rows, invalidated: 3308 rows, val: 4938 rows
 dataset: common_voice,nl	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,or	splits: train: 388 rows, test: 98 rows, other: 4302 rows, validated: 615 rows, invalidated: 62 rows, val: 129 rows
+dataset: common_voice,or	splits: train: 388 rows, test: 98 rows, other: 4302 rows, invalidated: 62 rows, val: 129 rows
 dataset: common_voice,or	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,pa-IN	splits: train: 211 rows, test: 116 rows, other: 1411 rows, validated: 371 rows, invalidated: 43 rows, val: 44 rows
+dataset: common_voice,pa-IN	splits: train: 211 rows, test: 116 rows, other: 1411 rows, invalidated: 43 rows, val: 44 rows
 dataset: common_voice,pa-IN	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,pl	splits: train: 7468 rows, test: 5153 rows, other: 12848 rows, validated: 90791 rows, invalidated: 4601 rows, val: 5153 rows
+dataset: common_voice,pl	splits: train: 7468 rows, test: 5153 rows, other: 12848 rows, invalidated: 4601 rows, val: 5153 rows
 dataset: common_voice,pl	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,pt	splits: train: 6514 rows, test: 4641 rows, other: 8390 rows, validated: 41584 rows, invalidated: 1740 rows, val: 4592 rows
+dataset: common_voice,pt	splits: train: 6514 rows, test: 4641 rows, other: 8390 rows, invalidated: 1740 rows, val: 4592 rows
 dataset: common_voice,pt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,rm-sursilv	splits: train: 1384 rows, test: 1194 rows, other: 2102 rows, validated: 3783 rows, invalidated: 639 rows, val: 1205 rows
+dataset: common_voice,rm-sursilv	splits: train: 1384 rows, test: 1194 rows, other: 2102 rows, invalidated: 639 rows, val: 1205 rows
 dataset: common_voice,rm-sursilv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,rm-vallader	splits: train: 574 rows, test: 378 rows, other: 727 rows, validated: 1316 rows, invalidated: 374 rows, val: 357 rows
+dataset: common_voice,rm-vallader	splits: train: 574 rows, test: 378 rows, other: 727 rows, invalidated: 374 rows, val: 357 rows
 dataset: common_voice,rm-vallader	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ro	splits: train: 3399 rows, test: 1778 rows, other: 1945 rows, validated: 6039 rows, invalidated: 485 rows, val: 858 rows
+dataset: common_voice,ro	splits: train: 3399 rows, test: 1778 rows, other: 1945 rows, invalidated: 485 rows, val: 858 rows
 dataset: common_voice,ro	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ru	splits: train: 15481 rows, test: 8007 rows, other: 10247 rows, validated: 74256 rows, invalidated: 3056 rows, val: 7963 rows
+dataset: common_voice,ru	splits: train: 15481 rows, test: 8007 rows, other: 10247 rows, invalidated: 3056 rows, val: 7963 rows
 dataset: common_voice,ru	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,rw	splits: train: 515197 rows, test: 15724 rows, other: 22923 rows, validated: 832929 rows, invalidated: 206790 rows, val: 15032 rows
+dataset: common_voice,rw	splits: train: 515197 rows, test: 15724 rows, other: 22923 rows, invalidated: 206790 rows, val: 15032 rows
 dataset: common_voice,rw	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,sah	splits: train: 1442 rows, test: 757 rows, other: 1275 rows, validated: 2606 rows, invalidated: 66 rows, val: 405 rows
+Downloading and preparing dataset common_voice/sah (download: 172.85 MiB, generated: 182.07 MiB, post-processed: Unknown size, total: 354.92 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/sah/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/sah/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,sah	splits: train: 1442 rows, test: 757 rows, other: 1275 rows, invalidated: 66 rows, val: 405 rows
 dataset: common_voice,sah	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,sl	splits: train: 2038 rows, test: 881 rows, other: 2502 rows, validated: 4669 rows, invalidated: 92 rows, val: 556 rows
+Downloading and preparing dataset common_voice/sl (download: 212.43 MiB, generated: 182.79 MiB, post-processed: Unknown size, total: 395.22 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/sl/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/sl/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,sl	splits: train: 2038 rows, test: 881 rows, other: 2502 rows, invalidated: 92 rows, val: 556 rows
 dataset: common_voice,sl	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,sv-SE	splits: train: 2331 rows, test: 2027 rows, other: 3043 rows, validated: 12552 rows, invalidated: 462 rows, val: 2019 rows
+dataset: common_voice,sv-SE	splits: train: 2331 rows, test: 2027 rows, other: 3043 rows, invalidated: 462 rows, val: 2019 rows
 dataset: common_voice,sv-SE	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ta	splits: train: 2009 rows, test: 1781 rows, other: 7428 rows, validated: 12652 rows, invalidated: 594 rows, val: 1779 rows
+dataset: common_voice,ta	splits: train: 2009 rows, test: 1781 rows, other: 7428 rows, invalidated: 594 rows, val: 1779 rows
 dataset: common_voice,ta	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,th	splits: train: 2917 rows, test: 2188 rows, other: 2671 rows, validated: 7028 rows, invalidated: 467 rows, val: 1922 rows
+dataset: common_voice,th	splits: train: 2917 rows, test: 2188 rows, other: 2671 rows, invalidated: 467 rows, val: 1922 rows
 dataset: common_voice,th	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,tr	splits: train: 1831 rows, test: 1647 rows, other: 325 rows, validated: 18685 rows, invalidated: 1726 rows, val: 1647 rows
+dataset: common_voice,tr	splits: train: 1831 rows, test: 1647 rows, other: 325 rows, invalidated: 1726 rows, val: 1647 rows
 dataset: common_voice,tr	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,tt	splits: train: 11211 rows, test: 4485 rows, other: 1798 rows, validated: 25781 rows, invalidated: 287 rows, val: 2127 rows
+dataset: common_voice,tt	splits: train: 11211 rows, test: 4485 rows, other: 1798 rows, invalidated: 287 rows, val: 2127 rows
 dataset: common_voice,tt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,uk	splits: train: 4035 rows, test: 3235 rows, other: 8161 rows, validated: 22337 rows, invalidated: 1255 rows, val: 3236 rows
+dataset: common_voice,uk	splits: train: 4035 rows, test: 3235 rows, other: 8161 rows, invalidated: 1255 rows, val: 3236 rows
 dataset: common_voice,uk	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,vi	splits: train: 221 rows, test: 198 rows, other: 870 rows, validated: 619 rows, invalidated: 78 rows, val: 200 rows
+dataset: common_voice,vi	splits: train: 221 rows, test: 198 rows, other: 870 rows, invalidated: 78 rows, val: 200 rows
 dataset: common_voice,vi	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,vot	splits: train: 3 rows, test: 0 rows, other: 411 rows, validated: 3 rows, invalidated: 6 rows, val: 0 rows
+dataset: common_voice,vot	splits: train: 3 rows, test: 0 rows, other: 411 rows, invalidated: 6 rows, val: 0 rows
 dataset: common_voice,vot	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,zh-CN	splits: train: 18541 rows, test: 8760 rows, other: 8948 rows, validated: 36405 rows, invalidated: 5305 rows, val: 8743 rows
+dataset: common_voice,zh-CN	splits: train: 18541 rows, test: 8760 rows, other: 8948 rows, invalidated: 5305 rows, val: 8743 rows
 dataset: common_voice,zh-CN	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,zh-HK	splits: train: 7506 rows, test: 5172 rows, other: 38830 rows, validated: 41835 rows, invalidated: 2999 rows, val: 5172 rows
+dataset: common_voice,zh-HK	splits: train: 7506 rows, test: 5172 rows, other: 38830 rows, invalidated: 2999 rows, val: 5172 rows
 dataset: common_voice,zh-HK	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,zh-TW	splits: train: 3507 rows, test: 2895 rows, other: 22477 rows, validated: 61232 rows, invalidated: 3584 rows, val: 2895 rows
+dataset: common_voice,zh-TW	splits: train: 3507 rows, test: 2895 rows, other: 22477 rows, invalidated: 3584 rows, val: 2895 rows
 dataset: common_voice,zh-TW	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
 dataset: common_voice --> 10 models
-dataset: common_voice	model: vumichien/wav2vec2-large-xlsr-japanese-hiragana	downloads: 31027	likes: 2	task: automatic-speech-recognition
-dataset: common_voice	model: facebook/wav2vec2-large-xlsr-53	downloads: 28487	likes: 13	task: None
-dataset: common_voice	model: facebook/wav2vec2-xls-r-300m	downloads: 26699	likes: 19	task: None
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 18732	likes: 8	task: automatic-speech-recognition
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-german	downloads: 6503	likes: 4	task: automatic-speech-recognition
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-spanish	downloads: 6441	likes: 4	task: automatic-speech-recognition
-dataset: common_voice	model: lighteternal/wav2vec2-large-xlsr-53-greek	downloads: 5625	likes: 1	task: automatic-speech-recognition
-dataset: common_voice	model: ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt	downloads: 5573	likes: 6	task: automatic-speech-recognition
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-french	downloads: 4953	likes: 2	task: automatic-speech-recognition
-dataset: common_voice	model: voidful/wav2vec2-xlsr-multilingual-56	downloads: 4607	likes: 5	task: automatic-speech-recognition
-# found: 12313 matches; truncating to 10
+dataset: common_voice	model: facebook/wav2vec2-xls-r-300m	downloads: 26694	likes: 19	task: None
+dataset: common_voice	model: facebook/wav2vec2-large-xlsr-53	downloads: 26196	likes: 14	task: None
+dataset: common_voice	model: vumichien/wav2vec2-large-xlsr-japanese-hiragana	downloads: 18167	likes: 2	task: automatic-speech-recognition
+dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 13562	likes: 8	task: automatic-speech-recognition
+dataset: common_voice	model: ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt	downloads: 7018	likes: 7	task: automatic-speech-recognition
+dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-german	downloads: 5919	likes: 5	task: automatic-speech-recognition
+dataset: common_voice	model: voidful/wav2vec2-xlsr-multilingual-56	downloads: 5081	likes: 5	task: automatic-speech-recognition
+dataset: common_voice	model: lighteternal/wav2vec2-large-xlsr-53-greek	downloads: 4892	likes: 1	task: automatic-speech-recognition
+dataset: common_voice	model: airesearch/wav2vec2-large-xlsr-53-th	downloads: 3808	likes: 2	task: automatic-speech-recognition
+dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn	downloads: 3693	likes: 3	task: automatic-speech-recognition
+# found: 12919 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 830578	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 464020	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 422753	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 378478	likes: 11	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 343630	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 330531	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 282044	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 224073	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 216583	likes: 11	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 204288	likes: 7	task: None

@@ -1,23 +1,23 @@
-hostname = asimov-135.svail.baidu.com
-dataset: quoref	dataset: quoref	downloads: 9456	likes: 0	PWC: https://paperswithcode.com/dataset/quoref
+hostname = asimov-190.svail.baidu.com
+dataset: quoref	dataset: quoref	downloads: 9162	likes: 0	PWC: https://paperswithcode.com/dataset/quoref
 dataset: quoref	splits: train: 19399 rows, val: 2418 rows
 dataset: quoref	split: train	columns: id, question, context, title, url, answers
 dataset: quoref --> 6 models
-dataset: quoref	model: nielsr/coref-bert-base	downloads: 170	likes: 0	task: None
-dataset: quoref	model: AdapterHub/bert-base-uncased-pf-quoref	downloads: 37	likes: 0	task: question-answering
-dataset: quoref	model: AdapterHub/roberta-base-pf-quoref	downloads: 17	likes: 0	task: question-answering
-dataset: quoref	model: nielsr/coref-roberta-base	downloads: 11	likes: 0	task: None
-dataset: quoref	model: nielsr/coref-roberta-large	downloads: 8	likes: 0	task: None
-dataset: quoref	model: nielsr/coref-bert-large	downloads: 7	likes: 0	task: None
-# found: 12313 matches; truncating to 10
+dataset: quoref	model: nielsr/coref-bert-base	downloads: 419	likes: 0	task: None
+dataset: quoref	model: AdapterHub/bert-base-uncased-pf-quoref	downloads: 72	likes: 0	task: question-answering
+dataset: quoref	model: AdapterHub/roberta-base-pf-quoref	downloads: 13	likes: 0	task: question-answering
+dataset: quoref	model: nielsr/coref-roberta-large	downloads: 10	likes: 0	task: None
+dataset: quoref	model: nielsr/coref-roberta-base	downloads: 5	likes: 0	task: None
+dataset: quoref	model: nielsr/coref-bert-large	downloads: 3	likes: 0	task: None
+# found: 12917 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
+task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

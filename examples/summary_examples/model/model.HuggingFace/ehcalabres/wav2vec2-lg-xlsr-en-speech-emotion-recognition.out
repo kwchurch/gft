@@ -1,2 +1,9 @@
-model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition	model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition	downloads: 12754	likes: 10	task: audio-classification
-model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition	labels: angry, calm, disgust, fearful, happy, neutral, sad, surprised
+model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition	model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition	downloads: 12982	likes: 10	task: audio-classification
+***ERROR***
+model: ehcalabres/wav2vec2-lg-xlsr-en-speech-emotion-recognition
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3105c9bb80>)

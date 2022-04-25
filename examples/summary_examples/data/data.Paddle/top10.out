@@ -1,0 +1,48 @@
+hostname = asimov-116.svail.baidu.com
+flowers		splits: train|val
+esc50		splits: train|val
+advertisegen		splits: train|dev
+bq_corpus		splits: train|dev|test
+bstc	configs: transcription_translation|asr	splits: train|dev
+c3		splits: train|dev|test
+cail2019_scm		splits: train|dev|test
+chnsenticorp		splits: train|dev|test
+clue	configs: afqmc|tnews|iflytek|ocnli|cmnli|cluewsc2020|csl	splits: train|dev|test
+cmrc2018		splits: train|dev|trial
+cnn_dailymail	configs: cnn|dailymail	splits: train|dev|test
+conll2002		splits: train|dev|test
+cote	configs: dp|bd|mfw	splits: train|test
+couplet		splits: train|dev|test
+drcd		splits: train|dev|test
+duconv		splits: train|dev|test_1|test_2
+dureader_checklist		splits: train|dev|test1
+dureader_qg		splits: train|dev
+dureader_robust		splits: train|dev|test
+dureader_yesno		splits: train|dev|test
+fewclue	configs: bustm|chid|iflytek|tnews|eprstmt|ocnli|csldcp|csl	splits: train_0|train_1|train_2|train_3|train_4|train_few_all|dev_0|dev_1|dev_2|dev_3|dev_4|dev_few_all|test|test_public|unlabeled
+fewclue	configs: cluewsc	splits: train_0|train_1|train_2|train_3|train_4|train_few_all|dev_0|dev_1|dev_2|dev_3|dev_4|dev_few_all|test|test_public
+glue	configs: cola|sst-2|sts-b|qqp|qnli|rte|wnli|mrpc	splits: train|dev|test
+glue	configs: mnli	splits: train|dev_matched|test_matched
+glue	configs: mnli	splits: train|dev_mismatched|test_mismatched
+hyp		splits: train|dev|test
+imdb		splits: train|test
+iwslt15		splits: train|dev|test
+lcqmc		splits: train|dev|test
+lcsts_new		splits: train|dev
+msra_ner		splits: train|test
+nlpcc13_evsam05_hit		splits: train|dev|test
+nlpcc13_evsam05_thu		splits: train|dev|test
+nlpcc14_sc		splits: train|test
+paws-x		splits: train|dev|test
+peoples_daily_ner		splits: train|dev|test
+poetry		splits: train|dev|test
+ptb		splits: train|devid|test
+seabsa16	configs: phns|came	splits: train|test
+sighan-cn		splits: train|dev
+squad		splits: train|dev_v1|dev_v2
+thucnews		splits: train|dev|test
+triviaqa		splits: train|dev
+wmt14ende		splits: train|dev|test
+xnli_cn		splits: train|dev|test
+xnli	configs: ar|bg|de|el|en|es|fr|hi|ru|sw|th|tr|ur|vi|zh	splits: train
+yahoo_answer_100k		splits: train|valid|test

@@ -1,24 +1,24 @@
-hostname = asimov-143.svail.baidu.com
-113.45 seconds	textattack/bert-base-uncased-imdb	accuracy: 0.89088	f1: 0.8908780382490205
-343.70 seconds	lvwerra/bert-imdb	accuracy: 0.96252	f1: 0.9625186326197478
-58.33 seconds	textattack/distilbert-base-uncased-imdb	accuracy: 0.88	f1: 0.8799876116492051
-109.03 seconds	textattack/roberta-base-imdb	accuracy: 0.91436	f1: 0.9143502305817407
-109.41 seconds	aychang/roberta-base-imdb	accuracy: 0.89312	f1: 0.893051651620635
-59.11 seconds	lvwerra/distilbert-imdb	accuracy: 0.86744	f1: 0.8674283854538782
-124.72 seconds	textattack/albert-base-v2-imdb	accuracy: 0.8924	f1: 0.8923953693853679
-110.28 seconds	ykacer/bert-base-cased-imdb-sequence-classification	accuracy: 0.5	f1: 0.3333333333333333
-110.13 seconds	nateraw/bert-base-uncased-imdb	accuracy: 0.49992	f1: 0.33372387424830385
-109.08 seconds	aypan17/roberta-base-imdb	accuracy: 0.90168	f1: 0.901598834940454
-108.33 seconds	allenai/dsp_roberta_base_tapt_imdb_70000	accuracy: 0.5	f1: 0.3333333333333333
-145.01 seconds	textattack/xlnet-base-cased-imdb	accuracy: 0.89908	f1: 0.899045672136461
-107.83 seconds	Lumos/imdb4	accuracy: 0.8764	f1: 0.8763954307840525
-57.88 seconds	abhishek/autonlp-imdb_sentiment_classification-31154	accuracy: 0.91228	f1: 0.9121132371877745
-109.12 seconds	w11wo/javanese-bert-small-imdb-classifier	accuracy: 0.68344	f1: 0.6801487066503771
-339.82 seconds	yosemite/autonlp-imdb-sentiment-analysis-english-470512388	accuracy: 0.896	f1: 0.8958444906584397
-108.26 seconds	abhishek/autonlp-imdb_eval-71421	accuracy: 0.82288	f1: 0.8209463338540264
-17.55 seconds	lannelin/bert-imdb-1hidden	accuracy: 0.81208	f1: 0.8120794178972048
-57.91 seconds	juliensimon/autonlp-imdb-demo-hf-16622775	accuracy: 0.91256	f1: 0.9125585444145536
-56.95 seconds	Sakil/imdbsentdistilbertmodel	accuracy: 0.91916	f1: 0.9191555729591753
-107.67 seconds	ZiweiG/ziwei-bert-imdb	accuracy: 0.8816	f1: 0.8815981805902822
-108.21 seconds	ZiweiG/ziwei-bertimdb-prob	accuracy: 0.60352	f1: 0.595940637672593
-57.23 seconds	lschneidpro/distilbert_uncased_imdb	accuracy: 0.86928	f1: 0.8692791433077938
+hostname = asimov-28.svail.baidu.com
+***ERROR***	model: H:textattack/bert-base-uncased-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f213c335880>)
+***ERROR***	model: H:lvwerra/bert-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f20db7ac140>)
+***ERROR***	model: H:textattack/distilbert-base-uncased-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fd984ddb0c0>)
+***ERROR***	model: H:textattack/roberta-base-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f1b91432dc0>)
+***ERROR***	model: H:aychang/roberta-base-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f82d59bd300>)
+***ERROR***	model: H:lvwerra/distilbert-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fd962223400>)
+***ERROR***	model: H:textattack/albert-base-v2-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f46bae38440>)
+***ERROR***	model: H:ykacer/bert-base-cased-imdb-sequence-classification	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7feb90cd2440>)
+***ERROR***	model: H:nateraw/bert-base-uncased-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f94713b3f00>)
+***ERROR***	model: H:aypan17/roberta-base-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f75496ccb00>)
+***ERROR***	model: H:allenai/dsp_roberta_base_tapt_imdb_70000	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f7fb4abe4c0>)
+***ERROR***	model: H:textattack/xlnet-base-cased-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fd20898a4c0>)
+***ERROR***	model: H:Lumos/imdb4	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3af282a480>)
+***ERROR***	model: H:abhishek/autonlp-imdb_sentiment_classification-31154	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fcd44a88e00>)
+***ERROR***	model: H:w11wo/javanese-bert-small-imdb-classifier	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f8486e52740>)
+***ERROR***	model: H:yosemite/autonlp-imdb-sentiment-analysis-english-470512388	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fa9c8da5a40>)
+***ERROR***	model: H:abhishek/autonlp-imdb_eval-71421	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f9620c591c0>)
+***ERROR***	model: H:lannelin/bert-imdb-1hidden	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f4e8a1b5a00>)
+***ERROR***	model: H:juliensimon/autonlp-imdb-demo-hf-16622775	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f4b06b89340>)
+***ERROR***	model: H:Sakil/imdbsentdistilbertmodel	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f6ada39be00>)
+***ERROR***	model: H:ZiweiG/ziwei-bert-imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f5d4dbb9340>)
+***ERROR***	model: H:ZiweiG/ziwei-bertimdb-prob	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fe5c18e60c0>)
+***ERROR***	model: H:lschneidpro/distilbert_uncased_imdb	data: H:imdb	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f0e4a0fef00>)

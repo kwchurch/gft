@@ -1,2 +1,9 @@
-model: nielsr/detr-resnet-50	model: nielsr/detr-resnet-50	downloads: 48	likes: 0	task: object-detection
-model: nielsr/detr-resnet-50	labels: N/A, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, tv, umbrella, vase, wine glass, zebra
+model: nielsr/detr-resnet-50	model: nielsr/detr-resnet-50	downloads: 46	likes: 0	task: object-detection
+***ERROR***
+model: nielsr/detr-resnet-50
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f48b18ae240>)

@@ -1,3 +1,4 @@
+We use pattern recognition to recognize the Tokenizer class.
 name: electra_model_0	labels (NA): NA	ElectraModel(
   (embeddings): ElectraEmbeddings(
     (word_embeddings): Embedding(21128, 128, sparse=False)

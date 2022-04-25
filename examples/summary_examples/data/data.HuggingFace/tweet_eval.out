@@ -1,5 +1,5 @@
-hostname = asimov-102.svail.baidu.com
-dataset: tweet_eval	dataset: tweet_eval	downloads: 152940	likes: 10	PWC: https://paperswithcode.com/dataset/tweeteval
+hostname = asimov-170.svail.baidu.com
+dataset: tweet_eval	dataset: tweet_eval	downloads: 155078	likes: 10	PWC: https://paperswithcode.com/dataset/tweeteval
 dataset: tweet_eval,emoji	splits: train: 45000 rows, test: 50000 rows, val: 5000 rows
 dataset: tweet_eval,emoji	split: train	columns: text, label
 dataset: tweet_eval,emoji	labels: ❤, 😍, 😂, 💕, 🔥, 😊, 😎, ✨, 💙, 😘, 📷, 🇺🇸, ☀, 💜, 😉, 💯, 😁, 🎄, 📸, 😜
@@ -33,26 +33,11 @@ dataset: tweet_eval,stance_feminist	labels: none, against, favor
 dataset: tweet_eval,stance_hillary	splits: train: 620 rows, test: 295 rows, val: 69 rows
 dataset: tweet_eval,stance_hillary	split: train	columns: text, label
 dataset: tweet_eval,stance_hillary	labels: none, against, favor
-dataset: tweet_eval --> 10 models
-dataset: tweet_eval	model: elozano/tweet_sentiment_eval	downloads: 15500	likes: 2	task: text-classification
-dataset: tweet_eval	model: elozano/tweet_emotion_eval	downloads: 159	likes: 3	task: text-classification
-dataset: tweet_eval	model: elozano/tweet_offensive_eval	downloads: 84	likes: 2	task: text-classification
-dataset: tweet_eval	model: AlekseyDorkin/xlm-roberta-en-ru-emoji	downloads: 54	likes: 0	task: text-classification
-dataset: tweet_eval	model: philschmid/BERT-tweet-eval-emotion	downloads: 27	likes: 0	task: text-classification
-dataset: tweet_eval	model: selimsametoglu/selims	downloads: 27	likes: 0	task: text-classification
-dataset: tweet_eval	model: marcolatella/irony_trained	downloads: 10	likes: 0	task: text-classification
-dataset: tweet_eval	model: philschmid/DistilBERT-tweet-eval-emotion	downloads: 9	likes: 0	task: text-classification
-dataset: tweet_eval	model: aXhyra/presentation_hate_1234567	downloads: 8	likes: 0	task: text-classification
-dataset: tweet_eval	model: aXhyra/presentation_hate_31415	downloads: 6	likes: 0	task: text-classification
-# found: 12311 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+***ERROR***
+model: None
+data: H:tweet_eval
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f15e7f3c200>)

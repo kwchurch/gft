@@ -1,2 +1,9 @@
-model: tuner007/pegasus_paraphrase	model: tuner007/pegasus_paraphrase	downloads: 158575	likes: 40	task: text2text-generation
-model: tuner007/pegasus_paraphrase	labels: LABEL_0, LABEL_1, LABEL_2
+model: tuner007/pegasus_paraphrase	No info from HuggingFace
+***ERROR***
+model: tuner007/pegasus_paraphrase
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'OSError'>, OSError("Can't load config for 'tuner007/pegasus_paraphrase'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'tuner007/pegasus_paraphrase' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f73043142c0>)

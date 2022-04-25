@@ -1,18 +1,18 @@
-hostname = asimov-142.svail.baidu.com
-5.46 seconds	bhadresh-savani/distilbert-base-uncased-emotion	accuracy: 0.927	f1: 0.8825061528287809
-5.63 seconds	nateraw/bert-base-uncased-emotion	accuracy: 0.926	f1: 0.8835208254266581
-5.31 seconds	bhadresh-savani/roberta-base-emotion	accuracy: 0.9305	f1: 0.8815789237745175
-5.48 seconds	bhadresh-savani/bert-base-uncased-emotion	accuracy: 0.9265	f1: 0.8821398657055098
-3.51 seconds	lewiswatson/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8727941247828231
-3.76 seconds	transformersbook/distilbert-base-uncased-finetuned-emotion	accuracy: 0.917	f1: 0.87014109251034
-6.07 seconds	bhadresh-savani/albert-base-v2-emotion	accuracy: 0.932	f1: 0.896479961363852
-5.40 seconds	Emanuel/bertweet-emotion-base	accuracy: 0.9285	f1: 0.8863603878501328
-9.65 seconds	Emanuel/twitter-emotion-deberta-v3-base	accuracy: 0.9255	f1: 0.8790048313120858
-3.33 seconds	reatiny/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8732132232192015
-6.29 seconds	Jorgeutd/sagemaker-roberta-base-emotion	accuracy: 0.931	f1: 0.8940637009428855
-5.48 seconds	trnt/twitter_emotions	accuracy: 0.934	f1: 0.8967635778314844
-6.07 seconds	ncduy/bert-base-cased-finetuned-emotion	accuracy: 0.9295	f1: 0.8942331975550357
-3.77 seconds	srosy/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9255	f1: 0.883472422608144
-3.64 seconds	MhF/distilbert-base-uncased-finetuned-emotion	accuracy: 0.919	f1: 0.8735040674175432
-3.66 seconds	Crives/distilbert-base-uncased-finetuned-emotion	accuracy: 0.9185	f1: 0.8707271019316701
-3.51 seconds	Tommy930/distilbert-base-uncased-finetuned-emotion	accuracy: 0.92	f1: 0.8725259836843203
+hostname = asimov-50.svail.baidu.com
+***ERROR***	model: H:bhadresh-savani/distilbert-base-uncased-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f2901020dc0>)
+***ERROR***	model: H:nateraw/bert-base-uncased-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7faf749b7600>)
+***ERROR***	model: H:bhadresh-savani/roberta-base-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f1fb0056d00>)
+***ERROR***	model: H:bhadresh-savani/bert-base-uncased-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f031927c740>)
+***ERROR***	model: H:lewiswatson/distilbert-base-uncased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f1f2f34d700>)
+***ERROR***	model: H:transformersbook/distilbert-base-uncased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f09802d0100>)
+***ERROR***	model: H:bhadresh-savani/albert-base-v2-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3596aa5040>)
+***ERROR***	model: H:Emanuel/bertweet-emotion-base	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7ff2c078e0c0>)
+***ERROR***	model: H:Emanuel/twitter-emotion-deberta-v3-base	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f9befadaf40>)
+***ERROR***	model: H:reatiny/distilbert-base-uncased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3e35913c00>)
+***ERROR***	model: H:Jorgeutd/sagemaker-roberta-base-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fadbc18e900>)
+***ERROR***	model: H:trnt/twitter_emotions	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f05efb8f500>)
+***ERROR***	model: H:ncduy/bert-base-cased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fa354aae440>)
+***ERROR***	model: H:srosy/distilbert-base-uncased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f4396f27f40>)
+***ERROR***	model: H:MhF/distilbert-base-uncased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f56715a0380>)
+***ERROR***	model: H:Crives/distilbert-base-uncased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7ff284487580>)
+***ERROR***	model: H:Tommy930/distilbert-base-uncased-finetuned-emotion	data: H:emotion	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fe5c299d340>)

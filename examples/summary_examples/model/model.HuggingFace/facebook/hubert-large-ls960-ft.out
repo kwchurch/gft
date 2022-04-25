@@ -1,2 +1,9 @@
-model: facebook/hubert-large-ls960-ft	model: facebook/hubert-large-ls960-ft	downloads: 67029	likes: 11	task: automatic-speech-recognition
-model: facebook/hubert-large-ls960-ft	labels: LABEL_0, LABEL_1
+model: facebook/hubert-large-ls960-ft	model: facebook/hubert-large-ls960-ft	downloads: 53182	likes: 12	task: automatic-speech-recognition
+***ERROR***
+model: facebook/hubert-large-ls960-ft
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f0759fa6e40>)

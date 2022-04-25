@@ -1,28 +1,28 @@
-hostname = asimov-127.svail.baidu.com
-dataset: imdb	dataset: imdb	downloads: 108968	likes: 9	PWC: https://paperswithcode.com/dataset/imdb-movie-reviews
+hostname = asimov-178.svail.baidu.com
+dataset: imdb	dataset: imdb	downloads: 98053	likes: 10	PWC: https://paperswithcode.com/dataset/imdb-movie-reviews
 dataset: imdb,plain_text	splits: train: 25000 rows, test: 25000 rows, unsupervised: 50000 rows
 dataset: imdb,plain_text	split: train	columns: text, label
 dataset: imdb,plain_text	labels: neg, pos
 dataset: imdb --> 10 models
-dataset: imdb	model: mrm8488/t5-small-finetuned-imdb-sentiment	downloads: 13063	likes: 0	task: text2text-generation
-dataset: imdb	model: lvwerra/distilbert-imdb	downloads: 1701	likes: 0	task: text-classification
-dataset: imdb	model: mrm8488/t5-base-finetuned-imdb-sentiment	downloads: 995	likes: 0	task: text2text-generation
-dataset: imdb	model: aychang/roberta-base-imdb	downloads: 819	likes: 1	task: text-classification
-dataset: imdb	model: AdapterHub/bert-base-uncased-pf-imdb	downloads: 595	likes: 0	task: text-classification
-dataset: imdb	model: lannelin/bert-imdb-1hidden	downloads: 303	likes: 0	task: text-classification
-dataset: imdb	model: huggingface-course/distilbert-base-uncased-finetuned-imdb	downloads: 235	likes: 0	task: fill-mask
-dataset: imdb	model: kurianbenoy/distilbert-base-uncased-finetuned-sst-2-english-finetuned-imdb	downloads: 208	likes: 0	task: text-classification
-dataset: imdb	model: thatdramebaazguy/movie-roberta-base	downloads: 137	likes: 0	task: fill-mask
-dataset: imdb	model: ykacer/bert-base-cased-imdb-sequence-classification	downloads: 125	likes: 0	task: text-classification
-# found: 12313 matches; truncating to 10
+dataset: imdb	model: mrm8488/t5-small-finetuned-imdb-sentiment	downloads: 13202	likes: 0	task: text2text-generation
+dataset: imdb	model: lvwerra/distilbert-imdb	downloads: 2107	likes: 0	task: text-classification
+dataset: imdb	model: mrm8488/t5-base-finetuned-imdb-sentiment	downloads: 825	likes: 0	task: text2text-generation
+dataset: imdb	model: aychang/roberta-base-imdb	downloads: 567	likes: 1	task: text-classification
+dataset: imdb	model: AdapterHub/bert-base-uncased-pf-imdb	downloads: 478	likes: 0	task: text-classification
+dataset: imdb	model: lannelin/bert-imdb-1hidden	downloads: 421	likes: 0	task: text-classification
+dataset: imdb	model: huggingface-course/distilbert-base-uncased-finetuned-imdb	downloads: 287	likes: 0	task: fill-mask
+dataset: imdb	model: kurianbenoy/distilbert-base-uncased-finetuned-sst-2-english-finetuned-imdb	downloads: 213	likes: 0	task: text-classification
+dataset: imdb	model: thatdramebaazguy/movie-roberta-base	downloads: 152	likes: 0	task: fill-mask
+dataset: imdb	model: SiriusRen/my-rubbish-model	downloads: 121	likes: 0	task: text-classification
+# found: 12917 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
+task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

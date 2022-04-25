@@ -1,12 +1,12 @@
 Translation	input text in one language and output a text in another language; also known as MT (machine translation)
 task: Translation --> 10 models
-task: Translation	model: Helsinki-NLP/opus-mt-zh-en	downloads: 7246479	likes: 23	task: translation
-task: Translation	model: t5-small	downloads: 1395731	likes: 9	task: translation
-task: Translation	model: t5-base	downloads: 1370739	likes: 37	task: translation
-task: Translation	model: Helsinki-NLP/opus-mt-en-de	downloads: 460430	likes: 4	task: translation
-task: Translation	model: Helsinki-NLP/opus-mt-en-ROMANCE	downloads: 299560	likes: 2	task: translation
-task: Translation	model: Helsinki-NLP/opus-mt-es-en	downloads: 282055	likes: 6	task: translation
-task: Translation	model: t5-3b	downloads: 178077	likes: 1	task: translation
-task: Translation	model: t5-large	downloads: 170659	likes: 13	task: translation
-task: Translation	model: Helsinki-NLP/opus-mt-fr-en	downloads: 161429	likes: 3	task: translation
-task: Translation	model: Helsinki-NLP/opus-mt-ru-en	downloads: 133682	likes: 3	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-zh-en	downloads: 5291914	likes: 23	task: translation
+task: Translation	model: t5-base	downloads: 1084140	likes: 37	task: translation
+task: Translation	model: t5-small	downloads: 882326	likes: 10	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-en-de	downloads: 465086	likes: 4	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-ru-en	downloads: 379204	likes: 3	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-en-ROMANCE	downloads: 355257	likes: 2	task: translation
+task: Translation	model: t5-large	downloads: 205102	likes: 13	task: translation
+task: Translation	model: t5-3b	downloads: 190952	likes: 1	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-es-en	downloads: 186317	likes: 6	task: translation
+task: Translation	model: Helsinki-NLP/opus-mt-de-en	downloads: 184758	likes: 6	task: translation

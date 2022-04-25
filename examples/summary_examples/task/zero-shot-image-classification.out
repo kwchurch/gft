@@ -1,2 +1,2 @@
 task: zero-shot-image-classification --> 1 models
-task: zero-shot-image-classification	model: hf-internal-testing/tiny-random-clip-zero-shot-image-classification	downloads: 3026	likes: 0	task: zero-shot-image-classification
+task: zero-shot-image-classification	model: hf-internal-testing/tiny-random-clip-zero-shot-image-classification	downloads: 2899	likes: 0	task: zero-shot-image-classification

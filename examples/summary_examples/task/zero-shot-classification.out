@@ -1,12 +1,12 @@
 # found: 73 matches; truncating to 10
 task: zero-shot-classification --> 10 models
-task: zero-shot-classification	model: facebook/bart-large-mnli	downloads: 2269907	likes: 98	task: zero-shot-classification
-task: zero-shot-classification	model: BaptisteDoyen/camembert-base-xnli	downloads: 232015	likes: 5	task: zero-shot-classification
-task: zero-shot-classification	model: typeform/distilbert-base-uncased-mnli	downloads: 225801	likes: 9	task: zero-shot-classification
-task: zero-shot-classification	model: valhalla/distilbart-mnli-12-1	downloads: 141142	likes: 3	task: zero-shot-classification
-task: zero-shot-classification	model: Sahajtomar/German_Zeroshot	downloads: 81753	likes: 6	task: zero-shot-classification
-task: zero-shot-classification	model: joeddav/xlm-roberta-large-xnli	downloads: 76159	likes: 32	task: zero-shot-classification
-task: zero-shot-classification	model: cross-encoder/nli-distilroberta-base	downloads: 71470	likes: 9	task: zero-shot-classification
-task: zero-shot-classification	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 67401	likes: 21	task: zero-shot-classification
-task: zero-shot-classification	model: Narsil/deberta-large-mnli-zero-cls	downloads: 66468	likes: 3	task: zero-shot-classification
-task: zero-shot-classification	model: Recognai/bert-base-spanish-wwm-cased-xnli	downloads: 32700	likes: 10	task: zero-shot-classification
+task: zero-shot-classification	model: facebook/bart-large-mnli	downloads: 1191444	likes: 106	task: zero-shot-classification
+task: zero-shot-classification	model: BaptisteDoyen/camembert-base-xnli	downloads: 221852	likes: 5	task: zero-shot-classification
+task: zero-shot-classification	model: typeform/distilbert-base-uncased-mnli	downloads: 175774	likes: 10	task: zero-shot-classification
+task: zero-shot-classification	model: joeddav/xlm-roberta-large-xnli	downloads: 159335	likes: 33	task: zero-shot-classification
+task: zero-shot-classification	model: valhalla/distilbart-mnli-12-1	downloads: 134849	likes: 4	task: zero-shot-classification
+task: zero-shot-classification	model: Sahajtomar/German_Zeroshot	downloads: 93612	likes: 6	task: zero-shot-classification
+task: zero-shot-classification	model: Narsil/deberta-large-mnli-zero-cls	downloads: 71339	likes: 3	task: zero-shot-classification
+task: zero-shot-classification	model: cross-encoder/nli-distilroberta-base	downloads: 65724	likes: 9	task: zero-shot-classification
+task: zero-shot-classification	model: Recognai/bert-base-spanish-wwm-cased-xnli	downloads: 32297	likes: 10	task: zero-shot-classification
+task: zero-shot-classification	model: valhalla/distilbart-mnli-12-3	downloads: 28453	likes: 6	task: zero-shot-classification

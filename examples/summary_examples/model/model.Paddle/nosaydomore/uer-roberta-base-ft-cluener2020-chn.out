@@ -1,3 +1,4 @@
+We use pattern recognition to recognize the Tokenizer class.
 name: roberta_model_0	labels (NA): NA	RobertaModel(
   (embeddings): RobertaEmbeddings(
     (word_embeddings): Embedding(21128, 768, padding_idx=0, sparse=False)

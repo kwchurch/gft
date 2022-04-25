@@ -1,2 +1,2 @@
-hostname = asimov-206.svail.baidu.com
-2.53 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/syn_ant/noun.64/ckpt/64/best	accuracy: 0.85	f1: 0.8499583217560434
+hostname = asimov-44.svail.baidu.com
+***ERROR***	model: /mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/syn_ant/noun.64/ckpt/64/best	data: C:/mnt/home/kwc/public_github/gft/datasets/syn_ant/tag-noun-pairs	eqn: classify: gold ~ word1 + word2	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fe39e48cd40>)

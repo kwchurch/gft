@@ -1,2 +1,1 @@
-task: protein-folding --> 1 models
-task: protein-folding	model: google-deepmind/alphafold-v2	downloads: 0	likes: 0	task: protein-folding
+task: protein-folding --> 0 models

@@ -1,5 +1,5 @@
-hostname = asimov-126.svail.baidu.com
-dataset: xnli	dataset: xnli	downloads: 73753	likes: 5	PWC: https://paperswithcode.com/dataset/xnli
+hostname = asimov-115.svail.baidu.com
+dataset: xnli	dataset: xnli	downloads: 66554	likes: 5	PWC: https://paperswithcode.com/dataset/xnli
 dataset: xnli,ar	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
 dataset: xnli,ar	split: train	columns: premise, hypothesis, label
 dataset: xnli,ar	labels: entailment, neutral, contradiction
@@ -49,25 +49,25 @@ dataset: xnli,all_languages	splits: train: 392702 rows, test: 5010 rows, val: 24
 dataset: xnli,all_languages	split: train	columns: premise, hypothesis, label
 dataset: xnli,all_languages	labels: entailment, neutral, contradiction
 dataset: xnli --> 10 models
-dataset: xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 232015	likes: 5	task: zero-shot-classification
-dataset: xnli	model: Sahajtomar/German_Zeroshot	downloads: 81753	likes: 6	task: zero-shot-classification
-dataset: xnli	model: joeddav/xlm-roberta-large-xnli	downloads: 76159	likes: 32	task: zero-shot-classification
-dataset: xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 67401	likes: 21	task: zero-shot-classification
-dataset: xnli	model: Recognai/bert-base-spanish-wwm-cased-xnli	downloads: 32700	likes: 10	task: zero-shot-classification
-dataset: xnli	model: Recognai/zeroshot_selectra_medium	downloads: 27016	likes: 3	task: zero-shot-classification
-dataset: xnli	model: vicgalle/xlm-roberta-large-xnli-anli	downloads: 11976	likes: 8	task: zero-shot-classification
-dataset: xnli	model: Recognai/zeroshot_selectra_small	downloads: 9582	likes: 3	task: zero-shot-classification
-dataset: xnli	model: alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli	downloads: 2284	likes: 1	task: text2text-generation
-dataset: xnli	model: inokufu/flaubert-base-uncased-xnli-sts	downloads: 2247	likes: 0	task: sentence-similarity
-# found: 12313 matches; truncating to 10
+dataset: xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 221852	likes: 5	task: zero-shot-classification
+dataset: xnli	model: joeddav/xlm-roberta-large-xnli	downloads: 159335	likes: 33	task: zero-shot-classification
+dataset: xnli	model: Sahajtomar/German_Zeroshot	downloads: 93612	likes: 6	task: zero-shot-classification
+dataset: xnli	model: Recognai/bert-base-spanish-wwm-cased-xnli	downloads: 32297	likes: 10	task: zero-shot-classification
+dataset: xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 25235	likes: 22	task: zero-shot-classification
+dataset: xnli	model: Recognai/zeroshot_selectra_medium	downloads: 22030	likes: 3	task: zero-shot-classification
+dataset: xnli	model: vicgalle/xlm-roberta-large-xnli-anli	downloads: 12084	likes: 8	task: zero-shot-classification
+dataset: xnli	model: Recognai/zeroshot_selectra_small	downloads: 9577	likes: 3	task: zero-shot-classification
+dataset: xnli	model: inokufu/flaubert-base-uncased-xnli-sts	downloads: 3987	likes: 0	task: sentence-similarity
+dataset: xnli	model: alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli	downloads: 1688	likes: 2	task: text2text-generation
+# found: 12919 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
+task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

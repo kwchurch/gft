@@ -1,2 +1,9 @@
-model: roberta-base	model: roberta-base	downloads: 5539557	likes: 21	task: fill-mask
-model: roberta-base	labels: LABEL_0, LABEL_1
+model: roberta-base	No info from HuggingFace
+***ERROR***
+model: H:roberta-base
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'OSError'>, OSError("Can't load config for 'roberta-base'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'roberta-base' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f0cdf5ec6c0>)

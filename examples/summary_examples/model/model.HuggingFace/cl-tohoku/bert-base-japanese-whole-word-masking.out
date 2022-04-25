@@ -1,2 +1,9 @@
-model: cl-tohoku/bert-base-japanese-whole-word-masking	model: cl-tohoku/bert-base-japanese-whole-word-masking	downloads: 723590	likes: 9	task: fill-mask
-model: cl-tohoku/bert-base-japanese-whole-word-masking	labels: LABEL_0, LABEL_1
+model: cl-tohoku/bert-base-japanese-whole-word-masking	model: cl-tohoku/bert-base-japanese-whole-word-masking	downloads: 1010152	likes: 11	task: fill-mask
+***ERROR***
+model: H:cl-tohoku/bert-base-japanese-whole-word-masking
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fb058e02e80>)

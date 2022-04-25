@@ -1,2 +1,9 @@
-model: valhalla/distilbart-mnli-12-1	model: valhalla/distilbart-mnli-12-1	downloads: 141142	likes: 3	task: zero-shot-classification
-model: valhalla/distilbart-mnli-12-1	labels: contradiction, entailment, neutral
+model: valhalla/distilbart-mnli-12-1	model: valhalla/distilbart-mnli-12-1	downloads: 134849	likes: 4	task: zero-shot-classification
+***ERROR***
+model: valhalla/distilbart-mnli-12-1
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7ff523495ec0>)

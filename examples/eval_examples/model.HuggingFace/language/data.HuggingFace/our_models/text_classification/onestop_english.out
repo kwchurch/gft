@@ -1,2 +1,2 @@
-hostname = asimov-175.svail.baidu.com
-3.80 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/onestop_english/ckpt/best	accuracy: 0.9894179894179894	f1: 0.9894168043228714
+hostname = asimov-30
+***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/onestop_english/ckpt/best	data: H:onestop_english	eqn: classify: label ~ text	splits: train	split: train	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f882ef40e80>)

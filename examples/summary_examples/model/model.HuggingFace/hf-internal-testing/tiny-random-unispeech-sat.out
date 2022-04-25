@@ -1,2 +1,9 @@
-model: hf-internal-testing/tiny-random-unispeech-sat	model: hf-internal-testing/tiny-random-unispeech-sat	downloads: 6913	likes: 0	task: audio-classification
-model: hf-internal-testing/tiny-random-unispeech-sat	labels: LABEL_0, LABEL_1
+model: hf-internal-testing/tiny-random-unispeech-sat	model: hf-internal-testing/tiny-random-unispeech-sat	downloads: 6838	likes: 0	task: audio-classification
+***ERROR***
+model: hf-internal-testing/tiny-random-unispeech-sat
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f5e06b769c0>)

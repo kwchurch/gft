@@ -1,12 +1,12 @@
-# found: 164 matches; truncating to 10
+# found: 180 matches; truncating to 10
 task: text-to-speech --> 10 models
-task: text-to-speech	model: facebook/fastspeech2-en-ljspeech	downloads: 3447	likes: 10	task: text-to-speech
-task: text-to-speech	model: espnet/kan-bayashi_ljspeech_vits	downloads: 854	likes: 1	task: text-to-speech
-task: text-to-speech	model: facebook/tts_transformer-es-css10	downloads: 668	likes: 4	task: text-to-speech
-task: text-to-speech	model: espnet/kan-bayashi_ljspeech_joint_finetune_conformer_fastspeech2_hifigan	downloads: 660	likes: 5	task: text-to-speech
-task: text-to-speech	model: espnet/kan-bayashi_vctk_gst_tacotron2	downloads: 408	likes: 0	task: text-to-speech
-task: text-to-speech	model: facebook/tts_transformer-zh-cv7_css10	downloads: 387	likes: 1	task: text-to-speech
-task: text-to-speech	model: facebook/fastspeech2-en-200_speaker-cv4	downloads: 384	likes: 2	task: text-to-speech
-task: text-to-speech	model: lakahaga/novel_reading_tts	downloads: 316	likes: 0	task: text-to-speech
-task: text-to-speech	model: facebook/tts_transformer-vi-cv7	downloads: 287	likes: 1	task: text-to-speech
-task: text-to-speech	model: facebook/tts_transformer-ru-cv7_css10	downloads: 180	likes: 3	task: text-to-speech
+task: text-to-speech	model: facebook/fastspeech2-en-ljspeech	downloads: 4701	likes: 10	task: text-to-speech
+task: text-to-speech	model: espnet/kan-bayashi_ljspeech_vits	downloads: 913	likes: 2	task: text-to-speech
+task: text-to-speech	model: facebook/tts_transformer-es-css10	downloads: 640	likes: 5	task: text-to-speech
+task: text-to-speech	model: espnet/kan-bayashi_ljspeech_joint_finetune_conformer_fastspeech2_hifigan	downloads: 585	likes: 5	task: text-to-speech
+task: text-to-speech	model: facebook/fastspeech2-en-200_speaker-cv4	downloads: 466	likes: 2	task: text-to-speech
+task: text-to-speech	model: espnet/kan-bayashi_vctk_gst_tacotron2	downloads: 441	likes: 0	task: text-to-speech
+task: text-to-speech	model: lakahaga/novel_reading_tts	downloads: 314	likes: 0	task: text-to-speech
+task: text-to-speech	model: facebook/tts_transformer-zh-cv7_css10	downloads: 308	likes: 1	task: text-to-speech
+task: text-to-speech	model: facebook/tts_transformer-vi-cv7	downloads: 294	likes: 1	task: text-to-speech
+task: text-to-speech	model: facebook/tts_transformer-en-200_speaker-cv4	downloads: 212	likes: 0	task: text-to-speech

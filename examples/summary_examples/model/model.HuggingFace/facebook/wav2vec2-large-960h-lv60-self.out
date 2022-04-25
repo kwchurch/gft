@@ -1,2 +1,9 @@
-model: facebook/wav2vec2-large-960h-lv60-self	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 50946	likes: 11	task: automatic-speech-recognition
-model: facebook/wav2vec2-large-960h-lv60-self	labels: LABEL_0, LABEL_1
+model: facebook/wav2vec2-large-960h-lv60-self	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 48998	likes: 12	task: automatic-speech-recognition
+***ERROR***
+model: facebook/wav2vec2-large-960h-lv60-self
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f6abf54c280>)

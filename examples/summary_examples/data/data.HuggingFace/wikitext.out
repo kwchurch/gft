@@ -1,5 +1,5 @@
-hostname = asimov-93.svail.baidu.com
-dataset: wikitext	dataset: wikitext	downloads: 139975	likes: 9	PWC: https://paperswithcode.com/dataset/wikitext-2
+hostname = asimov-126.svail.baidu.com
+dataset: wikitext	dataset: wikitext	downloads: 145037	likes: 9	PWC: https://paperswithcode.com/dataset/wikitext-2
 dataset: wikitext,wikitext-103-v1	splits: test: 4358 rows, train: 1801350 rows, val: 3760 rows
 dataset: wikitext,wikitext-103-v1	split: train	columns: text
 dataset: wikitext,wikitext-2-v1	splits: test: 4358 rows, train: 36718 rows, val: 3760 rows
@@ -9,25 +9,25 @@ dataset: wikitext,wikitext-103-raw-v1	split: train	columns: text
 dataset: wikitext,wikitext-2-raw-v1	splits: test: 4358 rows, train: 36718 rows, val: 3760 rows
 dataset: wikitext,wikitext-2-raw-v1	split: train	columns: text
 dataset: wikitext --> 10 models
-dataset: wikitext	model: markussagen/xlm-roberta-longformer-base-4096	downloads: 2072	likes: 8	task: fill-mask
-dataset: wikitext	model: Peltarion/xlm-roberta-longformer-base-4096	downloads: 395	likes: 1	task: fill-mask
-dataset: wikitext	model: saghar/xtremedistil-l6-h384-uncased-finetuned-wikitext103	downloads: 74	likes: 0	task: fill-mask
-dataset: wikitext	model: saghar/TinyBERT_General_6L_768D-finetuned-wikitext103	downloads: 61	likes: 0	task: fill-mask
-dataset: wikitext	model: saghar/MiniLMv2-L6-H384-distilled-from-RoBERTa-Large-finetuned-wikitext103	downloads: 56	likes: 0	task: fill-mask
-dataset: wikitext	model: saghar/xtremedistil-l12-h384-uncased-finetuned-wikitext103	downloads: 55	likes: 0	task: fill-mask
-dataset: wikitext	model: saghar/MiniLMv2-L6-H768-distilled-from-RoBERTa-Large-finetuned-wikitext103	downloads: 44	likes: 0	task: fill-mask
-dataset: wikitext	model: Graphcore/gpt2-wikitext-103	downloads: 40	likes: 0	task: text-generation
-dataset: wikitext	model: Graphcore/gpt2-medium-wikitext-103	downloads: 17	likes: 0	task: text-generation
-dataset: wikitext	model: mikaelsouza/msft-regular-model	downloads: 15	likes: 1	task: text-generation
-# found: 12312 matches; truncating to 10
+dataset: wikitext	model: markussagen/xlm-roberta-longformer-base-4096	downloads: 1830	likes: 8	task: fill-mask
+dataset: wikitext	model: Peltarion/xlm-roberta-longformer-base-4096	downloads: 361	likes: 1	task: fill-mask
+dataset: wikitext	model: saghar/TinyBERT_General_6L_768D-finetuned-wikitext103	downloads: 67	likes: 0	task: fill-mask
+dataset: wikitext	model: saghar/xtremedistil-l6-h384-uncased-finetuned-wikitext103	downloads: 62	likes: 0	task: fill-mask
+dataset: wikitext	model: Graphcore/gpt2-wikitext-103	downloads: 54	likes: 0	task: text-generation
+dataset: wikitext	model: saghar/MiniLMv2-L6-H384-distilled-from-RoBERTa-Large-finetuned-wikitext103	downloads: 47	likes: 0	task: fill-mask
+dataset: wikitext	model: saghar/xtremedistil-l12-h384-uncased-finetuned-wikitext103	downloads: 47	likes: 0	task: fill-mask
+dataset: wikitext	model: saghar/MiniLMv2-L6-H768-distilled-from-RoBERTa-Large-finetuned-wikitext103	downloads: 43	likes: 0	task: fill-mask
+dataset: wikitext	model: Graphcore/gpt2-medium-wikitext-103	downloads: 23	likes: 0	task: text-generation
+dataset: wikitext	model: saghar/TinyBERT_L-4_H-312_v2-finetuned-wikitext103	downloads: 7	likes: 0	task: fill-mask
+# found: 12922 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
+task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

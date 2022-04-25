@@ -1,2 +1,2 @@
-hostname = asimov-177.svail.baidu.com
-15.46 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/syn_ant/fallows.32/ckpt/32/best	accuracy: 0.9319847950040727	f1: 0.930430512300183
+hostname = asimov-35.svail.baidu.com
+***ERROR***	model: /mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/syn_ant/fallows.32/ckpt/32/best	data: C:/mnt/home/kwc/public_github/gft/datasets/syn_ant/tag-fallows-pairs	eqn: classify: gold ~ word1 + word2	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f045cf13100>)

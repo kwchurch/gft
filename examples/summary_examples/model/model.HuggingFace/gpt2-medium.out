@@ -1,2 +1,9 @@
-model: gpt2-medium	model: gpt2-medium	downloads: 190903	likes: 4	task: text-generation
-model: gpt2-medium	labels: LABEL_0, LABEL_1
+model: gpt2-medium	model: gpt2-medium	downloads: 209345	likes: 4	task: text-generation
+***ERROR***
+model: gpt2-medium
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fd2d8061440>)

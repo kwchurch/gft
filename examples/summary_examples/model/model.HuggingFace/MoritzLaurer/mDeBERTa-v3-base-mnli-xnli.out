@@ -1,2 +1,9 @@
-model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 67401	likes: 21	task: zero-shot-classification
-model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	labels: contradiction, entailment, neutral
+model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	downloads: 25235	likes: 22	task: zero-shot-classification
+***ERROR***
+model: MoritzLaurer/mDeBERTa-v3-base-mnli-xnli
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f2f18644e80>)

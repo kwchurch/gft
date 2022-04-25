@@ -1,2 +1,9 @@
-model: hf-internal-testing/tiny-random-vit	model: hf-internal-testing/tiny-random-vit	downloads: 9572	likes: 0	task: image-classification
-model: hf-internal-testing/tiny-random-vit	labels: LABEL_0, LABEL_1
+model: hf-internal-testing/tiny-random-vit	model: hf-internal-testing/tiny-random-vit	downloads: 9390	likes: 0	task: image-classification
+***ERROR***
+model: hf-internal-testing/tiny-random-vit
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f00b0de9c40>)

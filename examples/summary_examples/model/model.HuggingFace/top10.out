@@ -1,0 +1,13 @@
+hostname = asimov-120.svail.baidu.com
+# found: 39240 matches; truncating to 10
+substring:  --> 10 models
+substring: 	model: distilgpt2	downloads: 28607412	likes: 44	task: text-generation
+substring: 	model: gpt2	downloads: 17192513	likes: 79	task: text-generation
+substring: 	model: bert-base-uncased	downloads: 15819330	likes: 132	task: fill-mask
+substring: 	model: cross-encoder/ms-marco-MiniLM-L-12-v2	downloads: 10920553	likes: 5	task: text-classification
+substring: 	model: roberta-base	downloads: 8289996	likes: 23	task: fill-mask
+substring: 	model: Helsinki-NLP/opus-mt-zh-en	downloads: 5291914	likes: 23	task: translation
+substring: 	model: distilbert-base-uncased	downloads: 4925159	likes: 52	task: fill-mask
+substring: 	model: xlm-roberta-large-finetuned-conll03-english	downloads: 4700528	likes: 13	task: token-classification
+substring: 	model: distilbert-base-uncased-finetuned-sst-2-english	downloads: 3948068	likes: 49	task: text-classification
+substring: 	model: roberta-large	downloads: 3587476	likes: 30	task: fill-mask

@@ -1,2 +1,9 @@
-model: dslim/bert-large-NER	model: dslim/bert-large-NER	downloads: 149753	likes: 4	task: token-classification
-model: dslim/bert-large-NER	labels: B-LOC, B-MISC, B-ORG, B-PER, I-LOC, I-MISC, I-ORG, I-PER, O
+model: dslim/bert-large-NER	model: dslim/bert-large-NER	downloads: 228096	likes: 5	task: token-classification
+***ERROR***
+model: dslim/bert-large-NER
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f101e04a600>)

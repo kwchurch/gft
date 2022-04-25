@@ -1,34 +1,47 @@
-hostname = asimov-27.svail.baidu.com
-dataset: mc4	dataset: mc4	downloads: 12030	likes: 8	PWC: https://paperswithcode.com/dataset/mc4
+hostname = asimov-172.svail.baidu.com
+dataset: mc4	dataset: mc4	downloads: 10026	likes: 9	PWC: https://paperswithcode.com/dataset/mc4
+Downloading and preparing dataset mc4/af to /mnt/home/kwc/.cache/huggingface/datasets/mc4/af/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/af/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,af	splits: train: 2152243 rows, val: 2118 rows
 dataset: mc4,af	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/am to /mnt/home/kwc/.cache/huggingface/datasets/mc4/am/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/am/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,am	splits: train: 162870 rows, val: 155 rows
 dataset: mc4,am	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/ar to /mnt/home/kwc/.cache/huggingface/datasets/mc4/ar/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/ar/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,ar	splits: train: 53256040 rows, val: 52978 rows
 dataset: mc4,ar	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/az to /mnt/home/kwc/.cache/huggingface/datasets/mc4/az/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/az/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,az	splits: train: 5285720 rows, val: 5239 rows
 dataset: mc4,az	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/be to /mnt/home/kwc/.cache/huggingface/datasets/mc4/be/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/be/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,be	splits: train: 1742030 rows, val: 1712 rows
 dataset: mc4,be	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/bg to /mnt/home/kwc/.cache/huggingface/datasets/mc4/bg/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/bg/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,bg	splits: train: 23409799 rows, val: 23503 rows
 dataset: mc4,bg	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/bg-Latn to /mnt/home/kwc/.cache/huggingface/datasets/mc4/bg-Latn/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/bg-Latn/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,bg-Latn	splits: train: 162461 rows, val: 144 rows
 dataset: mc4,bg-Latn	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/bn to /mnt/home/kwc/.cache/huggingface/datasets/mc4/bn/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/bn/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,bn	splits: train: 7444098 rows, val: 7415 rows
 dataset: mc4,bn	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/ca to /mnt/home/kwc/.cache/huggingface/datasets/mc4/ca/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/ca/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,ca	splits: train: 14492899 rows, val: 14489 rows
 dataset: mc4,ca	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/ceb to /mnt/home/kwc/.cache/huggingface/datasets/mc4/ceb/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/ceb/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,ceb	splits: train: 351894 rows, val: 367 rows
 dataset: mc4,ceb	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/co to /mnt/home/kwc/.cache/huggingface/datasets/mc4/co/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...
+Dataset mc4 downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/mc4/co/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2. Subsequent calls will reuse this data.
 dataset: mc4,co	splits: train: 494913 rows, val: 565 rows
 dataset: mc4,co	split: train	columns: text, timestamp, url
-dataset: mc4,cs	splits: train: 60149680 rows, val: 60462 rows
-dataset: mc4,cs	split: train	columns: text, timestamp, url
-dataset: mc4,cy	splits: train: 4131915 rows, val: 4103 rows
-dataset: mc4,cy	split: train	columns: text, timestamp, url
-dataset: mc4,da	splits: train: 28777331 rows, val: 28945 rows
-dataset: mc4,da	split: train	columns: text, timestamp, url
-dataset: mc4,de	splits: train: 397006993 rows, val: 398583 rows
-dataset: mc4,de	split: train	columns: text, timestamp, url
-dataset: mc4,el	splits: train: 41753736 rows, val: 42358 rows
-dataset: mc4,el	split: train	columns: text, timestamp, url
+Downloading and preparing dataset mc4/cs to /mnt/home/kwc/.cache/huggingface/datasets/mc4/cs/0.0.0/99acea4a740b4cc36e4a93a238c7de11b0ce341d65b7d37168b3b90fd64721d2...

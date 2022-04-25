@@ -1,8 +1,6 @@
-hostname = asimov-143.svail.baidu.com
-7.35 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427655280077
-2.71 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912353260531
-0.59 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838449648416
-1.24 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.8818766988560849
-***ERROR***	model: H:eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'OSError'>, OSError('eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1 does not appear to have a file named preprocessor_config.json.'), <traceback object at 0x7f4d930a0500>)
-***ERROR***	model: H:pritamdeka/S-Biomed-Roberta-snli-multinli-stsb	data: H:glue,stsb	eqn: regress: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7fc6a2ecd780>)
-3.77 seconds	howey/bert-base-uncased-stsb	pearson: 0.890503750391043
+hostname = asimov-51.svail.baidu.com
+20.25 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
+6.79 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
+4.88 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
+5.97 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
+5.16 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746

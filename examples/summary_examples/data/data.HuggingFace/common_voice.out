@@ -1,145 +1,255 @@
-hostname = asimov-102.svail.baidu.com
-dataset: common_voice	dataset: common_voice	downloads: 58855	likes: 28	PWC: https://paperswithcode.com/dataset/common-voice
-dataset: common_voice,ab	splits: train: 22 rows, test: 9 rows, other: 752 rows, validated: 31 rows, invalidated: 8 rows, val: 0 rows
+hostname = asimov-170.svail.baidu.com
+dataset: common_voice	dataset: common_voice	downloads: 56698	likes: 29	PWC: https://paperswithcode.com/dataset/common-voice
+Downloading and preparing dataset common_voice/ab (download: 39.14 MiB, generated: 40.14 MiB, post-processed: Unknown size, total: 79.28 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ab/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ab/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ab	splits: train: 22 rows, test: 9 rows, other: 752 rows, invalidated: 8 rows, val: 0 rows
 dataset: common_voice,ab	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ar	splits: train: 14227 rows, test: 7622 rows, other: 18283 rows, validated: 43291 rows, invalidated: 6333 rows, val: 7517 rows
+Downloading and preparing dataset common_voice/ar (download: 1.64 GiB, generated: 1.41 GiB, post-processed: Unknown size, total: 3.05 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ar/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ar/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ar	splits: train: 14227 rows, test: 7622 rows, other: 18283 rows, invalidated: 6333 rows, val: 7517 rows
 dataset: common_voice,ar	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,as	splits: train: 270 rows, test: 110 rows, other: 0 rows, validated: 504 rows, invalidated: 31 rows, val: 124 rows
+Downloading and preparing dataset common_voice/as (download: 21.20 MiB, generated: 21.82 MiB, post-processed: Unknown size, total: 43.02 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/as/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/as/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,as	splits: train: 270 rows, test: 110 rows, other: 0 rows, invalidated: 31 rows, val: 124 rows
 dataset: common_voice,as	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,br	splits: train: 2780 rows, test: 2087 rows, other: 10912 rows, validated: 8560 rows, invalidated: 623 rows, val: 1997 rows
+Downloading and preparing dataset common_voice/br (download: 443.72 MiB, generated: 433.36 MiB, post-processed: Unknown size, total: 877.09 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/br/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/br/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,br	splits: train: 2780 rows, test: 2087 rows, other: 10912 rows, invalidated: 623 rows, val: 1997 rows
 dataset: common_voice,br	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ca	splits: train: 285584 rows, test: 15724 rows, other: 64446 rows, validated: 416701 rows, invalidated: 18846 rows, val: 15724 rows
+Downloading and preparing dataset common_voice/ca (download: 19.32 GiB, generated: 16.74 GiB, post-processed: Unknown size, total: 36.06 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ca/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ca/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ca	splits: train: 285584 rows, test: 15724 rows, other: 64446 rows, invalidated: 18846 rows, val: 15724 rows
 dataset: common_voice,ca	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cnh	splits: train: 807 rows, test: 752 rows, other: 2934 rows, validated: 2432 rows, invalidated: 433 rows, val: 756 rows
+Downloading and preparing dataset common_voice/cnh (download: 153.86 MiB, generated: 156.62 MiB, post-processed: Unknown size, total: 310.48 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cnh/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cnh/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,cnh	splits: train: 807 rows, test: 752 rows, other: 2934 rows, invalidated: 433 rows, val: 756 rows
 dataset: common_voice,cnh	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cs	splits: train: 5655 rows, test: 4144 rows, other: 7475 rows, validated: 30431 rows, invalidated: 685 rows, val: 4118 rows
+Downloading and preparing dataset common_voice/cs (download: 1.18 GiB, generated: 781.02 MiB, post-processed: Unknown size, total: 1.95 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cs/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cs/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,cs	splits: train: 5655 rows, test: 4144 rows, other: 7475 rows, invalidated: 685 rows, val: 4118 rows
 dataset: common_voice,cs	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cv	splits: train: 931 rows, test: 788 rows, other: 6927 rows, validated: 3496 rows, invalidated: 1282 rows, val: 818 rows
+Downloading and preparing dataset common_voice/cv (download: 418.98 MiB, generated: 418.48 MiB, post-processed: Unknown size, total: 837.46 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,cv	splits: train: 931 rows, test: 788 rows, other: 6927 rows, invalidated: 1282 rows, val: 818 rows
 dataset: common_voice,cv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,cy	splits: train: 6839 rows, test: 4820 rows, other: 17919 rows, validated: 72984 rows, invalidated: 3648 rows, val: 4776 rows
+Downloading and preparing dataset common_voice/cy (download: 3.20 GiB, generated: 1.41 GiB, post-processed: Unknown size, total: 4.61 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cy/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/cy/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,cy	splits: train: 6839 rows, test: 4820 rows, other: 17919 rows, invalidated: 3648 rows, val: 4776 rows
 dataset: common_voice,cy	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,de	splits: train: 246525 rows, test: 15588 rows, other: 10095 rows, validated: 565186 rows, invalidated: 32789 rows, val: 15588 rows
+Downloading and preparing dataset common_voice/de (download: 21.68 GiB, generated: 13.82 GiB, post-processed: Unknown size, total: 35.51 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/de/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/de/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,de	splits: train: 246525 rows, test: 15588 rows, other: 10095 rows, invalidated: 32789 rows, val: 15588 rows
 dataset: common_voice,de	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,dv	splits: train: 2680 rows, test: 2202 rows, other: 0 rows, validated: 11866 rows, invalidated: 840 rows, val: 2077 rows
+Downloading and preparing dataset common_voice/dv (download: 515.45 MiB, generated: 328.70 MiB, post-processed: Unknown size, total: 844.15 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/dv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/dv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,dv	splits: train: 2680 rows, test: 2202 rows, other: 0 rows, invalidated: 840 rows, val: 2077 rows
 dataset: common_voice,dv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,el	splits: train: 2316 rows, test: 1522 rows, other: 5659 rows, validated: 5996 rows, invalidated: 185 rows, val: 1401 rows
+dataset: common_voice,el	splits: train: 2316 rows, test: 1522 rows, other: 5659 rows, invalidated: 185 rows, val: 1401 rows
 dataset: common_voice,el	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,en	splits: train: 564337 rows, test: 16164 rows, other: 169895 rows, validated: 1224864 rows, invalidated: 189562 rows, val: 16164 rows
+dataset: common_voice,en	splits: train: 564337 rows, test: 16164 rows, other: 169895 rows, invalidated: 189562 rows, val: 16164 rows
 dataset: common_voice,en	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,eo	splits: train: 19587 rows, test: 8969 rows, other: 2946 rows, validated: 58094 rows, invalidated: 4736 rows, val: 8987 rows
+dataset: common_voice,eo	splits: train: 19587 rows, test: 8969 rows, other: 2946 rows, invalidated: 4736 rows, val: 8987 rows
 dataset: common_voice,eo	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,es	splits: train: 161813 rows, test: 15089 rows, other: 144791 rows, validated: 236314 rows, invalidated: 40640 rows, val: 15089 rows
+Downloading and preparing dataset common_voice/es (download: 15.08 GiB, generated: 14.53 GiB, post-processed: Unknown size, total: 29.61 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/es/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/es/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,es	splits: train: 161813 rows, test: 15089 rows, other: 144791 rows, invalidated: 40640 rows, val: 15089 rows
 dataset: common_voice,es	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,et	splits: train: 2966 rows, test: 2509 rows, other: 569 rows, validated: 10683 rows, invalidated: 3557 rows, val: 2507 rows
+Downloading and preparing dataset common_voice/et (download: 731.63 MiB, generated: 624.91 MiB, post-processed: Unknown size, total: 1.32 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/et/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/et/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,et	splits: train: 2966 rows, test: 2509 rows, other: 569 rows, invalidated: 3557 rows, val: 2507 rows
 dataset: common_voice,et	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,eu	splits: train: 7505 rows, test: 5172 rows, other: 23570 rows, validated: 63009 rows, invalidated: 5387 rows, val: 5172 rows
+Downloading and preparing dataset common_voice/eu (download: 3.41 GiB, generated: 1.84 GiB, post-processed: Unknown size, total: 5.26 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/eu/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/eu/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,eu	splits: train: 7505 rows, test: 5172 rows, other: 23570 rows, invalidated: 5387 rows, val: 5172 rows
 dataset: common_voice,eu	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fa	splits: train: 7593 rows, test: 5213 rows, other: 22510 rows, validated: 251659 rows, invalidated: 11698 rows, val: 5213 rows
+Downloading and preparing dataset common_voice/fa (download: 8.27 GiB, generated: 1.76 GiB, post-processed: Unknown size, total: 10.03 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fa/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fa/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,fa	splits: train: 7593 rows, test: 5213 rows, other: 22510 rows, invalidated: 11698 rows, val: 5213 rows
 dataset: common_voice,fa	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fi	splits: train: 460 rows, test: 428 rows, other: 149 rows, validated: 1305 rows, invalidated: 59 rows, val: 415 rows
+Downloading and preparing dataset common_voice/fi (download: 47.57 MiB, generated: 53.09 MiB, post-processed: Unknown size, total: 100.66 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fi/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fi/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,fi	splits: train: 460 rows, test: 428 rows, other: 149 rows, invalidated: 59 rows, val: 415 rows
 dataset: common_voice,fi	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fr	splits: train: 298982 rows, test: 15763 rows, other: 3222 rows, validated: 461004 rows, invalidated: 40351 rows, val: 15763 rows
+Downloading and preparing dataset common_voice/fr (download: 17.82 GiB, generated: 14.71 GiB, post-processed: Unknown size, total: 32.52 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fr/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fr/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,fr	splits: train: 298982 rows, test: 15763 rows, other: 3222 rows, invalidated: 40351 rows, val: 15763 rows
 dataset: common_voice,fr	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,fy-NL	splits: train: 3927 rows, test: 3020 rows, other: 21569 rows, validated: 10495 rows, invalidated: 1031 rows, val: 2790 rows
+Downloading and preparing dataset common_voice/fy-NL (download: 1.15 GiB, generated: 1.24 GiB, post-processed: Unknown size, total: 2.39 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fy-NL/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/fy-NL/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,fy-NL	splits: train: 3927 rows, test: 3020 rows, other: 21569 rows, invalidated: 1031 rows, val: 2790 rows
 dataset: common_voice,fy-NL	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ga-IE	splits: train: 541 rows, test: 506 rows, other: 2130 rows, validated: 3352 rows, invalidated: 409 rows, val: 497 rows
+Downloading and preparing dataset common_voice/ga-IE (download: 149.30 MiB, generated: 114.30 MiB, post-processed: Unknown size, total: 263.60 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ga-IE/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ga-IE/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ga-IE	splits: train: 541 rows, test: 506 rows, other: 2130 rows, invalidated: 409 rows, val: 497 rows
 dataset: common_voice,ga-IE	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,hi	splits: train: 157 rows, test: 127 rows, other: 139 rows, validated: 419 rows, invalidated: 60 rows, val: 135 rows
+Downloading and preparing dataset common_voice/hi (download: 20.43 MiB, generated: 21.11 MiB, post-processed: Unknown size, total: 41.54 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/hi/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/hi/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,hi	splits: train: 157 rows, test: 127 rows, other: 139 rows, invalidated: 60 rows, val: 135 rows
 dataset: common_voice,hi	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,hsb	splits: train: 808 rows, test: 387 rows, other: 62 rows, validated: 1367 rows, invalidated: 227 rows, val: 172 rows
+Downloading and preparing dataset common_voice/hsb (download: 75.69 MiB, generated: 77.74 MiB, post-processed: Unknown size, total: 153.42 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/hsb/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/hsb/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,hsb	splits: train: 808 rows, test: 387 rows, other: 62 rows, invalidated: 227 rows, val: 172 rows
 dataset: common_voice,hsb	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,hu	splits: train: 3348 rows, test: 1649 rows, other: 295 rows, validated: 6457 rows, invalidated: 169 rows, val: 1434 rows
+Downloading and preparing dataset common_voice/hu (download: 231.51 MiB, generated: 239.81 MiB, post-processed: Unknown size, total: 471.32 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/hu/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/hu/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,hu	splits: train: 3348 rows, test: 1649 rows, other: 295 rows, invalidated: 169 rows, val: 1434 rows
 dataset: common_voice,hu	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ia	splits: train: 3477 rows, test: 899 rows, other: 1095 rows, validated: 5978 rows, invalidated: 192 rows, val: 1601 rows
+Downloading and preparing dataset common_voice/ia (download: 216.01 MiB, generated: 224.04 MiB, post-processed: Unknown size, total: 440.05 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ia/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ia/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ia	splits: train: 3477 rows, test: 899 rows, other: 1095 rows, invalidated: 192 rows, val: 1601 rows
 dataset: common_voice,ia	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,id	splits: train: 2130 rows, test: 1844 rows, other: 6782 rows, validated: 8696 rows, invalidated: 470 rows, val: 1835 rows
+Downloading and preparing dataset common_voice/id (download: 453.87 MiB, generated: 385.60 MiB, post-processed: Unknown size, total: 839.48 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/id/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/id/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,id	splits: train: 2130 rows, test: 1844 rows, other: 6782 rows, invalidated: 470 rows, val: 1835 rows
 dataset: common_voice,id	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,it	splits: train: 58015 rows, test: 12928 rows, other: 14549 rows, validated: 102579 rows, invalidated: 12189 rows, val: 12928 rows
+Downloading and preparing dataset common_voice/it (download: 5.20 GiB, generated: 4.72 GiB, post-processed: Unknown size, total: 9.92 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/it/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/it/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,it	splits: train: 58015 rows, test: 12928 rows, other: 14549 rows, invalidated: 12189 rows, val: 12928 rows
 dataset: common_voice,it	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ja	splits: train: 722 rows, test: 632 rows, other: 885 rows, validated: 3072 rows, invalidated: 504 rows, val: 586 rows
+Downloading and preparing dataset common_voice/ja (download: 145.80 MiB, generated: 122.63 MiB, post-processed: Unknown size, total: 268.42 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ja/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ja/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ja	splits: train: 722 rows, test: 632 rows, other: 885 rows, invalidated: 504 rows, val: 586 rows
 dataset: common_voice,ja	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ka	splits: train: 1058 rows, test: 656 rows, other: 44 rows, validated: 2275 rows, invalidated: 139 rows, val: 527 rows
+Downloading and preparing dataset common_voice/ka (download: 99.45 MiB, generated: 106.99 MiB, post-processed: Unknown size, total: 206.44 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ka/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ka/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ka	splits: train: 1058 rows, test: 656 rows, other: 44 rows, invalidated: 139 rows, val: 527 rows
 dataset: common_voice,ka	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,kab	splits: train: 120530 rows, test: 14622 rows, other: 88021 rows, validated: 573718 rows, invalidated: 18134 rows, val: 14622 rows
+Downloading and preparing dataset common_voice/kab (download: 15.99 GiB, generated: 6.47 GiB, post-processed: Unknown size, total: 22.46 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/kab/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/kab/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,kab	splits: train: 120530 rows, test: 14622 rows, other: 88021 rows, invalidated: 18134 rows, val: 14622 rows
 dataset: common_voice,kab	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ky	splits: train: 1955 rows, test: 1503 rows, other: 7223 rows, validated: 9236 rows, invalidated: 926 rows, val: 1511 rows
+Downloading and preparing dataset common_voice/ky (download: 552.60 MiB, generated: 470.22 MiB, post-processed: Unknown size, total: 1022.82 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ky/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ky/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ky	splits: train: 1955 rows, test: 1503 rows, other: 7223 rows, invalidated: 926 rows, val: 1511 rows
 dataset: common_voice,ky	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,lg	splits: train: 1250 rows, test: 584 rows, other: 3110 rows, validated: 2220 rows, invalidated: 290 rows, val: 384 rows
+Downloading and preparing dataset common_voice/lg (download: 198.55 MiB, generated: 205.82 MiB, post-processed: Unknown size, total: 404.38 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/lg/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/lg/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,lg	splits: train: 1250 rows, test: 584 rows, other: 3110 rows, invalidated: 290 rows, val: 384 rows
 dataset: common_voice,lg	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,lt	splits: train: 931 rows, test: 466 rows, other: 1629 rows, validated: 1644 rows, invalidated: 102 rows, val: 244 rows
+Downloading and preparing dataset common_voice/lt (download: 129.03 MiB, generated: 134.06 MiB, post-processed: Unknown size, total: 263.09 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/lt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/lt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,lt	splits: train: 931 rows, test: 466 rows, other: 1629 rows, invalidated: 102 rows, val: 244 rows
 dataset: common_voice,lt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,lv	splits: train: 2552 rows, test: 1882 rows, other: 1560 rows, validated: 6444 rows, invalidated: 143 rows, val: 2002 rows
+Downloading and preparing dataset common_voice/lv (download: 198.66 MiB, generated: 213.76 MiB, post-processed: Unknown size, total: 412.41 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/lv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/lv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,lv	splits: train: 2552 rows, test: 1882 rows, other: 1560 rows, invalidated: 143 rows, val: 2002 rows
 dataset: common_voice,lv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,mn	splits: train: 2183 rows, test: 1862 rows, other: 3272 rows, validated: 7487 rows, invalidated: 667 rows, val: 1837 rows
+Downloading and preparing dataset common_voice/mn (download: 463.84 MiB, generated: 416.87 MiB, post-processed: Unknown size, total: 880.71 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/mn/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/mn/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,mn	splits: train: 2183 rows, test: 1862 rows, other: 3272 rows, invalidated: 667 rows, val: 1837 rows
 dataset: common_voice,mn	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,mt	splits: train: 2036 rows, test: 1617 rows, other: 5714 rows, validated: 5747 rows, invalidated: 314 rows, val: 1516 rows
+Downloading and preparing dataset common_voice/mt (download: 405.42 MiB, generated: 409.87 MiB, post-processed: Unknown size, total: 815.29 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/mt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/mt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,mt	splits: train: 2036 rows, test: 1617 rows, other: 5714 rows, invalidated: 314 rows, val: 1516 rows
 dataset: common_voice,mt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,nl	splits: train: 9460 rows, test: 5708 rows, other: 27 rows, validated: 52488 rows, invalidated: 3308 rows, val: 4938 rows
+Downloading and preparing dataset common_voice/nl (download: 1.62 GiB, generated: 790.85 MiB, post-processed: Unknown size, total: 2.39 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/nl/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/nl/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,nl	splits: train: 9460 rows, test: 5708 rows, other: 27 rows, invalidated: 3308 rows, val: 4938 rows
 dataset: common_voice,nl	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,or	splits: train: 388 rows, test: 98 rows, other: 4302 rows, validated: 615 rows, invalidated: 62 rows, val: 129 rows
+Downloading and preparing dataset common_voice/or (download: 189.85 MiB, generated: 196.75 MiB, post-processed: Unknown size, total: 386.60 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/or/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/or/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,or	splits: train: 388 rows, test: 98 rows, other: 4302 rows, invalidated: 62 rows, val: 129 rows
 dataset: common_voice,or	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,pa-IN	splits: train: 211 rows, test: 116 rows, other: 1411 rows, validated: 371 rows, invalidated: 43 rows, val: 44 rows
+Downloading and preparing dataset common_voice/pa-IN (download: 66.52 MiB, generated: 68.69 MiB, post-processed: Unknown size, total: 135.21 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/pa-IN/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/pa-IN/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,pa-IN	splits: train: 211 rows, test: 116 rows, other: 1411 rows, invalidated: 43 rows, val: 44 rows
 dataset: common_voice,pa-IN	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,pl	splits: train: 7468 rows, test: 5153 rows, other: 12848 rows, validated: 90791 rows, invalidated: 4601 rows, val: 5153 rows
+Downloading and preparing dataset common_voice/pl (download: 3.29 GiB, generated: 1.21 GiB, post-processed: Unknown size, total: 4.50 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/pl/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/pl/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,pl	splits: train: 7468 rows, test: 5153 rows, other: 12848 rows, invalidated: 4601 rows, val: 5153 rows
 dataset: common_voice,pl	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,pt	splits: train: 6514 rows, test: 4641 rows, other: 8390 rows, validated: 41584 rows, invalidated: 1740 rows, val: 4592 rows
+Downloading and preparing dataset common_voice/pt (download: 1.59 GiB, generated: 885.94 MiB, post-processed: Unknown size, total: 2.45 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/pt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/pt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,pt	splits: train: 6514 rows, test: 4641 rows, other: 8390 rows, invalidated: 1740 rows, val: 4592 rows
 dataset: common_voice,pt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,rm-sursilv	splits: train: 1384 rows, test: 1194 rows, other: 2102 rows, validated: 3783 rows, invalidated: 639 rows, val: 1205 rows
+Downloading and preparing dataset common_voice/rm-sursilv (download: 263.17 MiB, generated: 276.72 MiB, post-processed: Unknown size, total: 539.89 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/rm-sursilv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/rm-sursilv/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,rm-sursilv	splits: train: 1384 rows, test: 1194 rows, other: 2102 rows, invalidated: 639 rows, val: 1205 rows
 dataset: common_voice,rm-sursilv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,rm-vallader	splits: train: 574 rows, test: 378 rows, other: 727 rows, validated: 1316 rows, invalidated: 374 rows, val: 357 rows
+Downloading and preparing dataset common_voice/rm-vallader (download: 103.11 MiB, generated: 106.42 MiB, post-processed: Unknown size, total: 209.53 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/rm-vallader/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/rm-vallader/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,rm-vallader	splits: train: 574 rows, test: 378 rows, other: 727 rows, invalidated: 374 rows, val: 357 rows
 dataset: common_voice,rm-vallader	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ro	splits: train: 3399 rows, test: 1778 rows, other: 1945 rows, validated: 6039 rows, invalidated: 485 rows, val: 858 rows
+Downloading and preparing dataset common_voice/ro (download: 249.84 MiB, generated: 261.89 MiB, post-processed: Unknown size, total: 511.73 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ro/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ro/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ro	splits: train: 3399 rows, test: 1778 rows, other: 1945 rows, invalidated: 485 rows, val: 858 rows
 dataset: common_voice,ro	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ru	splits: train: 15481 rows, test: 8007 rows, other: 10247 rows, validated: 74256 rows, invalidated: 3056 rows, val: 7963 rows
+Downloading and preparing dataset common_voice/ru (download: 3.40 GiB, generated: 1.89 GiB, post-processed: Unknown size, total: 5.29 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ru/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ru/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ru	splits: train: 15481 rows, test: 8007 rows, other: 10247 rows, invalidated: 3056 rows, val: 7963 rows
 dataset: common_voice,ru	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,rw	splits: train: 515197 rows, test: 15724 rows, other: 22923 rows, validated: 832929 rows, invalidated: 206790 rows, val: 15032 rows
+Downloading and preparing dataset common_voice/rw (download: 39.62 GiB, generated: 29.75 GiB, post-processed: Unknown size, total: 69.37 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/rw/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/rw/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,rw	splits: train: 515197 rows, test: 15724 rows, other: 22923 rows, invalidated: 206790 rows, val: 15032 rows
 dataset: common_voice,rw	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,sah	splits: train: 1442 rows, test: 757 rows, other: 1275 rows, validated: 2606 rows, invalidated: 66 rows, val: 405 rows
+dataset: common_voice,sah	splits: train: 1442 rows, test: 757 rows, other: 1275 rows, invalidated: 66 rows, val: 405 rows
 dataset: common_voice,sah	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,sl	splits: train: 2038 rows, test: 881 rows, other: 2502 rows, validated: 4669 rows, invalidated: 92 rows, val: 556 rows
+dataset: common_voice,sl	splits: train: 2038 rows, test: 881 rows, other: 2502 rows, invalidated: 92 rows, val: 556 rows
 dataset: common_voice,sl	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,sv-SE	splits: train: 2331 rows, test: 2027 rows, other: 3043 rows, validated: 12552 rows, invalidated: 462 rows, val: 2019 rows
+Downloading and preparing dataset common_voice/sv-SE (download: 401.91 MiB, generated: 285.28 MiB, post-processed: Unknown size, total: 687.19 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/sv-SE/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/sv-SE/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,sv-SE	splits: train: 2331 rows, test: 2027 rows, other: 3043 rows, invalidated: 462 rows, val: 2019 rows
 dataset: common_voice,sv-SE	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,ta	splits: train: 2009 rows, test: 1781 rows, other: 7428 rows, validated: 12652 rows, invalidated: 594 rows, val: 1779 rows
+Downloading and preparing dataset common_voice/ta (download: 648.28 MiB, generated: 448.38 MiB, post-processed: Unknown size, total: 1.07 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ta/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/ta/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,ta	splits: train: 2009 rows, test: 1781 rows, other: 7428 rows, invalidated: 594 rows, val: 1779 rows
 dataset: common_voice,ta	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,th	splits: train: 2917 rows, test: 2188 rows, other: 2671 rows, validated: 7028 rows, invalidated: 467 rows, val: 1922 rows
+Downloading and preparing dataset common_voice/th (download: 325.49 MiB, generated: 342.55 MiB, post-processed: Unknown size, total: 668.04 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/th/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/th/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,th	splits: train: 2917 rows, test: 2188 rows, other: 2671 rows, invalidated: 467 rows, val: 1922 rows
 dataset: common_voice,th	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,tr	splits: train: 1831 rows, test: 1647 rows, other: 325 rows, validated: 18685 rows, invalidated: 1726 rows, val: 1647 rows
+Downloading and preparing dataset common_voice/tr (download: 592.09 MiB, generated: 232.03 MiB, post-processed: Unknown size, total: 824.12 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/tr/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/tr/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,tr	splits: train: 1831 rows, test: 1647 rows, other: 325 rows, invalidated: 1726 rows, val: 1647 rows
 dataset: common_voice,tr	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,tt	splits: train: 11211 rows, test: 4485 rows, other: 1798 rows, validated: 25781 rows, invalidated: 287 rows, val: 2127 rows
+Downloading and preparing dataset common_voice/tt (download: 741.15 MiB, generated: 588.90 MiB, post-processed: Unknown size, total: 1.30 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/tt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/tt/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,tt	splits: train: 11211 rows, test: 4485 rows, other: 1798 rows, invalidated: 287 rows, val: 2127 rows
 dataset: common_voice,tt	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,uk	splits: train: 4035 rows, test: 3235 rows, other: 8161 rows, validated: 22337 rows, invalidated: 1255 rows, val: 3236 rows
+Downloading and preparing dataset common_voice/uk (download: 1.13 GiB, generated: 781.59 MiB, post-processed: Unknown size, total: 1.90 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/uk/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/uk/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,uk	splits: train: 4035 rows, test: 3235 rows, other: 8161 rows, invalidated: 1255 rows, val: 3236 rows
 dataset: common_voice,uk	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,vi	splits: train: 221 rows, test: 198 rows, other: 870 rows, validated: 619 rows, invalidated: 78 rows, val: 200 rows
+Downloading and preparing dataset common_voice/vi (download: 49.52 MiB, generated: 51.24 MiB, post-processed: Unknown size, total: 100.76 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/vi/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/vi/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,vi	splits: train: 221 rows, test: 198 rows, other: 870 rows, invalidated: 78 rows, val: 200 rows
 dataset: common_voice,vi	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,vot	splits: train: 3 rows, test: 0 rows, other: 411 rows, validated: 3 rows, invalidated: 6 rows, val: 0 rows
+Downloading and preparing dataset common_voice/vot (download: 7.43 MiB, generated: 7.84 MiB, post-processed: Unknown size, total: 15.27 MiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/vot/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/vot/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,vot	splits: train: 3 rows, test: 0 rows, other: 411 rows, invalidated: 6 rows, val: 0 rows
 dataset: common_voice,vot	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,zh-CN	splits: train: 18541 rows, test: 8760 rows, other: 8948 rows, validated: 36405 rows, invalidated: 5305 rows, val: 8743 rows
+Downloading and preparing dataset common_voice/zh-CN (download: 2.03 GiB, generated: 2.10 GiB, post-processed: Unknown size, total: 4.14 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/zh-CN/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/zh-CN/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,zh-CN	splits: train: 18541 rows, test: 8760 rows, other: 8948 rows, invalidated: 5305 rows, val: 8743 rows
 dataset: common_voice,zh-CN	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,zh-HK	splits: train: 7506 rows, test: 5172 rows, other: 38830 rows, validated: 41835 rows, invalidated: 2999 rows, val: 5172 rows
+Downloading and preparing dataset common_voice/zh-HK (download: 2.58 GiB, generated: 1.94 GiB, post-processed: Unknown size, total: 4.52 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/zh-HK/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/zh-HK/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,zh-HK	splits: train: 7506 rows, test: 5172 rows, other: 38830 rows, invalidated: 2999 rows, val: 5172 rows
 dataset: common_voice,zh-HK	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
-dataset: common_voice,zh-TW	splits: train: 3507 rows, test: 2895 rows, other: 22477 rows, validated: 61232 rows, invalidated: 3584 rows, val: 2895 rows
+Downloading and preparing dataset common_voice/zh-TW (download: 2.03 GiB, generated: 941.55 MiB, post-processed: Unknown size, total: 2.95 GiB) to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/zh-TW/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd...
+Dataset common_voice downloaded and prepared to /mnt/home/kwc/.cache/huggingface/datasets/common_voice/zh-TW/6.1.0/5693bfc0feeade582a78c2fb250bc88f52bd86f0a7f1bb22bfee67e715de30fd. Subsequent calls will reuse this data.
+dataset: common_voice,zh-TW	splits: train: 3507 rows, test: 2895 rows, other: 22477 rows, invalidated: 3584 rows, val: 2895 rows
 dataset: common_voice,zh-TW	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
 dataset: common_voice --> 10 models
-dataset: common_voice	model: vumichien/wav2vec2-large-xlsr-japanese-hiragana	downloads: 31027	likes: 2	task: automatic-speech-recognition
-dataset: common_voice	model: facebook/wav2vec2-large-xlsr-53	downloads: 28487	likes: 13	task: None
-dataset: common_voice	model: facebook/wav2vec2-xls-r-300m	downloads: 26699	likes: 19	task: None
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 18732	likes: 8	task: automatic-speech-recognition
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-german	downloads: 6503	likes: 4	task: automatic-speech-recognition
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-spanish	downloads: 6441	likes: 4	task: automatic-speech-recognition
-dataset: common_voice	model: lighteternal/wav2vec2-large-xlsr-53-greek	downloads: 5625	likes: 1	task: automatic-speech-recognition
-dataset: common_voice	model: ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt	downloads: 5573	likes: 6	task: automatic-speech-recognition
-dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-french	downloads: 4953	likes: 2	task: automatic-speech-recognition
-dataset: common_voice	model: voidful/wav2vec2-xlsr-multilingual-56	downloads: 4607	likes: 5	task: automatic-speech-recognition
-# found: 12313 matches; truncating to 10
+dataset: common_voice	model: facebook/wav2vec2-xls-r-300m	downloads: 26694	likes: 19	task: None
+dataset: common_voice	model: facebook/wav2vec2-large-xlsr-53	downloads: 26196	likes: 14	task: None
+dataset: common_voice	model: vumichien/wav2vec2-large-xlsr-japanese-hiragana	downloads: 18167	likes: 2	task: automatic-speech-recognition
+dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-english	downloads: 13562	likes: 8	task: automatic-speech-recognition
+dataset: common_voice	model: ydshieh/wav2vec2-large-xlsr-53-chinese-zh-cn-gpt	downloads: 7018	likes: 7	task: automatic-speech-recognition
+dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-german	downloads: 5919	likes: 5	task: automatic-speech-recognition
+dataset: common_voice	model: voidful/wav2vec2-xlsr-multilingual-56	downloads: 5081	likes: 5	task: automatic-speech-recognition
+dataset: common_voice	model: lighteternal/wav2vec2-large-xlsr-53-greek	downloads: 4892	likes: 1	task: automatic-speech-recognition
+dataset: common_voice	model: airesearch/wav2vec2-large-xlsr-53-th	downloads: 3808	likes: 2	task: automatic-speech-recognition
+dataset: common_voice	model: jonatasgrosman/wav2vec2-large-xlsr-53-chinese-zh-cn	downloads: 3693	likes: 3	task: automatic-speech-recognition
+# found: 12919 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 830578	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 464020	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 422753	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 378478	likes: 11	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 343630	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 330531	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 282044	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 224073	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 216583	likes: 11	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 204288	likes: 7	task: None

@@ -1,2 +1,9 @@
-model: distilbert-base-uncased-finetuned-sst-2-english	model: distilbert-base-uncased-finetuned-sst-2-english	downloads: 3917525	likes: 48	task: text-classification
-model: distilbert-base-uncased-finetuned-sst-2-english	labels: NEGATIVE, POSITIVE
+model: distilbert-base-uncased-finetuned-sst-2-english	model: distilbert-base-uncased-finetuned-sst-2-english	downloads: 3948068	likes: 49	task: text-classification
+***ERROR***
+model: distilbert-base-uncased-finetuned-sst-2-english
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fa890719c40>)

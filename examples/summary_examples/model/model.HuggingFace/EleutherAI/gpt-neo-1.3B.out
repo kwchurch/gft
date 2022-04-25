@@ -1,2 +1,9 @@
-model: EleutherAI/gpt-neo-1.3B	model: EleutherAI/gpt-neo-1.3B	downloads: 79648	likes: 29	task: text-generation
-model: EleutherAI/gpt-neo-1.3B	labels: LABEL_0, LABEL_1
+model: EleutherAI/gpt-neo-1.3B	model: EleutherAI/gpt-neo-1.3B	downloads: 84004	likes: 30	task: text-generation
+***ERROR***
+model: EleutherAI/gpt-neo-1.3B
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fbb472c60c0>)

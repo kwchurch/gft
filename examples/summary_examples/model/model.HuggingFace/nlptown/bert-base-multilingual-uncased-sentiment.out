@@ -1,2 +1,9 @@
-model: nlptown/bert-base-multilingual-uncased-sentiment	model: nlptown/bert-base-multilingual-uncased-sentiment	downloads: 1145690	likes: 39	task: text-classification
-model: nlptown/bert-base-multilingual-uncased-sentiment	labels: 1 star, 2 stars, 3 stars, 4 stars, 5 stars
+model: nlptown/bert-base-multilingual-uncased-sentiment	model: nlptown/bert-base-multilingual-uncased-sentiment	downloads: 1079410	likes: 41	task: text-classification
+***ERROR***
+model: nlptown/bert-base-multilingual-uncased-sentiment
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fef4e4dd700>)

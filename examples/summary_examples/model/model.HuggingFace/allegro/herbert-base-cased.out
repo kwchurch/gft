@@ -1,2 +1,9 @@
-model: allegro/herbert-base-cased	model: allegro/herbert-base-cased	downloads: 145713	likes: 3	task: feature-extraction
-model: allegro/herbert-base-cased	labels: LABEL_0, LABEL_1
+model: allegro/herbert-base-cased	No info from HuggingFace
+***ERROR***
+model: H:allegro/herbert-base-cased
+data: None
+eqn: None
+splits: train
+split: train
+task: H:default
+error: (<class 'OSError'>, OSError("Can't load config for 'allegro/herbert-base-cased'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'allegro/herbert-base-cased' is the correct path to a directory containing a config.json file"), <traceback object at 0x7ff015a27040>)

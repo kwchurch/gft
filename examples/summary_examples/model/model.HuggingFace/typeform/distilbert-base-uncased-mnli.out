@@ -1,2 +1,9 @@
-model: typeform/distilbert-base-uncased-mnli	model: typeform/distilbert-base-uncased-mnli	downloads: 225801	likes: 9	task: zero-shot-classification
-model: typeform/distilbert-base-uncased-mnli	labels: ENTAILMENT, NEUTRAL, CONTRADICTION
+model: typeform/distilbert-base-uncased-mnli	model: typeform/distilbert-base-uncased-mnli	downloads: 175774	likes: 10	task: zero-shot-classification
+***ERROR***
+model: typeform/distilbert-base-uncased-mnli
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7ff94a53b400>)

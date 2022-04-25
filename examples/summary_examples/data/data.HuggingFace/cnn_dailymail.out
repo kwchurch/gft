@@ -1,31 +1,16 @@
-hostname = asimov-7.svail.baidu.com
-dataset: cnn_dailymail	dataset: cnn_dailymail	downloads: 16335	likes: 7	PWC: https://paperswithcode.com/dataset/cnn-daily-mail-1
+hostname = asimov-135.svail.baidu.com
+dataset: cnn_dailymail	dataset: cnn_dailymail	downloads: 19173	likes: 7	PWC: https://paperswithcode.com/dataset/cnn-daily-mail-1
 dataset: cnn_dailymail,3.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,3.0.0	split: train	columns: article, highlights, id
 dataset: cnn_dailymail,1.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,1.0.0	split: train	columns: article, highlights, id
 dataset: cnn_dailymail,2.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,2.0.0	split: train	columns: article, highlights, id
-dataset: cnn_dailymail --> 10 models
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-6	downloads: 752156	likes: 33	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-6-6	downloads: 749578	likes: 8	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-6	downloads: 23782	likes: 2	task: summarization
-dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei1	downloads: 17047	likes: 0	task: text2text-generation
-dataset: cnn_dailymail	model: bochaowei/t5-small-finetuned-cnn-wei0	downloads: 16993	likes: 0	task: text2text-generation
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-1-1	downloads: 9471	likes: 0	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-1	downloads: 5626	likes: 1	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-cnn-12-3	downloads: 2691	likes: 0	task: summarization
-dataset: cnn_dailymail	model: sshleifer/distilbart-xsum-12-3	downloads: 1491	likes: 1	task: summarization
-dataset: cnn_dailymail	model: google/roberta2roberta_L-24_cnn_daily_mail	downloads: 1473	likes: 1	task: summarization
-# found: 12446 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+***ERROR***
+model: None
+data: H:cnn_dailymail
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f8fe417db00>)

@@ -1,2 +1,9 @@
-model: M-CLIP/M-BERT-Base-ViT-B	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 324077	likes: 5	task: feature-extraction
-model: M-CLIP/M-BERT-Base-ViT-B	labels: LABEL_0, LABEL_1
+model: M-CLIP/M-BERT-Base-ViT-B	model: M-CLIP/M-BERT-Base-ViT-B	downloads: 301722	likes: 5	task: feature-extraction
+***ERROR***
+model: M-CLIP/M-BERT-Base-ViT-B
+data: None
+eqn: None
+splits: train
+split: train
+task: H:default
+error: (<class 'OSError'>, OSError("Can't load config for 'M-CLIP/M-BERT-Base-ViT-B'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'M-CLIP/M-BERT-Base-ViT-B' is the correct path to a directory containing a config.json file"), <traceback object at 0x7fd643627680>)

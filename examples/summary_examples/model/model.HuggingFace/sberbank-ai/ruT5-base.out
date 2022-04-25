@@ -1,2 +1,9 @@
-model: sberbank-ai/ruT5-base	model: sberbank-ai/ruT5-base	downloads: 7769	likes: 2	task: text2text-generation
-model: sberbank-ai/ruT5-base	labels: LABEL_0, LABEL_1
+model: sberbank-ai/ruT5-base	model: sberbank-ai/ruT5-base	downloads: 8075	likes: 2	task: text2text-generation
+***ERROR***
+model: sberbank-ai/ruT5-base
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f257aff8cc0>)

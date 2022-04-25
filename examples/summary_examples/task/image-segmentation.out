@@ -1,12 +1,12 @@
-# found: 36 matches; truncating to 10
+# found: 42 matches; truncating to 10
 task: image-segmentation --> 10 models
-task: image-segmentation	model: hf-internal-testing/tiny-random-beit-pipeline	downloads: 4226	likes: 0	task: image-segmentation
-task: image-segmentation	model: facebook/detr-resnet-50-panoptic	downloads: 2857	likes: 18	task: image-segmentation
-task: image-segmentation	model: mishig/tiny-detr-mobilenetsv3-panoptic	downloads: 1901	likes: 0	task: image-segmentation
-task: image-segmentation	model: microsoft/beit-base-finetuned-ade-640-640	downloads: 1310	likes: 1	task: image-segmentation
-task: image-segmentation	model: nvidia/segformer-b5-finetuned-ade-640-640	downloads: 1078	likes: 2	task: image-segmentation
-task: image-segmentation	model: nvidia/segformer-b0-finetuned-ade-512-512	downloads: 1041	likes: 1	task: image-segmentation
-task: image-segmentation	model: microsoft/beit-large-finetuned-ade-640-640	downloads: 833	likes: 0	task: image-segmentation
-task: image-segmentation	model: nickmuchi/segformer-b4-finetuned-segments-sidewalk	downloads: 532	likes: 0	task: image-segmentation
-task: image-segmentation	model: facebook/detr-resnet-101-panoptic	downloads: 447	likes: 0	task: image-segmentation
-task: image-segmentation	model: nvidia/segformer-b4-finetuned-ade-512-512	downloads: 419	likes: 0	task: image-segmentation
+task: image-segmentation	model: hf-internal-testing/tiny-random-beit-pipeline	downloads: 4105	likes: 0	task: image-segmentation
+task: image-segmentation	model: facebook/detr-resnet-50-panoptic	downloads: 3493	likes: 20	task: image-segmentation
+task: image-segmentation	model: mishig/tiny-detr-mobilenetsv3-panoptic	downloads: 1824	likes: 0	task: image-segmentation
+task: image-segmentation	model: nvidia/segformer-b0-finetuned-ade-512-512	downloads: 1747	likes: 2	task: image-segmentation
+task: image-segmentation	model: microsoft/beit-base-finetuned-ade-640-640	downloads: 1294	likes: 1	task: image-segmentation
+task: image-segmentation	model: nvidia/segformer-b5-finetuned-ade-640-640	downloads: 1102	likes: 2	task: image-segmentation
+task: image-segmentation	model: microsoft/beit-large-finetuned-ade-640-640	downloads: 688	likes: 0	task: image-segmentation
+task: image-segmentation	model: nickmuchi/segformer-b4-finetuned-segments-sidewalk	downloads: 657	likes: 0	task: image-segmentation
+task: image-segmentation	model: nvidia/segformer-b4-finetuned-ade-512-512	downloads: 421	likes: 0	task: image-segmentation
+task: image-segmentation	model: nvidia/segformer-b5-finetuned-cityscapes-1024-1024	downloads: 402	likes: 1	task: image-segmentation

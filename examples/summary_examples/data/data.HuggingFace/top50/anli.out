@@ -1,24 +1,24 @@
-hostname = asimov-26.svail.baidu.com
-dataset: anli	dataset: anli	downloads: 18411	likes: 5	PWC: https://paperswithcode.com/dataset/anli
+hostname = asimov-172.svail.baidu.com
+dataset: anli	dataset: anli	downloads: 16139	likes: 5	PWC: https://paperswithcode.com/dataset/anli
 dataset: anli,plain_text	splits: train_r1: 16946 rows, dev_r1: 1000 rows, test_r1: 1000 rows, train_r2: 45460 rows, dev_r2: 1000 rows, test_r2: 1000 rows, train_r3: 100459 rows, dev_r3: 1200 rows, test_r3: 1200 rows
 dataset: anli --> 8 models
-dataset: anli	model: ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	downloads: 17913	likes: 2	task: text-classification
-dataset: anli	model: vicgalle/xlm-roberta-large-xnli-anli	downloads: 11976	likes: 8	task: zero-shot-classification
-dataset: anli	model: MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	downloads: 2839	likes: 7	task: zero-shot-classification
-dataset: anli	model: MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary	downloads: 229	likes: 0	task: zero-shot-classification
-dataset: anli	model: MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary	downloads: 210	likes: 0	task: zero-shot-classification
-dataset: anli	model: usc-isi/sbert-roberta-large-anli-mnli-snli	downloads: 98	likes: 0	task: sentence-similarity
-dataset: anli	model: AdapterHub/bert-base-uncased-pf-anli_r3	downloads: 28	likes: 0	task: text-classification
-dataset: anli	model: AdapterHub/roberta-base-pf-anli_r3	downloads: 10	likes: 0	task: text-classification
-# found: 12311 matches; truncating to 10
+dataset: anli	model: ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	downloads: 14390	likes: 2	task: text-classification
+dataset: anli	model: vicgalle/xlm-roberta-large-xnli-anli	downloads: 12084	likes: 8	task: zero-shot-classification
+dataset: anli	model: MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	downloads: 3098	likes: 7	task: zero-shot-classification
+dataset: anli	model: MoritzLaurer/DeBERTa-v3-xsmall-mnli-fever-anli-ling-binary	downloads: 235	likes: 0	task: zero-shot-classification
+dataset: anli	model: MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary	downloads: 216	likes: 0	task: zero-shot-classification
+dataset: anli	model: usc-isi/sbert-roberta-large-anli-mnli-snli	downloads: 110	likes: 0	task: sentence-similarity
+dataset: anli	model: AdapterHub/bert-base-uncased-pf-anli_r3	downloads: 27	likes: 0	task: text-classification
+dataset: anli	model: AdapterHub/roberta-base-pf-anli_r3	downloads: 9	likes: 0	task: text-classification
+# found: 12921 matches; truncating to 10
 task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
+task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

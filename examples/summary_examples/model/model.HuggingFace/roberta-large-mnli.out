@@ -1,2 +1,9 @@
-model: roberta-large-mnli	model: roberta-large-mnli	downloads: 2346010	likes: 16	task: text-classification
-model: roberta-large-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+model: roberta-large-mnli	model: roberta-large-mnli	downloads: 2108314	likes: 17	task: text-classification
+***ERROR***
+model: roberta-large-mnli
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f5f9450e980>)

@@ -1,2 +1,9 @@
-model: kha-white/manga-ocr-base	model: kha-white/manga-ocr-base	downloads: 3875	likes: 4	task: image-to-text
-model: kha-white/manga-ocr-base	labels: LABEL_0, LABEL_1
+model: kha-white/manga-ocr-base	model: kha-white/manga-ocr-base	downloads: 4820	likes: 4	task: image-to-text
+***ERROR***
+model: kha-white/manga-ocr-base
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f7bf0a7b9c0>)

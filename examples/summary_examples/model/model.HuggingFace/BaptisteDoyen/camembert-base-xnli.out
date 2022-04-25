@@ -1,2 +1,9 @@
-model: BaptisteDoyen/camembert-base-xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 232015	likes: 5	task: zero-shot-classification
-model: BaptisteDoyen/camembert-base-xnli	labels: entailment, neutral, contradiction
+model: BaptisteDoyen/camembert-base-xnli	model: BaptisteDoyen/camembert-base-xnli	downloads: 221852	likes: 5	task: zero-shot-classification
+***ERROR***
+model: H:BaptisteDoyen/camembert-base-xnli
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f252aa03480>)

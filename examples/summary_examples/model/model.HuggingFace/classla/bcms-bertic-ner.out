@@ -1,2 +1,9 @@
-model: classla/bcms-bertic-ner	model: classla/bcms-bertic-ner	downloads: 29650	likes: 2	task: token-classification
-model: classla/bcms-bertic-ner	labels: B-LOC, B-MISC, B-ORG, B-PER, I-LOC, I-MISC, I-ORG, I-PER, O
+model: classla/bcms-bertic-ner	model: classla/bcms-bertic-ner	downloads: 52580	likes: 2	task: token-classification
+***ERROR***
+model: H:classla/bcms-bertic-ner
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fc4422ff9c0>)

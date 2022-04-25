@@ -1,5 +1,5 @@
-hostname = asimov-134.svail.baidu.com
-dataset: americas_nli	dataset: americas_nli	downloads: 21945	likes: 0	
+hostname = asimov-203.svail.baidu.com
+dataset: americas_nli	dataset: americas_nli	downloads: 12880	likes: 0	
 dataset: americas_nli,aym	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,bzd	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,cni	splits: test: 750 rows, val: 658 rows
@@ -11,16 +11,11 @@ dataset: americas_nli,quy	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,shp	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,tar	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,all_languages	splits: test: 7486 rows, val: 6457 rows
-# dataset: americas_nli --> 0 models
-# found: 12313 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 920602	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 626617	likes: 12	task: None
-task: None	model: microsoft/deberta-base	downloads: 468082	likes: 6	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 387046	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 267457	likes: 2	task: None
-task: None	model: distilbert-base-cased	downloads: 223362	likes: 6	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 218789	likes: 11	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 197076	likes: 5	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 191888	likes: 17	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 187790	likes: 11	task: None
+***ERROR***
+model: None
+data: H:americas_nli
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f9f09773600>)

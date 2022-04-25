@@ -1,2 +1,9 @@
-model: dbmdz/bert-large-cased-finetuned-conll03-english	model: dbmdz/bert-large-cased-finetuned-conll03-english	downloads: 421310	likes: 4	task: token-classification
-model: dbmdz/bert-large-cased-finetuned-conll03-english	labels: B-LOC, B-MISC, B-ORG, B-PER, I-LOC, I-MISC, I-ORG, I-PER, O
+model: dbmdz/bert-large-cased-finetuned-conll03-english	model: dbmdz/bert-large-cased-finetuned-conll03-english	downloads: 423808	likes: 4	task: token-classification
+***ERROR***
+model: H:dbmdz/bert-large-cased-finetuned-conll03-english
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f7559540e00>)

@@ -1,2 +1,9 @@
-model: superb/wav2vec2-base-superb-ks	model: superb/wav2vec2-base-superb-ks	downloads: 1208	likes: 0	task: audio-classification
-model: superb/wav2vec2-base-superb-ks	labels: _silence_, _unknown_, down, go, left, no, off, on, right, stop, up, yes
+model: superb/wav2vec2-base-superb-ks	model: superb/wav2vec2-base-superb-ks	downloads: 1312	likes: 0	task: audio-classification
+***ERROR***
+model: superb/wav2vec2-base-superb-ks
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f28e22b7280>)

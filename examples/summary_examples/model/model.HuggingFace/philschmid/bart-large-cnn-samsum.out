@@ -1,2 +1,9 @@
-model: philschmid/bart-large-cnn-samsum	model: philschmid/bart-large-cnn-samsum	downloads: 84982	likes: 7	task: summarization
-model: philschmid/bart-large-cnn-samsum	labels: LABEL_0, LABEL_1, LABEL_2
+model: philschmid/bart-large-cnn-samsum	model: philschmid/bart-large-cnn-samsum	downloads: 129620	likes: 8	task: summarization
+***ERROR***
+model: philschmid/bart-large-cnn-samsum
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f708f9c4a00>)

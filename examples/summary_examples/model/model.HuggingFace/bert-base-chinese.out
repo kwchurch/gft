@@ -1,2 +1,9 @@
-model: bert-base-chinese	model: bert-base-chinese	downloads: 2463533	likes: 79	task: fill-mask
-model: bert-base-chinese	labels: LABEL_0, LABEL_1
+model: bert-base-chinese	model: bert-base-chinese	downloads: 3230679	likes: 80	task: fill-mask
+***ERROR***
+model: H:bert-base-chinese
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f7ba6615ec0>)

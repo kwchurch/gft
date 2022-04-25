@@ -1,2 +1,9 @@
-model: Michau/t5-base-en-generate-headline	model: Michau/t5-base-en-generate-headline	downloads: 35945	likes: 13	task: text2text-generation
-model: Michau/t5-base-en-generate-headline	labels: LABEL_0, LABEL_1
+model: Michau/t5-base-en-generate-headline	model: Michau/t5-base-en-generate-headline	downloads: 36735	likes: 13	task: text2text-generation
+***ERROR***
+model: Michau/t5-base-en-generate-headline
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f789ebb9b80>)

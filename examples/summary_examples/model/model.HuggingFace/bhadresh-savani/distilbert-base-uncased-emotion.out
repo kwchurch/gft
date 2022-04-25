@@ -1,2 +1,9 @@
-model: bhadresh-savani/distilbert-base-uncased-emotion	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 875241	likes: 21	task: text-classification
-model: bhadresh-savani/distilbert-base-uncased-emotion	labels: anger, fear, joy, love, sadness, surprise
+model: bhadresh-savani/distilbert-base-uncased-emotion	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 921836	likes: 24	task: text-classification
+***ERROR***
+model: H:bhadresh-savani/distilbert-base-uncased-emotion
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'OSError'>, OSError("Can't load config for 'bhadresh-savani/distilbert-base-uncased-emotion'. If you were trying to load it from 'https://huggingface.co/models', make sure you don't have a local directory with the same name. Otherwise, make sure 'bhadresh-savani/distilbert-base-uncased-emotion' is the correct path to a directory containing a config.json file"), <traceback object at 0x7f9a61c7d880>)

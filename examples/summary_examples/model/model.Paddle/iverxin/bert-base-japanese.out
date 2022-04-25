@@ -1,3 +1,4 @@
+We use pattern recognition to recognize the Tokenizer class.
 name: bert_model_0	labels (NA): NA	BertModel(
   (embeddings): BertEmbeddings(
     (word_embeddings): Embedding(32000, 768, sparse=False)

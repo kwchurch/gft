@@ -1,3 +1,3 @@
 task: voice-activity-detection --> 2 models
-task: voice-activity-detection	model: pyannote/segmentation	downloads: 483218	likes: 15	task: voice-activity-detection
+task: voice-activity-detection	model: pyannote/segmentation	downloads: 66395	likes: 17	task: voice-activity-detection
 task: voice-activity-detection	model: julien-c/voice-activity-detection	downloads: 0	likes: 0	task: voice-activity-detection

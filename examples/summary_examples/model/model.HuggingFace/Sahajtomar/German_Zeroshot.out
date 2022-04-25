@@ -1,2 +1,9 @@
-model: Sahajtomar/German_Zeroshot	model: Sahajtomar/German_Zeroshot	downloads: 81753	likes: 6	task: zero-shot-classification
-model: Sahajtomar/German_Zeroshot	labels: entailment, neutral, contradiction
+model: Sahajtomar/German_Zeroshot	model: Sahajtomar/German_Zeroshot	downloads: 93612	likes: 6	task: zero-shot-classification
+***ERROR***
+model: Sahajtomar/German_Zeroshot
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fc125d10d80>)

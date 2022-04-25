@@ -1,2 +1,9 @@
-model: sshleifer/distilbart-cnn-6-6	model: sshleifer/distilbart-cnn-6-6	downloads: 749578	likes: 8	task: summarization
-model: sshleifer/distilbart-cnn-6-6	labels: LABEL_0, LABEL_1, LABEL_2
+model: sshleifer/distilbart-cnn-6-6	model: sshleifer/distilbart-cnn-6-6	downloads: 752403	likes: 8	task: summarization
+***ERROR***
+model: sshleifer/distilbart-cnn-6-6
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f2bbdb0b800>)

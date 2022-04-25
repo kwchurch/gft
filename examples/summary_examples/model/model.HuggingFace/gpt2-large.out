@@ -1,2 +1,9 @@
-model: gpt2-large	model: gpt2-large	downloads: 106645	likes: 11	task: text-generation
-model: gpt2-large	labels: LABEL_0, LABEL_1
+model: gpt2-large	model: gpt2-large	downloads: 104579	likes: 12	task: text-generation
+***ERROR***
+model: gpt2-large
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f0261b025c0>)

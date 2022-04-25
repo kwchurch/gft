@@ -1,0 +1,36 @@
+hostname = asimov-115.svail.baidu.com
+AudioClassification	input audio and output a class label
+Audio_to_Audio	documentation to be written
+AutomaticSpeechRecognition	input audio and output a transcription; also known as ASR (automatic speech recognition), STT (speech-to-text)
+Conversational	documentation to be written
+FeatureExtraction	documentation to be written
+Fill_Mask	input text with a single mask (<mask>) and output fillers for <mask> with scores (probabilities)
+ImageClassification	input image and output a class label
+ImageSegmentation	documentation to be written
+Image_to_Text	input image and output text; also known as OCR (optical character recognition)
+ObjectDetection	documentation to be written
+QuestionAnswering	input question and context, and output an answer (a substring of the context); also known as classify_spans, question-answering
+SentenceSimilarity	documentation to be written
+StructuredDataClassification	documentation to be written
+Summarization	documentation to be written
+TableQuestionAnswering	documentation to be written
+TextClassification	input one or two texts and output a class label (includes sentiment analysis)
+TextGeneration	documentation to be written
+Text_to_Image	documentation to be written
+Text_to_Speech	input text and output audio; also known as TTS (text-to-speech), speech synthesis
+TokenClassification	input text and output a class label for each input token; includes NER (named entity recognition) and POS (part of speech) tagging
+Translation	input text in one language and output a text in another language; also known as MT (machine translation)
+VoiceActivityDetection	input audio and output region that contains speech; also known as VAD and SAD (speech activity detection)
+Zero_ShotClassification	documentation to be written
+# found: 12929 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 843328	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 477678	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 439927	likes: 7	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 360700	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 325893	likes: 23	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 276176	likes: 2	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 257854	likes: 11	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 223941	likes: 17	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 219355	likes: 11	task: None
+task: None	model: distilbert-base-cased	downloads: 205367	likes: 6	task: None

@@ -1,2 +1,9 @@
-model: cl-tohoku/bert-base-japanese	model: cl-tohoku/bert-base-japanese	downloads: 384555	likes: 2	task: fill-mask
-model: cl-tohoku/bert-base-japanese	labels: LABEL_0, LABEL_1
+model: cl-tohoku/bert-base-japanese	model: cl-tohoku/bert-base-japanese	downloads: 443718	likes: 2	task: fill-mask
+***ERROR***
+model: H:cl-tohoku/bert-base-japanese
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3245a7f740>)

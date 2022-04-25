@@ -1,2 +1,2 @@
-hostname = asimov-207.svail.baidu.com
-3.95 seconds	/mnt/big/kwc/morphology/results/20220419/fit_examples/model.HuggingFace/language/VAD/simple/100k/ckpt/best	mean_squared_error: 0.0008801058199803722
+hostname = asimov-47.svail.baidu.com
+8.11 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/VAD/simple/100k/ckpt/best	mean_squared_error: 0.0008801057727377578
