@@ -21,3 +21,23 @@ dataset: tweet_eval,sentiment	labels: negative, neutral, positive
 dataset: tweet_eval,stance_abortion	splits: train: 587 rows, test: 280 rows, val: 66 rows
 dataset: tweet_eval,stance_abortion	split: train	columns: text, label
 dataset: tweet_eval,stance_abortion	labels: none, against, favor
+dataset: tweet_eval,stance_atheism	splits: train: 461 rows, test: 220 rows, val: 52 rows
+dataset: tweet_eval,stance_atheism	split: train	columns: text, label
+dataset: tweet_eval,stance_atheism	labels: none, against, favor
+dataset: tweet_eval,stance_climate	splits: train: 355 rows, test: 169 rows, val: 40 rows
+dataset: tweet_eval,stance_climate	split: train	columns: text, label
+dataset: tweet_eval,stance_climate	labels: none, against, favor
+dataset: tweet_eval,stance_feminist	splits: train: 597 rows, test: 285 rows, val: 67 rows
+dataset: tweet_eval,stance_feminist	split: train	columns: text, label
+dataset: tweet_eval,stance_feminist	labels: none, against, favor
+dataset: tweet_eval,stance_hillary	splits: train: 620 rows, test: 295 rows, val: 69 rows
+dataset: tweet_eval,stance_hillary	split: train	columns: text, label
+dataset: tweet_eval,stance_hillary	labels: none, against, favor
+***ERROR***
+model: None
+data: H:tweet_eval
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7ffa34cd1380>)

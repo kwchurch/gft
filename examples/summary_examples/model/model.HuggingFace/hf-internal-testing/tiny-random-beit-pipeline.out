@@ -1,0 +1,23 @@
+model: hf-internal-testing/tiny-random-beit-pipeline	model: hf-internal-testing/tiny-random-beit-pipeline	downloads: 3677	likes: 0	task: image-segmentation
+model: hf-internal-testing/tiny-random-beit-pipeline	labels: NA
+BeitFeatureExtractor {
+  "crop_size": 224,
+  "do_center_crop": false,
+  "do_normalize": true,
+  "do_resize": true,
+  "feature_extractor_type": "BeitFeatureExtractor",
+  "image_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "image_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "reduce_labels": false,
+  "resample": 2,
+  "size": 30
+}
+

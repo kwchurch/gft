@@ -1,2 +1,6 @@
 hostname = asimov-135.svail.baidu.com
 dataset: mc4	dataset: mc4	downloads: 8228	likes: 9	PWC: https://paperswithcode.com/dataset/mc4
+dataset: mc4,af	splits: train: 2152243 rows, val: 2118 rows
+dataset: mc4,af	split: train	columns: text, timestamp, url
+dataset: mc4,am	splits: train: 162870 rows, val: 155 rows
+dataset: mc4,am	split: train	columns: text, timestamp, url

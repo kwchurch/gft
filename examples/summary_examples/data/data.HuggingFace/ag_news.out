@@ -1,2 +1,26 @@
 hostname = asimov-166.svail.baidu.com
 dataset: ag_news	dataset: ag_news	downloads: 28763	likes: 12	PWC: https://paperswithcode.com/dataset/ag-news
+dataset: ag_news	splits: train: 120000 rows, test: 7600 rows
+dataset: ag_news	split: train	columns: text, label
+dataset: ag_news	labels: World, Sports, Business, Sci/Tech
+dataset: ag_news --> 8 models
+dataset: ag_news	model: mrm8488/bert-mini-finetuned-age_news-classification	downloads: 1920	likes: 2	task: text-classification
+dataset: ag_news	model: mrm8488/distilroberta-finetuned-age_news-classification	downloads: 486	likes: 1	task: text-classification
+dataset: ag_news	model: nateraw/bert-base-uncased-ag-news	downloads: 192	likes: 0	task: text-classification
+dataset: ag_news	model: joeddav/distilbert-base-uncased-agnews-student	downloads: 144	likes: 0	task: text-classification
+dataset: ag_news	model: fabriceyhc/bert-base-uncased-ag_news	downloads: 53	likes: 0	task: text-classification
+dataset: ag_news	model: lucasresck/bert-base-cased-ag-news	downloads: 51	likes: 0	task: text-classification
+dataset: ag_news	model: andi611/distilbert-base-uncased-ner-agnews	downloads: 41	likes: 1	task: text-classification
+dataset: ag_news	model: mansidw/finetuning-sentiment-model-12000-samples	downloads: 16	likes: 0	task: text-classification
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

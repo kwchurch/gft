@@ -1,1 +1,47 @@
 hostname = asimov-178.svail.baidu.com
+dataset: xtreme	dataset: xtreme	downloads: 110844	likes: 3	PWC: https://paperswithcode.com/dataset/xtreme
+dataset: xtreme,XNLI	splits: test: 75150 rows, val: 37350 rows
+dataset: xtreme,tydiqa	splits: train: 49881 rows, val: 5077 rows
+dataset: xtreme,tydiqa	split: train	columns: id, title, context, question, answers
+dataset: xtreme,SQuAD	splits: train: 87599 rows, val: 10570 rows
+dataset: xtreme,SQuAD	split: train	columns: id, title, context, question, answers
+dataset: xtreme,PAN-X.af	splits: test: 1000 rows, train: 5000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.af	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ar	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.ar	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.bg	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.bg	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.bn	splits: test: 1000 rows, train: 10000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.bn	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.de	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.de	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.el	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.el	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.en	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.en	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.es	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.es	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.et	splits: test: 10000 rows, train: 15000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.et	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.eu	splits: test: 10000 rows, train: 10000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.eu	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.fa	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.fa	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.fi	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.fi	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.fr	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.fr	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.he	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.he	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.hi	splits: test: 1000 rows, train: 5000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.hi	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.hu	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.hu	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.id	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.id	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.it	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.it	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ja	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.ja	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.jv	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: xtreme,PAN-X.jv	split: train	columns: tokens, ner_tags, langs

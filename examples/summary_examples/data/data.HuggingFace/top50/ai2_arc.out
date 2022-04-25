@@ -2,3 +2,19 @@ hostname = asimov-159.svail.baidu.com
 dataset: ai2_arc	dataset: ai2_arc	downloads: 8032	likes: 1	
 dataset: ai2_arc,ARC-Challenge	splits: train: 1119 rows, test: 1172 rows, val: 299 rows
 dataset: ai2_arc,ARC-Challenge	split: train	columns: id, question, choices, answerKey
+dataset: ai2_arc,ARC-Easy	splits: train: 2251 rows, test: 2376 rows, val: 570 rows
+dataset: ai2_arc,ARC-Easy	split: train	columns: id, question, choices, answerKey
+dataset: ai2_arc --> 1 models
+dataset: ai2_arc	model: LIAMF-USP/aristo-roberta	downloads: 364	likes: 0	task: multiple-choice
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

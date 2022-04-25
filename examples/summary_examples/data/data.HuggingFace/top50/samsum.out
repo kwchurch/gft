@@ -1,2 +1,12 @@
 hostname = asimov-130.svail.baidu.com
 dataset: samsum	dataset: samsum	downloads: 10800	likes: 10	PWC: https://paperswithcode.com/dataset/samsum-corpus
+dataset: samsum,samsum	splits: train: 14732 rows, test: 819 rows, val: 818 rows
+dataset: samsum,samsum	split: train	columns: id, dialogue, summary
+***ERROR***
+model: None
+data: H:samsum
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f951c780bc0>)

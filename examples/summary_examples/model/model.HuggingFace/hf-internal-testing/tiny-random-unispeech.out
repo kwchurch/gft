@@ -1,0 +1,107 @@
+model: hf-internal-testing/tiny-random-unispeech	model: hf-internal-testing/tiny-random-unispeech	downloads: 3918	likes: 0	task: audio-classification
+model: hf-internal-testing/tiny-random-unispeech	labels: LABEL_0, LABEL_1
+UniSpeechForSequenceClassification(
+  (unispeech): UniSpeechModel(
+    (feature_extractor): UniSpeechFeatureEncoder(
+      (conv_layers): ModuleList(
+        (0): UniSpeechLayerNormConvLayer(
+          (conv): Conv1d(1, 32, kernel_size=(8,), stride=(4,), bias=False)
+          (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): UniSpeechLayerNormConvLayer(
+          (conv): Conv1d(32, 32, kernel_size=(8,), stride=(4,), bias=False)
+          (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): UniSpeechLayerNormConvLayer(
+          (conv): Conv1d(32, 32, kernel_size=(8,), stride=(4,), bias=False)
+          (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+    (feature_projection): UniSpeechFeatureProjection(
+      (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+      (projection): Linear(in_features=32, out_features=16, bias=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): UniSpeechEncoderStableLayerNorm(
+      (pos_conv_embed): UniSpeechPositionalConvEmbedding(
+        (conv): Conv1d(16, 16, kernel_size=(16,), stride=(1,), padding=(8,), groups=2)
+        (padding): UniSpeechSamePadLayer()
+      )
+      (layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+      (layers): ModuleList(
+        (0): UniSpeechEncoderLayerStableLayerNorm(
+          (attention): UniSpeechAttention(
+            (k_proj): Linear(in_features=16, out_features=16, bias=True)
+            (v_proj): Linear(in_features=16, out_features=16, bias=True)
+            (q_proj): Linear(in_features=16, out_features=16, bias=True)
+            (out_proj): Linear(in_features=16, out_features=16, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+          (layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): UniSpeechFeedForward(
+            (intermediate_dropout): Dropout(p=0.1, inplace=False)
+            (intermediate_dense): Linear(in_features=16, out_features=20, bias=True)
+            (output_dense): Linear(in_features=20, out_features=16, bias=True)
+            (output_dropout): Dropout(p=0.1, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): UniSpeechEncoderLayerStableLayerNorm(
+          (attention): UniSpeechAttention(
+            (k_proj): Linear(in_features=16, out_features=16, bias=True)
+            (v_proj): Linear(in_features=16, out_features=16, bias=True)
+            (q_proj): Linear(in_features=16, out_features=16, bias=True)
+            (out_proj): Linear(in_features=16, out_features=16, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+          (layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): UniSpeechFeedForward(
+            (intermediate_dropout): Dropout(p=0.1, inplace=False)
+            (intermediate_dense): Linear(in_features=16, out_features=20, bias=True)
+            (output_dense): Linear(in_features=20, out_features=16, bias=True)
+            (output_dropout): Dropout(p=0.1, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): UniSpeechEncoderLayerStableLayerNorm(
+          (attention): UniSpeechAttention(
+            (k_proj): Linear(in_features=16, out_features=16, bias=True)
+            (v_proj): Linear(in_features=16, out_features=16, bias=True)
+            (q_proj): Linear(in_features=16, out_features=16, bias=True)
+            (out_proj): Linear(in_features=16, out_features=16, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+          (layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): UniSpeechFeedForward(
+            (intermediate_dropout): Dropout(p=0.1, inplace=False)
+            (intermediate_dense): Linear(in_features=16, out_features=20, bias=True)
+            (output_dense): Linear(in_features=20, out_features=16, bias=True)
+            (output_dropout): Dropout(p=0.1, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+        )
+        (3): UniSpeechEncoderLayerStableLayerNorm(
+          (attention): UniSpeechAttention(
+            (k_proj): Linear(in_features=16, out_features=16, bias=True)
+            (v_proj): Linear(in_features=16, out_features=16, bias=True)
+            (q_proj): Linear(in_features=16, out_features=16, bias=True)
+            (out_proj): Linear(in_features=16, out_features=16, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+          (layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): UniSpeechFeedForward(
+            (intermediate_dropout): Dropout(p=0.1, inplace=False)
+            (intermediate_dense): Linear(in_features=16, out_features=20, bias=True)
+            (output_dense): Linear(in_features=20, out_features=16, bias=True)
+            (output_dropout): Dropout(p=0.1, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((16,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (projector): Linear(in_features=16, out_features=256, bias=True)
+  (classifier): Linear(in_features=256, out_features=2, bias=True)
+)

@@ -1,0 +1,65 @@
+model: anton-l/wav2vec2-random-tiny-classifier	model: anton-l/wav2vec2-random-tiny-classifier	downloads: 2547	likes: 1	task: audio-classification
+model: anton-l/wav2vec2-random-tiny-classifier	labels: _silence_, _unknown_, down, go, left, no, off, on, right, stop, up, yes
+Wav2Vec2ForSequenceClassification(
+  (wav2vec2): Wav2Vec2Model(
+    (feature_extractor): Wav2Vec2FeatureEncoder(
+      (conv_layers): ModuleList(
+        (0): Wav2Vec2GroupNormConvLayer(
+          (conv): Conv1d(1, 32, kernel_size=(2,), stride=(320,), bias=False)
+          (layer_norm): GroupNorm(32, 32, eps=1e-05, affine=True)
+        )
+      )
+    )
+    (feature_projection): Wav2Vec2FeatureProjection(
+      (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+      (projection): Linear(in_features=32, out_features=32, bias=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): Wav2Vec2Encoder(
+      (pos_conv_embed): Wav2Vec2PositionalConvEmbedding(
+        (conv): Conv1d(32, 32, kernel_size=(8,), stride=(1,), padding=(4,), groups=2)
+        (padding): Wav2Vec2SamePadLayer()
+      )
+      (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+      (layers): ModuleList(
+        (0): Wav2Vec2EncoderLayer(
+          (attention): Wav2Vec2Attention(
+            (k_proj): Linear(in_features=32, out_features=32, bias=True)
+            (v_proj): Linear(in_features=32, out_features=32, bias=True)
+            (q_proj): Linear(in_features=32, out_features=32, bias=True)
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+          (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): Wav2Vec2FeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=32, out_features=32, bias=True)
+            (output_dense): Linear(in_features=32, out_features=32, bias=True)
+            (output_dropout): Dropout(p=0.1, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): Wav2Vec2EncoderLayer(
+          (attention): Wav2Vec2Attention(
+            (k_proj): Linear(in_features=32, out_features=32, bias=True)
+            (v_proj): Linear(in_features=32, out_features=32, bias=True)
+            (q_proj): Linear(in_features=32, out_features=32, bias=True)
+            (out_proj): Linear(in_features=32, out_features=32, bias=True)
+          )
+          (dropout): Dropout(p=0.1, inplace=False)
+          (layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): Wav2Vec2FeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=32, out_features=32, bias=True)
+            (output_dense): Linear(in_features=32, out_features=32, bias=True)
+            (output_dropout): Dropout(p=0.1, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((32,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (projector): Linear(in_features=32, out_features=16, bias=True)
+  (classifier): Linear(in_features=16, out_features=12, bias=True)
+)

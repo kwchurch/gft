@@ -6,3 +6,19 @@ dataset: amazon_reviews_multi,de	splits: train: 200000 rows, test: 5000 rows, va
 dataset: amazon_reviews_multi,de	split: train	columns: review_id, product_id, reviewer_id, stars, review_body, review_title, language, product_category
 dataset: amazon_reviews_multi,en	splits: train: 200000 rows, test: 5000 rows, val: 5000 rows
 dataset: amazon_reviews_multi,en	split: train	columns: review_id, product_id, reviewer_id, stars, review_body, review_title, language, product_category
+dataset: amazon_reviews_multi,es	splits: train: 200000 rows, test: 5000 rows, val: 5000 rows
+dataset: amazon_reviews_multi,es	split: train	columns: review_id, product_id, reviewer_id, stars, review_body, review_title, language, product_category
+dataset: amazon_reviews_multi,fr	splits: train: 200000 rows, test: 5000 rows, val: 5000 rows
+dataset: amazon_reviews_multi,fr	split: train	columns: review_id, product_id, reviewer_id, stars, review_body, review_title, language, product_category
+dataset: amazon_reviews_multi,ja	splits: train: 200000 rows, test: 5000 rows, val: 5000 rows
+dataset: amazon_reviews_multi,ja	split: train	columns: review_id, product_id, reviewer_id, stars, review_body, review_title, language, product_category
+dataset: amazon_reviews_multi,zh	splits: train: 200000 rows, test: 5000 rows, val: 5000 rows
+dataset: amazon_reviews_multi,zh	split: train	columns: review_id, product_id, reviewer_id, stars, review_body, review_title, language, product_category
+***ERROR***
+model: None
+data: H:amazon_reviews_multi
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fdd84870840>)

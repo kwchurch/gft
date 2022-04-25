@@ -1,2 +1,22 @@
 hostname = asimov-153.svail.baidu.com
 dataset: yelp_polarity	dataset: yelp_polarity	downloads: 8114	likes: 2	
+dataset: yelp_polarity,plain_text	splits: train: 560000 rows, test: 38000 rows
+dataset: yelp_polarity,plain_text	split: train	columns: text, label
+dataset: yelp_polarity,plain_text	labels: 1, 2
+dataset: yelp_polarity --> 8 models
+dataset: yelp_polarity	model: felflare/bert-restore-punctuation	downloads: 55721	likes: 19	task: token-classification
+dataset: yelp_polarity	model: VictorSanh/roberta-base-finetuned-yelp-polarity	downloads: 294	likes: 1	task: text-classification
+dataset: yelp_polarity	model: st1992/bert-restore-punctuation	downloads: 152	likes: 0	task: token-classification
+dataset: yelp_polarity	model: speeqo/bert-restore-punctuation	downloads: 54	likes: 0	task: token-classification
+dataset: yelp_polarity	model: fabriceyhc/bert-base-uncased-yelp_polarity	downloads: 35	likes: 0	task: text-classification
+dataset: yelp_polarity	model: AdapterHub/bert-base-uncased-pf-yelp_polarity	downloads: 21	likes: 0	task: text-classification
+dataset: yelp_polarity	model: mgreenbe/607-demo-model	downloads: 13	likes: 0	task: text-classification
+dataset: yelp_polarity	model: AdapterHub/roberta-base-pf-yelp_polarity	downloads: 9	likes: 0	task: text-classification
+***ERROR***
+model: None
+data: H:yelp_polarity
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models'), <traceback object at 0x7f618af86340>)

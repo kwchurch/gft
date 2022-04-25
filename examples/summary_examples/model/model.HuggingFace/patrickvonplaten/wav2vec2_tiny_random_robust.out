@@ -1,0 +1,12 @@
+model: patrickvonplaten/wav2vec2_tiny_random_robust	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 11259	likes: 0	task: feature-extraction
+model: patrickvonplaten/wav2vec2_tiny_random_robust	labels: NA
+Wav2Vec2FeatureExtractor {
+  "do_normalize": true,
+  "feature_extractor_type": "Wav2Vec2FeatureExtractor",
+  "feature_size": 1,
+  "padding_side": "right",
+  "padding_value": 0.0,
+  "return_attention_mask": false,
+  "sampling_rate": 16000
+}
+

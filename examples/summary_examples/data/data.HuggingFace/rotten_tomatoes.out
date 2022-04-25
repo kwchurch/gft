@@ -1,2 +1,16 @@
 hostname = asimov-166.svail.baidu.com
 dataset: rotten_tomatoes	dataset: rotten_tomatoes	downloads: 14666	likes: 1	
+dataset: rotten_tomatoes	splits: train: 8530 rows, test: 1066 rows, val: 1066 rows
+dataset: rotten_tomatoes	split: train	columns: text, label
+dataset: rotten_tomatoes	labels: neg, pos
+dataset: rotten_tomatoes --> 2 models
+dataset: rotten_tomatoes	model: AdapterHub/bert-base-uncased-pf-rotten_tomatoes	downloads: 204	likes: 0	task: text-classification
+dataset: rotten_tomatoes	model: AdapterHub/roberta-base-pf-rotten_tomatoes	downloads: 7	likes: 0	task: text-classification
+***ERROR***
+model: None
+data: H:rotten_tomatoes
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models'), <traceback object at 0x7f180b0ac0c0>)

@@ -1,2 +1,6 @@
 hostname = asimov-168.svail.baidu.com
 dataset: wmt16	dataset: wmt16	downloads: 52417	likes: 2	PWC: https://paperswithcode.com/dataset/wmt-2016
+dataset: wmt16,cs-en	splits: train: 997240 rows, test: 2999 rows, val: 2656 rows
+dataset: wmt16,cs-en	split: train	columns: translation
+dataset: wmt16,de-en	splits: train: 4548885 rows, test: 2999 rows, val: 2169 rows
+dataset: wmt16,de-en	split: train	columns: translation

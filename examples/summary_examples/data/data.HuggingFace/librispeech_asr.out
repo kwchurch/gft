@@ -1,2 +1,3 @@
 hostname = asimov-168.svail.baidu.com
 dataset: librispeech_asr	dataset: librispeech_asr	downloads: 24773	likes: 13	PWC: https://paperswithcode.com/dataset/librispeech-1
+dataset: librispeech_asr,clean	splits: train.100: 28539 rows, train.360: 104014 rows, test: 2620 rows, val: 2703 rows

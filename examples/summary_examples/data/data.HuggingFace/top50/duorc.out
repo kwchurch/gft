@@ -2,3 +2,23 @@ hostname = asimov-146.svail.baidu.com
 dataset: duorc	dataset: duorc	downloads: 11098	likes: 2	PWC: https://paperswithcode.com/dataset/duorc
 dataset: duorc,SelfRC	splits: train: 60721 rows, test: 12559 rows, val: 12961 rows
 dataset: duorc,SelfRC	split: train	columns: plot_id, plot, title, question_id, question, answers, no_answer
+dataset: duorc,ParaphraseRC	splits: train: 69524 rows, test: 15857 rows, val: 15591 rows
+dataset: duorc,ParaphraseRC	split: train	columns: plot_id, plot, title, question_id, question, answers, no_answer
+dataset: duorc --> 5 models
+dataset: duorc	model: MaRiOrOsSi/t5-base-finetuned-question-answering	downloads: 61	likes: 0	task: text2text-generation
+dataset: duorc	model: AdapterHub/bert-base-uncased-pf-duorc_s	downloads: 21	likes: 0	task: question-answering
+dataset: duorc	model: AdapterHub/bert-base-uncased-pf-duorc_p	downloads: 19	likes: 0	task: question-answering
+dataset: duorc	model: AdapterHub/roberta-base-pf-duorc_s	downloads: 9	likes: 0	task: question-answering
+dataset: duorc	model: AdapterHub/roberta-base-pf-duorc_p	downloads: 6	likes: 0	task: question-answering
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

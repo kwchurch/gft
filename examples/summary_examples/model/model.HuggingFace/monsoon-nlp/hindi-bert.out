@@ -1,0 +1,292 @@
+model: monsoon-nlp/hindi-bert	model: monsoon-nlp/hindi-bert	downloads: 293561	likes: 4	task: feature-extraction
+model: monsoon-nlp/hindi-bert	labels: LABEL_0, LABEL_1
+ElectraModel(
+  (embeddings): ElectraEmbeddings(
+    (word_embeddings): Embedding(39628, 128, padding_idx=0)
+    (position_embeddings): Embedding(512, 128)
+    (token_type_embeddings): Embedding(2, 128)
+    (LayerNorm): LayerNorm((128,), eps=1e-12, elementwise_affine=True)
+    (dropout): Dropout(p=0.1, inplace=False)
+  )
+  (embeddings_project): Linear(in_features=128, out_features=256, bias=True)
+  (encoder): ElectraEncoder(
+    (layer): ModuleList(
+      (0): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (1): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (2): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (3): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (4): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (5): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (6): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (7): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (8): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (9): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (10): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (11): ElectraLayer(
+        (attention): ElectraAttention(
+          (self): ElectraSelfAttention(
+            (query): Linear(in_features=256, out_features=256, bias=True)
+            (key): Linear(in_features=256, out_features=256, bias=True)
+            (value): Linear(in_features=256, out_features=256, bias=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+          (output): ElectraSelfOutput(
+            (dense): Linear(in_features=256, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (intermediate): ElectraIntermediate(
+          (dense): Linear(in_features=256, out_features=1024, bias=True)
+        )
+        (output): ElectraOutput(
+          (dense): Linear(in_features=1024, out_features=256, bias=True)
+          (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+  )
+)

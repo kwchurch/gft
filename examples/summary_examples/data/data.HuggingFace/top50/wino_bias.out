@@ -2,3 +2,13 @@ hostname = asimov-121.svail.baidu.com
 dataset: wino_bias	dataset: wino_bias	downloads: 8775	likes: 2	PWC: https://paperswithcode.com/dataset/winobias
 dataset: wino_bias,type1_pro	splits: test: 396 rows, val: 396 rows
 dataset: wino_bias,type1_anti	splits: test: 396 rows, val: 396 rows
+dataset: wino_bias,type2_pro	splits: test: 396 rows, val: 396 rows
+dataset: wino_bias,type2_anti	splits: test: 396 rows, val: 396 rows
+***ERROR***
+model: None
+data: H:wino_bias
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fb62ee852c0>)

@@ -1,1 +1,13 @@
 hostname = asimov-152.svail.baidu.com
+dataset: emotion	dataset: emotion	downloads: 35714	likes: 18	PWC: https://paperswithcode.com/dataset/emotion
+dataset: emotion	splits: train: 16000 rows, test: 2000 rows, val: 2000 rows
+dataset: emotion	split: train	columns: text, label
+dataset: emotion	labels: sadness, joy, love, anger, fear, surprise
+***ERROR***
+model: None
+data: H:emotion
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f8b0924ac40>)

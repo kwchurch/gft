@@ -1,0 +1,2 @@
+dataset: triviaqa	splits: train: 106831 rows, dev: 13673 rows, val: 13673 rows, test: 13673 rows
+dataset: triviaqa	split: train	config: Default	cols: id, title, context, question, answers, answer_starts

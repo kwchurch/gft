@@ -2,3 +2,28 @@ hostname = asimov-150.svail.baidu.com
 dataset: squad_es	dataset: squad_es	downloads: 658	likes: 0	PWC: https://paperswithcode.com/dataset/squad-es
 dataset: squad_es,v1.1.0	splits: train: 87595 rows, val: 10570 rows
 dataset: squad_es,v1.1.0	split: train	columns: id, title, context, question, answers
+dataset: squad_es,v2.0.0	splits: train: 130313 rows, val: 11858 rows
+dataset: squad_es,v2.0.0	split: train	columns: id, title, context, question, answers
+dataset: squad_es --> 10 models
+dataset: squad_es	model: IIC/dpr-spanish-question_encoder-allqa-base	downloads: 367	likes: 1	task: fill-mask
+dataset: squad_es	model: IIC/dpr-spanish-passage_encoder-allqa-base	downloads: 360	likes: 1	task: fill-mask
+dataset: squad_es	model: IIC/dpr-spanish-passage_encoder-squades-base	downloads: 142	likes: 3	task: fill-mask
+dataset: squad_es	model: IIC/dpr-spanish-question_encoder-squades-base	downloads: 139	likes: 3	task: fill-mask
+dataset: squad_es	model: hackathon-pln-es/roberta-base-bne-squad2-es	downloads: 120	likes: 0	task: question-answering
+dataset: squad_es	model: hackathon-pln-es/roberta-base-biomedical-es-squad2-es	downloads: 106	likes: 0	task: question-answering
+dataset: squad_es	model: jamarju/roberta-large-bne-squad-2.0-es	downloads: 87	likes: 0	task: question-answering
+dataset: squad_es	model: hackathon-pln-es/biomedtra-small-es-squad2-es	downloads: 78	likes: 0	task: question-answering
+dataset: squad_es	model: hackathon-pln-es/roberta-base-biomedical-clinical-es-squad2-es	downloads: 74	likes: 0	task: question-answering
+dataset: squad_es	model: jamarju/roberta-base-bne-squad-2.0-es	downloads: 73	likes: 0	task: question-answering
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

@@ -1,1 +1,30 @@
 hostname = asimov-130.svail.baidu.com
+dataset: glue	dataset: glue	downloads: 1115869	likes: 33	PWC: https://paperswithcode.com/dataset/glue
+dataset: glue,cola	splits: train: 8551 rows, test: 1063 rows, val: 1043 rows
+dataset: glue,cola	split: train	columns: sentence, label, idx
+dataset: glue,cola	labels: unacceptable, acceptable
+dataset: glue,sst2	splits: train: 67349 rows, test: 1821 rows, val: 872 rows
+dataset: glue,sst2	split: train	columns: sentence, label, idx
+dataset: glue,sst2	labels: negative, positive
+dataset: glue,mrpc	splits: train: 3668 rows, test: 1725 rows, val: 408 rows
+dataset: glue,mrpc	split: train	columns: sentence1, sentence2, label, idx
+dataset: glue,mrpc	labels: not_equivalent, equivalent
+dataset: glue,qqp	splits: train: 363846 rows, test: 390965 rows, val: 40430 rows
+dataset: glue,qqp	split: train	columns: question1, question2, label, idx
+dataset: glue,qqp	labels: not_duplicate, duplicate
+dataset: glue,stsb	splits: train: 5749 rows, test: 1379 rows, val: 1500 rows
+dataset: glue,stsb	split: train	columns: sentence1, sentence2, label, idx
+dataset: glue,mnli	splits: train: 392702 rows, validation_matched: 9815 rows, validation_mismatched: 9832 rows, test_matched: 9796 rows, test_mismatched: 9847 rows
+dataset: glue,mnli	split: train	columns: premise, hypothesis, label, idx
+dataset: glue,mnli	labels: entailment, neutral, contradiction
+dataset: glue,mnli_mismatched	splits: test: 9847 rows, val: 9832 rows
+dataset: glue,mnli_matched	splits: test: 9796 rows, val: 9815 rows
+dataset: glue,qnli	splits: train: 104743 rows, test: 5463 rows, val: 5463 rows
+dataset: glue,qnli	split: train	columns: question, sentence, label, idx
+dataset: glue,qnli	labels: entailment, not_entailment
+dataset: glue,rte	splits: train: 2490 rows, test: 3000 rows, val: 277 rows
+dataset: glue,rte	split: train	columns: sentence1, sentence2, label, idx
+dataset: glue,rte	labels: entailment, not_entailment
+dataset: glue,wnli	splits: train: 635 rows, test: 146 rows, val: 71 rows
+dataset: glue,wnli	split: train	columns: sentence1, sentence2, label, idx
+dataset: glue,wnli	labels: not_entailment, entailment

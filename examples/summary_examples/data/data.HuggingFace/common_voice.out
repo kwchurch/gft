@@ -16,3 +16,11 @@ dataset: common_voice,cs	splits: train: 5655 rows, test: 4144 rows, other: 7475 
 dataset: common_voice,cs	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
 dataset: common_voice,cv	splits: train: 931 rows, test: 788 rows, other: 6927 rows, invalidated: 1282 rows, val: 818 rows
 dataset: common_voice,cv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
+dataset: common_voice,cy	splits: train: 6839 rows, test: 4820 rows, other: 17919 rows, invalidated: 3648 rows, val: 4776 rows
+dataset: common_voice,cy	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
+dataset: common_voice,de	splits: train: 246525 rows, test: 15588 rows, other: 10095 rows, invalidated: 32789 rows, val: 15588 rows
+dataset: common_voice,de	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
+dataset: common_voice,dv	splits: train: 2680 rows, test: 2202 rows, other: 0 rows, invalidated: 840 rows, val: 2077 rows
+dataset: common_voice,dv	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment
+dataset: common_voice,el	splits: train: 2316 rows, test: 1522 rows, other: 5659 rows, invalidated: 185 rows, val: 1401 rows
+dataset: common_voice,el	split: train	columns: client_id, path, audio, sentence, up_votes, down_votes, age, gender, accent, locale, segment

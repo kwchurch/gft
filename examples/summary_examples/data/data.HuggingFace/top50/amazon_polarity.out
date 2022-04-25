@@ -1,2 +1,19 @@
 hostname = asimov-130.svail.baidu.com
 dataset: amazon_polarity	dataset: amazon_polarity	downloads: 12160	likes: 9	
+dataset: amazon_polarity,amazon_polarity	splits: train: 3600000 rows, test: 400000 rows
+dataset: amazon_polarity,amazon_polarity	split: train	columns: label, title, content
+dataset: amazon_polarity,amazon_polarity	labels: negative, positive
+dataset: amazon_polarity --> 1 models
+dataset: amazon_polarity	model: fabriceyhc/bert-base-uncased-amazon_polarity	downloads: 4024	likes: 0	task: text-classification
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

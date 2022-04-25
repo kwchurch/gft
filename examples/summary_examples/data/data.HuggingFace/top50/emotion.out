@@ -1,2 +1,28 @@
 hostname = asimov-153.svail.baidu.com
 dataset: emotion	dataset: emotion	downloads: 35714	likes: 18	PWC: https://paperswithcode.com/dataset/emotion
+dataset: emotion	splits: train: 16000 rows, test: 2000 rows, val: 2000 rows
+dataset: emotion	split: train	columns: text, label
+dataset: emotion	labels: sadness, joy, love, anger, fear, surprise
+dataset: emotion --> 10 models
+dataset: emotion	model: bhadresh-savani/distilbert-base-uncased-emotion	downloads: 843037	likes: 24	task: text-classification
+dataset: emotion	model: mrm8488/t5-small-finetuned-emotion	downloads: 14106	likes: 0	task: text2text-generation
+dataset: emotion	model: bhadresh-savani/roberta-base-emotion	downloads: 8714	likes: 0	task: text-classification
+dataset: emotion	model: mrm8488/t5-base-finetuned-emotion	downloads: 5415	likes: 4	task: text2text-generation
+dataset: emotion	model: nateraw/bert-base-uncased-emotion	downloads: 5140	likes: 3	task: text-classification
+dataset: emotion	model: bhadresh-savani/bert-base-uncased-emotion	downloads: 1368	likes: 1	task: text-classification
+dataset: emotion	model: transformersbook/distilbert-base-uncased-finetuned-emotion	downloads: 286	likes: 0	task: text-classification
+dataset: emotion	model: bhadresh-savani/albert-base-v2-emotion	downloads: 285	likes: 0	task: text-classification
+dataset: emotion	model: AdapterHub/bert-base-uncased-pf-emotion	downloads: 243	likes: 0	task: text-classification
+dataset: emotion	model: xysmalobia/distilbert-base-uncased-finetuned-emotion	downloads: 186	likes: 0	task: text-classification
+# found: 12993 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

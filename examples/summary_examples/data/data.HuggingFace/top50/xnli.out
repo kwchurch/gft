@@ -1,2 +1,47 @@
 hostname = asimov-145.svail.baidu.com
 dataset: xnli	dataset: xnli	downloads: 48559	likes: 5	PWC: https://paperswithcode.com/dataset/xnli
+dataset: xnli,ar	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,ar	split: train	columns: premise, hypothesis, label
+dataset: xnli,ar	labels: entailment, neutral, contradiction
+dataset: xnli,bg	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,bg	split: train	columns: premise, hypothesis, label
+dataset: xnli,bg	labels: entailment, neutral, contradiction
+dataset: xnli,de	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,de	split: train	columns: premise, hypothesis, label
+dataset: xnli,de	labels: entailment, neutral, contradiction
+dataset: xnli,el	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,el	split: train	columns: premise, hypothesis, label
+dataset: xnli,el	labels: entailment, neutral, contradiction
+dataset: xnli,en	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,en	split: train	columns: premise, hypothesis, label
+dataset: xnli,en	labels: entailment, neutral, contradiction
+dataset: xnli,es	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,es	split: train	columns: premise, hypothesis, label
+dataset: xnli,es	labels: entailment, neutral, contradiction
+dataset: xnli,fr	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,fr	split: train	columns: premise, hypothesis, label
+dataset: xnli,fr	labels: entailment, neutral, contradiction
+dataset: xnli,hi	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,hi	split: train	columns: premise, hypothesis, label
+dataset: xnli,hi	labels: entailment, neutral, contradiction
+dataset: xnli,ru	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,ru	split: train	columns: premise, hypothesis, label
+dataset: xnli,ru	labels: entailment, neutral, contradiction
+dataset: xnli,sw	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,sw	split: train	columns: premise, hypothesis, label
+dataset: xnli,sw	labels: entailment, neutral, contradiction
+dataset: xnli,th	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,th	split: train	columns: premise, hypothesis, label
+dataset: xnli,th	labels: entailment, neutral, contradiction
+dataset: xnli,tr	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,tr	split: train	columns: premise, hypothesis, label
+dataset: xnli,tr	labels: entailment, neutral, contradiction
+dataset: xnli,ur	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,ur	split: train	columns: premise, hypothesis, label
+dataset: xnli,ur	labels: entailment, neutral, contradiction
+dataset: xnli,vi	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,vi	split: train	columns: premise, hypothesis, label
+dataset: xnli,vi	labels: entailment, neutral, contradiction
+dataset: xnli,zh	splits: train: 392702 rows, test: 5010 rows, val: 2490 rows
+dataset: xnli,zh	split: train	columns: premise, hypothesis, label
+dataset: xnli,zh	labels: entailment, neutral, contradiction

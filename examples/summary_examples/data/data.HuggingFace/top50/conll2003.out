@@ -1,2 +1,23 @@
 hostname = asimov-145.svail.baidu.com
 dataset: conll2003	dataset: conll2003	downloads: 20124	likes: 13	PWC: https://paperswithcode.com/dataset/conll-2003
+dataset: conll2003,conll2003	splits: train: 14042 rows, test: 3454 rows, val: 3251 rows
+dataset: conll2003,conll2003	split: train	columns: id, tokens, pos_tags, chunk_tags, ner_tags
+dataset: conll2003 --> 10 models
+dataset: conll2003	model: Jean-Baptiste/roberta-large-ner-english	downloads: 440906	likes: 2	task: token-classification
+dataset: conll2003	model: dslim/bert-base-NER	downloads: 270770	likes: 43	task: token-classification
+dataset: conll2003	model: flair/ner-english-large	downloads: 85357	likes: 7	task: token-classification
+dataset: conll2003	model: flair/ner-english-fast	downloads: 57537	likes: 3	task: token-classification
+dataset: conll2003	model: flair/ner-german-large	downloads: 49787	likes: 4	task: token-classification
+dataset: conll2003	model: flair/ner-english	downloads: 32524	likes: 4	task: token-classification
+dataset: conll2003	model: elastic/distilbert-base-uncased-finetuned-conll03-english	downloads: 10135	likes: 4	task: token-classification
+dataset: conll2003	model: flair/ner-spanish-large	downloads: 9650	likes: 1	task: token-classification
+dataset: conll2003	model: flair/ner-german	downloads: 7100	likes: 1	task: token-classification
+dataset: conll2003	model: flair/ner-french	downloads: 5188	likes: 1	task: token-classification
+***ERROR***
+model: None
+data: H:conll2003
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models'), <traceback object at 0x7fdfe9c56f00>)

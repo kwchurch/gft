@@ -4,3 +4,13 @@ dataset: cnn_dailymail,3.0.0	splits: train: 287113 rows, test: 11490 rows, val: 
 dataset: cnn_dailymail,3.0.0	split: train	columns: article, highlights, id
 dataset: cnn_dailymail,1.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
 dataset: cnn_dailymail,1.0.0	split: train	columns: article, highlights, id
+dataset: cnn_dailymail,2.0.0	splits: train: 287113 rows, test: 11490 rows, val: 13368 rows
+dataset: cnn_dailymail,2.0.0	split: train	columns: article, highlights, id
+***ERROR***
+model: None
+data: H:cnn_dailymail
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f86c40cc180>)

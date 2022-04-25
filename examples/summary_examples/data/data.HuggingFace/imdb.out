@@ -1,1 +1,13 @@
 hostname = asimov-152.svail.baidu.com
+dataset: imdb	dataset: imdb	downloads: 91341	likes: 10	PWC: https://paperswithcode.com/dataset/imdb-movie-reviews
+dataset: imdb,plain_text	splits: train: 25000 rows, test: 25000 rows, unsupervised: 50000 rows
+dataset: imdb,plain_text	split: train	columns: text, label
+dataset: imdb,plain_text	labels: neg, pos
+***ERROR***
+model: None
+data: H:imdb
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f91628711c0>)

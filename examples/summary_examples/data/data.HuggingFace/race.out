@@ -1,1 +1,16 @@
 hostname = asimov-172.svail.baidu.com
+dataset: race	dataset: race	downloads: 10716	likes: 4	PWC: https://paperswithcode.com/dataset/race
+dataset: race,high	splits: test: 3498 rows, train: 62445 rows, val: 3451 rows
+dataset: race,high	split: train	columns: example_id, article, answer, question, options
+dataset: race,middle	splits: test: 1436 rows, train: 25421 rows, val: 1436 rows
+dataset: race,middle	split: train	columns: example_id, article, answer, question, options
+dataset: race,all	splits: test: 4934 rows, train: 87866 rows, val: 4887 rows
+dataset: race,all	split: train	columns: example_id, article, answer, question, options
+***ERROR***
+model: None
+data: H:race
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f02bd42adc0>)

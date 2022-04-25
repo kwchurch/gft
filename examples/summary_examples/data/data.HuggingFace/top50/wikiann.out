@@ -4,3 +4,87 @@ dataset: wikiann,ace	splits: test: 100 rows, train: 100 rows, val: 100 rows
 dataset: wikiann,ace	split: train	columns: tokens, ner_tags, langs, spans
 dataset: wikiann,af	splits: test: 1000 rows, train: 5000 rows, val: 1000 rows
 dataset: wikiann,af	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,als	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,als	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,am	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,am	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,an	splits: test: 1000 rows, train: 1000 rows, val: 1000 rows
+dataset: wikiann,an	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ang	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,ang	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ar	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,ar	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,arc	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,arc	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,arz	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,arz	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,as	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,as	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ast	splits: test: 1000 rows, train: 1000 rows, val: 1000 rows
+dataset: wikiann,ast	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ay	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,ay	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,az	splits: test: 1000 rows, train: 10000 rows, val: 1000 rows
+dataset: wikiann,az	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ba	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,ba	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,bar	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,bar	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,bat-smg	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,bat-smg	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,be	splits: test: 1000 rows, train: 15000 rows, val: 1000 rows
+dataset: wikiann,be	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,be-x-old	splits: test: 1000 rows, train: 5000 rows, val: 1000 rows
+dataset: wikiann,be-x-old	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,bg	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,bg	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,bh	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,bh	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,bn	splits: test: 1000 rows, train: 10000 rows, val: 1000 rows
+dataset: wikiann,bn	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,bo	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,bo	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,br	splits: test: 1000 rows, train: 1000 rows, val: 1000 rows
+dataset: wikiann,br	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,bs	splits: test: 1000 rows, train: 15000 rows, val: 1000 rows
+dataset: wikiann,bs	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ca	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,ca	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,cbk-zam	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,cbk-zam	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,cdo	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,cdo	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ce	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,ce	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ceb	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,ceb	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,ckb	splits: test: 1000 rows, train: 1000 rows, val: 1000 rows
+dataset: wikiann,ckb	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,co	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,co	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,crh	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,crh	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,cs	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,cs	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,csb	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,csb	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,cv	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,cv	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,cy	splits: test: 1000 rows, train: 10000 rows, val: 1000 rows
+dataset: wikiann,cy	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,da	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,da	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,de	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,de	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,diq	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,diq	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,dv	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,dv	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,el	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,el	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,eml	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: wikiann,eml	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,en	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: wikiann,en	split: train	columns: tokens, ner_tags, langs, spans
+dataset: wikiann,eo	splits: test: 10000 rows, train: 15000 rows, val: 10000 rows
+dataset: wikiann,eo	split: train	columns: tokens, ner_tags, langs, spans

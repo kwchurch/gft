@@ -1,1 +1,13 @@
 hostname = asimov-172.svail.baidu.com
+dataset: hans	dataset: hans	downloads: 5604	likes: 1	PWC: https://paperswithcode.com/dataset/hans
+dataset: hans,plain_text	splits: train: 30000 rows, val: 30000 rows
+dataset: hans,plain_text	split: train	columns: premise, hypothesis, label, parse_premise, parse_hypothesis, binary_parse_premise, binary_parse_hypothesis, heuristic, subcase, template
+dataset: hans,plain_text	labels: entailment, non-entailment
+***ERROR***
+model: None
+data: H:hans
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f5fb0833bc0>)

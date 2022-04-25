@@ -1,2 +1,90 @@
 hostname = asimov-157.svail.baidu.com
 dataset: red_caps	dataset: red_caps	downloads: 99989	likes: 4	PWC: https://paperswithcode.com/dataset/redcaps
+dataset: red_caps,all	splits: train: 12011121 rows
+dataset: red_caps,all	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,abandonedporn	splits: train: 56169 rows
+dataset: red_caps,abandonedporn	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,abandoned	splits: train: 6991 rows
+dataset: red_caps,abandoned	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,absoluteunits	splits: train: 33903 rows
+dataset: red_caps,absoluteunits	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,airplants	splits: train: 8587 rows
+dataset: red_caps,airplants	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,alltheanimals	splits: train: 1260 rows
+dataset: red_caps,alltheanimals	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,amateurphotography	splits: train: 14001 rows
+dataset: red_caps,amateurphotography	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,amateurroomporn	splits: train: 11628 rows
+dataset: red_caps,amateurroomporn	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,animalporn	splits: train: 15804 rows
+dataset: red_caps,animalporn	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,antiques	splits: train: 16978 rows
+dataset: red_caps,antiques	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,antkeeping	splits: train: 3041 rows
+dataset: red_caps,antkeeping	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,ants	splits: train: 1175 rows
+dataset: red_caps,ants	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,aquariums	splits: train: 139824 rows
+dataset: red_caps,aquariums	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,architectureporn	splits: train: 14099 rows
+dataset: red_caps,architectureporn	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,artefactporn	splits: train: 9587 rows
+dataset: red_caps,artefactporn	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,astronomy	splits: train: 2123 rows
+dataset: red_caps,astronomy	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,astrophotography	splits: train: 24578 rows
+dataset: red_caps,astrophotography	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,australiancattledog	splits: train: 21429 rows
+dataset: red_caps,australiancattledog	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,australianshepherd	splits: train: 12543 rows
+dataset: red_caps,australianshepherd	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,autumnporn	splits: train: 2664 rows
+dataset: red_caps,autumnporn	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,averagebattlestations	splits: train: 5569 rows
+dataset: red_caps,averagebattlestations	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,awwducational	splits: train: 5926 rows
+dataset: red_caps,awwducational	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,awwnverts	splits: train: 7577 rows
+dataset: red_caps,awwnverts	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,axolotls	splits: train: 9728 rows
+dataset: red_caps,axolotls	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,backpacking	splits: train: 8896 rows
+dataset: red_caps,backpacking	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,backyardchickens	splits: train: 17319 rows
+dataset: red_caps,backyardchickens	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,baking	splits: train: 119541 rows
+dataset: red_caps,baking	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,ballpython	splits: train: 19237 rows
+dataset: red_caps,ballpython	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,barista	splits: train: 6637 rows
+dataset: red_caps,barista	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,bassfishing	splits: train: 6474 rows
+dataset: red_caps,bassfishing	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,battlestations	splits: train: 58438 rows
+dataset: red_caps,battlestations	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,bbq	splits: train: 22268 rows
+dataset: red_caps,bbq	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,beagle	splits: train: 21358 rows
+dataset: red_caps,beagle	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,beardeddragons	splits: train: 55109 rows
+dataset: red_caps,beardeddragons	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,beekeeping	splits: train: 1224 rows
+dataset: red_caps,beekeeping	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,beerandpizza	splits: train: 1166 rows
+dataset: red_caps,beerandpizza	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,beerporn	splits: train: 95693 rows
+dataset: red_caps,beerporn	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,beerwithaview	splits: train: 8888 rows
+dataset: red_caps,beerwithaview	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,beginnerwoodworking	splits: train: 8701 rows
+dataset: red_caps,beginnerwoodworking	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,bengalcats	splits: train: 7001 rows
+dataset: red_caps,bengalcats	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,bento	splits: train: 4805 rows
+dataset: red_caps,bento	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,bernesemountaindogs	splits: train: 6369 rows
+dataset: red_caps,bernesemountaindogs	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,berries	splits: train: 805 rows
+dataset: red_caps,berries	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents
+dataset: red_caps,bettafish	splits: train: 64735 rows
+dataset: red_caps,bettafish	split: train	columns: image_id, author, image_url, raw_caption, caption, subreddit, score, created_utc, permalink, crosspost_parents

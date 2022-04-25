@@ -1,0 +1,9 @@
+model: nvidia/segformer-b0-finetuned-ade-512-512	model: nvidia/segformer-b0-finetuned-ade-512-512	downloads: 1796	likes: 2	task: image-segmentation
+***ERROR***
+model: H:nvidia/segformer-b0-finetuned-ade-512-512
+data: None
+eqn: None
+splits: train
+split: train
+task: H:feature-extraction
+error: (<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'from_dict'"), <traceback object at 0x7f0a402ad6c0>)

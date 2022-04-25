@@ -6,3 +6,17 @@ dataset: winogrande,winogrande_s	splits: train: 640 rows, test: 1767 rows, val: 
 dataset: winogrande,winogrande_s	split: train	columns: sentence, option1, option2, answer
 dataset: winogrande,winogrande_m	splits: train: 2558 rows, test: 1767 rows, val: 1267 rows
 dataset: winogrande,winogrande_m	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_l	splits: train: 10234 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_l	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_xl	splits: train: 40398 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_xl	split: train	columns: sentence, option1, option2, answer
+dataset: winogrande,winogrande_debiased	splits: train: 9248 rows, test: 1767 rows, val: 1267 rows
+dataset: winogrande,winogrande_debiased	split: train	columns: sentence, option1, option2, answer
+***ERROR***
+model: None
+data: H:winogrande
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models?filter=dataset%3Awinogrande&full=True'), <traceback object at 0x7f5a753d7140>)
