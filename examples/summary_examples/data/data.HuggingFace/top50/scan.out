@@ -1,4 +1,4 @@
-hostname = asimov-150.svail.baidu.com
+hostname = asimov-138.svail.baidu.com
 dataset: scan	dataset: scan	downloads: 5329	likes: 0	PWC: https://paperswithcode.com/dataset/scan
 dataset: scan,simple	splits: train: 16728 rows, test: 4182 rows
 dataset: scan,simple	split: train	columns: commands, actions
@@ -25,7 +25,7 @@ dataset: scan,template_opposite_right	split: train	columns: commands, actions
 dataset: scan,template_right	splits: train: 15225 rows, test: 4476 rows
 dataset: scan,template_right	split: train	columns: commands, actions
 # dataset: scan --> 0 models
-# found: 12993 matches; truncating to 10
+# found: 13024 matches; truncating to 10
 task: None --> 10 models
 task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
 task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None

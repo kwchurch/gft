@@ -1,13 +1,18 @@
-hostname = asimov-172.svail.baidu.com
+hostname = asimov-145.svail.baidu.com
 dataset: hans	dataset: hans	downloads: 5604	likes: 1	PWC: https://paperswithcode.com/dataset/hans
 dataset: hans,plain_text	splits: train: 30000 rows, val: 30000 rows
 dataset: hans,plain_text	split: train	columns: premise, hypothesis, label, parse_premise, parse_hypothesis, binary_parse_premise, binary_parse_hypothesis, heuristic, subcase, template
 dataset: hans,plain_text	labels: entailment, non-entailment
-***ERROR***
-model: None
-data: H:hans
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f5fb0833bc0>)
+# dataset: hans --> 0 models
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

@@ -1,4 +1,4 @@
-hostname = asimov-175.svail.baidu.com
+hostname = asimov-179.svail.baidu.com
 bert-base-uncased
 cross-encoder/ms-marco-MiniLM-L-12-v2
 cl-tohoku/bert-base-japanese-char

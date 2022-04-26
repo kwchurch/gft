@@ -1,4 +1,4 @@
-
+import gft
 # https://github.com/PaddlePaddle/ERNIE/blob/develop/README.en.md
 
 # There seem to be two model zoos there

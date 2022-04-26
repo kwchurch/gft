@@ -1,0 +1,469 @@
+model: EleutherAI/gpt-neo-1.3B	model: EleutherAI/gpt-neo-1.3B	downloads: 81263	likes: 30	task: text-generation
+model: EleutherAI/gpt-neo-1.3B	labels: LABEL_0, LABEL_1
+GPTNeoForSequenceClassification(
+  (transformer): GPTNeoModel(
+    (wte): Embedding(50257, 2048)
+    (wpe): Embedding(2048, 2048)
+    (drop): Dropout(p=0, inplace=False)
+    (h): ModuleList(
+      (0): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (1): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (2): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (3): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (4): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (5): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (6): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (7): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (8): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (9): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (10): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (11): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (12): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (13): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (14): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (15): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (16): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (17): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (18): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (19): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (20): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (21): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (22): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+      (23): GPTNeoBlock(
+        (ln_1): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (attn): GPTNeoAttention(
+          (attention): GPTNeoSelfAttention(
+            (attn_dropout): Dropout(p=0, inplace=False)
+            (resid_dropout): Dropout(p=0, inplace=False)
+            (k_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (v_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (q_proj): Linear(in_features=2048, out_features=2048, bias=False)
+            (out_proj): Linear(in_features=2048, out_features=2048, bias=True)
+          )
+        )
+        (ln_2): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPTNeoMLP(
+          (c_fc): Linear(in_features=2048, out_features=8192, bias=True)
+          (c_proj): Linear(in_features=8192, out_features=2048, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+      )
+    )
+    (ln_f): LayerNorm((2048,), eps=1e-05, elementwise_affine=True)
+  )
+  (score): Linear(in_features=2048, out_features=2, bias=False)
+)

@@ -1,4 +1,4 @@
-hostname = asimov-178.svail.baidu.com
+hostname = asimov-146.svail.baidu.com
 dataset: xtreme	dataset: xtreme	downloads: 110844	likes: 3	PWC: https://paperswithcode.com/dataset/xtreme
 dataset: xtreme,XNLI	splits: test: 75150 rows, val: 37350 rows
 dataset: xtreme,tydiqa	splits: train: 49881 rows, val: 5077 rows
@@ -45,3 +45,243 @@ dataset: xtreme,PAN-X.ja	splits: test: 10000 rows, train: 20000 rows, val: 10000
 dataset: xtreme,PAN-X.ja	split: train	columns: tokens, ner_tags, langs
 dataset: xtreme,PAN-X.jv	splits: test: 100 rows, train: 100 rows, val: 100 rows
 dataset: xtreme,PAN-X.jv	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ka	splits: test: 10000 rows, train: 10000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.ka	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.kk	splits: test: 1000 rows, train: 1000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.kk	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ko	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.ko	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ml	splits: test: 1000 rows, train: 10000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.ml	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.mr	splits: test: 1000 rows, train: 5000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.mr	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ms	splits: test: 1000 rows, train: 20000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.ms	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.my	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: xtreme,PAN-X.my	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.nl	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.nl	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.pt	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.pt	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ru	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.ru	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.sw	splits: test: 1000 rows, train: 1000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.sw	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ta	splits: test: 1000 rows, train: 15000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.ta	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.te	splits: test: 1000 rows, train: 1000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.te	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.th	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.th	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.tl	splits: test: 1000 rows, train: 10000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.tl	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.tr	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.tr	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.ur	splits: test: 1000 rows, train: 20000 rows, val: 1000 rows
+dataset: xtreme,PAN-X.ur	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.vi	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.vi	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.yo	splits: test: 100 rows, train: 100 rows, val: 100 rows
+dataset: xtreme,PAN-X.yo	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,PAN-X.zh	splits: test: 10000 rows, train: 20000 rows, val: 10000 rows
+dataset: xtreme,PAN-X.zh	split: train	columns: tokens, ner_tags, langs
+dataset: xtreme,MLQA.ar.ar	splits: test: 5335 rows, val: 517 rows
+dataset: xtreme,MLQA.ar.de	splits: test: 1649 rows, val: 207 rows
+dataset: xtreme,MLQA.ar.vi	splits: test: 2047 rows, val: 163 rows
+dataset: xtreme,MLQA.ar.zh	splits: test: 1912 rows, val: 188 rows
+dataset: xtreme,MLQA.ar.en	splits: test: 5335 rows, val: 517 rows
+dataset: xtreme,MLQA.ar.es	splits: test: 1978 rows, val: 161 rows
+dataset: xtreme,MLQA.ar.hi	splits: test: 1831 rows, val: 186 rows
+dataset: xtreme,MLQA.de.ar	splits: test: 1649 rows, val: 207 rows
+dataset: xtreme,MLQA.de.de	splits: test: 4517 rows, val: 512 rows
+dataset: xtreme,MLQA.de.vi	splits: test: 1675 rows, val: 182 rows
+dataset: xtreme,MLQA.de.zh	splits: test: 1621 rows, val: 190 rows
+dataset: xtreme,MLQA.de.en	splits: test: 4517 rows, val: 512 rows
+dataset: xtreme,MLQA.de.es	splits: test: 1776 rows, val: 196 rows
+dataset: xtreme,MLQA.de.hi	splits: test: 1430 rows, val: 163 rows
+dataset: xtreme,MLQA.vi.ar	splits: test: 2047 rows, val: 163 rows
+dataset: xtreme,MLQA.vi.de	splits: test: 1675 rows, val: 182 rows
+dataset: xtreme,MLQA.vi.vi	splits: test: 5495 rows, val: 511 rows
+dataset: xtreme,MLQA.vi.zh	splits: test: 1943 rows, val: 184 rows
+dataset: xtreme,MLQA.vi.en	splits: test: 5495 rows, val: 511 rows
+dataset: xtreme,MLQA.vi.es	splits: test: 2018 rows, val: 189 rows
+dataset: xtreme,MLQA.vi.hi	splits: test: 1947 rows, val: 177 rows
+dataset: xtreme,MLQA.zh.ar	splits: test: 1912 rows, val: 188 rows
+dataset: xtreme,MLQA.zh.de	splits: test: 1621 rows, val: 190 rows
+dataset: xtreme,MLQA.zh.vi	splits: test: 1943 rows, val: 184 rows
+dataset: xtreme,MLQA.zh.zh	splits: test: 5137 rows, val: 504 rows
+dataset: xtreme,MLQA.zh.en	splits: test: 5137 rows, val: 504 rows
+dataset: xtreme,MLQA.zh.es	splits: test: 1947 rows, val: 161 rows
+dataset: xtreme,MLQA.zh.hi	splits: test: 1767 rows, val: 189 rows
+dataset: xtreme,MLQA.en.ar	splits: test: 5335 rows, val: 517 rows
+dataset: xtreme,MLQA.en.de	splits: test: 4517 rows, val: 512 rows
+dataset: xtreme,MLQA.en.vi	splits: test: 5495 rows, val: 511 rows
+dataset: xtreme,MLQA.en.zh	splits: test: 5137 rows, val: 504 rows
+dataset: xtreme,MLQA.en.en	splits: test: 11590 rows, val: 1148 rows
+dataset: xtreme,MLQA.en.es	splits: test: 5253 rows, val: 500 rows
+dataset: xtreme,MLQA.en.hi	splits: test: 4918 rows, val: 507 rows
+dataset: xtreme,MLQA.es.ar	splits: test: 1978 rows, val: 161 rows
+dataset: xtreme,MLQA.es.de	splits: test: 1776 rows, val: 196 rows
+dataset: xtreme,MLQA.es.vi	splits: test: 2018 rows, val: 189 rows
+dataset: xtreme,MLQA.es.zh	splits: test: 1947 rows, val: 161 rows
+dataset: xtreme,MLQA.es.en	splits: test: 5253 rows, val: 500 rows
+dataset: xtreme,MLQA.es.es	splits: test: 5253 rows, val: 500 rows
+dataset: xtreme,MLQA.es.hi	splits: test: 1723 rows, val: 187 rows
+dataset: xtreme,MLQA.hi.ar	splits: test: 1831 rows, val: 186 rows
+dataset: xtreme,MLQA.hi.de	splits: test: 1430 rows, val: 163 rows
+dataset: xtreme,MLQA.hi.vi	splits: test: 1947 rows, val: 177 rows
+dataset: xtreme,MLQA.hi.zh	splits: test: 1767 rows, val: 189 rows
+dataset: xtreme,MLQA.hi.en	splits: test: 4918 rows, val: 507 rows
+dataset: xtreme,MLQA.hi.es	splits: test: 1723 rows, val: 187 rows
+dataset: xtreme,MLQA.hi.hi	splits: test: 4918 rows, val: 507 rows
+dataset: xtreme,XQuAD.ar	splits: val: 1190 rows
+dataset: xtreme,XQuAD.de	splits: val: 1190 rows
+dataset: xtreme,XQuAD.vi	splits: val: 1190 rows
+dataset: xtreme,XQuAD.zh	splits: val: 1190 rows
+dataset: xtreme,XQuAD.en	splits: val: 1190 rows
+dataset: xtreme,XQuAD.es	splits: val: 1190 rows
+dataset: xtreme,XQuAD.hi	splits: val: 1190 rows
+dataset: xtreme,XQuAD.el	splits: val: 1190 rows
+dataset: xtreme,XQuAD.ru	splits: val: 1190 rows
+dataset: xtreme,XQuAD.th	splits: val: 1190 rows
+dataset: xtreme,XQuAD.tr	splits: val: 1190 rows
+dataset: xtreme,bucc18.de	splits: test: 9580 rows, val: 1038 rows
+dataset: xtreme,bucc18.fr	splits: test: 9086 rows, val: 929 rows
+dataset: xtreme,bucc18.zh	splits: test: 1899 rows, val: 257 rows
+dataset: xtreme,bucc18.ru	splits: test: 14435 rows, val: 2374 rows
+dataset: xtreme,PAWS-X.de	splits: test: 2000 rows, train: 49380 rows, val: 2000 rows
+dataset: xtreme,PAWS-X.de	split: train	columns: sentence1, sentence2, label
+dataset: xtreme,PAWS-X.en	splits: test: 2000 rows, train: 49175 rows, val: 2000 rows
+dataset: xtreme,PAWS-X.en	split: train	columns: sentence1, sentence2, label
+dataset: xtreme,PAWS-X.es	splits: test: 2000 rows, train: 49401 rows, val: 1961 rows
+dataset: xtreme,PAWS-X.es	split: train	columns: sentence1, sentence2, label
+dataset: xtreme,PAWS-X.fr	splits: test: 2000 rows, train: 49399 rows, val: 1988 rows
+dataset: xtreme,PAWS-X.fr	split: train	columns: sentence1, sentence2, label
+dataset: xtreme,PAWS-X.ja	splits: test: 2000 rows, train: 49401 rows, val: 2000 rows
+dataset: xtreme,PAWS-X.ja	split: train	columns: sentence1, sentence2, label
+dataset: xtreme,PAWS-X.ko	splits: test: 1999 rows, train: 49164 rows, val: 2000 rows
+dataset: xtreme,PAWS-X.ko	split: train	columns: sentence1, sentence2, label
+dataset: xtreme,PAWS-X.zh	splits: test: 2000 rows, train: 49401 rows, val: 2000 rows
+dataset: xtreme,PAWS-X.zh	split: train	columns: sentence1, sentence2, label
+dataset: xtreme,tatoeba.afr	splits: val: 1000 rows
+dataset: xtreme,tatoeba.ara	splits: val: 1000 rows
+dataset: xtreme,tatoeba.ben	splits: val: 1000 rows
+dataset: xtreme,tatoeba.bul	splits: val: 1000 rows
+dataset: xtreme,tatoeba.deu	splits: val: 1000 rows
+dataset: xtreme,tatoeba.cmn	splits: val: 1000 rows
+dataset: xtreme,tatoeba.ell	splits: val: 1000 rows
+dataset: xtreme,tatoeba.est	splits: val: 1000 rows
+dataset: xtreme,tatoeba.eus	splits: val: 1000 rows
+dataset: xtreme,tatoeba.fin	splits: val: 1000 rows
+dataset: xtreme,tatoeba.fra	splits: val: 1000 rows
+dataset: xtreme,tatoeba.heb	splits: val: 1000 rows
+dataset: xtreme,tatoeba.hin	splits: val: 1000 rows
+dataset: xtreme,tatoeba.hun	splits: val: 1000 rows
+dataset: xtreme,tatoeba.ind	splits: val: 1000 rows
+dataset: xtreme,tatoeba.ita	splits: val: 1000 rows
+dataset: xtreme,tatoeba.jav	splits: val: 205 rows
+dataset: xtreme,tatoeba.jpn	splits: val: 1000 rows
+dataset: xtreme,tatoeba.kat	splits: val: 746 rows
+dataset: xtreme,tatoeba.kaz	splits: val: 575 rows
+dataset: xtreme,tatoeba.kor	splits: val: 1000 rows
+dataset: xtreme,tatoeba.mal	splits: val: 687 rows
+dataset: xtreme,tatoeba.mar	splits: val: 1000 rows
+dataset: xtreme,tatoeba.nld	splits: val: 1000 rows
+dataset: xtreme,tatoeba.pes	splits: val: 1000 rows
+dataset: xtreme,tatoeba.por	splits: val: 1000 rows
+dataset: xtreme,tatoeba.rus	splits: val: 1000 rows
+dataset: xtreme,tatoeba.spa	splits: val: 1000 rows
+dataset: xtreme,tatoeba.swh	splits: val: 390 rows
+dataset: xtreme,tatoeba.tam	splits: val: 307 rows
+dataset: xtreme,tatoeba.tel	splits: val: 234 rows
+dataset: xtreme,tatoeba.tgl	splits: val: 1000 rows
+dataset: xtreme,tatoeba.tha	splits: val: 548 rows
+dataset: xtreme,tatoeba.tur	splits: val: 1000 rows
+dataset: xtreme,tatoeba.urd	splits: val: 1000 rows
+dataset: xtreme,tatoeba.vie	splits: val: 1000 rows
+dataset: xtreme,udpos.Afrikaans	splits: test: 425 rows, train: 1315 rows, val: 194 rows
+dataset: xtreme,udpos.Afrikaans	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Arabic	splits: test: 1680 rows, train: 6075 rows, val: 909 rows
+dataset: xtreme,udpos.Arabic	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Basque	splits: test: 1799 rows, train: 5396 rows, val: 1798 rows
+dataset: xtreme,udpos.Basque	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Bulgarian	splits: test: 1116 rows, train: 8907 rows, val: 1115 rows
+dataset: xtreme,udpos.Bulgarian	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Dutch	splits: test: 1471 rows, train: 18051 rows, val: 1394 rows
+dataset: xtreme,udpos.Dutch	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.English	splits: test: 5440 rows, train: 21253 rows, val: 3974 rows
+dataset: xtreme,udpos.English	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Estonian	splits: test: 3760 rows, train: 25749 rows, val: 3125 rows
+dataset: xtreme,udpos.Estonian	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Finnish	splits: test: 4422 rows, train: 27198 rows, val: 3239 rows
+dataset: xtreme,udpos.Finnish	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.French	splits: test: 9465 rows, train: 47308 rows, val: 5979 rows
+dataset: xtreme,udpos.French	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.German	splits: test: 22458 rows, train: 166849 rows, val: 19233 rows
+dataset: xtreme,udpos.German	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Greek	splits: test: 2809 rows, train: 28152 rows, val: 2559 rows
+dataset: xtreme,udpos.Greek	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Hebrew	splits: test: 491 rows, train: 5241 rows, val: 484 rows
+dataset: xtreme,udpos.Hebrew	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Hindi	splits: test: 2684 rows, train: 13304 rows, val: 1659 rows
+dataset: xtreme,udpos.Hindi	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Hungarian	splits: test: 449 rows, train: 910 rows, val: 441 rows
+dataset: xtreme,udpos.Hungarian	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Indonesian	splits: test: 1557 rows, train: 4477 rows, val: 559 rows
+dataset: xtreme,udpos.Indonesian	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Italian	splits: test: 3518 rows, train: 29685 rows, val: 2278 rows
+dataset: xtreme,udpos.Italian	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Japanese	splits: test: 2372 rows, train: 7125 rows, val: 511 rows
+dataset: xtreme,udpos.Japanese	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Kazakh	splits: test: 1047 rows, train: 31 rows
+dataset: xtreme,udpos.Kazakh	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Korean	splits: test: 4276 rows, train: 27410 rows, val: 3016 rows
+dataset: xtreme,udpos.Korean	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Chinese	splits: test: 5528 rows, train: 18998 rows, val: 3038 rows
+dataset: xtreme,udpos.Chinese	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Marathi	splits: test: 47 rows, train: 373 rows, val: 46 rows
+dataset: xtreme,udpos.Marathi	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Persian	splits: test: 600 rows, train: 4798 rows, val: 599 rows
+dataset: xtreme,udpos.Persian	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Portuguese	splits: test: 2681 rows, train: 17992 rows, val: 1770 rows
+dataset: xtreme,udpos.Portuguese	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Russian	splits: test: 11336 rows, train: 67435 rows, val: 9960 rows
+dataset: xtreme,udpos.Russian	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Spanish	splits: test: 3147 rows, train: 28492 rows, val: 3054 rows
+dataset: xtreme,udpos.Spanish	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Tagalog	splits: test: 55 rows
+dataset: xtreme,udpos.Tamil	splits: test: 120 rows, train: 400 rows, val: 80 rows
+dataset: xtreme,udpos.Tamil	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Telugu	splits: test: 146 rows, train: 1051 rows, val: 131 rows
+dataset: xtreme,udpos.Telugu	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Thai	splits: test: 1000 rows
+dataset: xtreme,udpos.Turkish	splits: test: 4785 rows, train: 3664 rows, val: 988 rows
+dataset: xtreme,udpos.Turkish	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Urdu	splits: test: 535 rows, train: 4043 rows, val: 552 rows
+dataset: xtreme,udpos.Urdu	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Vietnamese	splits: test: 800 rows, train: 1400 rows, val: 800 rows
+dataset: xtreme,udpos.Vietnamese	split: train	columns: tokens, pos_tags
+dataset: xtreme,udpos.Yoruba	splits: test: 100 rows
+dataset: xtreme --> 10 models
+dataset: xtreme	model: sachaarbonel/bert-italian-cased-finetuned-pos	downloads: 826	likes: 1	task: token-classification
+dataset: xtreme	model: mrm8488/bert-base-german-dbmdz-cased-finetuned-pawsx-de	downloads: 266	likes: 0	task: text-classification
+dataset: xtreme	model: mrm8488/camembert-base-finetuned-pawsx-fr	downloads: 173	likes: 0	task: text-classification
+dataset: xtreme	model: mrm8488/RuPERTa-base-finetuned-pawsx-es	downloads: 144	likes: 0	task: text-classification
+dataset: xtreme	model: mrm8488/electricidad-base-finetuned-pawsx-es	downloads: 138	likes: 1	task: text-classification
+dataset: xtreme	model: sagorsarker/mbert-bengali-ner	downloads: 53	likes: 0	task: token-classification
+dataset: xtreme	model: neuropark/sahajBERT-NER	downloads: 50	likes: 2	task: token-classification
+dataset: xtreme	model: Sultannn/bert-base-ft-ner-xtreme-id	downloads: 47	likes: 1	task: token-classification
+dataset: xtreme	model: SaulLu/recreate-history	downloads: 18	likes: 0	task: token-classification
+dataset: xtreme	model: transformersbook/xlm-roberta-base-finetuned-panx-de	downloads: 8	likes: 0	task: token-classification
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

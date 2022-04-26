@@ -1,4 +1,4 @@
-hostname = asimov-167.svail.baidu.com
+hostname = asimov-132.svail.baidu.com
 dataset: xsum	dataset: xsum	downloads: 25350	likes: 5	PWC: https://paperswithcode.com/dataset/xsum
 dataset: xsum	splits: train: 204045 rows, test: 11334 rows, val: 11332 rows
 dataset: xsum	split: train	columns: document, summary, id
@@ -8,12 +8,12 @@ dataset: xsum	model: sshleifer/distilbart-cnn-6-6	downloads: 759916	likes: 8	tas
 dataset: xsum	model: sshleifer/distilbart-xsum-12-6	downloads: 18272	likes: 2	task: summarization
 dataset: xsum	model: bhuvaneswari/t5-small-text_summarization	downloads: 17221	likes: 0	task: text2text-generation
 dataset: xsum	model: aseda/t5-small-finetuned-xsum	downloads: 16970	likes: 0	task: text2text-generation
-dataset: xsum	model: human-centered-summarization/financial-summarization-pegasus	downloads: 9725	likes: 16	task: summarization
+dataset: xsum	model: human-centered-summarization/financial-summarization-pegasus	downloads: 9725	likes: 17	task: summarization
 dataset: xsum	model: bochaowei/t5-small-finetuned-xsum-wei1	downloads: 8159	likes: 0	task: text2text-generation
 dataset: xsum	model: sshleifer/distilbart-xsum-1-1	downloads: 7616	likes: 0	task: summarization
 dataset: xsum	model: pki/t5-small-finetuned_xsum	downloads: 5356	likes: 1	task: text2text-generation
 dataset: xsum	model: gniemiec/t5-small-finetuned-xsum	downloads: 4261	likes: 0	task: text2text-generation
-# found: 12994 matches; truncating to 10
+# found: 13024 matches; truncating to 10
 task: None --> 10 models
 task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
 task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None

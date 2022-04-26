@@ -1,6 +1,6 @@
 # found: 18 matches; truncating to 10
 task: object-detection --> 10 models
-task: object-detection	model: facebook/detr-resnet-50	downloads: 26271	likes: 31	task: object-detection
+task: object-detection	model: facebook/detr-resnet-50	downloads: 26271	likes: 32	task: object-detection
 task: object-detection	model: mishig/tiny-detr-mobilenetsv3	downloads: 1829	likes: 0	task: object-detection
 task: object-detection	model: facebook/detr-resnet-50-dc5	downloads: 1326	likes: 1	task: object-detection
 task: object-detection	model: facebook/detr-resnet-101-dc5	downloads: 972	likes: 2	task: object-detection

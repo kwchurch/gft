@@ -1,6 +1,6 @@
 # convention: _hf is from HuggingFace, and _pd is from PaddleHub
 
-
+import gft
 from paddlenlp import Taskflow
 
 # https://paddlenlp.readthedocs.io/en/stable/model_zoo/taskflow.html

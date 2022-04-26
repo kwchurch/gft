@@ -20,6 +20,7 @@
 
 # import pdb
 
+import gft
 from gft.gft_internals import parse_eqn
 from gft.gft_internals.gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename
 

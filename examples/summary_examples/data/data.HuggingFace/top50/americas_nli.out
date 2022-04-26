@@ -1,4 +1,4 @@
-hostname = asimov-149.svail.baidu.com
+hostname = asimov-138.svail.baidu.com
 dataset: americas_nli	dataset: americas_nli	downloads: 9666	likes: 0	
 dataset: americas_nli,aym	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,bzd	splits: test: 750 rows, val: 743 rows
@@ -11,11 +11,16 @@ dataset: americas_nli,quy	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,shp	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,tar	splits: test: 750 rows, val: 743 rows
 dataset: americas_nli,all_languages	splits: test: 7486 rows, val: 6457 rows
-***ERROR***
-model: None
-data: H:americas_nli
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f87c2c97700>)
+# dataset: americas_nli --> 0 models
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

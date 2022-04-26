@@ -1,2 +1,19 @@
-hostname = asimov-121.svail.baidu.com
+hostname = asimov-134.svail.baidu.com
 dataset: wiki_snippets	dataset: wiki_snippets	downloads: 852	likes: 0	
+dataset: wiki_snippets,wiki40b_en_100_0	splits: train: 17553713 rows
+dataset: wiki_snippets,wiki40b_en_100_0	split: train	columns: _id, datasets_id, wiki_id, start_paragraph, start_character, end_paragraph, end_character, article_title, section_title, passage_text
+dataset: wiki_snippets,wikipedia_en_100_0	splits: train: 30820408 rows
+dataset: wiki_snippets,wikipedia_en_100_0	split: train	columns: _id, datasets_id, wiki_id, start_paragraph, start_character, end_paragraph, end_character, article_title, section_title, passage_text
+# dataset: wiki_snippets --> 0 models
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

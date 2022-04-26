@@ -1,0 +1,266 @@
+model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	downloads: 5879	likes: 1	task: automatic-speech-recognition
+model: patrickvonplaten/wavlm-libri-clean-100h-base-plus	labels: LABEL_0, LABEL_1
+WavLMForCTC(
+  (wavlm): WavLMModel(
+    (feature_extractor): WavLMFeatureEncoder(
+      (conv_layers): ModuleList(
+        (0): WavLMGroupNormConvLayer(
+          (conv): Conv1d(1, 512, kernel_size=(10,), stride=(5,), bias=False)
+          (layer_norm): GroupNorm(512, 512, eps=1e-05, affine=True)
+        )
+        (1): WavLMNoLayerNormConvLayer(
+          (conv): Conv1d(512, 512, kernel_size=(3,), stride=(2,), bias=False)
+        )
+        (2): WavLMNoLayerNormConvLayer(
+          (conv): Conv1d(512, 512, kernel_size=(3,), stride=(2,), bias=False)
+        )
+        (3): WavLMNoLayerNormConvLayer(
+          (conv): Conv1d(512, 512, kernel_size=(3,), stride=(2,), bias=False)
+        )
+        (4): WavLMNoLayerNormConvLayer(
+          (conv): Conv1d(512, 512, kernel_size=(3,), stride=(2,), bias=False)
+        )
+        (5): WavLMNoLayerNormConvLayer(
+          (conv): Conv1d(512, 512, kernel_size=(2,), stride=(2,), bias=False)
+        )
+        (6): WavLMNoLayerNormConvLayer(
+          (conv): Conv1d(512, 512, kernel_size=(2,), stride=(2,), bias=False)
+        )
+      )
+    )
+    (feature_projection): WavLMFeatureProjection(
+      (layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+      (projection): Linear(in_features=512, out_features=768, bias=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+    )
+    (encoder): WavLMEncoder(
+      (pos_conv_embed): WavLMPositionalConvEmbedding(
+        (conv): Conv1d(768, 768, kernel_size=(128,), stride=(1,), padding=(64,), groups=16)
+        (padding): WavLMSamePadLayer()
+      )
+      (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.0, inplace=False)
+      (layers): ModuleList(
+        (0): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+            (rel_attn_embed): Embedding(320, 12)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (1): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (2): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (3): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (4): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (5): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (6): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (7): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (8): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (9): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (10): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+        (11): WavLMEncoderLayer(
+          (attention): WavLMAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=True)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+            (gru_rel_pos_linear): Linear(in_features=64, out_features=8, bias=True)
+          )
+          (dropout): Dropout(p=0.0, inplace=False)
+          (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (feed_forward): WavLMFeedForward(
+            (intermediate_dropout): Dropout(p=0.0, inplace=False)
+            (intermediate_dense): Linear(in_features=768, out_features=3072, bias=True)
+            (output_dense): Linear(in_features=3072, out_features=768, bias=True)
+            (output_dropout): Dropout(p=0.0, inplace=False)
+          )
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (dropout): Dropout(p=0.0, inplace=False)
+  (lm_head): Linear(in_features=768, out_features=31, bias=True)
+)

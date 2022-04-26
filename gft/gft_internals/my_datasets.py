@@ -2,6 +2,7 @@
 # HuggingFace: https://huggingface.co/datasets
 # PaddleHub: https://paddlenlp.readthedocs.io/zh/latest/data_prepare/dataset_list.html
 
+import gft
 import numpy as np
 import os,sys,pickle,time
 from gft.gft_internals.gft_util import get_arg,parse_dataset_specification,parse_model_specification

@@ -1,5 +1,33 @@
-hostname = asimov-32.svail.baidu.com
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/mrpc/ckpt/best	data: H:glue,mrpc	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f7c60e2c540>)
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/mrpc/ckpt/best	data: H:glue,mrpc	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fc3c5e867c0>)
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/mrpc/ckpt/best	data: H:glue,mrpc	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fe24e3a5700>)
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/mrpc/ckpt/best	data: H:glue,mrpc	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f3a862c1cc0>)
+hostname = asimov-91.svail.baidu.com
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+2.49 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/mrpc/ckpt/best	accuracy: 0.7205882352941176	f1: 0.8235294117647058
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+2.19 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/mrpc/ckpt/best	accuracy: 0.8406862745098039	f1: 0.8911222780569515
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+2.20 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/mrpc/ckpt/best	accuracy: 0.8308823529411765	f1: 0.8791593695271455
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+2.99 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/mrpc/ckpt/best	accuracy: 0.8455882352941176	f1: 0.893760539629005

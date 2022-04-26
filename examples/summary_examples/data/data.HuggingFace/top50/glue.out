@@ -1,4 +1,4 @@
-hostname = asimov-130.svail.baidu.com
+hostname = asimov-136.svail.baidu.com
 dataset: glue	dataset: glue	downloads: 1115869	likes: 33	PWC: https://paperswithcode.com/dataset/glue
 dataset: glue,cola	splits: train: 8551 rows, test: 1063 rows, val: 1043 rows
 dataset: glue,cola	split: train	columns: sentence, label, idx
@@ -28,3 +28,27 @@ dataset: glue,rte	labels: entailment, not_entailment
 dataset: glue,wnli	splits: train: 635 rows, test: 146 rows, val: 71 rows
 dataset: glue,wnli	split: train	columns: sentence1, sentence2, label, idx
 dataset: glue,wnli	labels: not_entailment, entailment
+dataset: glue,ax	splits: test: 1104 rows
+dataset: glue --> 10 models
+dataset: glue	model: Jiva/xlm-roberta-large-it-mnli	downloads: 5115	likes: 1	task: zero-shot-classification
+dataset: glue	model: Bhumika/roberta-base-finetuned-sst2	downloads: 1238	likes: 1	task: text-classification
+dataset: glue	model: philschmid/tiny-bert-sst2-distilled	downloads: 651	likes: 0	task: text-classification
+dataset: glue	model: mujeensung/roberta-base_mnli_bc	downloads: 522	likes: 0	task: text-classification
+dataset: glue	model: nielsr/coref-bert-base	downloads: 397	likes: 0	task: None
+dataset: glue	model: yy642/bert-base-uncased-finetuned-mnli-512-10	downloads: 331	likes: 0	task: text-classification
+dataset: glue	model: D3xter1922/electra-base-discriminator-finetuned-cola	downloads: 321	likes: 0	task: text-classification
+dataset: glue	model: gchhablani/bert-base-cased-finetuned-mnli	downloads: 312	likes: 1	task: text-classification
+dataset: glue	model: Alireza1044/albert-base-v2-sst2	downloads: 283	likes: 0	task: text-classification
+dataset: glue	model: winegarj/distilbert-base-uncased-finetuned-sst2	downloads: 247	likes: 0	task: text-classification
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

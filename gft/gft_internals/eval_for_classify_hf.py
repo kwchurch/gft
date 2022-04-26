@@ -5,6 +5,7 @@
 
 # import pdb
 
+import gft
 import sys,os,shutil,torch,time
 from torch.utils.data import DataLoader
 import numpy as np
@@ -94,7 +95,7 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
 
     print('tokenizer: ' + str(tokenizer), file=sys.stderr)
 
-    from gft_internals.gft_util import labels_from_model
+    from gft.gft_internals.gft_util import labels_from_model
     labs = labels_from_model(model)
 
     if not is_regression:

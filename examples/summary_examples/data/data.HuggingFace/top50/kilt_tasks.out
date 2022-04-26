@@ -1,4 +1,4 @@
-hostname = asimov-158.svail.baidu.com
+hostname = asimov-143.svail.baidu.com
 dataset: kilt_tasks	dataset: kilt_tasks	downloads: 13631	likes: 2	PWC: https://paperswithcode.com/dataset/kilt
 dataset: kilt_tasks,triviaqa_support_only	splits: train: 61844 rows, test: 6586 rows, val: 5359 rows
 dataset: kilt_tasks,triviaqa_support_only	split: train	columns: id, input, meta, output
@@ -20,11 +20,16 @@ dataset: kilt_tasks,eli5	splits: train: 272634 rows, test: 600 rows, val: 1507 r
 dataset: kilt_tasks,eli5	split: train	columns: id, input, meta, output
 dataset: kilt_tasks,wow	splits: train: 63734 rows, test: 2944 rows, val: 3054 rows
 dataset: kilt_tasks,wow	split: train	columns: id, input, meta, output
-***ERROR***
-model: None
-data: H:kilt_tasks
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f8cbef0b3c0>)
+# dataset: kilt_tasks --> 0 models
+# found: 13023 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

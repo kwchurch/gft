@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import gft
 import sys
 from gft.gft_internals import my_auto_model_pd
 from gft.gft_internals.gft_util import parse_model_specification,parse_dataset_specification, get_arg

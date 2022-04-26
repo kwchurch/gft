@@ -1,12 +1,27 @@
-hostname = asimov-168.svail.baidu.com
+hostname = asimov-145.svail.baidu.com
 dataset: conll2003	dataset: conll2003	downloads: 20124	likes: 13	PWC: https://paperswithcode.com/dataset/conll-2003
 dataset: conll2003,conll2003	splits: train: 14042 rows, test: 3454 rows, val: 3251 rows
 dataset: conll2003,conll2003	split: train	columns: id, tokens, pos_tags, chunk_tags, ner_tags
-***ERROR***
-model: None
-data: H:conll2003
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fa3068ae300>)
+dataset: conll2003 --> 10 models
+dataset: conll2003	model: Jean-Baptiste/roberta-large-ner-english	downloads: 440906	likes: 2	task: token-classification
+dataset: conll2003	model: dslim/bert-base-NER	downloads: 270770	likes: 44	task: token-classification
+dataset: conll2003	model: flair/ner-english-large	downloads: 85357	likes: 7	task: token-classification
+dataset: conll2003	model: flair/ner-english-fast	downloads: 57537	likes: 3	task: token-classification
+dataset: conll2003	model: flair/ner-german-large	downloads: 49787	likes: 4	task: token-classification
+dataset: conll2003	model: flair/ner-english	downloads: 32524	likes: 4	task: token-classification
+dataset: conll2003	model: elastic/distilbert-base-uncased-finetuned-conll03-english	downloads: 10135	likes: 4	task: token-classification
+dataset: conll2003	model: flair/ner-spanish-large	downloads: 9650	likes: 1	task: token-classification
+dataset: conll2003	model: flair/ner-german	downloads: 7100	likes: 1	task: token-classification
+dataset: conll2003	model: flair/ner-french	downloads: 5188	likes: 1	task: token-classification
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

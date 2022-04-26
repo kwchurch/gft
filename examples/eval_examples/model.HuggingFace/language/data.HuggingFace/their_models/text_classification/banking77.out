@@ -1,5 +1,65 @@
-hostname = asimov-92.svail.baidu.com
-***ERROR***	model: H:philschmid/BERT-Banking77	data: H:banking77	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7ff9540c7100>)
-***ERROR***	model: H:mrm8488/distilroberta-finetuned-banking77	data: H:banking77	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fb518011c40>)
-***ERROR***	model: H:philschmid/DistilBERT-Banking77	data: H:banking77	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f930406a840>)
-***ERROR***	model: H:philschmid/RoBERTa-Banking77	data: H:banking77	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fe83c12bfc0>)
+hostname = asimov-27.svail.baidu.com
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+8.58 seconds	philschmid/BERT-Banking77	accuracy: 0.02564935064935065	f1: 0.025809633404570112
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+4.96 seconds	mrm8488/distilroberta-finetuned-banking77	accuracy: 0.8961038961038961	f1: 0.8914871607409227
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+5.01 seconds	philschmid/DistilBERT-Banking77	accuracy: 0.026298701298701297	f1: 0.02647662073822411
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+4.96 seconds	philschmid/RoBERTa-Banking77	accuracy: 0.026298701298701297	f1: 0.026443240463879983

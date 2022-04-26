@@ -1,6 +1,37 @@
-hostname = asimov-168.svail.baidu.com
+hostname = asimov-144.svail.baidu.com
 dataset: wmt16	dataset: wmt16	downloads: 52417	likes: 2	PWC: https://paperswithcode.com/dataset/wmt-2016
 dataset: wmt16,cs-en	splits: train: 997240 rows, test: 2999 rows, val: 2656 rows
 dataset: wmt16,cs-en	split: train	columns: translation
 dataset: wmt16,de-en	splits: train: 4548885 rows, test: 2999 rows, val: 2169 rows
 dataset: wmt16,de-en	split: train	columns: translation
+dataset: wmt16,fi-en	splits: train: 2073394 rows, test: 6000 rows, val: 1370 rows
+dataset: wmt16,fi-en	split: train	columns: translation
+dataset: wmt16,ro-en	splits: train: 610320 rows, test: 1999 rows, val: 1999 rows
+dataset: wmt16,ro-en	split: train	columns: translation
+dataset: wmt16,ru-en	splits: train: 1516162 rows, test: 2998 rows, val: 2818 rows
+dataset: wmt16,ru-en	split: train	columns: translation
+dataset: wmt16,tr-en	splits: train: 205756 rows, test: 3000 rows, val: 1001 rows
+dataset: wmt16,tr-en	split: train	columns: translation
+dataset: wmt16 --> 10 models
+dataset: wmt16	model: allenai/wmt16-en-de-dist-12-1	downloads: 86	likes: 0	task: translation
+dataset: wmt16	model: allenai/wmt16-en-de-12-1	downloads: 74	likes: 0	task: translation
+dataset: wmt16	model: allenai/wmt16-en-de-dist-6-1	downloads: 43	likes: 1	task: translation
+dataset: wmt16	model: wandemberg-eld/opus-mt-en-de-finetuned-en-to-de	downloads: 20	likes: 0	task: text2text-generation
+dataset: wmt16	model: wandemberg-eld/opus-mt-en-de-finetuned-en-to-de-model-2	downloads: 11	likes: 0	task: text2text-generation
+dataset: wmt16	model: mikeadimech/punctuation-test-4	downloads: 9	likes: 0	task: text2text-generation
+dataset: wmt16	model: MaryaAI/opus-mt-en-ro-finetuned-en-to-ro	downloads: 7	likes: 0	task: text2text-generation
+dataset: wmt16	model: marciovbarbosa/t5-small-finetuned-de-to-en-lr1e-4	downloads: 7	likes: 0	task: text2text-generation
+dataset: wmt16	model: marciovbarbosa/t5-small-finetuned-de-to-en-fp16	downloads: 6	likes: 0	task: text2text-generation
+dataset: wmt16	model: marciovbarbosa/t5-small-finetuned-de-to-en-swd	downloads: 6	likes: 0	task: text2text-generation
+# found: 13023 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

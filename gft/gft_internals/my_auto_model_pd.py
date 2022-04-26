@@ -2,7 +2,7 @@
 # adapters are really powerful, but unfortunately, they are a bit tricky to use with automodels
 
 # assert False, 'need to finish work on my_auto_model_pd'
-
+import gft
 import sys,os
 
 # AutoModelForCausalLM

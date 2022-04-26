@@ -20,7 +20,7 @@ Fine-tuning a 🤗 Transformers model on span tasks (SQuAD) relying on the accel
 # based on https://github.com/huggingface/transformers/blob/master/examples/pytorch/question-answering/run_qa_no_trainer.py
 
 # import pdb
-
+import gft
 import sys,os,shutil
 import seqeval,time,sys
 import numpy as np

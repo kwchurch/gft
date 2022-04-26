@@ -1,0 +1,598 @@
+model: Narsil/deberta-large-mnli-zero-cls	model: Narsil/deberta-large-mnli-zero-cls	downloads: 64477	likes: 3	task: zero-shot-classification
+model: Narsil/deberta-large-mnli-zero-cls	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+DebertaForSequenceClassification(
+  (deberta): DebertaModel(
+    (embeddings): DebertaEmbeddings(
+      (word_embeddings): Embedding(50265, 1024, padding_idx=0)
+      (LayerNorm): DebertaLayerNorm()
+      (dropout): StableDropout()
+    )
+    (encoder): DebertaEncoder(
+      (layer): ModuleList(
+        (0): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (1): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (2): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (3): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (4): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (5): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (6): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (7): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (8): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (9): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (10): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (11): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (12): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (13): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (14): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (15): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (16): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (17): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (18): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (19): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (20): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (21): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (22): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+        (23): DebertaLayer(
+          (attention): DebertaAttention(
+            (self): DisentangledSelfAttention(
+              (in_proj): Linear(in_features=1024, out_features=3072, bias=False)
+              (pos_dropout): StableDropout()
+              (pos_proj): Linear(in_features=1024, out_features=1024, bias=False)
+              (pos_q_proj): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): StableDropout()
+            )
+            (output): DebertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): DebertaLayerNorm()
+              (dropout): StableDropout()
+            )
+          )
+          (intermediate): DebertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): DebertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): DebertaLayerNorm()
+            (dropout): StableDropout()
+          )
+        )
+      )
+      (rel_embeddings): Embedding(1024, 1024)
+    )
+  )
+  (pooler): ContextPooler(
+    (dense): Linear(in_features=1024, out_features=1024, bias=True)
+    (dropout): StableDropout()
+  )
+  (classifier): Linear(in_features=1024, out_features=3, bias=True)
+  (dropout): StableDropout()
+)

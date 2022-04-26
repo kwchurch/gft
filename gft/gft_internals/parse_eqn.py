@@ -15,6 +15,7 @@
 # https://huggingface.co/transformers/model_doc/bert.html
 # see eqn_types, for lists of what can appear before :
 
+import gft
 
 # eqn_type should be one of the following:
 eqn_types_list = [['c', 'classify', 'text-classification', 'sentiment_analysis', 'sentiment-analysis'],  # c is syntactic sugar for classify

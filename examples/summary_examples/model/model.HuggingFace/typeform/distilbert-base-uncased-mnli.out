@@ -1,0 +1,115 @@
+model: typeform/distilbert-base-uncased-mnli	model: typeform/distilbert-base-uncased-mnli	downloads: 129877	likes: 10	task: zero-shot-classification
+model: typeform/distilbert-base-uncased-mnli	labels: ENTAILMENT, NEUTRAL, CONTRADICTION
+DistilBertForSequenceClassification(
+  (distilbert): DistilBertModel(
+    (embeddings): Embeddings(
+      (word_embeddings): Embedding(30522, 768, padding_idx=0)
+      (position_embeddings): Embedding(512, 768)
+      (LayerNorm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (transformer): Transformer(
+      (layer): ModuleList(
+        (0): TransformerBlock(
+          (attention): MultiHeadSelfAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (q_lin): Linear(in_features=768, out_features=768, bias=True)
+            (k_lin): Linear(in_features=768, out_features=768, bias=True)
+            (v_lin): Linear(in_features=768, out_features=768, bias=True)
+            (out_lin): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (ffn): FFN(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (lin1): Linear(in_features=768, out_features=3072, bias=True)
+            (lin2): Linear(in_features=3072, out_features=768, bias=True)
+          )
+          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        )
+        (1): TransformerBlock(
+          (attention): MultiHeadSelfAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (q_lin): Linear(in_features=768, out_features=768, bias=True)
+            (k_lin): Linear(in_features=768, out_features=768, bias=True)
+            (v_lin): Linear(in_features=768, out_features=768, bias=True)
+            (out_lin): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (ffn): FFN(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (lin1): Linear(in_features=768, out_features=3072, bias=True)
+            (lin2): Linear(in_features=3072, out_features=768, bias=True)
+          )
+          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        )
+        (2): TransformerBlock(
+          (attention): MultiHeadSelfAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (q_lin): Linear(in_features=768, out_features=768, bias=True)
+            (k_lin): Linear(in_features=768, out_features=768, bias=True)
+            (v_lin): Linear(in_features=768, out_features=768, bias=True)
+            (out_lin): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (ffn): FFN(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (lin1): Linear(in_features=768, out_features=3072, bias=True)
+            (lin2): Linear(in_features=3072, out_features=768, bias=True)
+          )
+          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        )
+        (3): TransformerBlock(
+          (attention): MultiHeadSelfAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (q_lin): Linear(in_features=768, out_features=768, bias=True)
+            (k_lin): Linear(in_features=768, out_features=768, bias=True)
+            (v_lin): Linear(in_features=768, out_features=768, bias=True)
+            (out_lin): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (ffn): FFN(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (lin1): Linear(in_features=768, out_features=3072, bias=True)
+            (lin2): Linear(in_features=3072, out_features=768, bias=True)
+          )
+          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        )
+        (4): TransformerBlock(
+          (attention): MultiHeadSelfAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (q_lin): Linear(in_features=768, out_features=768, bias=True)
+            (k_lin): Linear(in_features=768, out_features=768, bias=True)
+            (v_lin): Linear(in_features=768, out_features=768, bias=True)
+            (out_lin): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (ffn): FFN(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (lin1): Linear(in_features=768, out_features=3072, bias=True)
+            (lin2): Linear(in_features=3072, out_features=768, bias=True)
+          )
+          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        )
+        (5): TransformerBlock(
+          (attention): MultiHeadSelfAttention(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (q_lin): Linear(in_features=768, out_features=768, bias=True)
+            (k_lin): Linear(in_features=768, out_features=768, bias=True)
+            (v_lin): Linear(in_features=768, out_features=768, bias=True)
+            (out_lin): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (sa_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+          (ffn): FFN(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (lin1): Linear(in_features=768, out_features=3072, bias=True)
+            (lin2): Linear(in_features=3072, out_features=768, bias=True)
+          )
+          (output_layer_norm): LayerNorm((768,), eps=1e-12, elementwise_affine=True)
+        )
+      )
+    )
+  )
+  (pre_classifier): Linear(in_features=768, out_features=768, bias=True)
+  (classifier): Linear(in_features=768, out_features=3, bias=True)
+  (dropout): Dropout(p=0.2, inplace=False)
+)

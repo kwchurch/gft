@@ -1,7 +1,7 @@
-# found: 4409 matches; truncating to 10
+# found: 4417 matches; truncating to 10
 task: text-generation --> 10 models
 task: text-generation	model: distilgpt2	downloads: 29130856	likes: 45	task: text-generation
-task: text-generation	model: gpt2	downloads: 17488269	likes: 79	task: text-generation
+task: text-generation	model: gpt2	downloads: 17488269	likes: 80	task: text-generation
 task: text-generation	model: xlnet-base-cased	downloads: 479519	likes: 3	task: text-generation
 task: text-generation	model: aliosm/ComVE-distilgpt2	downloads: 470779	likes: 0	task: text-generation
 task: text-generation	model: remotejob/tweetsDISTILGPT2fi_v4	downloads: 300555	likes: 0	task: text-generation

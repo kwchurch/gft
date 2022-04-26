@@ -1,4 +1,4 @@
-hostname = asimov-145.svail.baidu.com
+hostname = asimov-125.svail.baidu.com
 flowers		splits: train|val
 esc50		splits: train|val
 advertisegen		splits: train|dev

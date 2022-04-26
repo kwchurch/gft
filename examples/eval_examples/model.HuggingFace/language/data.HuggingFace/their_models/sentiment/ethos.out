@@ -1,2 +1,3 @@
-hostname = asimov-28.svail.baidu.com
-***ERROR***	model: H:SetFit/distilbert-base-uncased__ethos_binary__all-train	data: H:ethos,binary	eqn: classify: label ~ text	splits: train	split: train	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f2c67c8afc0>)
+hostname = asimov-86.svail.baidu.com
+Ignored unknown kwarg option direction
+3.52 seconds	SetFit/distilbert-base-uncased__ethos_binary__all-train	accuracy: 0.8276553106212425	f1: 0.8228721669824208

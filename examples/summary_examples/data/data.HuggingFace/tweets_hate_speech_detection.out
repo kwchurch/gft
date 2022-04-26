@@ -1,13 +1,20 @@
-hostname = asimov-145.svail.baidu.com
+hostname = asimov-144.svail.baidu.com
 dataset: tweets_hate_speech_detection	dataset: tweets_hate_speech_detection	downloads: 497	likes: 6	
 dataset: tweets_hate_speech_detection	splits: train: 31962 rows
 dataset: tweets_hate_speech_detection	split: train	columns: label, tweet
 dataset: tweets_hate_speech_detection	labels: no-hate-speech, hate-speech
-***ERROR***
-model: None
-data: H:tweets_hate_speech_detection
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7facd178aec0>)
+dataset: tweets_hate_speech_detection --> 2 models
+dataset: tweets_hate_speech_detection	model: Narrativa/byt5-base-tweet-hate-detection	downloads: 18014	likes: 4	task: text2text-generation
+dataset: tweets_hate_speech_detection	model: mrm8488/distilroberta-finetuned-tweets-hate-speech	downloads: 2253	likes: 3	task: text-classification
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

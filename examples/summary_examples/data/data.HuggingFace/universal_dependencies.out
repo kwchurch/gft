@@ -1,4 +1,4 @@
-hostname = asimov-167.svail.baidu.com
+hostname = asimov-132.svail.baidu.com
 dataset: universal_dependencies	dataset: universal_dependencies	downloads: 7339	likes: 3	PWC: https://paperswithcode.com/dataset/universal-dependencies
 dataset: universal_dependencies,af_afribooms	splits: train: 1315 rows, test: 425 rows, val: 194 rows
 dataset: universal_dependencies,af_afribooms	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
@@ -107,3 +107,220 @@ dataset: universal_dependencies,gl_ctg	splits: train: 2272 rows, test: 861 rows,
 dataset: universal_dependencies,gl_ctg	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
 dataset: universal_dependencies,gl_treegal	splits: train: 600 rows, test: 400 rows
 dataset: universal_dependencies,gl_treegal	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,de_gsd	splits: train: 13814 rows, test: 977 rows, val: 799 rows
+dataset: universal_dependencies,de_gsd	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,de_hdt	splits: train: 153035 rows, test: 18459 rows, val: 18434 rows
+dataset: universal_dependencies,de_hdt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,de_lit	splits: test: 1922 rows
+dataset: universal_dependencies,de_pud	splits: test: 1000 rows
+dataset: universal_dependencies,got_proiel	splits: train: 3387 rows, test: 1029 rows, val: 985 rows
+dataset: universal_dependencies,got_proiel	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,el_gdt	splits: train: 1662 rows, test: 456 rows, val: 403 rows
+dataset: universal_dependencies,el_gdt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,he_htb	splits: train: 5241 rows, test: 491 rows, val: 484 rows
+dataset: universal_dependencies,he_htb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,qhe_hiencs	splits: train: 1448 rows, test: 225 rows, val: 225 rows
+dataset: universal_dependencies,qhe_hiencs	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,hi_hdtb	splits: train: 13304 rows, test: 1684 rows, val: 1659 rows
+dataset: universal_dependencies,hi_hdtb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,hi_pud	splits: test: 1000 rows
+dataset: universal_dependencies,hu_szeged	splits: train: 910 rows, test: 449 rows, val: 441 rows
+dataset: universal_dependencies,hu_szeged	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,is_icepahc	splits: train: 34007 rows, test: 5157 rows, val: 4865 rows
+dataset: universal_dependencies,is_icepahc	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,is_pud	splits: test: 1000 rows
+dataset: universal_dependencies,id_csui	splits: train: 656 rows, test: 374 rows
+dataset: universal_dependencies,id_csui	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,id_gsd	splits: train: 4477 rows, test: 557 rows, val: 559 rows
+dataset: universal_dependencies,id_gsd	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,id_pud	splits: test: 1000 rows
+dataset: universal_dependencies,ga_idt	splits: train: 4005 rows, test: 454 rows, val: 451 rows
+dataset: universal_dependencies,ga_idt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,it_isdt	splits: train: 13121 rows, test: 482 rows, val: 564 rows
+dataset: universal_dependencies,it_isdt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,it_partut	splits: train: 1781 rows, test: 153 rows, val: 156 rows
+dataset: universal_dependencies,it_partut	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,it_postwita	splits: train: 5368 rows, test: 674 rows, val: 671 rows
+dataset: universal_dependencies,it_postwita	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,it_pud	splits: test: 1000 rows
+dataset: universal_dependencies,it_twittiro	splits: train: 1138 rows, test: 142 rows, val: 144 rows
+dataset: universal_dependencies,it_twittiro	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,it_vit	splits: train: 8277 rows, test: 1067 rows, val: 743 rows
+dataset: universal_dependencies,it_vit	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ja_bccwj	splits: train: 40740 rows, test: 7871 rows, val: 8417 rows
+dataset: universal_dependencies,ja_bccwj	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ja_gsd	splits: train: 7027 rows, test: 543 rows, val: 501 rows
+dataset: universal_dependencies,ja_gsd	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ja_modern	splits: test: 822 rows
+dataset: universal_dependencies,ja_pud	splits: test: 1000 rows
+dataset: universal_dependencies,krl_kkpp	splits: test: 228 rows
+dataset: universal_dependencies,kk_ktb	splits: train: 31 rows, test: 1047 rows
+dataset: universal_dependencies,kk_ktb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,kfm_aha	splits: test: 10 rows
+dataset: universal_dependencies,koi_uh	splits: test: 81 rows
+dataset: universal_dependencies,kpv_ikdp	splits: test: 132 rows
+dataset: universal_dependencies,kpv_lattice	splits: test: 435 rows
+dataset: universal_dependencies,ko_gsd	splits: train: 4400 rows, test: 989 rows, val: 950 rows
+dataset: universal_dependencies,ko_gsd	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ko_kaist	splits: train: 23010 rows, test: 2287 rows, val: 2066 rows
+dataset: universal_dependencies,ko_kaist	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ko_pud	splits: test: 1000 rows
+dataset: universal_dependencies,kmr_mg	splits: train: 20 rows, test: 734 rows
+dataset: universal_dependencies,kmr_mg	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,la_ittb	splits: train: 22775 rows, test: 2101 rows, val: 2101 rows
+dataset: universal_dependencies,la_ittb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,la_llct	splits: train: 7289 rows, test: 884 rows, val: 850 rows
+dataset: universal_dependencies,la_llct	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,la_perseus	splits: train: 1334 rows, test: 939 rows
+dataset: universal_dependencies,la_perseus	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,la_proiel	splits: train: 15917 rows, test: 1260 rows, val: 1234 rows
+dataset: universal_dependencies,la_proiel	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,lv_lvtb	splits: train: 10156 rows, test: 1823 rows, val: 1664 rows
+dataset: universal_dependencies,lv_lvtb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,lt_alksnis	splits: train: 2341 rows, test: 684 rows, val: 617 rows
+dataset: universal_dependencies,lt_alksnis	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,lt_hse	splits: train: 153 rows, test: 153 rows, val: 153 rows
+dataset: universal_dependencies,lt_hse	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,olo_kkpp	splits: train: 19 rows, test: 106 rows
+dataset: universal_dependencies,olo_kkpp	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,mt_mudt	splits: train: 1123 rows, test: 518 rows, val: 433 rows
+dataset: universal_dependencies,mt_mudt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,gv_cadhan	splits: test: 291 rows
+dataset: universal_dependencies,mr_ufal	splits: train: 373 rows, test: 47 rows, val: 46 rows
+dataset: universal_dependencies,mr_ufal	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,gun_dooley	splits: test: 1046 rows
+dataset: universal_dependencies,gun_thomas	splits: test: 98 rows
+dataset: universal_dependencies,mdf_jr	splits: test: 167 rows
+dataset: universal_dependencies,myu_tudet	splits: test: 62 rows
+dataset: universal_dependencies,pcm_nsc	splits: train: 7279 rows, test: 972 rows, val: 991 rows
+dataset: universal_dependencies,pcm_nsc	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,nyq_aha	splits: test: 10 rows
+dataset: universal_dependencies,sme_giella	splits: train: 2257 rows, test: 865 rows
+dataset: universal_dependencies,sme_giella	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,no_bokmaal	splits: train: 15696 rows, test: 1939 rows, val: 2409 rows
+dataset: universal_dependencies,no_bokmaal	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,no_nynorsk	splits: train: 14174 rows, test: 1511 rows, val: 1890 rows
+dataset: universal_dependencies,no_nynorsk	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,no_nynorsklia	splits: train: 3412 rows, test: 957 rows, val: 881 rows
+dataset: universal_dependencies,no_nynorsklia	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,cu_proiel	splits: train: 4124 rows, test: 1141 rows, val: 1073 rows
+dataset: universal_dependencies,cu_proiel	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,fro_srcmf	splits: train: 13909 rows, test: 1927 rows, val: 1842 rows
+dataset: universal_dependencies,fro_srcmf	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,orv_rnc	splits: train: 320 rows, test: 637 rows
+dataset: universal_dependencies,orv_rnc	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,orv_torot	splits: train: 13336 rows, test: 1756 rows, val: 1852 rows
+dataset: universal_dependencies,orv_torot	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,otk_tonqq	splits: test: 18 rows
+dataset: universal_dependencies,fa_perdt	splits: train: 26196 rows, test: 1455 rows, val: 1456 rows
+dataset: universal_dependencies,fa_perdt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,fa_seraji	splits: train: 4798 rows, test: 600 rows, val: 599 rows
+dataset: universal_dependencies,fa_seraji	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,pl_lfg	splits: train: 13774 rows, test: 1727 rows, val: 1745 rows
+dataset: universal_dependencies,pl_lfg	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,pl_pdb	splits: train: 17722 rows, test: 2215 rows, val: 2215 rows
+dataset: universal_dependencies,pl_pdb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,pl_pud	splits: test: 1000 rows
+dataset: universal_dependencies,pt_bosque	splits: train: 8328 rows, test: 476 rows, val: 560 rows
+dataset: universal_dependencies,pt_bosque	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,pt_gsd	splits: train: 9664 rows, test: 1204 rows, val: 1210 rows
+dataset: universal_dependencies,pt_gsd	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,pt_pud	splits: test: 1000 rows
+dataset: universal_dependencies,ro_nonstandard	splits: train: 24121 rows, test: 1052 rows, val: 1052 rows
+dataset: universal_dependencies,ro_nonstandard	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ro_rrt	splits: train: 8043 rows, test: 729 rows, val: 752 rows
+dataset: universal_dependencies,ro_rrt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ro_simonero	splits: train: 3747 rows, test: 491 rows, val: 443 rows
+dataset: universal_dependencies,ro_simonero	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ru_gsd	splits: train: 3850 rows, test: 601 rows, val: 579 rows
+dataset: universal_dependencies,ru_gsd	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ru_pud	splits: test: 1000 rows
+dataset: universal_dependencies,ru_syntagrus	splits: train: 48814 rows, test: 6491 rows, val: 6584 rows
+dataset: universal_dependencies,ru_syntagrus	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ru_taiga	splits: train: 3138 rows, test: 881 rows, val: 945 rows
+dataset: universal_dependencies,ru_taiga	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,sa_ufal	splits: test: 230 rows
+dataset: universal_dependencies,sa_vedic	splits: train: 2524 rows, test: 1473 rows
+dataset: universal_dependencies,sa_vedic	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,gd_arcosg	splits: train: 1990 rows, test: 538 rows, val: 645 rows
+dataset: universal_dependencies,gd_arcosg	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,sr_set	splits: train: 3328 rows, test: 520 rows, val: 536 rows
+dataset: universal_dependencies,sr_set	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,sms_giellagas	splits: test: 104 rows
+dataset: universal_dependencies,sk_snk	splits: train: 8483 rows, test: 1061 rows, val: 1060 rows
+dataset: universal_dependencies,sk_snk	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,sl_ssj	splits: train: 6478 rows, test: 788 rows, val: 734 rows
+dataset: universal_dependencies,sl_ssj	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,sl_sst	splits: train: 2078 rows, test: 1110 rows
+dataset: universal_dependencies,sl_sst	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,soj_aha	splits: test: 8 rows
+dataset: universal_dependencies,ajp_madar	splits: test: 100 rows
+dataset: universal_dependencies,es_ancora	splits: train: 14305 rows, test: 1721 rows, val: 1654 rows
+dataset: universal_dependencies,es_ancora	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,es_gsd	splits: train: 14187 rows, test: 426 rows, val: 1400 rows
+dataset: universal_dependencies,es_gsd	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,es_pud	splits: test: 1000 rows
+dataset: universal_dependencies,swl_sslc	splits: train: 87 rows, test: 34 rows, val: 82 rows
+dataset: universal_dependencies,swl_sslc	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,sv_lines	splits: train: 3176 rows, test: 1035 rows, val: 1032 rows
+dataset: universal_dependencies,sv_lines	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,sv_pud	splits: test: 1000 rows
+dataset: universal_dependencies,sv_talbanken	splits: train: 4303 rows, test: 1219 rows, val: 504 rows
+dataset: universal_dependencies,sv_talbanken	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,gsw_uzh	splits: test: 100 rows
+dataset: universal_dependencies,tl_trg	splits: test: 128 rows
+dataset: universal_dependencies,tl_ugnayan	splits: test: 94 rows
+dataset: universal_dependencies,ta_mwtt	splits: test: 534 rows
+dataset: universal_dependencies,ta_ttb	splits: train: 400 rows, test: 120 rows, val: 80 rows
+dataset: universal_dependencies,ta_ttb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,te_mtg	splits: train: 1051 rows, test: 146 rows, val: 131 rows
+dataset: universal_dependencies,te_mtg	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,th_pud	splits: test: 1000 rows
+dataset: universal_dependencies,tpn_tudet	splits: test: 8 rows
+dataset: universal_dependencies,qtd_sagt	splits: train: 285 rows, test: 805 rows, val: 801 rows
+dataset: universal_dependencies,qtd_sagt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,tr_boun	splits: train: 7803 rows, test: 979 rows, val: 979 rows
+dataset: universal_dependencies,tr_boun	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,tr_gb	splits: test: 2880 rows
+dataset: universal_dependencies,tr_imst	splits: train: 3664 rows, test: 983 rows, val: 988 rows
+dataset: universal_dependencies,tr_imst	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,tr_pud	splits: test: 1000 rows
+dataset: universal_dependencies,uk_iu	splits: train: 5496 rows, test: 892 rows, val: 672 rows
+dataset: universal_dependencies,uk_iu	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,hsb_ufal	splits: train: 23 rows, test: 623 rows
+dataset: universal_dependencies,hsb_ufal	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ur_udtb	splits: train: 4043 rows, test: 535 rows, val: 552 rows
+dataset: universal_dependencies,ur_udtb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,ug_udt	splits: train: 1656 rows, test: 900 rows, val: 900 rows
+dataset: universal_dependencies,ug_udt	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,vi_vtb	splits: train: 1400 rows, test: 800 rows, val: 800 rows
+dataset: universal_dependencies,vi_vtb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,wbp_ufal	splits: test: 55 rows
+dataset: universal_dependencies,cy_ccg	splits: train: 704 rows, test: 953 rows
+dataset: universal_dependencies,cy_ccg	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,wo_wtb	splits: train: 1188 rows, test: 470 rows, val: 449 rows
+dataset: universal_dependencies,wo_wtb	split: train	columns: idx, text, tokens, lemmas, upos, xpos, feats, head, deprel, deps, misc
+dataset: universal_dependencies,yo_ytb	splits: test: 318 rows
+dataset: universal_dependencies --> 10 models
+dataset: universal_dependencies	model: wietsedv/xlm-roberta-base-ft-udpos28-tr	downloads: 17379	likes: 0	task: token-classification
+dataset: universal_dependencies	model: KoichiYasuoka/roberta-large-english-upos	downloads: 1234	likes: 0	task: token-classification
+dataset: universal_dependencies	model: KoichiYasuoka/bert-base-japanese-upos	downloads: 267	likes: 1	task: token-classification
+dataset: universal_dependencies	model: KoichiYasuoka/bert-base-russian-upos	downloads: 128	likes: 0	task: token-classification
+dataset: universal_dependencies	model: KoichiYasuoka/roberta-classical-chinese-large-upos	downloads: 114	likes: 0	task: token-classification
+dataset: universal_dependencies	model: AdapterHub/bert-base-uncased-pf-ud_en_ewt	downloads: 109	likes: 0	task: None
+dataset: universal_dependencies	model: KoichiYasuoka/roberta-base-english-upos	downloads: 104	likes: 0	task: token-classification
+dataset: universal_dependencies	model: KoichiYasuoka/chinese-roberta-large-upos	downloads: 95	likes: 0	task: token-classification
+dataset: universal_dependencies	model: wietsedv/xlm-roberta-base-ft-udpos28-en	downloads: 82	likes: 0	task: token-classification
+dataset: universal_dependencies	model: KoichiYasuoka/roberta-base-thai-char-upos	downloads: 81	likes: 0	task: token-classification
+# found: 13023 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

@@ -1,3 +1,4 @@
+import gft
 import sys
 from gft.gft_internals.gft_util import parse_task_specification,parse_model_specification,get_arg
 

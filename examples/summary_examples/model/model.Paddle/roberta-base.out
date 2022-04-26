@@ -1,0 +1,10 @@
+We use pattern recognition to recognize the Tokenizer class.
+We use pattern recognition to recognize the Tokenizer class.
+***ERROR***
+model: P:roberta-base
+data: None
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'AssertionError'>, AssertionError('[UNK] is not in token_to_idx'), <traceback object at 0x7efb7a2ad840>)

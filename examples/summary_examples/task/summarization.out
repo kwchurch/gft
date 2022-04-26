@@ -1,6 +1,6 @@
-# found: 378 matches; truncating to 10
+# found: 379 matches; truncating to 10
 task: summarization --> 10 models
-task: summarization	model: google/pegasus-xsum	downloads: 1332137	likes: 28	task: summarization
+task: summarization	model: google/pegasus-xsum	downloads: 1332137	likes: 29	task: summarization
 task: summarization	model: sshleifer/distilbart-cnn-12-6	downloads: 862763	likes: 33	task: summarization
 task: summarization	model: sshleifer/distilbart-cnn-6-6	downloads: 759916	likes: 8	task: summarization
 task: summarization	model: facebook/bart-large-cnn	downloads: 483267	likes: 38	task: summarization

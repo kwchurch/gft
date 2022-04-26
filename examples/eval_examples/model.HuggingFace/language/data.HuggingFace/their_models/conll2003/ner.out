@@ -1,4 +1,4 @@
-hostname = asimov-28.svail.baidu.com
+hostname = asimov-86.svail.baidu.com
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -22,12 +22,12 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
-29 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
-28.86 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
-57 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
-57.27 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
-94 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
-94.31 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
+26 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+26.35 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
+53 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+53.07 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
+81 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+80.54 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -51,12 +51,12 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
-8 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
-8.22 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
-18 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
-17.60 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
-26 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
-26.04 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
+4 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+3.53 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
+7 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+7.26 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
+11 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+10.81 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -80,12 +80,12 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
-8 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
-8.45 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
-16 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
-16.32 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
-24 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
-24.23 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
+7 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+6.58 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
+13 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+13.33 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
+20 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+20.16 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -109,12 +109,12 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
-30 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
-29.52 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
-59 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
-58.81 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
+29 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+28.57 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
+58 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+57.98 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
 88 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
-87.76 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
+88.19 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -138,7 +138,7 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
-***ERROR***	model: H:dbmdz/electra-large-discriminator-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7fcb165aee40>)
+***ERROR***	model: H:dbmdz/electra-large-discriminator-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f25712a1040>)
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -163,11 +163,11 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 7 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
-7.23 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
-15 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
-14.63 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
-22 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
-21.74 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
+7.11 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
+14 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
+13.78 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
+21 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
+20.75 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -191,7 +191,7 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
-***ERROR***	model: H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f2c0947ab00>)
+***ERROR***	model: H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f6e15973600>)
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -216,11 +216,11 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 7 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
-6.66 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+6.56 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
 13 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
-13.37 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+13.05 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
 20 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
-19.99 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+19.57 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -244,12 +244,12 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
-12 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
-12.28 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
-25 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
-24.72 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
-38 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
-38.07 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
+15 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+14.99 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
+27 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+27.00 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
+39 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+39.24 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
@@ -274,8 +274,8 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 13 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
-13.10 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
+12.84 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
 26 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
-26.20 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
+25.76 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
 39 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
-39.17 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
+38.65 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661

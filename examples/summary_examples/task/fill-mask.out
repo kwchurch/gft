@@ -3,7 +3,7 @@ task: Fill_Mask --> 10 models
 task: Fill_Mask	model: bert-base-uncased	downloads: 15932465	likes: 132	task: fill-mask
 task: Fill_Mask	model: roberta-base	downloads: 9098576	likes: 23	task: fill-mask
 task: Fill_Mask	model: distilbert-base-uncased	downloads: 4778483	likes: 52	task: fill-mask
-task: Fill_Mask	model: bert-base-chinese	downloads: 3227872	likes: 81	task: fill-mask
+task: Fill_Mask	model: bert-base-chinese	downloads: 3227872	likes: 82	task: fill-mask
 task: Fill_Mask	model: roberta-large	downloads: 2873911	likes: 30	task: fill-mask
 task: Fill_Mask	model: bert-base-cased	downloads: 2575583	likes: 16	task: fill-mask
 task: Fill_Mask	model: xlm-roberta-base	downloads: 2439970	likes: 25	task: fill-mask

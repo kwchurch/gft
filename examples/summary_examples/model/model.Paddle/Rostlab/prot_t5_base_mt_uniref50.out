@@ -1,0 +1,715 @@
+name: t5_model_0	labels (NA): NA	T5Model(
+  (shared): Embedding(256, 768, sparse=False)
+  (encoder): T5Stack(
+    (embed_tokens): Embedding(256, 768, sparse=False)
+    (block): LayerList(
+      (0): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+              (relative_attention_bias): Embedding(32, 12, sparse=False)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (1): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (2): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (3): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (4): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (5): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (6): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (7): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (8): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (9): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (10): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (11): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+    )
+    (final_layer_norm): T5LayerNorm()
+    (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+  )
+  (decoder): T5Stack(
+    (embed_tokens): Embedding(256, 768, sparse=False)
+    (block): LayerList(
+      (0): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+              (relative_attention_bias): Embedding(32, 12, sparse=False)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (1): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (2): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (3): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (4): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (5): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (6): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (7): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (8): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (9): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (10): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+      (11): T5Block(
+        (layer): LayerList(
+          (0): T5LayerSelfAttention(
+            (SelfAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (1): T5LayerCrossAttention(
+            (EncDecAttention): T5Attention(
+              (q): Linear(in_features=768, out_features=768, dtype=float32)
+              (k): Linear(in_features=768, out_features=768, dtype=float32)
+              (v): Linear(in_features=768, out_features=768, dtype=float32)
+              (o): Linear(in_features=768, out_features=768, dtype=float32)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+          (2): T5LayerFF(
+            (DenseReluDense): T5DenseGatedGeluDense(
+              (wi_0): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wi_1): Linear(in_features=768, out_features=2048, dtype=float32)
+              (wo): Linear(in_features=2048, out_features=768, dtype=float32)
+              (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+            )
+            (layer_norm): T5LayerNorm()
+            (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+          )
+        )
+      )
+    )
+    (final_layer_norm): T5LayerNorm()
+    (dropout): Dropout(p=0.1, axis=None, mode=upscale_in_train)
+  )
+)

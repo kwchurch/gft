@@ -1,4 +1,4 @@
-hostname = asimov-136.svail.baidu.com
+hostname = asimov-135.svail.baidu.com
 dataset: xsum	dataset: xsum	downloads: 25350	likes: 5	PWC: https://paperswithcode.com/dataset/xsum
 dataset: xsum	splits: train: 204045 rows, test: 11334 rows, val: 11332 rows
 dataset: xsum	split: train	columns: document, summary, id
@@ -8,20 +8,16 @@ dataset: xsum	model: sshleifer/distilbart-cnn-6-6	downloads: 759916	likes: 8	tas
 dataset: xsum	model: sshleifer/distilbart-xsum-12-6	downloads: 18272	likes: 2	task: summarization
 dataset: xsum	model: bhuvaneswari/t5-small-text_summarization	downloads: 17221	likes: 0	task: text2text-generation
 dataset: xsum	model: aseda/t5-small-finetuned-xsum	downloads: 16970	likes: 0	task: text2text-generation
-dataset: xsum	model: human-centered-summarization/financial-summarization-pegasus	downloads: 9725	likes: 16	task: summarization
+dataset: xsum	model: human-centered-summarization/financial-summarization-pegasus	downloads: 9725	likes: 17	task: summarization
 dataset: xsum	model: bochaowei/t5-small-finetuned-xsum-wei1	downloads: 8159	likes: 0	task: text2text-generation
 dataset: xsum	model: sshleifer/distilbart-xsum-1-1	downloads: 7616	likes: 0	task: summarization
 dataset: xsum	model: pki/t5-small-finetuned_xsum	downloads: 5356	likes: 1	task: text2text-generation
 dataset: xsum	model: gniemiec/t5-small-finetuned-xsum	downloads: 4261	likes: 0	task: text2text-generation
-# found: 12993 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None
+***ERROR***
+model: None
+data: H:xsum
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models'), <traceback object at 0x7f0855a723c0>)

@@ -1,2 +1,7 @@
-hostname = asimov-44.svail.baidu.com
-***ERROR***	model: /mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/syn_ant/verb.32/ckpt/32/best	data: C:/mnt/home/kwc/public_github/gft/datasets/syn_ant/tag-verb-pairs	eqn: classify: gold ~ word1 + word2	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f43a40fb780>)
+hostname = asimov-28.svail.baidu.com
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.21 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/syn_ant/verb.32/ckpt/32/best	accuracy: 0.8964757709251101	f1: 0.8964255203479341

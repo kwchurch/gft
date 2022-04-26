@@ -1,6 +1,6 @@
-hostname = asimov-51.svail.baidu.com
-20.25 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
-6.79 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
-4.88 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
-5.97 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
-5.16 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746
+hostname = asimov-86.svail.baidu.com
+12.61 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
+6.61 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
+1.59 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
+2.14 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
+4.85 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746

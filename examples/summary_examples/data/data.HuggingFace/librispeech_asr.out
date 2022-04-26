@@ -1,3 +1,27 @@
-hostname = asimov-168.svail.baidu.com
+hostname = asimov-144.svail.baidu.com
 dataset: librispeech_asr	dataset: librispeech_asr	downloads: 24773	likes: 13	PWC: https://paperswithcode.com/dataset/librispeech-1
 dataset: librispeech_asr,clean	splits: train.100: 28539 rows, train.360: 104014 rows, test: 2620 rows, val: 2703 rows
+dataset: librispeech_asr,other	splits: train.500: 148688 rows, test: 2939 rows, val: 2864 rows
+dataset: librispeech_asr --> 10 models
+dataset: librispeech_asr	model: facebook/wav2vec2-base-960h	downloads: 666038	likes: 32	task: automatic-speech-recognition
+dataset: librispeech_asr	model: ntu-spml/distilhubert	downloads: 68441	likes: 6	task: feature-extraction
+dataset: librispeech_asr	model: facebook/wav2vec2-base	downloads: 68104	likes: 10	task: None
+dataset: librispeech_asr	model: facebook/wav2vec2-large-960h-lv60-self	downloads: 48502	likes: 13	task: automatic-speech-recognition
+dataset: librispeech_asr	model: facebook/hubert-large-ls960-ft	downloads: 39528	likes: 12	task: automatic-speech-recognition
+dataset: librispeech_asr	model: facebook/wav2vec2-large-960h	downloads: 32406	likes: 4	task: automatic-speech-recognition
+dataset: librispeech_asr	model: facebook/wav2vec2-large-lv60	downloads: 18599	likes: 3	task: None
+dataset: librispeech_asr	model: patrickvonplaten/wav2vec2_tiny_random_robust	downloads: 11259	likes: 0	task: feature-extraction
+dataset: librispeech_asr	model: facebook/s2t-small-librispeech-asr	downloads: 7889	likes: 6	task: automatic-speech-recognition
+dataset: librispeech_asr	model: patrickvonplaten/wav2vec2-base	downloads: 6784	likes: 0	task: None
+# found: 13023 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

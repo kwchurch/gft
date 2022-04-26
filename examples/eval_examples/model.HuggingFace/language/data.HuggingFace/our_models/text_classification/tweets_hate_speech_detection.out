@@ -1,2 +1,34 @@
-hostname = asimov-30
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/tweets_hate_speech_detection/ckpt/best	data: H:tweets_hate_speech_detection	eqn: classify: label ~ tweet	splits: test	split: test	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f65666c7a00>)
+hostname = asimov-91.svail.baidu.com
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/tweets_hate_speech_detection/ckpt/best	data: H:tweets_hate_speech_detection	eqn: classify: label ~ tweet	splits: test	split: test	task: None	error: (<class 'KeyError'>, KeyError('test'), <traceback object at 0x7f9a91530480>)

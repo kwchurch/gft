@@ -1,4 +1,4 @@
-hostname = asimov-130.svail.baidu.com
+hostname = asimov-135.svail.baidu.com
 dataset: paws	dataset: paws	downloads: 11650	likes: 3	PWC: https://paperswithcode.com/dataset/paws
 dataset: paws,labeled_final	splits: train: 49401 rows, test: 8000 rows, val: 8000 rows
 dataset: paws,labeled_final	split: train	columns: id, sentence1, sentence2, label
@@ -16,4 +16,4 @@ eqn: None
 splits: train
 split: train
 task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fc7efc1bfc0>)
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fde2bd18dc0>)

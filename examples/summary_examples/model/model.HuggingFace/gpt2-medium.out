@@ -1,0 +1,373 @@
+model: gpt2-medium	model: gpt2-medium	downloads: 229468	likes: 4	task: text-generation
+model: gpt2-medium	labels: LABEL_0, LABEL_1
+GPT2ForSequenceClassification(
+  (transformer): GPT2Model(
+    (wte): Embedding(50257, 1024)
+    (wpe): Embedding(1024, 1024)
+    (drop): Dropout(p=0.1, inplace=False)
+    (h): ModuleList(
+      (0): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (1): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (2): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (3): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (4): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (5): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (6): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (7): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (8): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (9): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (10): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (11): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (12): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (13): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (14): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (15): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (16): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (17): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (18): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (19): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (20): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (21): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (22): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+      (23): GPT2Block(
+        (ln_1): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (attn): GPT2Attention(
+          (c_attn): Conv1D()
+          (c_proj): Conv1D()
+          (attn_dropout): Dropout(p=0.1, inplace=False)
+          (resid_dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ln_2): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (mlp): GPT2MLP(
+          (c_fc): Conv1D()
+          (c_proj): Conv1D()
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+      )
+    )
+    (ln_f): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+  )
+  (score): Linear(in_features=1024, out_features=2, bias=False)
+)

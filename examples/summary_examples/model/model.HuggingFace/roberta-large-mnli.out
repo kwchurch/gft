@@ -1,0 +1,574 @@
+model: roberta-large-mnli	model: roberta-large-mnli	downloads: 1909442	likes: 17	task: text-classification
+model: roberta-large-mnli	labels: CONTRADICTION, NEUTRAL, ENTAILMENT
+RobertaForSequenceClassification(
+  (roberta): RobertaModel(
+    (embeddings): RobertaEmbeddings(
+      (word_embeddings): Embedding(50265, 1024, padding_idx=1)
+      (position_embeddings): Embedding(514, 1024, padding_idx=1)
+      (token_type_embeddings): Embedding(1, 1024)
+      (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): RobertaEncoder(
+      (layer): ModuleList(
+        (0): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (1): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (2): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (3): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (4): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (5): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (6): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (7): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (8): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (9): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (10): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (11): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (12): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (13): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (14): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (15): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (16): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (17): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (18): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (19): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (20): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (21): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (22): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+        (23): RobertaLayer(
+          (attention): RobertaAttention(
+            (self): RobertaSelfAttention(
+              (query): Linear(in_features=1024, out_features=1024, bias=True)
+              (key): Linear(in_features=1024, out_features=1024, bias=True)
+              (value): Linear(in_features=1024, out_features=1024, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): RobertaSelfOutput(
+              (dense): Linear(in_features=1024, out_features=1024, bias=True)
+              (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): RobertaIntermediate(
+            (dense): Linear(in_features=1024, out_features=4096, bias=True)
+          )
+          (output): RobertaOutput(
+            (dense): Linear(in_features=4096, out_features=1024, bias=True)
+            (LayerNorm): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+  )
+  (classifier): RobertaClassificationHead(
+    (dense): Linear(in_features=1024, out_features=1024, bias=True)
+    (dropout): Dropout(p=0.1, inplace=False)
+    (out_proj): Linear(in_features=1024, out_features=3, bias=True)
+  )
+)

@@ -1,5 +1,5 @@
 import sys
-
+import gft
 # ['FNetForSequenceClassification', 'GPTJForSequenceClassification',
 #  'LayoutLMv2ForSequenceClassification',
 #  'RemBertForSequenceClassification',

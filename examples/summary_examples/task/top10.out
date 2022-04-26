@@ -1,4 +1,4 @@
-hostname = asimov-121.svail.baidu.com
+hostname = asimov-115.svail.baidu.com
 AudioClassification	input audio and output a class label
 Audio_to_Audio	documentation to be written
 AutomaticSpeechRecognition	input audio and output a transcription; also known as ASR (automatic speech recognition), STT (speech-to-text)
@@ -22,7 +22,7 @@ TokenClassification	input text and output a class label for each input token; in
 Translation	input text in one language and output a text in another language; also known as MT (machine translation)
 VoiceActivityDetection	input audio and output region that contains speech; also known as VAD and SAD (speech activity detection)
 Zero_ShotClassification	documentation to be written
-# found: 12993 matches; truncating to 10
+# found: 13024 matches; truncating to 10
 task: None --> 10 models
 task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
 task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None

@@ -1,4 +1,25 @@
-hostname = asimov-32.svail.baidu.com
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/rte/ckpt/best	data: H:glue,rte	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f00af90a880>)
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/rte/ckpt/best	data: H:glue,rte	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7fcc5f139c80>)
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/rte/ckpt/best	data: H:glue,rte	eqn: classify: label ~ sentence1 + sentence2	splits: val	split: val	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7ff74c1caf40>)
+hostname = asimov-92.svail.baidu.com
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+2.27 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/rte/ckpt/best	accuracy: 0.5992779783393501
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+2.52 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/rte/ckpt/best	accuracy: 0.6028880866425993
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+1.68 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/rte/ckpt/best	accuracy: 0.6498194945848376

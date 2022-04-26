@@ -1,19 +1,12 @@
-hostname = asimov-148.svail.baidu.com
+hostname = asimov-143.svail.baidu.com
 dataset: social_i_qa	dataset: social_i_qa	downloads: 7537	likes: 0	PWC: https://paperswithcode.com/dataset/social-iqa
 dataset: social_i_qa	splits: train: 33410 rows, val: 1954 rows
 dataset: social_i_qa	split: train	columns: context, question, answerA, answerB, answerC, label
-dataset: social_i_qa --> 2 models
-dataset: social_i_qa	model: AdapterHub/bert-base-uncased-pf-social_i_qa	downloads: 27	likes: 0	task: None
-dataset: social_i_qa	model: AdapterHub/roberta-base-pf-social_i_qa	downloads: 7	likes: 0	task: None
-# found: 12993 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None
+***ERROR***
+model: None
+data: H:social_i_qa
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7fb150c4f940>)

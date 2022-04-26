@@ -20,7 +20,7 @@ without using a Trainer.
 
 # based on https://github.com/huggingface/transformers/blob/master/examples/pytorch/token-classification/run_ner_no_trainer.py
 
-
+import gft
 import sys,os,shutil
 import seqeval,time,sys
 

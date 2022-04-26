@@ -19,7 +19,7 @@
 # and https://github.com/huggingface/transformers/tree/master/examples/pytorch/speech-recognition
 
 # import pdb
-
+import gft
 from gft.gft_internals import parse_eqn
 from gft.gft_internals.gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename, get_arg, set_arg
 # from gft_util import intern_labels, parse_model_specification, parse_metric_specification, better, checkpoint_filename, get_arg, set_arg

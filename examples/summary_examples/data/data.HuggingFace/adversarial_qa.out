@@ -1,4 +1,4 @@
-hostname = asimov-160.svail.baidu.com
+hostname = asimov-129.svail.baidu.com
 dataset: adversarial_qa	dataset: adversarial_qa	downloads: 18239	likes: 7	PWC: https://paperswithcode.com/dataset/adversarialqa
 dataset: adversarial_qa,adversarialQA	splits: train: 30000 rows, test: 3000 rows, val: 3000 rows
 dataset: adversarial_qa,adversarialQA	split: train	columns: id, title, context, question, answers, metadata
@@ -8,17 +8,11 @@ dataset: adversarial_qa,dbert	splits: train: 10000 rows, test: 1000 rows, val: 1
 dataset: adversarial_qa,dbert	split: train	columns: id, title, context, question, answers, metadata
 dataset: adversarial_qa,droberta	splits: train: 10000 rows, test: 1000 rows, val: 1000 rows
 dataset: adversarial_qa,droberta	split: train	columns: id, title, context, question, answers, metadata
-dataset: adversarial_qa --> 1 models
-dataset: adversarial_qa	model: T-qualizer/distilbert-base-uncased-finetuned-advers	downloads: 18	likes: 0	task: question-answering
-# found: 12994 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None
+***ERROR***
+model: None
+data: H:adversarial_qa
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7ff8cd645ec0>)

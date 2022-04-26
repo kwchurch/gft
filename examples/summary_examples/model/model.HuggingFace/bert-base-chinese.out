@@ -1,4 +1,4 @@
-model: bert-base-chinese	model: bert-base-chinese	downloads: 3227872	likes: 81	task: fill-mask
+model: bert-base-chinese	model: bert-base-chinese	downloads: 3227872	likes: 82	task: fill-mask
 model: bert-base-chinese	labels: LABEL_0, LABEL_1
 BertForMaskedLM(
   (bert): BertModel(

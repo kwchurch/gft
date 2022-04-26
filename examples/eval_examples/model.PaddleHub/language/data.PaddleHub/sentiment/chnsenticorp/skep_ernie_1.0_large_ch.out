@@ -1,2 +1,2 @@
-hostname = asimov-32.svail.baidu.com
-***ERROR***	model: P:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_1.0_large_ch/ckpt/best	data: P:chnsenticorp	eqn: classify: label ~ text	splits: test	split: test	task: None	error: (<class 'AssertionError'>, AssertionError('downloading from /mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_1.0_large_ch/ckpt/best/model_config.json not a url'), <traceback object at 0x7f41b504b080>)
+hostname = asimov-35.svail.baidu.com
+1386.16 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/skep_ernie_1.0_large_ch/ckpt/best	accuracy: 0.9408333333333333	f1: 0.9408152079907806

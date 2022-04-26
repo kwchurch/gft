@@ -1,4 +1,4 @@
-hostname = asimov-148.svail.baidu.com
+hostname = asimov-143.svail.baidu.com
 dataset: stsb_multi_mt	dataset: stsb_multi_mt	downloads: 7465	likes: 4	
 dataset: stsb_multi_mt,en	splits: train: 5749 rows, test: 1379 rows, val: 1500 rows
 dataset: stsb_multi_mt,en	split: train	columns: sentence1, sentence2, similarity_score
@@ -20,11 +20,26 @@ dataset: stsb_multi_mt,ru	splits: train: 5749 rows, test: 1379 rows, val: 1500 r
 dataset: stsb_multi_mt,ru	split: train	columns: sentence1, sentence2, similarity_score
 dataset: stsb_multi_mt,zh	splits: train: 5749 rows, test: 1379 rows, val: 1500 rows
 dataset: stsb_multi_mt,zh	split: train	columns: sentence1, sentence2, similarity_score
-***ERROR***
-model: None
-data: H:stsb_multi_mt
-eqn: None
-splits: train
-split: train
-task: None
-error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f281cfb5140>)
+dataset: stsb_multi_mt --> 10 models
+dataset: stsb_multi_mt	model: inokufu/flaubert-base-uncased-xnli-sts	downloads: 4409	likes: 0	task: sentence-similarity
+dataset: stsb_multi_mt	model: dangvantuan/sentence-camembert-large	downloads: 559	likes: 4	task: sentence-similarity
+dataset: stsb_multi_mt	model: T-Systems-onsite/cross-de-fr-roberta-sentence-transformer	downloads: 429	likes: 0	task: feature-extraction
+dataset: stsb_multi_mt	model: mrm8488/distiluse-base-multilingual-cased-v2-finetuned-stsb_multi_mt-es	downloads: 348	likes: 1	task: sentence-similarity
+dataset: stsb_multi_mt	model: eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1	downloads: 277	likes: 0	task: feature-extraction
+dataset: stsb_multi_mt	model: dangvantuan/sentence-camembert-base	downloads: 231	likes: 1	task: sentence-similarity
+dataset: stsb_multi_mt	model: efederici/sentence-bert-base	downloads: 157	likes: 0	task: sentence-similarity
+dataset: stsb_multi_mt	model: hugorosen/flaubert_base_uncased-xnli-sts	downloads: 140	likes: 0	task: sentence-similarity
+dataset: stsb_multi_mt	model: efederici/cross-encoder-bert-base-stsb	downloads: 96	likes: 0	task: text-classification
+dataset: stsb_multi_mt	model: T-Systems-onsite/cross-en-fr-roberta-sentence-transformer	downloads: 62	likes: 0	task: feature-extraction
+# found: 13024 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

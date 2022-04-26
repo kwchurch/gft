@@ -6,4 +6,4 @@ eqn: None
 splits: train
 split: train
 task: H:feature-extraction
-error: (<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'from_dict'"), <traceback object at 0x7f0a402ad6c0>)
+error: (<class 'AttributeError'>, AttributeError("'NoneType' object has no attribute 'from_dict'"), <traceback object at 0x7fbdaac6dfc0>)

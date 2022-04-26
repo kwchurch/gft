@@ -1,2 +1,3 @@
-hostname = asimov-30
-***ERROR***	model: C:/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/onestop_english/ckpt/best	data: H:onestop_english	eqn: classify: label ~ text	splits: train	split: train	task: None	error: (<class 'ModuleNotFoundError'>, ModuleNotFoundError("No module named 'gft_internals'"), <traceback object at 0x7f882ef40e80>)
+hostname = asimov-91.svail.baidu.com
+Ignored unknown kwarg option direction
+4.91 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/onestop_english/ckpt/best	accuracy: 0.9365079365079365	f1: 0.9359900654775345

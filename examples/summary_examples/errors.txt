@@ -1,0 +1,15 @@
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/cfq.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/paws.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/tab_fact.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/adversarial_qa.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/top50/xsum.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/top50/paws.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/top50/anli.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/top50/ai2_arc.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/top50/social_i_qa.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/top50/yelp_review_full.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/data/data.HuggingFace/klue.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/model/model.HuggingFace/nvidia/segformer-b0-finetuned-ade-512-512.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/model/model.HuggingFace/nvidia/segformer-b5-finetuned-ade-640-640.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/model/model.Paddle/nosaydomore/deepset-roberta-base-squad2.out
+/mnt/home/kwc/public_github/gft/examples/summary_examples/model/model.Paddle/roberta-base.out

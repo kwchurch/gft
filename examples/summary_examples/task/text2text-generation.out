@@ -1,4 +1,4 @@
-# found: 3094 matches; truncating to 10
+# found: 3122 matches; truncating to 10
 task: text2text-generation --> 10 models
 task: text2text-generation	model: mrm8488/t5-base-finetuned-question-generation-ap	downloads: 705061	likes: 14	task: text2text-generation
 task: text2text-generation	model: facebook/m2m100_418M	downloads: 357634	likes: 13	task: text2text-generation

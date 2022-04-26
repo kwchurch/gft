@@ -2,6 +2,7 @@
 # adapters are really powerful, but unfortunately, they are a bit tricky to use with automodels
 # There are also some unfortunate incompatibilities between adpaters and the most recent version of transformers
 
+import gft
 import sys,os
 
 from transformers import AutoTokenizer,AutoFeatureExtractor

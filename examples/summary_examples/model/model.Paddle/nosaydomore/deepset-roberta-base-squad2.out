@@ -7,4 +7,4 @@ eqn: None
 splits: train
 split: train
 task: None
-error: (<class 'AssertionError'>, AssertionError('[UNK] is not in token_to_idx'), <traceback object at 0x7f98f1fed400>)
+error: (<class 'AssertionError'>, AssertionError('[UNK] is not in token_to_idx'), <traceback object at 0x7fcf22e06e40>)

@@ -18,7 +18,7 @@
 # See the License for the specific language governing permissions and
 
 """ Fine-tuning a 🤗 Transformers CTC model for automatic speech recognition"""
-
+import gft
 import functools
 import json
 import logging

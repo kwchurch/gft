@@ -1,4 +1,4 @@
-hostname = asimov-170.svail.baidu.com
+hostname = asimov-133.svail.baidu.com
 dataset: paws	dataset: paws	downloads: 11650	likes: 3	PWC: https://paperswithcode.com/dataset/paws
 dataset: paws,labeled_final	splits: train: 49401 rows, test: 8000 rows, val: 8000 rows
 dataset: paws,labeled_final	split: train	columns: id, sentence1, sentence2, label
@@ -9,17 +9,11 @@ dataset: paws,labeled_swap	labels: 0, 1
 dataset: paws,unlabeled_final	splits: train: 645652 rows, val: 10000 rows
 dataset: paws,unlabeled_final	split: train	columns: id, sentence1, sentence2, label
 dataset: paws,unlabeled_final	labels: 0, 1
-dataset: paws --> 1 models
-dataset: paws	model: eugenesiow/bart-paraphrase	downloads: 2619	likes: 2	task: text2text-generation
-# found: 12994 matches; truncating to 10
-task: None --> 10 models
-task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
-task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
-task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
-task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
-task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
-task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
-task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
-task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
-task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
-task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None
+***ERROR***
+model: None
+data: H:paws
+eqn: None
+splits: train
+split: train
+task: None
+error: (<class 'requests.exceptions.HTTPError'>, HTTPError('405 Client Error: Not Allowed for url: https://huggingface.co/api/models-tags-by-type'), <traceback object at 0x7f2abd9020c0>)

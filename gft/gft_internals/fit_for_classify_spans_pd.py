@@ -22,7 +22,7 @@ Fine-tuning a 🤗 Transformers model on span tasks (SQuAD) relying on the accel
 # convention: _hf is from HuggingFace, and _pd is from PaddleHub
 
 # import pdb
-
+import gft
 import torch,time
 import numpy as np
 from functools import partial

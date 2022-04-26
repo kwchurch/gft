@@ -10,11 +10,12 @@ import sys,re,argparse,datasets,pdb,os
 # sys.path.append('.')
 # sys.path.append('..')
 
-gft = os.environ.get('gft')
-assert not gft is None, 'please set the environment variable, gft, appropriately, and export it'
-sys.path.append(gft)
+# gft = os.environ.get('gft')
+# assert not gft is None, 'please set the environment variable, gft, appropriately, and export it'
+# sys.path.append(gft)
 
-from gft_internals import my_datasets
+import gft
+from gft.gft_internals import my_datasets
 
 parser = argparse.ArgumentParser(description="Extract text from a dataset")
 parser.add_argument("--text_field", type=str, help="name of the text file in the dataset", required=True)

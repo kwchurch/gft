@@ -3,6 +3,7 @@
 
 # convention: _hf is from HuggingFace, and _pd is from PaddleHub
 
+import gft
 import sys
 
 def my_eval(args, eqn, accelerator, raw_datasets):

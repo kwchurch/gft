@@ -1,4 +1,4 @@
-hostname = asimov-164.svail.baidu.com
+hostname = asimov-130.svail.baidu.com
 dataset: blimp	dataset: blimp	downloads: 19523	likes: 1	PWC: https://paperswithcode.com/dataset/blimp
 dataset: blimp,adjunct_island	splits: train: 1000 rows
 dataset: blimp,adjunct_island	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
@@ -102,3 +102,48 @@ dataset: blimp,regular_plural_subject_verb_agreement_1	splits: train: 1000 rows
 dataset: blimp,regular_plural_subject_verb_agreement_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
 dataset: blimp,regular_plural_subject_verb_agreement_2	splits: train: 1000 rows
 dataset: blimp,regular_plural_subject_verb_agreement_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,sentential_negation_npi_licensor_present	splits: train: 1000 rows
+dataset: blimp,sentential_negation_npi_licensor_present	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,sentential_negation_npi_scope	splits: train: 1000 rows
+dataset: blimp,sentential_negation_npi_scope	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,sentential_subject_island	splits: train: 1000 rows
+dataset: blimp,sentential_subject_island	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,superlative_quantifiers_1	splits: train: 1000 rows
+dataset: blimp,superlative_quantifiers_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,superlative_quantifiers_2	splits: train: 1000 rows
+dataset: blimp,superlative_quantifiers_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,tough_vs_raising_1	splits: train: 1000 rows
+dataset: blimp,tough_vs_raising_1	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,tough_vs_raising_2	splits: train: 1000 rows
+dataset: blimp,tough_vs_raising_2	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,transitive	splits: train: 1000 rows
+dataset: blimp,transitive	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_island	splits: train: 1000 rows
+dataset: blimp,wh_island	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_questions_object_gap	splits: train: 1000 rows
+dataset: blimp,wh_questions_object_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_questions_subject_gap	splits: train: 1000 rows
+dataset: blimp,wh_questions_subject_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_questions_subject_gap_long_distance	splits: train: 1000 rows
+dataset: blimp,wh_questions_subject_gap_long_distance	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_no_gap	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_no_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_no_gap_long_distance	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_no_gap_long_distance	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_with_gap	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_with_gap	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+dataset: blimp,wh_vs_that_with_gap_long_distance	splits: train: 1000 rows
+dataset: blimp,wh_vs_that_with_gap_long_distance	split: train	columns: sentence_good, sentence_bad, field, linguistics_term, UID, simple_LM_method, one_prefix_method, two_prefix_method, lexically_identical, pair_id
+# dataset: blimp --> 0 models
+# found: 13023 matches; truncating to 10
+task: None --> 10 models
+task: None	model: SpanBERT/spanbert-large-cased	downloads: 790879	likes: 1	task: None
+task: None	model: microsoft/layoutlmv2-base-uncased	downloads: 429289	likes: 13	task: None
+task: None	model: microsoft/deberta-base	downloads: 392874	likes: 7	task: None
+task: None	model: microsoft/deberta-v3-base	downloads: 384163	likes: 11	task: None
+task: None	model: microsoft/deberta-v3-large	downloads: 337500	likes: 23	task: None
+task: None	model: microsoft/layoutlm-base-uncased	downloads: 314169	likes: 7	task: None
+task: None	model: facebook/dpr-ctx_encoder-single-nq-base	downloads: 272541	likes: 2	task: None
+task: None	model: allenai/scibert_scivocab_uncased	downloads: 217322	likes: 17	task: None
+task: None	model: hfl/chinese-electra-180g-base-discriminator	downloads: 216827	likes: 7	task: None
+task: None	model: google/bigbird-roberta-base	downloads: 206951	likes: 11	task: None

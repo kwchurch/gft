@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+import gft
 import argparse, os, paddle, sys
 
 parser = argparse.ArgumentParser(__doc__)
