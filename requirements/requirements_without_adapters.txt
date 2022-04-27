@@ -10,7 +10,7 @@ seqeval
 sklearn
 torch
 tqdm
-tokenizers==0.10.1
+tokenizers
 transformers
 typing
 paddlenlp

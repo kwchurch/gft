@@ -2607,3 +2607,163 @@ Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 Ignored unknown kwarg option direction
 3.07 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_64_1e-05_11697	accuracy: 0.8700980392156863	f1: 0.9001883239171374
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.16 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_10_32_3e-05_7663	accuracy: 0.7181372549019608	f1: 0.8123980424143556
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.10 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_32_3e-05_11697	accuracy: 0.8431372549019608	f1: 0.8861209964412811
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.16 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_16_1e-05_11697	accuracy: 0.8725490196078431	f1: 0.9103448275862069
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.14 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_32_1e-05_29610	accuracy: 0.875	f1: 0.9097345132743363
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.09 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_64_3e-05_29610	accuracy: 0.8725490196078431	f1: 0.9078014184397164
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.09 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_10_16_3e-05_21404	accuracy: 0.7132352941176471	f1: 0.8240601503759398
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.23 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_64_1e-05_7663	accuracy: 0.8676470588235294	f1: 0.9014598540145985
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.11 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_3_32_2e-05_17290	accuracy: 0.8553921568627451	f1: 0.8952042628774423
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.10 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_3_16_1e-05_21404	accuracy: 0.8553921568627451	f1: 0.8984509466437176
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.09 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_32_1e-05_11697	accuracy: 0.8676470588235294	f1: 0.9007352941176471
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.14 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_10_16_2e-05_11697	accuracy: 0.8480392156862745	f1: 0.8934707903780068
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.08 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_32_3e-05_17290	accuracy: 0.8602941176470589	f1: 0.8969258589511754
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.19 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_3_32_3e-05_7663	accuracy: 0.8602941176470589	f1: 0.8987566607460036
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.08 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_32_3e-05_29610	accuracy: 0.8725490196078431	f1: 0.9078014184397164
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.38 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_10_64_1e-05_11697	accuracy: 0.8725490196078431	f1: 0.9071428571428571
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.07 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_10_64_2e-05_7663	accuracy: 0.8774509803921569	f1: 0.9134948096885814
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.10 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_64_3e-05_17290	accuracy: 0.8725490196078431	f1: 0.9084507042253521
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.09 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_5_16_3e-05_21404	accuracy: 0.8529411764705882	f1: 0.8958333333333334
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.13 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_10_32_2e-05_17290	accuracy: 0.8627450980392157	f1: 0.900709219858156
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+Ignored unknown kwarg option direction
+3.11 seconds	/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/ta_roberta-large-free-72h-1ral-qq_kk_vv-kl-lr_2e-4-maxL_128-wpS_0-maxS_40000_10k_step_baseline/mrpc_10_64_3e-05_17290	accuracy: 0.8676470588235294	f1: 0.9045936395759717
