@@ -4,15 +4,11 @@
 
 <h1>Installation</h1>
 
-Clone this repo and then say:
-
-```sh
-pip install -r requirements/requirements.txt
+``sh
+pip install gft
 ```
 
-Set up the 
-Make sure <a href="functions/gft_predict.md">gft_predict</a> is in your PATH.  Then set up the gft environment variable so
-the following point to examples, datasets and doc, respectively:
+You may want to set up the gft environment variable so these work:
 
 ```sh
 ls $gft/examples
@@ -22,8 +18,8 @@ ls $gft/doc
 
 <b style="background-color:yellow;">Unfortunately</b>, there are a number of incompatibilities between adapters, paddlespeech and
 the latest version of HuggingFace transformers. There are a number of versions of requirements.txt in the requirements directory.
-We recommend setting up several different virtual environments to work around some of these incompatibilities.
-
+We recommend setting up several different virtual environments to work around some of these incompatibilities, if you want
+to use some of these features.
 
 The scripts in the examples directory will create results under
 <i>$gft_checkpoints</i>.  Please set that variable to some place where
