@@ -4,7 +4,7 @@
 
 <h1>Installation</h1>
 
-``sh
+```sh
 pip install gft
 ```
 
