@@ -25,7 +25,6 @@ pypinyin
 LAC
 py7zr
 conllu
-apache_beam
 timm
 spacy
 ftfy
@@ -33,3 +32,4 @@ yacs
 importlib_metadata
 apache_beam
 timm
+huggingface_hub

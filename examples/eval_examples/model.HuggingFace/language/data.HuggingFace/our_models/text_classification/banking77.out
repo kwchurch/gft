@@ -1,17 +1,1 @@
-hostname = asimov-88.svail.baidu.com
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-7.94 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/banking77/ckpt/best	accuracy: 0.9279220779220779	f1: 0.9275082425142673
+hostname = asimov-26.svail.baidu.com

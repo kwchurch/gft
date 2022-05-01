@@ -32,7 +32,7 @@ def get_package_data_files(package, data, package_dir=None):
 
 setuptools.setup(
     name="gft",
-    version="0.1.2",
+    version="0.1.3",
     author="GFT Authors",
     author_email="kenneth.ward.church@gmail.com",
     description=long_description,

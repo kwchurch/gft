@@ -60,7 +60,13 @@ def infer_models_from_dataset(args):
 
     data_key0 = data_key.split(',')[0]
 
-    model_args = ModelSearchArguments()
+    try:
+        model_args = ModelSearchArguments()
+    except: 
+        import sys
+        print('Warning: HuggingFace ModelSearchArguments is not working', file=sys.stderr)
+        return
+
     d = model_args.dataset
 
     if not hasattr(d, data_key0):
@@ -85,7 +91,14 @@ def infer_models_from_task(args):
     task = canonicalize_task(infer_task(args))
     # if task is None: return
     topn = get_arg(args, 'topn')
-    model_args = ModelSearchArguments()
+
+    try:
+        model_args = ModelSearchArguments()
+    except: 
+        import sys
+        print('Warning: HuggingFace ModelSearchArguments is not working', file=sys.stderr)
+        return
+
     d = model_args.pipeline_tag
     # print('task: ' + task)
     if not hasattr(d, str(task)):

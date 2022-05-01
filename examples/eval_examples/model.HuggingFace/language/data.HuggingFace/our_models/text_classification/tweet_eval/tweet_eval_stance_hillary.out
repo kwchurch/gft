@@ -1,5 +1,1 @@
-hostname = asimov-89.svail.baidu.com
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-2.24 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_hillary/ckpt/best	accuracy: 0.6576271186440678	f1: 0.5403929443939056
+hostname = asimov-91.svail.baidu.com

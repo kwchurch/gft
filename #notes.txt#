@@ -1,0 +1,1458 @@
+# /mnt/home/kwc/gft7/gft/notes.txt# to create a new venv
+# python3 -m pip install --user --upgrade pip
+# python3 -m pip install --user virtualenv
+# python3 -m venv $HOME/venv/deepnet_examples13
+
+
+# python3 -m venv $HOME/venv/gft-pip
+module load python/3.7.9
+source $HOME/venv/gft-pip/bin/activate
+# pip install gft
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+module load ffmpeg
+export gft=$HOME/public_github/gft
+PATH=$PATH:$gft/gft
+export gft_checkpoints=/mnt/big/kwc/morphology/results/20220422
+
+
+# python3 -m venv $HOME/venv/gft
+module load python/3.7.9
+source $HOME/venv/gft/bin/activate
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+module load ffmpeg
+export gft=$HOME/public_github/gft
+PATH=$PATH:$gft/gft
+export gft_checkpoints=/mnt/big/kwc/morphology/results/20220422
+
+# use gft without paddlespeech
+module load python/3.7.9
+source $HOME/venv/gft4/bin/activate
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+module load ffmpeg
+export gft=$HOME/public_github/gft
+PATH=$PATH:$gft/gft
+
+
+# use gft without adapters
+module load python/3.7.9
+source $HOME/venv/gft-adapters/bin/activate
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+module load ffmpeg
+export gft=$HOME/public_github/gft
+PATH=$PATH:$gft
+
+# use gft with adapters
+module load python/3.7.9
+source $HOME/venv/gft+adapters/bin/activate
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+module load ffmpeg
+export gft=$HOME/public_github/gft
+PATH=$PATH:$gft
+
+
+
+find $gft/*/objects -name '*WAV' | gft_predict --task H:ASR 2>/dev/null
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SI1759.WAV	GOT A HECK OF A BY ON THIS DIRT CHEAP
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SA2.WAV	DON'T ASK ME TO CARRY AN OILY RAG LIKE THAT
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX409.WAV	EATING SPINACH NIGHTLY INCREASES STRENGTH MIRACULOUSLY
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SI1129.WAV	THIS GROUP IS SECULARIST AND THEIR PROGRAMM TENDS TO BE TECHNOLOGICAL
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX49.WAV	AT TWILIGHT ON THE TWELFTH DAY WE'LL HAVE CHABLI
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX319.WAV	A BIG GOAT IDLY AMBLED THROUGH THE FARMYARD
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SA1.WAV	SHE HAD YOUR DARK SUIT AND GREASY WASHWATER ALL YEAR
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SI499.WAV	THE SCALLOPED EDGE IS PARTICULARLY APPEALING
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX139.WAV	THE BUNGALOW WAS PLEASANTLY SITUATED NEAR THE SHORE
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX229.WAV	ARE YOU LOOKING FOR EMPLOYMENT
+
+
+# use gft with paddlespeech
+module load python/3.7.9
+source $HOME/venv/gft_for_paddlespeech/bin/activate
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+module load ffmpeg
+export gft=$HOME/public_github/gft
+PATH=$PATH:$gft
+
+find $gft/*/objects -name '*WAV' | $gft/gft_internals/predict_speech.py 2>/dev/null
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SI1759.WAV	got a heck of a by on this dirt cheap
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SA2.WAV	don't ask me to carry an oily rag like that
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX409.WAV	eating spanish nightly increases strength miraculously
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SI1129.WAV	this group is secularist and their program tends to be technological
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX49.WAV	at twilight on the twelfth day will have shiply
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX319.WAV	a big goat idly ambled through the farmyard
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SA1.WAV	she had your dark suit in greasy wash water all year
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SI499.WAV	the scalloped edge is particularly appealing
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX139.WAV	the bungalow was pleasantly situated near the shore
+/mnt/home/kwc/public_github/gft/doc/objects/wav/TIMIT/SX229.WAV	are you looking for employment
+
+# module load python/3.7.9
+# source $HOME/venv/deepnet_examples13/bin/activate
+# module load cuda                                                                
+# module load cudnn                                                               
+# module load nccl
+# module load :common-libraries :codecs sndfile
+# module load r-project
+
+
+# # to use the new venv
+# module load python/3.7.9
+# source $HOME/venv/deepnet_examples12/bin/activate
+# module load cuda                                                                
+# module load cudnn                                                               
+# module load nccl
+# module load :common-libraries :codecs sndfile
+# module load r-project
+# module load ffmpeg
+
+# # use gft without adapter
+# module load python/3.7.9
+# source $HOME/venv/gft-adapter/bin/activate
+# module load cuda                                                                
+# module load cudnn                                                               
+# module load nccl
+# module load :common-libraries :codecs sndfile
+# module load r-project
+# module load ffmpeg
+# export gft=$HOME/public_github/gft
+# PATH=$PATH:$gft
+
+# use gft with adapter
+# module load python/3.7.9
+# source $HOME/venv/gft+adapter/bin/activate
+# module load cuda                                                                
+# module load cudnn                                                               
+# module load nccl
+# module load :common-libraries :codecs sndfile
+# module load r-project
+# module load ffmpeg
+# export gft=$HOME/public_github/gft
+# PATH=$PATH:$gft
+
+
+
+# python3 -m pip install --user --upgrade pip
+# python3 -m pip install --user virtualenv
+# python3 -m venv $HOME/venv/deepnet_examples13
+# source $HOME/venv/deepnet_examples13/bin/activate
+# pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
+# pip install paddlespeech -i https://pypi.tuna.tsinghua.edu.cn/simple
+# export gft=$HOME/public_github/gft
+# PATH=$PATH:$gft
+# cd $gft
+# pip install -r requirements.txt
+
+
+# slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+# long_queues=1080Ti_mlong,1080Ti_slong,2080Ti_mlong,M40x8_mlong,M40x8_slong,TitanXx8_mlong,TitanXx8_slong
+# export gft=/mnt/home/kwc/gft5/gft
+# export datasets=$gft/datasets
+# export PATH=$gft:$PATH
+
+# # dir=/mnt/big/kwc/morphology/results/20220216/squad_job2; mkdir -p $dir; cd /mnt/big/kwc/useful_resources/transformers/examples/pytorch/question-answering; sbatch -e $dir/err -o $dir/out -p $long_queues squad_job.sh $dir/cpts
+# # dir=/mnt/big/kwc/morphology/results/20220216/squad_job_no_trainer; mkdir -p $dir; cd /mnt/big/kwc/useful_resources/transformers/examples/pytorch/question-answering; sbatch -e $dir/err -o $dir/out -p $long_queues squad_job_no_trainer.sh $dir/cpts
+
+####
+# We should add these datasets
+# https://www.tensorflow.org/datasets/catalog/overview#all_datasets
+
+####
+
+### useful documentation
+
+# how to create my own pip package
+# https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/
+
+
+module load python/3.7.9
+source $HOME/venv/deepnet_examples10/bin/activate
+module load cuda                                                                
+module load cudnn                                                               
+module load nccl
+module load :common-libraries :codecs sndfile
+module load r-project
+
+slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+long_queues=1080Ti_mlong,1080Ti_slong,2080Ti_mlong,M40x8_mlong,M40x8_slong,TitanXx8_mlong,TitanXx8_slong
+# export gft=/mnt/home/kwc/gft4/gft/PaddleHub
+export gft=/mnt/home/kwc/gft4/gft
+export datasets=$gft/datasets
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220216
+# export checkpoints=/mnt/big/kwc/morphology/results/20220209
+export PATH=$gft:$PATH
+
+
+adaptors are a workaround so you don't need to pretrain a different model for each task
+
+there may be better alternatives to distillation
+
+
+promising_models="bert-base-cased bert-base-multilingual-cased bert-base-uncased distilbert-base-uncased nghuyong/ernie-2.0-en allenai/scibert_scivocab_cased allenai/scibert_scivocab_uncased"
+cd /mnt/home/kwc/fine_tuning_little_language
+res=/mnt/big/kwc/morphology/WN18RR.tiny
+
+model=bert-base-cased
+res=/mnt/big/kwc/morphology/WN18RR.tiny/$model
+ckpt=$res/checkpoints/
+mkdir -p $ckpt
+python general_fine_tune.py --pretrained $model --csv_dataset datasets/WN18RR.tiny --checkpoint $ckpt --eqn 'classify: gold ~ Word1 + Word2'
+
+
+cd /mnt/home/kwc/fine_tuning_little_language
+model=bert-base-cased
+res=/mnt/big/kwc/morphology/VAD3.tiny/$model
+ckpt=$res/checkpoints/
+mkdir -p $ckpt
+python general_fine_tune.py --pretrained $model --csv_dataset datasets/VAD3.tiny --checkpoint $ckpt --eqn 'regress: gold ~ word1 + word2'
+
+cd /mnt/home/kwc/fine_tuning_little_language
+model=bert-base-cased
+res=/mnt/big/kwc/morphology/VAD3.tiny/$model
+ckpt=$res/checkpoints/
+mkdir -p $ckpt
+python general_fine_tune.py --pretrained $model --csv_dataset datasets/VAD3.tiny --checkpoint $ckpt --eqn 'regress: gold ~ word1 + word2'
+
+
+cd /mnt/home/kwc/fine_tuning_little_language
+model=bert-base-cased
+res=/mnt/big/kwc/morphology/tag-fallows-pairs.tiny/$model
+ckpt=$res/checkpoints/
+mkdir -p $ckpt
+python general_fine_tune.py --pretrained $model --csv_dataset datasets/tag-fallows-pairs.tiny --checkpoint $ckpt --eqn 'classify: gold ~ word1 + word2'
+
+
+
+
+Synonym vs Antonym Classification
+classify: 𝑔𝑜𝑙𝑑 ~ 𝑤𝑜𝑟𝑑1 + 𝑤𝑜𝑟𝑑2
+datasets: ~kwc/morphology/MoE-ASD-main/dataset_csv/tag-fallows-pairs
+WN18RR (Knowledge Graph Completion)
+classify: 𝑔𝑜𝑙𝑑 ~ 𝑤𝑜𝑟𝑑1 + 𝑤𝑜𝑟𝑑2
+datasets: ~kwc/morphology/synonym_dictionary/sentiment/datasets/WordNet/WN18RR
+VAD Regression (on distances)
+regress: 𝑔𝑜𝑙𝑑 ~ 𝑤𝑜𝑟𝑑1 + 𝑤𝑜𝑟𝑑2
+datasets: ~kwc/morphology/synonym_dictionary/sentiment/datasets/simple/VAD.simple.1000k
+VAD Regression (on lexical entries)
+regress: 𝑉𝑎𝑙𝑒𝑛𝑐𝑒 + 𝐴𝑟𝑜𝑢𝑠𝑎𝑙 + 𝐷𝑜𝑚𝑖𝑛𝑎𝑛𝑐𝑒 ~ 𝑤𝑜𝑟𝑑
+datasets: ~kwc/morphology/synonym_dictionary/sentiment/datasets/VAD
+
+
+cd /mnt/home/kwc/fine_tuning_little_language
+model=bert-base-cased
+for d in tag-fallows-pairs tag-adj-pairs tag-verb-pairs tag-noun-pairs VAD3 WN18RR VAD.simple.1000k VAD
+do
+res=/mnt/big/kwc/morphology/results/$d/$model
+ckpt=$res/checkpoints/
+mkdir -p $ckpt
+echo "general_fine_tune.py --pretrained $model --csv_dataset `pwd`/datasets/$d --checkpoint $ckpt --eqn 'classify: gold ~ word1 + word2'" > $ckpt/run.sh
+done
+
+find /mnt/big/kwc/morphology/results -name 'run.sh'
+/mnt/big/kwc/morphology/results/tag-fallows-pairs/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/tag-adj-pairs/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/tag-verb-pairs/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/tag-noun-pairs/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/WN18RR/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/VAD.simple.1000k/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/VAD/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/VAD3.1000k/bert-base-cased/checkpoints/run.sh
+
+
+/mnt/big/kwc/morphology/results/classify2/tag-noun-pairs/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/classify2/tag-verb-pairs/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/classify2/tag-adj-pairs/bert-base-cased/checkpoints/run.sh
+/mnt/big/kwc/morphology/results/classify2/tag-fallows-pairs/bert-base-cased/checkpoints/run.sh
+
+slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+find /mnt/big/kwc/morphology/results -name 'run.sh' |
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $slong_queues $f
+done
+
+for ds in emotion
+do
+dir=/mnt/big/kwc/morphology/results/HuggingFace_datasets/$ds/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/classify2/tag-noun-pairs/bert-base-cased/checkpoints/run.sh $dir
+done
+
+for p2 in cola sst2 mrpc qqp stsb mnli qnli rte wnli ax mnli_matched mnli_mismatched 
+do
+dir=/mnt/big/kwc/morphology/results/HuggingFace_datasets/glue/$p2/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/HuggingFace_datasets/emotion/bert-base-cased/checkpoints/run.sh $dir
+done
+
+dir=/mnt/big/kwc/morphology/results/VAD.tiny/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/VAD/bert-base-cased/checkpoints/run.sh $dir
+
+
+
+
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,1080Ti_test,2080Ti_mlong,2080Ti_mlong,2080Ti
+find /mnt/big/kwc/morphology/results/ -name 'run.sh'  |
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+mkdir -p /mnt/big/kwc/morphology/results/HuggingFace_datasets/ag_news/bert-base-cased/checkpoints
+mkdir -p /mnt/big/kwc/morphology/results/HuggingFace_datasets/yelp_review_full/bert-base-cased/checkpoints
+cp /mnt/big/kwc/morphology/results/HuggingFace_datasets/ag_news/bert-base-cased/checkpoints/run.sh /mnt/big/kwc/morphology/results/HuggingFace_datasets/yelp_review_full/bert-base-cased/checkpoints
+
+dir=/mnt/big/kwc/morphology/results/HuggingFace_datasets/snli/bert-base-cased/checkpoints
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/HuggingFace_datasets/ag_news/bert-base-cased/checkpoints/run.sh $dir
+
+
+dir=/mnt/big/kwc/morphology/results/HuggingFace_datasets/imdb/bert-base-cased/checkpoints
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/HuggingFace_datasets/ag_news/bert-base-cased/checkpoints/run.sh $dir
+
+dir=/mnt/big/kwc/morphology/results/HuggingFace_datasets/squad/bert-base-cased/checkpoints
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/HuggingFace_datasets/imdb/bert-base-cased/checkpoints/run.sh $dir
+
+dir=/mnt/big/kwc/morphology/results/VAD3.1k/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/VAD3.1000k/bert-base-cased/checkpoints/run.sh $dir
+
+
+dir=/mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_VAD/simple/1000k/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_VAD/simple/bert-base-cased/checkpoints/run.sh $dir
+
+for k in 10k 100k
+do
+dir=/mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_VAD/simple/$k/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_VAD/simple/1000k/bert-base-cased/checkpoints/run.sh $dir
+done
+
+
+# /mnt/home/kwc/ACL/ACL-2022/syn_ant/datasets/datasets_syn_ant/dataset_csv
+
+dir=/mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_syn_ant/adj/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_VAD/simple/1000k/bert-base-cased/checkpoints/run.sh $dir
+
+for pos in noun verb fallows
+do
+dir=/mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_syn_ant/$pos/bert-base-cased/checkpoints/
+mkdir -p $dir
+cp /mnt/big/kwc/morphology/results/ACL-2022/syn_ant/datasets/datasets_syn_ant/adj/bert-base-cased/checkpoints/run.sh $dir
+done
+
+
+slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+find /mnt/big/kwc/morphology/results -name 'run.sh' | egrep -v glue |
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $slong_queues $f
+done
+
+
+classify2 BertForSequenceClassification
+classify  BertForMultipleChoice
+regress   BertForSequenceClassification
+
+classify_tokens BertForTokenClassification
+classify_sentences  BertForNextSentencePrediction
+classify_spans   BertForQuestionAnswering
+
+BertForMaskedLM
+
+
+https://huggingface.co/transformers/model_doc/convbert.html
+
+
+cd /mnt/big/kwc/morphology/results
+find . -name '*.sh' | 
+while read f
+do
+outf=$HOME/fine_tuning_little_language/examples/`echo $f | sed 's|/bert-base-cased/checkpoints/run||'`
+mkdir -p `dirname $outf`
+cp $f $outf
+done
+
+slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+export datasets=/mnt/home/kwc/fine_tuning_little_language/datasets
+export gft_checkpoints=/mnt/big/kwc/morphology/results4
+PATH=$PATH:$HOME/gft
+cd $HOME/gft/examples
+find . -name '*.sh' |
+while read f
+do
+b=$checkpoints/`dirname $f`/`basename $f .sh`
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $slong_queues $f
+done
+
+https://raw.githubusercontent.com/huggingface/datasets/1.12.1/metrics/seqeval/seqeval.py
+@misc{seqeval,
+  title={{seqeval}: A Python framework for sequence labeling evaluation},
+  url={https://github.com/chakki-works/seqeval},
+  note={Software available from https://github.com/chakki-works/seqeval},
+  author={Hiroki Nakayama},
+  year={2018},
+}
+
+
+gft --pretrained H:bert-base-cased \
+    --data H:glue,cola \
+    --metric H:glue,cola \
+    --figure_of_merit matthews_correlation \
+    --eqn 'classify2: label ~ sentence'
+
+
+# run this!!
+
+slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+long_queues=1080Ti_mlong,1080Ti_slong,2080Ti_mlong,M40x8_mlong,M40x8_slong,TitanXx8_mlong,TitanXx8_slong
+# export gft=/mnt/home/kwc/gft2/yingyibiao/gft/
+# export gft=/mnt/home/kwc/gft5/gft
+# export datasets=/mnt/home/kwc/fine_tuning_little_language/datasets
+# export datasets=$gft/datasets
+# export checkpoints=/mnt/big/kwc/morphology/results/Dec05a
+# export checkpoints=/mnt/big/kwc/morphology/results/20220125b
+# export checkpoints=/mnt/big/kwc/morphology/results/20220204
+# export checkpoints=/mnt/big/kwc/morphology/results/20220208
+# export checkpoints=/mnt/big/kwc/morphology/results/20220209
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220228
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220309
+# export PATH=$gft:$PATH
+# cd /mnt/home/kwc/gft/examples/HuggingFace/conll2003
+cd $gft/examples/fit_examples
+# find . -name '*.sh' | egrep 'model.H.*data.H' | egrep -v case_restor | egrep paws | 
+# find . -name '*.sh' |  egrep 'timit|librisp'  | egrep -v not_to_share |
+# find . -name 'librispeech.sh' |
+find . -name '*.sh' |
+while read f
+do
+b=$gft_checkpoints/`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $long_queues $f $b/ckpt
+done
+
+run this for fit (without roberta large) !!!
+# use gft-adapters virtual env
+
+# long_queues=1080Ti_mlong,1080Ti_slong,2080Ti_mlong,M40x8_mlong,M40x8_slong,TitanXx8_mlong,TitanXx8_slong
+long_queues=1080Ti_mlong,1080Ti_slong,2080Ti_mlong,M40x8_mlong,M40x8_slong
+# long_queues=M40x8_mlong,M40x8_slong
+cd $gft/examples
+find fit_examples -name '*.sh' | egrep -v roberta-large | 
+while read f
+do
+export params=`dirname $f`/params
+b=$gft_checkpoints/`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $long_queues $f $b/ckpt
+done
+
+# egrep -c 'RuntimeError: CUDA out of memory' `find $gft_checkpoints -name '*.err'` | egrep -i hugging | awk -F/ '{print $(NF-1), $NF}' | tr ':' ' ' | awk '{n[$1]++; if($NF > 0) x[$1]++}; END {for(i in n) print x[i]+0, n[i]+0, i}' | sort -nr
+
+# run this for fit (for roberta large) !!!
+
+# Vlong_queues=V100_SVAIL,V100x8,V100_DGX
+Vlong_queues=V100x8,V100_DGX,V100_SVAIL
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220419.V100
+cd $gft/examples
+find fit_examples -name '*.sh' | egrep 'roberta-large|512' |
+while read f
+do
+export params=`dirname $f`/params
+b=$gft_checkpoints/`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $Vlong_queues $f $b/ckpt
+done
+
+
+
+tail `find $gft_checkpoints -name '*err'` | cut -c1-200 > /tmp/errs
+
+
+cd /mnt/home/kwc/gft4/gft/examples/fine_tuning_examples/model.HuggingFace/language/syn_ant
+for i in 1 2 4 8 16
+do
+for pos in noun verb adj fallows
+do
+cp $pos.32.sh $pos.$i.sh
+done
+done
+
+
+# gft=/mnt/home/kwc/gft2/yingyibiao/gft/
+# slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+# export datasets=/mnt/home/kwc/fine_tuning_little_language/datasets
+# export checkpoints=/mnt/big/kwc/morphology/results/yingyibiao/Dec01
+# export PATH=$gft:$PATH
+# cd /mnt/home/kwc/gft2/yingyibiao/gft/token-classification
+# f=run_no_trainer.sh
+# b=$checkpoints/`dirname $f`/token-classification/`basename $f .sh`
+# echo working on b=$b
+# mkdir -p `dirname $b`
+# mv $b.out $b.out.bak
+# mv $b.err $b.err.bak
+# sbatch -e $b.err -o $b.out --gres=gpu:1 -p $slong_queues $f
+
+
+awk '{m = match($0, /epoch [0-9]/)}; m  {n=split(FILENAME, pieces, "/"); print substr($0, RSTART), pieces[n]}' `find $checkpoints -name '*.err'` | 
+cut -f4 -d- |
+awk '{m = match($0, /overall_accuracy/)};
+    m > 0 {print $1, $2, substr($0, RSTART); next};
+{print}' | 
+awk 'BEGIN {print "junk epoch metric score task"}; {print $1, $2, $3, $4, $NF}' |
+sed 's/.err$//' |
+sed 's/.out$//' |
+tr -d "'{}:," > /tmp/x
+
+
+awk '{m = match($0, /epoch [0-9].*validation/)}; m > 0 {n=split(FILENAME, pieces, "/"); print substr($0, RSTART), pieces[n]}' `find $checkpoints -name '*.out'` | 
+awk '{m = match($0, /overall_accuracy/)};
+    m > 0 {print $1, $2, substr($0, RSTART); next};
+{print}' | 
+sed 's/validation[:]*//' | 
+awk '{print $1, $2, $3, $4, $NF}' | 
+sed 's/.err$//' |
+sed 's/.out$//' |
+tr -d "'{}:," > /tmp/xx
+
+
+cd /mnt/big/kwc/useful_resources/transformers/examples/pytorch/question-answering
+python run_qa_no_trainer.py \
+  --model_name_or_path bert-base-uncased \
+  --dataset_name squad \
+  --max_seq_length 384 \
+  --doc_stride 128 \
+  --output_dir ~/tmp/debug_squad \
+  --cpu
+  
+batch size is important
+https://pytorch-lightning.readthedocs.io/en/latest/advanced/training_tricks.html#auto-scaling-of-batch-size
+
+with open('/tmp/x', 'w') as fd: 
+  for r in x['train']: 
+    for lab in r['case_labels']:
+       print(lab, file=fd)
+
+Xingyu Cai  11:23 AM
+import torch
+from torchvision import models
+from torchsummary import summary
+device = torch.device(‘cuda’ if torch.cuda.is_available() else 'cpu')
+vgg = models.vgg16().to(device)
+summary(vgg, (3, 224, 224))
+11:24
+Found this tool: torchsummary
+11:24
+the line: summary(vgg, (3,244,244)), the (3,244,244) is the input data dimension
+11:25
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1         [-1, 64, 224, 224]           1,792
+              ReLU-2         [-1, 64, 224, 224]               0
+            Conv2d-3         [-1, 64, 224, 224]          36,928
+              ReLU-4         [-1, 64, 224, 224]               0
+         MaxPool2d-5         [-1, 64, 112, 112]               0
+            Conv2d-6        [-1, 128, 112, 112]          73,856
+              ReLU-7        [-1, 128, 112, 112]               0
+            Conv2d-8        [-1, 128, 112, 112]         147,584
+              ReLU-9        [-1, 128, 112, 112]               0
+        MaxPool2d-10          [-1, 128, 56, 56]               0
+           Conv2d-11          [-1, 256, 56, 56]         295,168
+             ReLU-12          [-1, 256, 56, 56]               0
+           Conv2d-13          [-1, 256, 56, 56]         590,080
+             ReLU-14          [-1, 256, 56, 56]               0
+           Conv2d-15          [-1, 256, 56, 56]         590,080
+             ReLU-16          [-1, 256, 56, 56]               0
+        MaxPool2d-17          [-1, 256, 28, 28]               0
+           Conv2d-18          [-1, 512, 28, 28]       1,180,160
+             ReLU-19          [-1, 512, 28, 28]               0
+           Conv2d-20          [-1, 512, 28, 28]       2,359,808
+             ReLU-21          [-1, 512, 28, 28]               0
+           Conv2d-22          [-1, 512, 28, 28]       2,359,808
+             ReLU-23          [-1, 512, 28, 28]               0
+        MaxPool2d-24          [-1, 512, 14, 14]               0
+           Conv2d-25          [-1, 512, 14, 14]       2,359,808
+             ReLU-26          [-1, 512, 14, 14]               0
+           Conv2d-27          [-1, 512, 14, 14]       2,359,808
+             ReLU-28          [-1, 512, 14, 14]               0
+           Conv2d-29          [-1, 512, 14, 14]       2,359,808
+             ReLU-30          [-1, 512, 14, 14]               0
+        MaxPool2d-31            [-1, 512, 7, 7]               0
+           Linear-32                 [-1, 4096]     102,764,544
+             ReLU-33                 [-1, 4096]               0
+          Dropout-34                 [-1, 4096]               0
+           Linear-35                 [-1, 4096]      16,781,312
+             ReLU-36                 [-1, 4096]               0
+          Dropout-37                 [-1, 4096]               0
+           Linear-38                 [-1, 1000]       4,097,000
+================================================================
+Total params: 138,357,544
+Trainable params: 138,357,544
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 218.59
+Params size (MB): 527.79
+Estimated Total Size (MB): 746.96
+----------------------------------------------------------------
+
+tail `find $checkpoints -name '*err'` > /tmp/x
+
+# This does not work
+sh ~/gft4/gft/examples/fine_tuning_examples/model.HuggingFace/language/data.PaddleHub/question_answering/squad.sh $checkpoints/junk/squad
+
+
+sh ~/gft4/gft/examples/fine_tuning_examples/model.HuggingFace/language/data.HuggingFace/question_answering/squad.sh $checkpoints/junk/squad
+
+cd /mnt/home/kwc/gft4/gft/examples/fine_tuning_examples
+find . -name '*.sh' |
+while read f
+do
+newf=../inference_examples/$f
+mkdir -p `dirname $newf`
+echo > $newf
+done
+
+
+cd /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/glue
+for f in *.sh
+do
+b=`basename $f .sh`
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $slong_queues $f
+done
+
+cd /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/glue
+cp /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/glue/*.sh /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.PaddleHub/glue
+cp /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/glue/*.sh /mnt/home/kwc/gft4/gft/examples/inference_examples/model.PaddleHub/language/data.HuggingFace/glue
+cp /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/glue/*.sh /mnt/home/kwc/gft4/gft/examples/inference_examples/model.PaddleHub/language/data.PaddleHub/glue
+
+cd ~/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.PaddleHub/glue/
+cp *.sh /mnt/home/kwc/gft4/gft/examples/inference_examples/model.PaddleHub/language/data.HuggingFace/glue
+cp *.sh /mnt/home/kwc/gft4/gft/examples/inference_examples/model.PaddleHub/language/data.PaddleHub/glue
+
+# run this for prediction
+
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+export gft=/mnt/home/kwc/public_github/gft
+export PATH=$gft:$PATH
+cd $gft/examples
+find predict_examples -name '*.sh' | egrep 'their.*sentiment' | egrep -vi paddle |
+while read f
+do
+export params=`dirname $f`/params
+b=$gft_checkpoints/`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f $b/ckpt
+done
+
+egrep 'caught.*errors' `find $gft_checkpoints/predict_examples -name '*err'` | awk '{print $(NF-1), $1}' | cut -f1 -d: | sort -nr > /tmp/pred_errs
+
+# cd $gft/examples/predict_examples 
+# find . -name '*.sh' | egrep our_models/sentiment |
+# while read f
+# do
+# sbatch --gres=gpu:1 -p $queues $f
+# # b=`dirname $f`/`basename $f .sh`
+# # echo $b
+# # mkdir -p `dirname $b`
+# # mv $b.out $b.out.bak
+# # mv $b.err $b.err.bak
+# # sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+# done
+
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+export gft=/mnt/home/kwc/public_github/gft
+export PATH=$gft:$PATH
+cd $gft/examples/predict_examples 
+find . -name '*.py' | 
+while read f
+do
+b=`dirname $f`/`basename $f .py`
+echo $b
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+
+
+tail `find $gft/examples/predict_examples -name '*.err'` > /tmp/predict_errs
+
+# run this for evaluation (without Adapters)
+
+# Titan may not be powerful enough
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+# queues=M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+
+export gft=/mnt/home/kwc/public_github/gft
+export PATH=$gft:$PATH
+cd $gft/examples/eval_examples
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/text_classification/
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering
+# find . -name '*.sh' | egrep -v AdapterHub |
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/glue
+# cd ~/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/syn_ant/
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/syn_ant
+# ls *.sh |
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/Yuchen_models/glue
+# cd ~/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/paraphrase/
+# cd ~kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/glue
+# cd ~/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/text_classification/
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/paraphrase/
+# cd ~/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/our_models/glue
+# cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models/conll2003
+find . -name '*.sh' | egrep -v AdapterHub |
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+pwd=$gft/examples/eval_examples
+awk '$1 == "hostname" {next};
+     /Ignored unknown kwarg option direction/ {next};
+     {n[FILENAME]++}; 
+     $1 == "***ERROR***" {x[FILENAME]++}; 
+     END {for(i in n) print x[i]+0 , n[i]+0, i}' OFS="\t" `find $pwd -name '*.out'` | sort -nr > $pwd/errors2.txt
+ls -lt $pwd/errors2.txt
+
+
+# run this for evaluation (with Adapters)
+
+# Titan may not be powerful enough
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+# queues=M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+
+
+export gft=/mnt/home/kwc/public_github/gft
+export PATH=$gft:$PATH
+cd $gft/examples/eval_examples
+find . -name '*.sh' | egrep AdapterHub | 
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+cd $gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp
+egrep accur *.out | tr : '\t' | awk '{printf "%0.3f %0.3f %0.0f %s\n", $(NF-2), $NF, $2, $1}' | sort -nr
+
+
+tail `find $gft/examples/eval_examples -name '*.err'` > /tmp/eval_errs
+
+head `find $gft/examples/eval_examples -name '*.out'` > /tmp/eval_outs
+
+####
+
+# run this for summary
+
+# queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+queues=M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+export gft=/mnt/home/kwc/public_github/gft
+export PATH=$gft:$PATH
+cd $gft/examples/summary_examples
+find . -name '*.sh' | 
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+# Try, try again
+# It seems that some of these errors are not repeatable (could be some connectivity/blacklisting issue)
+
+# Hypo: the Titan machines do not have connectivity
+queues=M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+
+pwd=$gft/examples/summary_examples
+egrep -c ERROR `find $pwd -name '*.out'` | awk -F: '$NF > 0 {print $1}' > $pwd/errors.txt
+wc -l $pwd/errors.txt
+
+# egrep error `cat $pwd/errors.txt` | cut -f2- -d:
+
+egrep out $pwd/errors.txt | sed 's/.out$/.sh/' |
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sh $f 2>$b.err >$b.out
+# sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+export gft=/mnt/home/kwc/public_github/gft
+export PATH=$gft:$PATH
+egrep out $pwd/errors.txt | sed 's/.out$/.sh/' |
+while read f
+do
+b=`dirname $f`/`basename $f .sh`
+echo $b
+mkdir -p `dirname $b`
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+#####
+
+
+awk 'NF != 3 {next}; 
+{n[key]++; key=$1; sigma[key] += $2; loss[key] += $3; sigma2[key] += $2*$2; loss2[key] += $3 * $3}; 
+END {for(key in n) { 
+   mloss = loss[key]/n[key]; 
+   msigma = sigma[key]/n[key]; 
+   print key, n[key], mloss, msigma, sqrt(loss2[key]/n[key] - mloss*mloss), sqrt(sigma2[key]/n[key] - msigma*msigma)}}' /mnt/home/jiajihuang/workspace/model_compression/TextBrewer/exp/analyze_smooth/distilbert-base-cased.book.out > /tmp/x
+
+
+
+>>> from transformers import RobertaModel
+>>> M=RobertaModel.from_pretrained('roebrta-large')
+>>> [p.shape() for p in M.encoder.layer[0].parameters() if p.requires_grad] # check the shapes of params in a transformer layer
+[torch.Size([1024, 1024]), torch.Size([1024]), torch.Size([1024, 1024]), torch.Size([1024]), torch.Size([1024, 1024]), torch.Size([1024]), torch.Size([1024, 1024]), torch.Size([1024]), torch.Size([1024]), torch.Size([1024]), torch.Size([4096, 1024]), torch.Size([4096]), torch.Size([1024, 4096]), torch.Size([1024]), torch.Size([1024]), torch.Size([1024])]
+>>> sum([p.numel() for p in M.encoder.layer[0].parameters() if p.requires_grad])  # count the number of params in a transformer layer
+>>> 12596224
+>>>
+>>> [p.shape for p in M.embeddings.parameters() if p.requires_grad]  # check the shapes of params in look-up embedding layer
+>>> sum([p.numel() for p in M.embeddings.parameters() if p.requires_grad])  # count the number of params in the look-up embedding layer
+>>> 52000768
+
+
+echo 'I love you.' | gft_inference.py --model H:AdapterHub/bert-base-uncased-pf-emotion --labels labels/emotion.txt 2>/dev/null
+
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+# cd /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/glue
+# cd /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.PaddleHub/their_models/glue
+cd /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment
+for f in *.sh
+do
+b=`dirname $f`/`basename $f .sh`
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+cd /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/glue
+awk 'BEGIN {FS=OFS="\t"}; $0 ~ /^MODEL/ {m=$0 " " FILENAME; n[m]=0; next}; {n[m]++}; $2 == $NF {x[m]++}; END {for(m in n) print x[m]/(n[m]+ 1e-6), n[m], m}' *.out | sort -nr > summary.txt
+
+cd /mnt/home/kwc/gft4/gft/huggingface_hub
+cut -f1 huggingface_models.txt | awk -F/ 'NR > 1 {print $NF}' | split -l 300 - pieces/x
+
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+for piece in pieces/x??
+do
+sbatch -p $queues -i $piece -o $piece.out -e $piece.err ~/gft4/gft/huggingface_hub/has_tokenizer.py
+done
+
+for pos in adj noun verb fallows
+ do
+ for b in 16 32 64
+ do
+ cp adj.16.sh $pos.$b.sh
+ done
+ done
+
+cd $gft/huggingface_hub
+python loadable_models.py < $imdb/imdb.txt > $imdb/imdb.loadable
+cd /mnt/home/kwc/gft4/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/imdb
+awk '$2 == "True"'  ../imdb.loadable | 
+awk '{f=sprintf("%03d", NR); print "#!/bin/sh" >> f; printf "$imdb/do_one %s", $1 >> f; close(f)}'
+
+
+
+export imdb=/mnt/home/kwc/public_github/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/imdb
+cd $imdb
+for f in ???
+do
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=`dirname $f`/`basename $f .sh`
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+egrep amazon_reviews /mnt/home/kwc/public_github/gft/huggingface_hub/huggingface_models.txt | cut -f1 | python /mnt/home/kwc/public_github/gft/huggingface_hub/loadable_models.py > amazon_reviews_multi/amazon_reviews_multi.loadable
+cd $gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/amazon_reviews_multi
+awk '$2 == "True"'  *.loadable | 
+awk '{f=sprintf("%03d", NR); print "#!/bin/sh" >> f; printf "$amazon_reviews_multi/do_one %s", $1 >> f; close(f)}'
+
+
+export amazon_reviews_multi=$gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/amazon_reviews_multi
+cd $amazon_reviews_multi
+for f in [0-9][0-9][0-9]
+do
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=`dirname $f`/`basename $f .sh`
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+cd $gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/emotion
+python $gft/huggingface_hub/models_for_dataset.py emotion | awk 'NR > 1 {print $2}' | python $gft/loadable_models.py > loadable.txt
+# awk '$1 == "emotion" {print $2}' $gft/huggingface_hub/huggingface_datasets_and_models.txt | python $gft/*/loadable_models.py > loadable.txt
+awk '$2 == "True"'  loadable.txt | 
+awk '{f=sprintf("%03d", NR); print "#!/bin/sh" >> f; printf "$emotion/do_one %s", $1 >> f; close(f)}'
+
+
+export emotion=$gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/emotion
+cd $emotion
+for f in [0-9][0-9][0-9]
+do
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=`dirname $f`/`basename $f .sh`
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+cd $gft/huggingface_hub
+cut -f1 huggingface_datasets.txt  | 
+while read f
+do
+python models_for_dataset.py $f
+done > huggingface_datasets_and_models.txt
+
+cd $emotion
+awk 'BEGIN {FS=OFS="\t"}; $0 ~ /^MODEL/ {m=$0 " " FILENAME; n[m]=0; next}; {n[m]++}; $2 == $NF {x[m]++}; END {for(m in n) print x[m]/(n[m]+ 1e-6), n[m], m}' [0-9][0-9][0-9].out | sort -nr > summary.txt
+
+export go_emotions=/mnt/home/kwc/public_github/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/sentiment/go_emotions
+mkdir -p $go_emotions
+cd $go_emotions
+python $gft/huggingface_hub/models_for_dataset.py go_emotions | awk 'NR > 1 {print $2}' | python $gft/loadable_models.py > loadable.txt
+awk '$2 == "True"'  loadable.txt | 
+awk '{f=sprintf("%03d", NR); print "#!/bin/sh" >> f; printf "$go_emotions/do_one %s", $1 >> f; close(f)}'
+
+cd $go_emotions
+for f in [0-9][0-9][0-9]
+do
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=`dirname $f`/`basename $f .sh`
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+export squad=/mnt/home/kwc/public_github/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad
+mkdir -p $squad
+cd $squad
+python $gft/huggingface_hub/models_for_dataset.py squad | awk 'NR > 1 {print $2}' | python $gft/loadable_models.py > loadable.txt
+
+cd $squad
+rm [0-9][0-9][0-9]
+awk '$2 == "True"'  loadable.txt | 
+awk '{f=sprintf("%03d", NR); print "#!/bin/sh" >> f; printf "$squad/do_one %s\n", $1 >> f; close(f)}'
+
+export squad=/mnt/home/kwc/public_github/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad
+cd $squad
+for f in [0-9][0-9][0-9]
+do
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=`dirname $f`/`basename $f .sh`
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+
+export squad_v2=/mnt/home/kwc/public_github/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad_v2
+mkdir -p $squad_v2
+cd $squad_v2
+python $gft/huggingface_hub/models_for_dataset.py squad_v2 | awk 'NR > 1 {print $2}' | python $gft/loadable_models.py > loadable.txt
+cd $squad_v2
+rm [0-9][0-9][0-9]
+awk '$2 == "True"'  loadable.txt | 
+awk '{f=sprintf("%03d", NR); print "#!/bin/sh" >> f; printf "$squad_v2/do_one %s\n", $1 >> f; close(f)}'
+
+export squad_v2=/mnt/home/kwc/public_github/gft/examples/inference_examples/model.HuggingFace/language/data.HuggingFace/their_models/question_answering/squad_v2
+cd $squad_v2
+for f in [0-9][0-9][0-9]
+do
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=`dirname $f`/`basename $f .sh`
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $f
+done
+
+Need to add taskflow and pipelines to inference
+https://github.com/PaddlePaddle/PaddleNLP#taskflow%E5%BC%80%E7%AE%B1%E5%8D%B3%E7%94%A8%E7%9A%84%E4%BA%A7%E4%B8%9A%E7%BA%A7nlp%E8%83%BD%E5%8A%9B
+https://huggingface.co/docs/transformers/v4.16.2/en/main_classes/pipelines
+
+We have PaddleSpeech https://github.com/PaddlePaddle/PaddleSpeech
+
+cd $gft/huggingface_hub
+sort -nr -k2 huggingface_datasets.txt  | sed 1000q | cut -f1-3 |
+awk -F'\t' 'BEGIN {print "<html>\n <h1> Top 1000 Datasets by Downloads (as of Feb 2022) </h1> \n <table>  <tr> <th style=\"text-align:left\"> Rank </th> <th style=\"text-align:left\">Downloads</th> <th style=\"text-align:left\">Dataset</th> <th style=\"text-align:left\"> Links </th> </tr> "}
+END {print "</table></html>"}
+{printf "<tr><td> %d </td> <td> %d </td> <td> %s </td>\n", NR, $2, $1}
+{printf "<td> <a href=\"https://huggingface.co/datasets/%s\">dataset card</a>,\n", $1}
+{printf "<a href=\"https://huggingface.co/models?dataset=dataset:%s\">models for dataset</a>,\n", $1}
+length($3) > 0 {printf "<a href=\"https://paperswithcode.com/dataset/%s\">papers with code</a>\n", $3}
+{print "</td></tr>\n"}' > best_of/datasets.html
+
+cd $gft/huggingface_hub
+mkdir best_of/datasets
+sort -nr -k2 huggingface_datasets.txt  | sed 1000q | cut -f1-3 |
+awk  'BEGIN {while(getline < "huggingface_datasets_and_models.txt" > 0) if($0 ~ /# dataset:/) models[$3] = $5;
+FS="\t"
+print "# Top 1000 HuggingFace Datasets by Downloads (as of Feb 2022) </h1> \n \
+<table>  <tr> <th style=\"text-align:left\"> Rank </th> \
+<th style=\"text-align:left\">Downloads</th> \
+<th style=\"text-align:left\">Models</th> \
+<th style=\"text-align:left\">Dataset</th> \
+<th style=\"text-align:left\"> Links </th> </tr> "}
+END {print "</table>"}
+{printf "<tr><td> %d </td> <td> %d </td> <td> %d </td> <td> %s </td> \n", NR, $2, models[$1], $1}
+{printf "<td> <a href=\"https://huggingface.co/datasets/%s\">dataset card</a>,\n", $1}
+{printf "<a href=\"https://huggingface.co/models?dataset=dataset:%s\">models for dataset</a>,\n", $1}
+length($3) > 0 {printf "<a href=\"https://paperswithcode.com/dataset/%s\">papers with code</a>\n", $3}
+{print "</td></tr>\n"}' > best_of/datasets/README.md
+
+awk '/# dataset:/ {print $3,$5}' OFS="\t" huggingface_datasets_and_models.txt | sort -k2 -nr | sed 50q | cut -f1 | awk '{print $1 ","}'
+
+awk 'NF > 1'  huggingface_datasets.txt | sort -k2 -nr | sed 50q | cut -f1  | awk '{print $1 ","}'
+
+
+awk '/# dataset:/ {print $3,$5}' OFS="\t" huggingface_datasets_and_models.txt | sort -k2 -nr | sed 50q | cut -f1    > /tmp/downloads
+awk 'NF > 1'  huggingface_datasets.txt | sort -k2 -nr | sed 50q | cut -f1  > /tmp/models
+
+cat /tmp/downloads /tmp/models | sort | uniq -c | awk '$1 > 1 {print $2}' > /tmp/both
+
+awk 'BEGIN {while(getline < "/tmp/both" > 0) both[$1]=1}; $1 in both {printf "<b><a href=\"https://huggingface.co/datasets/%s\">%s</a></b>\n",$1,$1; next}; {printf "<a href=\"https://huggingface.co/datasets/%s\">%s</a>\n",$1,$1; next}' /tmp/downloads | awk '{print $0 ","}'
+
+awk 'BEGIN {while(getline < "/tmp/both" > 0) both[$1]=1}; $1 in both {printf "<b><a href=\"https://huggingface.co/models?dataset=dataset:%s\">%s</a></b>\n",$1,$1; next}; {printf "<a href=\"https://huggingface.co/models?dataset=dataset:%s\">%s</a>\n",$1,$1; next}' /tmp/models | awk '{print $0 ","}'
+
+cd $gft/huggingface_hub
+awk '$2 == "text-classification"' huggingface_models.txt | awk '{print "#!/bin/sh"; print "../gft_labels.py --model", $1}' | split -l 40 - label_jobs/x
+
+cd $gft/huggingface_hub
+for f in label_jobs/x??
+do
+sbatch -p CPUx40 -e $f.err -o $f.out $f
+done
+
+
+cd ~/public_github/gft/huggingface_hub/jobs/
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+for f in offensive spam # fake # love hate positive "1 star"
+do
+sbatch -p $queues -e "$f".err -o "$f".out love.sh "$f"
+done
+
+# tasks
+queues=TitanXx8_short,TitanXx8,TitanXx8_mlong,M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+echo 'I love you' > $HOME/love.txt
+dir=$gft_checkpoints/paddle.tasks2/
+mkdir -p $dir
+for task in text_correction knowledge_mining ner  poetry_generation  question_answering  lexical_analysis  word_segmentation \
+     pos_tagging  sentiment_analysis  dependency_parsing  text_correction  text_similarity  # dialogue
+do
+sbatch --gres=gpu:1 -p $queues -i $HOME/love.txt -o $dir/$task.out -e $dir/$task.err gft_inference.py --task P:$task --debug
+done
+
+# https://github.com/jsvine/pdfplumber
+
+
+mv fine_tune_for_classify_classic.py fit_for_classify_classic.py
+mv fine_tune_for_classify_hf.py fit_for_classify_hf.py
+mv fine_tune_for_classify_pd.py fit_for_classify_pd.py
+mv fine_tune_for_classify.py fit_for_classify.py
+mv fine_tune_for_classify_spans_hf.py fit_for_classify_spans_hf.py
+mv fine_tune_for_classify_spans_pd.py fit_for_classify_spans_pd.py
+mv fine_tune_for_classify_spans.py fit_for_classify_spans.py
+mv fine_tune_for_classify_tokens.py fit_for_classify_tokens.py
+mv fine_tune_for_ctc.py fit_tune_for_ctc.py
+mv fine_tune_for_regress_hf.py fit_for_regress_hf.py
+mv fine_tune_for_regress_pd.py fit_for_regress_pd.py
+mv fine_tune_for_regress.py fit_for_regress.py
+
+
+gft_summary --data H:glue,cola
+gft_summary --data H:glue,cola --model H:__infer__ | head
+
+model=gchhablani/bert-base-cased-finetuned-cola
+gft_eval --eqn 'classify: label ~ sentence' --data H:glue,cola --model $model --split val
+
+
+/mnt/big/xingyucai/pretrain/wav2vec/gft
+
+for pos in noun verb adj
+do
+for b in 16 32 64
+do
+cp fallows.$b.sh $pos.$b.sh
+done
+done
+
+
+gft_summary --model H:__contains__AdapterHub/bert-base-uncased-pf --topn 100 > /tmp/x
+cd /mnt/home/kwc/public_github/gft/examples/eval_examples/model.HuggingFace/language/data.HuggingFace/their_models
+awk 'NR > 1 {model=$4; data=substr($4,33); f=data ".sh"; print "#!/bin/sh\necho hostname = `hostname`\n" >> f; print "model=", model >> f; print "data=" data >> f; printf "gft_eval --data H:%s --model H:%s --split test \n", data, model >> f; close(f)}' /tmp/x
+
+<table>
+<tr><th># of Models</th><th>Task</th><th>Models</th></tr>
+<tr><td>3949 </td><td> text-generation</td><td>	distilgpt2, gpt2, EleutherAI/gpt-neo-1.3B</td></tr>
+<tr><td>3143  </td><td> text-classification  </td><td> cross-encoder/ms-marco-MiniLM-L-12-v2, distilbert-base-uncased-finetuned-sst-2-english, facebook/bart-large-mnli</td></tr>
+<tr><td>o2390  </td><td> fill-mask bert-base-uncased	 </td><td> distilbert-base-uncased, roberta-base</td></tr>
+<tr><td>2253  </td><td> text2text-generation	 </td><td> facebook/m2m100_418M, facebook/mbart-large-50-one-to-many-mmt, google/mt5-base</td></tr>
+<tr><td>1508  </td><td> ctc  </td><td> facebook/wav2vec2-base-960h, facebook/hubert-large-ls960-ft, facebook/wav2vec2-large-xlsr-53</td></tr>
+<tr><td>1460  </td><td> translation </td><td>  Helsinki-NLP/opus-mt-zh-en, t5-small, t5-base</td></tr>
+<tr><td>1340  </td><td> classify </td><td> 	xlm-roberta-large-finetuned-conll03-english, classla/bcms-bertic-ner, dslim/bert-base-NER</td></tr>
+<tr><td>1042  </td><td> conversational	 </td><td> microsoft/DialoGPT-small, microsoft/DialoGPT-medium, facebook/blenderbot_small-90M</td></tr>
+<tr><td>983  </td><td> classify_spans  </td><td> deepset/roberta-base-squad2, distilbert-base-cased-distilled-squad, bert-large-uncased-whole-word-masking-finetuned-squad</td></tr>
+<tr><td>982  </td><td> feature-extraction  </td><td> feature-extraction, openai/clip-vit-base-patch32, facebook/bart-base, monsoon-nlp/hindi-bert</td></tr>
+<tr><td>338  </td><td> sentence-similarity  </td><td>  sentence-transformers/multi-qa-MiniLM-L6-cos-v1, sentence-transformers/paraphrase-MiniLM-L6-v2, sentence-transformers/all-MiniLM-L6-v2</td></tr>
+<tr><td>320  </td><td> summarization </td><td>  summarization, sshleifer/distilbart-cnn-6-6, google/pegasus-xsum, facebook/bart-large-cnn</td></tr>
+<tr><td>261  </td><td> image-classification  </td><td> google/vit-base-patch16-224, microsoft/beit-base-patch16-224-pt22k-ft22k, facebook/deit-base-distilled-patch16-224</td></tr>
+<tr><td>160  </td><td> text-to-speech  </td><td> text-to-speech	facebook/fastspeech2-en-ljspeech, espnet/kan-bayashi_ljspeech_joint_finetune_conformer_fastspeech2_hifigan, espnet/kan-bayashi_ljspeech_vits</td></tr>
+<tr><td>68  </td><td> zero-shot-classification  </td><td> zero-shot-classification, facebook/bart-large-mnli, cross-encoder/nli-distilroberta-base, BaptisteDoyen/camembert-base-xnli</td></tr>
+<tr><td>55  </td><td> audio-to-audio </td><td> 	JorisCos/ConvTasNet_Libri2Mix_sepclean_8k, speechbrain/sepformer-wsj02mix, JorisCos/ConvTasNet_Libri2Mix_sepnoisy_16k</td></tr>
+<tr><td>54  </td><td> audio-classification  </td><td> TalTechNLP/voxlingua107-epaca-tdnn, hf-internal-testing/tiny-random-unispeech-sat, hf-internal-testing/tiny-random-unispeech</td></tr>
+<tr><td>26  </td><td> table-question-answering  </td><td> google/tapas-base-finetuned-wtq, lysandre/tiny-tapas-random-wtq, lysandre/tiny-tapas-random-sqa</td></tr>
+<tr><td>12  </td><td> object-detection  </td><td> facebook/detr-resnet-50, mishig/tiny-detr-mobilenetsv3, facebook/detr-resnet-101</td></tr>
+<tr><td>11  </td><td> image-segmentation  </td><td> facebook/detr-resnet-50-panoptic, mishig/tiny-detr-mobilenetsv3-panoptic, hf-internal-testing/tiny-random-beit-pipeline</td></tr>
+<tr><td>9  </td><td> text-to-image  </td><td> flax-community/dalle-mini, osanseviero/dalle-mini-fork, gsurma/ai_dreamer</td></tr>
+<tr><td>4  </td><td> structured-data-classification  </td><td> , scikit-learn-examples/example, julien-c/wine-quality, keras-io/TF_Decision_Trees</td></tr>
+<tr><td>4  </td><td> image-to-text  </td><td> kha-white/manga-ocr-base, sachin/vit2distilgpt2, gagan3012/ViTGPT2_vizwiz</td></tr>
+<tr><td>2  </td><td> voice-activity-detection  </td><td> pyannote/segmentation, julien-c/voice-activity-detection</td></tr>
+<tr><td>1  </td><td> zero-shot-image-classification  </td><td> hf-internal-testing/tiny-random-clip-zero-shot-image-classification</td></tr>
+<tr><td>1  </td><td> speech-segmentation  </td><td> osanseviero/hubert-sd</td></tr>
+<tr><td>1  </td><td> protein-folding  </td><td> google-deepmind/alphafold-v2</td></tr>
+</table>
+
+
+# amazon_polarity and yelp_review_full are working again (had to clear out the cache)
+for f in `find examples | egrep not_w | egrep -v AdapterHub`
+do
+mv $f `dirname $f`/`basename $f .not_working`
+done
+
+
+/mnt/storage/svail-0/jiahong/psst-data/[train,valid]/audio/;
+/mnt/storage/svail-0/jiahong/psst-data/[train,valid]/utterances.tsv
+
+
+/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline/rte_3_16_1e-05_7663
+/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/***/roberta-large-hf_baseline  replace “***”  with task name (edited) 
+
+ls -ltd /mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/*/roberta-large-hf_baseline
+drwxr-xr-x  93 yuchenbian svail  4096 Mar  2 18:25 /mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/qnli/roberta-large-hf_baseline
+drwxr-xr-x 138 yuchenbian svail 12288 Mar  2 18:25 /mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/sst2/roberta-large-hf_baseline
+drwxr-xr-x 138 yuchenbian svail 12288 Mar  2 18:25 /mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/mrpc/roberta-large-hf_baseline
+drwxr-xr-x 138 yuchenbian svail 12288 Mar  2 18:25 /mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/stsb/roberta-large-hf_baseline
+drwxr-xr-x 138 yuchenbian svail  4096 Mar  2 17:17 /mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/rte/roberta-large-hf_baseline
+
+dir=/mnt/big/kwc/useful_resources/transformers/examples/pytorch/question-answering/
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220315
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220321
+queues=M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=$gft_checkpoints/transformer_example/squad
+mkdir -p $b
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $dir/run_qa.sh $b/ckpt
+
+
+dir=/mnt/big/kwc/useful_resources/transformers/examples/pytorch/question-answering/
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220315
+# export gft_checkpoints=/mnt/big/kwc/morphology/results/20220321
+queues=M40x8_slong,M40x8_mlong,M40x8,P100,1080Ti_mlong,1080Ti_slong,1080Ti,1080Ti_short,2080Ti_mlong,2080Ti_mlong,2080Ti
+b=$gft_checkpoints/transformer_example/squad2
+mkdir -p $b
+mv $b.out $b.out.bak
+mv $b.err $b.err.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $dir/run_qa2.sh $b/ckpt
+
+cd ~/public_github/gft/examples/predict_examples/model.HuggingFace/language/syn_ant/
+for pos in noun verb adj fallows
+do
+for b in 16 32 64
+do
+cp adj.16.sh $pos.$b.sh
+done
+done
+
+cd /mnt/home/kwc/public_github/gft/examples/predict_examples/model.PaddleHub/language/syn_ant
+for pos in noun verb adj fallows
+do
+for b in 32 64
+do
+cp adj.32.sh $pos.$b.sh
+done
+done
+
+egrep -c predict.err `find $gft/examples/predict_examples -name '*.sh'`
+
+gft_summary --model P:__contains__ | awk 'NF ==1 {f=$1 ".sh"; print "#!/bin/sh\n\ngft_summary --model P:" $0 > f; close(f)}'
+
+cd $gft/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/text_similarity
+b=regression_test
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $queues $b.py
+
+egrep -v ERROR *.out | awk '{print "gft_summary --model H:" $3}' | sort -u | sh > summary.txt
+
+awk 'BEGIN {while(getline < "downloads.txt" > 0) downloads[$2]=$1};
+/accuracy/ {printf "%s\t%0.3f\t%0.3f\t%0.2f\t%d\n", $3, $5, $7, $1, downloads[$3]}' mrpc.out | sort -k2 -nr | 
+awk '{printf "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>\n", $1, $2, $3, $4, $5}'
+
+
+# NEED TO WORK ON THIS
+
+egrep gft_fit `find $gft/examples/eval* -name '*.sh'` | cut -f1 -d: | uniq
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/KGC/WN18RR.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/VAD/VAD.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/VAD/simple/100k.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/VAD/simple/10k.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/VAD/simple/1000k.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/question_answering/squad.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.PaddleHub/question_answering/squad_v2.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/paraphrase/paws_labeled_final.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/paraphrase/paws_unlabeled_final.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/paraphrase/paws_labeled_swap.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/banking77.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_hate.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_sentiment.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_offensive.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_feminist.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_climate.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emoji.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_atheism.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_hillary.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_irony.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emotion.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_stance_abortion.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/snli.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/ag_news.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/onestop_english.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/tweets_hate_speech_detection.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/text_classification/emotion.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/yelp_review_full.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/amazon_reviews_multi.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/ethos.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/amazon_polarity.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/imdb.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/poem_sentiment.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/sst.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/senti_lex/es.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/senti_lex/fr.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/sentiment/senti_lex/de.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/question_answering/squad.sh
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/data.HuggingFace/question_answering/squad_v2.sh
+
+
+/mnt/home/kwc/public_github/gft/examples/eval_examples/model.PaddleHub/language/VAD/simple/100k.sh
+
+
+egrep gft_fit `find $gft/examples/eval* -name '*.sh'` | cut -f1 -d: | uniq > /tmp/todo
+
+for f in `cat /tmp/todo`
+do
+mv $f $f.to_be_done
+done
+
+find . -name '*.sh' -exec cat {} \; | tr ' =' '\n' | awk 'substr($0, 1, 2) == "--"' | sort | uniq -c | sort -nr | sed 500q > /tmp/args
+
+find . -name '*.sh' -exec cat {} \; | tr ' =' '\n' | awk 'substr($0, 1, 2) == "__"' | sort | uniq -c | sort -nr | sed 500q > /tmp/args2
+
+cd $gft/examples
+f=fit_examples/model.HuggingFace/language/data.HuggingFace/question_answering/squad.sh
+slong_queues="1080Ti_slong,M40x8_slong,TitanXx8_slong"
+b=$gft_checkpoints/`dirname $f`/`basename $f .sh`
+mkdir -p $b
+mv $b.err $b.err.bak
+mv $b.out $b.out.bak
+sbatch -e $b.err -o $b.out --gres=gpu:1 -p $slong_queues $f $b/ckpt
+
+
+
+ls /mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid/*/roberta-large-hf_baseline/HPT_results.csv
+
+par(mfrow=c(3,3))
+for (f in c("cola", "mnli", "mnli-mm",  "mrpc",  "qnli",  "qqp",  "rte",  "sst2",  "stsb")) {
+x = read.table(paste("/mnt/storage/svail-0/yuchenbian/torch_KD/torch_distill_pudb/output/GLUE_grid", f, "roberta-large-hf_baseline/HPT_results.csv", sep="/"), header=T, sep=",")
+g = glm(score~ poly(bsz,2) + lr, data=x)
+boxplot(split(g$fitted.values, x$bsz), main=f, xlab="block size", ylab="score")
+res[f,] = g$coef
+}
+
+dimnames(res) = list(c("cola", "mnli", "mnli-mm",  "mrpc",  "qnli",  "qqp",  "rte",  "sst2",  "stsb"), names(g$coef))
+
+
+cd /mnt/home/kwc/public_github/gft/examples/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper
+for model in bert-base-cased distilbert-base-uncased roberta-base roberta-large
+do
+for lr in 1 2
+do
+for bs in 128 256 512
+do
+dir=$model/glue.lr.$lr.batch.$bs
+mkdir -p $dir
+scp -r bert-base-cased/glue.lr.1.batch.128/*.sh $dir
+echo "model=$model" > $dir/params
+echo "lr=$lr"e-5 >> $dir/params
+echo "bs=$bs" >> $dir/params
+done
+done
+done
+
+cd /mnt/home/kwc/public_github/gft/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper
+for model in ernie-2.0-en  ernie-2.0-large-en
+do
+for lr in 1 2
+do
+for bs in 128 256 512
+do
+dir=$model/glue.lr.$lr.batch.$bs
+mkdir -p $dir
+scp -r ernie-2.0-en/glue.lr.1.batch.128/*sh $dir
+echo "model=$model" > $dir/params
+echo "lr=$lr"e-5 >> $dir/params
+echo "bs=$bs" >> $dir/params
+done
+done
+done
+
+# regression isn't working
+dir=/mnt/home/kwc/public_github/gft/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128
+export params=$dir/params
+sh $dir/stsb.sh $gft_checkpoints/junk/stsb
+
+find /mnt/home/kwc/public_github/gft/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ -name 'params' |
+while read f
+do
+echo $f
+echo 'epochs=3' >> $f
+done
+
+find /mnt/home/kwc/public_github/gft/examples/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ -name '*.sh' | 
+while read f
+do
+echo $f
+cp $f $f.bak
+awk '$1 == "--num_train_epochs" {print $1, "$epochs"; next}; {print}' $f.bak > $f
+done
+
+find /mnt/home/kwc/public_github/gft/examples/fit_examples/ -name '*.sh' | 
+while read f
+do
+echo $f
+cp $f $f.bak
+awk '$1 == "--per_device_eval_batch_size" && $2 == "$bs" {print "--per_device_train_batch_size", $2, $3; next}; {print}' $f.bak > $f
+done
+
+for model in textattack/bert-base-uncased-RTE textattack/roberta-base-RTE textattack/albert-base-v2-RTE textattack/distilbert-base-uncased-RTE 
+do
+gft_summary --model H:$model
+done > /tmp/models
+
+# AdapterHub/bert-base-uncased-pf-rte AdapterHub/roberta-base-pf-rte
+# textattack/facebook-bart-large-RTE
+# textattack/facebook-bart-base-glue-RTE textattack/facebook-bart-base-RTE textattack/xlnet-base-cased-RTE
+
+for model in AdapterHub/bert-base-uncased-pf-mrpc AdapterHub/roberta-base-pf-mrpc textattack/bert-base-uncased-MRPC textattack/roberta-base-MRPC textattack/albert-base-v2-MRPC textattack/distilbert-base-uncased-MRPC textattack/xlnet-large-cased-MRPC textattack/xlnet-base-cased-MRPC textattack/facebook-bart-large-MRPC textattack/distilbert-base-cased-MRPC
+do
+gft_summary --model H:$model
+done > /tmp/models
+
+echo eval; egrep -c  '^[ ]*gft_eval' `find $gft/examples/eval* -name '*.sh' ` | awk -F: '$NF != 1'
+echo fit; egrep -c  '^[ ]*gft_fit' `find $gft/examples/fit* -name '*.sh' ` | awk -F: '$NF != 1'
+echo summary; egrep -c  '^[ ]*gft_summary' `find $gft/examples/summary* -name '*.sh' ` | awk -F: '$NF != 1'
+echo predict; egrep -c  '^[ ]*gft_predict' `find $gft/examples/predict* -name '*.sh' ` | awk -F: '$NF != 1'
+
+cd /mnt/home/kwc/public_github/gft/examples/summary_examples/model/model.Paddle
+for f in `cat models.txt`
+do
+if [ -s $f.sh ]
+then
+echo $f is already done
+else
+echo working on $f
+mkdir -p `dirname $f`
+echo '#!/bin/sh' >> $f.sh
+echo  >> $f.sh
+echo "gft_summary --model P:""$f" >> $f.sh
+fi
+done
+
+
+
+
+python setup.py bdist_wheel
+twine upload dist/gft-0.1.2-py3-none-any.whl

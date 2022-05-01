@@ -1,11 +1,1 @@
-hostname = asimov-28.svail.baidu.com
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-Ignored unknown kwarg option direction
-4.76 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/syn_ant/adj.16/ckpt/16/best	accuracy: 0.8726082578046325	f1: 0.8726066751568844
+hostname = asimov-29.svail.baidu.com

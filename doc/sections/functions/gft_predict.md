@@ -43,6 +43,14 @@ echo 'I love you.' | gft_predict --model $model --task H:text-classification
 echo 'I love New York.' | gft_predict --task H:token-classification
 # I love New York.	New/I-LOC:0.9989	York/I-LOC:0.9974
 
+# part of speech (POS) tagging
+m=vblagoje/bert-english-uncased-finetuned-pos
+echo 'I love you' | gft_predict --model H:$m --task token-classification
+
+# insert punctuation
+m=Qishuai/distilbert_punctuator_en
+echo 'I love you' | gft_predict --model H:$m --task token-classification
+
 # NER with PaddleNLP
 echo 'I love you.' | gft_predict --task P:ner
 # I love you.	I/词汇用语  /w love/词汇用语  /w you/词汇用语 ./w

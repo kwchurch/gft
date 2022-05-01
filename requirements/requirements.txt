@@ -37,3 +37,4 @@ yacs
 importlib_metadata
 apache_beam
 timm
+huggingface_hub
