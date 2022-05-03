@@ -1,1 +1,6 @@
 hostname = asimov-86.svail.baidu.com
+11.49 seconds	cross-encoder/stsb-roberta-large	pearson: 0.8923427619026016
+3.92 seconds	cross-encoder/stsb-roberta-base	pearson: 0.8613912403734689
+0.59 seconds	cross-encoder/stsb-TinyBERT-L-4	pearson: 0.8746838478053234
+1.92 seconds	cross-encoder/stsb-distilroberta-base	pearson: 0.881876691504429
+4.73 seconds	howey/bert-base-uncased-stsb	pearson: 0.8905037452682746

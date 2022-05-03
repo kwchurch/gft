@@ -1,1 +1,8 @@
-hostname = asimov-28.svail.baidu.com
+hostname = asimov-92.svail.baidu.com
+72.61 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.512/qqp/ckpt/best	accuracy: 0.8987880286915657	f1: 0.8652795153749917
+70.88 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/qqp/ckpt/best	accuracy: 0.8947811031412317	f1: 0.8596224920802534
+70.37 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.256/qqp/ckpt/best	accuracy: 0.9014593123917882	f1: 0.8674121405750799
+71.83 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/qqp/ckpt/best	accuracy: 0.9046500123670541	f1: 0.8731114841512788
+70.41 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/qqp/ckpt/best	accuracy: 0.8992827108582736	f1: 0.8654507005022468
+134.78 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/bert-base-cased/glue.lr.1.batch.128/qqp/ckpt/best	accuracy: 0.9059361860004946	f1: 0.8727199705478764
+133.03 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/qqp/ckpt/best	accuracy: 0.6339599307444966	f1: 0.011620917651773192

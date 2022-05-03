@@ -1,1 +1,11 @@
-hostname = asimov-86.svail.baidu.com
+hostname = asimov-84.svail.baidu.com
+137.23 seconds	textattack/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
+72.26 seconds	assemblyai/distilbert-base-uncased-qqp	accuracy: 0.8992579767499381	f1: 0.8653598228157748
+138.81 seconds	yoshitomo-matsubara/bert-base-uncased-qqp	accuracy: 0.9094731634924561	f1: 0.8783244680851064
+405.98 seconds	howey/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
+140.35 seconds	gchhablani/bert-base-cased-finetuned-qqp	accuracy: 0.9083848627256987	f1: 0.8767633750332712
+139.65 seconds	A-bhimany-u08/bert-base-cased-qqp	accuracy: 0.8907741775908978	f1: 0.8532987841339447
+72.35 seconds	textattack/distilbert-base-cased-QQP	accuracy: 0.8974771209497897	f1: 0.8627437994635584
+158.51 seconds	textattack/albert-base-v2-QQP	accuracy: 0.9073460301756122	f1: 0.8746402516565156
+119.31 seconds	echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	accuracy: 0.9097947069008162	f1: 0.8787364921030757
+71.20 seconds	textattack/distilbert-base-uncased-QQP	accuracy: 0.5338609943111551	f1: 0.5966008818870672

@@ -1,1 +1,2 @@
-hostname = asimov-32.svail.baidu.com
+hostname = asimov-30
+2.56 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/syn_ant/noun.64/ckpt/64/best	accuracy: 0.8640776699029126	f1: 0.8640776699029126

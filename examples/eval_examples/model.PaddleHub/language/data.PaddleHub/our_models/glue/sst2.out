@@ -1,1 +1,12 @@
-hostname = asimov-32.svail.baidu.com
+hostname = asimov-35.svail.baidu.com
+3.81 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/sst2/ckpt/best	accuracy: 0.9071100917431193
+7.60 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.512/sst2/ckpt/best	accuracy: 0.9461009174311926
+7.42 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.256/sst2/ckpt/best	accuracy: 0.9415137614678899
+7.38 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.256/sst2/ckpt/best	accuracy: 0.9518348623853211
+7.54 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.128/sst2/ckpt/best	accuracy: 0.944954128440367
+3.33 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.512/sst2/ckpt/best	accuracy: 0.9323394495412844
+3.44 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.256/sst2/ckpt/best	accuracy: 0.9288990825688074
+3.27 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.256/sst2/ckpt/best	accuracy: 0.9392201834862385
+4.03 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.512/sst2/ckpt/best	accuracy: 0.9380733944954128
+3.47 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.128/sst2/ckpt/best	accuracy: 0.9403669724770642
+4.37 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128/sst2/ckpt/best	accuracy: 0.9357798165137615

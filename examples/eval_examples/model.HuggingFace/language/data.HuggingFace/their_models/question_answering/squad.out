@@ -1,1 +1,233 @@
 hostname = asimov-88.svail.baidu.com
+05/03/2022 09:23:46 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-de4831230e86cb83.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-26f4f4ffc5249dfb.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ec2291c315e2710a.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-cf1284df4328417e.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-92859c352b4e0b30.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-86c94cb001e029e9.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-84105251c7c65314.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-894ce4a553966fb8.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a1a7e53f20d120ff.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-581f97c6122d38e6.arrow
+05/03/2022 09:24:36 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-dea8506dfc514cdf.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-af78b1e7da140444.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ebb7b9248eded072.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-de7dbde38806b331.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a3cfeb8b8bbda6cb.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-1453d0b751e636ee.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-c73fb9c88eb15211.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-243f008251b7e996.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-afd895de67229c80.arrow
+05/03/2022 09:24:37 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-eeec88f8d10c0a6f.arrow
+05/03/2022 09:24:42 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 09:25:57 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10822 features.
+***** eval metrics *****
+  eval_exact_match = 79.6405
+  eval_f1          =  87.021
+  eval_samples     =   10822
+157.13 seconds	distilbert-base-cased-distilled-squad	eval_exact_match: 79.64049195837275	eval_f1: 87.02095850548544	eval_samples: 10822
+05/03/2022 09:26:34 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-eb3879363e6bf66c.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-0c8ea50b02b0ab67.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-18de68363f115479.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-84837a1b66aefc7c.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-0d55fa71937031a9.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a4364f5b6da63a2a.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-f5e1a8526f251b03.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-5d0daedb5a029695.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b62bba58146313fa.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-88bae53ce1a955cb.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-f29207a9d5be3594.arrow
+05/03/2022 09:27:06 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-65e039467e8993e4.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-26df46e3bb1bc312.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-fd471c2e5ab9413b.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a3c303de27427c02.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b35466ac644626ca.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-66fdd495b9a8d86a.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-912f5881707473c3.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-8fae3de3f5cb281e.arrow
+05/03/2022 09:27:07 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-1ebb17a5524a7c39.arrow
+05/03/2022 09:27:10 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 09:34:03 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10784 features.
+***** eval metrics *****
+  eval_exact_match = 86.9253
+  eval_f1          = 93.1584
+  eval_samples     =   10784
+474.25 seconds	bert-large-uncased-whole-word-masking-finetuned-squad	eval_exact_match: 86.92526017029329	eval_f1: 93.1584175315528	eval_samples: 10784
+05/03/2022 09:34:35 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3b01297bb9fcd5ca.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7ae337a9fdb31660.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-abfd3c620f06b27d.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-0edd349b7cb22833.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-fe20601f53270ab3.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-c1504c4f91074dc7.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-4c390897b5cf78ca.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-858510e6856e83e6.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b2ad5734685dd3e6.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-bf7e2aca9e862072.arrow
+05/03/2022 09:34:51 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-4c6e5c7d27121f6a.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-e213911f24465438.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7dd9ce0d4340c9ad.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7bfa8f3699c034ae.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-29b596d93eb84e3d.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-bb3a320c2aae30f4.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-27b0c1cc3a1ceddc.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-39e9a61f9ab3a6a4.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3f98d55c573f31b7.arrow
+05/03/2022 09:34:52 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-29c003dcc6968d50.arrow
+05/03/2022 09:34:56 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 09:36:10 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10784 features.
+***** eval metrics *****
+  eval_exact_match =  79.035
+  eval_f1          = 86.8374
+  eval_samples     =   10784
+118.99 seconds	distilbert-base-uncased-distilled-squad	eval_exact_match: 79.03500473036897	eval_f1: 86.83736151281336	eval_samples: 10784
+05/03/2022 09:36:40 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b2724c32883dfac9.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-6e3ed5e27fd27fb3.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-5d43036c44e82580.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-c09b8ebb40895bef.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-312a0c8fbf0970af.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-91376603e8f1f9b0.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-bad2cd637ca335e1.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3a2660056f24a14a.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-17dd73cf7f8c9631.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-72a1c5d043ef321f.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-225b9df7ca7785f9.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-e556c55aed6b055e.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7d7a696b4ed3cd66.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a84b0576d44b9ad9.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3045c8c551988b4b.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a7934eb9877d69ed.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-8334867c9f9cfa7e.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-2011761ae88e7c3b.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-c94fa0f91078dace.arrow
+05/03/2022 09:37:22 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-4d857556a3530b35.arrow
+05/03/2022 09:37:26 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 09:44:24 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10822 features.
+***** eval metrics *****
+  eval_exact_match = 87.6727
+  eval_f1          = 93.4744
+  eval_samples     =   10822
+489.31 seconds	bert-large-cased-whole-word-masking-finetuned-squad	eval_exact_match: 87.67265846736045	eval_f1: 93.47435384873131	eval_samples: 10822
+05/03/2022 09:44:55 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:45:14 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-1ad353bf604fe17c.arrow
+05/03/2022 09:45:14 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ea16e34ab6ce9ffc.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-28b3163c576d8149.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b7b7cb688b94ee2b.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-8da52973231e31e1.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3a9536784751506c.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-872607165b170fcf.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-5f740d7735bb077e.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-de22bd4f12da0f97.arrow
+05/03/2022 09:45:15 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-188043b585572065.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-8a066c5ec7dd01e1.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-5992fd1c0a2b4b6d.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-08b3d72cc7385d0b.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-98ff93e21bfa3c88.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-5846d1ee15bab25d.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b1d6544a557917b0.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-fab04771f2186725.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-e449442aba67c7dc.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-98ac3d6659173575.arrow
+05/03/2022 09:45:16 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ccfc6081249f4b27.arrow
+05/03/2022 09:45:20 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 09:47:37 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10790 features.
+***** eval metrics *****
+  eval_exact_match = 83.6235
+  eval_f1          = 91.1823
+  eval_samples     =   10790
+185.75 seconds	thatdramebaazguy/roberta-base-squad	eval_exact_match: 83.62346263008514	eval_f1: 91.18233646277577	eval_samples: 10790
+05/03/2022 09:48:06 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:48:47 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-c42f65ff97db55be.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-677e0e89bf27b6e9.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-6267929f876e4a5e.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-d6235a71200e71b8.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a5984e5e981cadee.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-5f64263566bba94a.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-9071676860b38bd2.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-c4dc8d62f75a83bd.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-fc6e9dfa189c3224.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-c36a61b1870c333c.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-bd65dccd29233fae.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-e7776a60834f2d27.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a5f6728ed640158a.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-679d7f794ce61e3d.arrow
+05/03/2022 09:48:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-d7c22ad4ee633665.arrow
+05/03/2022 09:48:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-be81fef514b202c4.arrow
+05/03/2022 09:48:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a7f544ec4bfdc05f.arrow
+05/03/2022 09:48:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ed3d4d2bbe7faa12.arrow
+05/03/2022 09:48:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-69d9e329a64bb74b.arrow
+05/03/2022 09:48:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7b9a7039ee063761.arrow
+05/03/2022 09:48:52 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 09:56:08 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10850 features.
+***** eval metrics *****
+  eval_exact_match = 85.3737
+  eval_f1          = 91.8329
+  eval_samples     =   10850
+508.99 seconds	dmis-lab/biobert-large-cased-v1.1-squad	eval_exact_match: 85.37369914853359	eval_f1: 91.8329408660021	eval_samples: 10850
+05/03/2022 09:56:40 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:56:45 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-cc43c56b5cfc2a4c.arrow
+05/03/2022 09:56:45 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b988d0597ebccb61.arrow
+05/03/2022 09:56:45 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-d1279afd2962e25e.arrow
+05/03/2022 09:56:45 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-37483ec22c60ede8.arrow
+05/03/2022 09:56:45 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-bdbd937a6bd1c4b1.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-133a6375bfb63215.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7ccabad68bf78534.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-24f8b23c3dfb4a58.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-3454b21d127e921c.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-8942955cd79c4b60.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-b03a19c0399e8405.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-014c01dd4867aec5.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-6ad0d89c020fca53.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-dfef25b14f7c134e.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a6d7a300d3678ade.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-6e1fe73d6ebe6ae4.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-94326a4fb5f29f25.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-f0cddec80adaeecf.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-6d11758ed119574f.arrow
+05/03/2022 09:56:46 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-90b1ad7b7c9f2613.arrow
+05/03/2022 09:56:49 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 09:57:03 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10822 features.
+***** eval metrics *****
+  eval_exact_match = 0.1419
+  eval_f1          = 4.8005
+  eval_samples     =  10822
+45.45 seconds	sshleifer/tiny-distilbert-base-cased-distilled-squad	eval_exact_match: 0.14191106906338694	eval_f1: 4.8005091062845775	eval_samples: 10822
+05/03/2022 09:57:28 - WARNING - gft.gft_internals.eval_for_classify_spans_hf - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+column_names: ['id', 'title', 'context', 'question', 'answers']
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7d7f6dc19fc18861.arrow
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-90112714342b4ecc.arrow
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-1302325ba18c64b0.arrow
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7769ebdeed48b87d.arrow
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-97c19c2289dda4c1.arrow
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-f4a603ee29870565.arrow
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7db0a1911becb516.arrow
+05/03/2022 09:57:48 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ecf3031062613e49.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-071f5a34571db5d0.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-a15996815e0547d7.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-49c9d062d981c0b1.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-795b140785d0eefc.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-f963321935e5107c.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-522a52dc80eea701.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-f8068f9beb7afc6e.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-83a41e577b7ee533.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-65c9aca243faad5e.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-7b95c710d21368c7.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-71cec332ee71d8e4.arrow
+05/03/2022 09:57:49 - WARNING - datasets.arrow_dataset - Loading cached processed dataset at /mnt/home/kwc/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453/cache-ed194e7a85904622.arrow
+05/03/2022 09:57:52 - INFO - gft.gft_internals.eval_for_classify_spans_hf - *** Evaluate ***
+05/03/2022 10:00:09 - INFO - gft.gft_internals.utils_qa - Post-processing 10570 example predictions split into 10784 features.
+***** eval metrics *****
+  eval_exact_match = 80.9082
+  eval_f1          = 88.2275
+  eval_samples     =   10784
+185.37 seconds	csarron/bert-base-uncased-squad-v1	eval_exact_match: 80.90823084200568	eval_f1: 88.22754061399627	eval_samples: 10784

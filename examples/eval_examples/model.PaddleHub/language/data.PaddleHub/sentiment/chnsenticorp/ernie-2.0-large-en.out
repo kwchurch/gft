@@ -1,1 +1,2 @@
-hostname = asimov-88.svail.baidu.com
+hostname = asimov-35.svail.baidu.com
+31.99 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-2.0-large-en/ckpt/best	accuracy: 0.7666666666666667	f1: 0.7657269715190933

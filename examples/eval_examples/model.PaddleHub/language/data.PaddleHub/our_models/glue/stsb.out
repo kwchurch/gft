@@ -1,1 +1,12 @@
-hostname = asimov-35.svail.baidu.com
+hostname = asimov-44.svail.baidu.com
+6.46 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/stsb/ckpt/best	pearson: 0.574981210122515
+13.27 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.256/stsb/ckpt/best	pearson: 0.49089104225257074
+13.16 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.256/stsb/ckpt/best	pearson: 0.07346025656762405
+13.09 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.128/stsb/ckpt/best	pearson: -0.020347965152139064
+13.18 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.128/stsb/ckpt/best	pearson: 0.24600963445142796
+5.78 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.512/stsb/ckpt/best	pearson: -0.14922360983069333
+6.86 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.256/stsb/ckpt/best	pearson: 0.3444954521016887
+5.82 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.256/stsb/ckpt/best	pearson: -0.13826903560368276
+5.76 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.512/stsb/ckpt/best	pearson: -0.2236809150637045
+6.63 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.128/stsb/ckpt/best	pearson: 0.5441268372708765
+5.61 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128/stsb/ckpt/best	pearson: 0.23091987361824506

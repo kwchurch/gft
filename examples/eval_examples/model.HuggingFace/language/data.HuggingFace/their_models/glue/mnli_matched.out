@@ -1,1 +1,14 @@
-hostname = asimov-26.svail.baidu.com
+hostname = asimov-86.svail.baidu.com
+147.46 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
+124.20 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
+20.87 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
+66.90 seconds	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	accuracy: 0.875394803871625
+68.46 seconds	valhalla/distilbart-mnli-12-1	accuracy: 0.2748853795211411
+149.63 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
+105.55 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
+40.50 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
+150.14 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
+***ERROR***	model: H:microsoft/deberta-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.93 GiB total capacity; 10.81 GiB already allocated; 11.56 MiB free; 11.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f81ce745a80>)
+121.41 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8989302088639837
+84.03 seconds	valhalla/distilbart-mnli-12-3	accuracy: 0.28833418237391745
+152.76 seconds	joeddav/bart-large-mnli-yahoo-answers	accuracy: 0.32134488028527763
