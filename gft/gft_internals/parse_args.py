@@ -326,7 +326,7 @@ If there are two comma separated values, then the first is the name of a dataset
             " passed to the tokenizer for tokenization. Note that"
             " this is only relevant if the model classifies the"
             " input audio to a sequence of phoneme sequences."
-        }),
+        })
 
     # for classify_spans
     max_answer_length: int = field(
