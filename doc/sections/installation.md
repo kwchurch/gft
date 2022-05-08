@@ -21,6 +21,7 @@ work.  To do that, you may need to clone this repo since pip does not
 install these extra resources.
 
 ```sh
+git clone https://github.com/kwchurch/gft
 ls $gft/examples
 ls $gft/datasets
 ls $gft/doc
