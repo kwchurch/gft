@@ -4,13 +4,13 @@
 
 <h1>Installation</h1>
 
-If you have docker (and linux and a GPU):
+If you have docker:
 
 ```sh
 docker pull kchurch4/gft:latest
 ```
 
-Alternatively,
+Alternatively (if you have a GPU),
 
 ```sh
 pip install gft
