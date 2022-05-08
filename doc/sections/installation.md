@@ -4,6 +4,14 @@
 
 <h1>Installation</h1>
 
+If you have docker
+
+```sh
+docker pull kchurch4/gft:latest
+```
+
+Alternatively,
+
 ```sh
 pip install gft
 ```
