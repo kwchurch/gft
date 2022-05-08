@@ -5,9 +5,9 @@
 
 <h1>Quick Links</h1>
 <ol>
-<li>Videos 📽️<<ol>
-	<li>📽️<<a href="https://youtu.be/IKjx38AV4bo">10 minute TEASER</a></li>
-	<li>🆕📽️<<a href="https://youtu.be/fWS-pgKYE_o">First half of ACL-2022 Tutorial (1 hour 16 minutes) UNABRIDGED</a></li>
+<li>Videos 📽️ <ol>
+	<li>📽️ <a href="https://youtu.be/IKjx38AV4bo">10 minute TEASER</a></li>
+	<li>🆕📽️ <a href="https://youtu.be/fWS-pgKYE_o">First half of ACL-2022 Tutorial (1 hour 16 minutes) UNABRIDGED</a></li>
 	</ol></li>
 <li><a href="doc/sections/installation.md">Installation</a></li>
 <li><a href="doc/README.md">Documentation</a></li>
