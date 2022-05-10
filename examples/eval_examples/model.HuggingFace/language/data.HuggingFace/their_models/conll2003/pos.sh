@@ -18,6 +18,7 @@ gft_eval --model H:$model \
     --eqn 'classify_tokens: pos_tags ~ tokens' \
     --split test \
     --figure_of_merit overall_accuracy \
-    --is_split_into_words
+    --is_split_into_words \
+    --pad_to_max_length
 
 done

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo hostname = `hostname`
-m=model.HuggingFace
+m=model.PaddleHub
 
 gft_eval --model H:$gft_checkpoints/fit_examples/$m/language/KGC/WN18RR/ckpt/best \
     --base_model H:bert-base-cased \

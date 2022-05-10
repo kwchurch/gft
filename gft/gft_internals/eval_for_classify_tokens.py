@@ -224,14 +224,14 @@ MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
 #     return args
 
 def my_eval(args, eqn, accelerator, raw_datasets):
-    print('calling my_eval in eval_for_classify_tokens.py', file=sys.stderr)
+    print('calling my_eval in eval_for_classify_tokens.py')
     assert eqn['eqn_type'] == parse_eqn.eqn_types['classify_tokens'], \
-        'fit_for_classify_tokens is for eqn_type: classify_tokens, but eqn_type is: ' + str(eqn['eqn_type'])
+        'eval_for_classify_tokens is for eqn_type: classify_tokens, but eqn_type is: ' + str(eqn['eqn_type'])
 
 
     # If passed along, set the training seed now.
     seed = get_arg(args, 'seed', default=None)
-    print('seed: ' + str(seed), file=sys.stderr)
+    print('seed: ' + str(seed))
     if not seed is None:
         set_seed(seed)
 
@@ -263,10 +263,10 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     assert len(y_field_names) == 1, 'classify_tokens is currently limited to just one y variable: ' + str(y_field_names)
     assert len(x_field_names) in [1,2], 'classify_tokens is currently limited to just one or two x variables: ' + str(x_field_names)
 
-    print('label_list: ' + str(label_list), file=sys.stderr)
-    print('interned_labels: ' + str(interned_labels), file=sys.stderr)
-    print('num_labels: ' + str(num_labels), file=sys.stderr)
-    print('label_to_id: ' + str(label_to_id), file=sys.stderr)
+    print('label_list: ' + str(label_list))
+    print('interned_labels: ' + str(interned_labels))
+    print('num_labels: ' + str(num_labels))
+    print('label_to_id: ' + str(label_to_id))
 
     def id_ify(lab):
         if lab in interned_labels:
@@ -281,11 +281,11 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     assert not metric_provider == 'PaddlePaddle', 'PaddlePaddle metrics are not supported (yet)'  # stub to flesh out later
 
     if metric_key is None:
-        print('load_metric: seqeval', file=sys.stderr)
+        print('load_metric: seqeval')
         val_metric = load_metric("seqeval")
         train_metric = load_metric("seqeval")
     else:
-        print('load_metric: ' + metric_key, file=sys.stderr)
+        print('load_metric: ' + metric_key)
         val_metric = load_metric(*metric_key.split(','))
         train_metric = load_metric(*metric_key.split(','))
 
@@ -326,11 +326,12 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     model,tokenizer,extractor = my_load_model_tokenizer_and_extractor(args)
 
     # config = AutoConfig.from_pretrained(model_key, num_labels=num_labels)
-    # # else:
-    # #     config = CONFIG_MAPPING[args.model_type]()
-    # #     logger.warning("You are instantiating a new config instance from scratch.")
 
-    # # tokenizer_name_or_path = args.tokenizer_name if args.tokenizer_name else model_key
+    # else:
+    #     config = CONFIG_MAPPING[args.model_type]()
+    #     logger.warning("You are instantiating a new config instance from scratch.")
+
+    # tokenizer_name_or_path = args.tokenizer_name if args.tokenizer_name else model_key
     # tokenizer_name_or_path = model_key
     # if not tokenizer_name_or_path:
     #     raise ValueError(
@@ -350,7 +351,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     #     model = AutoModelForTokenClassification.from_config(config)
 
     model.resize_token_embeddings(len(tokenizer))
-
+    
     # Preprocessing the datasets.
     # First we tokenize all the texts.
 
@@ -491,7 +492,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     # Scheduler and math around the number of training steps.
     gas = get_arg(args, 'gradient_accumulation_steps', default=1)
     num_update_steps_per_epoch = math.ceil(len(train_dataloader) / gas)
-    epochs = int(get_arg(args, 'num_train_epochs', default=1))
+    epochs = int(get_arg(args, 'num_train_epochs', default=15))
     max_train_steps = get_arg(args, 'max_train_steps', default=None)
     if max_train_steps is None:
         max_train_steps = epochs * num_update_steps_per_epoch
@@ -592,8 +593,9 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     best_so_far = None
     time0 = time.time()
     for epoch in range(epochs):
-        print('about to train epoch %d: %0.0f sec' % (epoch, time.time() - time0), file=sys.stderr)
-        # model.train()
+        print('about to train epoch %d: %0.0f sec' % (epoch, time.time() - time0))
+        model.train()
+        # commented this part out
         # for step, batch in enumerate(train_dataloader):
         #     outputs = model(**batch)
         #     loss = outputs.loss
@@ -609,7 +611,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
         #     if completed_steps >= max_train_steps:
         #         break
 
-        print('about to eval epoch %d: %0.0f sec' % (epoch, time.time() - time0), file=sys.stderr)
+        print('about to eval epoch %d: %0.0f sec' % (epoch, time.time() - time0))
         model.eval()
         for step, batch in enumerate(eval_dataloader):
             with torch.no_grad():
@@ -633,20 +635,12 @@ def my_eval(args, eqn, accelerator, raw_datasets):
         logger.info(f"epoch {epoch}: {eval_metric} {time.time() - time0} seconds")
         accelerator.print('%0.0f seconds: epoch %d validation %s' % (time.time() - time0, epoch, str(eval_metric)))
 
-        fig = get_arg(args, 'figure_of_merit', default=None)
-
-        if fig is None:
-            res = '\t'.join(['%s: %s' % (k, str(eval_metric[k])) for k in eval_metric])
-        else:
-            res = '%s: %s' % (fig, str(eval_metric[fig]))
-
-        accelerator.print('\t'.join(map(str, ['%0.2f seconds' % (time.time() - time0), model_key, res])))
-
+        # commented this part out
         # fn = checkpoint_filename(args, model_key, epoch, False)
         # b,best = better(args, eval_metric, best_so_far)
         # if b:
         #     best_so_far = best
-        #     print('best_so_far: %f' % (best_so_far), file=sys.stderr)
+        #     print('best_so_far: %f' % (best_so_far))
         #     fn = checkpoint_filename(args, model_key, epoch, True)
         # if not get_arg(args, 'output_dir') is None:
         #     prev = checkpoint_filename(args, model_key, epoch-1, False)
