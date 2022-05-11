@@ -1,8 +1,8 @@
 hostname = asimov-92.svail.baidu.com
-0.98 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.512/rte/ckpt/best	accuracy: 0.5631768953068592
-1.21 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/rte/ckpt/best	accuracy: 0.555956678700361
-2.89 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.256/rte/ckpt/best	accuracy: 0.5992779783393501
-0.88 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/rte/ckpt/best	accuracy: 0.592057761732852
-1.04 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/rte/ckpt/best	accuracy: 0.6028880866425993
-1.83 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.128/rte/ckpt/best	accuracy: 0.7472924187725631
-2.72 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/rte/ckpt/best	accuracy: 0.6750902527075813
+1.01 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.512/rte/ckpt/best	accuracy: 0.5631768953068592
+1.04 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.256/rte/ckpt/best	accuracy: 0.555956678700361
+0.86 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.256/rte/ckpt/best	accuracy: 0.5992779783393501
+0.87 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.2.batch.128/rte/ckpt/best	accuracy: 0.592057761732852
+1.01 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/distilbert-base-uncased/glue.lr.1.batch.128/rte/ckpt/best	accuracy: 0.6028880866425993
+1.81 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/hyper/roberta-base/glue.lr.2.batch.128/rte/ckpt/best	accuracy: 0.7472924187725631
+1.70 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/rte/ckpt/best	accuracy: 0.6750902527075813

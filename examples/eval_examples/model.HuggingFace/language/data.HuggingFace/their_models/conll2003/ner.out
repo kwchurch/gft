@@ -1,51 +1,145 @@
-hostname = asimov-86.svail.baidu.com
-26 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
-26.29 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
-53 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
-52.95 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
-80 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
-80.01 seconds	dbmdz/bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.8308555618338757
-3 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
-3.40 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
+hostname = asimov-26.svail.baidu.com
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
+27 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+about to train epoch 1: 27 sec
+about to eval epoch 1: 27 sec
+54 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+about to train epoch 2: 54 sec
+about to eval epoch 2: 54 sec
+81 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.8308555618338757}
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
+4 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+about to train epoch 1: 4 sec
+about to eval epoch 1: 4 sec
 7 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
-6.80 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
-10 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
-10.20 seconds	sshleifer/tiny-dbmdz-bert-large-cased-finetuned-conll03-english	overall_accuracy: 0.007969136644389455
-6 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
-6.36 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
+about to train epoch 2: 7 sec
+about to eval epoch 2: 7 sec
+11 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.007969136644389455}
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
+7 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+about to train epoch 1: 7 sec
+about to eval epoch 1: 7 sec
 13 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
-12.65 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
-19 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
-19.13 seconds	elastic/distilbert-base-uncased-finetuned-conll03-english	overall_accuracy: 0.9881970278324211
-28 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
-28.01 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
-57 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
-56.51 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
-85 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
-85.40 seconds	xlm-roberta-large-finetuned-conll03-german	overall_accuracy: 0.005572441742654508
-***ERROR***	model: H:dbmdz/electra-large-discriminator-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f5a1706b880>)
+about to train epoch 2: 13 sec
+about to eval epoch 2: 13 sec
+20 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9881970278324211}
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
+29 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+about to train epoch 1: 29 sec
+about to eval epoch 1: 29 sec
+58 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+about to train epoch 2: 58 sec
+about to eval epoch 2: 58 sec
+89 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.005572441742654508}
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+***ERROR***	model: H:dbmdz/electra-large-discriminator-finetuned-conll03-english	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'AssertionError'>, AssertionError('label mismatch: model has 8 labels, but dataset has 9 labels'), <traceback object at 0x7f11cea18fc0>)
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
 7 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
-6.51 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
-13 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
-13.10 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
+about to train epoch 1: 7 sec
+about to eval epoch 1: 7 sec
+14 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
+about to train epoch 2: 14 sec
+about to eval epoch 2: 14 sec
 20 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9898291214465249}
-19.74 seconds	elastic/distilbert-base-cased-finetuned-conll03-english	overall_accuracy: 0.9898291214465249
-***ERROR***	model: H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7fc8f7080940>)
-6 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
-6.43 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+***ERROR***	model: H:philschmid/distilroberta-base-ner-wikiann-conll2003-3-class	data: H:conll2003	eqn: classify_tokens: ner_tags ~ tokens	splits: test	split: test	task: None	error: (<class 'AssertionError'>, AssertionError('label mismatch: model has 7 labels, but dataset has 9 labels'), <traceback object at 0x7f4ee0a8eac0>)
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
+7 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
+about to train epoch 1: 7 sec
+about to eval epoch 1: 7 sec
 14 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
-13.53 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
+about to train epoch 2: 14 sec
+about to eval epoch 2: 14 sec
 20 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9922468539369619}
-19.93 seconds	philschmid/distilroberta-base-ner-conll2003	overall_accuracy: 0.9922468539369619
-12 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
-11.98 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
-24 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
-24.01 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
-37 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
-36.69 seconds	bertin-project/bertin-base-ner-conll2002-es	overall_accuracy: 0.9206732642406297
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
+13 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+about to train epoch 1: 13 sec
+about to eval epoch 1: 13 sec
+25 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+about to train epoch 2: 25 sec
+about to eval epoch 2: 25 sec
+38 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.9206732642406297}
+calling my_eval in eval_for_classify_tokens.py
+seed: 42
+label_list: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+interned_labels: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+num_labels: 9
+label_to_id: {0: 0, 1: 1, 2: 2, 3: 3, 4: 4, 5: 5, 6: 6, 7: 7, 8: 8}
+load_metric: seqeval
+about to train epoch 0: 0 sec
+about to eval epoch 0: 0 sec
 13 seconds: epoch 0 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
-12.66 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
-25 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
-25.25 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
-38 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
-37.90 seconds	wietsedv/bert-base-dutch-cased-finetuned-conll2002-ner	overall_accuracy: 0.01132112236944661
+about to train epoch 1: 13 sec
+about to eval epoch 1: 13 sec
+26 seconds: epoch 1 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}
+about to train epoch 2: 26 sec
+about to eval epoch 2: 26 sec
+39 seconds: epoch 2 validation {'overall_precision': 0.0, 'overall_recall': 0.0, 'overall_f1': 0.0, 'overall_accuracy': 0.01132112236944661}

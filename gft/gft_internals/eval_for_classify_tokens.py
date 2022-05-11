@@ -325,6 +325,11 @@ def my_eval(args, eqn, accelerator, raw_datasets):
     from gft.gft_internals.my_auto_model_hf import my_load_model_tokenizer_and_extractor
     model,tokenizer,extractor = my_load_model_tokenizer_and_extractor(args)
 
+    from gft.gft_internals.gft_util import labels_from_model
+    labs = labels_from_model(model)
+    print('labs: ' + str(labs), file=sys.stderr)
+    assert num_labels == len(labs), 'label mismatch: model has %d labels, but dataset has %d labels' % (len(labs), num_labels)
+
     # config = AutoConfig.from_pretrained(model_key, num_labels=num_labels)
 
     # else:
@@ -417,6 +422,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
 
             labels.append(label_ids)
         tokenized_inputs["labels"] = labels
+        # print('tokenized_inputs[labels]: ' + str(labels), file=sys.stderr)
 
         return tokenized_inputs
 
@@ -425,6 +431,9 @@ def my_eval(args, eqn, accelerator, raw_datasets):
             return split.column_names
         except:
             return None
+
+    # cnames = colnames(raw_datasets["train"])
+    # print('cnames: ' + str(cnames))
 
     processed_raw_datasets = raw_datasets.map(
         tokenize_and_align_labels,
@@ -618,6 +627,7 @@ def my_eval(args, eqn, accelerator, raw_datasets):
                 outputs = model(**batch)
             predictions = outputs.logits.argmax(dim=-1)
             labels = batch["labels"]
+            # print('batch[labels]: ' + str(labels))
             if not pad_to_max_length:  # necessary to pad predictions and labels for being gathered
                 predictions = accelerator.pad_across_processes(predictions, dim=1, pad_index=-100)
                 labels = accelerator.pad_across_processes(labels, dim=1, pad_index=-100)

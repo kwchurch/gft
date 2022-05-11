@@ -1,14 +1,14 @@
 hostname = asimov-35.svail.baidu.com
-3.94 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/cola/ckpt/best	matthews_correlation: 0.0
-6.11 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.512/cola/ckpt/best	matthews_correlation: 0.5782027446370238
-6.03 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.565965534490769
-6.00 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.6313240280042023
-5.83 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.512/cola/ckpt/best	matthews_correlation: 0.550612081256011
-5.77 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.6342890666845706
-5.84 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.6175983998812103
-3.46 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.512/cola/ckpt/best	matthews_correlation: 0.5030939162269567
-3.26 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.4858792091986291
-3.38 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.5408374954915984
-4.31 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.512/cola/ckpt/best	matthews_correlation: 0.39950616612594125
-3.46 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.5575782477551274
-3.30 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.5494767866076017
+3.97 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/cola/ckpt/best	matthews_correlation: 0.0
+6.80 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.512/cola/ckpt/best	matthews_correlation: 0.5782027446370238
+6.55 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.565965534490769
+6.82 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.6313240280042023
+6.55 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.512/cola/ckpt/best	matthews_correlation: 0.550612081256011
+6.31 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.6342890666845706
+6.65 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-large-en/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.6175983998812103
+3.71 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.512/cola/ckpt/best	matthews_correlation: 0.5030939162269567
+3.88 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.256/cola/ckpt/best	matthews_correlation: 0.4858792091986291
+3.93 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.256/cola/ckpt/best	matthews_correlation: 0.5408374954915984
+3.86 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.512/cola/ckpt/best	matthews_correlation: 0.39950616612594125
+3.52 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.2.batch.128/cola/ckpt/best	matthews_correlation: 0.5575782477551274
+3.52 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/hyper/ernie-2.0-en/glue.lr.1.batch.128/cola/ckpt/best	matthews_correlation: 0.5494767866076017

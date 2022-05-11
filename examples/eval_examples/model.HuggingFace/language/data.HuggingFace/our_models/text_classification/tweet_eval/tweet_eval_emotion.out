@@ -1,2 +1,2 @@
 hostname = asimov-89.svail.baidu.com
-5.33 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emotion/ckpt/best	accuracy: 0.7959183673469388	f1: 0.7592905284708108
+5.25 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.HuggingFace/language/data.HuggingFace/text_classification/tweet_eval/tweet_eval_emotion/ckpt/best	accuracy: 0.7959183673469388	f1: 0.7592905284708108

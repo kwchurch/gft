@@ -1,5 +1,5 @@
 hostname = asimov-27.svail.baidu.com
-8.34 seconds	philschmid/BERT-Banking77	accuracy: 0.02564935064935065	f1: 0.025809633404570112
-4.99 seconds	mrm8488/distilroberta-finetuned-banking77	accuracy: 0.8961038961038961	f1: 0.8914871607409227
-5.04 seconds	philschmid/DistilBERT-Banking77	accuracy: 0.026298701298701297	f1: 0.02647662073822411
-5.10 seconds	philschmid/RoBERTa-Banking77	accuracy: 0.026298701298701297	f1: 0.026443240463879983
+8.16 seconds	philschmid/BERT-Banking77	accuracy: 0.02564935064935065	f1: 0.025809633404570112
+5.24 seconds	mrm8488/distilroberta-finetuned-banking77	accuracy: 0.8961038961038961	f1: 0.8914871607409227
+5.18 seconds	philschmid/DistilBERT-Banking77	accuracy: 0.026298701298701297	f1: 0.02647662073822411
+5.14 seconds	philschmid/RoBERTa-Banking77	accuracy: 0.026298701298701297	f1: 0.026443240463879983

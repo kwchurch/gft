@@ -1,2 +1,2 @@
 hostname = asimov-32.svail.baidu.com
-6.81 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-tiny/ckpt/best	accuracy: 0.915	f1: 0.9148855683752601
+6.83 seconds	/mnt/big/kwc/morphology/results/20220422/fit_examples/model.PaddleHub/language/data.PaddleHub/sentiment/chnsenticorp/ernie-tiny/ckpt/best	accuracy: 0.915	f1: 0.9148855683752601

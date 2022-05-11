@@ -105,6 +105,9 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
         interned_labels = label_list = None
         num_labels = len(y_field_names)
 
+    print('labels_from_model: ' + str(labs), file=sys.stderr)
+    print('num_labels_from_data: ' + str(num_labels), file=sys.stderr)
+
     # model = AutoModelForSequenceClassification_hf.from_pretrained(model_key, return_dict=True, num_labels=num_labels)
     # if not base_model_key is None: 
     #     tokenizer = AutoTokenizer_hf.from_pretrained(base_model_key)

@@ -1,2 +1,2 @@
 hostname = asimov-50.svail.baidu.com
-15.37 seconds	ernie-1.0	accuracy: 0.5555	f1: 0.47552225800352155
+15.13 seconds	ernie-1.0	accuracy: 0.438	f1: 0.3548527813077203

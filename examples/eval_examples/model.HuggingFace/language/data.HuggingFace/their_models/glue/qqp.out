@@ -1,30 +1,30 @@
 hostname = asimov-84.svail.baidu.com
-137.23 seconds	textattack/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
-72.26 seconds	assemblyai/distilbert-base-uncased-qqp	accuracy: 0.8992579767499381	f1: 0.8653598228157748
-138.81 seconds	yoshitomo-matsubara/bert-base-uncased-qqp	accuracy: 0.9094731634924561	f1: 0.8783244680851064
-405.98 seconds	howey/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
-140.35 seconds	gchhablani/bert-base-cased-finetuned-qqp	accuracy: 0.9083848627256987	f1: 0.8767633750332712
-139.65 seconds	A-bhimany-u08/bert-base-cased-qqp	accuracy: 0.8907741775908978	f1: 0.8532987841339447
-72.35 seconds	textattack/distilbert-base-cased-QQP	accuracy: 0.8974771209497897	f1: 0.8627437994635584
-158.51 seconds	textattack/albert-base-v2-QQP	accuracy: 0.9073460301756122	f1: 0.8746402516565156
-119.31 seconds	echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	accuracy: 0.9097947069008162	f1: 0.8787364921030757
-71.20 seconds	textattack/distilbert-base-uncased-QQP	accuracy: 0.5338609943111551	f1: 0.5966008818870672
-173.44 seconds	textattack/xlnet-base-cased-QQP	accuracy: 0.9066287410338857	f1: 0.8742127886441637
-135.92 seconds	howey/bert-base-uncased-qqp	accuracy: 0.9108830076675736	f1: 0.8800878623489866
-515.46 seconds	textattack/xlnet-large-cased-QQP	accuracy: 0.6318327974276527	f1: 0.0
-136.27 seconds	yoshitomo-matsubara/bert-base-uncased-qqp_from_bert-large-uncased-qqp	accuracy: 0.9132822161761068	f1: 0.8831255417027802
-400.65 seconds	Maelstrom77/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
-404.54 seconds	yoshitomo-matsubara/bert-large-uncased-qqp	accuracy: 0.9107346030175613	f1: 0.8807533454485379
-158.97 seconds	Alireza1044/albert-base-v2-qqp	accuracy: 0.9049715557754143	f1: 0.8722569490623753
-139.23 seconds	AnonARR/qqp-bert	accuracy: 0.9069502844422459	f1: 0.874858625507285
-136.27 seconds	Maelstrom77/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
-136.92 seconds	TehranNLP-org/roberta-base-qqp-2e-5-42	accuracy: 0.9159040316596587	f1: 0.8880252931102622
-***ERROR***	model: H:persiannlp/mt5-base-parsinlu-qqp-query-paraphrasing	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7fbb459eaec0>)
-33.64 seconds	M-FAC/bert-mini-finetuned-qqp	accuracy: 0.8703190699975266	f1: 0.8298445461331256
-25.02 seconds	M-FAC/bert-tiny-finetuned-qqp	accuracy: 0.8440267128370023	f1: 0.7984273110855389
-134.41 seconds	TehranNLP-org/bert-base-uncased-qqp-2e-5-42	accuracy: 0.9125154588177096	f1: 0.8823470711505838
-462.22 seconds	anirudh21/albert-large-v2-finetuned-qqp	accuracy: 0.8959930744496661	f1: 0.85981931526486
-***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-qqp	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('adapters are not supported in newer version of transformers; tranformers.__version__ is 4.18.0; adapter_key is: AdapterHub/bert-base-uncased-pf-qqp'), <traceback object at 0x7fc8b7f15140>)
-140.10 seconds	zyl1024/bert-base-cased-finetuned-qqp	accuracy: 0.9069502844422459	f1: 0.874858625507285
-***ERROR***	model: H:persiannlp/mt5-small-parsinlu-qqp-query-paraphrasing	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7fc1e73bd700>)
-172.65 seconds	jkgrad/xlnet-base-cased-qqp	accuracy: 0.9122186495176848	f1: 0.8817827520735485
+136.89 seconds	textattack/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
+72.50 seconds	assemblyai/distilbert-base-uncased-qqp	accuracy: 0.8992579767499381	f1: 0.8653598228157748
+136.19 seconds	yoshitomo-matsubara/bert-base-uncased-qqp	accuracy: 0.9094731634924561	f1: 0.8783244680851064
+385.59 seconds	howey/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
+137.06 seconds	gchhablani/bert-base-cased-finetuned-qqp	accuracy: 0.9083848627256987	f1: 0.8767633750332712
+137.38 seconds	A-bhimany-u08/bert-base-cased-qqp	accuracy: 0.8907741775908978	f1: 0.8532987841339447
+72.86 seconds	textattack/distilbert-base-cased-QQP	accuracy: 0.8974771209497897	f1: 0.8627437994635584
+156.72 seconds	textattack/albert-base-v2-QQP	accuracy: 0.9073460301756122	f1: 0.8746402516565156
+118.76 seconds	echarlaix/bert-base-uncased-qqp-f87.8-d36-hybrid	accuracy: 0.9097947069008162	f1: 0.8787364921030757
+71.61 seconds	textattack/distilbert-base-uncased-QQP	accuracy: 0.5338609943111551	f1: 0.5966008818870672
+170.13 seconds	textattack/xlnet-base-cased-QQP	accuracy: 0.9066287410338857	f1: 0.8742127886441637
+134.00 seconds	howey/bert-base-uncased-qqp	accuracy: 0.9108830076675736	f1: 0.8800878623489866
+491.38 seconds	textattack/xlnet-large-cased-QQP	accuracy: 0.6318327974276527	f1: 0.0
+133.71 seconds	yoshitomo-matsubara/bert-base-uncased-qqp_from_bert-large-uncased-qqp	accuracy: 0.9132822161761068	f1: 0.8831255417027802
+384.80 seconds	Maelstrom77/roberta-large-qqp	accuracy: 0.9213702696017808	f1: 0.8958217270194986
+385.03 seconds	yoshitomo-matsubara/bert-large-uncased-qqp	accuracy: 0.9107346030175613	f1: 0.8807533454485379
+156.95 seconds	Alireza1044/albert-base-v2-qqp	accuracy: 0.9049715557754143	f1: 0.8722569490623753
+136.80 seconds	AnonARR/qqp-bert	accuracy: 0.9069502844422459	f1: 0.874858625507285
+133.68 seconds	Maelstrom77/bert-base-uncased-QQP	accuracy: 0.9090774177590898	f1: 0.8781813361611877
+133.05 seconds	TehranNLP-org/roberta-base-qqp-2e-5-42	accuracy: 0.9159040316596587	f1: 0.8880252931102622
+***ERROR***	model: H:persiannlp/mt5-base-parsinlu-qqp-query-paraphrasing	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7fbf972f0e00>)
+32.80 seconds	M-FAC/bert-mini-finetuned-qqp	accuracy: 0.8703190699975266	f1: 0.8298445461331256
+23.92 seconds	M-FAC/bert-tiny-finetuned-qqp	accuracy: 0.8440267128370023	f1: 0.7984273110855389
+132.93 seconds	TehranNLP-org/bert-base-uncased-qqp-2e-5-42	accuracy: 0.9125154588177096	f1: 0.8823470711505838
+440.31 seconds	anirudh21/albert-large-v2-finetuned-qqp	accuracy: 0.8959930744496661	f1: 0.85981931526486
+***ERROR***	model: H:AdapterHub/bert-base-uncased-pf-qqp	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('adapters are not supported in newer version of transformers; tranformers.__version__ is 4.18.0; adapter_key is: AdapterHub/bert-base-uncased-pf-qqp'), <traceback object at 0x7f2cd5d99dc0>)
+135.02 seconds	zyl1024/bert-base-cased-finetuned-qqp	accuracy: 0.9069502844422459	f1: 0.874858625507285
+***ERROR***	model: H:persiannlp/mt5-small-parsinlu-qqp-query-paraphrasing	data: H:glue,qqp	eqn: classify: label ~ question1 + question2	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7fbfc944fd40>)
+169.13 seconds	jkgrad/xlnet-base-cased-qqp	accuracy: 0.9122186495176848	f1: 0.8817827520735485

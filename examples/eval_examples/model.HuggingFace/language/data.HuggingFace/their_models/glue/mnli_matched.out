@@ -1,31 +1,31 @@
 hostname = asimov-86.svail.baidu.com
-147.46 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
-124.20 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
-20.87 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
+146.94 seconds	facebook/bart-large-mnli	accuracy: 0.282730514518594
+123.99 seconds	roberta-large-mnli	accuracy: 0.28364747834946513
+21.96 seconds	typeform/distilbert-base-uncased-mnli	accuracy: 0.8221090168110036
 66.90 seconds	MoritzLaurer/mDeBERTa-v3-base-mnli-xnli	accuracy: 0.875394803871625
 68.46 seconds	valhalla/distilbart-mnli-12-1	accuracy: 0.2748853795211411
-149.63 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
-105.55 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
-40.50 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
-150.14 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
-***ERROR***	model: H:microsoft/deberta-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.93 GiB total capacity; 10.81 GiB already allocated; 11.56 MiB free; 11.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f81ce745a80>)
-121.41 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8989302088639837
-84.03 seconds	valhalla/distilbart-mnli-12-3	accuracy: 0.28833418237391745
-152.76 seconds	joeddav/bart-large-mnli-yahoo-answers	accuracy: 0.32134488028527763
-58.49 seconds	typeform/mobilebert-uncased-mnli	accuracy: 0.8354559347936832
-40.27 seconds	textattack/bert-base-uncased-MNLI	accuracy: 0.06459500764136526
-126.70 seconds	valhalla/distilbart-mnli-12-9	accuracy: 0.28517575140091694
-55.79 seconds	MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	accuracy: 0.9035150280183393
-16.53 seconds	prajjwal1/bert-medium-mnli	accuracy: 0.11013754457463067
-48.97 seconds	microsoft/deberta-base-mnli	accuracy: 0.2913907284768212
-41.98 seconds	NbAiLab/nb-bert-base-mnli	accuracy: 0.2910850738665308
-***ERROR***	model: H:MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f898b1bfe80>)
-***ERROR***	model: H:alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7f7c2e9a9b40>)
-47.73 seconds	prajjwal1/albert-base-v2-mnli	accuracy: 0.06459500764136526
-***ERROR***	model: H:symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f465cfff740>)
-52.09 seconds	textattack/xlnet-base-cased-MNLI	accuracy: 0.05522159959246052
-***ERROR***	model: H:typeform/roberta-large-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'OSError'>, OSError('typeform/roberta-large-mnli does not appear to have a file named pytorch_model.bin but there is a file for TensorFlow weights. Use `from_tf=True` to load this model from those weights.'), <traceback object at 0x7f1f4c896ec0>)
-***ERROR***	model: H:microsoft/deberta-v2-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 24.00 MiB (GPU 0; 11.93 GiB total capacity; 10.92 GiB already allocated; 9.56 MiB free; 11.30 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f56336e83c0>)
-***ERROR***	model: H:ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 40.00 MiB (GPU 0; 11.93 GiB total capacity; 8.80 GiB already allocated; 5.56 MiB free; 11.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f4a270bf100>)
-***ERROR***	model: H:microsoft/deberta-v2-xxlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.93 GiB total capacity; 11.04 GiB already allocated; 19.56 MiB free; 11.29 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7fb3a710a780>)
-8.18 seconds	prajjwal1/bert-mini-mnli	accuracy: 0.1489556800815079
+149.89 seconds	Narsil/deberta-large-mnli-zero-cls	accuracy: 0.29057564951604686
+107.57 seconds	valhalla/distilbart-mnli-12-6	accuracy: 0.29291900152827305
+39.56 seconds	textattack/roberta-base-MNLI	accuracy: 0.2873153336729496
+151.21 seconds	microsoft/deberta-large-mnli	accuracy: 0.29057564951604686
+***ERROR***	model: H:microsoft/deberta-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.93 GiB total capacity; 10.81 GiB already allocated; 11.56 MiB free; 11.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f974e330e00>)
+123.15 seconds	ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli	accuracy: 0.8989302088639837
+85.08 seconds	valhalla/distilbart-mnli-12-3	accuracy: 0.28833418237391745
+151.65 seconds	joeddav/bart-large-mnli-yahoo-answers	accuracy: 0.32134488028527763
+58.87 seconds	typeform/mobilebert-uncased-mnli	accuracy: 0.8354559347936832
+40.30 seconds	textattack/bert-base-uncased-MNLI	accuracy: 0.06459500764136526
+126.75 seconds	valhalla/distilbart-mnli-12-9	accuracy: 0.28517575140091694
+56.76 seconds	MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli	accuracy: 0.9035150280183393
+17.62 seconds	prajjwal1/bert-medium-mnli	accuracy: 0.11013754457463067
+49.19 seconds	microsoft/deberta-base-mnli	accuracy: 0.2913907284768212
+43.11 seconds	NbAiLab/nb-bert-base-mnli	accuracy: 0.2910850738665308
+***ERROR***	model: H:MoritzLaurer/xtremedistil-l6-h256-mnli-fever-anli-ling-binary	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA error: device-side assert triggered\nCUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.\nFor debugging consider passing CUDA_LAUNCH_BLOCKING=1.'), <traceback object at 0x7f7a07ac2b80>)
+***ERROR***	model: H:alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'ValueError'>, ValueError('not enough values to unpack (expected 2, got 1)'), <traceback object at 0x7f9350616380>)
+46.85 seconds	prajjwal1/albert-base-v2-mnli	accuracy: 0.06459500764136526
+***ERROR***	model: H:symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'AssertionError'>, AssertionError('auto_model_for_X, task not supported: sentence-similarity'), <traceback object at 0x7f720bab0480>)
+51.98 seconds	textattack/xlnet-base-cased-MNLI	accuracy: 0.05522159959246052
+***ERROR***	model: H:typeform/roberta-large-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'OSError'>, OSError('typeform/roberta-large-mnli does not appear to have a file named pytorch_model.bin but there is a file for TensorFlow weights. Use `from_tf=True` to load this model from those weights.'), <traceback object at 0x7f2c1e429740>)
+***ERROR***	model: H:microsoft/deberta-v2-xlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 24.00 MiB (GPU 0; 11.93 GiB total capacity; 10.92 GiB already allocated; 9.56 MiB free; 11.30 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f4cfe738ec0>)
+***ERROR***	model: H:ynie/albert-xxlarge-v2-snli_mnli_fever_anli_R1_R2_R3-nli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 40.00 MiB (GPU 0; 11.93 GiB total capacity; 8.80 GiB already allocated; 5.56 MiB free; 11.31 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f7487a40280>)
+***ERROR***	model: H:microsoft/deberta-v2-xxlarge-mnli	data: H:glue,mnli	eqn: classify: label ~ premise + hypothesis	splits: val	split: val	task: None	error: (<class 'RuntimeError'>, RuntimeError('CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 11.93 GiB total capacity; 11.04 GiB already allocated; 19.56 MiB free; 11.29 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF'), <traceback object at 0x7f7c4c90ef80>)
+8.65 seconds	prajjwal1/bert-mini-mnli	accuracy: 0.1489556800815079
