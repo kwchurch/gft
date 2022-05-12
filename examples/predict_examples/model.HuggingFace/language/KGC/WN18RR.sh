@@ -1,10 +1,12 @@
 #!/bin/sh
 
+model=$gft_checkpoints/fit_examples/model.HuggingFace/language/KGC/WN18RR/ckpt/best
+
 echo hostname = `hostname`
 
-gft_predict --model H:bert-base-cased \
+gft_predict --model H:$model \
     --data C:$gft/datasets/KGC/WN18RR \
-    --output_dir $1 \
     --eqn 'classify: gold ~ Word1 + Word2' \
-    --num_train_epochs 10
+    --split test
+
 

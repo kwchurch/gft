@@ -2,11 +2,12 @@
 
 task=stsb
 
+# eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1 \
+
 for model in cross-encoder/stsb-roberta-large \
 cross-encoder/stsb-roberta-base \
 cross-encoder/stsb-TinyBERT-L-4 \
 cross-encoder/stsb-distilroberta-base \
-eduardofv/stsb-m-mt-es-distiluse-base-multilingual-cased-v1 \
 pritamdeka/S-Biomed-Roberta-snli-multinli-stsb \
 howey/bert-base-uncased-stsb \
 

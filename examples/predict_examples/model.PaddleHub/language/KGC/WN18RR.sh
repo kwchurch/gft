@@ -1,10 +1,12 @@
 #!/bin/sh
 
+model=$gft_checkpoints/fit_examples/model.PaddleHub/language/KGC/WN18RR/ckpt/best
+
 echo hostname = `hostname`
 
-gft_predict --model P:bert-base-cased \
+gft_predict --model P:$model \
     --data C:$gft/datasets/KGC/WN18RR \
-    --output_dir $1 \
     --eqn 'classify: gold ~ Word1 + Word2' \
-    --num_train_epochs 10
+    --split test
+
 

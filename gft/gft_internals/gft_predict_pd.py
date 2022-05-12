@@ -167,21 +167,21 @@ def apply_task(args, xfields, tf, task, model, tokenizer):
 
 def apply_task_internal(args, xfields, tf, task, model, tokenizer):
 
-    print('apply_task_internal: task = ' + str(task) + ' tf = ' + str(tf), file=sys.stderr)
-    print('xfields: ' + str(xfields), file=sys.stderr)
+    # print('apply_task_internal: task = ' + str(task) + ' tf = ' + str(tf), file=sys.stderr)
+    # print('xfields: ' + str(xfields), file=sys.stderr)
     assert not tokenizer is None, 'tokenizer should not be None'
 
     if task is None:
         assert not model is None, 'model should not be None'
         assert not tokenizer is None, 'tokenizer should not be None'
         tokens = tokenizer(*xfields)
-        print('tokens: ' + str(tokens), file=sys.stderr)
+        # print('tokens: ' + str(tokens), file=sys.stderr)
         # outputs = model(paddle.to_tensor([tokens]))
         outputs = model(paddle.to_tensor([tokens['input_ids']]),
                         token_type_ids=paddle.to_tensor([tokens['token_type_ids']]))
 
 
-        print('outputs: ' + str(outputs), file=sys.stderr)
+        # print('outputs: ' + str(outputs), file=sys.stderr)
         # import pdb
         # pdb.set_trace()
 
