@@ -16,6 +16,7 @@ def main():
     parser.add_argument("--data_dir", type=str, help="optional argument to HuggingFace datasets.load_dataset (usually not needed)", default=None)
     parser.add_argument("--eqn", type=str, help="example: classify: labels ~ sentence1 + sentence2", default=None)
     parser.add_argument("--split", type=str, help="train,val,test, etc.", default=None)
+    parser.add_argument("--splits", type=str, help="3 comma separate values for train,val,test (if dataset does not have a val set, use __select_from_train__ for val) (replaces train_split_name and eval_split_name).", default=None)
     parser.add_argument("--task", type=str, help="see https://huggingface.co/docs/transformers/v4.16.2/en/main_classes/pipelines#transformers.pipeline.task", default=None)
     # parser.add_argument("--adapter", type=str, help="adpater (https://github.com/Adapter-Hub/adapter-transformers)", default=None)
     parser.add_argument("--labels", type=str, help="file containing labels", default=None)

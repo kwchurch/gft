@@ -9,8 +9,13 @@ d=data.$hub
 find $gft_checkpoints/fit_examples/$m/language/$d/hyper/ -name 'best' | egrep "$task"_mismatched |
     while read model
 	  do
-echo model = $model
 
-gft_predict --data H:glue,mnli --eqn 'classify: label ~ premise + hypothesis' --splits train,validation_mismatched,test_matched  --split test --model $model
+    echo "MODEL = $model"
+    gft_predict --data P:glue,mnli \
+		--eqn 'classify: labels ~ sentence1 + sentence2' \
+		--splits train,dev_mismatched,test_mismatched \
+		--split dev_mismatched \
+		--model H:$model 
+
     done
 
