@@ -127,10 +127,16 @@ def summarize_splits_pd(data_key, datasets):
 def summarize_dataset_pd(args, config=None):
 
     data_provider,data_key = parse_dataset_specification(args)
+    data_key_pieces = data_key.split(',')
+    
+    if len(data_key_pieces) == 2 and data_key_pieces[1] == config:
+        data_key = data_key_pieces[0]
+
     split = get_arg(args, 'split')
 
-    from gft.gft_internals.paddle_dataset_zoo import paddle_dataset_infos
     # print('data_key: ' + str(data_key), file=sys.stderr)
+
+    from gft.gft_internals.paddle_dataset_zoo import paddle_dataset_infos
     infos = paddle_dataset_infos(data_key, config=config)
     # print('infos: ' + str(infos), file=sys.stderr)
     # print('config: ' + str(config), file=sys.stderr)
@@ -167,9 +173,9 @@ def summarize_dataset_pd(args, config=None):
                 splits = ','.join(info['splits'])
             else:
                 splits = None
-            print('info: ' + str(info), file=sys.stderr)
-            print('splits: ' + str(splits), file=sys.stderr)
-            print('config: ' + str(config), file=sys.stderr)
+            # print('info: ' + str(info), file=sys.stderr)
+            # print('splits: ' + str(splits), file=sys.stderr)
+            # print('config: ' + str(config), file=sys.stderr)
             datasets = my_datasets.my_load_dataset(args, config=config, default_splits=splits)
             ds = None
             # pdb.set_trace()
