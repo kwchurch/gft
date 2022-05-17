@@ -191,8 +191,10 @@ def intern_labels(dataset, fields, args, labs=None):
     else:
         print('intern_labels: computing defaults', file=sys.stderr)
         res = {}
-        for split in dataset:
-            if split == 'test': continue
+        for i,split in enumerate(dataset):
+            # if split == 'test': continue
+            if i > 0: continue
+            print('split: ' + str(split), file=sys.stderr)
             for record in dataset[split]:
                 for field in fields:
                     if field in record:

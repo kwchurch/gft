@@ -11,7 +11,7 @@ do
     gft_predict --data P:glue,mnli \
 		--eqn 'classify: labels ~ sentence1 + sentence2' \
 		--splits train,dev_matched,test_matched \
-		--split dev_mismatched \
+		--split dev_matched \
 		--model H:$model 
 
 done

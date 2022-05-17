@@ -96,6 +96,11 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
         interned_labels = label_list = None
         num_labels = len(y_field_names)
 
+
+    # print('num_labels: ' + str(num_labels), file=sys.stderr)
+    # import pdb
+    # pdb.set_trace()
+
     model_provider,model_key = parse_model_specification(args)
     assert model_provider == 'PaddleHub', 'This case is for PaddleHub, not HuggingFace; provider = ' + str(model_provider)
 
@@ -301,12 +306,15 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
         weight_decay=float(get_arg(args, 'weight_decay', default=0.0)),
         apply_decay_param_fun=lambda x: x in decay_params)
 
+    print('label_list: ' + str(label_list), file=sys.stderr)
+
     loss_fct = paddle.nn.loss.CrossEntropyLoss(
     ) if label_list else paddle.nn.loss.MSELoss()
 
     global_step = 0
     best_so_far = None
     for epoch in range(num_train_epochs):
+        print('epoch: ' + str(epoch), file=sys.stderr)
         for step, batch in enumerate(train_data_loader):
             global_step += 1
             if global_step >= num_training_steps:
@@ -317,7 +325,15 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
             # print('input_ids.shape: ' + str(input_ids.shape) + '\tsegment_ids.shape: ' + str(segment_ids.shape), file=sys.stderr)
 
             logits = model(input_ids, segment_ids)
-            loss = loss_fct(logits, labels)
+            try:
+                loss = loss_fct(logits, labels)
+            except:
+                print('num_labels: ' + str(num_labels), file=sys.stderr)
+                print('logits: ' + str(logits), file=sys.stderr)
+                print('labels: ' + str(labels), file=sys.stderr)
+                import pdb
+                pdb.set_trace()
+                
             loss.backward()
             optimizer.step()
             lr_scheduler.step()
@@ -338,6 +354,7 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
         model.train()
 
         fn = checkpoint_filename(args, model_key, epoch, False)
+        print('fn: ' + str(fn), file=sys.stderr)
         b, best = better(args, eval_metric, best_so_far)
         if b:
             best_so_far = best
