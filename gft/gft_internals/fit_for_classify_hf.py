@@ -252,11 +252,16 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
     best_so_far = None
     time0 = time.time()
 
+    import pdb
     for epoch in range(int(epochs)):
         model.train()
         for step, batch in enumerate(train_dataloader):
             outputs = model(**batch)
             loss = outputs.loss
+            # uncomment these lines to see details
+            # print('outputs: ' + str(outputs), file=sys.stderr)
+            # print('loss: ' + str(loss), file=sys.stderr)
+            # pdb.set_trace()
             loss = loss / gas
             accelerator.backward(loss)
             if step % gas == 0 or step == len(train_dataloader) - 1:

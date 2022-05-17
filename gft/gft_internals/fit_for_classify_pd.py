@@ -313,6 +313,7 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
 
     global_step = 0
     best_so_far = None
+    successes=0
     for epoch in range(num_train_epochs):
         print('epoch: ' + str(epoch), file=sys.stderr)
         for step, batch in enumerate(train_data_loader):
@@ -327,10 +328,12 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
             logits = model(input_ids, segment_ids)
             try:
                 loss = loss_fct(logits, labels)
+                successes += 1
             except:
                 print('num_labels: ' + str(num_labels), file=sys.stderr)
                 print('logits: ' + str(logits), file=sys.stderr)
                 print('labels: ' + str(labels), file=sys.stderr)
+                print('successes: ' + str(successes), file=sys.stderr)
                 import pdb
                 pdb.set_trace()
                 
