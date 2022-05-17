@@ -5,16 +5,17 @@
 <li>Question 1: Status: <i>resolved</i></li>
 </ul>
 
-<h1>Question 0: Summary</h1>
+<h1>Question 0: Num_labels and number of logits</h1>
 
-Please compare fit_for_classify_hf.py with fit_for_classify_pd.py
+When num_labels is 3, I expect to see 3 logits.  I see this with fit_for_classify_hf.py, but not with fit_for_classify_pd.py
 
 ```sh
 sh $gft/examples/fit_examples/model.HuggingFace/language/data.HuggingFace/glue/mnli_matched.sh $gft_checkpoints/junk/mnli_matched_hf
 sh $gft/examples/fit_examples/model.PaddleHub/language/data.HuggingFace/glue/mnli_matched.sh $gft_checkpoints/junk/mnli_matched_hf
 ```
 
-The hf version works, but the pd version fails.  Here is the output from the pd version just before the break point (search for pdb.set_trace in fit_for_classify_pd.py):
+The hf version works, but the pd version fails.  Here is the output from the pd version just before the break point (search for pdb.set_trace in fit_for_classify_pd.py).
+Note that there are only two logits.
 
 ```sh
 label_list: [0, 1, 2]
@@ -45,6 +46,7 @@ successes: 0
 ```
 
 Here is the output from the hf version (search for "uncomment these lines to see details" and then uncomment the lines after that).
+Note that there are 3 logits.
 
 ```sh
 outputs: SequenceClassifierOutput(loss=tensor(1.0791, device='cuda:0', grad_fn=<NllLossBackward0>), logits=tensor([[ 0.1724, -0.1555,  0.0753],
@@ -62,7 +64,7 @@ loss: tensor(1.0791, device='cuda:0', grad_fn=<NllLossBackward0>)
 (Pdb)
 ```
 
-Note the difference in shapes.  The hf version creates 3 logits (because num_labels is 3), but the pd version creates only 2 logits.  Do you know why the pd version creates only 2 logits?
+Do you know why the pd version creates only 2 logits?
 
 <h1>Question 1: Summary</h1>
 I could use help with the summarize_model function in 
