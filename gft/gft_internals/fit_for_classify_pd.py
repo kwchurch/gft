@@ -105,7 +105,8 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
     assert model_provider == 'PaddleHub', 'This case is for PaddleHub, not HuggingFace; provider = ' + str(model_provider)
 
     print('num_labels: ' + str(num_labels), file=sys.stderr)
-    model = AutoModelForSequenceClassification_pd.from_pretrained(model_key, return_dict=True, num_labels=num_labels)
+    model = AutoModelForSequenceClassification_pd.from_pretrained(model_key, return_dict=True, num_classes=num_labels)
+    # model = AutoModelForSequenceClassification_pd.from_pretrained(model_key, return_dict=True, num_labels=num_labels)
     tokenizer = AutoTokenizer_pd.from_pretrained(model_key)
 
     # pdb.set_trace()
