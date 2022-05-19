@@ -104,4 +104,23 @@ illustrated in the examples below.
 
 <h1>Citations, Documentation, etc.</h1>
 
-Paper (draft) is <a href="https://github.com/kwchurch/ACL2022_deepnets_tutorial/blob/main/papers/1.pdf">here.</a>
+Paper is <a href="https://aclanthology.org/2022.acl-tutorials.1/">here.</a>
+
+```sh
+@inproceedings{church-etal-2022-gentle,
+    title = "A Gentle Introduction to Deep Nets and Opportunities for the Future",
+    author = "Church, Kenneth  and
+      Kordoni, Valia  and
+      Marcus, Gary  and
+      Davis, Ernest  and
+      Ma, Yanjun  and
+      Chen, Zeyu",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Tutorial Abstracts",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-tutorials.1",
+    pages = "1--6",
+    abstract = "The first half of this tutorial will make deep nets more accessible to a broader audience, following {``}Deep Nets for Poets{''} and {``}A Gentle Introduction to Fine-Tuning.{''} We will also introduce GFT (general fine tuning), a little language for fine tuning deep nets with short (one line) programs that are as easy to code as regression in statistics packages such as R using glm (general linear models). Based on the success of these methods on a number of benchmarks, one might come away with the impression that deep nets are all we need. However, we believe the glass is half-full: while there is much that can be done with deep nets, there is always more to do. The second half of this tutorial will discuss some of these opportunities.",
+}```
