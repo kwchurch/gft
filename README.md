@@ -6,8 +6,6 @@
 <h1>Quick Links</h1>
 <ol>
 
-<li> <a href="https://github.com/kwchurch/ACL2022_deepnets_tutorial">ACL-2022 Tutorial</a></li>
-
 <li> Papers 
 <ol>
 <li><a href="https://aclanthology.org/2022.acl-tutorials.1/">ACL-2022 Tutorial</a></li>
