@@ -5,6 +5,16 @@
 
 <h1>Quick Links</h1>
 <ol>
+
+<li> <a href="https://github.com/kwchurch/ACL2022_deepnets_tutorial">ACL-2022 Tutorial</a></li>
+
+<li> Papers 
+<ol>
+<li><a href="https://aclanthology.org/2022.acl-tutorials.1/">ACL-2022 Tutorial</a></li>
+<li><a href="https://www.doi.org/10.1017/S1351324922000237">JNLE</a></li>
+</ol>
+</li>
+
 <li>Videos 📽️ <ol>
 	<li>📽️ <a href="https://youtu.be/IKjx38AV4bo">10 minute TEASER</a></li>
 	<li>🆕📽️ <a href="https://youtu.be/fWS-pgKYE_o">First half of ACL-2022 Tutorial (1 hour 16 minutes) UNABRIDGED</a></li>
