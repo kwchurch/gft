@@ -43,7 +43,7 @@ large models.
 WARNING: Some of the fine-tuning scripts take a long time, and not all examples are working (yet).
 
 <p>
-<b><i>NOTE</i><b>: It is not possible to run everything under a single virtual environment.  See <a href="../../requirements/README.me">here</a> for more details.
+<b><i>NOTE</i></b>: It is not possible to run everything under a single virtual environment.  See <a href="../../requirements/README.me">here</a> for more details.
 
 <p>
 Warning, <i>gft</i> programs will load models and datasets into your cache (typically, $HOME/.cache/huggingface and $HOME/.paddlenlp).
