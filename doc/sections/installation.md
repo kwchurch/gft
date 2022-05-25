@@ -50,4 +50,4 @@ Warning, <i>gft</i> programs will load models and datasets into your cache (typi
 If you have limited disk space in your home directory, you might want to use symbolic links to point them to some place with more disk space.
 
 <p>
-If you want to use $gft/datasets/VAD, see <a href="../../datasets/VAD">instructions for reconstituing VAD</a>.
+If you want to use $gft/datasets/VAD, see <a href="../../datasets/VAD">instructions for reconstituting VAD</a>.
