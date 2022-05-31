@@ -50,5 +50,6 @@ mastering the task.  This kind of leakage between training and set splits is ref
 correlations</i>.  See <a href="http://proceedings.mlr.press/v119/sagawa20a.html">here</a> for a recent paper on this topic.
 
 <p>
-Psychology has a considerble literature on validity and reliability.  This discussion presupposes the existence of a hypothesis.  Datasets are collected
-to test that hypothesis.
+Psychology has a considerble literature on <a href="https://en.wikipedia.org/wiki/Validity_(statistics)">validity</a> and <a href="https://en.wikipedia.org/wiki/Reliability_(statistics)">reliability</a>.
+This discussion presupposes the existence of a hypothesis.  Datasets are collected in order
+to test that hypothesis.  There tends to be less emphasis on hypothesis testing in machine learning.
