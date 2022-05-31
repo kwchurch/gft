@@ -11,7 +11,7 @@ gft_summary --data P:__contains__ --topn 10000000 --fast_mode
 
 In addition to these datasets, one can also create models on the local disk with <a href="../functions/gft_fit.md">gft_fit</a> (or any other method).
 <p>
-Many of <i>gft</i> functions take a --data argument.  The value of this argument is typically: <data_provider>:<data_key>, where <data_provider> is a hub, H or P, and data_key is the name
+Many of <i>gft</i> functions take a --data argument.  The value of this argument is typically: \<data_provider\>:\<data_key\>, where \<data_provider\> is a hub, H or P, and data_key is the name
 of a dataset supported by the hub.
 
 
