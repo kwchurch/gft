@@ -75,13 +75,20 @@ def summarize_task_internal(s, tt):
 def summarize_task(args):
     provider,task = parse_task_specification(args)
 
-    if task is None: return
+    # print('provider: ' + str(provider), file=sys.stderr)
+    # print('task: ' + str(task), file=sys.stderr)
+
+    if task is None or task == "None": 
+        # print('killroy 1', file=sys.stderr)
+        return
 
     if '__contains__' in task:
+        # print('killroy 2', file=sys.stderr)
         s = task[len('__contains__'):].lower()
         for tt in canconicalized_pipeline_tags:
             summarize_task_internal(s, tt)
     else:
+        # print('killroy 3', file=sys.stderr)
         ctask = canonicalize_task(task)
         if ctask in task_help:
             print(ctask + '\t' + task_help[ctask])

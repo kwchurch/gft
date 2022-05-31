@@ -284,7 +284,8 @@ def gft_summary_hf(args):
     from gft.gft_internals.my_task import summarize_task
     summarize_task(args)
 
-    if model_key == '__infer__' or model_key is None:
+    # used to be: or model_key is None:
+    if model_key == '__infer__':
         infer_models_from_dataset(args)
         infer_models_from_task(args)
 
