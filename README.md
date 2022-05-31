@@ -108,11 +108,11 @@ code for steps 2 and 3 in the table above.
 
 Step 1, pre-training, is beyond the scope of this work.  We recommend
 starting with models from HuggingFace and PaddleHub/PaddleNLP hubs, as
-illustrated in the examples below.
+illustrated in the examples above.
 
 <h1>Citations, Documentation, etc.</h1>
 
-Paper is <a href="https://aclanthology.org/2022.acl-tutorials.1/">here.</a>
+Papers are <a href="https://aclanthology.org/2022.acl-tutorials.1/">here</a> and <a href="https://www.doi.org/10.1017/S1351324922000237">here</a>.
 
 ```sh
 @inproceedings{church-etal-2022-gentle,
@@ -132,4 +132,14 @@ Paper is <a href="https://aclanthology.org/2022.acl-tutorials.1/">here.</a>
     pages = "1--6",
     abstract = "The first half of this tutorial will make deep nets more accessible to a broader audience, following {``}Deep Nets for Poets{''} and {``}A Gentle Introduction to Fine-Tuning.{''} We will also introduce GFT (general fine tuning), a little language for fine tuning deep nets with short (one line) programs that are as easy to code as regression in statistics packages such as R using glm (general linear models). Based on the success of these methods on a number of benchmarks, one might come away with the impression that deep nets are all we need. However, we believe the glass is half-full: while there is much that can be done with deep nets, there is always more to do. The second half of this tutorial will discuss some of these opportunities.",
 }
+
+@article{church-etal-2022-gft, 
+   title={Emerging trends: General fine-tuning (gft)}, 
+   DOI={10.1017/S1351324922000237}, 
+   journal={Natural Language Engineering}, 
+   publisher={Cambridge University Press}, 
+   author={Church, Kenneth and Cai, Xingyu and Ying, Yibiao and Chen, Zeyu and Xun, Guangxu and Bian, Yuchen}, 
+   year={2022}, 
+   pages={1–17}}
+
 ```

@@ -16,7 +16,7 @@ Functions
 <li><a href="sections/functions/gft_predict.md">predict</a></li>
 <li><a href="sections/functions/gft_eval.md">eval</a></li>
 <li><a href="sections/functions/gft_summary.md">summary</a></li>
-<li><a href="sections/gft_cat_data.md">cat_data</a></li>
+<li><a href="sections/functions/gft_cat_data.md">cat_data</a></li>
 </ul></li>
 
 <li>
@@ -37,5 +37,5 @@ Arguments
 
 </ul>
 
-Paper (draft) is <a href="https://github.com/kwchurch/ACL2022_deepnets_tutorial/blob/main/papers/1.pdf">here.</a>
+Papers are <a href="https://aclanthology.org/2022.acl-tutorials.1/">here</a> and <a href="https://www.doi.org/10.1017/S1351324922000237">here</a>.
 
