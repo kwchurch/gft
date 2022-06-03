@@ -68,6 +68,20 @@ echo 'I <mask> you.' | gft_predict --task H:fill-mask
 # I <mask> you.	 salute|0.241	 miss|0.177	 love|0.147	 thank|0.060	 applaud|0.047
 ```
 
+<h3>Sentence Similarity</h3>
+
+```sh
+echo 'This is a test|blah blah|That was a test' | 
+gft_predict --task H:sentence-similarity --model sentence-transformers/allenai-specter
+```
+
+<h3>Feature Extraction</h3>
+
+```sh
+echo 'This is a test|blah blah|That was a test' | 
+gft_predict --task H:feature-extraction --model allenai/specter
+```
+
 <h3>Text Generation</h3>
 
 ```sh

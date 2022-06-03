@@ -25,7 +25,7 @@ Arguments
 <li><a href="sections/arguments/data.md">Data</a></li>
 <li><a href="sections/arguments/model.md">Models</a></li>
 <li><a href="sections/arguments/eqn.md">Equations</a></li>
-<li><a href="sections/argument/task.md">Tasks</a></li>
+<li><a href="sections/arguments/task.md">Tasks</a></li>
 </ul></li>
 
 <li>Appendices: 

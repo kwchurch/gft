@@ -12,7 +12,7 @@ gft_summary --task H:__contains__
 <tr><td>Audio_to_Audio</td><td></td><td></td></tr>
 <tr><td>AutomaticSpeechRecognition</td><td>ASR, ctc</td><td>input audio and output a transcription; also known as ASR (automatic speech recognition), STT (speech-to-text)</td></tr>
 <tr><td>Conversational</td><td></td><td></td></tr>
-<tr><td>FeatureExtraction</td><td></td><td></td></tr>
+<tr><td>FeatureExtraction</td><td>feature-extraction</td><td></td></tr>
 <tr><td>Fill_Mask</td><td></td><td>input text with a single mask (<mask>) and output fillers for <mask> with scores (probabilities)</td></tr>
 <tr><td>ImageClassification</td><td>classify_images, image-classification</td><td>input image and output a class label</td></tr>
 <tr><td>ImageSegmentation</td><td></td><td></td></tr>
@@ -20,7 +20,7 @@ gft_summary --task H:__contains__
 <tr><td>ObjectDetection</td><td></td><td></td></tr>
 <tr><td>QuestionAnswering</td><td>classify_spans, QA</td><td>input question and context, and output an answer (a substring of the context); also known as classify_spans, question-answering</td></tr>
 <tr><td>regress</td><td></td><td>like classify, but optimizes a different loss (mean squared error, as opposed to cross-entropy)</td></tr>
-<tr><td>SentenceSimilarity</td><td></td><td></td></tr>
+<tr><td>SentenceSimilarity</td><td>sentence-similarity</td><td></td></tr>
 <tr><td>StructuredDataClassification</td><td></td><td></td></tr>
 <tr><td>Summarization</td><td></td><td></td></tr>
 <tr><td>TableQuestionAnswering</td><td></td><td></td></tr>

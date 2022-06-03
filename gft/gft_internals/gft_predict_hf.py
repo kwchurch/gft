@@ -57,12 +57,63 @@ def labels_from_args(args):
     return labels
 
 def apply_pipeline(args, xfields, pipe, task, model, tokenizer):
-    
     if get_arg(args, 'do_not_catch_errors', default=False):
         return apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer), 0
     else:
         try: return apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer), 0
         except: return '***ERROR***', 1
+
+
+def old_sentence_similarity(args, xfields, pipe, task, model, tokenizer):
+    # from https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+    import torch
+    import torch.nn.functional as F
+    from transformers import AutoTokenizer, AutoModel
+
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer)
+    model = AutoModel.from_pretrained(model)
+    # print('sentence_similarity, tokenizer: ' + str(tokenizer))
+    # print('sentence_similarity, model: ' + str(model))
+    # print('sentence_similarity, xfields: ' + str(xfields))
+
+    #Mean Pooling - Take attention mask into account for correct averaging
+    def mean_pooling(model_output, attention_mask):
+        token_embeddings = model_output[0] #First element of model_output contains all token embeddings
+        input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
+        return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9)
+
+    # Tokenize sentences
+    encoded_input = tokenizer(xfields, padding=True, truncation=True, max_length=512, return_tensors='pt')
+    # encoded_input = tokenizer(xfields)
+
+    # Compute token embeddings
+    with torch.no_grad():
+        model_output = model(**encoded_input)
+
+    # Perform pooling
+    sentence_embeddings = mean_pooling(model_output, encoded_input['attention_mask'])
+
+    # Normalize embeddings
+    sentence_embeddings = F.normalize(sentence_embeddings, p=2, dim=1)
+
+    print('sentence_embeddings: ' + str(sentence_embeddings), file=sys.stderr)
+    return str(sentence_embeddings)
+
+def floats2str(fs):
+    return '\t'.join([str(f) for f in fs])
+
+def sentence_similarity(args, xfields, pipe, task, model, tokenizer):
+    # from https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
+    # from transformers import AutoTokenizer, AutoModel
+    from sentence_transformers import SentenceTransformer
+    import sklearn.metrics
+
+    # tokenizer = AutoTokenizer.from_pretrained(tokenizer)
+    model = SentenceTransformer(model)
+    embeddings = model.encode(xfields)
+
+    # print('embeddings: ' + str(embeddings), file=sys.stderr)
+    return str(floats2str(sklearn.metrics.pairwise.cosine_similarity(embeddings)[0,1:]))
 
 def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
     # print('xfields: ' + str(xfields), file=sys.stderr)
@@ -85,7 +136,14 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
         assert False, 'apply_pipeline_internal, task not supported: ' + task
 
     if task == "feature-extraction":
-        assert False, 'apply_pipeline_internal, task not supported: ' + task
+        res = pipe(xfields[0])
+        # import pdb
+        # pdb.set_trace()
+        # print('len(res): ' + str(len(res)), file=sys.stderr)
+        print('shapes: ' + str([np.array(r).shape for r in res]), file=sys.stderr)
+        return str(res)
+        #return '\t'.join(['%s|%0.3f' % (r['label'], r['score']) for r in res ])
+        # assert False, 'apply_pipeline_internal, task not supported: ' + task
 
     if task == "fill-mask":
 
@@ -102,6 +160,9 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
         else:
             res = pipe(xfields[0].replace("<mask>", mask_token))
         return '\t'.join(['%s|%0.3f' % (r['token_str'], r['score']) for r in res ])
+
+    if task == "sentence-similarity":
+        return sentence_similarity(args, xfields, pipe, task, model, tokenizer)
 
     if task == "image-classification":
         res = pipe(xfields[0])
@@ -197,7 +258,7 @@ def gft_predict_hf_with_pipeline(args):
     except:
         tokenizer = model = model_key
 
-    if task is None:
+    if task is None or task == "sentence-similarity":
         pipe = None
     elif model is None:
         print('task: ' + str(task), file=sys.stderr)
