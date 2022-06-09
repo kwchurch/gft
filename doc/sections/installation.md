@@ -13,6 +13,7 @@ docker pull kchurch4/gft:latest
 Alternatively (if you have a GPU),
 
 ```sh
+pip install wheel
 pip install gft
 ```
 
