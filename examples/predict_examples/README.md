@@ -1,6 +1,6 @@
 # Examples of gft_predict
 
-For documentation on <i>gft_predict</i>, see <a href="../../doc/sections/functions/predict.md">here</a>.
+For documentation on <i>gft_predict</i>, see <a href="../../doc/sections/functions/gft_predict.md/">here</a>.
 <p>
 All of the *.sh files under here can be run without arguments:
 
