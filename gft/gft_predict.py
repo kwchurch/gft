@@ -23,6 +23,8 @@ def main():
     parser.add_argument("--delimiter", type=str, help="defaults to tab", default='\t')
     parser.add_argument("--do_not_catch_errors", action='store_true')
     parser.add_argument("--evaluate", action='store_true')
+    parser.add_argument("--return_all_scores", action='store_true')
+    parser.add_argument("--top_k", type=int, help="arg for fill-mask task", default=None)
 
     # we can infer this when the time comes
     # parser.add_argument("--is_split_into_words", action='store_true')

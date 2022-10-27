@@ -35,7 +35,12 @@ echo 'I love you.' | gft_predict --task P:sentiment
 model=H:AdapterHub/bert-base-uncased-pf-emotion
 echo 'I love you.' | gft_predict --model $model --task H:text-classification
 # I love you.	love	0.6005669236183167
+
+# --return_all_scores
+echo 'I love you' | gft_predict --model $emotion --return_all_scores 2>/dev/null
+# I love you	anger	0.00220660911872983	disgust	0.0011457924265414476	fear	0.0005955399246886373	joy	0.9687249660491943	neutral	0.005502483807504177	sadness	0.016927149146795273	surprise	0.004897605162113905
 ```
+
 <h3>Token Classification</h3>
 
 ```sh
@@ -66,6 +71,9 @@ echo 'I love you.' | gft_predict --task P:pos_tagging
 # fill-mask: guess the masked word
 echo 'I <mask> you.' | gft_predict --task H:fill-mask
 # I <mask> you.	 salute|0.241	 miss|0.177	 love|0.147	 thank|0.060	 applaud|0.047
+
+echo 'I <mask> you' | gft_predict --task fill-mask --top_k 10 2>/dev/null
+# I <mask> you	 miss|0.295	 love|0.174	 salute|0.158	 thank|0.066	 appreciate|0.029	 congratulate|0.027	 applaud|0.023	 dare|0.020	 commend|0.016	 envy|0.013
 ```
 
 <h3>Sentence Similarity</h3>

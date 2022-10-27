@@ -129,6 +129,7 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
         assert False, 'apply_pipeline_internal, task not supported: ' + task
 
     if task == "ASR" or task == "automatic-speech-recognition":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         res = pipe(xfields[0])
         return res['text']
 
@@ -155,10 +156,17 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
             mask_token = pipe.tokenizer.mask_token
         else: mask_token = "<mask>"
 
-        if mask_token == "<mask>":
-            res = pipe(xfields[0])
+        top_k = get_arg(args, 'top_k', None)
+
+        xfields0 = xfields[0]
+        if mask_token != "<mask>":
+            xfields0 = xfields[0].replace("<mask>", mask_token)
+
+        if top_k is None:
+            res = pipe(xfields0)
         else:
-            res = pipe(xfields[0].replace("<mask>", mask_token))
+            res = pipe(xfields0, top_k=top_k)
+
         return '\t'.join(['%s|%0.3f' % (r['token_str'], r['score']) for r in res ])
 
     if task == "sentence-similarity":
@@ -170,6 +178,7 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
 
     if task == "QA" or task == "question-answering":
         assert len(xfields) == 2, 'expected 2 fields: found ' + str(len(xfields))
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         question,context=xfields[0:2]
         res = pipe({'question' : question, 'context' : context})
         return 'answer: ' + res['answer'] + '\tscore: %0.4f' % res['score'] + ' span: %d-%d' % (res['start'], res['end'])
@@ -178,6 +187,7 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
         assert False, 'apply_pipeline_internal, task not supported: ' + task
 
     if task == "text2text-generation":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         res = pipe(*xfields)
         return '\t'.join([r['generated_text'] for r in res])
         # assert False, 'apply_pipeline_internal, task not supported: ' + task
@@ -186,14 +196,19 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
         texts = [xfields[0]]
         # print('texts: ' + str(texts), file=sys.stderr)
         res = pipe(texts, max_length=512)
-        # print('res: ' + str(res), file=sys.stderr)
-        return str(res[0]['label']) + '\t' + str(res[0]['score'])
+        print('res: ' + str(res), file=sys.stderr)
+        if not get_arg(args, 'return_all_scores', False):
+            return str(res[0]['label']) + '\t' + str(res[0]['score'])
+        else:
+            return '\t'.join([str(r['label']) + '\t' + str(r['score']) for r in res[0]])
 
     if task == "text-generation":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         res = pipe(xfields[0], max_length=get_arg(args, 'max_length', default=30), num_return_sequences=get_arg(args, 'num_return_sequences', default=3))
         return '\t'.join([r['generated_text'] for r in res ])
 
     if task == "token-classification" or task == "ner":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         x = xfields[0]
         if isinstance(x, list):
             x = ' '.join(x)
@@ -201,16 +216,20 @@ def apply_pipeline_internal(args, xfields, pipe, task, model, tokenizer):
         return '\t'.join(['%s/%s:%0.4f' % (r['word'], r['entity'], r['score']) for r in res])
 
     if task == "MT" or task == "translation":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         res = pipe(*xfields)
         return res[0]['translation_text']
 
     if task == "translation_xx_to_yy":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         assert False, 'apply_pipeline_internal, task not supported: ' + task
 
     if task == "summarization":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         assert False, 'apply_pipeline_internal, task not supported: ' + task
 
     if task == "zero-shot-classification":
+        assert not get_arg(args, 'return_all_scores', False), '--return_all_scores is not supported in this case'
         assert False, 'apply_pipeline_internal, task not supported: ' + task
 
     assert False, 'apply_pipeline_internal, task not supported: ' + task
@@ -262,13 +281,23 @@ def gft_predict_hf_with_pipeline(args):
         pipe = None
     elif model is None:
         print('task: ' + str(task), file=sys.stderr)
-        pipe = pipeline(task)
+        if get_arg(args, 'return_all_scores', False):
+            pipe = pipeline(task, return_all_scores=True)
+        else:
+            pipe = pipeline(task)
     elif tokenizer is None:
         assert not extractor is None, 'confusion in gft_predict_hf_with_pipeline'
-        pipe = pipeline(task, model=model, feature_extractor=extractor)
+        if get_arg(args, 'return_all_scores', False):
+            pipe = pipeline(task, model=model, feature_extractor=extractor, return_all_scores=True)
+        else:
+            pipe = pipeline(task, model=model, feature_extractor=extractor)
     else:
-        pipe = pipeline(task, model=model, tokenizer=tokenizer)
-        
+        # FIX THIS !!!
+        if get_arg(args, 'return_all_scores', False):
+            pipe = pipeline(task, model=model, tokenizer=tokenizer, return_all_scores=True)
+        else:
+            pipe = pipeline(task, model=model, tokenizer=tokenizer)
+
     ds = ds_from_args(args)
     eqn = get_arg(args, 'eqn')
     line_number=0
