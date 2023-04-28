@@ -8,7 +8,7 @@ accelerate
 argparse
 datasets
 seqeval
-sklearn
+scikit-learn
 torch
 tqdm
 transformers

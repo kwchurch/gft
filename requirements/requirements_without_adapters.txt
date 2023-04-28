@@ -9,7 +9,7 @@ argparse
 datasets
 numpy==1.21
 seqeval
-sklearn
+scikit-learn
 torch
 tqdm
 tokenizers

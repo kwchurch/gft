@@ -37,7 +37,7 @@ from gft.gft_internals import parse_args, parse_eqn
 # from .gft_internals import parse_args, parse_eqn
 
 def training_function(args):
-    accelerator = Accelerator(fp16=get_arg(args, 'fp16'), cpu=get_arg(args, 'cpu', default=False))
+    accelerator = Accelerator(cpu=get_arg(args, 'cpu', default=False))
     eqn = parse_eqn.parse_eqn(get_arg(args, 'eqn'))
     output_dir = get_arg(args, 'output_dir')
 
