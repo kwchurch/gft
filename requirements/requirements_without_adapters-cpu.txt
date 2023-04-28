@@ -6,7 +6,7 @@ scipy
 wheel
 accelerate
 argparse
-datasets
+datasets==2.2.2
 numpy==1.21
 seqeval
 scikit-learn
