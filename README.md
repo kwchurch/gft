@@ -49,9 +49,9 @@ Here are some simple examples:
 emodel=H:bhadresh-savani/roberta-base-emotion
 
 # Summarize a dataset and/or model
-gft_summary --data H:emotion
+gft_summary --data H:dair-ai/emotion
 gft_summary --model $emodel
-gft_summary --data H:emotion --model $emodel
+gft_summary --data H:dair-ai/emotion --model $emodel
 
 # find some popular datasets and models that contain "emotion"
 gft_summary --data H:__contains__emotion --topn 5
@@ -69,15 +69,15 @@ echo 'I love New York.' | gft_predict --task H:token-classification
 echo 'I <mask> you.' | gft_predict --task H:fill-mask
 
 # make predictions on inputs from a split of a standard dataset
-gft_predict --eqn 'classify: label ~ text' --model $emodel --data H:emotion --split test
+gft_predict --eqn 'classify: label ~ text' --model $emodel --data H:dair-ai/emotion --split test
 
 # return a single score (as opposed to a prediction for each input)
-gft_eval --eqn 'classify: label ~ text' --model $emodel --data H:emotion --split test
+gft_eval --eqn 'classify: label ~ text' --model $emodel --data H:dair-ai/emotion --split test
 
 # Input a pre-trained model (bert) and output a post-trained model
 gft_fit --eqn 'classify: label ~ text' \
 	--model H:bert-base-cased \
-	--data H:emotion \
+	--data H:dair-ai/emotion \
 	--output_dir $outdir
 ```
 

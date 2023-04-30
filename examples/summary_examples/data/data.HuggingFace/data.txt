@@ -14,7 +14,7 @@ common_voice
 conll2003
 cosmos_qa
 daily_dialog
-emotion
+dair-ai/emotion
 glue,ax
 glue,cola
 glue,mnli

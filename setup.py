@@ -7,7 +7,10 @@ long_description = "GFT (general fine-tuning) A Little Language for Deepnets: " 
 # with open("requirements/requirements_without_adapters.txt") as fin:
 #     REQUIRED_PACKAGES = fin.read()
 
-with open("requirements/requirements_without_adapters-cpu.txt") as fin:
+# with open("requirements/requirements_without_adapters-cpu.txt") as fin:
+#     REQUIRED_PACKAGES = fin.read()
+
+with open("requirements/requirements_simple_cpu.txt") as fin:
     REQUIRED_PACKAGES = fin.read()
 
 def get_package_data_files(package, data, package_dir=None):
@@ -34,7 +37,7 @@ def get_package_data_files(package, data, package_dir=None):
 
 setuptools.setup(
     name="gft-cpu",
-    version="0.1.5",
+    version="0.1.6",
     author="GFT Authors",
     author_email="kenneth.ward.church@gmail.com",
     description=long_description,

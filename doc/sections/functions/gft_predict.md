@@ -158,7 +158,7 @@ gft_predict --eqn 'ASR:text~file' \
 gft_predict reads input from either stdin or from --data argument, as illustrated below:
 
 ```sh
-gft_predict --data H:emotion --split test \
+gft_predict --data H:dair-ai/emotion --split test \
 	    --eqn 'classify: label ~ text' \
 	    2>/dev/null | sed 3q
 # im feeling rather rotten so im not very ambitious right now	0	NEGATIVE	0.9998108744621277
@@ -170,7 +170,7 @@ Different models output different labels.
 
 ```sh
 model=H:AdapterHub/bert-base-uncased-pf-emotion
-gft_predict --data H:emotion --split test \
+gft_predict --data H:dair-ai/emotion --split test \
 	    --eqn 'classify: label ~ text' \
 	    --model $model \
 	    2>/dev/null | sed 3q

@@ -33,7 +33,7 @@ dataset: glue,qqp	labels: 0, 1
 ```sh
 # summarize a model and a dataset
 model=H:pysentimiento/robertuito-emotion-analysis
-gft_summary --data H:emotion --model $model 2>/dev/null
+gft_summary --data H:dair-ai/emotion --model $model 2>/dev/null
 ```
 <pre>
 model: pysentimiento/robertuito-emotion-analysis	labels: others, joy, sadness, anger, surprise, disgust, fear
@@ -79,7 +79,7 @@ dataset: common_voice	model: facebook/wav2vec2-large-xlsr-53-german	downloads: 4
 
 ```sh
 # find some models associated with a dataset (and sort by downloads)
-gft_summary --data H:emotion --model H:__infer__ 2>/dev/null | head
+gft_summary --data H:dair-ai/emotion --model H:__infer__ 2>/dev/null | head
 ```
 <pre>
 dataset: emotion	split: train	columns: text, label

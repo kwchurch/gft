@@ -18,7 +18,10 @@ import os
 import random
 
 import datasets,transformers
+# import evaluate   # load_metric will be replaced with evaluate.load, but evaluate seems to be a work in progress (not yet finished)
+
 from datasets import load_dataset, load_metric
+# from datasets import load_dataset
 
 # from torch.utils.data.dataloader import DataLoader
 from tqdm.auto import tqdm
@@ -73,6 +76,12 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
     dir = os.path.dirname(__file__)
     if dir == '': dir = '.'
 
+    p = os.path.join(dir, 'sklearn_metrics/mean_squared_error.py')
+    if not os.path.exists(p):
+        dir=os.environ['gft'] + '/gft/gft_internals'
+        if not os.path.exists(dir):
+            print('Warning, please check $gft environment variable', file=sys.stderr)
+
     x_field_names = eqn['x_field_names']
     y_field_names = eqn['y_field_names']
 
@@ -116,6 +125,24 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
 
     metric_provider,metric_key = parse_metric_specification(args)
 
+    # if metric_key is None:
+    #     if is_regression:
+    #         p = os.path.join(dir, 'sklearn_metrics/mean_squared_error.py')
+    #         print('evaluate.load: ' + p, file=sys.stderr)
+    #         metric = evaluate.load(p)
+    #         set_arg(args, 'better_figure_of_merit', -1) # less is more
+    #         if not get_arg(args, 'figure_of_merit', default=None): 
+    #             set_arg(args, 'figure_of_merit', 'mean_squared_error')
+    #     else:
+    #         # p = os.path.join(dir, 'sklearn_metrics/multiclass_glue.py')
+    #         # print('load_metric: ' + p + ',mrpc', file=sys.stderr)
+    #         # metric = load_metric(p,  'mrpc')
+    #         metric = evaluate.load('glue',  'mrpc', average='macro')
+    # else:
+    #     print('metric.evaluate: ' + metric_key, file=sys.stderr)
+    #     metric = metric.load(*metric_key.split(','))
+
+
     if metric_key is None:
         if is_regression:
             p = os.path.join(dir, 'sklearn_metrics/mean_squared_error.py')
@@ -131,6 +158,7 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
     else:
         print('load_metric: ' + metric_key, file=sys.stderr)
         metric = load_metric(*metric_key.split(','))
+
 
     device = accelerator.device
 
@@ -217,7 +245,8 @@ def my_eval(args, eqn, accelerator, raw_datasets, is_regression=False):
         # Otherwise, `DataCollatorWithPadding` will apply dynamic padding for us (by padding to the maximum length of
         # the samples passed). When using mixed precision, we add `pad_to_multiple_of=8` to pad all tensors to multiple
         # of 8s, which will enable the use of Tensor Cores on NVIDIA hardware with compute capability >= 7.5 (Volta).
-        data_collator = DataCollatorWithPadding(tokenizer, pad_to_multiple_of=(8 if accelerator.use_fp16 else None))
+        # data_collator = DataCollatorWithPadding(tokenizer, pad_to_multiple_of=(8 if accelerator.use_fp16 else None))
+        data_collator = DataCollatorWithPadding(tokenizer, pad_to_multiple_of=None)
 
     bs = get_arg(args, 'per_device_train_batch_size', default=MAX_GPU_BATCH_SIZE)
     ebs = get_arg(args, 'per_device_eval_batch_size', default=EVAL_BATCH_SIZE)

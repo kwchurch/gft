@@ -63,7 +63,7 @@ The equation specifies the task and column(s).
 
 ```sh
 emodel=H:bhadresh-savani/roberta-base-emotion
-gft_predict --eqn 'classify: label ~ text' --model $emodel --data H:emotion --split test 2>/dev/null | head
+gft_predict --eqn 'classify: label ~ text' --model $emodel --data H:dair-ai/emotion --split test 2>/dev/null | head
 ```
 
 <h3>Evaluation: gft_eval</h3>
@@ -72,7 +72,7 @@ gft_predict outputs a prediction for each input.  gft_eval reduces these predict
 
 ```sh
 emodel=H:bhadresh-savani/roberta-base-emotion
-gft_eval --eqn 'classify: label ~ text' --model $emodel --data H:emotion --split test 2>/dev/null 
+gft_eval --eqn 'classify: label ~ text' --model $emodel --data H:dair-ai/emotion --split test 2>/dev/null 
 ```
 
 <h3>Fine-Tuning: gft_fit</h3>
@@ -82,7 +82,7 @@ The following assumes that output_dir points to a place with plenty of disk spac
 
 ```sh
 model=H:best-base-cased
-gft_fit --eqn 'classify: label ~ text' --model $model --data H:emotion --output_dir $outdir
+gft_fit --eqn 'classify: label ~ text' --model $model --data H:dair-ai/emotion --output_dir $outdir
 ```
 
 The following example is similar but uses a model and a dataset from PaddleNLP (as opposed to HuggingFace).

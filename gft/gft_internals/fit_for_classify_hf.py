@@ -73,6 +73,12 @@ def fit(args, eqn, accelerator, raw_datasets, is_regression=False):
     dir = os.path.dirname(__file__)
     if dir == '': dir = ''
 
+    p = os.path.join(dir, 'sklearn_metrics/mean_squared_error.py')
+    if not os.path.exists(p):
+        dir=os.environ['gft'] + '/gft/gft_internals'
+        if not os.path.exists(dir):
+            print('Warning, please check $gft environment variable', file=sys.stderr)
+
     x_field_names = eqn['x_field_names']
     y_field_names = eqn['y_field_names']
 

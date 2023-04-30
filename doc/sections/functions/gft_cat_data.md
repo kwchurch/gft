@@ -5,7 +5,7 @@ will output the columns mentioned in the equation.  Otherwise, all columns will 
 by the following two examples:
 
 ```sh
-gft_cat_data --data H:emotion 2>/dev/null | sed 3q
+gft_cat_data --data H:dair-ai/emotion 2>/dev/null | sed 3q
 ```
 <pre>
 text|im feeling rather rotten so im not very ambitious right now	label|0
@@ -14,7 +14,7 @@ text|i never make her separate from me because i don t ever want her to feel lik
 </pre>
 
 ```sh
-gft_cat_data --data H:emotion --eqn 'classify:label~text' 2>/dev/null | sed 3q
+gft_cat_data --data H:dair-ai/emotion --eqn 'classify:label~text' 2>/dev/null | sed 3q
 ```
 <pre>
 im feeling rather rotten so im not very ambitious right now	0
