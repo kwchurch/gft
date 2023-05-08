@@ -1,4 +1,5 @@
 wheel
+multiprocess
 matplotlib
 requests
 scipy
