@@ -23,7 +23,7 @@ spacy
 ftfy
 yacs
 importlib_metadata
-apache_beam
-timm
+# apache_beam
+# timm
 huggingface_hub
 sentence-transformers
